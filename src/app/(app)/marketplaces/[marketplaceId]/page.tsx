@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { PresenceForm, TrackingForm } from '@/components/marketplace/forms';
+import { QualitySignals } from '@/components/marketplace/quality-signals';
 import { PageBoundary } from '@/components/ui/page-boundary';
 import { Badge, Card, CardHeader, EmptyState, formatDate, Notice, PageHeader, SourceLink } from '@/components/ui/primitives';
 import { Provenance } from '@/components/ui/provenance';
@@ -239,27 +240,8 @@ async function Marketplace({ params }: { params: Promise<{ marketplaceId: string
                   </Link>
                 }
               />
-              <div className="px-5 py-4">
-                <p className="label mb-2">Official quality scores this retailer exposes</p>
-                {requirementSet.signals.length === 0 ? (
-                  <p className="flex items-center gap-2 text-[13.5px] text-ink-muted">
-                    <Provenance kind="missing" compact /> No official listing-quality score was found in public documentation. None will ever be shown for this retailer unless one is obtained through an authorised route.
-                  </p>
-                ) : (
-                  <ul className="space-y-3">
-                    {requirementSet.signals.map((signal) => (
-                      <li key={signal.id} className="border-l-2 border-line pl-3">
-                        <p className="text-[14px] font-medium text-ink">{signal.officialName}</p>
-                        <p className="mt-0.5 text-[13px] text-ink-soft">{signal.whatItMeasures}</p>
-                        <p className="label mt-1 !text-[9.5px]">
-                          Access: {(signal.accessMethod ?? 'unknown').replace(/_/g, ' ')}
-                          {signal.whoCanAccess ? ` · ${signal.whoCanAccess}` : ''}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
+              <p className="label px-5 pt-4">Official quality scores this retailer exposes</p>
+              <QualitySignals signals={requirementSet.signals} compact />
             </Card>
           ) : null}
 

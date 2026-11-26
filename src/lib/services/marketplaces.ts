@@ -322,7 +322,8 @@ export async function listRequirementSets(ctx: RequestContext) {
       ruleCount: sql<number>`(select count(*)::int from requirement_rules r where r.set_id = "requirement_sets"."id")`,
       officialRuleCount: sql<number>`(select count(*)::int from requirement_rules r where r.set_id = "requirement_sets"."id" and r.verification = 'official_document')`,
       mandatoryRuleCount: sql<number>`(select count(*)::int from requirement_rules r where r.set_id = "requirement_sets"."id" and r.severity = 'mandatory')`,
-      signalCount: sql<number>`(select count(*)::int from marketplace_quality_signals q where q.set_id = "requirement_sets"."id")`,
+      // Only signals a seller can actually reach count; entries recording "none found" have access_method = 'none'.
+      signalCount: sql<number>`(select count(*)::int from marketplace_quality_signals q where q.set_id = "requirement_sets"."id" and coalesce(q.access_method, 'none') <> 'none')`,
     })
     .from(schema.requirementSets)
     .where(eq(schema.requirementSets.status, 'current'))

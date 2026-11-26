@@ -1,0 +1,40 @@
+{
+  "marketplace": "Superdrug",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "GB"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "none",
+  "how_brands_deliver_content": "Not publicly verifiable in this session: every superdrug.com page tried (including /marketplace and seller pages) refused automated access on 2026-11-26 (HTTP 403 \"Access Denied\"). Unverified background (not retrieved today): Superdrug is understood to operate both a first-party supplier model and a curated third-party marketplace; the onboarding route and content template for either could not be read.",
+  "languages": [
+    {
+      "country_code": "GB",
+      "languages": [],
+      "note": "Not publicly documented (pages not retrievable).",
+      "source_url": ""
+    }
+  ],
+  "rules": [],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented.",
+    "modules_note": "",
+    "source_url": ""
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "No Superdrug requirement could be verified; the rules array is empty. The official site blocks automated access and no reachable secondary source quoting Superdrug's content rules was identified. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

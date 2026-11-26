@@ -1,0 +1,83 @@
+{
+  "marketplace": "Boots",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "GB"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "minimal",
+  "how_brands_deliver_content": "First-party supplier model. Boots states that new \"goods for resale\" products are submitted through RangeMe, a third-party product-discovery platform used by Boots UK buyers. Existing suppliers work through the Boots supplier website (suppliers.boots-uk.com), which holds the Supplier Manual pages behind a login issued by the supplier's Boots contact. Product-content specifications (titles, images, copy, enhanced content) are not public, and no content-syndication partner could be confirmed from a page retrieved today. boots.com itself refused automated access on 2026-11-26, so any marketplace or seller pages there could not be checked.",
+  "languages": [
+    {
+      "country_code": "GB",
+      "languages": [
+        "en"
+      ],
+      "note": "Not stated in the pages retrieved; the supplier pages and site are in English.",
+      "source_url": "https://www.boots-uk.com/suppliers/goods-for-resale/"
+    }
+  ],
+  "rules": [
+    {
+      "id": "approval.new_product_submission",
+      "area": "approval",
+      "requirement": "New product submissions for Boots (goods for resale) are made through RangeMe; Boots states it is under no obligation to review a submission.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "first_party_vendor",
+      "effective_date": null,
+      "source_url": "https://www.boots-uk.com/suppliers/goods-for-resale/",
+      "source_title": "Goods for resale - How to become a Goods for Resale supplier to Boots",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.supplier_manual_gated",
+      "area": "approval",
+      "requirement": "Working requirements for existing suppliers are set out in Supplier Manual pages on the Boots supplier website, accessible only with a login provided by the supplier's Boots contact.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "first_party_vendor",
+      "effective_date": null,
+      "source_url": "https://suppliers.boots-uk.com/",
+      "source_title": "Suppliers (existing supplier portal with Supplier Manual pages; login required)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Content and image specifications are presumably inside this gated manual; this could not be confirmed."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented.",
+    "modules_note": "",
+    "source_url": "https://www.boots-uk.com/suppliers/goods-for-resale/"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "https://www.boots-uk.com/suppliers/goods-for-resale/",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "Only the supplier-onboarding route could be verified. Boots' content standards (title structure, image specifications, ingredient and claims rules, enhanced content, any content-partner requirement) sit behind the supplier portal login or on boots.com pages that refused automated access. Whether Boots runs a third-party marketplace on boots.com could not be verified today. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

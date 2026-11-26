@@ -1,0 +1,40 @@
+{
+  "marketplace": "Nykaa",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "IN"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "none",
+  "how_brands_deliver_content": "Not publicly documented and not verifiable in this session. Every Nykaa page tried - including the public \"sell on Nykaa\" landing page and seller.nykaa.com - refused automated access on 2026-11-26 (HTTP 403/503), so the onboarding route, the content template and any supplier portal could not be read. Unverified background (not retrieved today): Nykaa is understood to list beauty brands through brand/distributor onboarding handled by its category and catalogue teams rather than through an open self-service marketplace; treat this as a hypothesis to confirm with Nykaa or the brand's distributor.",
+  "languages": [
+    {
+      "country_code": "IN",
+      "languages": [],
+      "note": "Not publicly documented (pages not retrievable).",
+      "source_url": ""
+    }
+  ],
+  "rules": [],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented.",
+    "modules_note": "",
+    "source_url": ""
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "No Nykaa requirement could be verified: all official pages refused automated access and no reachable secondary source that quotes Nykaa's rules was identified. The rules array is therefore empty. Indian regulatory expectations for cosmetics (e.g. CDSCO import registration, BIS standards) are legal requirements, but no source retrieved today shows which of them Nykaa requires as listing data. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

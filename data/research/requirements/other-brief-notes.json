@@ -1,0 +1,359 @@
+{
+  "marketplace": "Other marketplaces - brief notes (Amazon.co.za, Makro Marketplace, Konga, Kilimall)",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "ZA",
+    "NG",
+    "KE"
+  ],
+  "category_scope": "Brief notes only - general listing rules as published; beauty-specific rules were not researched for these marketplaces",
+  "public_documentation_level": "partial",
+  "how_brands_deliver_content": "Amazon.co.za: self-service Seller Central (South Africa) with public help pages; standard Amazon listing tools. Makro Marketplace (Massmart, South Africa): self-service seller portal at seller.makro.co.za - register, complete the profile, then list by \"latching\" onto an existing product or creating a single listing; the portal is served from Flipkart-hosted assets, and its listing rules are behind the login. Konga (Nigeria): self-service Seller HQ (shq.konga.com) with a public Seller Handbook. Kilimall (Kenya): seller centre at seller.kilimall.ke requires login; no public listing guidance was found.",
+  "languages": [
+    {
+      "country_code": "ZA",
+      "languages": [
+        "en"
+      ],
+      "note": "Amazon.co.za help pages and the Makro seller portal are in English; no language rule was retrieved.",
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640"
+    },
+    {
+      "country_code": "NG",
+      "languages": [
+        "en"
+      ],
+      "note": "Konga's handbook is in English; no language rule is stated.",
+      "source_url": "https://www-konga-com-res.cloudinary.com/image/upload/v1707226589/sellerhq/docs/Updated_Seller_Handbook_2024.pdf"
+    },
+    {
+      "country_code": "KE",
+      "languages": [],
+      "note": "Kilimall: not publicly documented.",
+      "source_url": "https://seller.kilimall.ke/login"
+    }
+  ],
+  "rules": [
+    {
+      "id": "amazon_za.title.max_length",
+      "area": "title",
+      "requirement": "Amazon.co.za: product titles must not have more than 75 characters, including spaces, for all product types except media.",
+      "rule_type": "max_length",
+      "value": 75,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "source_title": "Product detail page rules (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.bullets.item_highlights_max_length",
+      "area": "bullets",
+      "requirement": "Amazon.co.za: \"item highlights\" are used for additional descriptive features and have a limit of 125 characters, including spaces.",
+      "rule_type": "max_length",
+      "value": 125,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "source_title": "Product detail page rules (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. Bullet-point count and length rules are on a separate help page that was not retrieved."
+    },
+    {
+      "id": "amazon_za.title.capitalisation",
+      "area": "title",
+      "requirement": "Amazon.co.za: capitalise only the first letter of each word; no all-capitals; no emojis, emoticons or symbols at the beginning of words (titles, bullet points and descriptions).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "source_title": "Product detail page rules (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.description.no_html",
+      "area": "description",
+      "requirement": "Amazon.co.za: no HTML, JavaScript or other code in product detail pages; line breaks (</br>) are allowed in the description.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "source_title": "Product detail page rules (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.restricted_claims.prohibited_content",
+      "area": "restricted_claims",
+      "requirement": "Amazon.co.za: titles, descriptions, bullet points and images may not contain obscene or offensive content, phone numbers, addresses, email addresses or URLs, availability/price/condition details, links to other sites, reviews or testimonials, requests for reviews, adverts, promotional material or watermarks, or time-sensitive information.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "source_title": "Product detail page rules (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.identifiers.gtin_authorised",
+      "area": "identifiers",
+      "requirement": "Amazon.co.za: only GTINs that the seller owns or is authorised to use may be listed; GTINs must be purchased directly from GS1 or used with the prefix owner's authorisation - unauthorised GTINs are blocked.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "source_title": "Product detail page rules (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.images.min_longest_side_px",
+      "area": "images_main",
+      "requirement": "Amazon.co.za: images must be at least 500 pixels and at most 10,000 pixels on the longest side; 1,000+ pixels is recommended to enable zoom.",
+      "rule_type": "min_dimension",
+      "value": 500,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G1881",
+      "source_title": "Product image guide (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. Scope: all images. Formats JPEG (recommended), TIFF, PNG, non-animated GIF; at least 72 dpi."
+    },
+    {
+      "id": "amazon_za.images_main.background",
+      "area": "images_main",
+      "requirement": "Amazon.co.za: the main image must have a pure white background (RGB 255, 255, 255), show the product as 85% of the image and in full, show it only once, and exclude packaging (unless an important feature), props and mannequins.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G1881",
+      "source_title": "Product image guide (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.images.count",
+      "area": "images_secondary",
+      "requirement": "Amazon.co.za: at least one compliant main image is required; at least six additional images and one video are recommended.",
+      "rule_type": "min_count",
+      "value": 1,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G1881",
+      "source_title": "Product image guide (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "amazon_za.images.no_text_badges",
+      "area": "images_secondary",
+      "requirement": "Amazon.co.za: no image may show customer reviews, five-star imagery, claims (e.g. free shipping), seller-specific information, text or pricing details (swatch image only), Amazon logos or Amazon-style badges.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G1881",
+      "source_title": "Product image guide (applies to selling in: South Africa)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Amazon.co.za. "
+    },
+    {
+      "id": "konga.images.min_dimension_px",
+      "area": "images_main",
+      "requirement": "Konga: images should be of highest quality at 500 x 500 pixels or more, always with a white or clear background.",
+      "rule_type": "min_dimension",
+      "value": 500,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www-konga-com-res.cloudinary.com/image/upload/v1707226589/sellerhq/docs/Updated_Seller_Handbook_2024.pdf",
+      "source_title": "Konga Seller Handbook (updated 2024)",
+      "source_date": "2024-02-06 (PDF creation date)",
+      "verification": "official_document",
+      "notes": "Konga. "
+    },
+    {
+      "id": "konga.title.content",
+      "area": "title",
+      "requirement": "Konga: an effective title uses descriptive keywords, includes the brand name and specifics such as size, colour or model number, and avoids profane or obscene language.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www-konga-com-res.cloudinary.com/image/upload/v1707226589/sellerhq/docs/Updated_Seller_Handbook_2024.pdf",
+      "source_title": "Konga Seller Handbook (updated 2024)",
+      "source_date": "2024-02-06 (PDF creation date)",
+      "verification": "official_document",
+      "notes": "Konga. "
+    },
+    {
+      "id": "konga.description.min_words",
+      "area": "description",
+      "requirement": "Konga: describe the item in at least 200 words, in your own unique wording rather than the manufacturer's description, with bold headers at font size 12 or 14 at most and unique identifiers (brand, manufacturer, ISBN, etc.).",
+      "rule_type": "min_length",
+      "value": 200,
+      "unit": "words",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www-konga-com-res.cloudinary.com/image/upload/v1707226589/sellerhq/docs/Updated_Seller_Handbook_2024.pdf",
+      "source_title": "Konga Seller Handbook (updated 2024)",
+      "source_date": "2024-02-06 (PDF creation date)",
+      "verification": "official_document",
+      "notes": "Konga. "
+    },
+    {
+      "id": "konga.approval.statuses",
+      "area": "approval",
+      "requirement": "Konga: product statuses in Seller HQ are live on site, under review, rejected, paused and sold out; more than two cases of inaccurate listing in a month lead to store suspension until listing training is attended.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www-konga-com-res.cloudinary.com/image/upload/v1707226589/sellerhq/docs/Updated_Seller_Handbook_2024.pdf",
+      "source_title": "Konga Seller Handbook (updated 2024)",
+      "source_date": "2024-02-06 (PDF creation date)",
+      "verification": "official_document",
+      "notes": "Konga. "
+    },
+    {
+      "id": "makro.approval.listing_route",
+      "area": "approval",
+      "requirement": "Makro Marketplace: sellers register, complete their profile, then list by latching onto an existing product or creating a single listing, and activate products to start selling.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://seller.makro.co.za/",
+      "source_title": "Makro Marketplace - seller portal landing page",
+      "source_date": "n.d. (copyright 2024)",
+      "verification": "official_document",
+      "notes": "Makro Marketplace. No content specifications are published on the public landing page."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not researched in depth for these marketplaces. Amazon's A+ Content for South Africa was not retrieved; Makro, Konga and Kilimall publish nothing on enhanced content.",
+    "modules_note": "",
+    "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "https://sellercentral.amazon.co.za/help/hub/reference/external/G200390640",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved. Amazon Seller Central tools such as listing-quality dashboards were not researched for South Africa; Makro, Konga and Kilimall publish no score."
+    }
+  ],
+  "limitations": "Brief notes only, as requested. Amazon.co.za: two help pages were read (detail page rules, image guide); bullet-point, A+ content, video and category style-guide pages were not. The 75-character title rule is quoted from the South African help page as rendered on 2026-11-26. Makro Marketplace: only the public landing page is available; listing rules are behind the seller login. Konga: rules come from the 2024 Seller Handbook and are worded as advice. Kilimall: no public seller documentation was found. NAFDAC or KEBS listing requirements for Konga and Kilimall were not found. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

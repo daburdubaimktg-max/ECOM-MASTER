@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { QualitySignals } from '@/components/marketplace/quality-signals';
 import { PageBoundary } from '@/components/ui/page-boundary';
 import { Badge, Card, CardHeader, EmptyState, formatDate, Notice, PageHeader, SourceLink } from '@/components/ui/primitives';
-import { Provenance } from '@/components/ui/provenance';
 import { requireContext } from '@/lib/auth/server';
 import { label, REQUIREMENT_AREA_LABELS, VERIFICATION_LABELS } from '@/lib/labels';
 import { loadOrNotFound } from '@/lib/page-helpers';
@@ -100,35 +100,7 @@ async function Library({ params }: { params: Promise<{ familyKey: string }> }) {
         <div className="space-y-6">
           <Card>
             <CardHeader title="Official quality scores" description="Scores the retailer itself publishes. The engine never invents one." />
-            {signals.length === 0 ? (
-              <p className="flex gap-2 px-5 py-4 text-[13.5px] text-ink-muted">
-                <span className="mt-0.5">
-                  <Provenance kind="missing" compact />
-                </span>
-                No official listing-quality score was found in public documentation.
-              </p>
-            ) : (
-              <ul className="divide-y divide-line">
-                {signals.map((signal) => (
-                  <li key={signal.id} className="px-5 py-4">
-                    <p className="text-[14px] font-medium text-ink">{signal.officialName}</p>
-                    {signal.whatItMeasures ? <p className="mt-1 text-[13px] text-ink-soft">{signal.whatItMeasures}</p> : null}
-                    {signal.components ? <p className="mt-1 text-[12.5px] text-ink-muted">Components: {signal.components}</p> : null}
-                    <p className="mt-2 flex flex-wrap items-center gap-1.5">
-                      <Badge tone={signal.accessMethod === 'api' ? 'verified' : signal.accessMethod === 'none' ? 'missing' : 'estimated'}>
-                        Access: {(signal.accessMethod ?? 'unknown').replace(/_/g, ' ')}
-                      </Badge>
-                    </p>
-                    {signal.whoCanAccess ? <p className="mt-1 text-[12.5px] text-ink-muted">{signal.whoCanAccess}</p> : null}
-                    {signal.notes ? <p className="mt-1 text-[12.5px] text-ink-muted">{signal.notes}</p> : null}
-                    <p className="mt-1.5 flex flex-wrap gap-3 text-[12.5px]">
-                      {signal.sourceUrl ? <SourceLink href={signal.sourceUrl}>Source</SourceLink> : null}
-                      {signal.apiReferenceUrl ? <SourceLink href={signal.apiReferenceUrl}>API reference</SourceLink> : null}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            )}
+            <QualitySignals signals={signals} />
           </Card>
 
           <Card>

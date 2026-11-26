@@ -109,7 +109,7 @@ export function familyKeyFor(name: string, countryCode: string): string | null {
  * carry real information ("TikTok Shop (UK)", "Noon (incl. Noon Minutes)") are kept.
  */
 export function displayPlatformName(name: string): string {
-  return name.trim().replace(/\s*\((?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+\)\s*$/i, '').trim() || name.trim();
+  return name.trim().replace(/\s*\((?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+(?:,[^)]*)?\)\s*$/i, '').trim() || name.trim();
 }
 
 function sha256File(file: string): string {

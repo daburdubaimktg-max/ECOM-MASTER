@@ -1,0 +1,63 @@
+{
+  "marketplace": "Dis-Chem",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "ZA"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "minimal",
+  "how_brands_deliver_content": "First-party supplier model. Dis-Chem's group site runs a \"Supplier Information Portal\" page asking prospective suppliers to email the marketing team with company and product details for evaluation by its buyers. No self-service listing tool, content template or content-partner route is published; listing content for dischem.co.za is presumably agreed with the buying/e-commerce team after acceptance (not confirmed). The customer site dischem.co.za refused automated access on 2026-11-26.",
+  "languages": [
+    {
+      "country_code": "ZA",
+      "languages": [
+        "en"
+      ],
+      "note": "Not stated as a rule; the supplier page is in English.",
+      "source_url": "https://dischemgroup.com/suppliers/"
+    }
+  ],
+  "rules": [
+    {
+      "id": "approval.supplier_enquiry",
+      "area": "approval",
+      "requirement": "Prospective suppliers submit an enquiry by email with company name and description, contact details, product name and function, proposal, similar products on the market and any other relevant files.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "first_party_vendor",
+      "effective_date": null,
+      "source_url": "https://dischemgroup.com/suppliers/",
+      "source_title": "Suppliers - Dis-Chem group (Supplier Information Portal)",
+      "source_date": "2022-11-17 (modified 2024-07-05)",
+      "verification": "official_document",
+      "notes": ""
+    }
+  ],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented.",
+    "modules_note": "",
+    "source_url": "https://dischemgroup.com/suppliers/"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "https://dischemgroup.com/suppliers/",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "Only the supplier-enquiry route is public. No content specification, regulatory data requirement or quality score for Dis-Chem listings was found. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

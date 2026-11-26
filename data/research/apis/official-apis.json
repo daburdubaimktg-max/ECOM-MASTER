@@ -1201,7 +1201,12 @@
           "accessed_date": "2026-11-26"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "editor_correction": {
+        "date": "2026-11-26",
+        "note": "Superseded: noon's partner API documentation is public at https://noon-docs.noonpartners.dev (Content, Pricing, Offer and Stock APIs; OAuth). The Content API reports completeness per language, QC status with rejection reasons and per-image review status for the seller's own listings. Confirmed by opening the Content API overview page directly. No competitor data is offered.",
+        "docs_url": "https://noon-docs.noonpartners.dev/docs/content/content-api"
+      }
     },
     {
       "name": "Google Merchant API (Merchant Center)",
@@ -1730,7 +1735,11 @@
           "accessed_date": "2026-11-26"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "editor_correction": {
+        "date": "2026-11-26",
+        "note": "Appendix C2 cites a Vendor Center API definition at https://vendorcenter.jumia.com/api-docs/ (product feeds, QC status). The editor could not render the page to confirm; treat as reported, not re-verified."
+      }
     },
     {
       "name": "Flipkart Marketplace Seller API (v3.0)",

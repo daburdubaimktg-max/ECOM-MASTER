@@ -6,7 +6,7 @@
   ],
   "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
   "public_documentation_level": "partial",
-  "how_brands_deliver_content": "Self-service: Lazada Seller Center (Products > Manage Products > Add Products for single upload, Bulk Manage > Bulk Add with a category Excel template), the Lazada seller app, or the Lazada Open Platform API (CreateProduct / UpdateProduct, with images and videos first uploaded to Lazada). Product descriptions are decorated with the built-in Lorikeet tool. A semi-automated Quality Check runs at creation and again after go-live; rejected or flagged products appear under the Violation / QC Alert tabs. Health-category listings require seller whitelisting. Brands normally sell through their own or a distributor's Marketplace or LazMall store; no content-syndication partner route is publicly documented.",
+  "how_brands_deliver_content": "Self-service: Lazada Seller Center (Products > Manage Products > Add Products for single upload, Bulk Manage > Bulk Add with a category Excel template), the Lazada seller app, or the Lazada Open Platform API (CreateProduct / UpdateProduct, with images and videos first uploaded to Lazada). Product descriptions are decorated with the built-in Lorikeet tool. A semi-automated Quality Check runs at creation and again after go-live; rejected or flagged products appear under the Violation / QC Alert tabs. Health-category listings require seller whitelisting. A brand lists through a Marketplace or LazMall store that it or its distributor operates; no content-syndication partner route is publicly documented.",
   "languages": [
     {
       "country_code": "MY",
@@ -437,7 +437,7 @@
       "source_title": "What are the best practices for product content?",
       "source_date": "2024-11-26",
       "verification": "official_document",
-      "notes": ""
+      "notes": "From a best-practice help article of unclear age; mandatory attributes are ultimately defined per category in Seller Center."
     },
     {
       "id": "attributes.product_license_number",
@@ -753,9 +753,9 @@
       "applies_to_category": "all",
       "seller_type": "all",
       "effective_date": null,
-      "source_url": "https://university.lazada.com.my/course/learn?id=14732&type=article",
-      "source_title": "Content Score Guideline (Lazada University lesson; also \"Product Image & Quality Guideline\" id=1730 and \"Product Title Quality Guideline\" id=1726)",
-      "source_date": "2026-09-03 (listing date)",
+      "source_url": "https://university.lazada.com.my/course/search?orderByField=most_viewed&q=content%20score&tabType=all",
+      "source_title": "Lazada University course catalogue (listing of the lessons \"Content Score Guideline\", \"Product Image & Quality Guideline\" and \"Product Title Quality Guideline\")",
+      "source_date": "2026-09-03 (lesson listing date)",
       "verification": "unverified",
       "notes": ""
     },

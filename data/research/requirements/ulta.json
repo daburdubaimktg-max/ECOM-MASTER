@@ -1,0 +1,123 @@
+{
+  "marketplace": "Ulta Beauty",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "US"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "minimal",
+  "how_brands_deliver_content": "Two routes. (1) Ulta Beauty Marketplace (third-party, curated): a brand applies; after approval and signing the Marketplace agreement it uploads products, prices and images with the help of Ulta's onboarding team, and Ulta reviews items before they go live on Ulta.com; the brand ships orders itself from US warehouses. (2) First-party brands: the vendor route and content template are not public (the Ulta supplier page returned an error page). Syndigo offers enhanced content for Ulta product pages (\"Engaging Hero\" and \"In-Line\" content) to its brand customers.",
+  "languages": [
+    {
+      "country_code": "US",
+      "languages": [
+        "en"
+      ],
+      "note": "Not stated in the pages retrieved.",
+      "source_url": "https://www.ulta.com/company/marketplace"
+    }
+  ],
+  "rules": [
+    {
+      "id": "identifiers.upc_required",
+      "area": "identifiers",
+      "requirement": "All Ulta Beauty Marketplace items, including bundles, must have a UPC.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www.ulta.com/company/marketplace",
+      "source_title": "Ulta Beauty Marketplace",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.curated_and_reviewed",
+      "area": "approval",
+      "requirement": "Ulta Beauty Marketplace is not open to everyone: brands are selected, the proposed assortment is reviewed with the Marketplace team against Ulta Beauty product standards, and Ulta reviews items before they go live on Ulta.com.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www.ulta.com/company/marketplace",
+      "source_title": "Ulta Beauty Marketplace",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.us_only",
+      "area": "approval",
+      "requirement": "Marketplace sellers must be US-registered businesses fulfilling from US-based warehouses and shipping within 2 business days.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www.ulta.com/company/marketplace",
+      "source_title": "Ulta Beauty Marketplace",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.bundles_need_upc",
+      "area": "variants",
+      "requirement": "Bundles sold on Ulta Beauty Marketplace need their own UPC.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://www.ulta.com/company/marketplace",
+      "source_title": "Ulta Beauty Marketplace",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    }
+  ],
+  "enhanced_content": {
+    "supported": "yes",
+    "official_name": "Enhanced Content & Rich Media (via Syndigo: \"Engaging Hero\" and \"In-Line\" content)",
+    "eligibility": "Not stated by Ulta publicly; offered to brands through Syndigo.",
+    "modules_note": "Syndigo lists 360-degree videos, comparison charts, lifestyle images and interactive content for Ulta product pages. Ulta's own module specifications are not public.",
+    "source_url": "https://syndigo.com/ulta/"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "https://www.ulta.com/company/marketplace",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "Ulta publishes eligibility and logistics requirements for its Marketplace but no content specification (titles, images, ingredient or claims rules); those are handled with its onboarding team. The first-party vendor content route could not be verified. Enhanced content is attested by a content-partner page only. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

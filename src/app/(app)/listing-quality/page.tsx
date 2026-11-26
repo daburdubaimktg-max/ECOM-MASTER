@@ -60,7 +60,7 @@ async function Content() {
             index="B"
             title="Official quality scores that really exist"
             description="From the requirements research: what each retailer itself publishes about listing quality, and how it can be reached."
-            action={<Provenance kind="verified" title="Taken from each retailer's own documentation; see the source links." />}
+            action={<Provenance kind="verified" title="Taken from each retailer's own documentation unless marked otherwise; see the source links." />}
           />
           {signals.length ? (
             <ul className="divide-y divide-line">
@@ -73,7 +73,10 @@ async function Content() {
                       </Link>{' '}
                       — {signal.officialName}
                     </p>
-                    <Badge tone={signal.accessMethod === 'api' ? 'verified' : signal.accessMethod === 'none' ? 'missing' : 'estimated'}>{(signal.accessMethod ?? 'unknown').replace(/_/g, ' ')}</Badge>
+                    <span className="flex shrink-0 gap-1.5">
+                      <Badge tone={signal.accessMethod === 'api' ? 'verified' : 'estimated'}>{(signal.accessMethod ?? 'unknown').replace(/_/g, ' ')}</Badge>
+                      {signal.verification !== 'official_document' ? <Badge tone="missing">{signal.verification === 'secondary_quote' ? 'Reported by a partner' : 'Unverified'}</Badge> : null}
+                    </span>
                   </div>
                   <p className="mt-0.5 text-[12.5px] text-ink-muted">
                     {signal.whoCanAccess}

@@ -39,7 +39,7 @@ export async function listOfficialQualitySignals(ctx: RequestContext) {
     })
     .from(schema.marketplaceQualitySignals)
     .innerJoin(schema.requirementSets, eq(schema.requirementSets.id, schema.marketplaceQualitySignals.setId))
-    .where(eq(schema.requirementSets.status, 'current'))
+    .where(and(eq(schema.requirementSets.status, 'current'), sql`coalesce(${schema.marketplaceQualitySignals.accessMethod}, 'none') <> 'none'`))
     .orderBy(asc(schema.requirementSets.marketplaceName));
 }
 
