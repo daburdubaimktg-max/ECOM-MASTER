@@ -341,6 +341,66 @@ test('requests from another website are refused, and files need a signed-in user
   await anonymous.close();
 });
 
+test('a forgotten password is recovered with a one-time link from an Administrator', async ({ browser }) => {
+  await page.goto('/settings/team');
+  const member = page.locator('li', { hasText: 'vera@example.test' });
+  await member.locator('summary').click();
+  await member.getByRole('button', { name: 'Create password-reset link' }).click();
+  const resetLink = await member.getByTestId('reset-link').inputValue();
+  expect(resetLink).toMatch(/\/reset\/[\w-]{20,}$/);
+
+  const context = await browser.newContext();
+  const visitor = await context.newPage();
+  const submit = (name: string) => visitor.locator('main').getByRole('button', { name });
+  await visitor.goto(resetLink);
+  await expect(visitor.getByRole('heading', { name: 'Set a new password' })).toBeVisible();
+  await expect(visitor.getByText('Vera Viewer')).toBeVisible();
+  await visitor.fill('input[name=password]', 'a recovered passphrase');
+  await visitor.fill('input[name=confirmPassword]', 'a different passphrase');
+  await submit('Set new password').click();
+  await expect(visitor.getByText('The two passwords do not match.').first()).toBeVisible();
+  await visitor.fill('input[name=confirmPassword]', 'a recovered passphrase');
+  await submit('Set new password').click();
+  await expect(visitor).toHaveURL(/\/sign-in\?reset=done$/);
+  await expect(visitor.getByText('Your password has been changed.')).toBeVisible();
+
+  // The old password no longer works; the new one does.
+  await visitor.fill('input[name=email]', 'vera@example.test');
+  await visitor.fill('input[name=password]', 'another long passphrase');
+  await submit('Sign in').click();
+  await expect(visitor.getByText('The email or password is not correct.')).toBeVisible();
+  await visitor.fill('input[name=password]', 'a recovered passphrase');
+  await submit('Sign in').click();
+  await expect(visitor).toHaveURL(/\/overview$/);
+
+  // The link works once only.
+  const again = await browser.newPage();
+  await again.goto(resetLink);
+  await expect(again.getByRole('heading', { name: 'This link is not valid' })).toBeVisible();
+  await again.close();
+
+  // Signed in, the person changes their own password; the current one must be given.
+  await visitor.goto('/settings/account');
+  await expect(visitor.getByRole('heading', { name: 'Change your password' })).toBeVisible();
+  await visitor.fill('input[name=currentPassword]', 'not the current one');
+  await visitor.fill('input[name=newPassword]', 'my own chosen passphrase');
+  await visitor.fill('input[name=confirmPassword]', 'my own chosen passphrase');
+  await submit('Change password').click();
+  await expect(visitor.getByText('The current password is not correct.')).toBeVisible();
+  await visitor.fill('input[name=currentPassword]', 'a recovered passphrase');
+  await submit('Change password').click();
+  await expect(visitor.getByText('Password changed.', { exact: false })).toBeVisible();
+  await visitor.goto('/overview'); // still signed in on this device
+  await expect(visitor).toHaveURL(/\/overview$/);
+  await context.close();
+
+  // Both steps are in the audit log.
+  await page.goto('/settings/audit-log');
+  await expect(page.getByText('Created a password-reset link for Vera Viewer').first()).toBeVisible();
+  await expect(page.getByText('Vera Viewer set a new password using a reset link').first()).toBeVisible();
+  await expect(page.getByText('Vera Viewer changed their password').first()).toBeVisible();
+});
+
 test('signing out ends the session', async () => {
   await page.goto('/overview');
   await page.getByRole('button', { name: 'Sign out' }).click();

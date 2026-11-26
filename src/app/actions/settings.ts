@@ -1,24 +1,21 @@
 'use server';
 
 import { refresh } from 'next/cache';
-import { headers } from 'next/headers';
 import { requireContext } from '@/lib/auth/server';
 import { createInvitation, revokeInvitation, setMemberStatus, updateMember, updateOrganisationSettings } from '@/lib/services/team';
-import { actionError, str, strList } from './_helpers';
+import { actionError, publicBaseUrl, str, strList } from './_helpers';
 import type { ActionState } from './_helpers';
 
 export async function inviteMemberAction(_prev: ActionState, formData: FormData): Promise<ActionState> {
   const ctx = await requireContext();
   try {
     const invitation = await createInvitation(ctx, { email: str(formData, 'email'), roleKey: str(formData, 'roleKey'), brandIds: strList(formData, 'brandIds') });
-    const h = await headers();
-    const host = h.get('x-forwarded-host') ?? h.get('host') ?? 'localhost:3000';
-    const protocol = h.get('x-forwarded-proto') ?? (host.startsWith('localhost') || host.startsWith('127.') ? 'http' : 'https');
+    const base = await publicBaseUrl();
     refresh();
     return {
       ok: true,
       message: 'Invitation created. Copy the link below and send it to the person — it is shown only once and expires in 7 days.',
-      data: { link: `${protocol}://${host}/invite/${invitation.token}`, email: str(formData, 'email') },
+      data: { link: `${base}/invite/${invitation.token}`, email: str(formData, 'email') },
     };
   } catch (err) {
     return actionError(err);

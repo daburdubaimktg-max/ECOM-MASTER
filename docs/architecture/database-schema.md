@@ -2,7 +2,7 @@
 
 # Database schema reference
 
-**Tables:** 63 · **Engine:** PostgreSQL 15+ with the pgvector and pg_trgm extensions · **Source of truth:** `src/db/schema/*.ts` · **Migrations:** `drizzle/*.sql`
+**Tables:** 64 · **Engine:** PostgreSQL 15+ with the pgvector and pg_trgm extensions · **Source of truth:** `src/db/schema/*.ts` · **Migrations:** `drizzle/*.sql`
 
 This is the complete relational design for Phase 1 of the Brand Intelligence Engine. It was created in full in the first build so that later modules plug in without restructuring; the status line under each heading says which parts are in use today.
 
@@ -106,6 +106,18 @@ This is the complete relational design for Phase 1 of the Brand Intelligence Eng
 | `expires_at` | timestamp with time zone | required |  |
 | `accepted_at` | timestamp with time zone | optional |  |
 | `revoked_at` | timestamp with time zone | optional |  |
+| `created_at` | timestamp with time zone | required |  |
+
+#### `password_resets`
+
+| Column | Type | | Links to |
+|---|---|---|---|
+| `id` | uuid | primary key |  |
+| `user_id` | uuid | required | → `users.id` |
+| `token_hash` | text | required |  |
+| `created_by` | uuid | optional | → `users.id` |
+| `expires_at` | timestamp with time zone | required |  |
+| `used_at` | timestamp with time zone | optional |  |
 | `created_at` | timestamp with time zone | required |  |
 
 #### `login_attempts`

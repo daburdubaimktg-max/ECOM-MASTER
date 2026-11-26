@@ -116,6 +116,28 @@ export const invitations = pgTable(
   (t) => [index('invitations_org_idx').on(t.organisationId)],
 );
 
+/**
+ * One-time links that let a person set a new password. Created by an Administrator for a team member,
+ * or from the server command line when the only Administrator is locked out. Only a hash of the
+ * link's token is stored, and a link works once and for 24 hours.
+ */
+export const passwordResets = pgTable(
+  'password_resets',
+  {
+    id: id(),
+    userId: uuid()
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    tokenHash: text().notNull().unique(),
+    /** The Administrator who created the link; null when it was created from the server command line. */
+    createdBy: uuid().references(() => users.id, { onDelete: 'set null' }),
+    expiresAt: timestamptz().notNull(),
+    usedAt: timestamptz(),
+    createdAt: createdAt(),
+  },
+  (t) => [index('password_resets_user_idx').on(t.userId)],
+);
+
 /** Sign-in attempts, used only for rate limiting and security review. */
 export const loginAttempts = pgTable(
   'login_attempts',

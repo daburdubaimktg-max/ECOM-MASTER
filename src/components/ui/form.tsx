@@ -112,11 +112,13 @@ export function Field({
 }
 
 export function TextInput({ name, error, ...props }: ComponentProps<'input'> & { name: string; error?: string }) {
-  return <input id={name} name={name} aria-invalid={error ? 'true' : undefined} aria-describedby={error ? `${name}-error` : undefined} {...props} className={`field-input ${props.className ?? ''}`} />;
+  // dir="auto": the field follows the direction of what is typed, so Arabic reads right-to-left.
+  const textLike = !props.type || props.type === 'text' || props.type === 'search';
+  return <input id={name} name={name} dir={textLike ? 'auto' : undefined} aria-invalid={error ? 'true' : undefined} aria-describedby={error ? `${name}-error` : undefined} {...props} className={`field-input ${props.className ?? ''}`} />;
 }
 
 export function TextArea({ name, error, ...props }: ComponentProps<'textarea'> & { name: string; error?: string }) {
-  return <textarea id={name} name={name} aria-invalid={error ? 'true' : undefined} rows={4} {...props} className={`field-input resize-y ${props.className ?? ''}`} />;
+  return <textarea id={name} name={name} dir="auto" aria-invalid={error ? 'true' : undefined} rows={4} {...props} className={`field-input resize-y ${props.className ?? ''}`} />;
 }
 
 export function SelectInput({ name, error, children, ...props }: ComponentProps<'select'> & { name: string; error?: string }) {

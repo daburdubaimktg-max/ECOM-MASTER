@@ -14,6 +14,7 @@ import { loadOrNotFound } from '@/lib/page-helpers';
 import { listAssets } from '@/lib/services/assets';
 import { getBrand } from '@/lib/services/brands';
 import { listProducts } from '@/lib/services/products';
+import { plural } from '@/lib/text';
 
 export const metadata: Metadata = { title: 'Documents & media' };
 
@@ -92,11 +93,11 @@ async function Assets({ params }: { params: Promise<{ brandId: string }> }) {
                           <>
                             <Badge tone="verified">Searchable</Badge>
                             <p className="mt-1 text-[12.5px] text-ink-muted">
-                              <span className="num">{asset.chunkCount}</span> passages
+                              <span className="num">{asset.chunkCount}</span> {plural(asset.chunkCount ?? 0, 'passage')}
                               {asset.pageCount ? (
                                 <>
                                   {' from '}
-                                  <span className="num">{asset.pageCount}</span> {asset.extension === 'pptx' ? 'slides' : asset.extension === 'xlsx' ? 'sheets' : 'pages'}
+                                  <span className="num">{asset.pageCount}</span> {plural(asset.pageCount, asset.extension === 'pptx' ? 'slide' : asset.extension === 'xlsx' ? 'sheet' : 'page')}
                                 </>
                               ) : null}
                             </p>

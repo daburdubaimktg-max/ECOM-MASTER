@@ -1,5 +1,5 @@
 import { createHash, randomBytes } from 'node:crypto';
-import { and, eq, gt, inArray, lt, sql } from 'drizzle-orm';
+import { and, eq, gt, inArray, lt, ne, sql } from 'drizzle-orm';
 import { getDb, schema } from '@/db/client';
 import type { RequestContext } from './context';
 import { hashPassword, verifyPassword } from './password';
@@ -122,6 +122,38 @@ export async function revokeSession(token: string | undefined | null): Promise<v
 export async function revokeAllSessionsForUser(userId: string): Promise<void> {
   const db = await getDb();
   await db.delete(schema.sessions).where(eq(schema.sessions.userId, userId));
+}
+
+/** Sign a person out everywhere except the device they are using now (after they change their password). */
+export async function revokeOtherSessionsForUser(userId: string, keepToken: string | undefined | null): Promise<void> {
+  const db = await getDb();
+  await db
+    .delete(schema.sessions)
+    .where(keepToken ? and(eq(schema.sessions.userId, userId), ne(schema.sessions.tokenHash, hashToken(keepToken))) : eq(schema.sessions.userId, userId));
+}
+
+/**
+ * Confirm a signed-in person's current password before a sensitive change. Wrong guesses count
+ * towards the same lock-out as sign-in, so a stolen session cannot be used to guess the password.
+ */
+export async function confirmPassword(input: { userId: string; password: string; ip?: string | null }): Promise<'ok' | 'invalid' | 'rate_limited'> {
+  const db = await getDb();
+  const rows = await db
+    .select({ email: schema.users.email, passwordHash: schema.users.passwordHash, status: schema.users.status })
+    .from(schema.users)
+    .where(eq(schema.users.id, input.userId))
+    .limit(1);
+  const user = rows[0];
+  if (!user || user.status !== 'active') return 'invalid';
+  const since = new Date(Date.now() - LOCKOUT_WINDOW_MS);
+  const [{ failed }] = await db
+    .select({ failed: sql<number>`count(*)::int` })
+    .from(schema.loginAttempts)
+    .where(and(eq(schema.loginAttempts.email, user.email), eq(schema.loginAttempts.success, false), gt(schema.loginAttempts.createdAt, since)));
+  if (failed >= MAX_FAILED_PER_EMAIL) return 'rate_limited';
+  if (await verifyPassword(input.password, user.passwordHash)) return 'ok';
+  await db.insert(schema.loginAttempts).values({ email: user.email, ip: input.ip ?? null, success: false });
+  return 'invalid';
 }
 
 export async function purgeExpiredSessions(): Promise<void> {

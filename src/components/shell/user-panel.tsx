@@ -1,4 +1,5 @@
 import { LogOut } from 'lucide-react';
+import Link from 'next/link';
 import { signOutAction } from '@/app/actions/auth';
 import { ROLES } from '@/lib/auth/permissions';
 import { getContext } from '@/lib/auth/server';
@@ -20,14 +21,12 @@ export async function UserPanel() {
       <span aria-hidden className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-rail-soft font-display text-[15px] text-rail-ink">
         {ctx.user.name.slice(0, 1).toUpperCase()}
       </span>
-      <div className="min-w-0 flex-1">
-        <p className="truncate text-[13px] font-medium text-white" title={ctx.user.email}>
-          {ctx.user.name}
-        </p>
+      <Link href="/settings/account" title="Your account" className="group min-w-0 flex-1">
+        <p className="truncate text-[13px] font-medium text-white group-hover:underline group-hover:underline-offset-4">{ctx.user.name}</p>
         <p className="truncate font-mono text-[10px] uppercase tracking-[0.08em] text-rail-muted" title={ctx.organisation.name}>
           {ROLES[ctx.membership.role].name}
         </p>
-      </div>
+      </Link>
       <form action={signOutAction}>
         <button type="submit" title="Sign out" aria-label="Sign out" className="rounded p-1.5 text-rail-muted transition-colors hover:bg-rail-soft hover:text-white">
           <LogOut size={15} strokeWidth={1.6} />

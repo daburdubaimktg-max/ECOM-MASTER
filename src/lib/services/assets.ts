@@ -13,6 +13,7 @@ import type { FileKind } from '@/lib/documents/extract';
 import { env } from '@/lib/env';
 import { enqueueJob } from '@/lib/jobs';
 import { getStorage } from '@/lib/storage';
+import { formatBytes } from '@/lib/text';
 import { audit } from './audit';
 import { getBrand } from './brands';
 import { replaceKnowledgeForSource, setKnowledgeTrustForSource } from './knowledge';
@@ -125,7 +126,7 @@ export async function uploadAsset(ctx: RequestContext, input: UploadInput) {
     action: 'asset.uploaded',
     entityType: 'asset',
     entityId: asset.id,
-    summary: `Uploaded "${filename}" (${detected.extension.toUpperCase()}, ${(input.bytes.byteLength / 1024 / 1024).toFixed(2)} MB) to ${brand.name}`,
+    summary: `Uploaded "${filename}" (${detected.extension.toUpperCase()}, ${formatBytes(input.bytes.byteLength)}) to ${brand.name}`,
     metadata: { sha256, mimeType: detected.mimeType, kind },
   });
   return { ...asset, storageKey };

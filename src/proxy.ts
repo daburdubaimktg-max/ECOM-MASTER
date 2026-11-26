@@ -7,7 +7,7 @@ import type { NextRequest } from 'next/server';
  * role have permission?) happens on the server next to the data, in every page, action and API route.
  */
 const SESSION_COOKIE = 'bie_session';
-const PUBLIC_PREFIXES = ['/sign-in', '/setup', '/invite', '/api/health', '/api/jobs/tick'];
+const PUBLIC_PREFIXES = ['/sign-in', '/setup', '/invite', '/reset', '/api/health', '/api/jobs/tick'];
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;

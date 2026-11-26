@@ -91,6 +91,11 @@
     outline: 2px solid var(--color-signal);
     outline-offset: 2px;
   }
+  /* Brand content can be Arabic. Each paragraph takes its direction from its own text, so Arabic
+     reads right-to-left inside an otherwise left-to-right interface. English is unaffected. */
+  main :is(p, li, td, dd, blockquote, h1, h2, h3) {
+    unicode-bidi: plaintext;
+  }
   h1,
   h2,
   h3 {

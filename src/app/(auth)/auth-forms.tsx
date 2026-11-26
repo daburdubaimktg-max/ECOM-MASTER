@@ -1,6 +1,6 @@
 'use client';
 
-import { acceptInviteAction, setupAction, signInAction } from '@/app/actions/auth';
+import { acceptInviteAction, resetPasswordAction, setupAction, signInAction } from '@/app/actions/auth';
 import { ActionForm, Field, SubmitButton, TextInput } from '@/components/ui/form';
 
 export function SignInForm() {
@@ -59,6 +59,27 @@ export function AcceptInviteForm({ token }: { token: string }) {
           </Field>
           <SubmitButton pendingLabel="Joining…" className="w-full !py-2.5">
             Join
+          </SubmitButton>
+        </>
+      )}
+    </ActionForm>
+  );
+}
+
+export function ResetPasswordForm({ token }: { token: string }) {
+  return (
+    <ActionForm action={resetPasswordAction} className="space-y-4">
+      {(state) => (
+        <>
+          <input type="hidden" name="token" value={token} />
+          <Field label="New password" name="password" hint="At least 10 characters. A short sentence works well." error={state?.fieldErrors?.password}>
+            <TextInput name="password" type="password" autoComplete="new-password" required minLength={10} autoFocus error={state?.fieldErrors?.password} />
+          </Field>
+          <Field label="New password again" name="confirmPassword" error={state?.fieldErrors?.confirmPassword}>
+            <TextInput name="confirmPassword" type="password" autoComplete="new-password" required minLength={10} error={state?.fieldErrors?.confirmPassword} />
+          </Field>
+          <SubmitButton pendingLabel="Saving…" className="w-full !py-2.5">
+            Set new password
           </SubmitButton>
         </>
       )}

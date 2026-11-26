@@ -4,6 +4,7 @@ import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { clearSessionCookie, clientIp, readSessionToken, setSessionCookie } from '@/lib/auth/server';
 import { createSession, revokeSession, verifyCredentials } from '@/lib/auth/session';
+import { completePasswordReset } from '@/lib/services/account';
 import { acceptInvitation, setupFirstOrganisation } from '@/lib/services/team';
 import { actionError, str } from './_helpers';
 import type { ActionState } from './_helpers';
@@ -69,6 +70,22 @@ export async function acceptInviteAction(_prev: ActionState, formData: FormData)
     return actionError(err);
   }
   redirect('/overview');
+}
+
+export async function resetPasswordAction(_prev: ActionState, formData: FormData): Promise<ActionState> {
+  const password = str(formData, 'password');
+  if (password !== str(formData, 'confirmPassword')) {
+    const message = 'The two passwords do not match.';
+    return { ok: false, error: message, fieldErrors: { confirmPassword: message } };
+  }
+  try {
+    await completePasswordReset({ token: str(formData, 'token'), password, ip: await clientIp() });
+    // The person is signed out everywhere, including any session in this browser.
+    await clearSessionCookie();
+  } catch (err) {
+    return actionError(err);
+  }
+  redirect('/sign-in?reset=done');
 }
 
 export async function signOutAction(): Promise<void> {

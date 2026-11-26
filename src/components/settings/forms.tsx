@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { changePasswordAction, createResetLinkAction } from '@/app/actions/account';
 import { inviteMemberAction, updateMemberAction, updateOrganisationAction } from '@/app/actions/settings';
 import { ActionForm, Field, SelectInput, SubmitButton, TextInput } from '@/components/ui/form';
 
@@ -143,6 +144,72 @@ export function MemberRoleForm({
         <p className="label mb-1">Limit to brands (none ticked = all brands)</p>
         <BrandChecks brands={brands} selected={brandIds} />
       </div>
+    </ActionForm>
+  );
+}
+
+/** A one-time link, shown once, with a copy button. */
+function OneTimeLink({ link, label, testId }: { link: string; label: string; testId: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <div className="mt-2 flex gap-2">
+      <input readOnly value={link} aria-label={label} data-testid={testId} onFocus={(e) => e.currentTarget.select()} className="field-input num !py-1.5 text-[12px]" />
+      <button
+        type="button"
+        onClick={() => {
+          void navigator.clipboard?.writeText(link).then(() => setCopied(true));
+        }}
+        className="shrink-0 rounded-[4px] bg-ink px-3 text-[12.5px] text-paper hover:bg-signal"
+      >
+        {copied ? 'Copied' : 'Copy'}
+      </button>
+    </div>
+  );
+}
+
+export function ChangePasswordForm() {
+  return (
+    <ActionForm action={changePasswordAction} className="space-y-4" resetOnSuccess>
+      {(state) => (
+        <>
+          <Field label="Current password" name="currentPassword" error={state?.fieldErrors?.currentPassword}>
+            <TextInput name="currentPassword" type="password" autoComplete="current-password" required error={state?.fieldErrors?.currentPassword} />
+          </Field>
+          <Field label="New password" name="newPassword" hint="At least 10 characters. A short sentence works well." error={state?.fieldErrors?.newPassword}>
+            <TextInput name="newPassword" type="password" autoComplete="new-password" required minLength={10} error={state?.fieldErrors?.newPassword} />
+          </Field>
+          <Field label="New password again" name="confirmPassword" error={state?.fieldErrors?.confirmPassword}>
+            <TextInput name="confirmPassword" type="password" autoComplete="new-password" required minLength={10} error={state?.fieldErrors?.confirmPassword} />
+          </Field>
+          <SubmitButton pendingLabel="Changing…">Change password</SubmitButton>
+        </>
+      )}
+    </ActionForm>
+  );
+}
+
+/** Administrators: create a one-time password-reset link for a team member. */
+export function ResetLinkForm({ userId, name }: { userId: string; name: string }) {
+  return (
+    <ActionForm action={createResetLinkAction} successMessage={false}>
+      {(state) => {
+        const link = state?.ok ? (state.data?.link as string | undefined) : undefined;
+        return (
+          <>
+            <input type="hidden" name="userId" value={userId} />
+            <SubmitButton variant="secondary" pendingLabel="Creating…" className="!py-1.5 !text-[12.5px]">
+              Create password-reset link
+            </SubmitButton>
+            <p className="mt-1.5 max-w-[34rem] text-[12px] text-ink-muted">For when {name} has forgotten their password. You send them the link; they choose a new password themselves.</p>
+            {link ? (
+              <div className="mt-2 border-l-2 border-verified bg-verified-soft px-3 py-3" data-testid="reset-link-box">
+                <p className="text-[13px] text-verified">{state?.message}</p>
+                <OneTimeLink link={link} label="Password-reset link" testId="reset-link" />
+              </div>
+            ) : null}
+          </>
+        );
+      }}
     </ActionForm>
   );
 }

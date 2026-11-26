@@ -2,10 +2,12 @@ import { afterAll, describe, expect, it } from 'vitest';
 import { eq } from 'drizzle-orm';
 import { closeDb, getDb, schema } from '@/db/client';
 import { hashPassword, passwordProblem, verifyPassword } from '@/lib/auth/password';
-import { ForbiddenError, ValidationError } from '@/lib/auth/permissions';
+import { ForbiddenError, NotFoundError, ValidationError } from '@/lib/auth/permissions';
 import { contextFromToken, createSession, hasAnyOrganisation, revokeSession, verifyCredentials } from '@/lib/auth/session';
+import { changeOwnPassword, completePasswordReset, createPasswordResetFromCommandLine, createPasswordResetLink, getPasswordResetByToken } from '@/lib/services/account';
 import { createBrand } from '@/lib/services/brands';
 import { acceptInvitation, createInvitation, getInvitationByToken, setMemberStatus, setupFirstOrganisation, updateMember } from '@/lib/services/team';
+import { makeOrganisation } from '../helpers';
 
 afterAll(async () => {
   await closeDb();
@@ -146,13 +148,119 @@ describe('invitations and membership', () => {
     await expect(createInvitation(manager, { email: 'x@example.test', roleKey: 'administrator' })).rejects.toBeInstanceOf(ForbiddenError);
   });
 
+  it('lets a person change their own password: they must know the current one, and other devices are signed out', async () => {
+    const admin = await adminContext();
+    const invitation = await createInvitation(admin, { email: 'editor@example.test', roleKey: 'content_editor' });
+    const joined = await acceptInvitation({ token: invitation.token, name: 'Eddie Editor', password: 'the first long password' });
+    const thisDevice = await createSession({ userId: joined.userId, organisationId: joined.organisationId });
+    const otherDevice = await createSession({ userId: joined.userId, organisationId: joined.organisationId });
+    const editor = (await contextFromToken(thisDevice.token))!;
+
+    await expect(changeOwnPassword(editor, { currentPassword: 'not my password', newPassword: 'a brand new long password' })).rejects.toThrow(/current password is not correct/);
+    await expect(changeOwnPassword(editor, { currentPassword: 'the first long password', newPassword: 'short' })).rejects.toThrow(/at least 10/);
+    await expect(changeOwnPassword(editor, { currentPassword: 'the first long password', newPassword: 'the first long password' })).rejects.toThrow(/different/);
+
+    await changeOwnPassword(editor, { currentPassword: 'the first long password', newPassword: 'a brand new long password', keepSessionToken: thisDevice.token });
+    expect(await contextFromToken(thisDevice.token)).not.toBeNull(); // still signed in here
+    expect(await contextFromToken(otherDevice.token)).toBeNull(); // signed out everywhere else
+    expect((await verifyCredentials({ email: 'editor@example.test', password: 'the first long password' })).ok).toBe(false);
+    expect((await verifyCredentials({ email: 'editor@example.test', password: 'a brand new long password' })).ok).toBe(true);
+  });
+
+  it('counts wrong guesses of the current password towards the sign-in lock-out', async () => {
+    const admin = await adminContext();
+    const invitation = await createInvitation(admin, { email: 'guessed@example.test', roleKey: 'viewer' });
+    const joined = await acceptInvitation({ token: invitation.token, name: 'Gus Guessed', password: 'the real long password' });
+    const { token } = await createSession({ userId: joined.userId, organisationId: joined.organisationId });
+    const person = (await contextFromToken(token))!;
+    for (let i = 0; i < 8; i++) {
+      await expect(changeOwnPassword(person, { currentPassword: `wrong guess number ${i}`, newPassword: 'something else entirely' })).rejects.toThrow(/not correct/);
+    }
+    // Even the right current password is now refused until the lock-out window has passed.
+    await expect(changeOwnPassword(person, { currentPassword: 'the real long password', newPassword: 'something else entirely' })).rejects.toThrow(/Too many incorrect attempts/);
+  });
+
+  it('lets an Administrator create a one-time reset link that works once, then signs the person out everywhere', async () => {
+    const admin = await adminContext();
+    const invitation = await createInvitation(admin, { email: 'forgetful@example.test', roleKey: 'analyst' });
+    const joined = await acceptInvitation({ token: invitation.token, name: 'Fay Forgetful', password: 'the password i forgot' });
+    const oldSession = await createSession({ userId: joined.userId, organisationId: joined.organisationId });
+    const analyst = (await contextFromToken(oldSession.token))!;
+
+    // Only Administrators may create reset links, and only for members of their own organisation.
+    await expect(createPasswordResetLink(analyst, admin.user.id)).rejects.toBeInstanceOf(ForbiddenError);
+    const stranger = await makeOrganisation('Another Company');
+    await expect(createPasswordResetLink(stranger, joined.userId)).rejects.toBeInstanceOf(NotFoundError);
+
+    const first = await createPasswordResetLink(admin, joined.userId);
+    const second = await createPasswordResetLink(admin, joined.userId); // a new link replaces the earlier one
+    expect(await getPasswordResetByToken(first.token)).toBeNull();
+    expect(await getPasswordResetByToken(second.token)).toEqual({ name: 'Fay Forgetful', email: 'forgetful@example.test' });
+    expect(await getPasswordResetByToken('not-a-real-token-at-all-123456')).toBeNull();
+
+    // Only a hash of the link is stored.
+    const db = await getDb();
+    const stored = await db.select().from(schema.passwordResets);
+    expect(stored.some((row) => row.tokenHash === second.token)).toBe(false);
+
+    await expect(completePasswordReset({ token: second.token, password: 'short' })).rejects.toThrow(/at least 10/);
+    await expect(completePasswordReset({ token: first.token, password: 'a completely new password' })).rejects.toBeInstanceOf(ValidationError);
+    await completePasswordReset({ token: second.token, password: 'a completely new password' });
+
+    expect(await contextFromToken(oldSession.token)).toBeNull(); // signed out everywhere
+    expect((await verifyCredentials({ email: 'forgetful@example.test', password: 'the password i forgot' })).ok).toBe(false);
+    expect((await verifyCredentials({ email: 'forgetful@example.test', password: 'a completely new password' })).ok).toBe(true);
+    // The link cannot be used a second time.
+    await expect(completePasswordReset({ token: second.token, password: 'yet another long password' })).rejects.toBeInstanceOf(ValidationError);
+    expect(await getPasswordResetByToken(second.token)).toBeNull();
+  });
+
+  it('refuses expired reset links and reset links for disabled accounts', async () => {
+    const admin = await adminContext();
+    const invitation = await createInvitation(admin, { email: 'late@example.test', roleKey: 'viewer' });
+    const joined = await acceptInvitation({ token: invitation.token, name: 'Lars Late', password: 'a sufficiently long one' });
+    const reset = await createPasswordResetLink(admin, joined.userId);
+
+    const db = await getDb();
+    await db.update(schema.passwordResets).set({ expiresAt: new Date(Date.now() - 1000) }).where(eq(schema.passwordResets.userId, joined.userId));
+    expect(await getPasswordResetByToken(reset.token)).toBeNull();
+    await expect(completePasswordReset({ token: reset.token, password: 'a completely new password' })).rejects.toBeInstanceOf(ValidationError);
+
+    await setMemberStatus(admin, joined.userId, 'disabled');
+    await expect(createPasswordResetLink(admin, joined.userId)).rejects.toThrow(/disabled/);
+  });
+
+  it('recovers a locked-out Administrator from the server command line, and records it', async () => {
+    expect(await createPasswordResetFromCommandLine('nobody-here@example.test')).toBeNull();
+    const recovery = await createPasswordResetFromCommandLine('  ASHA.ADMIN@example.test ');
+    expect(recovery?.name).toBe('Asha Admin');
+    await completePasswordReset({ token: recovery!.token, password: 'recovered with a new one' });
+    expect((await verifyCredentials({ email: ADMIN.email, password: ADMIN.password })).ok).toBe(false);
+    expect((await verifyCredentials({ email: ADMIN.email, password: 'recovered with a new one' })).ok).toBe(true);
+
+    const db = await getDb();
+    const entries = await db.select().from(schema.auditLogs).where(eq(schema.auditLogs.action, 'member.password_reset_link_created'));
+    expect(entries.some((entry) => entry.actorLabel === 'Server command line' && entry.actorUserId === null)).toBe(true);
+  });
+
   it('records security-relevant events in the audit log', async () => {
     const db = await getDb();
     const actions = (await db.select({ action: schema.auditLogs.action }).from(schema.auditLogs)).map((r) => r.action);
-    for (const expected of ['organisation.created', 'auth.sign_in', 'invitation.created', 'invitation.accepted', 'member.disabled', 'brand.created']) {
+    for (const expected of [
+      'organisation.created',
+      'auth.sign_in',
+      'invitation.created',
+      'invitation.accepted',
+      'member.disabled',
+      'brand.created',
+      'account.password_changed',
+      'member.password_reset_link_created',
+      'account.password_reset',
+    ]) {
       expect(actions).toContain(expected);
     }
     const users = await db.select().from(schema.users).where(eq(schema.users.email, 'asha.admin@example.test'));
     expect(users[0].passwordHash).not.toContain(ADMIN.password);
+    expect(users[0].passwordHash).not.toContain('recovered with a new one');
   });
 });

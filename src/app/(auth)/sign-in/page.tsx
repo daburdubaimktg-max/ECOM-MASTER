@@ -15,11 +15,24 @@ async function Gate() {
   return null;
 }
 
-export default function SignInPage() {
+async function ResetNotice({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  const sp = await searchParams;
+  if (sp.reset !== 'done') return null;
+  return (
+    <p role="status" className="mb-5 border-l-2 border-verified bg-verified-soft px-3 py-2 text-[13px] text-verified">
+      Your password has been changed. Sign in with the new one.
+    </p>
+  );
+}
+
+export default function SignInPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   return (
     <>
       <Suspense fallback={null}>
         <Gate />
+      </Suspense>
+      <Suspense fallback={null}>
+        <ResetNotice searchParams={searchParams} />
       </Suspense>
       <p className="label flex items-center gap-2">
         <span aria-hidden className="inline-block h-px w-6 bg-signal" />

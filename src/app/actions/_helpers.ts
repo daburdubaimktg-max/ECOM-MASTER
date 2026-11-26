@@ -1,3 +1,4 @@
+import { headers } from 'next/headers';
 import { unstable_rethrow } from 'next/navigation';
 import { after } from 'next/server';
 import { ForbiddenError, NotFoundError, ValidationError } from '@/lib/auth/permissions';
@@ -40,4 +41,12 @@ export function str(formData: FormData, key: string): string {
 
 export function strList(formData: FormData, key: string): string[] {
   return formData.getAll(key).filter((v): v is string => typeof v === 'string' && v.length > 0);
+}
+
+/** The address people use to reach this installation, for building one-time links to hand out. */
+export async function publicBaseUrl(): Promise<string> {
+  const h = await headers();
+  const host = h.get('x-forwarded-host') ?? h.get('host') ?? 'localhost:3000';
+  const protocol = h.get('x-forwarded-proto') ?? (host.startsWith('localhost') || host.startsWith('127.') ? 'http' : 'https');
+  return `${protocol}://${host}`;
 }

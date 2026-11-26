@@ -22,6 +22,7 @@ async function Marketplaces({ searchParams }: { searchParams: SearchParams }) {
   const sp = await searchParams;
   const filters = {
     countryCode: firstParam(sp.country),
+    region: firstParam(sp.region),
     category: firstParam(sp.category),
     type: firstParam(sp.type),
     priority: firstParam(sp.priority) === 'top3' ? ('top3' as const) : ('all' as const),
@@ -33,6 +34,7 @@ async function Marketplaces({ searchParams }: { searchParams: SearchParams }) {
   const selectedCountry = countries.find((c) => c.code === filters.countryCode.toUpperCase());
   const research = selectedCountry ? await getCountryResearch(ctx, selectedCountry.code) : null;
   const researched = countries.filter((c) => c.platformCount > 0);
+  const regions = [...new Set(researched.map((c) => c.region))].sort();
   const filtered = Object.entries(filters).some(([key, value]) => (key === 'priority' ? value === 'top3' : Boolean(value)));
 
   // With no country chosen and no filter, show a digest: the five highest-ranked platforms per country.
@@ -97,6 +99,21 @@ async function Marketplaces({ searchParams }: { searchParams: SearchParams }) {
           </label>
           <input id="mq" name="q" defaultValue={filters.q} placeholder="Name or operator" className="field-input" />
         </div>
+        {!selectedCountry && regions.length > 1 ? (
+          <div>
+            <label htmlFor="region" className="label mb-1 block">
+              Region
+            </label>
+            <select id="region" name="region" defaultValue={filters.region} className="field-input !w-auto">
+              <option value="">Any region</option>
+              {regions.map((region) => (
+                <option key={region} value={region}>
+                  {region}
+                </option>
+              ))}
+            </select>
+          </div>
+        ) : null}
         <div>
           <label htmlFor="category" className="label mb-1 block">
             Kind

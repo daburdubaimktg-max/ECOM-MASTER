@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { revokeInvitationAction, setMemberStatusAction } from '@/app/actions/settings';
-import { InviteForm, MemberRoleForm } from '@/components/settings/forms';
+import { InviteForm, MemberRoleForm, ResetLinkForm } from '@/components/settings/forms';
 import { SettingsHeader } from '@/components/settings/settings-nav';
 import { InlineAction } from '@/components/ui/form';
 import { PageBoundary } from '@/components/ui/page-boundary';
@@ -59,7 +59,7 @@ async function Team() {
                   </div>
                   {member.userId !== ctx.user.id ? (
                     <details className="mt-3">
-                      <summary className="cursor-pointer text-[12.5px] text-ink-muted underline decoration-line-strong underline-offset-4 hover:text-ink">Change role or access</summary>
+                      <summary className="cursor-pointer text-[12.5px] text-ink-muted underline decoration-line-strong underline-offset-4 hover:text-ink">Change role, access or password</summary>
                       <div className="mt-3 flex flex-wrap items-start justify-between gap-4 rounded border border-line bg-paper/60 p-4">
                         <MemberRoleForm membershipId={member.membershipId} roleKey={member.roleKey} brandIds={member.brandIds} roles={roles} brands={brandOptions} />
                         <InlineAction
@@ -71,6 +71,11 @@ async function Team() {
                           {member.status === 'active' ? 'Disable account' : 'Re-enable account'}
                         </InlineAction>
                       </div>
+                      {member.status === 'active' ? (
+                        <div className="mt-3 rounded border border-line bg-paper/60 p-4">
+                          <ResetLinkForm userId={member.userId} name={member.name} />
+                        </div>
+                      ) : null}
                     </details>
                   ) : null}
                 </li>
