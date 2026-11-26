@@ -11,6 +11,7 @@
  * The link works once and expires after 24 hours. With the built-in development database, stop the
  * app first: only one program can open that database at a time.
  */
+import './_env';
 async function main() {
   const email = process.argv.slice(2).find((arg) => !arg.startsWith('-'));
   if (!email) {

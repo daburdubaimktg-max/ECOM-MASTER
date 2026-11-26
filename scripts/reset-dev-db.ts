@@ -6,6 +6,7 @@
  *
  * It refuses to run when DATABASE_URL is set: it never touches a real PostgreSQL database.
  */
+import './_env';
 import fs from 'node:fs';
 import path from 'node:path';
 

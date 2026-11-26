@@ -43,8 +43,8 @@ This adds a fictional brand, "Demo Botanics", clearly flagged as demonstration d
 ## What works today
 
 - **Sign-in, roles and audit log** — six roles (Administrator, Brand Manager, Content Editor, Analyst,
-  Agency Contributor, Viewer), invitation links, brand-level access for agencies, and a tamper-proof
-  record of every change.
+  Agency Contributor, Viewer), invitation links, brand-level access for agencies, password change and
+  recovery, and a tamper-proof record of every change.
 - **Brands** — profile, guidelines (draft → approved), claims (unverified → approved or restricted,
   per market), competitors.
 - **Product catalogue** — products, variants, SKUs and multipacks, barcodes with check-digit
@@ -77,6 +77,7 @@ is connected, and the app contains no marketplace metrics.**
 | `npm run db:migrate` | Update a PostgreSQL database and load research data (production) |
 | `npm run db:seed:demo` | Add the fictional demonstration brand |
 | `npm run db:reset -- --yes` | Delete the development database and start again |
+| `npm run admin:reset-link -- you@company.com` | Emergency: create a password-reset link when no Administrator can sign in |
 | `npm run db:generate` | (Developers) create a migration after changing the database design |
 
 ## How information is labelled

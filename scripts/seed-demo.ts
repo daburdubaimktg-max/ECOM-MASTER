@@ -6,6 +6,7 @@
  * Run it after you have completed the first-time setup screen:   npm run db:seed:demo
  * It is safe to run twice: if the demo brand already exists it does nothing.
  */
+import './_env';
 import fs from 'node:fs';
 import path from 'node:path';
 import { and, eq } from 'drizzle-orm';

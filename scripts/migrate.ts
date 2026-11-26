@@ -4,6 +4,7 @@
  *   Embedded mode (no DATABASE_URL): this happens automatically when the app starts; the script is optional.
  *   PostgreSQL mode: run `npm run db:migrate` on every deployment, before starting the app.
  */
+import './_env';
 import path from 'node:path';
 
 function explainExtensionProblem(err: unknown): string | null {

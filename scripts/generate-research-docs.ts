@@ -10,6 +10,7 @@
  *   docs/research/05-github-skills-inventory.md
  *   docs/architecture/database-schema.md
  */
+import './_env';
 import fs from 'node:fs';
 import path from 'node:path';
 import { getTableConfig } from 'drizzle-orm/pg-core';
