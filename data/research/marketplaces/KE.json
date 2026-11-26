@@ -1,0 +1,1643 @@
+{
+  "country_code": "KE",
+  "country_name": "Kenya",
+  "region": "Sub-Saharan Africa",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "Kenyan e-commerce is mobile-first and fragmented: a Communications Authority of Kenya survey for July 2024 to June 2025 found that 44.8% of online orders were placed in mobile apps, 20.2% through WhatsApp and only 12% on websites, with mobile money used by 65.7% of shoppers. Jumia is the largest marketplace by every traffic estimate retrieved and reports beauty and perfumes as its second product category; the classifieds site Jiji and the marketplace Kilimall follow. Supermarket chains (Naivas, Carrefour, Quickmart) and pharmacy chains (Goodlife, Pharmaplus, MYDAWA) sell online through small sites of their own and, more visibly, through Glovo, whose Nairobi 'Pharmacy & Beauty' section also hosts brand shops for Nivea and L'Oreal. The sector has seen failures (Copia Kenya was ordered into liquidation in September 2026), and Glovo's parent is the subject of a takeover offer from Uber. No official statistic on the size of online beauty sales was found.",
+    "key_facts": [
+      {
+        "fact": "Communications Authority of Kenya customer satisfaction survey (1 July 2024 - 30 June 2025): mobile apps accounted for 44.8% of online order placements, WhatsApp 20.2% and website portals 12%; domestic online outlets had 47.7% of usage, marketplaces and social-media commerce 18% and cross-border platforms such as Amazon 13.8%; mobile money was used by 65.7% of shoppers and cash on delivery by 13%. Reported via Business Daily; the original CA report was not retrieved.",
+        "nature": "official_statistic",
+        "source_url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+        "source_name": "Business Daily (Nation Media Group)",
+        "source_date": "2026-01-07"
+      },
+      {
+        "fact": "Jumia group (all eight countries, physical goods): GMV US$224.0 million, 2.7 million quarterly active customers and 6.3 million orders in the third quarter of 2026. Kenya-only GMV and customer numbers are Not publicly disclosed.",
+        "nature": "company_reported",
+        "source_url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+        "source_name": "Jumia Technologies AG",
+        "source_date": "2026-11-18"
+      },
+      {
+        "fact": "Jumia Kenya describes itself as holding 'the largest market share', with more than 300 pick-up stations in about 100 towns, more than 26,000 JForce agents and 1.4 million products listed; its top product categories are phones, beauty and perfumes, home appliances, men's shoes and TVs. Company claims, not independently verified.",
+        "nature": "company_reported",
+        "source_url": "https://group.jumia.com/download/files/community/articles/jumia-kenyas-2nd-rural-e-commerce-report-expanding-access-driving-inclusion-connection-border-to-border-1771847915.pdf",
+        "source_name": "Jumia Kenya",
+        "source_date": "n.d. (2025; cites Jumia Group Q3 2025 results)"
+      },
+      {
+        "fact": "Website traffic, October 2026 (Similarweb 'Total Visits' on free overview pages): jumia.co.ke 3.8M (Kenya rank 24), jiji.co.ke 2M (rank 45), kilimall.co.ke 469.8K (rank 171), carrefour.ke 312.1K, naivas.online 212.8K, mydawa.com 169.2K, goodlife.co.ke 113.5K, quickmart.co.ke 82.8K, pharmaplus.co.ke 61.3K, lintonsbeauty.com 16.5K. Semrush's October 2026 estimates are lower for jumia.co.ke (1.62M) and jiji.co.ke (1.25M).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.similarweb.com/website/jumia.co.ke/",
+        "source_name": "Similarweb",
+        "source_date": "n.d. (October 2026 data)"
+      },
+      {
+        "fact": "Glovo holds about 33% of online food delivery and 46% of grocery delivery in Kenya according to the Competition Authority of Kenya's most recent market study, as reported by Techweez (study year not given). Uber announced a takeover offer for Glovo's parent Delivery Hero in July 2026, expected to complete in the second half of 2027 subject to approvals.",
+        "nature": "official_statistic",
+        "source_url": "https://techweez.com/2026/07/17/uber-acquires-glovo-kenya-delivery-hero/",
+        "source_name": "Techweez",
+        "source_date": "2026-07-17"
+      },
+      {
+        "fact": "Copia Kenya, a rural e-commerce company, was ordered into liquidation by the High Court in September 2026 after two years in administration (court order, reported by Techweez).",
+        "nature": "official_statistic",
+        "source_url": "https://techweez.com/2026/09/30/copia-kenya-liquidation/",
+        "source_name": "Techweez",
+        "source_date": "2026-09-30"
+      },
+      {
+        "fact": "Kenya had 23.4 million internet users (40.5% penetration) at the end of 2025; TikTok's adult advertising reach was 18.4 million, Facebook's 17.0 million and Instagram's 3.95 million. No WhatsApp figure is given.",
+        "nature": "third_party_estimate",
+        "source_url": "https://datareportal.com/reports/digital-2026-kenya",
+        "source_name": "DataReportal (Kepios)",
+        "source_date": "2025-11-08"
+      }
+    ]
+  },
+  "ranking_method_note": "weighted_score = 0.20 x ecommerce_significance + 0.25 x beauty_category_relevance + 0.20 x consumer_reach + 0.15 x brand_competitor_coverage + 0.20 x data_integration_feasibility, each scored 1-5, rounded to 2 decimals. priority_rank orders platforms by weighted_score within the country (1 = highest); ties are broken by beauty_category_relevance, then consumer_reach, as the rubric requires. Where platforms were still tied, ecommerce_significance, then data_integration_feasibility, then name were used (our addition; the rubric stops earlier). Scores are analyst judgements anchored to the evidence note beside each score. Anchors for brand_competitor_coverage (thirteen reference brands): 5 = at least 11 confirmed with real depth, or every brand tested when at least 8 were tested; 4 = 8-10 confirmed, or 11+ confirmed with thin listings; 3 = 4-7 confirmed; 2 = 1-3 confirmed; 1 = none found. Where a catalogue could not be read at all the score is a placeholder marked UNVERIFIED: 3 (neutral) for pharmacies, grocers and general marketplaces that normally stock the category, 2 for delivery apps and classifieds, 1 for cross-border value or fashion platforms and private messaging. competitor_presence.level follows the same evidence: high = score 4-5, medium = 3, low = 1-2, unknown = placeholder. Anchors for data_integration_feasibility: 5 = documented seller API plus openly readable pages, 4 = openly readable pages or feeds, 3 = partly readable or seller-portal access only, 2 = automated access refused, 1 = app-only, login wall or CAPTCHA. Closed platforms therefore rank lower for reasons of access, not commercial weight. For Kenya this mainly affects Naivas, Carrefour, Quickmart and Jiji; the supermarkets are visible through Glovo, which is one reason Glovo ranks second.",
+  "platforms": [
+    {
+      "name": "Jumia Kenya",
+      "website": "https://www.jumia.co.ke",
+      "operator": "Jumia Technologies AG (NYSE: JMIA); Kenyan operating entity UNVERIFIED",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Jumia Kenya's own report names beauty and perfumes as its second product category after phones; the Health & Beauty category page showed 301,425 products on 2026-11-26, with brand-store logos or product titles for Garnier, Nivea, L'Oreal Professionnel, Vaseline and CeraVe. L'Oreal's Dark and Lovely Africa site links to Jumia Kenya as its Kenyan online stockist.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Health products are listed within Health & Beauty; no pharmacy dispensing service was verified.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: rests on the highest web traffic of any Kenyan retail site in both Similarweb and Semrush estimates and on Jumia's own (UNVERIFIED) claim to the largest market share. Kenya-level sales are not disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "jumia.co.ke 'Total Visits' of 3.8M, global rank 11,538, Kenya rank 24, with 89.16% of traffic from Kenya (Similarweb free overview; the page does not make clear whether the figure is strictly one month).",
+          "metric_type": "monthly_visits",
+          "value": "3.8M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/jumia.co.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "jumia.co.ke received 1.62M visits, 76.54% from Kenya; September 2026 was 4.10M and August 1.83M (Semrush estimates, which differ from Similarweb's).",
+          "metric_type": "monthly_visits",
+          "value": "1.62M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/jumia.co.ke/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Jumia group had 2.7 million quarterly active customers and GMV of US$224.0m across all its countries; Kenya-only figures are Not publicly disclosed.",
+          "metric_type": "customers",
+          "value": "2.7 million (group, all countries)",
+          "period": "third quarter 2026",
+          "nature": "company_reported",
+          "source_url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+          "source_name": "Jumia Technologies AG",
+          "source_date": "2026-11-18"
+        },
+        {
+          "claim": "More than 300 pick-up stations in about 100 towns, more than 26,000 JForce agents and 1.4 million products listed; 60% of Jumia orders come from secondary cities and rural regions (group-level statistic quoted from Q3 2025 results).",
+          "metric_type": "other",
+          "value": "300+ pick-up stations; 26,000+ agents; 1.4M products listed",
+          "period": "2025",
+          "nature": "company_reported",
+          "source_url": "https://group.jumia.com/download/files/community/articles/jumia-kenyas-2nd-rural-e-commerce-report-expanding-access-driving-inclusion-connection-border-to-border-1771847915.pdf",
+          "source_name": "Jumia Kenya",
+          "source_date": "n.d. (2025; cites Jumia Group Q3 2025 results)"
+        },
+        {
+          "claim": "Jumia Kenya states that it 'holds the largest market share'. Company claim; no independent or regulator figure was found.",
+          "metric_type": "market_share",
+          "value": "largest (claim; no percentage)",
+          "period": "2025",
+          "nature": "company_reported",
+          "source_url": "https://group.jumia.com/download/files/community/articles/jumia-kenyas-2nd-rural-e-commerce-report-expanding-access-driving-inclusion-connection-border-to-border-1771847915.pdf",
+          "source_name": "Jumia Kenya",
+          "source_date": "n.d. (2025; cites Jumia Group Q3 2025 results)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 from Jumia Kenya public catalogue pages retrieved with the WebFetch tool (a plain HTTP request received a 403 challenge and was not retried). Catalogue searches ('products found'): Colgate 266, Dark and Lovely 138, Pantene 135, Sensodyne 32, Sunsilk 6; a Head & Shoulders search (221 loosely matched results) showed a Head & Shoulders brand filter. The Health & Beauty brand filter lists Dabur, Dove, Himalaya, Cantu and ORS, and product titles or brand-store logos on the category page show Garnier, Nivea, L'Oreal Professionnel, Vaseline and CeraVe. L'Oreal Paris itself was not separately checked.",
+        "source_urls": [
+          "https://www.jumia.co.ke/health-beauty/",
+          "https://www.jumia.co.ke/catalog/?q=colgate",
+          "https://africa.darkandlovely.com/"
+        ]
+      },
+      "product_coverage_note": "Broad skin, hair and oral-care range from third-party sellers and brand 'Official Stores'; listings show price, discount, seller type and ratings.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Sellers use Jumia Vendor Center (sign-in required) and VendorHub guides describe bulk CSV tools, account statements and sponsored products. A host named vendor-api.jumia.com answers with an API-gateway message, which suggests a vendor API exists, but no public documentation was found in this session (UNVERIFIED).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Category and search pages were readable through a standard fetch tool, but direct HTTP requests met a Cloudflare challenge, so large-scale collection is uncertain. Own-listing data is available to registered vendors through Vendor Center. Check Jumia's terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Largest Kenyan e-commerce site by both traffic estimators; claims the largest market share."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Beauty and perfumes is its second product category and 301,425 health and beauty products are listed."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "3.8M visits (Similarweb) and Kenya rank 24, far ahead of other retail sites."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "All thirteen reference brands found (L'Oreal as L'Oreal Professionnel), with depth for Colgate (266), Dark and Lovely (138) and Pantene (135)."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable but challenge-protected; vendor portal for own data; no documented API found."
+        }
+      },
+      "weighted_score": 4.6,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "Clear first priority in Kenya: largest audience, beauty is a top category, widest verified brand coverage, and the brand owner of Dark and Lovely already points shoppers to it.",
+      "confidence": "medium",
+      "confidence_note": "Traffic estimates from two providers differ by more than a factor of two and Kenya-level sales are not disclosed; category and brand evidence was verified directly.",
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/website/jumia.co.ke/",
+          "title": "Similarweb website analysis: jumia.co.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/jumia.co.ke/overview/",
+          "title": "jumia.co.ke Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+          "title": "Jumia Reports Third Quarter 2026 Results (Exhibit 99.1)",
+          "publisher": "Jumia Technologies AG",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://group.jumia.com/download/files/community/articles/jumia-kenyas-2nd-rural-e-commerce-report-expanding-access-driving-inclusion-connection-border-to-border-1771847915.pdf",
+          "title": "E-commerce in Rural Kenya: Expanding Access, Driving Inclusion, Connecting Border to Border (2nd rural e-commerce report)",
+          "publisher": "Jumia Kenya",
+          "published_date": "n.d. (2025; cites Jumia Group Q3 2025 results)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jumia.co.ke/health-beauty/",
+          "title": "Jumia Kenya - Health & Beauty category page (descriptive title)",
+          "publisher": "Jumia Kenya",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jumia.co.ke/catalog/?q=colgate",
+          "title": "Jumia Kenya catalogue search results (queries run 2026-11-26 for colgate, pantene, sensodyne, sunsilk, dark and lovely, head and shoulders; example URL)",
+          "publisher": "Jumia Kenya",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://vendorhub.jumia.co.ke/",
+          "title": "Start Your Success Story with Jumia - Jumia VendorHub KE",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://vendorcenter.jumia.com/",
+          "title": "Jumia | Vendor Center",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://africa.darkandlovely.com/",
+          "title": "Dark and Lovely Home (Africa site with retailer store links)",
+          "publisher": "Dark and Lovely (L'Oreal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+          "title": "Mobile apps now eclipse websites in Kenya's shift to e-commerce",
+          "publisher": "Business Daily (Nation Media Group)",
+          "published_date": "2026-01-07",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Glovo (Kenya)",
+      "website": "https://glovoapp.com/en/ke/nairobi",
+      "operator": "Glovo (owned by Delivery Hero; Uber announced a takeover offer for Delivery Hero in July 2026, completion expected in the second half of 2027 subject to regulatory approval)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Glovo's Nairobi 'Pharmacy & Beauty' section lists beauty chains and pharmacies (Super Cosmetics, Goodlife Pharmacy and Goodlife Pharmacy Beauty, Pharma Plus and Pharma Plus - Beauty, MYDAWA, Lintons' Beauty Box, True Cosmetics, Yves Rocher, Glovo Beauty World) and brand shops named 'NIVEA Beauty Shop' and 'Loreal Beauty Shop'. Its Groceries section lists Naivas, Carrefour, Quickmart and Chandarana Foodplus.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Dozens of pharmacies are listed, including the main chains (Goodlife, Pharma Plus, MYDAWA).",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 for on-demand retail, resting on regulator-study shares reported in the press (33% of food delivery, 46% of grocery delivery) and more than 6,000 merchants.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Glovo holds about 33% of online food delivery and 46% of grocery delivery in Kenya, per the Competition Authority of Kenya's most recent market study as reported by Techweez. VERIFIED source type (regulator study), but cited second-hand and the study year is not given.",
+          "metric_type": "market_share",
+          "value": "33% food delivery; 46% grocery delivery",
+          "period": "study year not stated (reported July 2026)",
+          "nature": "official_statistic",
+          "source_url": "https://techweez.com/2026/07/17/uber-acquires-glovo-kenya-delivery-hero/",
+          "source_name": "Techweez",
+          "source_date": "2026-07-17"
+        },
+        {
+          "claim": "More than 6,000 merchants, about 2,200 riders daily and operations in 12 towns.",
+          "metric_type": "other",
+          "value": "6,000+ merchants; 12 towns",
+          "period": "July 2026",
+          "nature": "company_reported",
+          "source_url": "https://techweez.com/2026/07/17/uber-acquires-glovo-kenya-delivery-hero/",
+          "source_name": "Techweez",
+          "source_date": "2026-07-17"
+        },
+        {
+          "claim": "Order growth of 40% year on year and more than KSh20bn of cumulative sales for merchant partners since 2019.",
+          "metric_type": "gmv",
+          "value": "KSh20bn+ cumulative merchant sales since 2019",
+          "period": "November 2026",
+          "nature": "company_reported",
+          "source_url": "https://techtrendske.co.ke/2026/11/16/kenya-food-delivery-market/",
+          "source_name": "TechTrendsKE",
+          "source_date": "2026-11-16"
+        },
+        {
+          "claim": "Weekly app downloads of roughly 15,000-17,700 in Kenya; Uber Eats peaked at about 20,800 in early November 2025 and Bolt Food reached about 8,300 (Sensor Tower estimates). Dated: about 12 months old.",
+          "metric_type": "app_users",
+          "value": "about 15K-17.7K downloads a week",
+          "period": "fourth quarter 2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://sensortower.com/blog/2025-q4-unified-top-5-food-delivery-services-units-ke-63da96fbe1714cfff1c1e5a1",
+          "source_name": "Sensor Tower",
+          "source_date": "n.d. (Q4 2025 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on 2026-11-26 from Glovo's public Nairobi pages (plain HTTP requests, no login). The Pharmacy & Beauty listing includes 'NIVEA Beauty Shop' and 'Loreal Beauty Shop'; store pages show Dove, Garnier, Nivea and Vaseline at Naivas, Carrefour and Quickmart, and L'Oreal, Garnier, Nivea, Cantu and CeraVe at Super Cosmetics. Oral-care brands (Colgate, Sensodyne) and Pantene were not seen on the page excerpts read, so they are UNVERIFIED.",
+        "source_urls": [
+          "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "https://glovoapp.com/en/ke/nairobi/categories/groceries_4",
+          "https://glovoapp.com/en/ke/nairobi/stores/nivea-nbo",
+          "https://glovoapp.com/en/ke/nairobi/stores/loreal-nbo",
+          "https://glovoapp.com/en/ke/nairobi/stores/naivas-nbo",
+          "https://glovoapp.com/en/ke/nairobi/stores/carrefour-supermarket-nbo-ke",
+          "https://glovoapp.com/en/ke/nairobi/stores/quickmart-nbo",
+          "https://glovoapp.com/en/ke/nairobi/stores/super-cosmetics-nbo"
+        ]
+      },
+      "product_coverage_note": "Aggregates the assortments of the main supermarket, pharmacy and beauty chains plus brand-run shops; store pages show categories, prices and promotions for the Nairobi delivery area.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Glovo publishes a 'Glovo Partners API' (OpenAPI definition) for point-of-sale integrators and vendors that sell through Glovo: order webhooks and menu or product updates, with credentials issued on request. It does not give brand owners access to other merchants' data; availability for Kenyan stores is UNVERIFIED.",
+        "docs_url": "https://api-docs.glovoapp.com/partners/index.html"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Category and store pages for Nairobi were served to plain HTTP requests without login or challenge and list stores, product categories and promotions; full product lists depend on a delivery address. Check Glovo's terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Largest delivery platform by the regulator-study shares reported (33% food, 46% grocery)."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Hosts the main beauty and pharmacy chains and brand shops for Nivea and L'Oreal."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "6,000+ merchants in 12 towns; no user count disclosed."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Five target brands seen across store pages (L'Oreal, Garnier, Nivea, Dove, Vaseline); oral care and Pantene UNVERIFIED."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Store pages are openly readable, though full product lists need a delivery address; the documented API is for vendors only."
+        }
+      },
+      "weighted_score": 3.85,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "Second priority and the most efficient single window onto Kenyan modern trade: one platform exposes supermarket, pharmacy and beauty-chain assortments that are otherwise blocked or thin on the retailers' own sites. Reservation: ownership is due to change if Uber's offer completes.",
+      "confidence": "medium",
+      "confidence_note": "Market shares come from a regulator study cited second-hand without a year; store and brand evidence was verified directly; user numbers are not disclosed.",
+      "sources": [
+        {
+          "url": "https://techweez.com/2026/07/17/uber-acquires-glovo-kenya-delivery-hero/",
+          "title": "Uber Buys Out Glovo, Its Biggest Rival in Kenya's Delivery Market",
+          "publisher": "Techweez",
+          "published_date": "2026-07-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techtrendske.co.ke/2026/11/16/kenya-food-delivery-market/",
+          "title": "Kenya food delivery market attracts new competition",
+          "publisher": "TechTrendsKE",
+          "published_date": "2026-11-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sensortower.com/blog/2025-q4-unified-top-5-food-delivery-services-units-ke-63da96fbe1714cfff1c1e5a1",
+          "title": "Top Food Delivery Apps in Kenya Q4 2025 Performance Analysis",
+          "publisher": "Sensor Tower",
+          "published_date": "n.d. (Q4 2025 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/groceries_4",
+          "title": "Groceries delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/nivea-nbo",
+          "title": "NIVEA Beauty Shop delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/loreal-nbo",
+          "title": "Loreal Beauty Shop delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/naivas-nbo",
+          "title": "Naivas delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/carrefour-supermarket-nbo-ke",
+          "title": "Carrefour delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/quickmart-nbo",
+          "title": "Quickmart delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/super-cosmetics-nbo",
+          "title": "Super Cosmetics delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://api-docs.glovoapp.com/partners/index.html",
+          "title": "Glovo Partners API",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Kilimall",
+      "website": "https://www.kilimall.co.ke",
+      "operator": "Kilimall (corporate entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "General marketplace whose homepage promotes brand searches for Nivea, Garnier, Maybelline and Nice & Lovely; listing depth for mass-market brands is thinner than on Jumia.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Second marketplace by traffic (about 470K visits, Kenya rank 171), roughly one eighth of Jumia's Similarweb figure. Business Daily names Jiji, Kilimall and Jumia as the dominant platforms. Customer, order and GMV figures are Not publicly disclosed in the sources retrieved (unsourced third-party claims were found and discarded).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "kilimall.co.ke 'Total Visits' of 469.8K, global rank 85,048, Kenya rank 171, 91.31% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "469.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/kilimall.co.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 from Kilimall public search pages (plain HTTP requests, no login). Results reported per query: Dabur 71, Garnier 41, L'Oreal 17, Colgate 10, Nivea 9, Pantene 8 and Sensodyne 2, with matching product titles. Dove, Vaseline, Head & Shoulders and Dark and Lovely queries returned large, loosely matched counts, but branded product titles were read for each. Sunsilk is UNVERIFIED (no Sunsilk titles) and the Himalaya query failed.",
+        "source_urls": [
+          "https://www.kilimall.co.ke/search?q=Nivea",
+          "https://www.kilimall.co.ke/"
+        ]
+      },
+      "product_coverage_note": "Eleven of thirteen target brands are present, most with few listings each; the site shows 'Fulfilled By Kilimall' and 'Local Dispatch' filters and a brand filter.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "The site links to a Seller Center; no public API documentation was found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Search and listing pages are server-rendered and were served to plain HTTP requests without login or challenge. Check Kilimall's terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Second marketplace by traffic but far smaller than Jumia."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Beauty brands promoted on the homepage; modest depth."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 470K visits and Kenya rank 171 (Similarweb)."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Eleven target brands confirmed by product titles, but most with only a handful of listings."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Openly accessible server-rendered pages; no documented API."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Third by formula: the second marketplace, with openly readable pages and most reference brands present. Its audience is about one eighth of Jumia's and listings are thin, so it is a price-comparison point more than a volume channel.",
+      "confidence": "medium",
+      "confidence_note": "Only one traffic source (Semrush has no page for the domain) and no company-reported figures.",
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/website/kilimall.co.ke/",
+          "title": "Similarweb website analysis: kilimall.co.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.kilimall.co.ke/",
+          "title": "Kilimall - Affordable Online Shopping in Kenya",
+          "publisher": "Kilimall",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.kilimall.co.ke/search?q=Nivea",
+          "title": "Kilimall public search results (brand queries run 2026-11-26; example URL for 'Nivea')",
+          "publisher": "Kilimall",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+          "title": "Mobile apps now eclipse websites in Kenya's shift to e-commerce",
+          "publisher": "Business Daily (Nation Media Group)",
+          "published_date": "2026-01-07",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Goodlife Pharmacy",
+      "website": "https://www.goodlife.co.ke",
+      "operator": "Goodlife Pharmacy (ownership UNVERIFIED)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Pharmacy, health and beauty chain with an online store, an 'E-derma Centre' and online skin consultation; its public brand directory lists 1,012 brands including Dove, Pantene, L'Oreal, Garnier, Nivea, Vaseline, Colgate, Sensodyne, Oral-B, Cantu and ORS. It also runs a separate 'Goodlife Pharmacy Beauty' store on Glovo.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Describes itself as Kenya's largest pharmacy chain with over 150 pharmacies.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Largest pharmacy chain by its own description, but its website traffic is modest (about 114K visits in October 2026).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "'Kenya's largest pharmacy chain with over 150 pharmacies'; the About page cites more than 150 stores in Kenya and Uganda and a total reach of over 2 million people.",
+          "metric_type": "stores",
+          "value": "150+ stores; reach of over 2 million people",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://www.goodlife.co.ke/about-us/",
+          "source_name": "Goodlife Pharmacy",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "goodlife.co.ke 'Total Visits' of 113.5K, Kenya rank 861, 87.76% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "113.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/goodlife.co.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 from Goodlife's public brand directory (plain HTTP request): 1,012 brand pages, including Dove, Pantene, L'Oreal, Garnier, Nivea, Vaseline, Colgate, Sensodyne, Oral-B, Cantu, ORS, Nice & Lovely, CeraVe, Neutrogena, Olay and Listerine. No brand page was found for Head & Shoulders, Himalaya, Dabur, Dark and Lovely or Sunsilk. Product counts per brand were not read because the site's search endpoint returned HTTP 406.",
+        "source_urls": [
+          "https://www.goodlife.co.ke/brands/",
+          "https://www.goodlife.co.ke/"
+        ]
+      },
+      "product_coverage_note": "Skin care, hair care and oral care alongside medicines and wellness; 8 of 13 target brands have brand pages.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public developer or partner API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Homepage, About page and brand directory were served to plain HTTP requests; the product search endpoint refused an automated request (HTTP 406), so collection would rely on brand and category pages.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Leading pharmacy chain but a small online audience."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Health and beauty specialist with a beauty sub-brand and wide brand directory."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "150+ stores and a company-stated reach of over 2 million people; about 114K site visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "8 of 13 target brands have brand pages."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Brand and category pages are open; search endpoint refuses automated requests."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Close fourth and the most relevant specialist retailer for health and beauty, with a readable brand directory; it is also visible through Glovo. Worth adding with the top three if pharmacy-channel coverage matters.",
+      "confidence": "medium",
+      "confidence_note": "Store numbers are company statements; traffic is a third-party estimate; brand list verified directly.",
+      "sources": [
+        {
+          "url": "https://www.goodlife.co.ke/",
+          "title": "Goodlife Pharmacy: Kenya's Largest Pharmacy | Online Pharmacy",
+          "publisher": "Goodlife Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.goodlife.co.ke/about-us/",
+          "title": "Goodlife Pharmacy - About Us (descriptive title)",
+          "publisher": "Goodlife Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.goodlife.co.ke/brands/",
+          "title": "Goodlife Pharmacy - brand directory (descriptive title)",
+          "publisher": "Goodlife Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/goodlife.co.ke/",
+          "title": "Similarweb website analysis: goodlife.co.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Carrefour Kenya",
+      "website": "https://www.carrefour.ke",
+      "operator": "Majid Al Futtaim (exclusive Carrefour franchisee in Kenya)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Hypermarket and supermarket chain with a shopping app and on-demand delivery; its Glovo store page shows mass-market personal-care brands (Dove, Garnier, Nivea, Vaseline).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. 34 stores at the end of June 2026 with nine more planned, and the largest web audience among the supermarket sites checked (about 312K visits).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "34 Carrefour stores in Kenya at the end of June 2026, with nine more planned for the second half of the year (TechTrendsKE, citing research firm Trendtype); the new Lavington store is integrated with the Carrefour app for on-demand home delivery.",
+          "metric_type": "stores",
+          "value": "34 stores",
+          "period": "end of June 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://techtrendske.co.ke/2026/11/13/carrefour-opens-lavington-store-as-kenyan-expansion-gathers-pace/",
+          "source_name": "TechTrendsKE",
+          "source_date": "2026-11-13"
+        },
+        {
+          "claim": "carrefour.ke 'Total Visits' of 312.1K, Kenya rank 351, 85.08% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "312.1K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/carrefour.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Carrefour's own site could not be read on 2026-11-26 (no response to a plain HTTP request; HTTP 503 to the WebFetch tool). Verified indirectly from Carrefour's public store page on Glovo Nairobi, whose text includes Dove, Garnier, Nivea and Vaseline. Other brands are UNVERIFIED.",
+        "source_urls": [
+          "https://glovoapp.com/en/ke/nairobi/stores/carrefour-supermarket-nbo-ke"
+        ]
+      },
+      "product_coverage_note": "Supermarket personal care; four target brands seen on the Glovo store page.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "The retailer's own site did not serve automated requests; its assortment is readable only through its Glovo store page, which reflects the Nairobi delivery range.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Expanding supermarket chain with app-based delivery and about 312K site visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Supermarket personal care with mass-market brands visible."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "34 stores and about 312K site visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Four target brands seen via the Glovo store page."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Own site not accessible to automated requests; Glovo page is the only open view."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "Monitor through Glovo rather than directly; relevant for everyday personal-care pricing in modern trade.",
+      "confidence": "medium",
+      "confidence_note": "Store count from trade press citing a research firm; assortment seen only via Glovo.",
+      "sources": [
+        {
+          "url": "https://techtrendske.co.ke/2026/11/13/carrefour-opens-lavington-store-as-kenyan-expansion-gathers-pace/",
+          "title": "Carrefour opens Lavington store",
+          "publisher": "TechTrendsKE",
+          "published_date": "2026-11-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/carrefour.ke/",
+          "title": "Similarweb website analysis: carrefour.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/carrefour-supermarket-nbo-ke",
+          "title": "Carrefour delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/groceries_4",
+          "title": "Groceries delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Naivas",
+      "website": "https://naivas.online",
+      "operator": "Naivas (ownership UNVERIFIED)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Described by TechTrendsKE as the country's largest supermarket chain; its Glovo store has 'Beauty World' and 'Personal Care' sections and shows Dove, Garnier, Nivea and Vaseline.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. More than 100 stores, but the online shop draws only about 213K visits and fell 40% month on month in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Naivas passed 100 stores in 2025 (as reported by TechTrendsKE).",
+          "metric_type": "stores",
+          "value": "100+ stores",
+          "period": "2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://techtrendske.co.ke/2026/11/13/carrefour-opens-lavington-store-as-kenyan-expansion-gathers-pace/",
+          "source_name": "TechTrendsKE",
+          "source_date": "2026-11-13"
+        },
+        {
+          "claim": "naivas.online 'Total Visits' of 212.8K, Kenya rank 470, 94.1% of traffic from Kenya, down 40.08% on the previous month (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "212.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/naivas.online/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "naivas.online returned HTTP 403 (Cloudflare block) to plain HTTP requests and to the WebFetch tool on 2026-11-26. Verified indirectly from Naivas's public store page on Glovo Nairobi, whose text includes Dove, Garnier, Nivea and Vaseline. Other brands are UNVERIFIED.",
+        "source_urls": [
+          "https://glovoapp.com/en/ke/nairobi/stores/naivas-nbo"
+        ]
+      },
+      "product_coverage_note": "Supermarket personal care; four target brands seen on the Glovo store page.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Own site refuses automated requests; assortment readable only through its Glovo store page.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Largest supermarket chain by stores with a small online shop."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Supermarket personal care with dedicated beauty sections on Glovo."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "100+ stores and about 213K site visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Four target brands seen via the Glovo store page."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Own site blocks automation; Glovo page is the only open view."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Important offline; online it is best observed through Glovo.",
+      "confidence": "medium",
+      "confidence_note": "Store count from a single trade-press source; assortment seen only via Glovo.",
+      "sources": [
+        {
+          "url": "https://techtrendske.co.ke/2026/11/13/carrefour-opens-lavington-store-as-kenyan-expansion-gathers-pace/",
+          "title": "Carrefour opens Lavington store",
+          "publisher": "TechTrendsKE",
+          "published_date": "2026-11-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/naivas.online/",
+          "title": "Similarweb website analysis: naivas.online (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/naivas-nbo",
+          "title": "Naivas delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/groceries_4",
+          "title": "Groceries delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Pharmaplus Pharmacy",
+      "website": "https://shop.pharmaplus.co.ke",
+      "operator": "Pharmaplus (legal entity UNVERIFIED; the site displays licence number BU202504990)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Pharmacy chain whose online shop has skin-care and beauty-care categories and a 1,715-brand directory; it also runs a separate 'Pharma Plus - Beauty' store on Glovo.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Licensed online pharmacy with prescription service.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 on web traffic (about 61K visits); store numbers were not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "pharmaplus.co.ke 'Total Visits' of 61.3K, with 65.85% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "61.3K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/pharmaplus.co.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Listed on Glovo Nairobi as 'Pharma Plus' (99% rating from 159 ratings) and 'Pharma Plus - Beauty'. Store count: Not found.",
+          "metric_type": "other",
+          "value": "159 Glovo ratings",
+          "period": "as shown on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "source_name": "Glovo",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 by rendering Pharmaplus's public brand directory (default headless browser, no login): 1,715 brands, including Dove, Pantene, L'Oreal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Oral-B, Cantu and Aquafresh. Dabur, Dark and Lovely and Sunsilk were not found. Listing counts per brand were not read (the site's search parameter did not filter results).",
+        "source_urls": [
+          "https://shop.pharmaplus.co.ke/brands"
+        ]
+      },
+      "product_coverage_note": "10 of 13 target brands appear in the brand directory across skin, hair and oral care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Pages are JavaScript-rendered but loaded in a default headless browser without login or challenge; on-site search did not filter in testing, so collection would go through brand and category pages.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy chain with a small online audience."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Dedicated skin-care and beauty categories and a beauty store on Glovo."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 61K site visits; store count not found."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "10 of 13 target brands in the brand directory; listing depth not read."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Readable with a headless browser; no API."
+        }
+      },
+      "weighted_score": 2.75,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "Broadest verified brand directory among Kenyan pharmacy sites; a good low-effort addition after Goodlife.",
+      "confidence": "medium",
+      "confidence_note": "Brand directory verified directly; scale evidence is thin.",
+      "sources": [
+        {
+          "url": "https://shop.pharmaplus.co.ke/",
+          "title": "Pharmaplus | Your Trusted Online Pharmacy | Pharmaplus",
+          "publisher": "Pharmaplus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://shop.pharmaplus.co.ke/brands",
+          "title": "All Brands | PharmaPlus | Pharmaplus",
+          "publisher": "Pharmaplus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/pharmaplus.co.ke/",
+          "title": "Similarweb website analysis: pharmaplus.co.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "WhatsApp (social commerce via WhatsApp Business)",
+      "website": "https://www.whatsapp.com",
+      "operator": "WhatsApp (operating entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "social_commerce",
+      "marketplace_type": "social_commerce",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "The regulator's survey makes WhatsApp the second ordering channel in Kenya, and Business Daily describes small sellers using TikTok, Instagram and WhatsApp to sell goods such as fashion and beauty items. No beauty-specific share was found.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Goodlife Pharmacy advertises a WhatsApp prescription service; no wider evidence retrieved.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 as an ordering channel on the strength of an official survey (20.2% of online order placements), but it is a messaging channel, not a catalogue that can be monitored.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "WhatsApp accounted for 20.2% of online order placements, second to mobile apps at 44.8% (Communications Authority of Kenya customer satisfaction survey, reported via Business Daily). VERIFIED source type (regulator survey); this is a share of order placements, not of sales value.",
+          "metric_type": "market_share",
+          "value": "20.2% of online order placements",
+          "period": "1 July 2024 - 30 June 2025",
+          "nature": "official_statistic",
+          "source_url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+          "source_name": "Business Daily (Nation Media Group)",
+          "source_date": "2026-01-07"
+        },
+        {
+          "claim": "Social media accounted for 21.8% of overall e-commerce engagement, and marketplaces and social-media commerce for 18% of platform usage, in the same survey.",
+          "metric_type": "market_share",
+          "value": "21.8% of engagement",
+          "period": "1 July 2024 - 30 June 2025",
+          "nature": "official_statistic",
+          "source_url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+          "source_name": "Business Daily (Nation Media Group)",
+          "source_date": "2026-01-07"
+        },
+        {
+          "claim": "WhatsApp user numbers for Kenya: Not found (DataReportal gives no WhatsApp figure). For context, TikTok's adult advertising reach was 18.4M, Facebook's 17.0M and Instagram's 3.95M.",
+          "metric_type": "app_users",
+          "value": "Not found",
+          "period": "late 2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://datareportal.com/reports/digital-2026-kenya",
+          "source_name": "DataReportal (Kepios)",
+          "source_date": "2025-11-08"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verifiable: sales happen in private conversations and seller catalogues, which were not and should not be accessed.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Unknown. Informal resellers and small beauty shops; no listing evidence.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not applicable as a marketplace API. A business can manage its own WhatsApp Business presence, but there is no legitimate way to read other sellers' catalogues or prices; no API documentation was reviewed in this session.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Private messaging channel. Only the brand's own WhatsApp commerce activity, or consumer research, can be measured.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "20.2% of online order placements in the regulator's survey."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Named as a route for beauty items sold by small sellers; no category share available."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "Second ordering channel nationally in the regulator's survey; user numbers not found."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Cannot be verified."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "No legitimate access to listing or price data."
+        }
+      },
+      "weighted_score": 2.7,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Too important to ignore and impossible to monitor like a marketplace: keep it in the database as a channel to track through surveys and the brand's own WhatsApp activity, not as a data-integration target.",
+      "confidence": "medium",
+      "confidence_note": "The headline share is an official survey statistic reported by a reputable newspaper (the original report was not retrieved); everything brand-specific is unknown.",
+      "sources": [
+        {
+          "url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+          "title": "Mobile apps now eclipse websites in Kenya's shift to e-commerce",
+          "publisher": "Business Daily (Nation Media Group)",
+          "published_date": "2026-01-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://itweb.africa/article/the-rise-of-whatsapp-in-kenyas-online-shopping-scene/mYZRXM9gprxvOgA8",
+          "title": "The rise of WhatsApp in Kenya's online shopping scene",
+          "publisher": "ITWeb Africa",
+          "published_date": "2026-01-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://datareportal.com/reports/digital-2026-kenya",
+          "title": "Digital 2026: Kenya",
+          "publisher": "DataReportal (Kepios)",
+          "published_date": "2025-11-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.whatsapp.com/",
+          "title": "WhatsApp | Secure and Reliable Free Private Messaging and Calling",
+          "publisher": "WhatsApp",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.goodlife.co.ke/about-us/",
+          "title": "Goodlife Pharmacy - About Us (descriptive title)",
+          "publisher": "Goodlife Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "MYDAWA",
+      "website": "https://mydawa.com",
+      "operator": "MYDAWA (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Online-first pharmacy with a 'beauty and skin care' category; homepage brand tiles include Dove, Garnier, Nivea, Nice & Lovely, Eucerin, La Roche-Posay and Bio-Oil, and CeraVe and La Roche-Posay products feature in trending searches.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Describes itself as 'Kenya's Most Trusted Online Pharmacy'; branches are listed in Westlands, Mombasa CBD, Adams Arcade, Embakasi, Embu and Ruiru.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 on web traffic (about 169K visits); customer numbers were not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "mydawa.com 'Total Visits' of 169.2K, Kenya rank 933, 73.66% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "169.2K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/mydawa.com/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Six branches named on the site and iOS and Android apps; customer numbers: Not found.",
+          "metric_type": "stores",
+          "value": "6 branches named",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://mydawa.com/",
+          "source_name": "MYDAWA",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 from MYDAWA's public homepage (plain HTTP request): brand pages are linked for Dove, Garnier and Nivea, plus Nice & Lovely, Eucerin, La Roche-Posay and Bio-Oil. The full brand list and oral-care or hair-care brands were not checked.",
+        "source_urls": [
+          "https://mydawa.com/"
+        ]
+      },
+      "product_coverage_note": "Skin-care led beauty range with dermo-cosmetic brands; three target brands confirmed.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Homepage, brand and product pages were served to plain HTTP requests without login or challenge.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Online-first pharmacy with a small audience."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Beauty and skin-care category with mass and dermo-cosmetic brands."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 169K site visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Three target brands confirmed on homepage brand tiles; full list not checked."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Openly accessible pages; no API."
+        }
+      },
+      "weighted_score": 2.65,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "Easy to read and relevant for skin care, but small.",
+      "confidence": "medium",
+      "confidence_note": "Single traffic estimate; brand check limited to the homepage.",
+      "sources": [
+        {
+          "url": "https://mydawa.com/",
+          "title": "MYDAWA | Kenya's Most Trusted Online Pharmacy",
+          "publisher": "MYDAWA",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/mydawa.com/",
+          "title": "Similarweb website analysis: mydawa.com (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Jiji Kenya",
+      "website": "https://jiji.co.ke",
+      "operator": "Jiji (corporate entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "other",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Classifieds site (Similarweb category 'Classifieds'): individuals and small traders post listings and deal directly with buyers. Its beauty listings could not be inspected (UNVERIFIED).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "Not a pharmacy channel.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 by audience (second-highest traffic among Kenyan commerce sites, Kenya rank 45), but it is a classifieds platform rather than a retailer.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "jiji.co.ke 'Total Visits' of 2M, global rank 22,233, Kenya rank 45, 90.83% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "2M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/jiji.co.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "jiji.co.ke received 1.25M visits, 73.87% from Kenya; September 2026 was 3.55M (Semrush estimates).",
+          "metric_type": "monthly_visits",
+          "value": "1.25M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/jiji.co.ke/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: jiji.co.ke returned HTTP 403 to plain HTTP requests and to the WebFetch tool on 2026-11-26.",
+        "source_urls": []
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Site refuses automated requests and no API was found; listings are posted by many small sellers without standard product data.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Second-largest Kenyan commerce audience by traffic, but classifieds rather than retail."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty listings UNVERIFIED; unstructured small-seller offers."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "2M visits and Kenya rank 45 (Similarweb)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Placeholder for a classifieds site whose listings could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "Automated access refused; no API."
+        }
+      },
+      "weighted_score": 2.6,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Large audience but weak fit: unstructured listings and no data route. It could still be used for manual spot checks on unauthorised offers.",
+      "confidence": "low",
+      "confidence_note": "Traffic estimates only; no view of listings.",
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/website/jiji.co.ke/",
+          "title": "Similarweb website analysis: jiji.co.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/jiji.co.ke/overview/",
+          "title": "jiji.co.ke Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.businessdailyafrica.com/bd/corporate/technology/mobile-apps-eclipse-websites-in-kenya-s-e-trade-shift-5319176",
+          "title": "Mobile apps now eclipse websites in Kenya's shift to e-commerce",
+          "publisher": "Business Daily (Nation Media Group)",
+          "published_date": "2026-01-07",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Quickmart",
+      "website": "https://www.quickmart.co.ke",
+      "operator": "Quickmart (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Supermarket chain selling online through its own site and through delivery apps; its Glovo store page shows Dove, Garnier, Nivea and Vaseline, and a June 2026 partnership put more than 12,000 products from over 60 stores on Bolt Food.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 online (about 83K site visits) despite a store network of more than 60 outlets.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "More than 12,000 products from over 60 Quickmart stores are available on Bolt Food under a partnership announced in June 2026.",
+          "metric_type": "stores",
+          "value": "60+ stores on Bolt Food",
+          "period": "June 2026",
+          "nature": "company_reported",
+          "source_url": "https://techtrendske.co.ke/2026/11/16/kenya-food-delivery-market/",
+          "source_name": "TechTrendsKE",
+          "source_date": "2026-11-16"
+        },
+        {
+          "claim": "quickmart.co.ke 'Total Visits' of 82.8K, Kenya rank 1,145, 97.86% of traffic from Kenya (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "82.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/quickmart.co.ke/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "quickmart.co.ke returned HTTP 403 (Cloudflare block) to plain HTTP requests and to the WebFetch tool on 2026-11-26. Verified indirectly from Quickmart's public store page on Glovo Nairobi, whose text includes Dove, Garnier, Nivea and Vaseline. Other brands are UNVERIFIED.",
+        "source_urls": [
+          "https://glovoapp.com/en/ke/nairobi/stores/quickmart-nbo"
+        ]
+      },
+      "product_coverage_note": "Supermarket personal care; four target brands seen on the Glovo store page.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Own site refuses automated requests; assortment readable only through its Glovo store page.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Supermarket chain with a small online shop."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Supermarket personal care with mass-market brands visible."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 83K site visits; 60+ stores."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Four target brands seen via the Glovo store page."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Own site blocks automation; Glovo page is the only open view."
+        }
+      },
+      "weighted_score": 2.4,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "Covered adequately by monitoring Glovo; low stand-alone priority.",
+      "confidence": "medium",
+      "confidence_note": "Thin evidence on scale; assortment seen only via Glovo.",
+      "sources": [
+        {
+          "url": "https://techtrendske.co.ke/2026/11/16/kenya-food-delivery-market/",
+          "title": "Kenya food delivery market attracts new competition",
+          "publisher": "TechTrendsKE",
+          "published_date": "2026-11-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/quickmart.co.ke/",
+          "title": "Similarweb website analysis: quickmart.co.ke (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/stores/quickmart-nbo",
+          "title": "Quickmart delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/groceries_4",
+          "title": "Groceries delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Bolt Food (Kenya)",
+      "website": "https://bolt.eu/en-ke/food/",
+      "operator": "Bolt (site copyright: Bolt Technology OÜ)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Food-delivery app expanding into grocery and retail: Bolt says grocery and retail are more than 20% of its Kenyan business, and its Quickmart partnership covers groceries, household goods and wellness products. Personal-care listings were not inspected (UNVERIFIED).",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy partners were verified.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3. Third food-delivery app by downloads in the Sensor Tower list; no user or sales figures disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Grocery and retail account for more than 20% of Bolt Food's business in Kenya, with triple-digit year-on-year growth; average ordering frequency is about four times a month (statements by Bolt's Kenya general manager).",
+          "metric_type": "other",
+          "value": "grocery and retail >20% of business",
+          "period": "November 2026",
+          "nature": "company_reported",
+          "source_url": "https://techtrendske.co.ke/2026/11/16/kenya-food-delivery-market/",
+          "source_name": "TechTrendsKE",
+          "source_date": "2026-11-16"
+        },
+        {
+          "claim": "Weekly app downloads of roughly 6,900-8,300 in Kenya, behind Uber Eats and Glovo (Sensor Tower estimates). Dated: about 12 months old.",
+          "metric_type": "app_users",
+          "value": "about 6.9K-8.3K downloads a week",
+          "period": "fourth quarter 2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://sensortower.com/blog/2025-q4-unified-top-5-food-delivery-services-units-ke-63da96fbe1714cfff1c1e5a1",
+          "source_name": "Sensor Tower",
+          "source_date": "n.d. (Q4 2025 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: the catalogue is inside the app; no brand was confirmed on 2026-11-26.",
+        "source_urls": []
+      },
+      "product_coverage_note": "UNVERIFIED; expected to reflect Quickmart's range.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public partner or developer API was found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App-based catalogue; manual checks only.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Smaller delivery app with a growing retail share."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Retail range via Quickmart; beauty UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "Third by downloads among food-delivery apps; no user figures."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Placeholder for a delivery app whose catalogue could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "App-only catalogue; no API found."
+        }
+      },
+      "weighted_score": 1.8,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Low priority; revisit if its grocery and retail business keeps growing.",
+      "confidence": "low",
+      "confidence_note": "Company statements and dated download estimates only.",
+      "sources": [
+        {
+          "url": "https://techtrendske.co.ke/2026/11/16/kenya-food-delivery-market/",
+          "title": "Kenya food delivery market attracts new competition",
+          "publisher": "TechTrendsKE",
+          "published_date": "2026-11-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sensortower.com/blog/2025-q4-unified-top-5-food-delivery-services-units-ke-63da96fbe1714cfff1c1e5a1",
+          "title": "Top Food Delivery Apps in Kenya Q4 2025 Performance Analysis",
+          "publisher": "Sensor Tower",
+          "published_date": "n.d. (Q4 2025 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://bolt.eu/en-ke/food/",
+          "title": "Bolt Food | Food delivery and takeout | Order food near you",
+          "publisher": "Bolt",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Lintons Beauty World",
+      "website": "https://www.lintonsbeauty.com",
+      "operator": "Lintons Beauty World",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Beauty specialist (make-up, skincare, fragrance, haircare) centred on prestige brands such as Estee Lauder, Fenty Beauty, MAC, Clinique and Lancome, with a Garnier section. It also trades on Glovo as 'Beauty Box'.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 (niche); about 16.5K site visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "lintonsbeauty.com 'Total Visits' of 16.5K, Kenya rank 5,074, 96.53% of traffic from Kenya, down 38.24% on the previous month (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "16.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/lintonsbeauty.com/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 by rendering Lintons' public search pages (default headless browser, no login). A 'GARNIER' category filter exists and L'Oreal is mentioned; a search for 'nivea' returned only Estee Lauder, Fenty and similar products, so Nivea is not stocked. Other mass-market brands were not found.",
+        "source_urls": [
+          "https://www.lintonsbeauty.com/search?q=garnier",
+          "https://www.lintonsbeauty.com/"
+        ]
+      },
+      "product_coverage_note": "Prestige beauty with Garnier as the only mass-market target brand confirmed.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer on a hosted site builder; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Pages render in a default headless browser without login; search returns loosely matched results.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 1,
+          "note": "Niche specialist with a very small online audience."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty-only but prestige-led."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 16.5K site visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Garnier only among mass-market target brands."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Readable with a headless browser; no API."
+        }
+      },
+      "weighted_score": 1.8,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Included to cover the beauty-specialist type; low relevance for mass-market lines.",
+      "confidence": "medium",
+      "confidence_note": "Live trading and range verified directly; scale evidence is a single traffic estimate.",
+      "sources": [
+        {
+          "url": "https://www.lintonsbeauty.com/",
+          "title": "Lintons Beauty World | Perfume, Skincare & Makeup | Official Store (KE)",
+          "publisher": "Lintons Beauty World",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.lintonsbeauty.com/search?q=garnier",
+          "title": "Lintons Beauty World search results (queries run 2026-11-26 for 'garnier' and 'nivea'; example URL)",
+          "publisher": "Lintons Beauty World",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/lintonsbeauty.com/",
+          "title": "Similarweb website analysis: lintonsbeauty.com (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ke/nairobi/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Nairobi | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

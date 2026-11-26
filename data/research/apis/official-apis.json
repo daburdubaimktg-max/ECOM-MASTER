@@ -1,0 +1,2974 @@
+{
+  "research_date": "2026-11-26",
+  "apis": [
+    {
+      "name": "Amazon Selling Partner API (SP-API) — seller accounts",
+      "provider": "Amazon",
+      "docs_url": "https://developer-docs.amazon.com/sp-api/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Login with Amazon (OAuth 2.0). Private applications are self-authorised by the Primary User of the seller account and receive a refresh token; public applications are authorised by each selling partner through OAuth and must be re-authorised annually.",
+      "eligibility": "Seller with a Professional selling account registering as a private developer (application only for its own organisation; max 10 self-authorisations; no OAuth by other companies), or a public developer authorised by other sellers (25 seller authorisations if not listed in the Selling Partner Appstore, unlimited if listed). Developer Profile with roles, use cases and security controls is reviewed by Amazon. A brand that is not a seller or vendor has no account to authorise.",
+      "data_available": {
+        "own_listings": [
+          "title, bullets, description, attributes and images as submitted (Listings Items API)",
+          "catalogue view: item name, brand, attributes, identifiers, images, classifications, variations (Catalog Items API)",
+          "A+ content published by the account (A+ Content API)",
+          "price and offer (Listings Items API offers)",
+          "featured offer / Buy Box data, featured offer expected price, competitive price threshold (Product Pricing API, sellers only)",
+          "stock availability (Listings Items fulfillmentAvailability)",
+          "listing issues with severity, categories and enforcement actions incl. search suppression",
+          "Suppressed Listings report",
+          "attribute requirements per product type (Product Type Definitions API)",
+          "sales rank (Catalog Items salesRanks)",
+          "sales and traffic: page views, sessions, Buy Box percentage, conversion (Sales and Traffic report, Data Kiosk)",
+          "search data: Search Query Performance, Search Catalog Performance, Market Basket, Repeat Purchase, Search Terms (Brand Analytics; Brand Registry required)",
+          "review counts: totalReviewCount, lowRatingReviewCount, criticalReviewRate (Data Kiosk Seller Analytics)",
+          "review topics, mentions, star-rating impact and up to three snippets per topic (Customer Feedback API; US, UK, FR, IT, DE, ES, JP only)",
+          "push notifications: listing status, listing issues, branded item content change, offer changes, pricing health, hourly traffic"
+        ],
+        "competitor_listings": [
+          "catalogue facts for any ASIN: item name, brand, attributes, images, identifiers, classifications, variations (Catalog Items API)",
+          "sales rank for any ASIN (Catalog Items API)",
+          "lowest-priced and featured offers for any ASIN: seller id, price, shipping, Buy Box winner, number of offers (Product Pricing API, seller accounts only)",
+          "most-clicked ASINs per search term with click share and conversion share (Amazon Search Terms report; Brand Registry, brand representative)",
+          "category-level review and return topics (Customer Feedback API browse-node operations)",
+          "NOT available: star rating, review count, review text, Q&A, stock, A+ content of other sellers"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "The SP-API documentation index lists no listing-quality or content score. Closest official signals: listing issues with enforcement actions, the Suppressed Listings report and Product Type Definitions requirement schemas."
+      },
+      "limitations": "No content or price history (snapshots must be stored). Brand Analytics reports need Brand Registry; Search Query Performance, Search Catalog Performance and Market Basket are not listed for South Africa. Customer Feedback API not offered for AE, SA, IN or ZA. Product Pricing API is for sellers only. ANY_OFFER_CHANGED notifications only for items with an active offer. Amazon states that not every listing problem has a defined issue. Use is limited by the Solution Provider Portal Agreement, Acceptable Use Policy and Data Protection Policy. UNVERIFIED: whether Customer Feedback returns data for ASINs the account does not sell; whether every Data Kiosk metric is served for South Africa.",
+      "rate_limits": "Token bucket per account-application pair. Defaults (requests per second / burst): getCatalogItem 2/2; searchCatalogItems 2/2; getListingsItem 5/5 (reference page shows burst 10); Product Type Definitions 5/5; getCompetitiveSummary 0.033/1; getFeaturedOfferExpectedPriceBatch 0.033/1; getItemOffers 0.5/1; getItemOffersBatch 0.1/1; createReport 0.0167/15; getReport 2/15; Data Kiosk createQuery 0.0167/15; Customer Feedback operations 1/10; A+ getContentDocument 10-20 (documentation pages differ).",
+      "pricing": "No API fee in force. The third-party developer fee programme announced in November 2025 (USD 1,400 per year plus GET-call usage tiers) was cancelled; Amazon states it will not move forward with the fees 'at this time'. Secondary reports say sellers and vendors using the API only for their own business were never in scope. A Professional selling account is required for a private seller application (plan price UNVERIFIED).",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Data Kiosk seller analytics: start date no more than two years back. Search Query Performance: maximum monthly reporting period 17 months. Customer Feedback trends: six months. Listing content, issues and prices: current state only.",
+      "competitor_monitoring_permitted": "restricted",
+      "competitor_monitoring_note": "Catalogue and offer data for other sellers' ASINs is technically returned, and Amazon documents repricers that watch competitor prices as an intended use. The agreement provides data 'solely for the purpose of supporting an Authorized User's business with Amazon'; the Acceptable Use Policy forbids retrieving information not necessary for the application, aggregating data across authorised users, and using external data services that vend data retrieved from Amazon's websites. Interpretation requires legal review.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Developer registration with security questionnaire and role approval, per-operation rate limits, asynchronous reports and an audited data-protection policy.",
+      "sources": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/what-is-the-selling-partner-api",
+          "title": "What is the Selling Partner API?",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/store-identifiers",
+          "title": "Store Identifiers",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-23 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/sp-api-endpoints",
+          "title": "SP-API Endpoints",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview",
+          "title": "SP-API Registration Overview",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-private-developer",
+          "title": "Register as a Private SP-API Developer",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-public-developer",
+          "title": "Register as a Public SP-API Developer",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/application-authorization-limits",
+          "title": "Authorization Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/self-authorization",
+          "title": "Authorize Private Applications",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications",
+          "title": "Authorize Applications",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-23 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/roles-in-the-selling-partner-api",
+          "title": "Selling Partner API Roles",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-17 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&locale=en_US",
+          "title": "Acceptable Use Policy (Amazon Services API)",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/mws/static/policy?documentType=DPP&locale=en_US",
+          "title": "Data Protection Policy (Amazon Services API)",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sellercentral.amazon.com/mws/static/agreement?locale=en_US",
+          "title": "Amazon Solution Provider Portal Agreement (incl. API Developer Terms)",
+          "publisher": "Amazon",
+          "published_date": "Version: August 2026",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/usage-plans-and-rate-limits",
+          "title": "Usage Plans and Rate Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/catalog-items-api",
+          "title": "Catalog Items API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/catalog-items-api-rate-limits",
+          "title": "Catalog Items API Rate Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/getcatalogitem",
+          "title": "getCatalogItem — Catalog Items v2022-04-01 reference (OpenAPI definition)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-10 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/search-catalog-items",
+          "title": "Search catalog items",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/listings-items-api",
+          "title": "Listings Items API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/manage-listings-issues",
+          "title": "Manage Listings Issues",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-18 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/getlistingsitem",
+          "title": "getListingsItem — Listings Items v2021-08-01 reference (OpenAPI definition)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-10 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/listings-items-api-rate-limits",
+          "title": "Listings Items API Rate Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-type-definitions-api",
+          "title": "Product Type Definitions API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-type-definitions-api-rate-limits",
+          "title": "Product Type Definitions API Rate Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/a-plus-content-api-use-case-guide",
+          "title": "A+ Content API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/aplus-api-rate-limits",
+          "title": "A+ Content API Rate Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/manage-aplus-content",
+          "title": "Manage A+ content",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api",
+          "title": "Product Pricing API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/pricing-faq",
+          "title": "Product Pricing API and Notifications FAQ",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/getcompetitivesummary",
+          "title": "getCompetitiveSummary — Product Pricing v2022-05-01 reference",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-10 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/getitemoffers",
+          "title": "getItemOffers — Product Pricing v0 reference",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-10 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/getfeaturedofferexpectedpricebatch",
+          "title": "getFeaturedOfferExpectedPriceBatch — Product Pricing v2022-05-01 reference",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-10 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/report-type-values-analytics",
+          "title": "Analytics Reports (report type values)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-18 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/report-type-values-inventory",
+          "title": "Inventory Reports (report type values)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-28 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/data-kiosk-api",
+          "title": "Data Kiosk API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-20 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/createquery",
+          "title": "createQuery — Data Kiosk v2023-11-15 reference",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/seller-analytics-dataset-guide",
+          "title": "Seller Analytics Dataset Use Case Guide",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/customer-feedback-api",
+          "title": "Customer Feedback API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/customer-feedback-api-rate-limits",
+          "title": "Customer Feedback API Rate Limits",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/reference/getitemreviewtopics",
+          "title": "getItemReviewTopics — Customer Feedback v2024-06-01 reference",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-10 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/notification-type-values",
+          "title": "Notification Type Values",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-28 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/sales-api",
+          "title": "Sales API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/llms.txt",
+          "title": "Selling Partner API Documentation — full documentation index (lists every guide, API reference operation and its usage plan)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d. (latest entry: 18 November 2026 release)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/action-items-api",
+          "title": "Action Items API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-28 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.amazonservices.com/cancellation-of-sp-api-fees",
+          "title": "Cancellation of Third-Party Developer Selling Partner API (SP-API) Fees",
+          "publisher": "Amazon (Selling Partner API developer site)",
+          "published_date": "2026-06-11 (page metadata; modified 2026-07-01)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.amazonservices.com/spp-announcement",
+          "title": "Original SP-API fee announcement page ('Important Update') — returned HTTP 404 on the access date",
+          "publisher": "Amazon (Selling Partner API developer site)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ppc.land/amazon-introduces-fees-for-third-party-developer-api-access-in-2026/",
+          "title": "Amazon introduces fees for third-party developer API access in 2026",
+          "publisher": "PPC Land (secondary source)",
+          "published_date": "2025-11-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ppc.land/amazon-drops-sp-api-fees-after-developer-pushback",
+          "title": "Amazon drops SP-API fees after developer pushback",
+          "publisher": "PPC Land (secondary source)",
+          "published_date": "2026-05-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://marketplacepulse.com/articles/amazon-monetizes-the-software-layer-sellers-depend-on",
+          "title": "Amazon Monetizes the Software Layer Sellers Depend On",
+          "publisher": "Marketplace Pulse (secondary source)",
+          "published_date": "2025-11-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.fivetran.com/blog/no-walled-gardens-amazon-reversed-its-seller-partner-api-fees",
+          "title": "No walled gardens: Amazon reversed its Seller Partner API fees",
+          "publisher": "Fivetran (secondary source)",
+          "published_date": "2026-07-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/spp-faq",
+          "title": "Solution Provider Portal FAQ",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sell.amazon.com/blog/brand-registry-roles",
+          "title": "Guide to Brand Registry roles",
+          "publisher": "Amazon (Sell on Amazon blog)",
+          "published_date": "2025-04-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/listings-apis-faq",
+          "title": "Listings APIs FAQ",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-25 (last updated)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Amazon Selling Partner API — vendor (1P) APIs and reports",
+      "provider": "Amazon",
+      "docs_url": "https://developer-docs.amazon.com/sp-api/docs/sp-api-vendor-use-cases",
+      "api_type": "vendor_api",
+      "authentication": "Login with Amazon (OAuth 2.0). Private vendor applications are self-authorised in Vendor Central per vendor group; public applications are authorised by the vendor through OAuth.",
+      "eligibility": "Amazon vendors (Vendor Central account). Private vendor developer registration through Vendor Central, or a public developer authorised by the vendor. The Pricing role is not available to vendors.",
+      "data_available": {
+        "own_listings": [
+          "catalogue management: Catalog Items, Listings Items (incl. issues and procurement details), Product Type Definitions",
+          "A+ content",
+          "retail procurement orders, shipments, invoices; direct fulfilment",
+          "vendor retail analytics reports: sales, traffic (glance views), inventory, forecasting, net pure product margin, hourly rapid retail analytics",
+          "Brand Analytics reports for vendors: Market Basket, Amazon Search Terms, Repeat Purchase",
+          "Data Kiosk Vendor Analytics: sourcing view and manufacturing view; customer reviews and return topics; inventory; forecasts",
+          "Customer Feedback API (Brand Analytics role)",
+          "notifications: listing issues change, product type definitions change, hourly detail-page traffic"
+        ],
+        "competitor_listings": [
+          "catalogue facts and sales rank for any ASIN (Catalog Items API)",
+          "most-clicked ASINs per search term (Amazon Search Terms report)",
+          "NOT available: Product Pricing API (sellers only), ratings, review text"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "No quality score in the vendor APIs or reports listed in the documentation."
+      },
+      "limitations": "Product Pricing API and Sales API are not available to vendors. Data Kiosk manufacturing view requires the vendor group to be the manufacturer; a distributor that is the vendor sees the sourcing view only.",
+      "rate_limits": "Same usage-plan model as seller APIs. Reports createReport 0.0167 requests per second (burst 15); Data Kiosk createQuery 0.0167 (burst 15).",
+      "pricing": "No API fee in force (fee programme cancelled).",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Vendor sales, traffic, margin and inventory reports: daily data back 1,460 days, weekly 7 weeks, monthly 36 months, quarterly 8 quarters, yearly 3 years. Data Kiosk inventory snapshots: weekly 8 weeks, monthly 24 months.",
+      "competitor_monitoring_permitted": "restricted",
+      "competitor_monitoring_note": "Same agreement and policies as the seller API; no offer-level competitor pricing for vendors.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Same registration and policy burden as the seller API, plus vendor-group authorisation.",
+      "sources": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/sp-api-vendor-use-cases",
+          "title": "SP-API Vendor Use Cases",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-16 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-private-vendor",
+          "title": "Register as a Private SP-API Vendor",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/roles-in-the-selling-partner-api",
+          "title": "Selling Partner API Roles",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-17 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/report-type-values-analytics",
+          "title": "Analytics Reports (report type values)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-11-18 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/vendor-analytics-dataset-guide",
+          "title": "Vendor Analytics Dataset Use Case Guide",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/data-kiosk-api",
+          "title": "Data Kiosk API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-20 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api",
+          "title": "Product Pricing API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/sales-api",
+          "title": "Sales API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/notification-type-values",
+          "title": "Notification Type Values",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-28 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/customer-feedback-api",
+          "title": "Customer Feedback API",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-09-09 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/llms.txt",
+          "title": "Selling Partner API Documentation — full documentation index (lists every guide, API reference operation and its usage plan)",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d. (latest entry: 18 November 2026 release)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/store-identifiers",
+          "title": "Store Identifiers",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "2026-10-23 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.amazonservices.com/cancellation-of-sp-api-fees",
+          "title": "Cancellation of Third-Party Developer Selling Partner API (SP-API) Fees",
+          "publisher": "Amazon (Selling Partner API developer site)",
+          "published_date": "2026-06-11 (page metadata; modified 2026-07-01)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Amazon Product Advertising API 5.0 (PA-API 5) — deprecated",
+      "provider": "Amazon Associates",
+      "docs_url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/paapiv5-deprecation",
+      "api_type": "affiliate_api",
+      "authentication": "No longer applicable: calls return HTTP 403 with the message 'Product Advertising API is deprecated'.",
+      "eligibility": "None. Replaced by the Creators API.",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "API is switched off."
+      },
+      "limitations": "Deprecated; existing integrations must migrate to the Creators API.",
+      "rate_limits": "Not applicable.",
+      "pricing": "Not applicable.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "no",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "None.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "API no longer serves requests.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Nothing to integrate; listed only to record its status.",
+      "sources": [
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/paapiv5-deprecation",
+          "title": "PA-API 5 Deprecation Notice",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Amazon Creators API (successor to PA-API 5)",
+      "provider": "Amazon Associates",
+      "docs_url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/introduction",
+      "api_type": "affiliate_api",
+      "authentication": "OAuth 2.0 client-credentials flow (application credentials exchanged for an access token) plus a Partner Tag on each request.",
+      "eligibility": "Amazon Associates accepted into the programme for the target marketplace, with at least 10 qualifying sales in the past 30 days. Access is lost after 30 consecutive days without qualified referred sales. Only the primary account owner can sign up.",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": [
+          "any product: title, features (bullets), brand/manufacturer info, classifications, external identifiers, technical and product info",
+          "images (primary and variants)",
+          "browse nodes and sales rank",
+          "offers: price, availability, condition, Buy Box winner flag, merchant info, deal details",
+          "parent ASIN and variations",
+          "NOT available: customer rating or review resources"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "No quality score among the documented resources."
+      },
+      "limitations": "Licence restricts use to applications whose principal purpose is advertising an Amazon site and sending sales to it; no aggregation, analysis or use in software for Amazon sellers without written approval; non-image content may be cached for 24 hours only. No South Africa locale.",
+      "rate_limits": "Initial 1 request per second and 8,640 per day for 30 days; then one daily request per USD 0.05 and one request per second (max ten) per USD 4,320 of shipped revenue from the previous 30 days. Up to 10 items per GetItems call.",
+      "pricing": "No fee stated; access depends on generating affiliate sales.",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "no",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "None; 24-hour cache limit.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Associates Program IP License: no use 'for the purpose of aggregating, analyzing, extracting, or repurposing any Product Advertising Content or in connection with any software or other application intended for use by persons or entities that offer products on an Amazon Site' without express prior written approval.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Four read operations, but the permitted use does not fit a monitoring engine.",
+      "sources": [
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/paapiv5-deprecation",
+          "title": "PA-API 5 Deprecation Notice",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/introduction",
+          "title": "Welcome to Creators API (Introduction)",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/onboarding/register-for-creators-api",
+          "title": "Register for Creators API",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates",
+          "title": "API Rates",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/locale-reference",
+          "title": "Locale Reference for Product Advertising API",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/api-reference/operations/get-items",
+          "title": "GetItems (operation reference)",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/creatorsapi/docs/en-us/frequently-asked-questions",
+          "title": "Frequently Asked Questions (Creators API)",
+          "publisher": "Amazon Associates (Creators API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://affiliate-program.amazon.com/help/operating/policies/",
+          "title": "Associates Program Policies — Associates Program IP License and Usage Requirements",
+          "publisher": "Amazon Associates",
+          "published_date": "Updated: April 14, 2026",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Amazon Ads API",
+      "provider": "Amazon Ads",
+      "docs_url": "https://advertising.amazon.com/API/docs/en-us/reference/api-overview",
+      "api_type": "advertising_api",
+      "authentication": "Login with Amazon client application, access token granted by a user managing the advertising account, and a profile identifier per marketplace.",
+      "eligibility": "Direct advertisers, partners and integrators may apply; partners apply through the Amazon Ads Partner Network. Approval may take up to one business day. Brand Metrics (open beta): professional sellers enrolled in Brand Registry and vendors in US, CA, MX, UK, DE, FR, IN, IT, ES, JP, AU.",
+      "data_available": {
+        "own_listings": [
+          "campaign, ad group, ad and keyword performance for own advertising",
+          "Brand Metrics: awareness and consideration indices compared with peers, shopping engagements, return on engagement"
+        ],
+        "competitor_listings": [
+          "none at listing level (peer comparison is an index)"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Advertising and brand metrics only."
+      },
+      "limitations": "Brand Metrics covers only US, UK and India among the nine markets. Share-of-voice reports and rate limits were not confirmed today (UNVERIFIED).",
+      "rate_limits": "UNVERIFIED (not captured).",
+      "pricing": "No API fee stated in the onboarding documentation; the client application is free to create.",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "UNVERIFIED.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "No competitor listing data is exposed.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Separate approval and credentials from SP-API; asynchronous reporting.",
+      "sources": [
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/guides/onboarding/overview",
+          "title": "Amazon Ads API onboarding overview",
+          "publisher": "Amazon Ads (Advanced Tools Center)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/guides/get-started/overview",
+          "title": "Getting started with the Amazon Ads API",
+          "publisher": "Amazon Ads (Advanced Tools Center)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access",
+          "title": "Apply for Amazon Ads API access",
+          "publisher": "Amazon Ads (Advanced Tools Center)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/reference/api-overview",
+          "title": "Amazon Ads API overview (use cases and regional endpoints)",
+          "publisher": "Amazon Ads (Advanced Tools Center)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/guides/reporting/brand-metrics/overview",
+          "title": "Brand Metrics API open beta overview",
+          "publisher": "Amazon Ads (Advanced Tools Center)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Walmart Marketplace APIs (US third-party sellers)",
+      "provider": "Walmart",
+      "docs_url": "https://developer.walmart.com/us-marketplace",
+      "api_type": "marketplace_seller_api",
+      "authentication": "OAuth 2.0: Client ID and Client Secret exchanged at the Token API for an access token valid 15 minutes, sent in the WM_SEC.ACCESS_TOKEN header. Solution providers use the OAuth authorisation flow approved by the seller; Delegated Access keys stop working after 30 April 2027.",
+      "eligibility": "Approved Walmart Marketplace sellers for their own account, or approved Solution Providers (application, review, demo and App Store listing; three to five weeks).",
+      "data_available": {
+        "own_listings": [
+          "items (content and attributes), inventory, prices, promotions, orders, reports",
+          "Listing Quality: seller score and component scores; item quality score, content and discoverability issues per attribute, offer issues, post-purchase issues, rating count",
+          "unpublished items with reason codes",
+          "pricing insights: current price, Buy Box price, competitor price, price competitiveness, Buy Box win rate",
+          "Buy Box insights report",
+          "search query report: impression share, click share, add-to-cart share per search term",
+          "item performance: page views, conversion rate, orders, GMV"
+        ],
+        "competitor_listings": [
+          "Item Search API over the published Walmart catalogue by keyword, UPC, GTIN, EAN or ISBN: itemId, title, brand, price, images, condition (documented purpose: item set-up)",
+          "competitor price and URL shown against own items in Listing Quality details",
+          "NOT available: competitor ratings, reviews, quality scores"
+        ]
+      },
+      "official_quality_score": {
+        "available": "yes",
+        "name": "Listing Quality score",
+        "note": "Seller level: GET /v3/insights/items/listingQuality/score (listingQuality 0-100, offerScore, contentScore, ratingReviewScore, priceScore, shippingScore, transactibilityScore, post-purchase counts). Item level: POST /v3/insights/items/listingQuality/items. Report types LISTING_QUALITY and CONTENT_QUALITY. Categories: Content, Discoverability, Offer, Ratings & Reviews."
+      },
+      "limitations": "Item-level quality endpoint limited to one call per minute. Scores are calculated daily. The 'Reviews API' manages the paid Review Accelerator Program and returns no review text. API terms of use not reviewed (UNVERIFIED).",
+      "rate_limits": "Token bucket per seller. Seller Listing Quality Score 10/hour; Item Listing Quality Details 1/min; Unpublished Items 100/min; All items 300/min; An item 900/min; Item Search 200/min (1,000/day in spec format); Pricing Insights 2/min; report request status 20/hour.",
+      "pricing": "No API fee stated in the documentation retrieved. Review Accelerator Program is a paid programme.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "yes",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Listing Quality report accepts a snapshot date up to the previous two years; item details include historical quality score trends.",
+      "competitor_monitoring_permitted": "restricted",
+      "competitor_monitoring_note": "Catalogue search is documented for deciding the item set-up path, not for monitoring; terms of use not reviewed.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Simple key-based access for own account; many report types; tight limits on quality endpoints.",
+      "sources": [
+        {
+          "url": "https://developer.walmart.com/",
+          "title": "Walmart Developer Portal — home (Marketplace Partners, 1P Suppliers, Advertising Partners)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/introduction-to-marketplace-apis",
+          "title": "Introduction to Walmart Marketplace APIs",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-11-13 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/authentication-authorization",
+          "title": "Authentication & authorization",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/get-started-as-a-seller",
+          "title": "Get started as a seller",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-11-13 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/get-started-as-a-solution-provider",
+          "title": "Get started as an approved Solution Provider",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-11-05 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/insights-api-overview",
+          "title": "Insights API overview",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-04-12 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/get-sellers-listing-quality-score",
+          "title": "Retrieve Listing Quality score",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-04-12 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/reference/itemsdetailsforlisting",
+          "title": "Item Listing Quality Details (API reference)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-06-04 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/monitor-item-listing-quality",
+          "title": "Monitor item listing quality",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-11-13 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/request-an-item-listing-quality-report",
+          "title": "Request an item listing quality report",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-08-17 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/request-a-content-quality-report",
+          "title": "Request a content quality report",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-08-18 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/reviews-api-overview",
+          "title": "Reviews API overview",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-06-08 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/item-search-for-the-walmart-catalog",
+          "title": "Item search for the Walmart catalog",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-10-22 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/get-pricing-insights",
+          "title": "Get pricing insights",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-06-08 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/request-a-buy-box-insights-report",
+          "title": "Request a Buy Box insights report",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-08-20 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/request-a-search-insights-sqr-report",
+          "title": "Request a search insights SQR report",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-08-20 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace/docs/rate-limiting",
+          "title": "Rate limiting",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-11-20 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/global-marketplace",
+          "title": "Global Marketplace portal (Canada, Mexico and Chile APIs)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Walmart 1P Supplier APIs",
+      "provider": "Walmart",
+      "docs_url": "https://developer.walmart.com/suppliers",
+      "api_type": "vendor_api",
+      "authentication": "API credentials issued in the Developer Portal for the supplier account ('1P Supplier (US)'); OAuth access token in the WM_SEC.ACCESS_TOKEN header.",
+      "eligibility": "Registered Walmart first-party suppliers, including drop ship vendors, warehouse and import suppliers.",
+      "data_available": {
+        "own_listings": [
+          "item set-up and maintenance feeds, product-type taxonomy and specifications, item catalogue",
+          "PRODUCT_CONTENT_DATA report: product name, brand, main image, site description, product type, offer published status and unpublished reasons, selling price, 1P Buy Box winner flag, customer rating, number of reviews, Content Quality Score, content insights",
+          "other reports: DSV_ORDERS, INVENTORY_DSV, INVOICES, ITEM_CONFIGURATION_DATA, VENDOR_MANAGED_PRICING",
+          "orders, inventory, lag time, EPCIS events"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "yes",
+        "name": "Content Quality Score",
+        "note": "Delivered in the PRODUCT_CONTENT_DATA on-request report on a 0-to-1 scale, refreshed every 24 hours, with insights on product name, key features, images and site description."
+      },
+      "limitations": "Report-based and asynchronous. The Marketplace Listing Quality APIs are documented for Marketplace sellers, not suppliers. Supplier One and Retail Link are web tools; 'Item 360' could not be confirmed in a public official page (UNVERIFIED).",
+      "rate_limits": "One report per report type per hour; reports take 15-45 minutes and are kept 30 days. Synchronous: GET v3/items 1,500/min; token 100/hour.",
+      "pricing": "No API fee stated in the documentation retrieved.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "yes",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Reports are point-in-time; retained 30 days.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "No competitor data documented.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Asynchronous report and feed workflows.",
+      "sources": [
+        {
+          "url": "https://developer.walmart.com/",
+          "title": "Walmart Developer Portal — home (Marketplace Partners, 1P Suppliers, Advertising Partners)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/suppliers",
+          "title": "1P Supplier — developer portal home (Feeds, Items, Order management, EPCIS, Drop Ship Vendor APIs)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/suppliers/docs/get-started",
+          "title": "Introduction to Walmart supplier APIs",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-04-12 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/suppliers/docs/item-management-api-overview",
+          "title": "Item Management API overview (1P suppliers)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-09-24 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/suppliers/docs/on-request-reports-api-overview",
+          "title": "On Request Reports API overview (1P suppliers)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-10-06 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/suppliers/docs/item-report-product-content-data",
+          "title": "Item product content data report (1P suppliers)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-04-12 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/suppliers/docs/sync-api-throttling-limits",
+          "title": "Synchronous API throttling limits (1P suppliers)",
+          "publisher": "Walmart (Developer Portal)",
+          "published_date": "2026-04-12 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://corporate.walmart.com/suppliers",
+          "title": "Suppliers",
+          "publisher": "Walmart Inc. (corporate site)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Walmart Data Ventures — Scintilla data access (Cloud Feeds, BI Link)",
+      "provider": "Walmart Data Ventures",
+      "docs_url": "https://www.walmartdataventures.com/content/walmartdataventures/en_us/data-access-and-collaboration.html",
+      "api_type": "other",
+      "authentication": "Not publicly documented",
+      "eligibility": "Walmart suppliers subscribing to Scintilla (formerly Walmart Luminate; renamed in 2025). Terms not public.",
+      "data_available": {
+        "own_listings": [
+          "Walmart first-party retail and operational data delivered through Cloud Feeds (cloud-to-cloud, weekly/daily/hourly), BI Link and a Developer Portal"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Not described on the public page."
+      },
+      "limitations": "Public page is marketing-level; data fields, contract terms and prices are not published.",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented (subscription).",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "yes",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not described publicly.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Cloud data-sharing set-up under a commercial subscription.",
+      "sources": [
+        {
+          "url": "https://www.walmartdataventures.com/content/walmartdataventures/en_us/data-access-and-collaboration.html",
+          "title": "Data Access & Collaboration (Scintilla)",
+          "publisher": "Walmart Data Ventures",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.walmartdataventures.com/content/walmartdataventures/en_us/insights/articles/introducing-scintilla-walmart-luminate-will-have-a-new-name-in-2025.html",
+          "title": "Introducing Scintilla: Walmart Luminate will have a new name in 2025",
+          "publisher": "Walmart Data Ventures",
+          "published_date": "2024-10-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://corporate.walmart.com/suppliers",
+          "title": "Suppliers",
+          "publisher": "Walmart Inc. (corporate site)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "noon Partners developer API",
+      "provider": "noon",
+      "docs_url": "https://developer.noon.partners/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Not publicly documented",
+      "eligibility": "Not publicly documented. developer.noon.partners redirects to the partner login page.",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Documentation is not public."
+      },
+      "limitations": "No public documentation could be retrieved: the developer address redirects to a login, docs.noon.partners returned HTTP 418, and the Seller Help Center content could not be read. Existence and scope of the API are UNVERIFIED.",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not publicly documented.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Scope unknown; access must be negotiated with noon before design can start.",
+      "sources": [
+        {
+          "url": "https://developer.noon.partners/",
+          "title": "noon Partners developer portal — redirects to the partner login page",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.noon.partners/",
+          "title": "docs.noon.partners — returned HTTP 418 to an automated request",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://helpcenter.noon.partners/",
+          "title": "Noon Seller Help Center — JavaScript application; article content could not be retrieved",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Google Merchant API (Merchant Center)",
+      "provider": "Google",
+      "docs_url": "https://developers.google.com/merchant/api/overview",
+      "api_type": "merchant_feed_api",
+      "authentication": "OAuth 2.0 client or service account; Merchant Center account linked to a Google Cloud project through Developer Registration.",
+      "eligibility": "A business with a Merchant Center account (retailer owning the product domain or selling on a marketplace). Reports only for standalone accounts and individual sub-accounts. Market insights require the account to meet minimum eligibility requirements (not specified on the page). Competitor insights are not available to marketplace sellers and multi-client accounts. Price benchmarks need valid GTINs.",
+      "data_available": {
+        "own_listings": [
+          "products, inventories, data sources, product status and issues, notifications",
+          "performance reports for own products",
+          "price competitiveness: own price versus benchmark price",
+          "sale price suggestions",
+          "product reviews upload (Product ratings programme)"
+        ],
+        "competitor_listings": [
+          "best sellers: top products and brands on Google by category and country with rank, relative demand, title, brand, GTINs",
+          "competitive visibility: other merchants' domains with rank, ads/organic ratio, page overlap rate, higher position rate, relative visibility",
+          "benchmark price for products the account also sells",
+          "NOT available: competitor listings, content, ratings or reviews"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "No listing-quality score found in the pages retrieved; the API reports product issues and status."
+      },
+      "limitations": "Aggregated benchmarks only. Only the latest prices are available at a given time. Popular-products data not available for Kenya, Nigeria or Malaysia. Content API for Shopping was sunset on 18 August 2026.",
+      "rate_limits": "Quota groups with daily and per-minute limits readable through quotas.list; values vary by method; products can be updated up to twice per day by default; quotas may change without notice.",
+      "pricing": "No fee stated in the Merchant API documentation retrieved.",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "yes",
+        "NG": "yes",
+        "MY": "yes"
+      },
+      "historical_data": "Best-seller reports are queried by report date; popular-products data is updated weekly; price benchmarks show latest values only.",
+      "competitor_monitoring_permitted": "restricted",
+      "competitor_monitoring_note": "Market data is 'only available for the internal use of the retailer or those acting on the retailer's behalf' and 'can't be resold, publicly displayed, advertised, or aggregated across businesses'.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Standard Google authentication and a report query language; requires own Merchant Center account with GTIN-bearing products.",
+      "sources": [
+        {
+          "url": "https://developers.google.com/merchant/api/overview",
+          "title": "Overview of Merchant API",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/merchant/api/guides/compatibility/overview",
+          "title": "Migrate from Content API for Shopping to Merchant API",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/merchant/api/guides/reports/overview",
+          "title": "Merchant Reports API",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/merchant/api/guides/reports/understand-the-market",
+          "title": "Understand the market",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/merchant/api/guides/reports/explore-competitive-landscape",
+          "title": "Explore your competitive landscape",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/merchant/api/guides/quotas-limits/quotas",
+          "title": "Quotas",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/merchant/api/guides/reviews/products",
+          "title": "Review products using Merchant API",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-11-17 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://support.google.com/merchants/answer/13299535",
+          "title": "About Popular products in Merchant Center Analytics",
+          "publisher": "Google (Merchant Center Help)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://support.google.com/merchants/answer/13798101",
+          "title": "About Pricing in Merchant Center Analytics",
+          "publisher": "Google (Merchant Center Help)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://support.google.com/merchants/answer/13773303",
+          "title": "About Competitors in Merchant Center Analytics",
+          "publisher": "Google (Merchant Center Help)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://support.google.com/merchants/answer/160173",
+          "title": "Terms of Service (Merchant Center, by country)",
+          "publisher": "Google (Merchant Center Help)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Google Content API for Shopping (sunset)",
+      "provider": "Google",
+      "docs_url": "https://developers.google.com/shopping-content/guides/quickstart",
+      "api_type": "merchant_feed_api",
+      "authentication": "Not applicable for new work.",
+      "eligibility": "None for new integrations.",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "API sunset."
+      },
+      "limitations": "Google's notice: 'Content API for Shopping was sunset on August 18, 2026.' and 'Starting September 1, 2026, Content API for Shopping requests will experience progressive errors.' Use the Merchant API.",
+      "rate_limits": "Not applicable.",
+      "pricing": "Not applicable.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "no",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Not applicable.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "API sunset.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Nothing to integrate; listed to record the sunset date.",
+      "sources": [
+        {
+          "url": "https://developers.google.com/merchant/api/guides/compatibility/overview",
+          "title": "Migrate from Content API for Shopping to Merchant API",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-10-26 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/shopping-content/guides/quickstart",
+          "title": "Get started — Content API for Shopping (Deprecated)",
+          "publisher": "Google (Content API for Shopping documentation)",
+          "published_date": "2026-07-06 (last updated)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "GS1 GTIN rules (GS1 General Specifications)",
+      "provider": "GS1",
+      "docs_url": "https://ref.gs1.org/standards/genspecs/",
+      "api_type": "product_identity",
+      "authentication": "None (public standard).",
+      "eligibility": "Public.",
+      "data_available": {
+        "own_listings": [
+          "GTIN-8/12/13/14 structure (prefix, item reference, check digit); modulo-10 check-digit algorithm with alternating weights 3 and 1"
+        ],
+        "competitor_listings": [
+          "same rules apply to any GTIN"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Standard, not a scoring service."
+      },
+      "limitations": "A valid check digit shows the number is well formed, not that GS1 issued it or who owns it.",
+      "rate_limits": "Not applicable (implemented in-house).",
+      "pricing": "Standard is freely downloadable.",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "yes",
+        "NG": "yes",
+        "MY": "yes"
+      },
+      "historical_data": "Not applicable.",
+      "competitor_monitoring_permitted": "yes",
+      "competitor_monitoring_note": "Check-digit validation is a calculation on any barcode number.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "A few lines of arithmetic.",
+      "sources": [
+        {
+          "url": "https://ref.gs1.org/standards/genspecs/",
+          "title": "GS1 General Specifications Standard, Release 26.0 (sections 1, 3.3.2 and 7.9)",
+          "publisher": "GS1 AISBL",
+          "published_date": "2026-01 (Ratified, Jan 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.gs1.org/services/how-calculate-check-digit-manually",
+          "title": "How to calculate a check digit manually",
+          "publisher": "GS1",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.gs1.org/standards/id-keys/gtin",
+          "title": "Global Trade Item Number (GTIN)",
+          "publisher": "GS1",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Verified by GS1",
+      "provider": "GS1 (through local Member Organisations)",
+      "docs_url": "https://www.gs1.org/services/verified-by-gs1",
+      "api_type": "product_identity",
+      "authentication": "Public web page for single look-ups. Batch and API access: Not publicly documented (arranged with the local GS1 Member Organisation).",
+      "eligibility": "Anyone for single look-ups; enterprise batch/API access by arrangement with the local GS1 office.",
+      "data_available": {
+        "own_listings": [
+          "company that licensed the number; core product information supplied by the brand owner; links to other data sources"
+        ],
+        "competitor_listings": [
+          "company that licensed any GTIN; core product information where the owner uploaded it"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Identity verification, not a quality score."
+      },
+      "limitations": "Product data exists only where the brand owner uploaded it through its Member Organisation. API terms, limits and prices are not published on gs1.org. Terms of use not reviewed (UNVERIFIED).",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented; batch and API access is offered by each Member Organisation.",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "yes",
+        "NG": "yes",
+        "MY": "yes"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "yes",
+      "competitor_monitoring_note": "Looking up the licensing company of any GTIN is the stated purpose of the service; commercial API terms are set by the Member Organisation.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Requires a contract with a GS1 Member Organisation before API access.",
+      "sources": [
+        {
+          "url": "https://www.gs1.org/services/verified-by-gs1",
+          "title": "Verified by GS1",
+          "publisher": "GS1",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.gs1.org/contact/overview",
+          "title": "Contact Overview (list of GS1 Member Organisations)",
+          "publisher": "GS1",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.gs1.org/locations/united-arab-emirates",
+          "title": "GS1 local office pages — retrieved for United Arab Emirates, Saudi Arabia, South Africa, India, Kenya, Nigeria, Malaysia, United Kingdom and United States (same URL pattern /locations/<country>)",
+          "publisher": "GS1",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "GS1 GDSN (Global Data Synchronisation Network)",
+      "provider": "GS1 (certified data pools)",
+      "docs_url": "https://www.gs1.org/services/gdsn",
+      "api_type": "product_identity",
+      "authentication": "Through a certified GS1 GDSN data pool (details set by the data pool).",
+      "eligibility": "Any company that subscribes to a certified data pool.",
+      "data_available": {
+        "own_listings": [
+          "outbound channel: product master data shared automatically with subscribing trading partners"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Data synchronisation network."
+      },
+      "limitations": "Not a source of marketplace or competitor data. Data-pool costs not on the GS1 page (UNVERIFIED).",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented on the GS1 page (data-pool subscription).",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not applicable.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Trading partners receive only data published to them.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Onboarding with a data pool and mapping to the GS1 data model.",
+      "sources": [
+        {
+          "url": "https://www.gs1.org/services/gdsn",
+          "title": "GS1 Global Data Synchronisation Network (GS1 GDSN)",
+          "publisher": "GS1",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "GS1 Digital Link (standard)",
+      "provider": "GS1",
+      "docs_url": "https://ref.gs1.org/standards/digital-link/",
+      "api_type": "product_identity",
+      "authentication": "None (public standard).",
+      "eligibility": "Public.",
+      "data_available": {
+        "own_listings": [
+          "web-address form of a GTIN, e.g. https://id.gs1.org/01/09520123456788, resolvable to multiple information sources"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Encoding and linking standard."
+      },
+      "limitations": "A standard, not a data API. URI Syntax release 1.7.0 ratified August 2026.",
+      "rate_limits": "Not applicable.",
+      "pricing": "Standard is public.",
+      "country_availability": {
+        "AE": "yes",
+        "SA": "yes",
+        "ZA": "yes",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "yes",
+        "KE": "yes",
+        "NG": "yes",
+        "MY": "yes"
+      },
+      "historical_data": "Not applicable.",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not a data source in itself.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "String formatting of identifiers; resolver set-up is optional.",
+      "sources": [
+        {
+          "url": "https://ref.gs1.org/standards/digital-link/uri-syntax/",
+          "title": "GS1 Digital Link Standard: URI Syntax, Release 1.7.0",
+          "publisher": "GS1 AISBL",
+          "published_date": "2026-08 (Ratified Aug 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ref.gs1.org/standards/digital-link/",
+          "title": "GS1 Digital Link (standards overview)",
+          "publisher": "GS1 AISBL",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Takealot Seller API",
+      "provider": "Takealot",
+      "docs_url": "https://seller-api.takealot.com/api-docs/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "API key generated in the Seller Portal, sent in an Authorization header on each request.",
+      "eligibility": "Takealot sellers (seller of record).",
+      "data_available": {
+        "own_listings": [
+          "offers: offer id, SKU, barcode, title, selling price, RRP, lead time, status, offer URL, discount",
+          "stock at Takealot and on the way, stock cover, stock-health statistics",
+          "sales units, sales, sales summary, sales orders, customer invoices",
+          "catalogue_quality_score (integer on each offer; no description)"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "yes",
+        "name": "catalogue_quality_score",
+        "note": "Field present in the V2Offer model of the public API definition without description, scale or method (UNVERIFIED meaning). A larger definition at /swagger.json lists 'Data Quality' operations; whether API keys may call them is UNVERIFIED."
+      },
+      "limitations": "Documented API covers offers, stock and sales only; no content management, ratings or reviews. Country (South Africa) is not stated in the definition. Numeric rate limits not published.",
+      "rate_limits": "Not publicly documented as numbers; responses carry x-RateLimit-Limit, x-RateLimit-Remaining and x-RateLimit-Reset headers. Page size max 100 offers.",
+      "pricing": "No fee stated in the API definition.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "yes",
+        "US": "no",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Sales endpoints accept filters (not examined in detail); offers are current state.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Documented operations return the authenticated seller's own offers and sales only.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Small REST API with a single API key.",
+      "sources": [
+        {
+          "url": "https://seller-api.takealot.com/api-docs/",
+          "title": "Takealot Seller API v2.0 — public Swagger UI and its definition (/api-docs/swagger.json)",
+          "publisher": "Takealot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://seller-api.takealot.com/swagger.json",
+          "title": "Takealot Seller API — broader API definition served at /swagger.json (588 path entries)",
+          "publisher": "Takealot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Jumia Vendor Center API",
+      "provider": "Jumia",
+      "docs_url": "https://vendorcenter.jumia.com/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Not publicly documented",
+      "eligibility": "Not publicly documented",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "No public documentation retrieved."
+      },
+      "limitations": "Vendor Center opens on a sign-in page; vendor-api.jumia.com answers as an API gateway but no documentation route was found; the Nigerian vendor education site returned no API documentation. Existence and scope of a vendor API are UNVERIFIED.",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not publicly documented.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Scope unknown; must be confirmed with Jumia vendor support.",
+      "sources": [
+        {
+          "url": "https://vendorcenter.jumia.com/",
+          "title": "Jumia | Vendor Center (web application that opens on a sign-in page)",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://vendor-api.jumia.com/",
+          "title": "vendor-api.jumia.com — API gateway host; no public documentation route found",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://vendorhub.jumia.com.ng/",
+          "title": "Jumia VendorHub NG (vendor education site; a Kenyan equivalent exists at vendorhub.jumia.co.ke)",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Flipkart Marketplace Seller API (v3.0)",
+      "provider": "Flipkart",
+      "docs_url": "https://seller.flipkart.com/api-docs/FMSAPI.html",
+      "api_type": "marketplace_seller_api",
+      "authentication": "OAuth: client-credentials flow for a seller's self-access application; authorisation-code flow for third-party (partner) applications. Access tokens expire after about 60 days.",
+      "eligibility": "Registered Flipkart sellers (self-access application created in Seller Dashboard > Manage Profile > Developer Access) and verified API partners/aggregators. Self-access credentials must not be shared with third parties.",
+      "data_available": {
+        "own_listings": [
+          "listing creation and attributes; selling price, MRP, shipping fees; stock per location; procurement SLA; listing status",
+          "orders, shipments, labels and invoices",
+          "reports"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "No rating, review or score fields in the listing reference."
+      },
+      "limitations": "Documentation footer dated 2017; rate limits not stated on the pages retrieved; no ratings or reviews.",
+      "rate_limits": "Not stated on the pages retrieved.",
+      "pricing": "No fee stated.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "no",
+        "GB": "no",
+        "IN": "yes",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Not documented on the pages retrieved.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Seller-scoped listing, order and report data only.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Standard OAuth; older documentation; listing and order workflows.",
+      "sources": [
+        {
+          "url": "https://seller.flipkart.com/api-docs/FMSAPI.html",
+          "title": "Flipkart Marketplace Seller APIs — Developer API v3.0 documentation",
+          "publisher": "Flipkart",
+          "published_date": "n.d. (page footer: Copyright 2017)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://seller.flipkart.com/api-docs/listing-api-docs/LMAPIRef.html",
+          "title": "Listing Management API Reference For Flipkart Marketplace",
+          "publisher": "Flipkart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://seller.flipkart.com/api-docs/listing-api-docs/LMAPIOverview.html",
+          "title": "Listing Management API (overview)",
+          "publisher": "Flipkart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Shopee Open Platform (Open API v2)",
+      "provider": "Shopee",
+      "docs_url": "https://open.shopee.com/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Signed requests with partner_id, shop_id, access_token and timestamp; shops authorise the application.",
+      "eligibility": "Software service providers and sellers with software development capabilities; available in all Shopee markets.",
+      "data_available": {
+        "own_listings": [
+          "product base info and attributes, price, stock, variations",
+          "item extra info: sales, views, likes, rating_star, comment_count",
+          "comments (review text, star rating, media, seller reply): up to 1,000 per query, at most 500 through Open API",
+          "content diagnosis: quality level, issue types, system suggestions",
+          "account health: shop performance, listings with issues, penalty points",
+          "orders, logistics, returns, ads"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "yes",
+        "name": "Content quality level (v2.product.get_item_content_diagnosis_result)",
+        "note": "Levels TO_BE_IMPROVED, QUALIFIED, EXCELLENT with issue types (too few images, wrong category, too few attributes, missing brand, short description, name length, etc.); up to 48 items per call."
+      },
+      "limitations": "Data limited to shops that authorised the application. Buy Box operations are Brazil-only. Rate limits not captured (UNVERIFIED).",
+      "rate_limits": "UNVERIFIED (not captured).",
+      "pricing": "No fee stated on the pages retrieved.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "no",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "yes"
+      },
+      "historical_data": "Comments paged up to the stated caps; other data is current state.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Calls are scoped to an authorised shop_id.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Request signing and shop authorisation; broad API surface.",
+      "sources": [
+        {
+          "url": "https://open.shopee.com/developer-guide/4",
+          "title": "Developer Guide — Introduction (What is Shopee Open Platform?)",
+          "publisher": "Shopee Open Platform",
+          "published_date": "2024-11-11 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.shopee.com/documents/v2/v2.product.get_item_base_info?module=89&type=1",
+          "title": "API reference — v2.product.get_item_base_info (with the full API module list)",
+          "publisher": "Shopee Open Platform",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.shopee.com/documents/v2/v2.product.get_item_content_diagnosis_result?module=89&type=1",
+          "title": "API reference — v2.product.get_item_content_diagnosis_result",
+          "publisher": "Shopee Open Platform",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.shopee.com/documents/v2/v2.product.get_comment?module=89&type=1",
+          "title": "API reference — v2.product.get_comment",
+          "publisher": "Shopee Open Platform",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.shopee.com/documents/v2/v2.product.get_item_extra_info?module=89&type=1",
+          "title": "API reference — v2.product.get_item_extra_info",
+          "publisher": "Shopee Open Platform",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Lazada Open Platform",
+      "provider": "Lazada",
+      "docs_url": "https://open.lazada.com/apps/doc/doc",
+      "api_type": "marketplace_seller_api",
+      "authentication": "app_key, seller access_token and HMAC signature on each call.",
+      "eligibility": "Applications registered on Lazada Open Platform and authorised by a seller.",
+      "data_available": {
+        "own_listings": [
+          "products and attributes, price and quantity",
+          "product content score with per-area indicators",
+          "QC alert products and unfilled attributes",
+          "reviews: review id list for the last 3 months (7 days per request), review list by ids, seller reply",
+          "orders, returns, finance, logistics, sponsored solutions"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "yes",
+        "name": "Product content score (GetProductContentScore, /product/content/score/get)",
+        "note": "Returns score, total and items with indicators such as title length and image findings."
+      },
+      "limitations": "Reviews limited to the last 90 days and 7 days per request. Numeric rate limits not on the pages retrieved. Star-rating fields not verified.",
+      "rate_limits": "API-level QPS limiting (error 901); numbers not stated on the pages retrieved.",
+      "pricing": "No fee stated on the pages retrieved.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "no",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "yes"
+      },
+      "historical_data": "Reviews: last 3 months.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Operations are marked 'Authorization Required' and act on the authorised seller.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Request signing, per-country endpoints, seller authorisation.",
+      "sources": [
+        {
+          "url": "https://open.lazada.com/apps/doc/api?path=%2Fproducts%2Fget",
+          "title": "API reference — GetProducts (with the API category list)",
+          "publisher": "Lazada Open Platform",
+          "published_date": "2022-07-28 (latest update)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.lazada.com/apps/doc/api?path=%2Fproduct%2Fcontent%2Fscore%2Fget",
+          "title": "API reference — GetProductContentScore",
+          "publisher": "Lazada Open Platform",
+          "published_date": "2023-05-24 (latest update)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.lazada.com/apps/doc/api?path=%2Freview%2Fseller%2Fhistory%2Flist",
+          "title": "API reference — GetHistoryReviewIdList",
+          "publisher": "Lazada Open Platform",
+          "published_date": "2022-09-28 (latest update)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.lazada.com/apps/doc/api?path=%2Freview%2Fseller%2Flist%2Fv2",
+          "title": "API reference — GetReviewListByIdList",
+          "publisher": "Lazada Open Platform",
+          "published_date": "2022-08-16 (latest update)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "TikTok Shop Partner API (TTS API)",
+      "provider": "TikTok Shop",
+      "docs_url": "https://partner.tiktokshop.com/docv2/page/tts-api-concepts-overview",
+      "api_type": "marketplace_seller_api",
+      "authentication": "app_key, request signature and a seller access token (x-tts-access-token) with shop_cipher.",
+      "eligibility": "Three developer types: e-commerce platform connector developers, system integrators/SaaS (public apps), and TikTok Shop seller developers (custom app, own shop's data only).",
+      "data_available": {
+        "own_listings": [
+          "products, attributes, images, inventory and prices (Product API)",
+          "orders, fulfilment, returns and refunds, logistics, promotions, finance",
+          "analytics: shop, product, SKU, video and LIVE performance",
+          "product diagnoses: listing quality tier (US only), issues and suggestions for title, description, images"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "yes",
+        "name": "Listing quality tier (Get Product Diagnoses, /product/202405/products/diagnoses)",
+        "note": "Tiers POOR, FAIR, GOOD; 'Listing quality information (available only for the US market)'; diagnoses and suggestions for other markets; up to 200 products per call."
+      },
+      "limitations": "Listing quality tier only for the US. No fixed published QPS. Review/rating API not examined (UNVERIFIED). Regions list excludes AE, SA, ZA, IN, KE, NG.",
+      "rate_limits": "Dynamic QPS allocation; no single fixed QPS is published; endpoint references take precedence.",
+      "pricing": "No fee stated on the pages retrieved.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "yes",
+        "GB": "yes",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "yes"
+      },
+      "historical_data": "Analytics endpoints by period (details not captured).",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "APIs give access to authorised shops' data.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Request signing, versioned endpoints, dynamic rate limits.",
+      "sources": [
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/tts-api-concepts-overview",
+          "title": "TikTok Shop API concepts — Overview",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/tts-developer-types",
+          "title": "Get started overview (developer types)",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/rate-limits",
+          "title": "Rate limits",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/regions-and-languages",
+          "title": "Regions and languages",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "2026-07-06 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+          "title": "Listing quality diagnosis",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/get-product-diagnoses-202405",
+          "title": "Get Product Diagnoses (API reference, version 202405)",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "eBay Browse API",
+      "provider": "eBay",
+      "docs_url": "https://developer.ebay.com/api-docs/buy/browse/overview.html",
+      "api_type": "other",
+      "authentication": "UNVERIFIED (not captured).",
+      "eligibility": "eBay Developers Program; licence terms could not be retrieved (pages refused automated access).",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": [
+          "search of eBay listings by keyword, category, GTIN, product or image; item details for a specific item or item group"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "None found in the overview."
+      },
+      "limitations": "API call limits and API Licence Agreement pages returned HTTP 403 today; permitted uses, limits and country coverage are UNVERIFIED.",
+      "rate_limits": "UNVERIFIED.",
+      "pricing": "UNVERIFIED.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "UNVERIFIED.",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "The API reads any live listing, but the licence terms were not retrievable.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Read-only search and item operations.",
+      "sources": [
+        {
+          "url": "https://developer.ebay.com/api-docs/buy/browse/overview.html",
+          "title": "Browse API (overview)",
+          "publisher": "eBay Developers Program",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Mirakl Platform Seller APIs (Mirakl-powered marketplaces)",
+      "provider": "Mirakl (each marketplace operator runs its own instance)",
+      "docs_url": "https://developer.mirakl.com/content/product/mmp",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Per marketplace instance; Mirakl Authentication System (OAuth 2) for external partners. Full documentation requires login.",
+      "eligibility": "Sellers on each Mirakl-powered marketplace.",
+      "data_available": {
+        "own_listings": [
+          "offers, orders and related seller operations (REST, OpenAPI)"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Not determined from the public pages."
+      },
+      "limitations": "Which relevant retailers run on Mirakl could not be confirmed (UNVERIFIED). Parts of the documentation need a login.",
+      "rate_limits": "Not captured (UNVERIFIED).",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "UNVERIFIED.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Seller APIs are described as seller-specific operations.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "One integration pattern, but a separate account and credentials per retailer.",
+      "sources": [
+        {
+          "url": "https://developer.mirakl.com/",
+          "title": "Mirakl Developer Portal",
+          "publisher": "Mirakl",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.mirakl.com/content/product/mmp",
+          "title": "Mirakl Platform (API reference overview)",
+          "publisher": "Mirakl",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Nykaa seller/partner API",
+      "provider": "Nykaa",
+      "docs_url": "https://seller.nykaa.com/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Not publicly documented",
+      "eligibility": "Not publicly documented",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "No public documentation retrieved."
+      },
+      "limitations": "Seller site returned HTTP 403 'Access Denied' to automated requests; no public API documentation retrieved. Existence of an API is UNVERIFIED.",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not publicly documented.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Unknown scope; requires direct engagement with Nykaa.",
+      "sources": [
+        {
+          "url": "https://seller.nykaa.com/",
+          "title": "Nykaa seller site — returned HTTP 403 'Access Denied' to an automated request",
+          "publisher": "Nykaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Meesho supplier API",
+      "provider": "Meesho",
+      "docs_url": "https://supplier.meesho.com/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Not publicly documented",
+      "eligibility": "Not publicly documented",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "No public documentation retrieved."
+      },
+      "limitations": "Supplier site returned HTTP 403 'Access Denied' to automated requests; no public API documentation retrieved. Existence of an API is UNVERIFIED.",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not publicly documented.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Unknown scope; requires direct engagement with Meesho.",
+      "sources": [
+        {
+          "url": "https://supplier.meesho.com/",
+          "title": "Meesho supplier site — returned HTTP 403 'Access Denied' to an automated request",
+          "publisher": "Meesho",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Myntra partner API",
+      "provider": "Myntra",
+      "docs_url": "https://partners.myntrainfo.com/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Not publicly documented",
+      "eligibility": "Not publicly documented",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "No public documentation retrieved."
+      },
+      "limitations": "The partner site is a public page with login and registration that mentions 'platform integration' but publishes no API documentation. Existence of an API is UNVERIFIED.",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not publicly documented.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Unknown scope; requires direct engagement with Myntra.",
+      "sources": [
+        {
+          "url": "https://partners.myntrainfo.com/",
+          "title": "Partner at Myntra-Jabong (partner site with login and registration; no API documentation)",
+          "publisher": "Myntra",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Target Plus seller API",
+      "provider": "Target",
+      "docs_url": "https://plus.target.com/",
+      "api_type": "marketplace_seller_api",
+      "authentication": "Not publicly documented",
+      "eligibility": "Invite-only marketplace; one seller per SKU. Developer portal shows login options only.",
+      "data_available": {
+        "own_listings": [],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "API documentation is not public."
+      },
+      "limitations": "API documentation is behind a login (Not publicly documented).",
+      "rate_limits": "Not publicly documented",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not publicly documented",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Not publicly documented.",
+      "integration_complexity": "high",
+      "integration_complexity_note": "Access by invitation; scope unknown.",
+      "sources": [
+        {
+          "url": "https://plus.target.com/",
+          "title": "Target Plus — Marketplace for Sellers",
+          "publisher": "Target",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.target.com/",
+          "title": "Target Developer Portal (login page only)",
+          "publisher": "Target",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Kroger public Products API",
+      "provider": "The Kroger Co.",
+      "docs_url": "https://developer.kroger.com/api-products/api/product-api-public",
+      "api_type": "other",
+      "authentication": "OAuth2; a client id and secret are obtained by registering an application.",
+      "eligibility": "Any developer who registers an application for the free Public APIs; separate Partner APIs (e.g. Catalog API V2) for partners.",
+      "data_available": {
+        "own_listings": [
+          "product search by term, brand or product id; with a location: regular and promo price, fulfilment options, aisle location, stock level"
+        ],
+        "competitor_listings": [
+          "same data for any product in the Kroger catalogue"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "None in the Products API."
+      },
+      "limitations": "Kroger terms of service not reviewed (UNVERIFIED), so permitted uses are unknown. No ratings or reviews documented in the overview text retrieved.",
+      "rate_limits": "Public Products API: 10,000 calls per day.",
+      "pricing": "Free public APIs.",
+      "country_availability": {
+        "AE": "no",
+        "SA": "no",
+        "ZA": "no",
+        "US": "yes",
+        "GB": "no",
+        "IN": "no",
+        "KE": "no",
+        "NG": "no",
+        "MY": "no"
+      },
+      "historical_data": "Current state only.",
+      "competitor_monitoring_permitted": "unknown",
+      "competitor_monitoring_note": "Technically returns any catalogue product; terms of service not reviewed.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Two read operations with standard OAuth.",
+      "sources": [
+        {
+          "url": "https://developer.kroger.com/",
+          "title": "Kroger Developers — home ('APIs for Everyone')",
+          "publisher": "The Kroger Co.",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.kroger.com/api-products",
+          "title": "Developer Catalog (API products)",
+          "publisher": "The Kroger Co.",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.kroger.com/api-products/api/product-api-public",
+          "title": "Products API (1.3.0) — public",
+          "publisher": "The Kroger Co.",
+          "published_date": "2025-10-21 (catalog 'last updated')",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Instacart APIs (Developer Platform, Connect, Ads)",
+      "provider": "Instacart",
+      "docs_url": "https://docs.instacart.com/developer_platform_api/",
+      "api_type": "other",
+      "authentication": "API key (Developer Platform); access tokens with scopes (Connect).",
+      "eligibility": "Developer Platform API is built for app developers; Connect APIs for retailer partners; Ads APIs for advertisers.",
+      "data_available": {
+        "own_listings": [
+          "no brand-side listing-content API found; advertisers have Instacart Ads APIs"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "None found."
+      },
+      "limitations": "No listing-content or quality API for brands was found; country coverage not checked.",
+      "rate_limits": "Not captured (UNVERIFIED).",
+      "pricing": "Not captured (UNVERIFIED).",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "UNVERIFIED.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Documented uses are shopping lists, recipes, retailer fulfilment and advertising.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Different APIs for different partner types.",
+      "sources": [
+        {
+          "url": "https://docs.instacart.com/developer_platform_api/",
+          "title": "Introduction — Instacart Developer Platform API",
+          "publisher": "Instacart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.instacart.com/connect/",
+          "title": "Instacart Connect APIs",
+          "publisher": "Instacart",
+          "published_date": "2026-10-19 (last updated)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Bazaarvoice APIs (Conversations, Displayable Content Export, Product Sentiments, Response)",
+      "provider": "Bazaarvoice",
+      "docs_url": "https://developers.bazaarvoice.com/",
+      "api_type": "reviews_provider",
+      "authentication": "API keys requested in the Bazaarvoice Portal for a client instance and approved by the client's Technical Administrator.",
+      "eligibility": "Bazaarvoice clients; the Enterprise package is required for the Conversations, Displayable Content Export and Product Sentiments APIs.",
+      "data_available": {
+        "own_listings": [
+          "own reviews, ratings, questions and answers, profiles, product catalogue, statistics (Conversations API)",
+          "bulk export of displayable content and syndicated content from the network: weekly full snapshot, daily incremental (Displayable Content Export)",
+          "top best and worst product features and quotes (Product Sentiments API)",
+          "responses to reviews (Response API)"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Review content and sentiment, not a listing score."
+      },
+      "limitations": "Syndicated content appears only where syndication is configured and the key is enabled for it. Displayable Content Export is intended for public display and 'not recommended for internal applications such as CRM systems or analytics dashboards'. Prices not public.",
+      "rate_limits": "Per API key, per minute; default limit shown in response headers (X-Bazaarvoice-QPM-Allotted).",
+      "pricing": "Not publicly documented (Enterprise package).",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Full snapshot of displayable content weekly.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Access is to the client's own instance.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Requires building and hosting an application around the data services.",
+      "sources": [
+        {
+          "url": "https://developers.bazaarvoice.com/",
+          "title": "Bazaarvoice Developer Space — product list",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-ConversationsAPI/docs/home",
+          "title": "Conversations API — Home",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "2026-03-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-ConversationsAPI/docs/api-key-management",
+          "title": "API Key Management",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "2026-03-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-ConversationsAPI/docs/api-rate-limit",
+          "title": "API Rate Limit",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "2026-03-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-ConversationsAPI/docs/syndicated-content",
+          "title": "Syndicated Content",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "2026-03-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-DCE/docs/home",
+          "title": "Displayable Content Export — Home",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "2026-03-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-SentimentsAPI/docs/overview",
+          "title": "Product Sentiments API — Overview",
+          "publisher": "Bazaarvoice (Developer Space)",
+          "published_date": "2026-03-30 (last updated)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "PowerReviews APIs (Enterprise, Display/Read, Write)",
+      "provider": "PowerReviews",
+      "docs_url": "https://apidocs.powerreviews.com/",
+      "api_type": "reviews_provider",
+      "authentication": "API key (requested from PowerReviews).",
+      "eligibility": "PowerReviews customers.",
+      "data_available": {
+        "own_listings": [
+          "own review content for B2B integrations (Enterprise API); review display data (Display API); review submission (Write API)"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Review platform."
+      },
+      "limitations": "Details of endpoints, limits and prices not captured (UNVERIFIED).",
+      "rate_limits": "UNVERIFIED.",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "UNVERIFIED.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Customer's own content.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "REST APIs with customer-specific keys.",
+      "sources": [
+        {
+          "url": "https://developers.powerreviews.com/",
+          "title": "PowerReviews APIs (developer portal)",
+          "publisher": "PowerReviews",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apidocs.powerreviews.com/",
+          "title": "PowerReviews API documentation (Enterprise, Display and Write APIs)",
+          "publisher": "PowerReviews",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Yotpo APIs (V3, Reviews & UGC V1)",
+      "provider": "Yotpo",
+      "docs_url": "https://docs.yotpo.com/",
+      "api_type": "reviews_provider",
+      "authentication": "Store ID and API secret exchanged for an access token sent in the X-Yotpo-Token header.",
+      "eligibility": "Yotpo stores (customers) and app partners.",
+      "data_available": {
+        "own_listings": [
+          "own reviews, ratings, Q&A and visual content; orders, products and customers; list of retailers reviews are syndicated to; AI review summary"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Review platform."
+      },
+      "limitations": "Prices not public.",
+      "rate_limits": "api.yotpo.com: 5 requests per second per store.",
+      "pricing": "Not publicly documented",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Store review history is retrievable page by page.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Store-scoped data.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Simple token authentication and REST endpoints.",
+      "sources": [
+        {
+          "url": "https://docs.yotpo.com/",
+          "title": "Yotpo API Documentation (API hub and documentation index)",
+          "publisher": "Yotpo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Trustpilot APIs (Business API module, Data Solutions API)",
+      "provider": "Trustpilot",
+      "docs_url": "https://developers.trustpilot.com/",
+      "api_type": "reviews_provider",
+      "authentication": "OAuth 2.0 grant types (authorization code, client credentials) for the Business APIs; an API key generated in the Data Solutions web app for Data Solutions.",
+      "eligibility": "Trustpilot for Business account with the API module add-on. Data Solutions by registration on a waitlist.",
+      "data_available": {
+        "own_listings": [
+          "own business units, product reviews, service reviews, invitations"
+        ],
+        "competitor_listings": [
+          "Data Solutions: business profiles, TrustScore, star rating, number of reviews and (Insights product) full text of service reviews for any business"
+        ]
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "TrustScore is a company-level review score, not a listing-quality score."
+      },
+      "limitations": "Company-level (service) reviews; not marketplace product listings. Prices not shown.",
+      "rate_limits": "Recommended not to exceed 833 calls per 5 minutes or 10,000 calls per hour. API module tiers: 200,000, 1,000,000 or unlimited calls per year.",
+      "pricing": "Paid add-on in three tiers by yearly call allowance (prices not shown); Enterprise plan includes tier 1.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Review history available through the review endpoints.",
+      "competitor_monitoring_permitted": "restricted",
+      "competitor_monitoring_note": "Other businesses' reviews are available only through the separately contracted Data Solutions product.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Well-documented REST APIs.",
+      "sources": [
+        {
+          "url": "https://developers.trustpilot.com/introduction/",
+          "title": "Get started with Trustpilot for Business",
+          "publisher": "Trustpilot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.trustpilot.com/api-module-overview/",
+          "title": "API module overview",
+          "publisher": "Trustpilot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.trustpilot.com/data-solutions-get-started/",
+          "title": "Get started with Data Solutions",
+          "publisher": "Trustpilot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.trustpilot.com/rate-limiting/",
+          "title": "Rate limiting best practices",
+          "publisher": "Trustpilot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Google product ratings (Merchant API product reviews, Product Review Feeds)",
+      "provider": "Google",
+      "docs_url": "https://developers.google.com/merchant/api/guides/reviews/products",
+      "api_type": "reviews_provider",
+      "authentication": "Merchant API authentication (OAuth 2.0 or service account).",
+      "eligibility": "Merchant Center accounts enrolled in the Product ratings programme; at least 50 reviews across all products; or via a supported reviews aggregator.",
+      "data_available": {
+        "own_listings": [
+          "outbound only: upload own product reviews to Google; review status"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "no",
+        "name": null,
+        "note": "Feeds reviews to Google; no score returned."
+      },
+      "limitations": "Outbound channel; does not return competitor or marketplace reviews.",
+      "rate_limits": "Merchant API quotas apply.",
+      "pricing": "No fee stated.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not applicable.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "No read access to other merchants' reviews.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Requires programme enrolment and review data-source set-up.",
+      "sources": [
+        {
+          "url": "https://developers.google.com/merchant/api/guides/reviews/products",
+          "title": "Review products using Merchant API",
+          "publisher": "Google (Merchant API documentation)",
+          "published_date": "2026-11-17 (last updated)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://support.google.com/merchants/answer/14620705",
+          "title": "About Product ratings",
+          "publisher": "Google (Merchant Center Help)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.google.com/product-review-feeds",
+          "title": "Product Review Feeds",
+          "publisher": "Google (developers.google.com)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Akeneo PIM API",
+      "provider": "Akeneo",
+      "docs_url": "https://api.akeneo.com/",
+      "api_type": "pim",
+      "authentication": "App-based authentication and authorisation (details per documentation).",
+      "eligibility": "Akeneo PIM customers and app developers.",
+      "data_available": {
+        "own_listings": [
+          "product master data via REST API and GraphQL API; event platform"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Not assessed."
+      },
+      "limitations": "Brief check only; limits and prices depend on plan (UNVERIFIED).",
+      "rate_limits": "UNVERIFIED.",
+      "pricing": "UNVERIFIED.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not assessed.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Internal product data system.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Documented REST and GraphQL APIs.",
+      "sources": [
+        {
+          "url": "https://api.akeneo.com/",
+          "title": "Akeneo API documentation",
+          "publisher": "Akeneo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Salsify API",
+      "provider": "Salsify",
+      "docs_url": "https://developers.salsify.com/",
+      "api_type": "pim",
+      "authentication": "Token authentication or OAuth 2.0.",
+      "eligibility": "Salsify customers.",
+      "data_available": {
+        "own_listings": [
+          "products, records, properties, imports and exports via REST API; webhooks"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Not assessed."
+      },
+      "limitations": "Brief check only; limits and prices depend on plan (UNVERIFIED).",
+      "rate_limits": "UNVERIFIED.",
+      "pricing": "UNVERIFIED.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not assessed.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Internal product data system.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Documented REST API.",
+      "sources": [
+        {
+          "url": "https://developers.salsify.com/",
+          "title": "Salsify Developer Hub",
+          "publisher": "Salsify",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Pimcore Datahub",
+      "provider": "Pimcore",
+      "docs_url": "https://docs.pimcore.com/platform/Datahub/",
+      "api_type": "pim",
+      "authentication": "Configured per Datahub endpoint.",
+      "eligibility": "Pimcore installations.",
+      "data_available": {
+        "own_listings": [
+          "product data through a GraphQL API (default); adapters for a simple REST API, file export and webhooks"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Not assessed."
+      },
+      "limitations": "Brief check only (UNVERIFIED limits and prices).",
+      "rate_limits": "UNVERIFIED.",
+      "pricing": "UNVERIFIED.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not assessed.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Internal product data system.",
+      "integration_complexity": "medium",
+      "integration_complexity_note": "Endpoints must be configured in the customer's own Pimcore instance.",
+      "sources": [
+        {
+          "url": "https://docs.pimcore.com/platform/Datahub/",
+          "title": "Pimcore Datahub",
+          "publisher": "Pimcore",
+          "published_date": "n.d. (documentation version 2026.3)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Plytix API",
+      "provider": "Plytix",
+      "docs_url": "https://docs.plytix.com/",
+      "api_type": "pim",
+      "authentication": "API key and password exchanged for a bearer token.",
+      "eligibility": "Plytix customers.",
+      "data_available": {
+        "own_listings": [
+          "products, assets and categories via REST API (V1 and V2)"
+        ],
+        "competitor_listings": []
+      },
+      "official_quality_score": {
+        "available": "unknown",
+        "name": null,
+        "note": "Not assessed."
+      },
+      "limitations": "Brief check only (UNVERIFIED limits and prices).",
+      "rate_limits": "UNVERIFIED.",
+      "pricing": "UNVERIFIED.",
+      "country_availability": {
+        "AE": "unknown",
+        "SA": "unknown",
+        "ZA": "unknown",
+        "US": "unknown",
+        "GB": "unknown",
+        "IN": "unknown",
+        "KE": "unknown",
+        "NG": "unknown",
+        "MY": "unknown"
+      },
+      "historical_data": "Not assessed.",
+      "competitor_monitoring_permitted": "no",
+      "competitor_monitoring_note": "Internal product data system.",
+      "integration_complexity": "low",
+      "integration_complexity_note": "Documented REST API.",
+      "sources": [
+        {
+          "url": "https://docs.plytix.com/",
+          "title": "Plytix API Documentation",
+          "publisher": "Plytix",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

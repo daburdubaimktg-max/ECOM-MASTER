@@ -1,0 +1,443 @@
+{
+  "marketplace": "Flipkart",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "IN"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "minimal",
+  "how_brands_deliver_content": "Self-service Flipkart Seller Hub (seller.flipkart.com). A seller first obtains brand approval from Flipkart's Brand Regulation Team, then either matches (\"latches\" onto) a product that already exists in the Flipkart catalogue or creates a new product - one at a time (Listings > Add New Product) or with the bulk listing Excel template. Submissions go to Flipkart's quality check (QC) team before going live. Detailed field limits, image specifications and the listing-quality view sit behind the Seller Hub login (Learning Center) and are not on the public site. Flipkart sells paid content help: Premium Catalog Services (photo/video shoots, rich product description, catalogue enrichment, 360/AR) and the Ignite programme for new sellers. The public Seller API (v3) manages listings (price, stock, shipping, status) rather than catalogue content.",
+  "languages": [
+    {
+      "country_code": "IN",
+      "languages": [
+        "en"
+      ],
+      "note": "Not stated in the public pages retrieved. The public Seller Hub, its guidance and all examples are in English; Flipkart publishes no rule on Hindi or regional-language listing content.",
+      "source_url": "https://seller.flipkart.com/seller-blog/how-to-list-products-on-flipkart"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.clear_keyword_friendly",
+      "area": "title",
+      "requirement": "Write a clear, descriptive, keyword-friendly product title; avoid vague names (e.g. \"T-shirt\") and include differentiators such as colour, size and style.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/how-to-list-products-on-flipkart",
+      "source_title": "How to List Products on Flipkart Seller Hub?",
+      "source_date": "2026-06-29",
+      "verification": "official_document",
+      "notes": "No title length limit or mandatory structure is published on the public Seller Hub pages."
+    },
+    {
+      "id": "title.concise_with_main_keywords",
+      "area": "title",
+      "requirement": "Keep the title concise yet descriptive and integrate the main keywords customers are likely to search for; keep it succinct so it is easily scannable.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/product-listing-optimisation",
+      "source_title": "Product Listing Optimisation: A Guide to Selling Online on Flipkart",
+      "source_date": "2024-11-20",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.features_usage_benefits",
+      "area": "description",
+      "requirement": "Description should highlight features, usage and benefits in a concise, customer-focused manner; use bullet points to break down information.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/product-listing-optimisation",
+      "source_title": "Product Listing Optimisation: A Guide to Selling Online on Flipkart",
+      "source_date": "2024-11-20",
+      "verification": "official_document",
+      "notes": "No description length limit is published publicly."
+    },
+    {
+      "id": "bullets.beauty_highlights",
+      "area": "bullets",
+      "requirement": "Beauty listings: specify major highlights / key features (e.g. waterproof, long-lasting) and accurate basic details - brand name, product type, quantity and, where relevant, the skin type the product is for.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/sell-online/sell-beauty-products-online",
+      "source_title": "Sell Beauty Products Online - How to Sell Cosmetics Online",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "No highlight count or length limit is published publicly."
+    },
+    {
+      "id": "attributes.detailed_product_information",
+      "area": "attributes",
+      "requirement": "New products need complete information - description, dimensions, features, images and usage instructions - plus details such as size, model, colour and brand.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/sell-online",
+      "source_title": "Sell Online - Start Selling Online on Flipkart Seller Hub",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.hsn_code",
+      "area": "attributes",
+      "requirement": "An HSN code (tax classification) must be supplied for each listing.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/how-to-list-products-on-flipkart",
+      "source_title": "How to List Products on Flipkart Seller Hub?",
+      "source_date": "2026-06-29",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.category_approval",
+      "area": "attributes",
+      "requirement": "Some categories require prior quality approval, certifications or documents before listings can go live.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/faq",
+      "source_title": "FAQs - Flipkart Seller Hub",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "The blog names jewellery, food and medical devices as examples; whether beauty sub-categories need category approval is not stated publicly."
+    },
+    {
+      "id": "attributes.cosmetics_licensing",
+      "area": "attributes",
+      "requirement": "Cosmetics of Indian origin may be sold only if manufactured by a licensed manufacturer and labelled and packed as per the Cosmetics Rules, 2020; cosmetics of foreign origin only if imported under a valid registration and labelled as per the Cosmetics Rules, 2020.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://static-assets-web.flixcart.com/fk-p-fk-sellerhub/images/List%20of%20Prohibited%20Items%20on%20Flipkart_1787822289.pdf",
+      "source_title": "List of Prohibited Items on Flipkart",
+      "source_date": "2026-08-26 (PDF creation date)",
+      "verification": "official_document",
+      "notes": "This is a product-eligibility rule in the List of Prohibited Items. Flipkart does not publish which licence or registration number (e.g. CDSCO import registration) must be entered as a listing attribute."
+    },
+    {
+      "id": "attributes.beauty_replacement_policy",
+      "area": "attributes",
+      "requirement": "Beauty listings should mention replacement-policy details, if any.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/sell-online/sell-beauty-products-online",
+      "source_title": "Sell Beauty Products Online - How to Sell Cosmetics Online",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.brand_approval",
+      "area": "identifiers",
+      "requirement": "Brand approval from Flipkart's Brand Regulation Team is required before listing; if the brand already exists on Flipkart it can be selected, otherwise approval must be requested (a \"Generic\" option exists where applicable).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/faq",
+      "source_title": "FAQs - Flipkart Seller Hub",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.gtin",
+      "area": "identifiers",
+      "requirement": "GTIN/EAN requirements are not published on the public Seller Hub pages.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/how-to-list-products-on-flipkart",
+      "source_title": "How to List Products on Flipkart Seller Hub?",
+      "source_date": "2026-06-29",
+      "verification": "unverified",
+      "notes": "Not publicly documented; the bulk template and brand-approval flow sit behind the Seller Hub login."
+    },
+    {
+      "id": "images_main.white_background",
+      "area": "images_main",
+      "requirement": "Upload high-resolution product images on a white background; add lifestyle shots where possible.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/how-to-list-products-on-flipkart",
+      "source_title": "How to List Products on Flipkart Seller Hub?",
+      "source_date": "2026-06-29",
+      "verification": "official_document",
+      "notes": "Flipkart's public guidance gives no pixel dimensions, file format, size or image-count limits."
+    },
+    {
+      "id": "images.multiple_angles",
+      "area": "images_secondary",
+      "requirement": "Use clear, professional, high-resolution images taken from multiple angles that show all relevant details and use cases; blurry or low-resolution photos should be avoided.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/product-listing-optimisation",
+      "source_title": "Product Listing Optimisation: A Guide to Selling Online on Flipkart",
+      "source_date": "2024-11-20",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.third_party_specs",
+      "area": "images_main",
+      "requirement": "Reported by an integrator (not confirmed by Flipkart): JPEG only; minimum 2 and maximum 5 images; primary image on a white background; 1000 x 1000 px recommended.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://documentation.fynd.com/commerce/docs/openapi/listings-management/flipkart/faq-flipkart",
+      "source_title": "FAQ - Flipkart (listings management)",
+      "source_date": "n.d.",
+      "verification": "unverified",
+      "notes": "Third-party integrator documentation that does not quote a Flipkart source; Flipkart's own image specification is behind the Seller Hub login and could not be checked. The same page gives an implausible \"minimum 200x1000\" resolution, so treat every figure as unverified."
+    },
+    {
+      "id": "video.concise",
+      "area": "video",
+      "requirement": "Keep product videos concise and to the point, consistent in style and of high production quality.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/product-videos-for-ecommerce",
+      "source_title": "Why are Product Videos for E-Commerce Needed?",
+      "source_date": "2025-10-28",
+      "verification": "official_document",
+      "notes": "No video length, format or size specification for seller uploads is published publicly. Videos produced through Premium Catalog Services do not exceed 35-40 seconds."
+    },
+    {
+      "id": "seo.keywords_natural",
+      "area": "seo",
+      "requirement": "Use relevant keywords naturally in titles and descriptions; do keyword research with the tools on the Flipkart seller dashboard.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/product-listing-optimisation",
+      "source_title": "Product Listing Optimisation: A Guide to Selling Online on Flipkart",
+      "source_date": "2024-11-20",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.complete_information",
+      "area": "seo",
+      "requirement": "Precise and comprehensive product information with clear images can increase visibility on the platform (Flipkart states \"by up to 15%\").",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/sell-online",
+      "source_title": "Sell Online - Start Selling Online on Flipkart Seller Hub",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.group_under_one_listing",
+      "area": "variants",
+      "requirement": "Group variations of the same product (e.g. sizes, colours) under a single parent listing instead of listing each variant separately.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/product-variations",
+      "source_title": "A Complete Guide to Creating Product Variations",
+      "source_date": "2025-10-27",
+      "verification": "official_document",
+      "notes": "Blog-level guidance; the variant attributes allowed per beauty vertical are not published publicly. No bundle/combo rules were found."
+    },
+    {
+      "id": "approval.qc_review",
+      "area": "approval",
+      "requirement": "After submission the listing goes to Flipkart Seller Hub's quality check: the QC team reviews images, descriptions and compliance, and the product goes live after approval.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.flipkart.com/seller-blog/how-to-list-products-on-flipkart",
+      "source_title": "How to List Products on Flipkart Seller Hub?",
+      "source_date": "2026-06-29",
+      "verification": "official_document",
+      "notes": "No QC turnaround time is published publicly. Bulk uploads return error reports for missing information."
+    },
+    {
+      "id": "restricted_claims.cosmetics_prohibited",
+      "area": "restricted_claims",
+      "requirement": "Prohibited cosmetics include: products with stem-cell extracts; cosmetics that require a prescription or medical supervision; tampered, expired, misbranded, counterfeit or adulterated cosmetics, testers and samples; and cosmetics containing regulated ingredients (e.g. arsenic, lead, mercury compounds, hydroquinone, chloroform) above the limits in cosmetic law read with IS 4707 (parts 1 and 2).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "IN"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://static-assets-web.flixcart.com/fk-p-fk-sellerhub/images/List%20of%20Prohibited%20Items%20on%20Flipkart_1787822289.pdf",
+      "source_title": "List of Prohibited Items on Flipkart",
+      "source_date": "2026-08-26 (PDF creation date)",
+      "verification": "official_document",
+      "notes": "Product-eligibility rules. No public Flipkart document lists prohibited wording or claims for beauty listings."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "yes",
+    "official_name": "Rich Product Description",
+    "eligibility": "Sold as part of the paid, voluntary Flipkart Premium Catalog Services. The brochure states it \"is applicable across products which are feature rich and requires further explanation\" and \"is not applicable for accessories\". Self-service eligibility (e.g. for approved brands) is not publicly documented.",
+    "modules_note": "The brochure shows a before/after product page with image-and-text feature blocks under the description; the brochure price is Rs 720. Related paid services in the same brochure: Catalog Enrichment, Style Note, Infographics Callout (Rs 150 for 4 callouts), Product 360 View, model/product photo shoots, 360 video shoots and AR/3D modelling. Module specifications (image sizes, text limits) are not published.",
+    "source_url": "https://static-assets-web.flixcart.com/fk-sp-static/prelogin/Premium-Catalog-Services-brochure.pdf"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Listing Quality Score (LQS) - name as used by third parties",
+      "what_it_measures": "Reported as a per-listing completeness and accuracy rating that Seller Hub shows against each listing, with \"improve quality\" prompts for low-scoring products.",
+      "components": "Reported inputs: attribute completeness, images, title and description, and accuracy against the actual product. Flipkart does not publish the formula or weights.",
+      "access_method": "seller_portal_only",
+      "api_reference_url": null,
+      "who_can_access": "Logged-in Flipkart sellers (Seller Hub listings view)",
+      "source_url": "https://blooprint.in/glossary/listing-quality-score/",
+      "verification": "unverified",
+      "notes": "No official Flipkart Seller Hub page describing the score could be retrieved publicly, so name, scale and components are unverified. Supporting evidence: Flipkart Commerce Cloud's search documentation lists \"LQS\" as a ranking signal - \"Completeness of the product listing: title richness, image count, attribute fill rate. Incomplete listings are demoted.\" The public Marketplace Seller API v3 Listing Management reference contains no listing-quality field."
+    }
+  ],
+  "limitations": "Flipkart keeps its listing rules (title and description limits, image dimensions and counts, mandatory attributes per vertical, brand-approval documents, QC rejection reasons, the listing-quality view) inside the logged-in Seller Hub and its Learning Center; the public site offers only general best-practice blogs, FAQs, the prohibited-items list and service brochures. Consequently almost every rule here is \"recommended\" and no numeric limit is recorded as mandatory. The only numeric image figures found are from a third-party integrator and are marked unverified. The Listing Quality Score is widely reported by third parties but could not be confirmed from an official seller-facing page. Regulatory fields (CDSCO import registration, BIS/IS 4707, manufacturing licence numbers) are referenced only as legal eligibility conditions, not as listing attributes. The Rich Product Description information comes from a 2023 brochure that is still linked from the live site. Web search was unavailable for most of the Flipkart research (shared search budget exhausted), which limited the discovery of further official documents."
+}

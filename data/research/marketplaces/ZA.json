@@ -1,0 +1,2058 @@
+{
+  "country_code": "ZA",
+  "country_name": "South Africa",
+  "region": "Sub-Saharan Africa",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "South Africa is the most developed e-commerce market of the three: World Wide Worx puts online retail at about R130 billion in 2025 and forecasts R159 billion for 2026, the first full year in which online is about 10% of national retail turnover. Takealot (Naspers) remains the most-used platform, but shopping is spread across on-demand grocery apps (Checkers Sixty60 alone reported R25.5 billion of sales), cross-border players (Shein, Temu), Amazon.co.za (launched 2024, Prime added June 2026) and omnichannel retailers. For mass-market hair, skin and oral care the category leaders are the health-and-beauty chains Clicks and Dis-Chem and the grocers, whose online channels are growing fast but are largely closed to automated data collection; the general marketplaces list the same brands and are far easier to integrate. Several pure-play e-tailers have left the market (Zando closed after Jumia's exit; Superbalist was sold by Takealot), so every record below was checked for live trading on 2026-11-26.",
+    "key_facts": [
+      {
+        "fact": "Online retail in South Africa was about R130 billion in 2025 and is forecast at about R159 billion in 2026 (+22.5%), reaching 10% of national retail turnover in 2026 on a nominal like-for-like basis.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.worldwideworx.com/?p=3097",
+        "source_name": "World Wide Worx",
+        "source_date": "2026-09-02"
+      },
+      {
+        "fact": "Platform usage among online shoppers (survey-based usage shares, not sales shares): Takealot 35.3%, Shein 21.5%, Checkers Sixty60 15%, Amazon 12.7% (World Wide Worx 'Online Retail in South Africa 2026'; its consumer research is Ask Afrika's Target Group Index, 23,910 interviews, January-December 2025).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.worldwideworx.com/?p=3097",
+        "source_name": "World Wide Worx",
+        "source_date": "2026-09-02"
+      },
+      {
+        "fact": "The Competition Commission's Online Intermediation Platforms Market Inquiry (final report 31 July 2023) found that Takealot has 'a dominant share of overall online sales in South Africa'; no percentage was published in the coverage retrieved. Dated (more than 18 months old).",
+        "nature": "official_statistic",
+        "source_url": "https://businesstech.co.za/news/business/707944/takealot-ordered-to-make-massive-changes-to-ease-competition/",
+        "source_name": "BusinessTech",
+        "source_date": "2023-07-31"
+      },
+      {
+        "fact": "Checkers Sixty60 sales rose 34.5% to R25.5 billion in the 52 weeks to 28 June 2026, about 9.4% of Shoprite group turnover.",
+        "nature": "company_reported",
+        "source_url": "https://techcentral.co.za/sixty60-now-drives-more-than-a-third-of-shoprites-growth/284740/",
+        "source_name": "TechCentral",
+        "source_date": "2026-08-12"
+      },
+      {
+        "fact": "Takealot Group gross merchandise value rose 14% to about US$2 billion in the year to 31 March 2026; Takealot.com revenue was US$906 million and the group reported its first full-year adjusted EBIT profit (US$11 million).",
+        "nature": "company_reported",
+        "source_url": "https://techcentral.co.za/profits-arrive-at-takealot-but-naspers-stays-cautious/283091/",
+        "source_name": "TechCentral",
+        "source_date": "2026-06-29"
+      },
+      {
+        "fact": "Cross-border purchases were 18.6% of South African e-commerce transactions (about 19 million platform orders) in 2025; the R500 de minimis import concession was removed in November 2024 and cross-border growth slowed to 7% in 2025.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.itweb.co.za/article/shein-temu-forced-to-rethink-sa-e-commerce-playbook/Pero3qZ365PvQb6m",
+        "source_name": "ITWeb",
+        "source_date": "2026-09-09"
+      },
+      {
+        "fact": "Most-visited retail websites from South Africa in October 2026 (Semrush estimates): temu.com 15.91M visits, takealot.com 10.51M, checkers.co.za 9.97M, bash.com 9.48M, shoprite.co.za 7.07M, shein.com 6.90M, makro.co.za 5.84M, clicks.co.za 5.27M, woolworths.co.za 4.73M, superbalist.com 4.69M, dischem.co.za 4.65M, pnp.co.za 3.56M. amazon.co.za is not in Semrush's retail list but its own Semrush page shows 11.19M visits, 85.48% from South Africa.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+        "source_name": "Semrush",
+        "source_date": "n.d. (October 2026 data)"
+      },
+      {
+        "fact": "Clicks reports market shares of 43.8% in skincare, 32.8% in haircare and 22.7% in personal care for its 2025 financial year (all retail channels, not online only; the measurement source is not stated on the page).",
+        "nature": "company_reported",
+        "source_url": "https://clicksgroup.co.za/iar2025/?p=288",
+        "source_name": "Clicks Group",
+        "source_date": "n.d. (Integrated Annual Report 2025)"
+      },
+      {
+        "fact": "South Africa had 51.7 million internet users (79.6% penetration) at the end of 2025; TikTok's adult advertising reach was 29.1 million and Facebook's 27.9 million.",
+        "nature": "third_party_estimate",
+        "source_url": "https://datareportal.com/reports/digital-2026-south-africa",
+        "source_name": "DataReportal (Kepios)",
+        "source_date": "2025-11-08"
+      }
+    ]
+  },
+  "ranking_method_note": "weighted_score = 0.20 x ecommerce_significance + 0.25 x beauty_category_relevance + 0.20 x consumer_reach + 0.15 x brand_competitor_coverage + 0.20 x data_integration_feasibility, each scored 1-5, rounded to 2 decimals. priority_rank orders platforms by weighted_score within the country (1 = highest); ties are broken by beauty_category_relevance, then consumer_reach, as the rubric requires. Where platforms were still tied, ecommerce_significance, then data_integration_feasibility, then name were used (our addition; the rubric stops earlier). Scores are analyst judgements anchored to the evidence note beside each score. Anchors for brand_competitor_coverage (thirteen reference brands): 5 = at least 11 confirmed with real depth, or every brand tested when at least 8 were tested; 4 = 8-10 confirmed, or 11+ confirmed with thin listings; 3 = 4-7 confirmed; 2 = 1-3 confirmed; 1 = none found. Where a catalogue could not be read at all the score is a placeholder marked UNVERIFIED: 3 (neutral) for pharmacies, grocers and general marketplaces that normally stock the category, 2 for delivery apps and classifieds, 1 for cross-border value or fashion platforms and private messaging. competitor_presence.level follows the same evidence: high = score 4-5, medium = 3, low = 1-2, unknown = placeholder. Anchors for data_integration_feasibility: 5 = documented seller API plus openly readable pages, 4 = openly readable pages or feeds, 3 = partly readable or seller-portal access only, 2 = automated access refused, 1 = app-only, login wall or CAPTCHA. Closed platforms therefore rank lower for reasons of access, not commercial weight. For South Africa this mainly affects Clicks, Dis-Chem and Checkers Sixty60, which are more important to the category than their rank suggests.",
+  "platforms": [
+    {
+      "name": "Takealot",
+      "website": "https://www.takealot.com",
+      "operator": "Takealot Group (owned by Naspers)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "A brand search for 'nivea' returned 900 results with category facets Beauty (577) and Health (487); all major mass-market skin, hair and oral-care brands tested were listed. Garnier's South African site runs a 'Shop Black Friday with Takealot' banner, L'Oreal Paris's South African site has a 'Shop on Takealot' button and Dark and Lovely's Africa site links to Takealot product pages, so brand owners already treat it as a core e-retail partner.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "A Health category exists, but no evidence of a pharmacy or dispensing service was retrieved in this session.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: rests on the highest survey usage share (35.3% of online shoppers), about US$2bn group GMV, top Similarweb e-commerce rank and the regulator's 2023 dominance finding.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Used by 35.3% of South African online shoppers, the most-used platform. ESTIMATE: survey usage share, not a sales share.",
+          "metric_type": "market_share",
+          "value": "35.3% of online shoppers",
+          "period": "2025 (Target Group Index interviews January-December 2025)",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.worldwideworx.com/?p=3097",
+          "source_name": "World Wide Worx",
+          "source_date": "2026-09-02"
+        },
+        {
+          "claim": "takealot.com received 12.52M visits worldwide, 83.95% (10.51M) of them from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "12.52M total; 10.51M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/takealot.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Takealot Group GMV rose 14% to about US$2bn (group figure, includes Mr D); Takealot.com revenue US$906m with GMV +15% and orders +18%; the TakealotMore loyalty programme accounted for 27% of platform GMV.",
+          "metric_type": "gmv",
+          "value": "about US$2bn (group)",
+          "period": "financial year to 31 March 2026",
+          "nature": "company_reported",
+          "source_url": "https://techcentral.co.za/profits-arrive-at-takealot-but-naspers-stays-cautious/283091/",
+          "source_name": "TechCentral",
+          "source_date": "2026-06-29"
+        },
+        {
+          "claim": "Ranked #1 Ecommerce & Shopping website in South Africa (Similarweb).",
+          "metric_type": "other",
+          "value": "rank 1",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "The Competition Commission found that Takealot has 'a dominant share of overall online sales in South Africa'. VERIFIED source type (regulator inquiry), but no percentage appears in the coverage retrieved; dated (2023).",
+          "metric_type": "market_share",
+          "value": "dominant (no percentage retrieved)",
+          "period": "final report of 31 July 2023",
+          "nature": "official_statistic",
+          "source_url": "https://businesstech.co.za/news/business/707944/takealot-ordered-to-make-massive-changes-to-ease-competition/",
+          "source_name": "BusinessTech",
+          "source_date": "2023-07-31"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 by rendering Takealot's public search pages (default headless browser, no login) and reading the brand filter. Listing counts under each brand filter: Nivea 374, Colgate 172, Vaseline 152, Dove 110, L'Oreal 107, Garnier 99, Himalaya Wellness 78, Pantene 61, Dark and Lovely 42, Dabur 36, Head & Shoulders 16, Sensodyne 16. Sunsilk is UNVERIFIED (no Sunsilk brand filter appeared).",
+        "source_urls": [
+          "https://www.takealot.com/all?qsearch=nivea",
+          "https://africa.garnier.com/en-za",
+          "https://www.loreal-paris.co.za/hair",
+          "https://africa.darkandlovely.com/"
+        ]
+      },
+      "product_coverage_note": "Twelve of thirteen target brands confirmed with brand-level listing counts across skin, hair and oral care. Result pages show price, promotions (for example Black Friday and TakealotMORE deals), ratings and regional stock flags (Cape Town, Durban, Johannesburg).",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Takealot Seller API (OpenAPI definition version 2.0) with offers, stock, sales and order endpoints; requires an API key generated in the Seller Portal and covers only the seller's own offers and sales. No public catalogue or pricing API for other sellers' listings was found, so competitor listings, prices and reviews would come from public web pages.",
+        "docs_url": "https://seller-api.takealot.com/api-docs/"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented seller API for own listings and sales, and public search pages rendered without login or a bot challenge in this session. Site terms of use were not reviewed and should be checked before any automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Most-used online platform (35.3% of online shoppers) with about US$2bn group GMV."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Deep beauty and health catalogue and brand-owner campaigns, although the category leaders overall are Clicks and Dis-Chem."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 10.5M monthly visits from South Africa (Semrush) and the highest survey usage share."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "12 of 13 target brands confirmed with listing counts."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Public, documented Seller API plus openly rendering public pages."
+        }
+      },
+      "weighted_score": 4.75,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "Ranks first on every criterion except category leadership: largest audience, widest verified brand coverage and the only local marketplace with a documented seller API. Start here.",
+      "confidence": "high",
+      "confidence_note": "Usage, traffic and GMV come from three independent source types and brand presence was verified directly on the platform. The regulator's dominance finding is from 2023 and has no published percentage.",
+      "sources": [
+        {
+          "url": "https://www.worldwideworx.com/?p=3097",
+          "title": "SA online retail to reach R159-billion in 2026",
+          "publisher": "World Wide Worx",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techcentral.co.za/online-retail-south-africa-2026-world-wide-worx/285678/",
+          "title": "SA online retail to reach R159-billion as growth slows",
+          "publisher": "TechCentral",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/takealot.com/overview/",
+          "title": "takealot.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techcentral.co.za/profits-arrive-at-takealot-but-naspers-stays-cautious/283091/",
+          "title": "Profits arrive at Takealot, but Naspers stays cautious",
+          "publisher": "TechCentral",
+          "published_date": "2026-06-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://businesstech.co.za/news/business/707944/takealot-ordered-to-make-massive-changes-to-ease-competition/",
+          "title": "Takealot ordered to make massive changes to ease competition",
+          "publisher": "BusinessTech",
+          "published_date": "2023-07-31",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://seller-api.takealot.com/api-docs/",
+          "title": "Seller API (Takealot Seller API documentation)",
+          "publisher": "Takealot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://seller-api.takealot.com/api-docs/swagger.json",
+          "title": "Takealot Seller API - OpenAPI definition, version 2.0",
+          "publisher": "Takealot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.takealot.com/all?qsearch=nivea",
+          "title": "Takealot.com public search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Takealot",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://africa.garnier.com/en-za",
+          "title": "Garnier | Hair Care, Hair Colour, Skin Care & Deodorant Products",
+          "publisher": "Garnier (L'Oreal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.loreal-paris.co.za/hair",
+          "title": "L'Oreal Paris South Africa - Hair page (carries a 'Shop on Takealot' button; descriptive title)",
+          "publisher": "L'Oreal Paris",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://africa.darkandlovely.com/",
+          "title": "Dark and Lovely Home (Africa site with retailer store links)",
+          "publisher": "Dark and Lovely (L'Oreal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Amazon.co.za",
+      "website": "https://www.amazon.co.za",
+      "operator": "Amazon (local operating entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Every target brand searched returned listings (for example Pantene 275 results, Colgate 530, Vaseline 647, Sensodyne 127), but no evidence was found that Amazon leads the category; it entered South Africa only about two years before its June 2026 Prime launch.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy service identified; personal-care and oral-care listings only.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: rests on a 12.7% survey usage share before the Prime launch, about 9.6M monthly visits from South Africa and Amazon's continuing investment (Prime, more than 4,000 pickup points).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Used by 12.7% of South African online shoppers, measured before the June 2026 Prime launch. ESTIMATE: survey usage share, not a sales share.",
+          "metric_type": "market_share",
+          "value": "12.7% of online shoppers",
+          "period": "2025 (Target Group Index interviews January-December 2025)",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.worldwideworx.com/?p=3097",
+          "source_name": "World Wide Worx",
+          "source_date": "2026-09-02"
+        },
+        {
+          "claim": "amazon.co.za received 11.19M visits worldwide, 85.48% (9.56M) from South Africa; September 2026 was 15.11M and August 6.71M (Semrush estimates).",
+          "metric_type": "monthly_visits",
+          "value": "11.19M total; 9.56M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/amazon.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Amazon launched Prime in South Africa on 3 June 2026 and says it has more than 4,000 pickup points; GMV, revenue and customer numbers are not publicly disclosed.",
+          "metric_type": "other",
+          "value": "more than 4,000 pickup points",
+          "period": "June 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.timeslive.co.za/news/2026-06-03-amazon-launches-prime-in-sa-as-e-commerce-battle-intensifies/",
+          "source_name": "TimesLIVE",
+          "source_date": "2026-06-03"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 from Amazon.co.za public keyword-search pages (plain HTTP requests, no login). Keyword result counts, which include fuzzy matches: Nivea 'over 1,000', L'Oreal Paris 'over 1,000', Garnier 'over 3,000', Himalaya 'over 3,000', Vaseline 647, Colgate 530, Pantene 275, Sensodyne 127, Dabur 75; Dove, Head & Shoulders and Dark and Lovely returned branded products in the first results. The Sunsilk query returned HTTP 503, so Sunsilk is UNVERIFIED and querying was stopped.",
+        "source_urls": [
+          "https://www.amazon.co.za/s?k=nivea"
+        ]
+      },
+      "product_coverage_note": "Twelve of thirteen target brands returned branded listings across skin, hair and oral care. A Vaseline product page showed 'Shipper / Seller Amazon.co.za', so Amazon retails some lines itself alongside third-party sellers.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Amazon's Selling Partner API lists South Africa (marketplaceId AE08WJ6YKNBMC, country code ZA) in its Europe, Middle East, India and Africa table. It is Amazon's API for registered selling partners; which catalogue, pricing or reporting endpoints are enabled for the South African marketplace is UNVERIFIED.",
+        "docs_url": "https://developer-docs.amazon.com/sp-api/docs/marketplace-ids"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Official API with South Africa marketplace support, and public search and product pages were served to plain HTTP requests; the thirteenth consecutive query returned HTTP 503, so rate limits apply. Amazon's conditions of use should be checked before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "12.7% of online shoppers and about 9.6M monthly visits from South Africa; younger than Takealot but growing with Prime."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Carries the full mass-market range, but there is no evidence of category leadership."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 9.6M monthly visits from South Africa (Semrush)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "12 of 13 target brands returned branded listings."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Selling Partner API covers the South African marketplace and public pages are accessible."
+        }
+      },
+      "weighted_score": 4.1,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "Second by formula because of strong data feasibility and complete brand listings. Reservation: this is not a judgement that Amazon matters more for beauty than Clicks or Dis-Chem; those chains lead the category but score low on data access.",
+      "confidence": "medium",
+      "confidence_note": "Traffic and usage figures are third-party estimates and Amazon discloses no South African sales data; brand presence was verified directly.",
+      "sources": [
+        {
+          "url": "https://www.worldwideworx.com/?p=3097",
+          "title": "SA online retail to reach R159-billion in 2026",
+          "publisher": "World Wide Worx",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/amazon.co.za/overview/",
+          "title": "amazon.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.timeslive.co.za/news/2026-06-03-amazon-launches-prime-in-sa-as-e-commerce-battle-intensifies/",
+          "title": "Amazon launches Prime in SA as e-commerce battle intensifies",
+          "publisher": "TimesLIVE",
+          "published_date": "2026-06-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon.com/sp-api/docs/marketplace-ids",
+          "title": "Marketplace IDs / Store Identifiers - Selling Partner API documentation",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.co.za/s?k=nivea",
+          "title": "Amazon.co.za public search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Amazon.co.za",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.co.za/Vaseline-Fragrance-Petroleum-Jelly-450ml/dp/B0CYZNTD72",
+          "title": "Amazon.co.za product page: Vaseline Blue Seal petroleum jelly 450ml (shows 'Shipper / Seller Amazon.co.za')",
+          "publisher": "Amazon.co.za",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Clicks",
+      "website": "https://clicks.co.za",
+      "operator": "Clicks Group Limited",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Health-and-beauty specialist chain. The company reports market shares of 43.8% in skincare, 32.8% in haircare ('market-leading') and 22.7% in personal care for its 2025 financial year, across all channels.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "780 pharmacies and a company-reported 24.0% retail pharmacy market share (2025 financial year).",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 for this category because of company-reported category shares and 13.1M active loyalty members. Online is still a small part of Clicks' sales (4.1% of front-shop sales in 2025, including items researched online and bought in store).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "13.1 million active ClubCard loyalty members.",
+          "metric_type": "customers",
+          "value": "13.1 million active members",
+          "period": "financial year to 31 August 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.ewn.co.za/2026/10/22/clicks-turnover-exceeds-r50bn-for-first-time-as-retail-footprint-expands",
+          "source_name": "EWN (Eyewitness News)",
+          "source_date": "2026-10-22"
+        },
+        {
+          "claim": "Company-reported market shares: skincare 43.8%, haircare 32.8%, personal care 22.7%, retail pharmacy 24.0%. All channels, not online only; the measurement source is not stated on the page, so these are not independently verified shares.",
+          "metric_type": "market_share",
+          "value": "skincare 43.8%; haircare 32.8%; personal care 22.7%",
+          "period": "2025 financial year (to 31 August 2025)",
+          "nature": "company_reported",
+          "source_url": "https://clicksgroup.co.za/iar2025/?p=288",
+          "source_name": "Clicks Group",
+          "source_date": "n.d. (Integrated Annual Report 2025)"
+        },
+        {
+          "claim": "990 Clicks stores and 780 pharmacies; online purchases grew 15.9% and online, including 'researched online, bought offline', accounted for 4.1% of front-shop sales.",
+          "metric_type": "stores",
+          "value": "990 stores; 780 pharmacies; online 4.1% of front-shop sales",
+          "period": "2025 financial year (to 31 August 2025)",
+          "nature": "company_reported",
+          "source_url": "https://clicksgroup.co.za/iar2025/?p=288",
+          "source_name": "Clicks Group",
+          "source_date": "n.d. (Integrated Annual Report 2025)"
+        },
+        {
+          "claim": "clicks.co.za received 6.03M visits worldwide, 87.35% (5.27M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "6.03M total; 5.27M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/clicks.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Group turnover rose 5.4% to R50.4bn (retail and distribution, all channels). An online sales value is not publicly disclosed in the sources retrieved.",
+          "metric_type": "revenue",
+          "value": "R50.4bn group turnover",
+          "period": "financial year to 31 August 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.ewn.co.za/2026/10/22/clicks-turnover-exceeds-r50bn-for-first-time-as-retail-footprint-expands",
+          "source_name": "EWN (Eyewitness News)",
+          "source_date": "2026-10-22"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED on the retailer's own pages: clicks.co.za returned HTTP 403 (Cloudflare block) to both plain HTTP requests and the WebFetch tool on 2026-11-26, and no workaround was attempted. Indirect evidence only: L'Oreal's Dark and Lovely Africa site links to Dark and Lovely product pages on clicks.co.za, and the company-reported skincare and haircare shares imply a broad mass-market range. The true level is likely high, but individual brands other than Dark and Lovely are UNVERIFIED.",
+        "source_urls": [
+          "https://africa.darkandlovely.com/",
+          "https://clicksgroup.co.za/iar2025/?p=288"
+        ]
+      },
+      "product_coverage_note": "Front-shop health and beauty with a large private-label element (private label 25.9% of total sales; The Body Shop and Sorbet ranges are highlighted). Brand-level range could not be read because the site blocks automated access.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer with no marketplace or seller programme identified. No public developer or partner API was found; because the site blocked automated requests, absence is not conclusive. Supplier-side sell-out data would need a commercial arrangement with Clicks (Not publicly disclosed).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Automated requests are refused with HTTP 403 and no public API was found. Legitimate options are manual checks, a data-sharing agreement with the retailer or an authorised third-party provider (none verified in this session).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Online is about 4% of front-shop sales, but the site draws about 5.3M monthly visits from South Africa and the chain is the category leader."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Company-reported 43.8% skincare, 32.8% haircare and 22.7% personal-care shares."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "13.1M active ClubCard members and 990 stores."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Neutral placeholder because the catalogue could not be read; company-reported skincare (43.8%) and haircare (32.8%) shares and a brand-owner link for Dark and Lovely suggest the true level is high (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Site refuses automated access and no public API was found."
+        }
+      },
+      "weighted_score": 3.7,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Third overall and the most important platform for the category itself. Reservation: the formula places it below Amazon only because its catalogue and data could not be accessed; if a data-sharing or manual-audit route is acceptable, Clicks should be treated as at least as important as the marketplaces.",
+      "confidence": "medium",
+      "confidence_note": "Scale and category shares are company-reported and consistent across sources; online-specific sales and the online brand range are UNVERIFIED because the site blocks automated access.",
+      "sources": [
+        {
+          "url": "https://clicksgroup.co.za/iar2025/?p=288",
+          "title": "Clicks business review - Clicks IAR 2025",
+          "publisher": "Clicks Group",
+          "published_date": "n.d. (Integrated Annual Report 2025)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ewn.co.za/2026/10/22/clicks-turnover-exceeds-r50bn-for-first-time-as-retail-footprint-expands",
+          "title": "Clicks turnover exceeds R50bn for first time as retail footprint expands",
+          "publisher": "EWN (Eyewitness News)",
+          "published_date": "2026-10-22",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/clicks.co.za/overview/",
+          "title": "clicks.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://africa.darkandlovely.com/",
+          "title": "Dark and Lovely Home (Africa site with retailer store links)",
+          "publisher": "Dark and Lovely (L'Oreal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Checkers Sixty60",
+      "website": "https://www.sixty60.co.za",
+      "operator": "Shoprite Holdings Limited",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "On-demand grocery service of the country's largest grocer; toiletries and personal care are standard supermarket categories, but the health and beauty range on Sixty60 could not be inspected in this session (UNVERIFIED).",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy offer on Sixty60 was verified in this session.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 because R25.5bn of reported sales makes it the largest single on-demand retail service found, used by 15% of online shoppers.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Sixty60 sales rose 34.5% to R25.5bn, about 9.4% of Shoprite group turnover and about 11% of Supermarkets RSA sales.",
+          "metric_type": "revenue",
+          "value": "R25.5bn",
+          "period": "52 weeks to 28 June 2026",
+          "nature": "company_reported",
+          "source_url": "https://techcentral.co.za/sixty60-now-drives-more-than-a-third-of-shoprites-growth/284740/",
+          "source_name": "TechCentral",
+          "source_date": "2026-08-12"
+        },
+        {
+          "claim": "Sixty60 is offered from 976 stores nationwide.",
+          "metric_type": "stores",
+          "value": "976 stores",
+          "period": "financial year to 28 June 2026",
+          "nature": "company_reported",
+          "source_url": "https://sundayworld.co.za/news/sixty60-powers-shoprite-growth-with-record-r25-5bn-in-sales/",
+          "source_name": "Sunday World",
+          "source_date": "2026-09-01"
+        },
+        {
+          "claim": "Used by 15% of South African online shoppers. ESTIMATE: survey usage share, not a sales share.",
+          "metric_type": "market_share",
+          "value": "15% of online shoppers",
+          "period": "2025 (Target Group Index interviews January-December 2025)",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.worldwideworx.com/?p=3097",
+          "source_name": "World Wide Worx",
+          "source_date": "2026-09-02"
+        },
+        {
+          "claim": "checkers.co.za received 10.58M visits worldwide, 94.2% (9.97M) from South Africa; the Sixty60 service is primarily app-based, so web visits understate use (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "10.58M total; 9.97M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/checkers.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: checkers.co.za and sixty60.co.za returned HTTP 403 to plain HTTP requests and to the WebFetch tool on 2026-11-26, and the service is app-based. No brand could be confirmed.",
+        "source_urls": []
+      },
+      "product_coverage_note": "UNVERIFIED. Expected to mirror the Checkers supermarket range, but no listing evidence was retrieved.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found. Supplier data arrangements with Shoprite are Not publicly disclosed in the sources retrieved.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App-first service whose websites refuse automated requests; realistic options are manual in-app checks or supplier data from the retailer.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "R25.5bn of sales and 15% of online shoppers; the largest on-demand retail service evidenced."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Grocery-led; personal care is a staple category but the range is UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "976 stores, 15% survey usage share and about 10M monthly web visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Neutral placeholder for a supermarket range that could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "App-first, automated access refused, no public API."
+        }
+      },
+      "weighted_score": 3.6,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Enormous reach, but beauty is a secondary category and data can only be gathered manually or through the retailer. Important for oral care and everyday personal care once a data route exists; until then Pick n Pay is the readable proxy for the grocery channel.",
+      "confidence": "medium",
+      "confidence_note": "Sales and usage are well sourced; category relevance and brand coverage are assumptions because the service could not be inspected.",
+      "sources": [
+        {
+          "url": "https://techcentral.co.za/sixty60-now-drives-more-than-a-third-of-shoprites-growth/284740/",
+          "title": "Sixty60 now drives more than a third of Shoprite's growth",
+          "publisher": "TechCentral",
+          "published_date": "2026-08-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sundayworld.co.za/news/sixty60-powers-shoprite-growth-with-record-r25-5bn-in-sales/",
+          "title": "Sixty60 powers Shoprite growth with record R25.5bn in sales",
+          "publisher": "Sunday World",
+          "published_date": "2026-09-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.worldwideworx.com/?p=3097",
+          "title": "SA online retail to reach R159-billion in 2026",
+          "publisher": "World Wide Worx",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/checkers.co.za/overview/",
+          "title": "checkers.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/food-and-drink/groceries/",
+          "title": "Top Groceries websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Pick n Pay (asap! and pnp.co.za)",
+      "website": "https://www.pnp.co.za",
+      "operator": "Pick n Pay Stores Limited",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Supermarket personal care with a deep verified range: searches returned Dove (107 personal care and hygiene items), Colgate (40 toothpastes, 30 toothbrushes), Pantene (32 shampoo and conditioner items), Garnier, Sensodyne, Vaseline, Nivea and Dark and Lovely.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "A 'Health & Wellness' facet appears in search results; no pharmacy service was verified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2 because online turnover is growing above 30% a year but no rand value is disclosed and its usage share trails Sixty60 (8% versus 16% as most frequently used platform in 2024 survey data, which is dated).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Pick n Pay online turnover grew 35.4%; the retailer gave no rand figure.",
+          "metric_type": "revenue",
+          "value": "+35.4% (value Not publicly disclosed)",
+          "period": "26 weeks to 30 August 2026",
+          "nature": "company_reported",
+          "source_url": "https://techcentral.co.za/pick-n-pay-online-sales-store-sales/287625/",
+          "source_name": "TechCentral",
+          "source_date": "2026-10-26"
+        },
+        {
+          "claim": "Online turnover grew 32.7% in the 2026 financial year and was profitable for a second consecutive year.",
+          "metric_type": "revenue",
+          "value": "+32.7% (value Not publicly disclosed)",
+          "period": "2026 financial year",
+          "nature": "company_reported",
+          "source_url": "https://www.worldwideworx.com/?p=3097",
+          "source_name": "World Wide Worx",
+          "source_date": "2026-09-02"
+        },
+        {
+          "claim": "The online range exceeds 35,000 products and the Smart Shopper programme added more than 600,000 customers; on-demand sales (asap! and Pick n Pay groceries on the Mr D app) grew 44%. Dated: about 13 months old.",
+          "metric_type": "customers",
+          "value": "more than 600,000 new loyalty customers; 35,000+ products",
+          "period": "26 weeks to 31 August 2025",
+          "nature": "company_reported",
+          "source_url": "https://www.itweb.co.za/article/new-pick-n-pay-asap-app-adds-600k-new-customers/rW1xLv5nVY57Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-10-27"
+        },
+        {
+          "claim": "pnp.co.za received 4.06M visits worldwide, 87.83% (3.56M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "4.06M total; 3.56M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/pnp.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Named as most frequently used online platform by 8% of survey respondents (Takealot 45%, Checkers Sixty60 16%). ESTIMATE; dated (2024 data).",
+          "metric_type": "market_share",
+          "value": "8% of respondents",
+          "period": "2024",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-09-12"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 by rendering pnp.co.za public search pages (default headless browser, no login). Category facet counts per brand query: Nivea (Body Care 49, Men's Toiletries 47, Facial Skin Care 45), Dove (Personal Care & Hygiene 107), Pantene (Shampoo & Conditioner 32), Garnier (Hair Care & Colourants 42, Facial Skin Care 32), Colgate (Toothpaste 40, Toothbrushes 30), Sensodyne (Toothpaste 25), Vaseline (Personal Care & Hygiene 55), Dark and Lovely (Hair Care 26). Other brands were not tested.",
+        "source_urls": [
+          "https://www.pnp.co.za/search/nivea"
+        ]
+      },
+      "product_coverage_note": "Eight of eight brands tested were listed with meaningful depth across skin, hair and oral care; pages show price and promotion flags.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public developer or partner API was found in this session (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Public search pages rendered without login or bot challenge, but the site is JavaScript-driven and prices depend on the delivery address; the asap! app itself was not inspected. Check site terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Fast-growing online grocery channel (+35.4%) with undisclosed value and about 3.6M monthly visits from South Africa."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Supermarket personal care with verified depth across skin, hair and oral care."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 3.6M monthly visits from South Africa; 8% most-used share in dated 2024 survey data."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "All eight brands tested were listed with substantial counts."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public pages render openly; no API."
+        }
+      },
+      "weighted_score": 3.5,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "Best-evidenced grocer for brand coverage and the most accessible supermarket site, which makes it a practical proxy for grocery-channel pricing while Sixty60 remains closed to automated collection.",
+      "confidence": "medium",
+      "confidence_note": "Brand presence verified directly; online sales value is not disclosed and usage-share data is from 2024.",
+      "sources": [
+        {
+          "url": "https://techcentral.co.za/pick-n-pay-online-sales-store-sales/287625/",
+          "title": "Pick n Pay's online sales jump while store sales barely grow",
+          "publisher": "TechCentral",
+          "published_date": "2026-10-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.worldwideworx.com/?p=3097",
+          "title": "SA online retail to reach R159-billion in 2026",
+          "publisher": "World Wide Worx",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/new-pick-n-pay-asap-app-adds-600k-new-customers/rW1xLv5nVY57Rk6m",
+          "title": "New Pick n Pay asap! app adds 600K new customers",
+          "publisher": "ITWeb",
+          "published_date": "2025-10-27",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/pnp.co.za/overview/",
+          "title": "pnp.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "title": "Takealot extends e-commerce lead despite arrival of disruptors",
+          "publisher": "ITWeb",
+          "published_date": "2025-09-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.pnp.co.za/search/nivea",
+          "title": "Pick n Pay Online Shopping - public search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Pick n Pay",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/food-and-drink/groceries/",
+          "title": "Top Groceries websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Bash",
+      "website": "https://bash.com",
+      "operator": "The Foschini Group (TFG)",
+      "status": "active",
+      "platform_category": "department_store_fashion",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "TFG's omnichannel fashion platform with a Beauty department. Skincare and cosmetics brands are present (Nivea 148 items, L'Oreal 164, Garnier 30, Dove 28), but searches for oral-care and mass hair-care brands returned no results.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. One of the most-visited retail sites (about 9.5M monthly visits from South Africa) and the driver of TFG Africa's 53.3% online growth, but fashion-led.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "TFG Africa online sales grew 53.3%, driven by Bash, and contributed 10.9% of TFG Africa sales; e-commerce revenue in the retail business was R2.2bn for the half (R1.4bn a year earlier).",
+          "metric_type": "revenue",
+          "value": "R2.2bn e-commerce revenue (half year)",
+          "period": "six months to 30 September 2026",
+          "nature": "company_reported",
+          "source_url": "https://techcentral.co.za/tfg-bash-online-pivot-store-closures/288101/",
+          "source_name": "TechCentral",
+          "source_date": "2026-11-06"
+        },
+        {
+          "claim": "bash.com received 10.56M visits worldwide, 89.82% (9.48M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "10.56M total; 9.48M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/bash.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-12"
+        },
+        {
+          "claim": "Bash reached profitability two years ahead of schedule in the year to March 2025. Dated (about 18 months old).",
+          "metric_type": "other",
+          "value": "profitable in 2025 financial year",
+          "period": "year to March 2025",
+          "nature": "company_reported",
+          "source_url": "https://businesstech.co.za/news/business/827124/south-africas-shein-and-temu-competitor-breaks-even-two-years-ahead-of-schedule/",
+          "source_name": "BusinessTech",
+          "source_date": "2025-06-06"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on 2026-11-26 by rendering bash.com public search pages (default headless browser, no login). Items found: Nivea 148, L'Oreal 164, Garnier 30, Dove 28. 'No results' was shown for Pantene, Colgate, Sensodyne, Vaseline, Dark and Lovely, Head & Shoulders, Sunsilk, Himalaya and Dabur.",
+        "source_urls": [
+          "https://bash.com/s?search=nivea"
+        ]
+      },
+      "product_coverage_note": "Skincare and make-up brands only; no oral care and no mass-market hair-care brands were found.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "Retailer platform for TFG brands and selected third-party products; no public seller or developer API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Public search and product pages rendered without login or bot challenge. No API. Check site terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "About 9.5M monthly visits from South Africa and R2.2bn half-year e-commerce revenue."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Fashion-led; beauty limited to skincare and cosmetics, with no oral care or mass hair care."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "Fourth most-visited retail site in Semrush's South African list."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "4 of 13 target brands found (Nivea, L'Oreal, Garnier, Dove), with good depth for Nivea and L'Oreal."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public pages render openly; no API."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Large audience and easy to read, but only partly relevant: useful for skincare price tracking, not for hair or oral care.",
+      "confidence": "medium",
+      "confidence_note": "Traffic is a third-party estimate; brand presence verified directly; Bash-only sales are not separated from TFG Africa online sales.",
+      "sources": [
+        {
+          "url": "https://techcentral.co.za/tfg-bash-online-pivot-store-closures/288101/",
+          "title": "Fewer stores, more Bash: TFG's online pivot gathers pace",
+          "publisher": "TechCentral",
+          "published_date": "2026-11-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/bash.com/overview/",
+          "title": "bash.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://businesstech.co.za/news/business/827124/south-africas-shein-and-temu-competitor-breaks-even-two-years-ahead-of-schedule/",
+          "title": "South Africa's Shein and Temu competitor breaks even two years ahead of schedule",
+          "publisher": "BusinessTech",
+          "published_date": "2025-06-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://bash.com/s?search=nivea",
+          "title": "Bash.com public search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Bash (TFG)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Dis-Chem",
+      "website": "https://www.dischem.co.za",
+      "operator": "Dis-Chem Pharmacies Limited",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "National pharmacy, health and beauty chain (328 retail pharmacy stores at 31 August 2026) with a 60-minute delivery service, DeliverD, covering about 10,000 front-shop items. No category market shares were retrieved.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Retail pharmacy group; pharmacy is the core of the business.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: second national health-and-beauty chain by evidence retrieved (8.2M active loyalty members, R42.8bn revenue); online share of sales is Not publicly disclosed in the sources retrieved.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "8.2 million active Better Rewards members (up 27%), accounting for 86.1% of sales.",
+          "metric_type": "customers",
+          "value": "8.2 million active members",
+          "period": "six months to 31 August 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.bizcommunity.com/article/dis-chems-better-rewards-programme-supports-8-revenue-growth-414299a",
+          "source_name": "Bizcommunity",
+          "source_date": "2026-10-30"
+        },
+        {
+          "claim": "328 retail pharmacy stores and 36 retail baby stores.",
+          "metric_type": "stores",
+          "value": "328 retail pharmacy stores",
+          "period": "at 31 August 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.bizcommunity.com/article/dis-chems-better-rewards-programme-supports-8-revenue-growth-414299a",
+          "source_name": "Bizcommunity",
+          "source_date": "2026-10-30"
+        },
+        {
+          "claim": "Group revenue rose 9.3% to R42.8bn (all channels). Online sales are Not publicly disclosed in the sources retrieved.",
+          "metric_type": "revenue",
+          "value": "R42.8bn group revenue",
+          "period": "financial year to 28 February 2026",
+          "nature": "company_reported",
+          "source_url": "https://techcentral.co.za/dis-chem-ecommerce-app-rebuild/285866/",
+          "source_name": "TechCentral",
+          "source_date": "2026-09-08"
+        },
+        {
+          "claim": "dischem.co.za received 5.36M visits worldwide, 86.73% (4.65M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "5.36M total; 4.65M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/dischem.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED on the retailer's own pages: dischem.co.za returned HTTP 403 (Cloudflare challenge) to plain HTTP requests and to the WebFetch tool on 2026-11-26. Indirect evidence only: L'Oreal's Dark and Lovely Africa site links to Dark and Lovely product pages on dischem.co.za. Other brands are UNVERIFIED.",
+        "source_urls": [
+          "https://africa.darkandlovely.com/"
+        ]
+      },
+      "product_coverage_note": "Front-shop health, beauty and personal care plus pharmacy; DeliverD offers about 10,000 items within 60 minutes. Brand-level range could not be read because the site blocks automated access.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public developer or partner API found (the site blocked automated requests, so absence is not conclusive). Dis-Chem is rebuilding its app and replacing its e-commerce platform, with public release targeted for early 2027, so any integration built now may need rework.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Automated requests are refused and the e-commerce platform is being replaced. Options are manual checks or a commercial data arrangement (Not publicly disclosed).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Large omnichannel retailer with about 4.7M monthly visits from South Africa; online share of sales not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "National health-and-beauty chain with a dedicated on-demand service; category shares not retrieved."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "8.2M active loyalty members and 328 pharmacy stores."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Neutral placeholder: only Dark and Lovely is confirmed (by a brand-owner link); the rest is UNVERIFIED because the site blocks automated access."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Site refuses automated access, no public API and a platform rebuild in progress."
+        }
+      },
+      "weighted_score": 3.25,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "Category heavyweight held back by data access and by an e-commerce platform that is being rebuilt. Reservation: the formula ranks it below Bash only because its site is closed to automated collection; commercially it is the second health-and-beauty chain and a must-watch retailer through manual audits or a data agreement.",
+      "confidence": "medium",
+      "confidence_note": "Scale figures are company-reported; online sales and brand range are UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://www.bizcommunity.com/article/dis-chems-better-rewards-programme-supports-8-revenue-growth-414299a",
+          "title": "Dis-Chem's Better Rewards programme supports 8% revenue growth",
+          "publisher": "Bizcommunity",
+          "published_date": "2026-10-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techcentral.co.za/dis-chem-ecommerce-app-rebuild/285866/",
+          "title": "Dis-Chem gets serious about e-commerce - again",
+          "publisher": "TechCentral",
+          "published_date": "2026-09-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/dischem.co.za/overview/",
+          "title": "dischem.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://africa.darkandlovely.com/",
+          "title": "Dark and Lovely Home (Africa site with retailer store links)",
+          "publisher": "Dark and Lovely (L'Oreal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Woolworths (woolworths.co.za and Woolies Dash)",
+      "website": "https://www.woolworths.co.za",
+      "operator": "Woolworths Holdings Limited",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Food and department-store retailer with its own beauty business (beauty sales up 7.9% in the 2026 financial year) and third-party toiletries: Nivea returned 131 results and Pantene products were confirmed. Positioning is more premium than mass-market.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Online is 7.3% of South African food sales and 6.3% of fashion, beauty and home sales; Similarweb ranks the site fourth among e-commerce sites in South Africa.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Online accounted for 7.3% of South African food sales and 6.3% of fashion, beauty and home sales; on-demand delivery revenue (Woolies Dash) grew 19.6%; beauty sales grew 7.9%.",
+          "metric_type": "revenue",
+          "value": "online 7.3% of SA food sales; 6.3% of fashion, beauty and home sales",
+          "period": "2026 financial year (52 weeks to 28 June 2026)",
+          "nature": "company_reported",
+          "source_url": "https://www.bizcommunity.com/article/woolworths-posts-r845bn-turnover-and-sharpens-food-focus-297167a",
+          "source_name": "Bizcommunity",
+          "source_date": "2026-09-03"
+        },
+        {
+          "claim": "woolworths.co.za received 5.48M visits worldwide, 86.32% (4.73M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "5.48M total; 4.73M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/woolworths.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Ranked #4 Ecommerce & Shopping website in South Africa (Similarweb).",
+          "metric_type": "other",
+          "value": "rank 4",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Named as most frequently used online platform by 7% of survey respondents. ESTIMATE; dated (2024 data).",
+          "metric_type": "market_share",
+          "value": "7% of respondents",
+          "period": "2024",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-09-12"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on 2026-11-26 by rendering woolworths.co.za public search pages (default headless browser, no login). Nivea: 131 results with Nivea product titles; Pantene: 20 results with Pantene Pro-V titles. Searches for Dove (44), L'Oreal (92), Colgate (23) and Vaseline (23) returned results whose titles were not individually checked. Sunsilk returned unrelated items, so it is not stocked. The search engine pads results with 'related items', so counts overstate exact matches.",
+        "source_urls": [
+          "https://www.woolworths.co.za/cat?Ntt=nivea"
+        ]
+      },
+      "product_coverage_note": "Third-party toiletries are sold alongside own-brand beauty; mass hair-care coverage is partial (Sunsilk absent). Listings show price, promotion and review counts.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public developer or partner API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Public search pages rendered without login in a headless browser (a plain HTTP request received no response once and succeeded once). No API. Check site terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Online is 6-7% of its South African sales; fourth-ranked e-commerce site by Similarweb."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Own beauty business growing 7.9% plus third-party toiletries, but premium positioning."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 4.7M monthly visits from South Africa."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Nivea and Pantene confirmed, four more brands returned results, Sunsilk absent."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public pages render openly; no API."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Mid-table: accessible and relevant for premium-leaning skincare and toiletries, but not where mass-market volume concentrates.",
+      "confidence": "medium",
+      "confidence_note": "Company-reported online shares and direct page checks; brand counts are inflated by fuzzy search.",
+      "sources": [
+        {
+          "url": "https://www.bizcommunity.com/article/woolworths-posts-r845bn-turnover-and-sharpens-food-focus-297167a",
+          "title": "Woolworths posts R84.5bn turnover and sharpens Food focus",
+          "publisher": "Bizcommunity",
+          "published_date": "2026-09-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/woolworths.co.za/overview/",
+          "title": "woolworths.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "title": "Takealot extends e-commerce lead despite arrival of disruptors",
+          "publisher": "ITWeb",
+          "published_date": "2025-09-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.woolworths.co.za/cat?Ntt=nivea",
+          "title": "Woolworths Online Shopping - public search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Woolworths",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.worldwideworx.com/?p=3097",
+          "title": "SA online retail to reach R159-billion in 2026",
+          "publisher": "World Wide Worx",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Makro (including Makro Marketplace)",
+      "website": "https://www.makro.co.za",
+      "operator": "Massmart (Walmart group)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "General-merchandise and wholesale retailer with a third-party marketplace; its personal-care range could not be inspected (UNVERIFIED).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Similarweb ranks makro.co.za third among e-commerce sites and marketplaces in South Africa, and Massmart is actively recruiting marketplace sellers, but no sales figures are disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "makro.co.za received 6.85M visits worldwide, 85.22% (5.84M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "6.85M total; 5.84M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/makro.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Ranked #3 Ecommerce & Shopping website and #3 marketplace website in South Africa (Similarweb).",
+          "metric_type": "other",
+          "value": "rank 3",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Named as most frequently used online platform by 5% of survey respondents. ESTIMATE; dated (2024 data).",
+          "metric_type": "market_share",
+          "value": "5% of respondents",
+          "period": "2024",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-09-12"
+        },
+        {
+          "claim": "Makro held a seller engagement session for marketplace sellers in June 2026; seller numbers, GMV and online revenue are Not publicly disclosed.",
+          "metric_type": "other",
+          "value": "Not publicly disclosed",
+          "period": "June 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.massmart.co.za/news/2026/06/makro-deepens-marketplace-growth-through-seller-collaboration",
+          "source_name": "Massmart",
+          "source_date": "2026-06-22"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: makro.co.za answered plain HTTP requests and the WebFetch tool with an 'Are you a human?' verification page on 2026-11-26, and no workaround was attempted.",
+        "source_urls": [
+          "https://www.makro.co.za/"
+        ]
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "seller_portal_export",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "A third-party integration guide (ShoppingFeeder, August 2025) describes creating an API key and secret under 'Developer Access' in the Makro Seller Portal (seller.makro.co.za) to sync listings. Makro's own API documentation was not found, so scope and terms are UNVERIFIED; access is for registered marketplace sellers only.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Registered sellers can obtain API credentials in the seller portal, but public pages are protected by a human-verification step, so competitor listings and prices cannot be collected automatically.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "High traffic (about 5.8M monthly visits from South Africa) but undisclosed online sales."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "General merchandise and bulk formats; beauty range UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "Third-ranked e-commerce site by Similarweb."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Neutral placeholder for a general-merchandise range that could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Seller-portal API credentials exist, but public pages block automation."
+        }
+      },
+      "weighted_score": 2.95,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "Worth a later look if the brand or its distributors sell on Makro Marketplace; UNVERIFIED for the category today.",
+      "confidence": "low",
+      "confidence_note": "Traffic estimates only; no sales data and no view of the catalogue.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/makro.co.za/overview/",
+          "title": "makro.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/marketplace/",
+          "title": "Top Marketplace websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "title": "Takealot extends e-commerce lead despite arrival of disruptors",
+          "publisher": "ITWeb",
+          "published_date": "2025-09-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.massmart.co.za/news/2026/06/makro-deepens-marketplace-growth-through-seller-collaboration",
+          "title": "Makro deepens marketplace growth through seller collaboration",
+          "publisher": "Massmart",
+          "published_date": "2026-06-22",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://help.shoppingfeeder.com/connecting-shoppingfeeder-to-makro-marketplace/",
+          "title": "Connecting ShoppingFeeder to Makro Marketplace - ShoppingFeeder Help",
+          "publisher": "ShoppingFeeder",
+          "published_date": "2025-08-27",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.makro.co.za/",
+          "title": "Makro website (returned an 'Are you a human?' verification page to automated requests)",
+          "publisher": "Makro (Massmart)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Superbalist",
+      "website": "https://superbalist.com",
+      "operator": "Superbalist (sold by Takealot Group on 1 September 2024 to a consortium led by Blank Canvas Capital)",
+      "status": "active",
+      "platform_category": "department_store_fashion",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion e-tailer with a Beauty department: Nivea (22 items), Garnier and L'Oreal are listed, but searches for Colgate, Pantene and Dove returned unrelated fashion items.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2 on traffic (about 4.7M monthly visits from South Africa). Ownership changed in 2024 and no sales figures have been published since.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "superbalist.com received 5.28M visits worldwide, 88.69% (4.69M) from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "5.28M total; 4.69M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/superbalist.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Used by 12.1% of online shoppers in 2024. ESTIMATE: survey usage share; dated.",
+          "metric_type": "market_share",
+          "value": "12.1% of online shoppers",
+          "period": "2024",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-09-12"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 by rendering superbalist.com public search pages (default headless browser, no login). Nivea: 22 items with Nivea titles; Garnier shampoos and conditioners were visible; 'loreal' returned 308 items. Searches for Colgate, Pantene and Dove returned unrelated products, so those brands are not stocked. Other target brands are UNVERIFIED.",
+        "source_urls": [
+          "https://superbalist.com/search?q=nivea"
+        ]
+      },
+      "product_coverage_note": "Skincare, make-up and some hair care from three of the target brands; no oral care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public seller or developer API was found; whether Superbalist runs a third-party seller programme is UNVERIFIED.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Public search pages rendered without login or bot challenge. No API found.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "About 4.7M monthly visits from South Africa; 12.1% usage share in dated 2024 data."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Fashion-led with a small mass-brand beauty range."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 4.7M monthly visits from South Africa."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "3 of 13 target brands found."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public pages render openly; no API."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Low priority for mass-market personal care; include only if skincare and cosmetics on fashion platforms become a focus.",
+      "confidence": "medium",
+      "confidence_note": "Live trading and brand range verified directly; usage share is from 2024 and predates the ownership change's effects.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/superbalist.com/overview/",
+          "title": "superbalist.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "title": "Takealot extends e-commerce lead despite arrival of disruptors",
+          "publisher": "ITWeb",
+          "published_date": "2025-09-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techcentral.co.za/takealot-superbalist-pe-consortium/250879/",
+          "title": "Takealot offloads Superbalist to PE consortium",
+          "publisher": "TechCentral",
+          "published_date": "2024-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://superbalist.com/search?q=nivea",
+          "title": "Superbalist public search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Superbalist",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu (South Africa)",
+      "website": "https://www.temu.com/za",
+      "operator": "Temu (parent company UNVERIFIED)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Cross-border value marketplace. Whether the target FMCG brands are listed could not be checked because search redirects to a login page; relevance is mainly as a low-price competitor for beauty tools and unbranded personal care (UNVERIFIED).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 for general e-commerce on traffic (largest retail site by visits from South Africa in Semrush's October 2026 list), although growth has slowed since import-duty changes and a union has called for a ban.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "temu.com received 15.91M visits from South Africa, the highest of any retail website in Semrush's country list (down 11.64% year on year).",
+          "metric_type": "monthly_visits",
+          "value": "15.91M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "source_name": "Semrush",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Ranked #2 Ecommerce & Shopping website in South Africa (Similarweb).",
+          "metric_type": "other",
+          "value": "rank 2",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Shein and Temu together reached an estimated R7.3bn of turnover in 2024. ESTIMATE, combined for both platforms; dated.",
+          "metric_type": "revenue",
+          "value": "R7.3bn (Shein and Temu combined)",
+          "period": "2024",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-09-12"
+        },
+        {
+          "claim": "Cross-border purchases were 18.6% of South African e-commerce transactions in 2025; Temu has introduced local-dispatch warehouse services.",
+          "metric_type": "market_share",
+          "value": "18.6% of transactions (all cross-border platforms)",
+          "period": "2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.itweb.co.za/article/shein-temu-forced-to-rethink-sa-e-commerce-playbook/Pero3qZ365PvQb6m",
+          "source_name": "ITWeb",
+          "source_date": "2026-09-09"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: on 2026-11-26 the Temu South Africa search URL redirected to a login page in a headless browser; no login was attempted, in line with the research rules.",
+        "source_urls": [
+          "https://www.temu.com/za"
+        ]
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A Temu partner documentation URL (partner.temu.com/documentation) responded but its content is script-rendered and could not be read; no public API for catalogue or price data was verified.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Listings sit behind a login wall for automated visitors. Only manual checks, or a seller account if the brand chose to sell there, are realistic.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Highest retail-site traffic from South Africa, though growth is slowing."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "No evidence that branded mass-market personal care is sold there; listings could not be read."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "15.91M monthly visits from South Africa (Semrush)."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Placeholder for a cross-border value platform whose catalogue could not be read; no target brand confirmed (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "Login wall; no verified API."
+        }
+      },
+      "weighted_score": 2.65,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "High reach but low category relevance and no legitimate automated access. Watch for price pressure rather than monitor listings. Regulatory risk: de minimis concession removed in November 2024 and a ban was called for by COSATU in October 2026.",
+      "confidence": "low",
+      "confidence_note": "Traffic estimates only; no company data for South Africa and no view of the catalogue.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/takealot-extends-e-commerce-lead-despite-arrival-of-disruptors/rW1xLv5n3Z17Rk6m",
+          "title": "Takealot extends e-commerce lead despite arrival of disruptors",
+          "publisher": "ITWeb",
+          "published_date": "2025-09-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/shein-temu-forced-to-rethink-sa-e-commerce-playbook/Pero3qZ365PvQb6m",
+          "title": "Shein, Temu forced to rethink SA e-commerce playbook",
+          "publisher": "ITWeb",
+          "published_date": "2026-09-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.temu.com/za",
+          "title": "Temu (South Africa country path; search redirects to a login page)",
+          "publisher": "Temu",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.dailymaverick.co.za/article/2026-10-15-cosatu-calls-for-government-ban-of-shein-and-temu-to-protect-local-jobs/",
+          "title": "Shein and Temu ban: Cosatu backs call to save local jobs",
+          "publisher": "Daily Maverick",
+          "published_date": "2026-10-15",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Shein (South Africa)",
+      "website": "https://za.shein.com",
+      "operator": "SHEIN (corporate entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led cross-border retailer. Its beauty range and the presence of the target brands could not be checked because search triggered a CAPTCHA challenge (UNVERIFIED).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 for general e-commerce on the second-highest survey usage share (21.5% of online shoppers), but growth slowed to 11% in 2025.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Used by 21.5% of South African online shoppers, second after Takealot. ESTIMATE: survey usage share, not a sales share.",
+          "metric_type": "market_share",
+          "value": "21.5% of online shoppers",
+          "period": "2025 (Target Group Index interviews January-December 2025)",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.worldwideworx.com/?p=3097",
+          "source_name": "World Wide Worx",
+          "source_date": "2026-09-02"
+        },
+        {
+          "claim": "shein.com received 6.90M visits from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "6.90M from South Africa",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "source_name": "Semrush",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Shein's growth in South Africa slowed to 11% in 2025, from 30-50% a year previously.",
+          "metric_type": "other",
+          "value": "+11% growth",
+          "period": "2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.itweb.co.za/article/shein-temu-forced-to-rethink-sa-e-commerce-playbook/Pero3qZ365PvQb6m",
+          "source_name": "ITWeb",
+          "source_date": "2026-09-09"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: on 2026-11-26 a search on za.shein.com redirected to a risk/CAPTCHA challenge in a headless browser; the attempt was stopped.",
+        "source_urls": [
+          "https://za.shein.com/"
+        ]
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The SHEIN Developer Platform offers OpenAPI access for sellers to publish products and manage orders. It serves registered SHEIN sellers; availability for South African sellers and any catalogue or price data for other sellers' listings are UNVERIFIED.",
+        "docs_url": "https://open.sheincorp.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Public pages present a CAPTCHA to automated visitors; the developer platform only helps a brand that sells on SHEIN.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Second-highest usage share (21.5%) among online shoppers."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Fashion-led; beauty relevance and brand listings UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "6.90M monthly visits from South Africa and a 21.5% usage share."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Placeholder for a fashion-led cross-border platform whose catalogue could not be read; no target brand confirmed (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "CAPTCHA on public pages; seller-only developer platform."
+        }
+      },
+      "weighted_score": 2.65,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Large audience but marginal for mass-market hair, skin and oral care; no legitimate automated route to listings.",
+      "confidence": "low",
+      "confidence_note": "Usage and traffic are third-party estimates; catalogue not inspected.",
+      "sources": [
+        {
+          "url": "https://www.worldwideworx.com/?p=3097",
+          "title": "SA online retail to reach R159-billion in 2026",
+          "publisher": "World Wide Worx",
+          "published_date": "2026-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/top/south-africa/e-commerce-and-retail/",
+          "title": "Most Visited Retail Websites in South Africa October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/shein-temu-forced-to-rethink-sa-e-commerce-playbook/Pero3qZ365PvQb6m",
+          "title": "Shein, Temu forced to rethink SA e-commerce playbook",
+          "publisher": "ITWeb",
+          "published_date": "2026-09-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.sheincorp.com/",
+          "title": "SHEIN Developer Platform",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://za.shein.com/",
+          "title": "Shop Trendy Women's Fashion | Women Clothing | SHEIN South Africa",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Mr D",
+      "website": "https://www.mrd.com",
+      "operator": "Takealot Group (owned by Naspers)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Food-delivery app that also carries Pick n Pay groceries and shops such as Wellness Warehouse; the personal-care range available through the app was not inspected (UNVERIFIED).",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Health retailers such as Wellness Warehouse appear on the homepage; no pharmacy dispensing offer was verified.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Revenue of US$138m in the 2026 financial year and a grocery partnership with Pick n Pay; user numbers are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Mr D revenue grew 18% to US$138m.",
+          "metric_type": "revenue",
+          "value": "US$138m",
+          "period": "financial year to 31 March 2026",
+          "nature": "company_reported",
+          "source_url": "https://techcentral.co.za/profits-arrive-at-takealot-but-naspers-stays-cautious/283091/",
+          "source_name": "TechCentral",
+          "source_date": "2026-06-29"
+        },
+        {
+          "claim": "The Mr D website advertises delivery from 'over 12 000 restaurants' within 60 minutes; active-user numbers are Not publicly disclosed.",
+          "metric_type": "other",
+          "value": "over 12,000 restaurants",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://www.mrd.com/",
+          "source_name": "Mr D",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Pick n Pay's on-demand sales through asap! and 'PnP groceries on the Mr D app' grew 44%. Dated: about 13 months old.",
+          "metric_type": "other",
+          "value": "+44% on-demand sales (Pick n Pay, both channels)",
+          "period": "26 weeks to 31 August 2025",
+          "nature": "company_reported",
+          "source_url": "https://www.itweb.co.za/article/new-pick-n-pay-asap-app-adds-600k-new-customers/rW1xLv5nVY57Rk6m",
+          "source_name": "ITWeb",
+          "source_date": "2025-10-27"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: grocery and shop catalogues are inside the app and behind an address prompt; no brand could be confirmed on 2026-11-26.",
+        "source_urls": []
+      },
+      "product_coverage_note": "UNVERIFIED. Expected to reflect Pick n Pay's on-demand range.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public partner or developer API was found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App-based, address-gated catalogue; manual checks only. Pick n Pay's own site is the practical proxy for the same range.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "US$138m revenue and national coverage, mostly restaurant delivery."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Personal care only through partner grocers and shops; UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "No user numbers disclosed; revenue and restaurant count indicate national scale."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Placeholder for a delivery app whose catalogue could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "App-only catalogue and no API found."
+        }
+      },
+      "weighted_score": 2.2,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Low priority: the grocery range it carries is easier to monitor on Pick n Pay's own site.",
+      "confidence": "low",
+      "confidence_note": "Revenue is company-reported; everything about the beauty range is UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://techcentral.co.za/profits-arrive-at-takealot-but-naspers-stays-cautious/283091/",
+          "title": "Profits arrive at Takealot, but Naspers stays cautious",
+          "publisher": "TechCentral",
+          "published_date": "2026-06-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.mrd.com/",
+          "title": "Mr D (homepage)",
+          "publisher": "Mr D",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.itweb.co.za/article/new-pick-n-pay-asap-app-adds-600k-new-customers/rW1xLv5nVY57Rk6m",
+          "title": "New Pick n Pay asap! app adds 600K new customers",
+          "publisher": "ITWeb",
+          "published_date": "2025-10-27",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "ARC Store",
+      "website": "https://www.arcstore.co.za",
+      "operator": "ARC (operating company not stated on the pages retrieved)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Dedicated beauty retailer (make-up, fragrance, skincare, haircare, body, electrical) focused on prestige and masstige brands such as Chanel, Dior, Huda Beauty, Fenty Beauty, The Ordinary and COSRX. Relevant for premium skincare, not for mass-market lines.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 (niche). Similarweb lists it among the five most-visited Beauty and Cosmetics websites in South Africa, but absolute traffic is small.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "arcstore.co.za received 216.55K visits, 97.49% from South Africa (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "216.55K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/arcstore.co.za/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Ranked #5 among Beauty and Cosmetics websites in South Africa, after yesstyle.com, fragrantica.com, fresha.com and nivea.co.za (Similarweb).",
+          "metric_type": "other",
+          "value": "rank 5 in Beauty and Cosmetics",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/south-africa/lifestyle/beauty-and-cosmetics/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 from ARC's public brand directory (WebFetch): none of 17 mass-market brands checked (L'Oreal Paris, Garnier, Nivea, Dove, Pantene, Head & Shoulders, Vaseline, Colgate, Sensodyne, Himalaya, Dark and Lovely, Sunsilk, Maybelline, CeraVe, Cantu, Aunt Jackie's, ORS) appears; only L'Oreal Professionnel is listed.",
+        "source_urls": [
+          "https://www.arcstore.co.za/brands",
+          "https://www.arcstore.co.za/"
+        ]
+      },
+      "product_coverage_note": "Prestige and salon brands; no mass-market hair, skin or oral care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Homepage and brand directory were readable through the WebFetch tool; a plain HTTP request received no response.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 1,
+          "note": "Niche specialist with about 0.2M monthly visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty-only, but prestige rather than mass-market."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 216K monthly visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "None of the mass-market target brands is listed."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable; no API."
+        }
+      },
+      "weighted_score": 1.65,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Included to cover the beauty-specialist type. Not relevant to mass-market monitoring unless the portfolio moves up-market.",
+      "confidence": "medium",
+      "confidence_note": "Live trading and brand list verified; operator and sales UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/arcstore.co.za/overview/",
+          "title": "arcstore.co.za Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/south-africa/lifestyle/beauty-and-cosmetics/",
+          "title": "Top Beauty and Cosmetics websites in South Africa, October 2026 (descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.arcstore.co.za/",
+          "title": "ARC store homepage (descriptive title)",
+          "publisher": "ARC",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.arcstore.co.za/brands",
+          "title": "ARC store brand directory (descriptive title)",
+          "publisher": "ARC",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

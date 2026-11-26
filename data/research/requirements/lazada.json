@@ -1,0 +1,1155 @@
+{
+  "marketplace": "Lazada",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "MY"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "partial",
+  "how_brands_deliver_content": "Self-service: Lazada Seller Center (Products > Manage Products > Add Products for single upload, Bulk Manage > Bulk Add with a category Excel template), the Lazada seller app, or the Lazada Open Platform API (CreateProduct / UpdateProduct, with images and videos first uploaded to Lazada). Product descriptions are decorated with the built-in Lorikeet tool. A semi-automated Quality Check runs at creation and again after go-live; rejected or flagged products appear under the Violation / QC Alert tabs. Health-category listings require seller whitelisting. Brands normally sell through their own or a distributor's Marketplace or LazMall store; no content-syndication partner route is publicly documented.",
+  "languages": [
+    {
+      "country_code": "MY",
+      "languages": [
+        "en",
+        "ms"
+      ],
+      "note": "Content Score title guidance says \"Name your product in English\"; Lorikeet supports a default language (English) and local language (Bahasa Malaysia). Lazada's CPETTR 2024 article says product titles and descriptions must be written in Bahasa Melayu (other languages allowed in addition) but notes the 24 June 2025 deadline \"has been postponed until further notice\" and that an AI translation feature is being rolled out.",
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027814&questionId=1000156240"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.max_length",
+      "area": "title",
+      "requirement": "Product name: mandatory, maximum 255 characters.",
+      "rule_type": "max_length",
+      "value": 255,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30720&docId=120949",
+      "source_title": "Create product - Developer's Guide (field descriptions)",
+      "source_date": "2026-07-15",
+      "verification": "official_document",
+      "notes": "From the Open Platform (API) documentation; the Seller Center form may apply tighter per-category limits. A CreateProduct error code also says the multi-language title cannot exceed 255 bytes."
+    },
+    {
+      "id": "title.recommended_length",
+      "area": "title",
+      "requirement": "Product name should be within the recommended length; the Content Score API sample indicator reads \"Suggest title length between 20 and 150\".",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/api?path=%2Fproduct%2Fcontent%2Fscore%2Fget",
+      "source_title": "GetProductContentScore (/product/content/score/get) - API reference",
+      "source_date": "2023-05-24",
+      "verification": "official_document",
+      "notes": "The help article says only \"within the recommended length\"; the 20-150 figure appears in the sample response of GetProductContentScore and may vary by category or over time."
+    },
+    {
+      "id": "title.english",
+      "area": "title",
+      "requirement": "Name your product in English (Title Score guideline).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "source_title": "What is Content Score?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": "Conflicts with the CPETTR 2024 requirement for Bahasa Melayu titles, whose enforcement is postponed - see the language rule."
+    },
+    {
+      "id": "title.capitalisation",
+      "area": "title",
+      "requirement": "Capitalise the first letter of each word except for specific brand names (e.g. GAP, ROLEX).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "source_title": "What is Content Score?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.relevant_brands_keywords",
+      "area": "title",
+      "requirement": "Include only relevant brands (use \"For\", \"Applicable to\", \"Compatible to\" for compatible brands) and avoid duplicate or irrelevant keywords.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "source_title": "What is Content Score?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_promotional_statements",
+      "area": "title",
+      "requirement": "The product title must not contain promotional statements such as \"Free shipping\", \"In stock\", \"Hot sale\" or \"Best-selling\".",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_comparative_superlative",
+      "area": "title",
+      "requirement": "The product title must not contain comparative or superlative statements (e.g. \"better than Brand A\", \"100% effective\").",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_repeated_or_irrelevant_keywords",
+      "area": "title",
+      "requirement": "The product title must be straightforward and factual, consist only of relevant keywords, and not contain repeated keywords or irrelevant brand names.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_special_characters",
+      "area": "title",
+      "requirement": "The product title must not contain special characters such as emojis, emoticons or other special symbols.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": "The CreateProduct API rejects the characters \" ^ ~ < > | in properties (error BIZ_CHECK_PROP_SPECIAL_CHAR). The older Content Score article lists some symbols as usable; the 2026 policy wording is followed here."
+    },
+    {
+      "id": "title.short_shelf_life_tag",
+      "area": "title",
+      "requirement": "Products with naturally short shelf life or sold as short-dated clearance (e.g. cosmetics and skincare clearance) must state the expiry period in the title and description, e.g. \"[EXD: 31/12/2025] PRODUCT NAME\".",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000159594",
+      "source_title": "Product Expiry Date Policy",
+      "source_date": "2026-09-30",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.max_length",
+      "area": "description",
+      "requirement": "Long description: maximum 25,000 characters; HTML tags are allowed; only Lazada-hosted image URLs may be used (no external URLs).",
+      "rule_type": "max_length",
+      "value": 25000,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30720&docId=120949",
+      "source_title": "Create product - Developer's Guide (field descriptions)",
+      "source_date": "2026-07-15",
+      "verification": "official_document",
+      "notes": "From the Open Platform (API) documentation; the Seller Center form may apply tighter per-category limits."
+    },
+    {
+      "id": "description.min_words_and_image",
+      "area": "description",
+      "requirement": "A good product description has a minimum of 30 words and at least 1 image (Content Score - Content Completeness).",
+      "rule_type": "min_length",
+      "value": 30,
+      "unit": "words",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "source_title": "What is Content Score?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.html_formatting",
+      "area": "description",
+      "requirement": "Basic HTML is supported in the long description (e.g. <b> for bold, <br> for line breaks).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148516",
+      "source_title": "HTML Tips and Tricks: Text Formatting",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.expiry_check_guidance",
+      "area": "description",
+      "requirement": "For expirable products the description must guide the buyer on how to check the production/expiry date on the package.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000159594",
+      "source_title": "Product Expiry Date Policy",
+      "source_date": "2026-09-30",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.accuracy",
+      "area": "description",
+      "requirement": "Product content must be accurate, clear and precise; check country of origin, functions and regulatory approvals before listing; material information such as product suitability or side effects must not be omitted.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "bullets.highlights_count",
+      "area": "bullets",
+      "requirement": "Short description (highlights): provide at least 3 and up to 8 bullet points.",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "bullets",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027789&questionId=1000148529",
+      "source_title": "What are the best practices for product content?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": "Quoted: \"Please provide at least 3-8 bullet points.\" The HTML tips article calls product highlights a mandatory attribute."
+    },
+    {
+      "id": "bullets.highlights_format",
+      "area": "bullets",
+      "requirement": "Highlights must be an HTML bullet list: the short description is text only (images and URLs are filtered out) and can only use <ul><li> or <ol><li>.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30720&docId=120949",
+      "source_title": "Create product - Developer's Guide (field descriptions)",
+      "source_date": "2026-07-15",
+      "verification": "official_document",
+      "notes": "From the Open Platform (API) documentation; the Seller Center form may apply tighter per-category limits."
+    },
+    {
+      "id": "attributes.mandatory",
+      "area": "attributes",
+      "requirement": "All compulsory attributes (marked with a red asterisk under Key Product Information) must be completed; key-property fill rate also counts towards Content Score.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "source_title": "What is Content Score?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.brand",
+      "area": "attributes",
+      "requirement": "Brand is mandatory (select brand_id from Lazada's brand list or request a new brand); \"No Brand\" cannot be selected for LazMall stores, and the brand attribute must match the product actually offered.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30720&docId=120949",
+      "source_title": "Create product - Developer's Guide (field descriptions)",
+      "source_date": "2026-07-15",
+      "verification": "official_document",
+      "notes": "Brand Attribute Accuracy Policy (2026-03-18): brand-mismatched products are flagged in QC Alert and deactivated if not fixed within 7 days."
+    },
+    {
+      "id": "attributes.last_level_category",
+      "area": "attributes",
+      "requirement": "The product must be placed in the last-level (leaf) category; wilful miscategorisation leads to deactivation plus a non-compliance point.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/api?path=%2Fproduct%2Fcreate",
+      "source_title": "CreateProduct (/product/create) - API reference",
+      "source_date": "2022-07-14",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.warranty",
+      "area": "attributes",
+      "requirement": "Warranty information is a mandatory attribute for all products regardless of category; \"What's in the box\" (package content) should match what the customer receives.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027789&questionId=1000148529",
+      "source_title": "What are the best practices for product content?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.product_license_number",
+      "area": "attributes",
+      "requirement": "Sellers must enter the pharmaceutical product, cosmetic or medical device registration/notification number issued by NPRA or MDA in the \"Product License\" attribute under the specification section when listing.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148366",
+      "source_title": "Product Listing Policy for Pharmaceutical Products, Cosmetic Products and Medical Devices",
+      "source_date": "2024-11-26 (text marked \"Updated on 26.11.2021\")",
+      "verification": "official_document",
+      "notes": "Cosmetics must be notified to the Director of Pharmaceutical Services (NPRA) before listing; Lazada's examples of cosmetics include shampoo, conditioner, hair treatment and colouring, body wash, facial cleansers, toner, moisturiser, masks, scrubs, hand cream and hand sanitiser. The CPETTR article likewise lists \"NPRA Notification\" for cosmetics and skincare."
+    },
+    {
+      "id": "attributes.expiry_date_on_pack",
+      "area": "attributes",
+      "requirement": "Expirable products (including cosmetics and skincare) must have a clearly visible, legible expiry date printed on the packaging in DD/MM/YYYY or MM/YYYY format.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000159594",
+      "source_title": "Product Expiry Date Policy",
+      "source_date": "2026-09-30",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.min_remaining_shelf_life",
+      "area": "attributes",
+      "requirement": "Products shipped to buyers must have at least 2/3 of their shelf life remaining on delivery; where there is no production date, cosmetics need at least 1.5 years from delivery date to expiry date.",
+      "rule_type": "other",
+      "value": 18,
+      "unit": "months",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000159594",
+      "source_title": "Product Expiry Date Policy",
+      "source_date": "2026-09-30",
+      "verification": "official_document",
+      "notes": "18 months is the \"no production date\" rule for cosmetics and other non-food products; the general rule is two-thirds of shelf life remaining."
+    },
+    {
+      "id": "attributes.health_category_whitelist",
+      "area": "attributes",
+      "requirement": "Only whitelisted sellers may upload listings under the Health category; whitelisting of a new seller takes 3-5 working days.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148196",
+      "source_title": "Health Governance Policy",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": "Applies to the Health category (medicines, supplements, medical devices). Whether Lazada places particular oral-care or dermo-cosmetic sub-categories under Health is not stated."
+    },
+    {
+      "id": "identifiers.gtin",
+      "area": "identifiers",
+      "requirement": "No GTIN/EAN requirement is stated in the help articles or the create-product guide retrieved; the API only reports an error when an EAN code already exists.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/api?path=%2Fproduct%2Fcreate",
+      "source_title": "CreateProduct (/product/create) - API reference",
+      "source_date": "2022-07-14",
+      "verification": "unverified",
+      "notes": "Not publicly documented as mandatory or optional for beauty categories."
+    },
+    {
+      "id": "images.min_side_px",
+      "area": "images_main",
+      "requirement": "Minimum image width and height: 330 px.",
+      "rule_type": "min_dimension",
+      "value": 330,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30718&docId=120947",
+      "source_title": "Image Upload - Developer's Guide",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all product images. From the Open Platform (API) documentation; the Seller Center form may apply tighter per-category limits."
+    },
+    {
+      "id": "images.max_side_px",
+      "area": "images_main",
+      "requirement": "Maximum image width and height: 5000 px.",
+      "rule_type": "other",
+      "value": 5000,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30718&docId=120947",
+      "source_title": "Image Upload - Developer's Guide",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all product images. From the Open Platform (API) documentation; the Seller Center form may apply tighter per-category limits."
+    },
+    {
+      "id": "images.max_file_size_mb",
+      "area": "images_main",
+      "requirement": "Maximum image file size: 3,145,728 bytes (3 MB).",
+      "rule_type": "other",
+      "value": 3,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30718&docId=120947",
+      "source_title": "Image Upload - Developer's Guide",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all product images. The single-file UploadImage API reference (2022) states 1 MB instead."
+    },
+    {
+      "id": "images.format",
+      "area": "images_main",
+      "requirement": "Supported image formats: JPG and PNG.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30718&docId=120947",
+      "source_title": "Image Upload - Developer's Guide",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all product images."
+    },
+    {
+      "id": "images.max_count",
+      "area": "images_secondary",
+      "requirement": "A maximum of 8 images can be uploaded per product, and up to 8 images per SKU/variation option.",
+      "rule_type": "max_count",
+      "value": 8,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30720&docId=120949",
+      "source_title": "Create product - Developer's Guide (field descriptions)",
+      "source_date": "2026-07-15",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.min_count",
+      "area": "images_secondary",
+      "requirement": "Provide a minimum of 3 main images (Seller Center upload step and Content Score completeness indicator).",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "images",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027789&questionId=1000148630",
+      "source_title": "How to upload product in Seller Center?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": "The API only makes one main image mandatory (error \"Main image is require\"); 3 is what the Seller Center guide and Content Score ask for."
+    },
+    {
+      "id": "images_main.no_before_after_or_testimonials",
+      "area": "images_main",
+      "requirement": "The main product image must feature the main product and must not include \"before and after\" comparison images, testimonials, irrelevant images, or overclaiming/exaggerated claims or \"effects\".",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.no_animation",
+      "area": "images_main",
+      "requirement": "The main product image must not be an animated image (GIF or video format).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.no_pure_text",
+      "area": "images_main",
+      "requirement": "Content Score flags a main image detected as a pure-text image (\"Pure text image detected. Please upload another image.\").",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/api?path=%2Fproduct%2Fcontent%2Fscore%2Fget",
+      "source_title": "GetProductContentScore (/product/content/score/get) - API reference",
+      "source_date": "2023-05-24",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.long_image_3_4",
+      "area": "images_secondary",
+      "requirement": "A \"long image\" in 3:4 aspect ratio can be added or auto-generated from the first product image for certain categories (buyer promotion image).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027789&questionId=1000148441",
+      "source_title": "Batch Image Management - Adding Long Images",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.background",
+      "area": "images_main",
+      "requirement": "Main-image background and composition rules (e.g. white background) are in the login-gated \"Product Image & Quality Guideline\" and could not be read.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://university.lazada.com.my/course/learn?id=14732&type=article",
+      "source_title": "Content Score Guideline (Lazada University lesson; also \"Product Image & Quality Guideline\" id=1730 and \"Product Title Quality Guideline\" id=1726)",
+      "source_date": "2026-09-03 (listing date)",
+      "verification": "unverified",
+      "notes": ""
+    },
+    {
+      "id": "video.upload_and_audit",
+      "area": "video",
+      "requirement": "Product video is optional; it is uploaded to Lazada's Media Center (Video Uploader or API) and can be attached to a product only once its status is AUDIT_SUCCESS.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30720&docId=120949",
+      "source_title": "Create product - Developer's Guide (field descriptions)",
+      "source_date": "2026-07-15",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.max_file_size_mb",
+      "area": "video",
+      "requirement": "Maximum video size: 100 MB (API upload).",
+      "rule_type": "other",
+      "value": 100,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.lazada.com/apps/doc/doc?nodeId=30719&docId=120948",
+      "source_title": "Video Upload - Developer's Guide",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "From the Open Platform (API) documentation; the Seller Center form may apply tighter per-category limits. Duration, resolution and format limits are not stated in the documents retrieved."
+    },
+    {
+      "id": "enhanced_content.lorikeet_components",
+      "area": "enhanced_content",
+      "requirement": "Lorikeet (Advanced Mode) builds the product description from Image components (single 1:1 image, dual 3:4 images, triple 1:1 images), a Text & Image component (rich text) and a Free Design component.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027781&questionId=1000148600",
+      "source_title": "Quickly Edit Product Content with Lorikeet",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "enhanced_content.lorikeet_recommended",
+      "area": "enhanced_content",
+      "requirement": "Use the Lorikeet tool to decorate the product description.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027789&questionId=1000148529",
+      "source_title": "What are the best practices for product content?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.keywords_and_attributes",
+      "area": "seo",
+      "requirement": "Mandatory attributes are the keywords/specifications customers use to search, browse and filter; describe the product in detail with high-quality images and impactful keywords to raise the content score.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "source_title": "What is Content Score?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.no_keyword_stuffing",
+      "area": "seo",
+      "requirement": "Avoid duplicate or irrelevant keywords and irrelevant brand names in the title.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.levels",
+      "area": "variants",
+      "requirement": "Up to 2 levels of variation can be created (seller-defined variation), available for all categories.",
+      "rule_type": "max_count",
+      "value": 2,
+      "unit": "variation levels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027817&questionId=1000148702",
+      "source_title": "Seller-Defined Variation",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.options_per_level",
+      "area": "variants",
+      "requirement": "Up to 20 options are allowed per variation level.",
+      "rule_type": "max_count",
+      "value": 20,
+      "unit": "options",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027817&questionId=1000148702",
+      "source_title": "Seller-Defined Variation",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.same_title_and_description",
+      "area": "variants",
+      "requirement": "Product variations should share the same product title and description and vary only in colours, sizes or technical characteristics; listing an add-on or unrelated cheaper item as a variation is prohibited (an add-on may be sold as a bundle that includes the main product).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.no_listing_switching",
+      "area": "variants",
+      "requirement": "Changing an existing listing to a different or newer product is not allowed; a different product needs a new listing. Wilful duplication of listings leads to deactivation plus a non-compliance point.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "language.bahasa_melayu_cpettr",
+      "area": "language",
+      "requirement": "CPETTR 2024 (per Lazada): product titles and descriptions must be written in Bahasa Melayu, with translations in other languages allowed in addition; registration/licence numbers for certified products must be visible on the product page.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027814&questionId=1000156240",
+      "source_title": "CPETTR: Consumer Protection (Electronic Trade Transactions) Regulations 2024",
+      "source_date": "2025-06-21",
+      "verification": "official_document",
+      "notes": "Lazada notes the 24 June 2025 compliance deadline \"has been postponed until further notice\" and is rolling out AI translation of descriptions into Bahasa Melayu. Treat as pending regulation rather than an enforced platform rule."
+    },
+    {
+      "id": "approval.qc_process",
+      "area": "approval",
+      "requirement": "Products are reviewed by a semi-automated Quality Check: rejected products appear under the Violation tab with rejection reasons, and post-live checks can still take down prohibited SKUs after they have gone live.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027789&questionId=1000148560",
+      "source_title": "Why are my SKUs not live and how do I fix them?",
+      "source_date": "2024-11-26",
+      "verification": "official_document",
+      "notes": "No QC turnaround time is published in the articles retrieved."
+    },
+    {
+      "id": "approval.qc_alert_grace_days",
+      "area": "approval",
+      "requirement": "Brand-mismatched products flagged in the QC Alert tab are deactivated and locked (+2 non-compliance points) if not edited or deleted within 7 days.",
+      "rule_type": "other",
+      "value": 7,
+      "unit": "days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148483",
+      "source_title": "Brand Attribute Accuracy Policy",
+      "source_date": "2026-03-18",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.medical_claims",
+      "area": "restricted_claims",
+      "requirement": "Product pictures and descriptions count as advertisements: they must not contain medical claims referring, directly or indirectly, to the prevention, treatment or diagnosis of diseases and conditions, or to purposes prohibited by the Medicines (Advertisement and Sale) Act 1956; fake medical claims on non-medical products are prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027817&questionId=1000148285",
+      "source_title": "Medical Claims Listing Guide",
+      "source_date": "2026-01-20",
+      "verification": "official_document",
+      "notes": "Medicine and medical-device advertisements additionally need Medicine Advertisements Board / MDA approval."
+    },
+    {
+      "id": "restricted_claims.no_false_or_exaggerated",
+      "area": "restricted_claims",
+      "requirement": "No false, exaggerated or unverifiable claims (e.g. \"miracle cures\"), and no competitive claims or superlatives such as \"best\", \"#1\", \"better than\" without scientific or technical evidence.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.no_offsite_promotion",
+      "area": "restricted_claims",
+      "requirement": "Content must not promote or refer users to non-Lazada platforms through links, QR codes or embedded hyperlinks, and must not contain obscene, distasteful, vulgar, discriminating or unlawful material.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.no_lazmall_marks",
+      "area": "restricted_claims",
+      "requirement": "Stores that are not LazMall-certified may not display the LazMall logo, badges or similar marks in product images, descriptions or videos.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148601",
+      "source_title": "Inappropriate and Misleading Content Policy",
+      "source_date": "2026-06-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.unnotified_cosmetics",
+      "area": "restricted_claims",
+      "requirement": "Cosmetics that have not been notified to the Director of Pharmaceutical Services must not be listed and must be taken down immediately if discovered.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148366",
+      "source_title": "Product Listing Policy for Pharmaceutical Products, Cosmetic Products and Medical Devices",
+      "source_date": "2024-11-26 (text marked \"Updated on 26.11.2021\")",
+      "verification": "official_document",
+      "notes": ""
+    }
+  ],
+  "enhanced_content": {
+    "supported": "yes",
+    "official_name": "Lorikeet",
+    "eligibility": "Available in Seller Center to sellers generally (Products > Add Products > Product Description); no eligibility restriction is stated. Advanced Mode components can be edited only on the web version of Seller Center.",
+    "modules_note": "Image components (single 1:1, dual 3:4, triple 1:1), Text & Image component with rich text, Free Design component with free text and image layers, pre-configured templates; content can be set in English and Bahasa Malaysia. Image pixel sizes and text limits per component are not published.",
+    "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027781&questionId=1000148600"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Content Score",
+      "what_it_measures": "Official description: \"a feature that guides you on how to maintain a high-standard of product information that will help you to improve your product's searchability and sales conversion, by providing indicators on your product's quality.\"",
+      "components": "Content Completeness (mandatory attributes and key-property fill rate; description of at least 30 words and 1 image; at least 3 main images), Content Quality - Image Score (number and quality of images, promotional square/long images), Content Quality - Title Score (English, recommended length, capitalisation, relevant brands/keywords, no promotional messages, no emojis).",
+      "access_method": "api",
+      "api_reference_url": "https://open.lazada.com/apps/doc/api?path=%2Fproduct%2Fcontent%2Fscore%2Fget",
+      "who_can_access": "Sellers in Seller Center (Edit Products page, Product Management page, and Products > Manage Products > Product Optimizer) and authorised Open Platform apps via GetProductContentScore (item_id required).",
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027788&questionId=1000148759",
+      "verification": "official_document",
+      "notes": "The API returns score and total per product plus per-indicator items (itemTitle, group, indicators with a \"critical\" flag, per-image results). The sample response shows score 50 of total 110, so the scale is not a fixed 0-100; the Product Optimizer help article refers to an \"Excellent\" content score band. Other band names and thresholds are not published in the pages retrieved."
+    },
+    {
+      "official_name": "QC Alert / Violation (product quality control alerts)",
+      "what_it_measures": "Products flagged for policy or quality problems (e.g. brand mismatch, product-quality issues from ratings, returns and complaints) with a grace period and suggested action.",
+      "components": "In Alert and Punished tabs with re-assessment dates; rejection reasons under the Violation tab.",
+      "access_method": "seller_portal_only",
+      "api_reference_url": null,
+      "who_can_access": "Sellers in Seller Center (Products > Manage Products > QC Alert / Violation)",
+      "source_url": "https://sellercenter.lazada.com.my/helpcenter/s/faq/knowledge?m_station=faq&categoryId=1000027816&questionId=1000148483",
+      "verification": "official_document",
+      "notes": "A compliance diagnostic rather than a content score. The Open Platform product API list also contains GetQCAlertProducts and GetPreQcRules, which were not examined in detail."
+    }
+  ],
+  "limitations": "Lazada University lessons that hold the detailed content standards (\"Content Score Guideline\", \"Product Image & Quality Guideline\", \"Product Title Quality Guideline\") redirect to the Seller Center sign-up page, so main-image style rules (background, text overlays), the official Content Score bands/weights and category-specific title lengths could not be read; the rules here come from the public Seller Center Help Center and the Open Platform documentation. API limits (255-character name, 25,000-character description, 330-5000 px images, 3 MB) are system maximums and may be stricter in the Seller Center form for a given category. Most help articles carry an identical 2024-11-26 update stamp, so their true age is unclear (one is internally marked 2021). Video duration/format limits, GTIN rules and LazMall-specific content standards were not found. The Bahasa Melayu requirement stems from CPETTR 2024, whose enforcement Lazada reports as postponed."
+}

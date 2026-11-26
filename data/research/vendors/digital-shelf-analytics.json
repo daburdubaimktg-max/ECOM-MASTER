@@ -1,0 +1,1956 @@
+{
+  "research_date": "2026-11-26",
+  "vendors": [
+    {
+      "name": "Profitero+ (Profitero)",
+      "category": "digital_shelf_analytics",
+      "parent_company": "Publicis Groupe (Profitero joined in March 2022) [9]",
+      "headquarters": "Not found on pages retrieved (UNVERIFIED: Boston, MA, USA)",
+      "website": "https://www.profitero.com",
+      "customer_profile": "Enterprise consumer-goods brands. Vendor states 9,000+ brands (company-reported) [1]. Capterra says enterprises make up 76% of its Profitero+ reviewers (third-party) [18].",
+      "corporate_changes_since_2023": "August 2023: 'Ask Profitero' chat-based AI assistant announced [14][15]. 20 May 2025: rebranded offer 'Profitero+' launched, combining Profitero data/technology with Mars United Commerce managed services inside Publicis [13]. October 2025: vendor states it was named a Leader in the IDC MarketScape for Digital Shelf Analytics 2025 [16]. (The Publicis acquisition itself dates from 2022 [9][15].)",
+      "core_functionality": "Modules: Digital Shelf (search visibility, availability and assortment, content compliance, price / MAP / third-party sellers / promotions, ratings and reviews) [2]; Sales & Share (Amazon sales and market-share estimates, 1P vs 3P, traffic and conversion) [3]; Content Optimizer (retailer-specific keywords, benchmarks, GenAI copy, approval workflow) [4]; Autopilot (automatic Amazon content correction, suppressed-ASIN and variant fixes, case management) [5]; Shelf Intelligent Media (ad bids adjusted from shelf signals through Skai, Pacvue and DSPs) [6]; AMZ Vendor Health (Amazon profitability dashboard from Vendor Central data) [7]; Store-Based Analytics (store-level price and availability) [8]; plus managed services for media, content, operations and strategy [1][13].",
+      "data_collection": "Daily collection from retailer sites (a Capterra reviewer calls them 'daily scrapes' [18]); vendor states 40TB of data per day at '95% accuracy' (company-reported) [2]. 'Secure Walmart API data' as a Walmart partner [12]. Amazon Vendor Central data for AMZ Vendor Health [7]. The client's content source of truth for Autopilot [5]. Sales & Share figures are modelled estimates ('90% accurate ... at the brand & category level', company-reported) [3]. ML / LLM parsing used for data quality [11].",
+      "marketplace_coverage": "Vendor states 1,400+ retailers in 70+ countries and 80M+ products tracked daily (company-reported) [1][2]. Retailers named on pages retrieved: Amazon and Walmart [3][4][12]. A customer quote cites 30 markets [1]. Retailer capability reports are published only for the US and UK [17]. No public retailer list by country was found.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "Only the generic '70+ countries' claim [1]; no UAE retailer (Amazon.ae, Noon) named on pages retrieved."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "Only the generic '70+ countries' claim [1]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "Only the generic '70+ countries' claim [1]; Takealot not named."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Amazon and Walmart named; US retailer capability snapshots; US price studies [3][12][15][17]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "UK retailer capability snapshots and UK price-study press releases [15][17]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "Only the generic '70+ countries' claim [1]; Flipkart / Nykaa not named."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found; Shopee / Lazada not named."
+        }
+      },
+      "content_intelligence": "Flags SKU-level content inconsistencies and checks that content fields are correct and visible on retailer pages; fixes can flow through PIM/DAM integrations [2]. Autopilot aligns Amazon titles, bullets, descriptions and images with the brand's source of truth [5]. Vendor states 180 attributes are monitored per product (company-reported) [10].",
+      "listing_quality_scores": "Official retailer score: Walmart only on the evidence found - product pages are 'continuously scored against Walmart Content Quality Scores, category leaders and ... search terms', using Walmart API data [12]. Own scores: 'Completeness and Discoverability Scores' in Content Optimizer [4].",
+      "ratings_reviews": "Review monitoring, customer-sentiment insights, automated alerts that flag negative reviews, and rating benchmarks against 'Amazon Fast Movers' and top competitors [2].",
+      "competitor_intelligence": "Competitor pricing and promotions, MAP violations, unauthorised third-party sellers, competitor launches, keyword and search share, and Amazon competitor sales and share estimates [2][3].",
+      "automation": "Customised alerts [2]; Autopilot automatically corrects Amazon content and manages cases [5]; Shelf Intelligent Media adjusts ad bids automatically ('10k+ daily bid optimizations', company-reported) [6].",
+      "ai_capabilities": "Ask Profitero - chat-based assistant on LLMs, announced August 2023 [14][15]; GenAI copy generation in Content Optimizer using brand guidelines and keywords [4]; ML / LLM parsing for data quality and automated bid adjustment [11].",
+      "integrations": "PIM/DAM: Salsify, Syndigo, Riversand. Bid management: Pacvue, Skai. Programmatic: Amazon DSP, Walmart DSP, The Trade Desk, Pubmatic, DV360, Yahoo DSP. Measurement: Circana OmniMarket [2][9]. Data delivery through the web app, exports and Snowflake (for Tableau, Looker, Power BI) [2]. Public API documentation: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": "Not found. Capterra shows 'Get Price' with no figure and 'Free trial not available' [18]; no Vendr page was found; G2 refused automated access.",
+        "pricing_source_url": "https://www.capterra.com/p/198301/Profitero/"
+      },
+      "limitations": "Documentation: Sales & Share and Autopilot are Amazon-only [3][5]; retailer capability reports cover only the US and UK [17]; no public country-by-country retailer list. Capterra user reviews (2021-2022, dated): very large exports crash; the dashboard 'could do with an overhaul'; the Ratings & reviews and Placement modules give insight 'but you can do almost nothing about it'; product categorisation needs continuous review [18]. Sales-led purchase with no free trial [18].",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "partial",
+        "official_retailer_score_ingestion": "yes",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "partial",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.profitero.com/",
+          "title": "eCommerce data, technology & services | Profitero+",
+          "publisher": "Profitero+ (Publicis Groupe)",
+          "published_date": "n.d. (footer (c) 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/digital-shelf",
+          "title": "Digital Shelf Analytics & eCommerce Insights | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/sales-share",
+          "title": "Amazon Sales & Market Share Analytics | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/content-optimizer",
+          "title": "Smarter keywords, scoring and genAI with Content Optimizer | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/autopilot",
+          "title": "Automate Amazon Operations with Autopilot | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/shelf-intelligent-media",
+          "title": "Smarter Bidding with Shelf Intelligent Media | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/avh",
+          "title": "AMZ Vendor Health Report | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/product/store-based-analytics",
+          "title": "Store-Based Analytics | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/open-commerce-ecosystem",
+          "title": "Open Commerce Ecosystem | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/our-story",
+          "title": "Profitero+ | Our story",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/solutions/ai",
+          "title": "AI Commerce Solutions | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/solutions/walmart",
+          "title": "Walmart Solutions | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/blog/profitero-mars-united-unveil-profitero-plus",
+          "title": "Profitero and Mars United Unveil Profitero+ [dated (borderline, just over 18 months)]",
+          "publisher": "Profitero+ (blog)",
+          "published_date": "2025-05-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/blog/ask-profitero-commerce-ai-assistant",
+          "title": "Ask Profitero: Chat-Based AI Assistant Integrated with Commerce Analytics [dated]",
+          "publisher": "Profitero+ (blog)",
+          "published_date": "2023-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/press",
+          "title": "Press (list of news items and press releases)",
+          "publisher": "Profitero+",
+          "published_date": "n.d. (items dated 2022-2024)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/blog/profitero-named-a-leader-position-in-idc-marketscape-for-digital-shelf-analytics",
+          "title": "Profitero+ Named a Digital Shelf Leader",
+          "publisher": "Profitero+ (blog)",
+          "published_date": "2025-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/lp/retailer-capability-snapshots",
+          "title": "Retailer Capability Snapshots",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.capterra.com/p/198301/Profitero/",
+          "title": "Profitero+ Software Pricing, Alternatives & More 2026 [third-party listing; quoted reviews are dated]",
+          "publisher": "Capterra",
+          "published_date": "n.d. (page titled 2026; quoted user reviews dated 2021-2022)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Modules and integrations are well documented on vendor pages (high). Coverage of UAE, Saudi Arabia, South Africa, India, Kenya, Nigeria and Malaysia could not be evidenced (low). Capability notes: official score ingestion is evidenced for Walmart only; sales/share estimates are Amazon-only; 'partial' on syndication and retail media means done through Amazon automation, partners or managed services. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "CommerceIQ (includes the former e.fundamentals)",
+      "category": "digital_shelf_analytics",
+      "parent_company": "Independent, venture-backed (Insight Partners, SoftBank, Madrona named by the vendor) [29]",
+      "headquarters": "Mountain View, California, USA (about page); support offices in London and Bengaluru [24]. Press releases are datelined Palo Alto [27][28][29].",
+      "website": "https://www.commerceiq.ai",
+      "customer_profile": "Enterprise consumer brands. Vendor states 2,200+ brands including Nestle, Colgate and Whirlpool (company-reported) [29]. Capterra: 'designed for enterprise consumer brands selling on Amazon, Walmart.com, and other online marketplaces' (third-party) [32].",
+      "corporate_changes_since_2023": "Background (2022, dated): acquired UK digital-shelf vendor e.fundamentals in July 2022; e.fundamentals then reported 451 retailers in 41 countries; operations were merged and the first joint product was 'e.fundamentals by CommerceIQ' [30][31]. The e.fundamentals name no longer appears on CommerceIQ's current home, digital-shelf or about pages; the capability is sold as 'Digital Shelf Analytics powered by AllyAI' [19][20][24]. 21 May 2025: AllyAI 'AI teammates' launched [27]. 3 March 2026: four AllyAI agents (Content, Sales, Shelf, Media) launched [28]. 1 September 2026: Rahul Shah named CEO; founder Guru Hariharan became Executive Chairman [29].",
+      "core_functionality": "Four products on the AllyAI layer: Content Optimization (detect gaps, recommend and publish content) [21]; eCommerce Sales Management / Copilot for Amazon (plan tracking, predictive out-of-stock, automatic ticketing for suppressed SKUs, third-party variants and disputes) [23]; Digital Shelf Analytics (daily gap-to-plan scorecards, share of search, availability, content, ratings; one-click reports) [20]; Retail Media Management (bids and budgets optimised with an incrementality model using 50+ signals) [22]. Delivered with forward-deployed engineers and retail experts [19].",
+      "data_collection": "Digital-shelf tracking across retailer sites (method not described on the current page; the acquired e.fundamentals platform captured store-level availability, distribution and pricing daily [31]). Retailer and retail-media APIs, e.g. 'full integration with the Instacart API'; Amazon Vendor Central and Amazon Retail Analytics data [125]. Client PIM 'gold standard' content through two-way PIM sync [20].",
+      "marketplace_coverage": "Vendor states 1,450+ retailers and 85+ countries (company-reported) [24]. Named: Amazon, Walmart, Target, Kroger, Tesco, Sainsbury's, Carrefour [20]; Instacart, Best Buy, Criteo, Chewy, Citrus [19][25]. No Middle East, Africa, India or South-East Asia retailer is named on the pages retrieved.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "Only the generic '85+ countries' claim [24]."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "Only the generic '85+ countries' claim [24]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Amazon, Walmart, Target, Kroger, Instacart, Best Buy named [19][20]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "Tesco and Sainsbury's named [20]; London support office [24]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "A support office in Bengaluru [24], but no Indian retailer named."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Content validated against the brand's 'gold standard'; secondary-image compliance 'with AI-powered matching'; SEO and answer-engine optimisation including Amazon Rufus; corrections flow back through two-way PIM sync [20]. The Content Agent 'identifies and resolves PDP compliance and optimization gaps' [28]. Publishing: 'Where a retailer has an API, we use it. Where one doesn't, our agents log into the retailer's portal', with human approval before anything ships [21].",
+      "listing_quality_scores": "Own scores: 'content score' and 'shelf score' in scorecards and an AEO readiness score per product [19][20][21]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "Ratings and reviews appear as a scorecard metric [20] and the Shelf Agent monitors 'content, availability, assortment, reviews and search' [28]. Sentiment or theme analysis: Not found.",
+      "competitor_intelligence": "Position-weighted share of search across paid and organic placements [20]; competitor promotions, third-party sellers and Buy Box as causes of sales drops on Amazon [23]; competitor out-of-stock used for ad conquesting [125].",
+      "automation": "Prioritised next-best actions, daily scorecards and one-click PowerPoint / Excel business reviews [20]; automatic tickets with Amazon for suppressed SKUs, third-party variants and disputes [23]; automated bid and budget changes [22]; one-click content publishing with human approval [21].",
+      "ai_capabilities": "AllyAI role-specific 'AI teammates' (21 May 2025) [27]; Ask Ally plain-language Q&A [20]; four AllyAI agents - Content, Sales, Shelf, Media (3 March 2026) [28].",
+      "integrations": "Two-way PIM integration including Salsify [20]; Stibo Systems partnership listed in press [26]; retail media networks including Amazon, Walmart, Instacart, Criteo, Chewy Ads [19][22][26]; exports to PowerPoint and Excel [20]; SOC 2 Type II, SSO, role-based access [23]. Public API documentation: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": "Capterra listing (third-party): 'Starting price $25000' with the unit shown as 'Per User, Per Month', plus 'Custom pricing' [32]. The unit looks unreliable; treat only as a rough indication of entry-level spend.",
+        "pricing_source_url": "https://www.capterra.com/p/10017506/CommerceIQ/"
+      },
+      "limitations": "G2 reviews (via search-result summary only; the G2 page refused automated access): 4.2/5 from 28 reviews; reviewers cite data inaccuracy, slow performance and limited report customisation [33]. Documentation: the deepest automation (Copilot) is described for Amazon [23]; no Middle East, Africa, India or South-East Asia retailer named [19][20][24][25]. The vendor now positions itself as 'the agency alternative' run with its own experts, which implies a services element [19][29]. No public price list.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "unknown",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "no",
+        "dam": "unknown",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "yes",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "partial"
+      },
+      "sources": [
+        {
+          "url": "https://www.commerceiq.ai/",
+          "title": "Optimize Brand Visibility in AI Search & Retail Media | CommerceIQ",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/digital-shelf-analytics",
+          "title": "Digital Shelf Analytics Platform for Ecommerce Growth",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/content-optimization",
+          "title": "AI Ecommerce Content Optimization Platform | CommerceIQ",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/retail-media-management",
+          "title": "Retail Media Management Platform for Ecommerce Growth",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/copilot-for-amazon",
+          "title": "Copilot for Amazon to Drive Revenue Growth with AI",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/about-us",
+          "title": "About CommerceIQ: AI Platform for Ecommerce Growth",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/retailer",
+          "title": "CommerceIQ Retailers | Global Network of Ecommerce Partners",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/press-news",
+          "title": "CommerceIQ in the News | Retail AI & Digital Commerce",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/press-releases/industrys-first-suite-of-agentic-ai-teammates",
+          "title": "CommerceIQ Announces Industry's First Suite of Agentic AI Teammates to Drive E-Commerce Sales and Profit Impact [dated (borderline, just over 18 months)]",
+          "publisher": "CommerceIQ (press release)",
+          "published_date": "2025-05-21",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/press-releases/retail-ai-agents-for-brands-to-outperform-the-competition",
+          "title": "CommerceIQ Unveils Suite of Retail AI Agents for Brands to Outperform the Competition",
+          "publisher": "CommerceIQ (press release)",
+          "published_date": "2026-03-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/press-releases/commerceiq-names-rahul-shah-ceo-to-lead-next-phase-of-growth",
+          "title": "CommerceIQ Names Rahul Shah CEO to Lead Next Phase of Growth",
+          "publisher": "CommerceIQ (press release)",
+          "published_date": "2026-09-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/blog/e-fundamentals-becomes-a-commerceiq-company",
+          "title": "e.fundamentals becomes a CommerceIQ company [dated]",
+          "publisher": "CommerceIQ (blog)",
+          "published_date": "2022-09-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/blog/commerceiq-launches-global-retail-ecommerce-management-platform-with-efundamentals-acquisition",
+          "title": "CommerceIQ Launches Global Retail ecommerce Management Platform [dated]",
+          "publisher": "CommerceIQ (blog reproducing press release of 2022-07-19)",
+          "published_date": "2022-09-27",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.capterra.com/p/10017506/CommerceIQ/",
+          "title": "CommerceIQ Software Pricing, Alternatives & More 2026 [third-party listing]",
+          "publisher": "Capterra",
+          "published_date": "n.d. (page titled 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.g2.com/products/commerceiq/reviews?page=2",
+          "title": "CommerceIQ Reviews [search-result summary only; the G2 page itself refused automated access (HTTP 403)]",
+          "publisher": "G2",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.commerceiq.ai/faqs",
+          "title": "CommerceIQ FAQs",
+          "publisher": "CommerceIQ",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Product modules and dates come from vendor pages and press releases (high). Country coverage is a company-reported total with few named retailers (low for our target markets). 'partial' on sales/share: the homepage lists 'Share' and 'Share Shift Alerts' without detail; on API/export: only PowerPoint/Excel export is stated. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "NIQ Digital Shelf (NielsenIQ; formerly Data Impact) with NIQ Digital Shelf Lite / NIQ Brandbank",
+      "category": "digital_shelf_analytics",
+      "parent_company": "NIQ Global Intelligence (NielsenIQ), listed on the NYSE after its July 2025 IPO [42]",
+      "headquarters": "Not found on pages retrieved (a search-result summary of the Renaissance Capital IPO profile says Chicago, Illinois, USA [127])",
+      "website": "https://nielseniq.com/global/en/products/digital-shelf/",
+      "customer_profile": "Vendor states 'companies of all sizes' [34]; in practice global consumer-goods manufacturers (testimonials and event speakers from large CPG companies) [34][40]. NIQ Digital Shelf Lite is sold through NIQ Brandbank to brands that use its content services [36][37].",
+      "corporate_changes_since_2023": "NIQ and GfK combined (NIQ's about page links to 'the NIQ GfK combination'; date not captured) [43]. July 2025: NIQ Global Intelligence IPO priced at $21, raising $1.1bn [42]. Product: Data Impact (Paris-based, bought by NielsenIQ in 2021 [41]) has been renamed NIQ Digital Shelf - 'Previously Data Impact, NIQ Digital Shelf combines that foundation with NIQ's global measurement, shopper and content data' [34]. NIQ Brandbank expanded into the UAE and Philippines (May 2023) and signed four more UAE retailers (June 2024) [38][39].",
+      "core_functionality": "NIQ Digital Shelf modules: Availability (out-of-stock rates, location-level availability, missed sales, share of assortment, negotiated vs live listings); Visibility (organic and paid share of search, category rank, product search score, AI keyword recommendations, retail-media monitoring); Content (image compliance, titles and keyword scores, product-page health checks, syndication accuracy, ratings and reviews, shopper sentiment); Sales & Performance (sales and share next to shelf KPIs, quantified revenue impact, Amazon sales and share, price / promotion monitoring with MAP detection, scorecards) [34]. NIQ Digital Shelf Lite: a lighter tool for price, competitor promotions, share of category and share of search [36]. NIQ Brandbank: product content capture, management and syndication to retailers [37].",
+      "data_collection": "Vendor states data is 'collected continuously from retailer websites, not just estimated from a sample', matched to a UPC-based product reference with AI-assisted matching and human validation; 200bn+ data points a day (company-reported) [34]. Digital-shelf data is connected to NIQ's own sales and share measurement [34]. Digital Shelf Lite claims 'real transactional data directly from retailers' through Brandbank [36].",
+      "marketplace_coverage": "NIQ Digital Shelf: 1,000+ retailers and 141,000+ locations (company-reported) [34]; the legacy Data Impact page says 1,000+ CPG retailers in 75+ countries and 56M products [35]. NIQ Digital Shelf Lite: 500+ retailers and 50+ countries [37]. NIQ Brandbank: 39 countries, 700+ retailers and wholesalers (2024, dated) [38]. No retailer list by country found for the analytics product.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "vendor_claims",
+          "note": "NIQ Brandbank (content, not analytics) names UAE retailers elGrocer, Spinneys, Deliveroo and Sharjah Co-op [38][39]; NIQ ran a UAE event with a digital-shelf session in May 2025 [40]. No UAE retailer list for NIQ Digital Shelf (e.g. Amazon.ae, Noon) found."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "Only the generic '75+ countries' claim [35]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "Only the generic '75+ countries' claim [35]."
+        },
+        "US": {
+          "status": "vendor_claims",
+          "note": "Trade press (2021, dated) says Data Impact operated mainly in Europe and the US [41]; NIQ's pages cite US e-commerce share and Amazon sales and share [34][35]. No US retailer list found."
+        },
+        "GB": {
+          "status": "vendor_claims",
+          "note": "Data Impact operated 'mainly across Europe' [41]; NIQ Brandbank press releases are issued from Norwich, UK [38]. No UK retailer list found."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "Only the generic '75+ countries' claim [35]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Image compliance, product titles and keyword scores, product-detail-page health checks and 'content syndication accuracy' [34]. Through NIQ Brandbank the group also creates and syndicates the content itself (5,750+ attributes, GDSN connectivity) [37].",
+      "listing_quality_scores": "Own measures: keyword scores, a product-level search score and page health checks [34]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "'Ratings and reviews benchmarked against category' and 'Shopper sentiment analysis' [34].",
+      "competitor_intelligence": "Share of search (organic and paid), share of assortment, category benchmarking, competitor promotions and retail-media activity, 1P / 3P seller tracking and lost Buy Box monitoring, plus sales and share estimates 'where retailers don't report them' [34].",
+      "automation": "Customisable scorecards and AI-ranked recommended actions; advisory support from NIQ staff [34][35]. Alerts and scheduled reports are not described on the pages retrieved.",
+      "ai_capabilities": "'AI-powered analysis quantifies what each KPI contributed to revenue', AI keyword recommendations, 'AI-decoded retailer algorithms', AI-assisted product matching [34]. No named assistant or launch date found for this product.",
+      "integrations": "Connected to NIQ sales and share data [34]. NIQ Brandbank: GDSN connectivity and a content-licensing API covering 50M+ FMCG products [37]; a Salsify connector to NIQ Brandbank was announced in November 2023 (search-result summary only; dated) [44]. API or BI export for NIQ Digital Shelf: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "No public pricing. Two overlapping products with different coverage figures (Digital Shelf vs Digital Shelf Lite) [34][36][37]. No retailer list by country and no named retailer for UAE, Saudi Arabia, South Africa, India, Kenya, Nigeria or Malaysia in the analytics product. API, alerting and export options are not described publicly. Gartner Peer Insights reviews for 'NielsenIQ Data Impact' exist but refused automated access, so no user-reported limitations could be collected.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "partial",
+        "dam": "unknown",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "partial",
+        "sales_share_estimates": "yes",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "partial"
+      },
+      "sources": [
+        {
+          "url": "https://nielseniq.com/global/en/products/digital-shelf/",
+          "title": "NIQ Digital Shelf: Elevate Your E-Commerce Strategy",
+          "publisher": "NIQ (NielsenIQ)",
+          "published_date": "published 2024-12-12; updated 2026-09-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/solutions/analytics-and-activation/data-impact-by-nielseniq/",
+          "title": "Data Impact by NielsenIQ - NIQ",
+          "publisher": "NIQ (NielsenIQ)",
+          "published_date": "updated 2026-06-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/products/digital-shelf-lite/",
+          "title": "NIQ Digital Shelf Lite",
+          "publisher": "NIQ Brandbank",
+          "published_date": "updated 2026-08-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/landing-page/brandbank/",
+          "title": "Product Content Management Solutions | NIQ Brandbank - NIQ",
+          "publisher": "NIQ Brandbank",
+          "published_date": "updated 2026-07-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/news-center/2024/niq-brandbank-expands-its-reach-with-new-retailers-in-uae/",
+          "title": "NIQ Brandbank expands its reach with new retailers in UAE [dated]",
+          "publisher": "NIQ (press release)",
+          "published_date": "2024-06-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/news-center/2023/niq-brandbank-expands-to-united-arab-emirates-and-philippines/",
+          "title": "NIQ Brandbank expands to United Arab Emirates and Philippines [dated]",
+          "publisher": "NIQ (press release)",
+          "published_date": "2023-05-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/events/2025/nielseniq-digital-advisory-council-uae-2025/",
+          "title": "NielsenIQ Digital Advisory Council, UAE 2025 - NIQ [dated (borderline, just over 18 months)]",
+          "publisher": "NIQ (event page)",
+          "published_date": "event date 2025-05-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.research-live.com/article/news/nielseniq-acquires-data-impact-and-rakuten-intelligence/id/5089842",
+          "title": "NielsenIQ acquires Data Impact and Rakuten Intelligence [dated]",
+          "publisher": "Research Live (Market Research Society)",
+          "published_date": "2021-09-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/112326/consumer-intelligence-provider-niq-global-intelligence-prices-ipo-at-21",
+          "title": "Consumer intelligence provider NIQ Global Intelligence prices IPO at $21, within the range",
+          "publisher": "Renaissance Capital",
+          "published_date": "2025-07-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://nielseniq.com/global/en/about-us/",
+          "title": "About us - The Full View - NIQ",
+          "publisher": "NIQ (NielsenIQ)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-niq-brandbank-connector",
+          "title": "Salsify press release: NIQ Brandbank connector [dated; search-result summary only, page not fetched]",
+          "publisher": "Salsify",
+          "published_date": "2023-11 (per search-result summary)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.renaissancecapital.com/Profile/NIQ/NIQ-Global-Intelligence/IPO",
+          "title": "NIQ Global Intelligence IPO profile [search-result summary only; page not fetched]",
+          "publisher": "Renaissance Capital",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Module list is from NIQ's current product page (high). Coverage of our target markets is unproven apart from Brandbank's content network in the UAE (low). 'partial' / 'yes' on PIM, syndication and API refer to the separate NIQ Brandbank product; 'partial' on retail media means monitoring only; 'partial' on alerts means scorecards are stated but alerts are not. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "DataWeave",
+      "category": "digital_shelf_analytics",
+      "parent_company": "Independent (founded 2011 by Karthik Bettadapura and Vikranth Ramanolla) [54]",
+      "headquarters": "Described as 'Seattle-based' in a 2024 media mention reproduced on the vendor's press page [55]; founders' background and events are in Bengaluru, India [54]. Registered head office: Not found.",
+      "website": "https://dataweave.com",
+      "customer_profile": "Consumer brands and retailers [45][54]. Named users include Bush Brothers & Company and Pernod Ricard South Africa (brands) [45]; pricing-intelligence customers are retailers. Mid-market to enterprise (inferred from named customers; not stated).",
+      "corporate_changes_since_2023": "No acquisition, rebrand or ownership change found. Product launches: Data Collection API (blog dated 2 September 2025) [58]; AVA 'AI Visibility Analytics' and a 'Commerce data for AI' licensing offer are on the current site (launch dates not found) [46][51].",
+      "core_functionality": "Digital Shelf Analytics for brands: pricing and availability, share of search and retail-media monitoring, content audit and optimisation, ratings and reviews analysis [45]. Also pricing intelligence and assortment analytics for retailers, AVA (AI-assistant visibility), a self-serve Data Collection API and licensed data feeds (product graph, price, availability, search visibility) [46][51][52].",
+      "data_collection": "Web crawling of sites, mobile apps, D2C sites and marketplaces, down to region, ZIP code or store level [45]; AI product matching with human-in-the-loop verification ('Veracite'), anomaly detection and a data-statistics dashboard [47]; 'LLMs, computer vision, and human-in-the-loop review' [46]. No retailer-API or panel data is claimed.",
+      "marketplace_coverage": "Vendor states '1,500+ sites in 50+ countries, plus any you add' and 70M+ SKUs tracked daily (company-reported) [46]. Named in vendor material: Amazon, Walmart, Home Depot, Lowe's, Staples (US analyses) [55]; Amazon India, Flipkart, Myntra (2025) [56]; BigBasket, Blinkit, Dmart, Jiomart, Swiggy, Flipkart Grocery (2022, dated) [57]; UK and Germany Black Friday 2025 analyses [59].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No UAE retailer named. Sources can be added on request ('plus any you add') [46]."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "ZA": {
+          "status": "confirmed",
+          "note": "Testimonial from the Head of Ecommerce, South Africa, Pernod Ricard (three years' use of availability and share-of-search modules on 'online marketplaces'); retailers not named [45]."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "US retailers named in press analyses (Amazon, Walmart, Home Depot, Lowe's, Staples) [55]."
+        },
+        "GB": {
+          "status": "vendor_claims",
+          "note": "Vendor blog lists a 'Black Friday 2025 UK' analysis; retailers not captured [59]."
+        },
+        "IN": {
+          "status": "confirmed",
+          "note": "Amazon India, Flipkart, Myntra tracked (128,000 SKUs, 2025) [56]; grocery and quick-commerce apps in 2022 (dated) [57]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Content audit checks adherence to brand guidelines, detects retailer-initiated content changes, and assesses 'text accuracy, image quality, orientation and packaging alignment to retailer guidelines'; benchmarks against competitors; AI recommends and drafts titles, descriptions and bullets [48].",
+      "listing_quality_scores": "Own measures: a content-health percentage (a customer cites moving 'from 51% to 76%') [45] and an 'AI Readiness Score' per SKU in AVA [51]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "Tracks rating counts, averages and star breakdown; NLP categorises reviews 'by tone and intent'; sentiment heat maps; competitor benchmarks; alerts for products with low or no recent feedback [49].",
+      "competitor_intelligence": "Competitor prices, promotions and availability; organic vs sponsored share of search and share of retail media; competitor bestsellers and keywords; content benchmarking; closest-competitor SKU pairing in AVA [45][48][50][51].",
+      "automation": "MAP-violation alerts, ranking alerts, anomaly alerts, scorecards and trend charts [45][47][50]; scheduled or real-time crawls through the API [52].",
+      "ai_capabilities": "AI product matching and attribute extraction (CLIP, BERT, LLM embeddings), NLP sentiment analysis, GenAI content and keyword optimisation, 'AI Agents for Retail' [53]; AVA scores AI-assistant visibility across ChatGPT, Gemini, Alexa and Sparky [51]. Launch dates: Not found.",
+      "integrations": "Automated delivery to AWS S3, Snowflake and Google Cloud; custom export formats; API [52]. PIM, DAM or retail-media integrations: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "No public pricing. No Middle East, wider Africa or South-East Asia retailer named; new sources are added on request, which implies onboarding work [46]. No sales or market-share estimates and no content syndication are described. Third-party review sites (G2, TrustRadius, SourceForge) refused automated access, so no user-reported limitations were collected.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "yes",
+        "ai_content_generation": "yes",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "partial",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://dataweave.com/us/digital-shelf-analytics",
+          "title": "Digital Shelf Analytics",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/commerce-data-for-ai",
+          "title": "Commerce Web Data for AI Agents and Teams | DataWeave",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/accuracy-and-coverage",
+          "title": "Accuracy and Coverage",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/dsa-content-audit",
+          "title": "Digital Shelf Content Audit",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/dsa-ratings-reviews",
+          "title": "Digital Shelf Ratings & Reviews",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/dsa-share-of-search-media",
+          "title": "Digital Shelf Share of Search & Retail Media",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/ai-visibility-analytics-ava",
+          "title": "AVA - AI Visibility Analytics for Brands",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/data-collection-api",
+          "title": "Data Collection API",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/ai-innovation",
+          "title": "The AI Edge at DataWeave",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/about-us",
+          "title": "Data Analytics for Retailers & Brands | Contact Us (About us)",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/us/press-room",
+          "title": "Press & Media | DataWeave",
+          "publisher": "DataWeave",
+          "published_date": "n.d. (items dated 2024-2025)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/blog/indias-black-friday-2025-decoded-discount-analysis-and-brand-performance-across-major-e-commerce-platforms",
+          "title": "India's Black Friday 2025 Decoded: Discount Analysis and Brand Performance Across Major E-commerce Platforms",
+          "publisher": "DataWeave (blog)",
+          "published_date": "2025-12-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/blog/insights-from-the-digital-shelf-of-indian-fmcg-brands",
+          "title": "Insights from the Digital Shelf of Indian FMCG Brands [dated]",
+          "publisher": "DataWeave (blog)",
+          "published_date": "2022-11-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/blog/fueling-agentic-commerce-introducing-the-dataweave-data-collection-api",
+          "title": "Fueling Agentic Commerce: Introducing DataWeave's Data Collection API",
+          "publisher": "DataWeave (blog)",
+          "published_date": "2025-09-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://dataweave.com/blog",
+          "title": "The DataWeave Blog (index)",
+          "publisher": "DataWeave",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Capabilities come from vendor product pages (high). India and South Africa evidence is vendor-published; other target markets unproven. 'yes' on image analysis means image-quality and packaging checks using computer vision, not conversion scoring; 'partial' on retail media means monitoring share of media only. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Stackline",
+      "category": "digital_shelf_analytics",
+      "parent_company": "Independent (founded 2014) [69]",
+      "headquarters": "Seattle, Washington, USA (920 5th Avenue) [69]",
+      "website": "https://www.stackline.com",
+      "customer_profile": "Consumer brands selling through Amazon, Walmart, Target and similar retailers; vendor states 7,000 consumer brands supported and 250 staff (company-reported) [69]. Quoted customers include Kichler Lighting, Deoleo, Spin Master and King Arthur [61][62][67].",
+      "corporate_changes_since_2023": "No acquisition or ownership change found. Product: Multi-Retailer Attribution launched with Amazon (18 November 2024); 'Presentations' AI reporting assistant (21 July 2025); AI Visibility (5 January 2026) with Google Gemini data added (14 October 2026); Advisor 'Templates and Schedules' (26 May 2026) [72].",
+      "core_functionality": "Atlas - market and competitor intelligence: sales, market share, traffic and search across retailers [61]. Beacon - the brand's own sales, operations and advertising analytics with 52-week SKU forecasts, scenario planning, recommendations and attribution [62]. Advisor - conversational AI over the data [68]. Shopper OS / Shopper Analytics - shopper panel, audiences, surveys, review campaigns [64][71]. Ad Manager - retail media. Modules also cover content, SEO, AI visibility, pricing and promotions [60][63][65][66][67].",
+      "data_collection": "Vendor describes proprietary 'first-party behavioral data from real shoppers' and '$10b first-party receipt values' (shopper panel and receipts) [71]; market data on '1.2 billion products measured daily' with a '97% accuracy rate per product' (company-reported) [61]; the brand's own retailer data in Beacon [62]; reviews ingested from Amazon, Walmart, Target and others [64]. The collection method for market data (crawl vs panel vs model) is not spelled out.",
+      "marketplace_coverage": "'26 countries in the Atlas network' (not listed) [61]. Retailers named: Amazon, Walmart, Target, Instacart, Home Depot, Costco, Chewy, Best Buy [61][62][64][67]. Review publishing network: 15 retailers [64].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "The 26 Atlas countries are not listed [61]."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "US retailers named throughout (Amazon, Walmart, Target, Costco, Home Depot) [61][67]."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "Not named on pages retrieved; may be among the 26 unlisted countries [61]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Content analytics evaluates each title, description, image and video for 'utilization and completeness' against industry benchmarks, with recommendations; AI generates titles, bullets and descriptions for Amazon, Walmart and Target; content can be tested with shopper surveys [63].",
+      "listing_quality_scores": "Own content utilisation / completeness evaluation against benchmarks [63]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "Review campaigns that request reviews from verified buyers (Amazon, Walmart, Chewy, Best Buy), an AI review-writing assistant for shoppers, review publishing to 15 retailers, and review analytics in which AI models classify themes and sentiment [64].",
+      "competitor_intelligence": "Competitor sales and market share (weekly), traffic and keyword-level search, share of voice, pricing and promotions, MAP compliance and Buy Box winners [61][66][67].",
+      "automation": "Growth recommendations with predicted sales impact; AI-automated content creation and ad campaigns [62]; Advisor templates and scheduled outputs, AI-built presentations [72].",
+      "ai_capabilities": "Advisor conversational AI [68] (Presentations 21 July 2025; Templates and Schedules 26 May 2026) [72]; AI Visibility measuring shopping questions on ChatGPT, Amazon Alexa / Rufus and Google Gemini (5 January 2026) [65][72]; AI content generation [63]; AI forecasting [62]; AI review analytics [64].",
+      "integrations": "API and data platforms for technology partners; Amazon (Multi-Retailer Attribution, Amazon Marketing Cloud); SPINS [70]. PIM, DAM or BI connectors: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "No public price list (the site's 'Pricing' page describes price-analytics features) [67]. Named retailers are US-centric and the 26 countries are not listed, so fit for our non-US markets is unproven [61]. The source of market data is not described in detail. Third-party review sites refused automated access, so no user-reported limitations were collected.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "partial",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "yes",
+        "sales_share_estimates": "yes",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.stackline.com/",
+          "title": "Stackline - Retail Growth Platform",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/atlas",
+          "title": "Atlas",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/beacon",
+          "title": "Beacon",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/content",
+          "title": "Content",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/reviews",
+          "title": "Reviews",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/aeo",
+          "title": "AEO",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/seo",
+          "title": "SEO",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/pricing",
+          "title": "Pricing (a product-feature page about price analytics, not a price list)",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/advisor",
+          "title": "Advisor",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/about",
+          "title": "About",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/partners",
+          "title": "Partners",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/shopper-analytics",
+          "title": "Shopper Analytics",
+          "publisher": "Stackline",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.stackline.com/blog-categories/announcements",
+          "title": "Announcements | Stackline",
+          "publisher": "Stackline",
+          "published_date": "n.d. (items dated 2023-10 to 2026-10)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Module descriptions come from vendor pages (high); country coverage and data-collection methods are thinly documented (low). 'partial' on availability: in-stock rates are covered for the brand's own catalogue, competitor availability monitoring is not evidenced; 'partial' on content compliance: completeness scoring against benchmarks rather than checks against a brand's master content. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Paxcom (Paxcom Commerce Engine, formerly Kinator)",
+      "category": "digital_shelf_analytics",
+      "parent_company": "Not confirmed. The site footer lists 'Paymentus' next to 'Paxcom' under 'About Us' and the contact addresses include Charlotte NC and Richmond Hill, Canada [73][75] (UNVERIFIED: Paxcom is a Paymentus group company)",
+      "headquarters": "Not stated. Offices listed: Gurugram, Mohali and Bengaluru (India), Charlotte NC (USA), Richmond Hill (Canada) [75]",
+      "website": "https://paxcom.ai",
+      "customer_profile": "Vendor states '100+ global brands' and 'from Fortune-500 companies to fast-growing brands' (company-reported) [73][74]. India-centred examples (Amazon India, Flipkart, Blinkit, rupee budgets) [73][76].",
+      "corporate_changes_since_2023": "Repositioned from a digital-shelf tool to 'the autonomous operating system for global brands': AI agents in 2023 and 'five AI engines' in 2025; the digital-shelf product Kinator was renamed Paxcom Commerce Engine [74][75]. No ownership change found.",
+      "core_functionality": "Paxcom Commerce Engine (digital-shelf intelligence: pricing, availability, visibility, promotions, content health, competitor moves, review sentiment); Autopilot (automated media bidding); Predictive (demand forecasting and pricing); Gen-C (generative content and AI-search optimisation); Autonomous Marketplace Solution (revenue recovery); an AI agent marketplace [73][75][76].",
+      "data_collection": "Monitoring of marketplaces, quick-commerce apps and 'dark-store level locations Pan India'; vendor states 1.75M data points per hour and anomaly detection within 7 minutes (company-reported) [75]. Platform-provided sales and advertising data consolidated in dashboards (legacy page) [77].",
+      "marketplace_coverage": "'250+ platforms tracked' (company-reported) [75]; regions named: India, South-East Asia, the Middle East, the UK and the US [74]. A legacy Kinator page lists Amazon, Walmart, Flipkart, Lazada, Shopee, Souq, Nykaa, BigBasket, Tesco, Noon, JD, Myntra, Purplle, 1MG, Jiomart, Blibli, Tiki, Carrefour, Fair Price, Coles and others (probably dated) [77].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "vendor_claims",
+          "note": "'Middle East' named as a region [74]; legacy page lists Noon, Souq and Carrefour without naming countries (probably dated) [77]."
+        },
+        "SA": {
+          "status": "vendor_claims",
+          "note": "'Middle East' region and Noon listed; Saudi Arabia not named [74][77]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "US named as a region; US section of the website; Amazon and Walmart listed; US office [73][74][75][77]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "UK named as a region; UK section of the website; Tesco listed [73][74][77]."
+        },
+        "IN": {
+          "status": "confirmed",
+          "note": "Amazon India, Flipkart, Blinkit, Nykaa, Purplle, BigBasket; quick-commerce and dark-store tracking 'Pan India' [73][75][76][77]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "vendor_claims",
+          "note": "'Southeast Asia' named; legacy page lists Lazada and Shopee without naming Malaysia [74][77]."
+        }
+      },
+      "content_intelligence": "'Automated scanning of product titles, images, bullets, and A+ content across every listing for brand compliance violations with alerts and correction queues' [75].",
+      "listing_quality_scores": "Own 'content health' measure [75]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "'Customer Sentiment Intelligence' on reviews and ratings [75]; legacy page: reviews consolidated across platforms with aspect-level positive / negative analysis and competitor comparison [77].",
+      "competitor_intelligence": "Competitor out-of-stock and price moves, search share of shelf (top 3 / 10 / 20), Amazon bestseller rank, seller-level pricing and Buy Box [75][77].",
+      "automation": "Anomaly detection that can trigger 'pre-approved advertising and pricing responses' automatically; alerts and correction queues; automated dispute filing; human-in-the-loop approvals [73][75][76].",
+      "ai_capabilities": "AI agents (2023) and five AI engines (2025) [74]; Gen-C generates titles, bullets, A+ content and descriptions in several languages and optimises for ChatGPT, Perplexity and Google AI Overviews [76].",
+      "integrations": "Not found on pages retrieved (advertising on Amazon, Flipkart and Blinkit is managed through the Autopilot engine [76]).",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "No public pricing. The most specific retailer list is on a legacy page that still names Souq and Grofers, so current coverage outside India needs confirming [77]. Present-day examples are India-centred [73][76]. Integrations and API are not documented publicly. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "yes",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://paxcom.ai/",
+          "title": "Home - Paxcom",
+          "publisher": "Paxcom",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://paxcom.ai/about-us/",
+          "title": "About Us - Paxcom",
+          "publisher": "Paxcom",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://paxcom.ai/digital-shelf-analytics/",
+          "title": "Paxcom Commerce Engine - Paxcom",
+          "publisher": "Paxcom",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://paxcom.ai/services/",
+          "title": "Services - Paxcom",
+          "publisher": "Paxcom",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://paxcom.ai/sg/channel-intelligence/",
+          "title": "AI-Powered Digital shelf Monitoring & Intelligence | Paxcom (legacy Kinator page) [probably dated]",
+          "publisher": "Paxcom",
+          "published_date": "n.d. (names Souq and Grofers, so probably dated)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Current capabilities come from vendor pages; the retailer list for the Middle East and South-East Asia comes from an older page. 'partial' on sales/share means consolidation of platform-provided sales data, not market estimates; 'partial' on syndication reflects a homepage example of the Gen-C engine publishing descriptions. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "42Signals (PromptCloud)",
+      "category": "digital_shelf_analytics",
+      "parent_company": "PromptCloud Technologies Pvt Ltd - 42Signals is described as 'a subsidiary of PromptCloud', a web-data acquisition company [80][81]",
+      "headquarters": "Not stated on pages retrieved (operating company: PromptCloud Technologies Pvt Ltd) [80]",
+      "website": "https://www.42signals.com",
+      "customer_profile": "Vendor states it suits 'e-commerce businesses of all sizes' and D2C brands; plans manage 'up to 200 SKUs' [80]. Small and mid-market leaning (inferred from the SKU cap and budget bands).",
+      "corporate_changes_since_2023": "Not found.",
+      "core_functionality": "Digital shelf analytics (availability, pricing and MAP violations, seller intelligence, share of search, keyword rank, ad tracking, competitor and category benchmarking) and Voice of Customer analytics (review sentiment) [78][80][83].",
+      "data_collection": "Web crawling by the parent's data-acquisition infrastructure, including JavaScript-heavy sites and anti-bot handling; refresh 'measured in hours'; custom crawls on request [78][79][81].",
+      "marketplace_coverage": "Vendor states 250+ platforms in 50+ countries (company-reported) [79]. Named: US - Amazon, Target, Walmart, Sephora, Instacart, DoorDash; India - Flipkart, Amazon, Nykaa, Blinkit, Swiggy Instamart, Zepto; UAE - Noon, Amazon, Sephora, Nykaa; UK / Europe - Boots, Sephora [78]; Middle East & Africa - 'Noon, Souq (via Amazon), Jumia, and Takealot'; Asia-Pacific - Flipkart, JD.com, Shopee, Rakuten [79].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "confirmed",
+          "note": "'UAE Platforms': Noon, Amazon, Sephora, Nykaa [78]; dedicated Noon page (prices, availability, promotions, 'Noon Minutes') [82]."
+        },
+        "SA": {
+          "status": "confirmed",
+          "note": "Coverage table lists 'Saudi Arabia - noon.com'; Noon page covers UAE vs KSA pricing [79][82]."
+        },
+        "ZA": {
+          "status": "vendor_claims",
+          "note": "Takealot named under 'Middle East & Africa'; South Africa not named [79]."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Amazon, Target, Walmart, Sephora, Instacart, DoorDash [78]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "boots.com (United Kingdom) and Tesco named [78][79]."
+        },
+        "IN": {
+          "status": "confirmed",
+          "note": "Flipkart, Amazon, Nykaa; quick commerce Blinkit, Swiggy Instamart, Zepto [78]."
+        },
+        "KE": {
+          "status": "vendor_claims",
+          "note": "Jumia named under 'Middle East & Africa'; Kenya not named [79]."
+        },
+        "NG": {
+          "status": "vendor_claims",
+          "note": "Jumia named under 'Middle East & Africa'; Nigeria not named [79]."
+        },
+        "MY": {
+          "status": "vendor_claims",
+          "note": "Shopee and 'Southeast Asia' named; Malaysia not named [79]."
+        }
+      },
+      "content_intelligence": "'Product content and image accuracy' is listed among core metrics [83]; no dedicated content-audit module was found. The Noon page mentions optimising listing quality and monitoring Arabic search keywords [82].",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Voice of Customer analytics: consumer sentiment analysis, positive and negative product aspects, competitor comparison, review data from several platforms [80].",
+      "competitor_intelligence": "Competitor prices and promotions, category benchmarking, brand comparison, share of search, seller intelligence and unauthorised sellers [80][83].",
+      "automation": "Alerts by Slack, email and SMS; MAP and seller alerts come with screenshot evidence; real-time alerts and shareable reports [78][83].",
+      "ai_capabilities": "Only a general statement of 'AI and ML integration' [80]; no named AI feature or launch date found.",
+      "integrations": "'API and S3 delivery'; data 'can typically be exported or connected into existing BI dashboards' [78].",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": "No price list ('Get a quote'). The vendor's enquiry form offers budget bands from 'Less than $500 per month' to 'Above $5000 per month', and a 20% Black Friday discount banner was showing on 2026-11-26 [78][80].",
+        "third_party_estimate": null,
+        "pricing_source_url": "https://www.42signals.com/pricing-plan/"
+      },
+      "limitations": "Documentation: plans 'manage up to 200 SKUs' [80]; no dedicated content-compliance module, no listing-quality score, no sales or share estimates and no content generation were found. Coverage of South Africa, Kenya, Nigeria and Malaysia rests on retailer names in a marketing list, not country pages [79]. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "partial",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.42signals.com/",
+          "title": "Digital Shelf Monitoring for North American Brands (homepage, redirects to /na/)",
+          "publisher": "42Signals (PromptCloud)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.42signals.com/platforms-we-crawl/",
+          "title": "Global Data Coverage by 42Signals: 250+ Platforms in 50+ Countries",
+          "publisher": "42Signals (PromptCloud)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.42signals.com/pricing-plan/",
+          "title": "Pricing Plans - 42Signals",
+          "publisher": "42Signals (PromptCloud)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.42signals.com/about/",
+          "title": "42Signals - Your Partner in eCommerce Data Excellence",
+          "publisher": "42Signals (PromptCloud)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.42signals.com/use-case/noon-data/",
+          "title": "Win in the UAE: Track Noon Prices, Availability & Promotions | 42Signals",
+          "publisher": "42Signals (PromptCloud)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.42signals.com/digital-shelf-analytics/",
+          "title": "Digital Shelf Analytics: Optimize Pricing & Track Competitors",
+          "publisher": "42Signals (PromptCloud)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "The only vendor reviewed that names retailers in all our regions (Noon, Jumia, Takealot, Flipkart, Nykaa, Shopee), but all evidence is vendor marketing. 'partial' on content and image: listed as a metric only; 'partial' on retail media: ad tracking, not ad buying. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "MetricsCart",
+      "category": "digital_shelf_analytics",
+      "parent_company": "Not found",
+      "headquarters": "Not found on pages retrieved",
+      "website": "https://metricscart.com",
+      "customer_profile": "Vendor states it serves 'challenger brands to global enterprises', agencies and research firms, with Beauty & Personal Care among its categories [86]; a Starter plan targets 'lean teams and digitally native brands' [85]. Named users include Goodbaby / Evenflo [84].",
+      "corporate_changes_since_2023": "Vendor says the platform was reshaped 'around how teams actually work' in 2024 [86]. No acquisition found.",
+      "core_functionality": "Digital shelf analytics, MAP monitoring and enforcement, share of search, ratings and reviews analysis, content compliance / optimisation, pricing intelligence, assortment and availability; free Amazon and Walmart bestseller reports [84].",
+      "data_collection": "Pulls 'live data on your SKUs and your competitors' from Amazon, Walmart, Target, and 150+ retailers' (crawling of live product pages); also user content from YouTube and Reddit for review analysis [87][88].",
+      "marketplace_coverage": "'150+ retailers' (company-reported) [86]. Named: Amazon, Walmart, Target [87]. Amazon bestseller reports are published for the US, UK, Germany, Australia, India, UAE and Saudi Arabia [84][89].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "confirmed",
+          "note": "Amazon UAE bestseller reports (Amazon only) [84][89]."
+        },
+        "SA": {
+          "status": "confirmed",
+          "note": "Amazon KSA bestseller reports (Amazon only) [84]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Amazon, Walmart, Target [84][87]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "Amazon UK bestseller reports [84]."
+        },
+        "IN": {
+          "status": "confirmed",
+          "note": "Amazon India bestseller reports [84]. A quick-commerce launch for India appeared only in a search-result summary [126]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Audits every product page 'against retailer rules and your category's top performers': titles, bullets, descriptions, images, A+ content and attributes; image audit covers main-image rules, background, size and image count; alerts when A+ content drops or live content drifts from approved copy; an 'AI shelf readiness' check [87].",
+      "listing_quality_scores": "Own 'content scorecards' that 'check each PDP against retailer style guides, image regulations, your brand rules and your category benchmark' [87]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "Continuous review collection across '150+ retailers & marketplaces'; AI groups reviews into themes and sub-themes, scores aspect-level sentiment and tracks NPS; competitor reviews; alerts and exports [88].",
+      "competitor_intelligence": "Competitor prices and MAP, share of search, competitor content benchmarks and reviews, bestseller rankings [84][87][88].",
+      "automation": "Real-time alerts on content, MAP and review issues; custom reports and dashboards with an audit trail [87][88].",
+      "ai_capabilities": "AI review theme and sentiment analysis [88]; AI-shelf / answer-engine readiness checks [87]. No named assistant or launch date found.",
+      "integrations": "Exports are mentioned by customers [84]. API, PIM or BI integrations: Not found.",
+      "pricing": {
+        "model": "public",
+        "public_price": "Starter 'starts at $300/month' (up to 50 SKUs, 3 data sources, 1 module); Enterprise 'per module pricing starts at $1000/month'; usage-based, 'No Annual Contracts', 'Cancel Anytime' [85].",
+        "third_party_estimate": "Capterra lists a starting price of $300, usage based, per month (third-party listing, consistent with the vendor page) [90].",
+        "pricing_source_url": "https://metricscart.com/pricing/"
+      },
+      "limitations": "Evidence for the UAE, Saudi Arabia and India is Amazon-only [84][89]; no local marketplaces (Noon, Flipkart, Nykaa) named on pages retrieved. Capterra reviews (6 reviews): setup takes time, reports could offer more options, data 'sometimes takes a little while to update', and review insights depend on review volume [90]. No sales or share estimates, retail media or syndication described.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "unknown",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "partial"
+      },
+      "sources": [
+        {
+          "url": "https://metricscart.com/",
+          "title": "MetricsCart | Digital Commerce Intelligence for Consumer Brands",
+          "publisher": "MetricsCart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://metricscart.com/pricing/",
+          "title": "MetricsCart Pricing - Digital Shelf Analytics Plans from $300/month",
+          "publisher": "MetricsCart",
+          "published_date": "published 2026-03-31; updated 2026-08-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://metricscart.com/about-us/",
+          "title": "About Us - MetricsCart",
+          "publisher": "MetricsCart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://metricscart.com/content-compliance/",
+          "title": "E-Commerce Content Optimization Software | MetricsCart",
+          "publisher": "MetricsCart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://metricscart.com/ratings-reviews/",
+          "title": "Review Monitoring Software for Consumer Brands | MetricsCart",
+          "publisher": "MetricsCart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://metricscart.com/bestseller-reports/amazon-uae/brands/",
+          "title": "Top Brands from Amazon UAE's Bestseller Rankings: Monthly Report",
+          "publisher": "MetricsCart",
+          "published_date": "n.d. (report for October 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.capterra.com/p/10018667/MetricsCart/",
+          "title": "MetricsCart Software Pricing, Alternatives & More 2026 [third-party listing]",
+          "publisher": "Capterra",
+          "published_date": "n.d. (page titled 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://metricscart.com/insights/metricscart-expands-to-quick-commerce-analytics/",
+          "title": "MetricsCart Expands to Quick Commerce Analytics: Powering the Next Phase of Digital Shelf Intelligence [search-result summary only; direct fetch redirected to the insights index]",
+          "publisher": "MetricsCart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "One of only two vendors reviewed with a public price list. 'partial' on image analysis means rule-based image compliance checks; 'partial' on API/export means exports only. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Flywheel (Flywheel Commerce Cloud)",
+      "category": "retail_media",
+      "parent_company": "Omnicom - 'Omnicom Commerce runs on Flywheel' [96] (UNVERIFIED: acquired from Ascential, completed in early 2024)",
+      "headquarters": "Not found on pages retrieved (11 offices, staff in 20+ countries) [95]",
+      "website": "https://www.flywheeldigital.com",
+      "customer_profile": "Large brands; vendor describes products 'purpose-built for the world's leading brands' and has 2,000+ employees (company-reported) [91][95]. Software is sold alongside managed services and consulting [91].",
+      "corporate_changes_since_2023": "Now the commerce platform of Omnicom [96]. Acquisition date not confirmed from a source retrieved in this session (UNVERIFIED: early 2024).",
+      "core_functionality": "Flywheel Commerce Cloud: Retail Media (search, display and video, measurement); Retail Operations (AI content optimisation, Walmart rich media, fee recovery, catalogue classification, retail analytics); Market Intelligence (market share, plus digital-shelf metrics - share of voice, availability, search insights, content compliance, price monitoring, ratings and reviews - and Retail Insights forecasts) [91][92][93].",
+      "data_collection": "Not described in detail. Retail-media and first-party retailer data through platform connections [94]; market share at 'weekly, item-level granularity' (method not stated) [92].",
+      "marketplace_coverage": "'400+ marketplaces' and 'one login ... across +100 global retailer platforms and marketplaces' for campaigns (company-reported) [91][94]; Retail Insights covers 'thousands of global retailers, 200 markets' for forecasts [92]. Named: Amazon, Walmart [91][93][94]. No country list retrieved.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No country or retailer list retrieved."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No country or retailer list retrieved."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Walmart.com rich media and Amazon tooling [93][94]."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No country or retailer list retrieved."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Content compliance against 'each platform's best practices or to your Trusted Source content' [92]; generative AI recommendations for titles, descriptions and bullets; a rich-media builder for Walmart pages [93].",
+      "listing_quality_scores": "Works with Walmart 'Content Quality Scores' (rich media to improve them; a Content Quality Score audit is offered as a service) [93]. Whether official scores are ingested as data: Not found.",
+      "ratings_reviews": "Ratings and reviews listed as a Market Intelligence module [92]; sentiment analysis: Not found.",
+      "competitor_intelligence": "Market share and third-party seller dynamics, share of voice (organic and paid), price monitoring, competitor top sellers [92].",
+      "automation": "Automated ad bidding (rule-based, intraday, goal-based 'powered by Perpetua') [94]; automated fee-recovery disputes; rules-based catalogue classification [93].",
+      "ai_capabilities": "'AI-powered content recommendations' using generative AI for titles, descriptions and bullets [93]. No named assistant or launch date found.",
+      "integrations": "Retailer ad platforms and Amazon Marketing Cloud [91][94]. PIM, DAM, API or BI integrations: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "Little public detail on digital-shelf coverage, data collection or integrations; no country list. Strongly tied to retail media and managed services [91]. Acquisition history could not be verified in this session. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "unknown",
+        "official_retailer_score_ingestion": "partial",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "yes",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "yes",
+        "sales_share_estimates": "yes",
+        "alerts_scheduled_reports": "unknown",
+        "api_data_export": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.flywheeldigital.com/",
+          "title": "Flywheel | Driving growth in digital commerce",
+          "publisher": "Flywheel (Omnicom)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.flywheeldigital.com/market-intelligence",
+          "title": "Integrated Market Intelligence Software by Flywheel",
+          "publisher": "Flywheel (Omnicom)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.flywheeldigital.com/retail-operations",
+          "title": "Retail Operation Solutions by Flywheel",
+          "publisher": "Flywheel (Omnicom)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.flywheeldigital.com/retail-media",
+          "title": "Retail Media Software | Flywheel",
+          "publisher": "Flywheel (Omnicom)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.flywheeldigital.com/about-flywheel",
+          "title": "About Flywheel",
+          "publisher": "Flywheel (Omnicom)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.omc.com/capabilities/capability-commerce/",
+          "title": "Capability-commerce - Omnicom",
+          "publisher": "Omnicom",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low",
+      "confidence_note": "Public pages are high-level. 'partial' on official scores: Walmart Content Quality Score is referenced but ingestion is not stated; 'partial' on syndication: a Walmart rich-media builder and a content-syndication support service. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Pacvue",
+      "category": "retail_media",
+      "parent_company": "Not found on pages retrieved. Pacvue's about page describes Helium 10 as its SMB product line [102]",
+      "headquarters": "Not stated; offices listed in Seattle, New York City, London and Shanghai [102]",
+      "website": "https://pacvue.com",
+      "customer_profile": "Brands and agencies. Vendor states 70,000+ brands and agencies, $12B+ annual ad spend managed and use by 5 of the 5 largest media agencies (company-reported) [102].",
+      "corporate_changes_since_2023": "Rahul Choraria became CEO in 2024 [102]. Positioned as the 'AI-Powered Commerce Media OS'; Pacvue Agent introduced (date not found) [97][101]. Ownership changes: Not found.",
+      "core_functionality": "Retail-media activation and automation across 100+ retailers; measurement and incrementality; digital shelf optimisation (content, pricing, availability, ratings, Buy Box); market and competitive insights; revenue recovery; data-as-a-service [97][98][99][100][104].",
+      "data_collection": "'Direct API connections' to retailers and retail-media networks for content, pricing, availability, ratings and Buy Box data [98][99]; Amazon market insights 'built on 600M+ product data points and nearly a decade of historical tracking' [100].",
+      "marketplace_coverage": "100+ retailers and partners in 30+ countries (company-reported) [98][102]. Named: Amazon, Walmart, Target, TikTok, Tesco, Carrefour, Instacart, CitrusAd, Criteo, Kroger, Sam's Club, bol, eBay; UK - Amazon UK, Tesco, ASDA, TikTok Shop UK; Asia - Amazon Japan, Amazon Singapore, TikTok Shop (including Malaysia), Shopee and Lazada 'where applicable'; Middle East - Amazon UAE, Amazon Saudi Arabia; 'Africa coverage is more limited today' [98].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "confirmed",
+          "note": "'Amazon UAE' listed under Middle East coverage for retail media and marketplace operations [98]."
+        },
+        "SA": {
+          "status": "confirmed",
+          "note": "'Amazon Saudi Arabia' listed for retail media and marketplace operations [98]; customer story on Amazon Ads for Mars in KSA (May 2025) [103]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "Vendor states 'Africa coverage is more limited today' [98]."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Amazon, Walmart, Target, Kroger, Instacart and others [98]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "Amazon UK, Tesco, ASDA, TikTok Shop UK [98]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "India is not in the Asia list retrieved [98]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "Vendor states 'Africa coverage is more limited today' [98]."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "Vendor states 'Africa coverage is more limited today' [98]."
+        },
+        "MY": {
+          "status": "vendor_claims",
+          "note": "TikTok Shop Malaysia named in a rollout list; Shopee 'in select regions' and Lazada 'where applicable' [98]."
+        }
+      },
+      "content_intelligence": "Tracks 'content quality', content gaps that limit conversion, and alerts when products 'fall out of compliance' [99]. Detail of the audit method: Not found.",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Tracks ratings and review trends; ads can be paused when ratings fall below thresholds [99]. Sentiment analysis: Not found.",
+      "competitor_intelligence": "Competitor pricing, promotions and in-stock status, share of voice, keyword and ASIN benchmarking [99][100].",
+      "automation": "Rule-based and AI bid and budget automation; ads adjusted or paused when inventory, Buy Box or ratings change; alerts and workflows [98][99].",
+      "ai_capabilities": "Pacvue Agent - 'an AI-powered super agent' that explains performance changes and recommends bid and budget actions (launch date not found) [101].",
+      "integrations": "API integrations with 100+ retailers and networks; Amazon DSP and Amazon Marketing Cloud; data-as-a-service delivery into the client's infrastructure [97][98][104]. Profitero lists Pacvue as a bid-management partner [9].",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "Primarily an advertising platform: digital-shelf features exist to steer media rather than to audit content in depth [99]. Vendor itself says 'Africa coverage is more limited today'; Shopee and Lazada support is hedged; India not listed [98]. No public pricing. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "unknown",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "yes",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://pacvue.com/",
+          "title": "Pacvue | The AI-Powered Commerce Media OS",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/marketplaces/",
+          "title": "Manage Retail Media Across 100+ Retailers | Pacvue",
+          "publisher": "Pacvue",
+          "published_date": "updated 2026-11-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/platform/digital-shelf-optimization/",
+          "title": "Digital Shelf Analytics & Optimization | Pacvue",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/platform/market-competitive-insights/",
+          "title": "Market & Competitive Intelligence for Commerce Media | Pacvue",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/platform/artificial-intelligence/",
+          "title": "AI for Retail Media & Commerce Execution | Pacvue",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/about/about-us/",
+          "title": "About Pacvue | The AI-Powered Commerce Media OS",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/customerstories/wpp-media-drives-155-sales-growth-and-76-roas-increase-for-mars-in-ksa-with-pacvues-automated-rules/",
+          "title": "WPP Media Drives +155% Sales Growth and +76% ROAS Increase for Mars in KSA with Pacvue's Automated Rules",
+          "publisher": "Pacvue (customer story)",
+          "published_date": "2025-05-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/platform/daas/",
+          "title": "Retail Data-as-a-Service (DaaS) | Pacvue",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/open-commerce-ecosystem",
+          "title": "Open Commerce Ecosystem | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Coverage statements come from a vendor FAQ updated November 2026. 'partial' on sales/share means Amazon market insights only; 'partial' on content means monitoring without a documented audit method. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Vizit",
+      "category": "creative_analytics",
+      "parent_company": "Not found",
+      "headquarters": "Not found on pages retrieved",
+      "website": "https://www.vizit.com",
+      "customer_profile": "Large consumer-goods companies; the site links to Colgate-Palmolive, L'Oreal, Mars, Mondelez and Nestle and cites 'the world's largest beauty company' in a case result [105].",
+      "corporate_changes_since_2023": "Relaunched as 'the agentic platform for content optimization' ('Vizit Next Gen') [105][106]. Ownership changes: Not found.",
+      "core_functionality": "Scores product images and product pages for predicted conversion ('Vizit Score' against a 'Content Conversion Standard'), diagnoses weak hero and carousel images, researches winning creative patterns by category, generates improved images ('Vizit Spark') and reports impact [105][106].",
+      "data_collection": "Client uploads or catalogue scans of images and product pages; AI model 'trained on ... what shoppers actually bought - across 20+ countries and every major retailer' (100M+ images, company-reported) [105]. How live product pages are collected: Not found.",
+      "marketplace_coverage": "Not retailer-specific. '20+ countries' refers to training data; countries are not listed [105].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "Tool scores content rather than crawling retailers; no country list [105]."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "US": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No country list [105]."
+        }
+      },
+      "content_intelligence": "Image and page-level conversion scoring, hero-image checks for mobile and 'AI shopping agent readiness', carousel analysis and recommended content mix (pack shots, lifestyle, benefits, ingredients) [105][106]. No checking of text against retailer rules is described.",
+      "listing_quality_scores": "Own 'Vizit Score' (0-100 style score for images and pages) [105][106]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "Not found.",
+      "competitor_intelligence": "Category creative research - 'see which competitor visuals win with your audience' [105][106]. No price, search or availability tracking described.",
+      "automation": "Catalogue-wide scoring, ranked optimisation plans and always-on reporting [106].",
+      "ai_capabilities": "Computer-vision scoring model; 'Vizit Spark' generative image engine; 'Vizit Agents' that score, diagnose and fix content (launch dates not found) [105][106].",
+      "integrations": "API ('put visual intelligence in every system and workflow via API'); output described as 'ready-to-syndicate assets' [105][106]. Named PIM / DAM connectors: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "limitations": "A specialist tool: no price, availability, search or review monitoring is described, so it complements rather than replaces a digital-shelf platform. Country and retailer coverage are not listed. Performance figures on the site are company-reported. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "unknown",
+        "availability_monitoring": "unknown",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "unknown",
+        "ratings_reviews_collection": "unknown",
+        "review_sentiment_ai": "unknown",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "yes",
+        "ai_content_generation": "yes",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "unknown",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.vizit.com/",
+          "title": "Vizit | The Agentic Platform for Content Optimization",
+          "publisher": "Vizit",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vizit.com/vizit-next-gen-platform",
+          "title": "The Vizit Platform | The Agentic Platform for Content Optimization",
+          "publisher": "Vizit",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Only two vendor pages were available; 'unknown' here means the capability is not mentioned and is probably outside the product's scope. 'partial' on content audit means conversion scoring of pages, not rule compliance. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Similarweb Retail Intelligence (formerly Shopper Intelligence)",
+      "category": "other",
+      "parent_company": "Similarweb",
+      "headquarters": "Offices listed include Givatayim, Israel and New York, USA [110]",
+      "website": "https://www.similarweb.com/corp/retail/",
+      "customer_profile": "Brands and retailers - e-commerce, commercial, marketing and insights teams [107]. Similarweb states 10,000 customers company-wide (company-reported) [110].",
+      "corporate_changes_since_2023": "The product is now called Retail Intelligence (the old 'shopper' URL redirects) and has added digital-shelf monitoring, price intelligence, AI agents and MCP delivery [107][108][110]. Dates: Not found.",
+      "core_functionality": "Cross-retail analysis, digital shelf and pricing intelligence (availability, price and promotions, content gaps, retail media, reviews, rankings, Buy Box), consumer analytics (cross-shopping, baskets, loyalty), category management and marketplace optimisation; weekly ASIN-level Amazon sales, views and conversion estimates [107][108][109].",
+      "data_collection": "'Behavioral panel signals' and a 'mix of digital signals obtained from a variety of unique sources' [110]; vendor contrasts this with tools 'that rely only on scraped shelf data', combining shelf monitoring with shopper demand data [108].",
+      "marketplace_coverage": "'650+ retailers' (company-reported) [107]. Amazon analytics covers 'Amazon marketplaces in the US, Canada, UK, Germany, France, and Italy', plus sites such as Walmart, eBay, Target and Best Buy [110]. Named elsewhere: Tesco, Currys [107].",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "Amazon.ae is not among the six Amazon marketplaces listed [110]."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "Not among the Amazon marketplaces listed [110]."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Amazon US, Walmart, eBay, Target, Best Buy [110]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "Amazon UK; Tesco and Currys named [107][110]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "Amazon.in is not among the Amazon marketplaces listed [110]."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "'Spot product data gaps and inconsistencies' on product pages [108]. No rule-based compliance audit described.",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Monitors ratings and review trends and uses 'AI to analyze sentiment and group feedback themes' [108].",
+      "competitor_intelligence": "Competitor sales, traffic sources, keywords, price and promotions, rankings, Buy Box (1P vs 3P) and cross-shopping behaviour [107][108][109].",
+      "automation": "Custom dashboards and automated reporting; 'urgency-ranked actions' on pricing [107].",
+      "ai_capabilities": "AI sentiment and theme analysis of reviews [108]; 'Amazon AI Keyword Agent'; AI Studio; MCP for AI workflows [110]. Launch dates: Not found.",
+      "integrations": "REST and batch APIs (can be bought stand-alone), MCP, managed-service dashboards [110]. PIM or DAM: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": "Custom quote ('Talk to sales') based on data scope; a free plan / trial covers Amazon data for select categories [110]. (Similarweb's separate Web Intelligence product lists plans 'from $125/mo' - not the retail product [111].)",
+        "third_party_estimate": null,
+        "pricing_source_url": "https://www.similarweb.com/packages/retail/"
+      },
+      "limitations": "Documentation: Amazon analytics is limited to six marketplaces (US, Canada, UK, Germany, France, Italy), none of them in the Middle East, Africa, India or South-East Asia [110]. Sales figures are estimates from panel and other signals. Content checks are light. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "yes",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "unknown",
+        "retail_media_ads": "partial",
+        "sales_share_estimates": "yes",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/corp/retail/",
+          "title": "Retail Intelligence Platform for Brands & Retailers | Similarweb (the former /corp/shopper/ URL redirects here)",
+          "publisher": "Similarweb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/corp/retail/digital-shelf-analytics/",
+          "title": "Digital Shelf Analytics for Brands | Similarweb",
+          "publisher": "Similarweb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/corp/retail/amazon-sales-analytics/",
+          "title": "Amazon Sales Analytics Tool for Brands | Similarweb",
+          "publisher": "Similarweb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/packages/retail/",
+          "title": "Retail Intelligence Pricing & Packages | Similarweb",
+          "publisher": "Similarweb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/packages/web/",
+          "title": "Web Intelligence Pricing & Packages | Similarweb",
+          "publisher": "Similarweb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Distinctive for demand-side (panel) data rather than shelf crawling. 'partial' on retail media means tracking competitors' activity; 'partial' on alerts means dashboards and automated reporting are stated but alerts are not. Bracketed numbers refer to the source list in the A1 markdown report."
+    },
+    {
+      "name": "Helium 10",
+      "category": "amazon_seller_tools",
+      "parent_company": "Pacvue - its about page refers to 'Pacvue's enterprise suite and Helium 10's SMB solutions' [102]",
+      "headquarters": "Not found on pages retrieved",
+      "website": "https://www.helium10.com",
+      "customer_profile": "Amazon, Walmart and TikTok Shop sellers, from new sellers to brands and agencies; plans are banded by yearly sales ($0-100K, $100K-10M, above $10M) [112][113]. Vendor states 860K+ active Chrome-extension users (company-reported) [113].",
+      "corporate_changes_since_2023": "Added an AI agent ('Helium Agent') and an MCP connector to external AI tools [113][114]. Dates and ownership changes: Not found.",
+      "core_functionality": "Product research (Black Box, Xray), keyword research and rank tracking (Cerebro, Magnet, Keyword Tracker), listing tools (Listing Analyzer, AI Listing Builder), operations (profits, inventory, refunds, review requests, alerts on listing changes), competitor tracking (Market Tracker), advertising (Helium 10 Ads) [112][113].",
+      "data_collection": "The seller's own marketplace account data plus Helium 10's proprietary marketplace datasets [112][114]. Collection methods: Not found.",
+      "marketplace_coverage": "'24+ marketplaces supported'; examples given: 'US, CA, UK, DE, JP, AU, and more' across Amazon, Walmart and TikTok Shop [113][114]. The per-market list sits in a knowledge-base article that refused automated access.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "Per-market tool list could not be read (knowledge base refused automated access)."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "Per-market tool list could not be read."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "Per-market tool list could not be read."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "US named; Amazon, Walmart, TikTok Shop [112][114]."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "UK named among marketplaces [114]."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "Per-market tool list could not be read."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found."
+        }
+      },
+      "content_intelligence": "Listing Analyzer scores an existing listing; Listing Builder creates AI-generated listings; a converter exports Amazon listings to TikTok [112][113].",
+      "listing_quality_scores": "Own listing score in Listing Analyzer ('Score Your Existing Product Listing') [112]. Ingestion of official retailer scores: Not found.",
+      "ratings_reviews": "Review requests and monitoring ('Seller Assistant') and 'analytical insights derived from real customer reviews' [112][113].",
+      "competitor_intelligence": "Competitor keywords, product research and competitor performance tracking (Market Tracker) on Amazon [112].",
+      "automation": "Alerts on listing changes, automated review-request and email sequences, managed refund service [112].",
+      "ai_capabilities": "Helium Agent ('AI commerce agent'), Helium 10 MCP (connects its data to Claude, ChatGPT or a custom agent), AI Listing Builder (launch dates not found) [112][113][114].",
+      "integrations": "MCP connector (Diamond plan includes up to 1,000 calls) [113][114]. PIM, DAM or BI integrations: Not found.",
+      "pricing": {
+        "model": "public",
+        "public_price": "Platinum $129/month billed monthly or $99/month billed yearly; Diamond $359/month or $279/month billed yearly; Enterprise from $1,499/month billed annually ('starting price'); a limited free plan exists [113].",
+        "third_party_estimate": null,
+        "pricing_source_url": "https://www.helium10.com/pricing/"
+      },
+      "limitations": "Built for individual marketplace seller accounts (Amazon, Walmart, TikTok Shop), not for cross-retailer brand monitoring. Support for Amazon.ae, Amazon.sa and Amazon.in could not be confirmed because the per-market list was inaccessible. No independent reviews were retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "unknown",
+        "availability_monitoring": "partial",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "yes",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "partial",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "yes",
+        "pim_master_data": "unknown",
+        "dam": "unknown",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "yes",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "partial"
+      },
+      "sources": [
+        {
+          "url": "https://www.helium10.com/",
+          "title": "Amazon, Walmart, and TikTok Shop Seller Tools | Helium 10",
+          "publisher": "Helium 10 (Pacvue)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.helium10.com/pricing/",
+          "title": "Plans & Pricing: Platinum, Diamond & Custom | Helium 10",
+          "publisher": "Helium 10 (Pacvue)",
+          "published_date": "updated 2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.helium10.com/tools/mcp/",
+          "title": "MCP Landing Page | Helium 10",
+          "publisher": "Helium 10 (Pacvue)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pacvue.com/about/about-us/",
+          "title": "About Pacvue | The AI-Powered Commerce Media OS",
+          "publisher": "Pacvue",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Included as the Amazon-seller-tool benchmark with a public price list. 'partial' values: inventory management for own stock only; a listing score rather than a compliance audit; review insights without stated sentiment AI; listing conversion to TikTok; product-level competitor tracking rather than market-share estimates; MCP connector rather than a documented data API. Bracketed numbers refer to the source list in the A1 markdown report."
+    }
+  ]
+}

@@ -1,0 +1,2398 @@
+{
+  "research_date": "2026-11-26",
+  "vendors": [
+    {
+      "name": "Salsify",
+      "category": "pim_pxm",
+      "parent_company": "Cinven (private equity): agreed to acquire Salsify, Inc. on 2026-07-22; Cinven's portfolio page lists Salsify with the date September 2026 (no completion announcement retrieved)",
+      "headquarters": "Boston, Massachusetts, USA",
+      "website": "https://www.salsify.com",
+      "customer_profile": "Brand manufacturers, distributors and retailers. Company-reported: more than 2,000 customers and 70,000 active users; named customers include Mars, L'Oreal, Coca-Cola, Bosch and ASICS.",
+      "corporate_changes_since_2023": "Joined MACH Alliance (2023-12-13); PXM Advance platform (2024-02-21); Piyush Chaudhari named CEO (2024-06-18); Cinven agreed to acquire Salsify (2026-07-22, terms undisclosed, subject to regulatory approval); Cinven's portfolio page lists Salsify dated September 2026, which indicates completion (no announcement retrieved). Company-reported 2025: EBITDA margin above 30%, more than $250M cash, no debt.",
+      "core_functionality": "Vendor states its PXM platform contains PIM, Syndication, Enhanced Content, Intelligence Suite (AI), Grocery Accelerator, GDSN Data Pool, Digital Shelf Analytics, Catalog Sites, automation/workflow and APIs; a separate Supplier Experience Management line serves retailers.",
+      "data_collection": "Client data via REST and GraphQL APIs from ERP/MDM/PLM/other PIMs; retailer requirements and feedback via direct connections and GDSN; Digital Shelf Analytics crawls retailer product pages (company-reported 560M+ PDPs crawled).",
+      "marketplace_coverage": "Company-reported: 40+ countries syndicated to; 950+ destinations (network page) versus 2,600 commerce destinations (July 2026 release). Named retail partners: Albertsons, Amazon, Best Buy, DoorDash, Instacart, Kroger, Target, Uber, Walmart, Wayfair (dated page). Amazon in 16 unnamed markets and Walmart OmniSpec API (2024). Ulta as an Enhanced Content destination (2024). NIQ Brandbank connector (700+ retailers, 39 countries; 2023). No evidence for Amazon.ae/.sa, Noon, Takealot, Jumia, Flipkart, Nykaa, Shopee, Lazada, Boots, Superdrug, Tesco or Sephora. Channel catalogue is behind a customer login.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Retail partner page names Walmart, Target, Kroger, Amazon, Best Buy, Albertsons, Instacart; Ulta named as an Enhanced Content destination (2024)."
+        },
+        "GB": {
+          "status": "vendor_claims",
+          "note": "NIQ Brandbank connector release (2023, dated) cites UK grocery retailers; no UK retailer named directly; Boots, Superdrug and Tesco not found."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Central data model with validation rules and channel/region versions; Readiness Reports show retailer attribute requirements and gaps; validation against retailer requirements before sending; brand compliance reports monitor live product pages for outdated or overwritten content.",
+      "listing_quality_scores": "Internal readiness and PDP compliance reports. Retailer feedback is ingested (Amazon Feedback Status Report; GDSN confirmation messages via FeedbackIQ). Ingestion of an official retailer listing-quality score: Not found.",
+      "ratings_reviews": "Not found; no ratings-and-reviews module in the published product list.",
+      "competitor_intelligence": "Not found natively. Digital Shelf Analytics page points to a Profitero integration for benchmarks, content compliance and impact of content on traffic, conversion and sales.",
+      "automation": "No-code workflow builder, tasks and approvals; company-reported 768M automated workflow tasks in 2025; automapping and auto-healing of retailer schema errors (announced May 2026).",
+      "ai_capabilities": "Angie assistant (launched 2025-10-15; platform-wide May 2026); Intelligence Suite (Oct 2025): translation, AEO Q&A content, content variants, extraction from packaging/spec sheets, data-governance audits, image generation/editing, with OpenAI/Gemini/Anthropic or SalsifyIQ; SalsifyIQ intelligence layer and MCP layer (2026-05-05); FeedbackIQ for GDSN (2025-06-04); OpenAI channel for ChatGPT (Oct 2025).",
+      "integrations": "REST and GraphQL APIs, webhooks, developer hub, App Center; GS1-certified GDSN data pool (nearly 20 target markets); NIQ Brandbank connector; commerce platform connectors; SOC 2 Type 2 and ISO 27001 stated.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": "Third-party estimate (Vendr): median contract value $52,100 per year, range $21,467-$86,250. One GetApp user review mentions a $35,000/year minimum plus about $16k partner minimum (single review, undated, unverified).",
+        "pricing_source_url": "https://www.vendr.com/marketplace/salsify"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: no native ratings/reviews; sales and traffic insight depends on a partner (Profitero); public coverage evidence centred on US/Europe; channel list not public. Customer reviews (GetApp): cost - one reviewer moved to a platform at about 25% of the cost. Analyst notes: vendor cites Forrester Wave Q4 2023 and IDC MarketScape 2024-25; no Gartner 2026 PIM Magic Quadrant announcement in its press index.",
+      "capabilities": {
+        "price_promo_monitoring": "unknown",
+        "availability_monitoring": "unknown",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "unknown",
+        "ratings_reviews_collection": "no",
+        "review_sentiment_ai": "no",
+        "official_retailer_score_ingestion": "partial",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "yes",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.salsify.com/press-release-cinven-international-private-equity-firm-to-acquire-salsify-inc",
+          "title": "Press Release: Cinven, International private equity firm, to acquire Salsify, Inc.",
+          "publisher": "Salsify",
+          "published_date": "2026-07-22",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.cinven.com/portfolio/salsify/",
+          "title": "Salsify (Cinven portfolio page; date field shows September 2026)",
+          "publisher": "Cinven",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-salsify",
+          "title": "Press & News (press release index)",
+          "publisher": "Salsify",
+          "published_date": "n.d. (latest item 2026-11-18)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-salsify-ai-driven-commerce-enterprise-scale-customer-automation",
+          "title": "Salsify Powers AI-Driven Commerce at Enterprise Scale, Accelerating Customer Automation and Growth (press release)",
+          "publisher": "Salsify",
+          "published_date": "2026-02-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-salsify-ai-transforms-pxm-ops-agentic-commerce",
+          "title": "Salsify AI Transforms PXM Ops for Digital Shelf & Agentic Commerce (press release)",
+          "publisher": "Salsify",
+          "published_date": "2025-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-salsify-unveils-salsifyiq-first-pxm-intelligence-layer-for-agentic-commerce",
+          "title": "Salsify Unveils SalsifyIQ, the First PXM Intelligence Layer Built for Agentic Commerce (press release)",
+          "publisher": "Salsify",
+          "published_date": "2026-05-05",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-salsify-feedbackiq-streamline-gdsn-ai",
+          "title": "Salsify Launches FeedbackIQ to Streamline GDSN with AI (press release)",
+          "publisher": "Salsify",
+          "published_date": "2025-06-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-salsify-2024-arr-growth",
+          "title": "Salsify Customers Drive Valuable Business Outcomes ... in 2024 (press release) [dated]",
+          "publisher": "Salsify",
+          "published_date": "2025-02-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/press-release-niq-brandbank-connector",
+          "title": "Salsify Announces New Connector to NIQ Brandbank (press release) [dated]",
+          "publisher": "Salsify",
+          "published_date": "2023-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/pim",
+          "title": "PIM Software",
+          "publisher": "Salsify",
+          "published_date": "last modified 2026-09-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/syndication",
+          "title": "Product Content Syndication",
+          "publisher": "Salsify",
+          "published_date": "last modified 2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/digital-shelf-analytics",
+          "title": "Digital Shelf Analytics",
+          "publisher": "Salsify",
+          "published_date": "last modified 2026-02-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/intelligence-suite",
+          "title": "Intelligence Suite Powers Ecommerce AI",
+          "publisher": "Salsify",
+          "published_date": "last modified 2026-09-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/angie-ai-assistant",
+          "title": "Meet Angie: Your AI Agent for Product Experience Management",
+          "publisher": "Salsify",
+          "published_date": "2026-08-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm-network/syndication-network",
+          "title": "Syndication Network",
+          "publisher": "Salsify",
+          "published_date": "last modified 2025-12-31",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm-network",
+          "title": "PXM Network",
+          "publisher": "Salsify",
+          "published_date": "last modified 2025-12-31",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/partners/retail",
+          "title": "Become a Retail Partner (key retail partners) [dated]",
+          "publisher": "Salsify",
+          "published_date": "last modified 2024-12-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/platform-integration-api",
+          "title": "Integrate the PXM Platform",
+          "publisher": "Salsify",
+          "published_date": "last modified 2026-02-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.salsify.com/pxm/gdsn",
+          "title": "GDSN Data Pool",
+          "publisher": "Salsify",
+          "published_date": "last modified 2026-11-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/salsify",
+          "title": "Salsify Software Pricing & Plans 2025",
+          "publisher": "Vendr",
+          "published_date": "n.d. (2025 in title)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/website-ecommerce-software/a/salsify/",
+          "title": "Salsify 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high",
+      "confidence_note": "Based on vendor pages and press releases retrieved 2026-11-26 plus Vendr/GetApp. Coverage in non-US markets is not verified; deal completion is inferred from Cinven's portfolio page. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Syndigo",
+      "category": "pim_pxm",
+      "parent_company": "Syndigo (backed by Summit Partners, TJC and Battery Ventures); owns 1WorldSync, PowerReviews and Taggstar",
+      "headquarters": "Chicago, Illinois, USA",
+      "website": "https://syndigo.com",
+      "customer_profile": "Consumer goods brands, retailers, distributors, foodservice, hardlines, healthcare. Named customers include Colgate-Palmolive, Unilever, L'Occitane, J.M. Smucker and Stanley Black & Decker. Company-reported: 15,000+ brands and 3,500+ retailers.",
+      "corporate_changes_since_2023": "1WorldSync acquired PowerReviews (2023-08-22). Syndigo acquired 1WorldSync (2025-09-03; price undisclosed; vendor describes a more than $3.5 billion enterprise). Syndigo acquired Taggstar (2026-03-10). Synapse agent platform launched 2026-03-24; SynapseGo 2026-04-15. Named a Leader in Gartner's first PIM Magic Quadrant (per Syndigo, 2026-10-15).",
+      "core_functionality": "Product Experience Cloud for brands and retailers: MDM, PIM, Syndication, Rich Media/Enhanced Content, GDSN, Vendor Central, Analytics (content, digital shelf, retailer), PowerReviews (ratings and reviews), Synapse AI agents, AI GoPilots, app marketplace, nutrition data, in-store solutions, managed services.",
+      "data_collection": "Brand uploads and integrations into PIM/MDM; physical product intake (content capture); daily validation against 10,000+ data quality rules; GDSN; 'Is it Live' checks of retailer sites; digital shelf analytics track competitor pricing, assortment, availability and ratings; reviews via PowerReviews.",
+      "marketplace_coverage": "Company-reported: more than 3,500 retailers globally and customers in 60 countries; syndication page separately cites 2,000+ global recipients, 23,000 requirement sets and 800+ GDSN recipients; vendor states it powers 90% of the top 20 US retailers. Public retail-partner directory searched 2026-11-26: entries for Walmart, Ulta, Sephora, Amazon and Kroger; no match for Boots, Tesco, Superdrug, Noon, Takealot, Jumia, Flipkart, Nykaa, Shopee, Lazada (directory looks partial; absence is not proof).",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Public directory returns Walmart, Ulta, Sephora, Amazon and Kroger; vendor states it powers 90% of the top 20 US retailers."
+        },
+        "GB": {
+          "status": "vendor_claims",
+          "note": "PowerReviews pages (dated) show Tesco and John Lewis logos; Syndigo's own directory returned no match for Boots, Tesco or Superdrug."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Pre-syndication quality checks against retailer-specific standards; configurable compliance rules; Content Integrity analytics; attribute trend analysis; 'Is it Live' mismatch alerts; AI attribute value mapping and transformation.",
+      "listing_quality_scores": "Internal content integrity/alignment measures; a Vendor Content Health Score for retailers. Ingestion of official retailer listing scores: Not found.",
+      "ratings_reviews": "Via PowerReviews: collection, display, syndication, product sampling, community sampling (PowerCE), review analytics. Stated plan to use review feedback in agentic content improvement.",
+      "competitor_intelligence": "Vendor states digital shelf analytics automatically track competitor pricing, assortment, availability and customer ratings, with competitor benchmarking and sales trend analysis. Search rank/share of search: Not found. Retailer and country scope: Not publicly disclosed.",
+      "automation": "Workflows and approvals, audit trail, duplicate resolution; real-time alerts; custom reports via UI or API; Item Request Manager for retailer-supplier collaboration.",
+      "ai_capabilities": "AI GoPilots (classification, content generation, translation, image analysis, anomaly detection, match-and-merge); Fall 2025 release (2025-11-12): AI Enhanced Content layouts, attribute value mapping, visual attribute extraction; Synapse agents (2026-03-24): Creation, Enrichment, Onboarding, Syndication; SynapseGo chat interface (2026-04-15); OpenAI Connect for ChatGPT.",
+      "integrations": "GS1-certified GDSN; connectors and standard formats to recipients; 100+ integrator and technology partners (company-reported); reporting API; Taggstar JavaScript tag and API.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: company-reported network sizes vary by page; no public coverage list by country; public directory shows none of our Middle East, Africa, India or South-East Asia marketplaces; legacy Syndigo/1WorldSync page addresses redirect (consolidation appears ongoing - inference). Customer reviews: GetApp 4.2/5 from 11 reviews, no excerpts retrieved. Analyst notes: Leader in Gartner 2026 PIM Magic Quadrant per vendor; report not retrieved. Pricing not public.",
+      "capabilities": {
+        "price_promo_monitoring": "partial",
+        "availability_monitoring": "yes",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "unknown",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "yes",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "yes",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "unknown",
+        "sales_share_estimates": "partial",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.summitpartners.com/news/syndigo-acquires-1worldsync-to-accelerate-modern-commerce-through-leading-global-commerce-network-and-ai-first-pxm",
+          "title": "Syndigo Acquires 1WorldSync to Accelerate Modern Commerce Through Leading Global Commerce Network and AI-First PXM (press release)",
+          "publisher": "Summit Partners (Syndigo investor)",
+          "published_date": "2025-09-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/1worldsync/",
+          "title": "Syndigo + 1WorldSync: Powering Modern Commerce with AI",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-02-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/syndication/",
+          "title": "Syndigo Syndication: Precision Content Delivery",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-11-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/analytics/",
+          "title": "Syndigo Product Content Analytics",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-11-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/product-information-management/",
+          "title": "Product Information Management (PIM)",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-11-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/powerreviews/",
+          "title": "PowerReviews by Syndigo: Maximize Conversions with UGC",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-11-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/synapse/",
+          "title": "Synapse Agentic PXM Platform",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-05-05",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/ai-gopilots/",
+          "title": "Syndigo AI GoPilots",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2025-11-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/about-us/",
+          "title": "About Us",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-09-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/retail-partners/",
+          "title": "Syndigo Retail Partners (searchable recipient directory)",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-02-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/news/syndigo-acquires-taggstar/",
+          "title": "Syndigo Acquires Taggstar to Make Product Experiences Dynamic and Contextual (press release)",
+          "publisher": "Syndigo",
+          "published_date": "2026-03-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/news/syndigo-launches-synapse-agentic-pxm/",
+          "title": "Syndigo Launches Synapse to Bring Agentic PXM to Enterprise Commerce (press release)",
+          "publisher": "Syndigo",
+          "published_date": "2026-03-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/news/syndigo-introduces-synapsego-agentic-workflows/",
+          "title": "Syndigo Introduces SynapseGo (press release)",
+          "publisher": "Syndigo",
+          "published_date": "2026-04-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/news/fall-2025-ai-innovation-release/",
+          "title": "Syndigo Unveils Fall 2025 Innovation Release (press release)",
+          "publisher": "Syndigo",
+          "published_date": "2025-11-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://syndigo.com/news/syndigo-leader-gartner-magic-quadrant-pim-2026/",
+          "title": "Syndigo Named a Leader in the Inaugural Gartner Magic Quadrant for Product Information Management Solutions (press release)",
+          "publisher": "Syndigo",
+          "published_date": "2026-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://1worldsync.com/",
+          "title": "1WorldSync home page (its /subscription-plans/ and /trading-partners/ URLs now redirect to syndigo.com)",
+          "publisher": "1WorldSync (Syndigo)",
+          "published_date": "last modified 2025-09-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/syndigo",
+          "title": "Buy Syndigo With Vendr (no price figure shown)",
+          "publisher": "Vendr",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/operations-management-software/a/pcc-1/",
+          "title": "Syndigo 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "last updated November 2026",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/1worldsync-acquisition/",
+          "title": "1WorldSync Acquires PowerReviews (press release) [dated]",
+          "publisher": "PowerReviews / 1WorldSync",
+          "published_date": "2023-08-22",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high",
+      "confidence_note": "Vendor pages and press releases retrieved 2026-11-26. Digital-shelf monitoring scope, pricing and non-US coverage are not verified. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Akeneo",
+      "category": "pim_pxm",
+      "parent_company": "Akeneo (private)",
+      "headquarters": "Founded in Nantes, France (third-party description, Vendr); press releases are datelined Boston, USA",
+      "website": "https://www.akeneo.com",
+      "customer_profile": "Brands, manufacturers, distributors and retailers. Company-reported: founded 2013, 400+ employees, 900+ enterprise customers. Beauty example: Elemis (quoted July 2026).",
+      "corporate_changes_since_2023": "Acquired Unifai (AI, 2023); acquired PricingHUB (2026-06-11, run as a separate business unit); acquired Dataggo (2026-10-28). Agentic Ziggy launched 2026-07-08. Named a Leader in Gartner's 2026 PIM Magic Quadrant (per Akeneo).",
+      "core_functionality": "Akeneo Product Cloud: PIM, Supplier Data Manager, DAM, Activation (syndication), PX Insights, Shared Catalogs, Digital Showroom, App Store; packages Growth, Advanced, Premium. Separate free self-hosted Community Edition.",
+      "data_collection": "Imports from ERP, PLM, spreadsheets and suppliers; PX Insights brings in AI-assistant rankings, Google Shopping performance and ratings/reviews (review source Not publicly disclosed); AI auto-fill from public web sources with citations.",
+      "marketplace_coverage": "Vendor states 500+ channels; public directory lists 243. AE: Amazon Seller/Vendor, Al-Futtaim, Ounass. SA: Amazon Seller/Vendor, Ounass. ZA: Leroy Merlin only. IN: Amazon Seller/Vendor, eBay, Decathlon. MY: eBay, Decathlon. KE, NG: none. US: 57 channels incl. Walmart Marketplace, Target Plus, CVS, Walgreens, Kroger, SalonCentric. GB: 31 incl. Tesco Marketplace, John Lewis, Amazon. Not listed: Noon, Takealot, Jumia, Flipkart, Nykaa, Shopee, Lazada, Boots, Superdrug, Ulta, Sephora. Custom channel builder for unlisted destinations.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "confirmed",
+          "note": "Channel directory: Amazon Seller, Amazon Vendor, Al-Futtaim, Ounass."
+        },
+        "SA": {
+          "status": "confirmed",
+          "note": "Channel directory: Amazon Seller, Amazon Vendor, Ounass."
+        },
+        "ZA": {
+          "status": "confirmed",
+          "note": "Channel directory lists only Leroy Merlin (DIY) for South Africa; no beauty/FMCG retailer."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "57 channels incl. Walmart Marketplace, Target Plus (3P), CVS, Walgreens, Kroger, SalonCentric, Amazon."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "31 channels incl. Tesco Marketplace, John Lewis, Amazon; Boots and Superdrug not listed."
+        },
+        "IN": {
+          "status": "confirmed",
+          "note": "Amazon Seller, Amazon Vendor, eBay, Decathlon; Flipkart and Nykaa not listed."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "Kenya is not in the channel directory's region list."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "Nigeria is not in the channel directory's region list."
+        },
+        "MY": {
+          "status": "confirmed",
+          "note": "eBay and Decathlon only; Shopee and Lazada not listed."
+        }
+      },
+      "content_intelligence": "Completeness tracking; Data Quality Insights dashboard with recommendations; Readiness Policies with per-product readiness score (Autumn 2026); Channel Compliance Guides with change alerts; AI Channel Readiness Guide pre-audit.",
+      "listing_quality_scores": "Internal completeness, data quality and readiness scores. Amazon publishing errors and ASINs are read back into the PIM. Official retailer scores: Not found.",
+      "ratings_reviews": "No collection or display. PX Insights analyses review sentiment and recurring feedback patterns to flag product-data problems.",
+      "competitor_intelligence": "PX Insights shows how AI assistants rank the client's products versus competitors; PricingHUB (acquired June 2026) adds pricing management with competitive insights. Retailer price/availability monitoring: Not found.",
+      "automation": "Rules engine, validation and collaboration workflows (by package), rights management, channel-change notifications.",
+      "ai_capabilities": "Agentic Ziggy (2026-07-08) with propose-and-approve; Ask Ziggy; Data Architect Agent; description generation and translation with brand voice; asset tagging and image transformations; automatic channel mapping; AI export diagnostics; MCP server (add-on); Autumn 2026 (2026-10-28): Ziggy for Shopify, AI-content labelling, Readiness Policies.",
+      "integrations": "REST and Events APIs; 100+ community connectors; 250+ apps in app store; apps for Shopify, Salesforce Commerce Cloud, Adobe Commerce (add-ons); Stripe Agentic Commerce Suite channel. GDSN: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": "Packages page shows Growth 'Starting at $0 annually' with a free-trial button (trial page: 14-day limited trial); Advanced and Premium: call for a quote. Whether Growth has a lasting free tier is UNVERIFIED. Community Edition: free.",
+        "third_party_estimate": "Third-party listing (GetApp): Growth Package 45,000 US dollars (period not stated). Vendr shows no figure.",
+        "pricing_source_url": "https://www.akeneo.com/compare-packages/"
+      },
+      "open_source": {
+        "available": true,
+        "licence": "OSL-3.0 (Open Software License 3.0)",
+        "repository_url": "https://github.com/akeneo/pim-community-dev",
+        "note": "Community Edition is maintained per Akeneo (page modified 2026-11-06): latest release 2026.5 (2026-10-30); no end-of-life announced; the 2026-09-30 end-of-support applied to version 7.0 only. Free: download, self-host, customise, standard PIM functions, REST/Events APIs. Excluded: no official feature matrix found; Asset Manager, Rules Engine and Reference Entities were Enterprise-only until added to the paid Growth Edition in Oct 2024 (dated); SaaS hosting, SLA support and add-ons (Activation, Supplier Data Manager, PX Insights, DAM/CDN, AI, MCP) are listed only for paid packages. Exact current exclusions UNVERIFIED."
+      },
+      "limitations": "Documentation: Activation, Supplier Data Manager, PX Insights, MCP server and commerce apps are add-ons; public channel list lacks most of our priority marketplaces; Community Edition releases do not guarantee backward compatibility. Customer reviews (GetApp, 40 reviews, 4.8/5): one reviewer wrote 'No MDM capabilities, DAM capabilities were poor'. Analyst notes: Leader in Gartner 2026 PIM Magic Quadrant per vendor.",
+      "capabilities": {
+        "price_promo_monitoring": "partial",
+        "availability_monitoring": "unknown",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "partial",
+        "ratings_reviews_collection": "partial",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "partial",
+        "image_visual_analysis": "yes",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "yes",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.akeneo.com/compare-packages/",
+          "title": "Compare Packages",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/akeneo-pim-community-edition/",
+          "title": "Akeneo PIM Community Edition | Free Open-Source Software",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-11-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/akeneo/pim-community-dev/master/LICENCE.txt",
+          "title": "LICENCE.txt, akeneo/pim-community-dev (master branch)",
+          "publisher": "Akeneo (GitHub)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://github.com/akeneo/pim-community-dev",
+          "title": "akeneo/pim-community-dev repository page (public, not marked archived, 1.1k stars)",
+          "publisher": "Akeneo (GitHub)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://github.com/akeneo/pim-community-dev/releases",
+          "title": "Releases, akeneo/pim-community-dev",
+          "publisher": "Akeneo (GitHub)",
+          "published_date": "latest release v2026.5 dated 30 Oct",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://help.akeneo.com/pim/serenity/supported-versions-table.html",
+          "title": "Supported versions table",
+          "publisher": "Akeneo Help Center",
+          "published_date": "n.d. (footer 2026)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://help.akeneo.com/introducing-new-growth-edition-enhancements-unlocking-enterprise-level-features-for-all",
+          "title": "October 2024 Growth Edition Updates: Unlocking Enterprise-Level Features for All [dated]",
+          "publisher": "Akeneo Help Center",
+          "published_date": "2024-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/activation/",
+          "title": "Retail Product Activation & Syndication",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-03-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/activation/channels/",
+          "title": "Channels (Akeneo Activation channel directory; 243 entries embedded in page)",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-08-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/px-insights/",
+          "title": "PX Insights",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-06-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/ai-automation/",
+          "title": "AI & Automation",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-09-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/akeneo-pim/",
+          "title": "Akeneo PIM",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/start-free-trial/",
+          "title": "Start Free Trial",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2025-11-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/about-us/",
+          "title": "About Akeneo",
+          "publisher": "Akeneo",
+          "published_date": "last modified 2026-10-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/press-release/akeneo-puts-ai-agents-to-work-across-product-data-with-enterprise-control-built-in/",
+          "title": "Akeneo Puts AI Agents to Work Across Product Data, With Enterprise Control Built In (Autumn Release 2026; Dataggo acquisition)",
+          "publisher": "Akeneo",
+          "published_date": "2026-10-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/press-release/akeneo-introduces-the-first-truly-agentic-product-experience-platform/",
+          "title": "Akeneo Introduces the First Truly Agentic Product Experience Platform (press release)",
+          "publisher": "Akeneo",
+          "published_date": "2026-07-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/press-release/akeneo-announces-acquisition-of-pricinghub-to-extend-product-cloud-into-pricing-and-strengthen-ai-driven-commerce-capabilities/",
+          "title": "Akeneo Announces Acquisition of PricingHUB (press release)",
+          "publisher": "Akeneo",
+          "published_date": "2026-06-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.akeneo.com/press-release/akeneo-named-a-leader-in-the-2026-gartner-magic-quadrant-for-product-information-management-solutions/",
+          "title": "Akeneo Named a Leader in the 2026 Gartner Magic Quadrant for Product Information Management Solutions (press release)",
+          "publisher": "Akeneo",
+          "published_date": "2026-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/operations-management-software/a/akeneo-pim/",
+          "title": "Akeneo Product Cloud 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/akeneo",
+          "title": "Buy Akeneo With Vendr (company description; no price figure shown)",
+          "publisher": "Vendr",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bluestonepim.com/blog/akeneo-community-edition-eol-2026",
+          "title": "What Are Your Options When Akeneo Community Edition Support Ends? (seen as search-result excerpt only) [search-result excerpt only]",
+          "publisher": "Bluestone PIM (competitor blog)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high",
+      "confidence_note": "Channel coverage taken from the directory data embedded in Akeneo's public page (243 entries). Pricing and exact Community Edition exclusions are not verified. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Bazaarvoice",
+      "category": "ratings_reviews",
+      "parent_company": "Bazaarvoice, Inc. (Thomas H. Lee Partners lists it as a current investment made in 2021; Marlin Equity remained a shareholder per the 2021 release)",
+      "headquarters": "Austin, Texas, USA",
+      "website": "https://www.bazaarvoice.com",
+      "customer_profile": "Large brands and retailers; company-reported 13,000+ brands and retailers. Health and beauty examples: Boots, Sephora UK.",
+      "corporate_changes_since_2023": "Acquired affable.ai creator-marketing platform (2023-10-10) and Granify (2023-12-05). Intelligent Trust Mark (2025-06-25); TikTok Shop review syndication (2026-03-24); Shopify Certified Technology Partner (2026-05-12); AI Visibility Package and Authentic Discovery API (2026).",
+      "core_functionality": "Ratings and Reviews, Questions and Answers, Syndication, Sampling (Influenster community), Ambassadors, Social Commerce, Creator Partnerships, AI Visibility Package, Connections (brand responses on retailer sites); insights and reporting in the client portal.",
+      "data_collection": "Post-purchase email/SMS and on-page review collection; sampling to a 9M+ member community; syndication between brands and retailers matched on brand name, UPC, EAN, MPN; API submissions must be unfiltered and real-time for Bazaarvoice moderation.",
+      "marketplace_coverage": "Company-reported: 2,000+ retail destinations for review syndication (another page says 1,750+ retailers); 18.7B+ pieces of content. Named evidence: Walmart, Target.com, Boots, Sephora UK, TikTok Shop, Google Shopping, Shopify. Sitemap scan found no page naming Noon, Nykaa, Flipkart, Takealot, Jumia, Shopee, Lazada, Superdrug, Tesco or Ulta. Amazon as a syndication destination: Not found.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Walmart partner programme (2018) and Walmart Marketplace partner page (dated); Target.com guide; TikTok Shop US syndication (2026)."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "Boots success story (Ratings & Reviews); Sephora UK success story (Ratings & Reviews, Social Commerce, Syndication)."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "Bengaluru office only; no Indian retailer evidence found."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Not a product-content tool. Manages review content: moderation, fraud detection, Intelligent Trust Mark covering hosted and syndicated reviews.",
+      "listing_quality_scores": "Not applicable / Not found. Reports cover review coverage, recency and syndication volumes.",
+      "ratings_reviews": "Collection (email, SMS, on-page, sampling, Review Rewards incentives); moderation (language processing plus human checks); display with AI highlights, filters and summaries; syndication to retailers, marketplaces and social platforms; brand responses on 1,750+ retail sites via Connections.",
+      "competitor_intelligence": "Premium Network Insights (2020-21, dated): aggregated competitive benchmarks, sentiment insights and Named Competitor Insights at retailers in the network; up to 25 additional competitors on request; portal 'Network' area continues (2025). Pricing, ranking or share-of-search monitoring: Not found.",
+      "automation": "Automated review requests; question routing and alerts; reports refreshed every 24 hours; recurring report emails.",
+      "ai_capabilities": "AI review summaries (portal and shopper display, Nov 2025); Product Sentiment API (2024-07-19); AI-powered Insight Summaries (2026-10-06); Visual Content Coach; Authentic Discovery API and AI Visibility Package with measurement via partners; direct review feed to Google's AI shopping experience.",
+      "integrations": "Conversations API, Product Sentiment API, Authentic Discovery API, Displayable Content Export, Product Sentiment Export, Response API, Transactions and Privacy APIs; Shopify app; third-party review platforms can syndicate into the network under a Bazaarvoice agreement.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": "Third-party estimate (Vendr): median buyer pays $36,002 per year, range $12,300-$98,843.",
+        "pricing_source_url": "https://www.vendr.com/marketplace/bazaarvoice"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation (API Terms, updated Aug 2026): Managed API data may not be stored; paid export needed for back-end use; APIs may not be used for benchmarking or competitive purposes; one product per call. Product sentiment exports support English, Spanish, French, German only. Coverage evidence is US/UK; retailer counts differ between pages. Customer reviews: Not found (G2 blocked; no GetApp page located). Analyst notes: Not found.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "no",
+        "search_rank_share_of_search": "partial",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "partial",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "unknown",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.bazaarvoice.com/products/library",
+          "title": "Products Library",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/products/syndication",
+          "title": "UGC Syndication",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/products/ratings-and-reviews",
+          "title": "Ratings & Reviews Platform",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/products/sampling",
+          "title": "Sampling",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/products/connections",
+          "title": "Connections",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/products/ai-visibility-package",
+          "title": "AI Visibility Package",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates",
+          "title": "Product updates",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/legal/terms-of-use/api",
+          "title": "API Terms of Use",
+          "publisher": "Bazaarvoice",
+          "published_date": "updated August 2026",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-ConversationsAPI/docs/syndicated-content",
+          "title": "Syndicated Content (Conversations API documentation)",
+          "publisher": "Bazaarvoice Developer Space",
+          "published_date": "last modified 2026-03-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-DCE/docs/getting-started",
+          "title": "Getting Started (Displayable Content Export)",
+          "publisher": "Bazaarvoice Developer Space",
+          "published_date": "last modified 2026-03-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.bazaarvoice.com/v1.0-PS-Export/docs/getting-started",
+          "title": "Getting Started (Product Sentiment Export)",
+          "publisher": "Bazaarvoice Developer Space",
+          "published_date": "last modified 2026-03-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates/new-feature-product-sentiment-api",
+          "title": "New Feature - Product Sentiment API [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2024-07-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/gain-actionable-retail-data-with-bazaarvoice-premium-network-insights",
+          "title": "Gain actionable retail data with Premium Network Insights (press release) [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2020-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates/launch-of-premium-network-insights",
+          "title": "Launch of Premium Network Insights [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2021-02-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates/premium-network-insights-request-additional-competitors",
+          "title": "Premium Network Insights: Request additional competitors [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2021-06-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.bazaarvoice.com/articles/collect-distribute-enterprise/insights",
+          "title": "Insights (Network Insights documentation; seen as search-result excerpt only, page requires login when fetched) [search-result excerpt only]",
+          "publisher": "Bazaarvoice documentation",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates/portal-updates-bring-you-faster-insights-smarter-summaries-and-a-streamlined-experience",
+          "title": "Portal updates bring you faster insights, smarter summaries, and a streamlined experience",
+          "publisher": "Bazaarvoice",
+          "published_date": "2025-11-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates/comprehensive-visibility-into-your-network-partners",
+          "title": "Comprehensive visibility into your network partners",
+          "publisher": "Bazaarvoice",
+          "published_date": "2026-02-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/updates/ai-powered-insight-summaries",
+          "title": "Unpack reports with AI-powered Insight Summaries",
+          "publisher": "Bazaarvoice",
+          "published_date": "2026-10-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-integrates-with-tiktok-shop-to-provide-syndicated-reviews",
+          "title": "Bazaarvoice and TikTok Shop integrate for syndicated reviews (press release)",
+          "publisher": "Bazaarvoice",
+          "published_date": "2026-03-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-becomes-shopify-certified-technology-partner-bringing-deep-customization-worlds-largest-content-network-to-merchants",
+          "title": "Bazaarvoice becomes a Shopify Certified Technology Partner (press release)",
+          "publisher": "Bazaarvoice",
+          "published_date": "2026-05-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-launches-new-intelligent-trust-mark",
+          "title": "Bazaarvoice launches the new Intelligent Trust Mark (press release)",
+          "publisher": "Bazaarvoice",
+          "published_date": "2025-06-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-acquires-affable",
+          "title": "Bazaarvoice acquires affable.ai creator marketing platform (press release) [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2023-10-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-acquires-granify",
+          "title": "Bazaarvoice acquires Granify to boost online conversion (press release) [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2023-12-05",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-announces-majority-investment-from-thomas-h-lee-partners",
+          "title": "Bazaarvoice announces majority investment from THL (press release) [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2021-03-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://thl.com/companies/bazaarvoice/",
+          "title": "Bazaarvoice (THL portfolio page: investment status Current, investment date 2021)",
+          "publisher": "Thomas H. Lee Partners (THL)",
+          "published_date": "last modified 2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/success-stories/boots",
+          "title": "Boots lifts purchase intent 186% with review responses (success story)",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/success-stories/sephora-visual-social-commerce-engagement-lift",
+          "title": "28% lift in AOV for Sephora UK (success story)",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/press/bazaarvoice-walmart-trusted-provider-ugc-solutions",
+          "title": "Walmart selects Bazaarvoice as a trusted content provider (press release) [dated]",
+          "publisher": "Bazaarvoice",
+          "published_date": "2018-10-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://marketplace.walmart.com/solutions-providers/bazaarvoice/",
+          "title": "Partner with Bazaarvoice - Walmart.com solution provider page [dated]",
+          "publisher": "Walmart Marketplace",
+          "published_date": "last modified 2024-04-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/resources/unlock-the-power-of-user-generated-content-to-stand-out-on-target-com",
+          "title": "Drive sales & stand out on Target.com with Bazaarvoice (ebook landing page)",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/company",
+          "title": "Company",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/company/india",
+          "title": "India careers (Bengaluru office)",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bazaarvoice.com/sitemap.xml",
+          "title": "XML sitemap (1,360 English URLs scanned for retailer and country names)",
+          "publisher": "Bazaarvoice",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/bazaarvoice",
+          "title": "Bazaarvoice Software Pricing & Plans 2026",
+          "publisher": "Vendr",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.yotpo.com/competitors/yotpo-vs-bazaarvoice/",
+          "title": "Yotpo vs. Bazaarvoice",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-11-17",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high",
+      "confidence_note": "Product, API terms and press pages retrieved 2026-11-26. Network Insights tiers rest on dated pages and one search-result excerpt; non-US/UK coverage not verified. 'syndication_to_retailers' is partial because it covers reviews/UGC only. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "PowerReviews",
+      "category": "ratings_reviews",
+      "parent_company": "Syndigo (via 1WorldSync)",
+      "headquarters": "Chicago, Illinois, USA",
+      "website": "https://www.powerreviews.com",
+      "customer_profile": "Brands and retailers; over 1,000 in 2023 (company-reported, dated), including L'Oreal, Albertsons, Target and Walmart.",
+      "corporate_changes_since_2023": "Acquired by 1WorldSync (2023-08-22); 1WorldSync acquired by Syndigo (2025-09-03); now sold as 'PowerReviews by Syndigo'.",
+      "core_functionality": "Ratings and reviews, questions and answers, image/video collection, review syndication, product sampling, community sampling (PowerCE), UGC analytics.",
+      "data_collection": "Review requests and on-site forms; sampling campaigns; inbound/outbound syndication using product-review matching beyond UPC; 'Retailer Product Sentiment' analyses named retailer or marketplace sites (dated page; collection method Not publicly disclosed).",
+      "marketplace_coverage": "Vendor states syndication to 2,000+ retailers (dated). Logos shown: Walmart, Target, Ulta, Albertsons, BJ's, Dollar General, Big Lots, Dillard's, Staples, Zappos, Ace Hardware, Shoppers Drug Mart, Tesco, John Lewis, Amazon, Google (dated pages). Vendor mentions sharing reviews to Amazon without explaining the mechanism. No evidence for Middle East, Africa, India or South-East Asia.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Syndication/customer pages (dated) show Walmart, Target, Ulta, Albertsons and others; 2023 release names Target and Walmart as clients."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "Syndication/customer pages (dated) show Tesco, John Lewis, JD Sports, Harvey Nichols, Ocado logos."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Not a product-content tool; analytics suggest product-description improvements from review text (dated).",
+      "listing_quality_scores": "Not applicable / Not found.",
+      "ratings_reviews": "Collection, moderation under PowerReviews authenticity and moderation policies, 3,000+ display options, syndication, sampling.",
+      "competitor_intelligence": "UGC Analytics (dated) says it draws on consumer content collected on any site about the client's and competitors' products; names Brand Health Benchmarking (page now redirects; status UNVERIFIED) and Retailer Product Sentiment.",
+      "automation": "Scheduled push reporting and custom report builder (2022 comparison table, dated).",
+      "ai_capabilities": "Natural-language sentiment analysis at mention level, trained on review content (dated). Generative AI features: Not found on pages retrieved.",
+      "integrations": "Enterprise API (B2B integrations), Display/Read API, Write API; syndication partners Pixlee TurnTo, Yotpo, Okendo.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": "Third-party estimate (Vendr): median buyer pays $31,000 per year, range $9,594-$41,969.",
+        "pricing_source_url": "https://www.vendr.com/marketplace/powerreviews"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: most public pages are 2-4 years old; help centre moved behind bot protection; website terms forbid robots copying the site; customer contract terms Not publicly disclosed. Customer reviews: GetApp 3.4/5 from 7 reviews. Analyst notes: Not found.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "no",
+        "search_rank_share_of_search": "unknown",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "unknown",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://syndigo.com/powerreviews/",
+          "title": "PowerReviews by Syndigo: Maximize Conversions with UGC",
+          "publisher": "Syndigo",
+          "published_date": "last modified 2026-11-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/ugc-syndication-for-brands/",
+          "title": "UGC Syndication for Brands [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2024-09-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/solutions/ugc-syndication/",
+          "title": "UGC Syndication [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2024-07-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/products/ratings-reviews/",
+          "title": "Ratings & Reviews [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2024-07-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/products/ugc-analytics/",
+          "title": "UGC Analytics [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2024-07-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/products/ugc-analytics/retailer-product-sentiment/",
+          "title": "Retailer Product Sentiment [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2022-07-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/products/ugc-analytics/product-sentiment-analytics/",
+          "title": "Product Sentiment Analytics [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2022-06-27",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/why-pr/analyze/",
+          "title": "Analyze. Benchmark. Differentiate. [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2022-05-31",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/our-customers/",
+          "title": "Our Customers [dated]",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2024-12-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/1worldsync-acquisition/",
+          "title": "1WorldSync Acquires PowerReviews (press release) [dated]",
+          "publisher": "PowerReviews / 1WorldSync",
+          "published_date": "2023-08-22",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/review-authenticity/",
+          "title": "Review authenticity",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2025-05-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.powerreviews.com/terms-of-use/",
+          "title": "Terms of Use (website terms; last updated 26 Sep 2022)",
+          "publisher": "PowerReviews",
+          "published_date": "last modified 2025-06-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apidocs.powerreviews.com/",
+          "title": "PowerReviews API documentation (Enterprise, Display and Write APIs)",
+          "publisher": "PowerReviews",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/powerreviews",
+          "title": "Buy PowerReviews With Vendr",
+          "publisher": "Vendr",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/customer-management-software/a/powerreviews/",
+          "title": "PowerReviews 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.summitpartners.com/news/syndigo-acquires-1worldsync-to-accelerate-modern-commerce-through-leading-global-commerce-network-and-ai-first-pxm",
+          "title": "Syndigo Acquires 1WorldSync to Accelerate Modern Commerce Through Leading Global Commerce Network and AI-First PXM (press release)",
+          "publisher": "Summit Partners (Syndigo investor)",
+          "published_date": "2025-09-03",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Many PowerReviews pages are dated (2022-2024); current scope taken from Syndigo's 2026 page. 'syndication_to_retailers' is partial because it covers reviews/UGC only. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Plytix",
+      "category": "pim_pxm",
+      "parent_company": "Plytix group (Plytix S.L., Plytix.com ApS, Plytix.com Inc.)",
+      "headquarters": "Malaga, Spain (operating company Plytix S.L.); group entities in Nordborg, Denmark and Delaware, USA",
+      "website": "https://www.plytix.com",
+      "customer_profile": "Small and mid-sized brands and e-commerce teams.",
+      "corporate_changes_since_2023": "Not found. Press index shows a partnership with Make (2026-09-18).",
+      "core_functionality": "PIM with built-in DAM; optional modules: AI Unlimited, Feed Management, Brand Portals, Product Data Sheets, Shopify/BigCommerce/Wayfair connectors.",
+      "data_collection": "Manual imports with mapping, scheduled imports, API (2,000-25,000 calls/hour by plan), FTP/SFTP, Dropbox. No crawling.",
+      "marketplace_coverage": "Feed templates/channels: Google Shopping, Meta Commerce, Amazon Seller Central, eBay, Walmart, Wayfair, Zalando, Etsy, ChatGPT, Mercado Libre, Bol, Otto, Asos, Shopee, TikTok, Pinterest and others, plus retailer templates and custom feeds; also outputs to feed tools (ChannelEngine, Channable, Feedonomics, Productsup). Countries not stated. Not listed: Noon, Takealot, Jumia, Flipkart, Nykaa, Lazada, Boots, Superdrug, Tesco, Target, Ulta, Sephora.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Connections list names Walmart, Wayfair and Amazon Seller Central (countries not stated)."
+        },
+        "GB": {
+          "status": "vendor_claims",
+          "note": "Connections list names Asos and eBay; no UK health/beauty retailer."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "vendor_claims",
+          "note": "Shopee is listed as a channel; country not stated; Lazada not listed."
+        }
+      },
+      "content_intelligence": "Completeness tracking; completeness attribute gates which products are sent to a channel; AI finds missing data and evaluates content quality.",
+      "listing_quality_scores": "Internal completeness only. Official retailer scores: Not found.",
+      "ratings_reviews": "Not found (no module).",
+      "competitor_intelligence": "Not found.",
+      "automation": "Automations, formulas, scheduled imports and feed exports, webhooks (some on higher plans only).",
+      "ai_capabilities": "AI Content Studio: bulk copy generation, translation, tone adjustment, image upscaling/resizing/background replacement, metered by credits (500 free per month). Launch dates not stated.",
+      "integrations": "API and webhooks; Shopify, WooCommerce, BigCommerce, Magento, PrestaShop; Make app (2026-09-18). GDSN: Not found.",
+      "pricing": {
+        "model": "freemium",
+        "public_price": "Per month by SKU tier, unlimited users (Standard/Pro/Enterprise): 100 SKUs 0/149/699; 1K 89/229/829; 5K 159/299/969; 10K 239/379/1,099; 25K 349/499/1,299; 25K+ custom. Add-ons at 5K SKUs: AI Unlimited 149, Feed Management 149, Brand Portals 199, Product Data Sheets 209, Shopify 99. Shown with a $ sign from a US connection; the page FAQ quotes the same figures in euros. Standard is free forever for 100 SKUs or fewer.",
+        "third_party_estimate": null,
+        "pricing_source_url": "https://www.plytix.com/pricing/"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: feeds and templates rather than a managed retailer network; plan table shows change log, user roles, webhooks and automations not included on the lowest plan, and SSO, formula attributes and sandbox only on higher plans. Customer reviews / analyst notes: Not found.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "no",
+        "ratings_reviews_collection": "no",
+        "review_sentiment_ai": "no",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "yes",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "no",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.plytix.com/pricing/",
+          "title": "Pricing",
+          "publisher": "Plytix",
+          "published_date": "last modified 2026-11-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.plytix.com/pim/",
+          "title": "Plytix PIM - Product Information Management",
+          "publisher": "Plytix",
+          "published_date": "last modified 2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.plytix.com/feed-management/",
+          "title": "Feed Management",
+          "publisher": "Plytix",
+          "published_date": "last modified 2026-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.plytix.com/ai-content-studio/",
+          "title": "AI Content Studio",
+          "publisher": "Plytix",
+          "published_date": "last modified 2026-10-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.plytix.com/connection/",
+          "title": "Connections",
+          "publisher": "Plytix",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.plytix.com/policies/legal-notice/",
+          "title": "Legal Notice",
+          "publisher": "Plytix",
+          "published_date": "last updated 2026-04-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.plytix.com/press/",
+          "title": "Press",
+          "publisher": "Plytix",
+          "published_date": "n.d. (latest item 2026-09-18)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high",
+      "confidence_note": "Price table read from the live pricing page on 2026-11-26 (currency symbol depends on visitor location). No independent reviews retrieved. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Sales Layer",
+      "category": "pim_pxm",
+      "parent_company": "Sales Layer Tech S.L.",
+      "headquarters": "Castellon de la Plana, Spain (registered office)",
+      "website": "https://www.saleslayer.com",
+      "customer_profile": "Manufacturers, distributors and retailers, with a B2B emphasis.",
+      "corporate_changes_since_2023": "Not found.",
+      "core_functionality": "Cloud PIM with DAM, Instant Catalogs, connectors, a procurement product (Sales Layer Connect) and an AI suite.",
+      "data_collection": "Import connector and import API, Excel; AI agents triggered on item creation, update or schedule. No crawling.",
+      "marketplace_coverage": "Connectors: Shopify, BigCommerce, WooCommerce, PrestaShop, Magento; marketplaces via Google Shopping, Google Manufacturer, Amazon Excel templates, ChannelAdvisor, Lengow, Feedonomics and marketplace templates. No retailer or country list; our named retailers Not found.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Product Quality Score, Smart Validations, Multi-Channel Quality Report.",
+      "listing_quality_scores": "Internal quality score. Official retailer scores: Not found.",
+      "ratings_reviews": "Not found.",
+      "competitor_intelligence": "Not found.",
+      "automation": "Parallel and sequential workflows (higher plans), formula macros, scheduled agent runs.",
+      "ai_capabilities": "AI agents for content creation, translation, category taxonomy and data quality; MCP server; ChatGPT plug-in; works with Claude, Microsoft Copilot Studio, OpenAI, Gemini, Mistral. Launch dates not stated.",
+      "integrations": "REST export API, import API, bulk export API; partner connectors for JD Edwards, Cegid, HubSpot, Salesforce. GDSN: Not found.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": "No prices shown. Four plans (Scale, Premium, Enterprise, Enterprise Plus), all 'Get a quote'; Scale capped at 5 users and 10,000 SKUs; monthly or annual billing; 30-day free trial.",
+        "third_party_estimate": "GetApp lists the starting price as 'Free' with a free trial (appears to refer to the trial).",
+        "pricing_source_url": "https://www.saleslayer.com/pricing"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: user and SKU caps on lower plans; many features are add-ons on the Scale plan; marketplace reach relies on templates and third-party feed tools. Customer reviews: GetApp 4.7/5 from 99 reviews, no excerpts retrieved.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "no",
+        "ratings_reviews_collection": "no",
+        "review_sentiment_ai": "no",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "yes",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "no",
+        "alerts_scheduled_reports": "partial",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.saleslayer.com/pricing",
+          "title": "PIM Pricing",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.saleslayer.com/features/connectors",
+          "title": "Connectors",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.saleslayer.com/ai-pim/suite",
+          "title": "AI Suite",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.saleslayer.com/ai-pim/agentic",
+          "title": "AI Agents",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.saleslayer.com/partners/marketplace",
+          "title": "Partner Marketplace",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.saleslayer.com/legal-notice",
+          "title": "Legal Notice",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.saleslayer.com/free-30-day-trial-pim-sales-layer",
+          "title": "Free 30-day trial",
+          "publisher": "Sales Layer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/project-management-planning-software/a/sales-layer/",
+          "title": "Sales Layer 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Vendor pages carry no dates; pricing not public; no retailer or country list. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Pimcore",
+      "category": "pim_pxm",
+      "parent_company": "Pimcore GmbH",
+      "headquarters": "Salzburg, Austria",
+      "website": "https://pimcore.com",
+      "customer_profile": "Mid-sized and large organisations with developer capacity.",
+      "corporate_changes_since_2023": "Licence changed from GPLv3 (Community Edition, up to v11) to the Pimcore Open Core License (POCL; licence file last updated June 2025). Pricing page shows a 'Visionary' badge for Gartner's Q4 2026 PIM Magic Quadrant.",
+      "core_functionality": "PIM/MDM, DAM, digital experience (CMS), customer data platform and e-commerce framework; vendor states PIM, MDM, DAM and DXP are in every edition.",
+      "data_collection": "Client data via DataHub and integrations; self-hosted or Pimcore-hosted (PaaS). No crawling.",
+      "marketplace_coverage": "Vendor states 2,500+ channels via a native Productsup integration; no retailer network of its own listed; our named retailers Not found.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Data quality rules and translation workflows (Enterprise edition).",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Not found.",
+      "competitor_intelligence": "Not found.",
+      "automation": "Workflows; Pimcore Copilot job execution engine.",
+      "ai_capabilities": "Pimcore Copilot for content generation, attribute assignment and automation; connects to OpenAI, Anthropic, Google and Hugging Face models. Launch dates not stated.",
+      "integrations": "DataHub; Productsup integration; marketplace synchronisation through its e-commerce framework. GDSN: Not found.",
+      "pricing": {
+        "model": "public",
+        "public_price": "Professional from $9,900 per year; Enterprise from $29,900 per year; Enterprise PaaS from $39,900 per year; unlimited products, assets and sites; no per-user fees. Community Edition free only for organisations under EUR 5 million annual revenue, non-profits, academic bodies and non-production use.",
+        "third_party_estimate": "Third-party listing (GetApp): EUR 8,400 flat rate per year.",
+        "pricing_source_url": "https://pimcore.com/en/pricing"
+      },
+      "open_source": {
+        "available": false,
+        "licence": "Pimcore Open Core License (POCL) - source-available, not open source (versions up to v11 offered GPLv3)",
+        "repository_url": "https://github.com/pimcore/pimcore",
+        "note": "POCL (last update June 2025): free production use only if total global revenue is no more than EUR 5 million (self-certified, auditable, retroactive fees possible); non-production use free; may not be offered as a hosted service or forked into a competing product; may not be mixed with or reverted to GPLv3 Pimcore. Community Edition excludes enterprise features and support."
+      },
+      "limitations": "Documentation: Community Edition excludes enterprise-level features and support; Professional has no support, enterprise extensions, data quality or translation workflows. Customer reviews (GetApp, 23 reviews, 4.7/5): implementation needs specialists; interface seems outdated; options can be overwhelming.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "no",
+        "ratings_reviews_collection": "no",
+        "review_sentiment_ai": "no",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "partial",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "yes",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "no",
+        "alerts_scheduled_reports": "unknown",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/pimcore/pimcore/12.x/LICENSE.md",
+          "title": "LICENSE.md, pimcore/pimcore branch 12.x (Pimcore Open Core License, last update June 2025)",
+          "publisher": "Pimcore (GitHub)",
+          "published_date": "2025-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pimcore/pimcore/v11.5.0/LICENSE.md",
+          "title": "LICENSE.md, pimcore/pimcore tag v11.5.0 (GPLv3 or Pimcore Commercial License)",
+          "publisher": "Pimcore (GitHub)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pimcore.com/en/pricing",
+          "title": "Pricing Overview - Licensing Models for Every Business Need",
+          "publisher": "Pimcore",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pimcore.com/en/products/open-core",
+          "title": "Enterprise Open Core",
+          "publisher": "Pimcore",
+          "published_date": "last modified 2025-08-21",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pimcore.com/en/products/edition/community",
+          "title": "Community Edition",
+          "publisher": "Pimcore",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pimcore.com/en/products/product-data-syndication",
+          "title": "Product Data Syndication",
+          "publisher": "Pimcore",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pimcore.com/en/products/ai-driven-platform",
+          "title": "The AI-Enabled Platform",
+          "publisher": "Pimcore",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/marketing-software/a/pimcore/",
+          "title": "Pimcore 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high",
+      "confidence_note": "Licence terms read from the repository licence files; prices from the vendor pricing page. Syndication relies on a third-party integration. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "inriver",
+      "category": "pim_pxm",
+      "parent_company": "Inriver (Thomas H. Lee Partners lists it as a current investment made in 2022)",
+      "headquarters": "Malmo, Sweden (per THL portfolio page and vendor history page)",
+      "website": "https://www.inriver.com",
+      "customer_profile": "Vendor states over 1,600 global brands; stated audiences are industrial manufacturers, apparel, furniture, electronics, garden and appliance makers.",
+      "corporate_changes_since_2023": "New CEO referenced in May 2024 news (THL names Rohit Goyal as CEO); ChannelEngine partnership (2025-05-28); agentic AI releases (2026-03-24, 2026-06-30); Leader in Gartner 2026 PIM Magic Quadrant per its press index.",
+      "core_functionality": "PIM in four plans (Foundation, Core, Professional, Enterprise) with Syndicate Advance, Digital Shelf Analytics, brand store, content onboarding, print publishing and Inspire AI.",
+      "data_collection": "Upstream ERP/PLM; AI-assisted onboarding of unstructured data; Digital Shelf Analytics continuously monitors live product listings across retailers and marketplaces.",
+      "marketplace_coverage": "No public retailer or marketplace list found; ChannelEngine partnership (2025). Evidence for our markets: Not found.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Highlights listings that are missing, inaccurate, suppressed or at risk; syndication checks catch issues before listings are rejected.",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Not found.",
+      "competitor_intelligence": "Analytics page refers to competitive moves and search ranking in general terms; detail Not publicly disclosed.",
+      "automation": "Workflows with approvals; AI agent workflows with brand guardrails.",
+      "ai_capabilities": "Inspire: content generation and localisation, intelligent onboarding, linked AI agents, MCP server; uses GPT-5, Azure, Gemini. Specialised agents and workflow orchestration announced 2026-03-24.",
+      "integrations": "SAP-certified S/4HANA Cloud connector (2026-05-28); Microsoft marketplace listing (2026-05-06); built-in API-based syndication.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": "https://www.inriver.com/product/plans/"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: beauty and FMCG are not among the stated target audiences; no public channel list; prices not shown. Customer reviews: GetApp 4.3/5 from 13 reviews. Analyst notes: Gartner 2026 Leader per vendor press index.",
+      "capabilities": {
+        "price_promo_monitoring": "unknown",
+        "availability_monitoring": "partial",
+        "content_compliance_audit": "yes",
+        "search_rank_share_of_search": "partial",
+        "ratings_reviews_collection": "unknown",
+        "review_sentiment_ai": "unknown",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "yes",
+        "pim_master_data": "yes",
+        "dam": "unknown",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "unknown",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.inriver.com/product/plans/",
+          "title": "PIM pricing plans: Choose the inriver package for you",
+          "publisher": "Inriver",
+          "published_date": "last modified 2026-08-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.inriver.com/product/digital-shelf-analytics/",
+          "title": "Digital Shelf Analytics for Retailers & Marketplaces",
+          "publisher": "Inriver",
+          "published_date": "last modified 2026-06-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.inriver.com/product/syndicate-advance/",
+          "title": "Syndicate Advance Content Distribution",
+          "publisher": "Inriver",
+          "published_date": "last modified 2026-06-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.inriver.com/product/inspire-ai/",
+          "title": "Inspire AI for Agentic Commerce",
+          "publisher": "Inriver",
+          "published_date": "last modified 2026-06-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.inriver.com/about/news/",
+          "title": "Latest news (press release index)",
+          "publisher": "Inriver",
+          "published_date": "n.d. (latest item 2026-11-04)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.inriver.com/about/our-history/",
+          "title": "Our History",
+          "publisher": "Inriver",
+          "published_date": "last modified 2025-10-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://thl.com/companies/inriver/",
+          "title": "Inriver (THL portfolio page: investment status Current, investment date 2022)",
+          "publisher": "Thomas H. Lee Partners (THL)",
+          "published_date": "last modified 2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/it-management-software/a/inriver-pim/",
+          "title": "inriver PIM 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Product pages are high-level; no channel list or pricing public. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Productsup",
+      "category": "feed_management",
+      "parent_company": "Products Up GmbH",
+      "headquarters": "Berlin, Germany",
+      "website": "https://www.productsup.com",
+      "customer_profile": "More than 1,000 brands, retailers and marketplaces (company-reported), including Coca-Cola, Sephora and ALDI.",
+      "corporate_changes_since_2023": "Not found (funding of $70M and World of Content acquisition date from 2022). 2026 launches: AI channels (03-22), AI Enrich (05-21), AI Visibility (07-08), approved Walmart Marketplace solution provider (09-01), Productsup Kai assistant (11-18).",
+      "core_functionality": "Feed management, product content syndication to retailers and data pools, marketplace listing, AI enrichment, AI visibility measurement, channel feedback, dynamic ad creatives. Not a PIM.",
+      "data_collection": "Imports product content from client systems (integrations include Akeneo, Pimcore, inRiver); Channel Feedback consolidates product status and compliance issues returned by channels.",
+      "marketplace_coverage": "Vendor states 2,500+ channel integrations; public list shows 205, weighted to Dutch, Belgian and German retailers, plus Amazon (Seller, Vendor, Business), Walmart Marketplace, eBay, TikTok, Instacart, Macy's, Wayfair, Carrefour, Douglas, Holland & Barrett, Kruidvat, ChatGPT, Gemini, Perplexity. Not listed: Noon, Takealot, Jumia, Flipkart, Nykaa, Shopee, Lazada, Boots, Superdrug, Tesco, Target, Ulta.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Walmart Marketplace (approved solution provider, 2026-09-01), Amazon, Macy's, Instacart in the public integration list."
+        },
+        "GB": {
+          "status": "vendor_claims",
+          "note": "Holland & Barrett appears in the public list (country not stated); Boots, Superdrug and Tesco not listed."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Validation against channel specifications; feedback view highlights missing attributes, feed errors and compliance issues.",
+      "listing_quality_scores": "Channel status and compliance feedback is ingested. A retailer quality score: Not found.",
+      "ratings_reviews": "Not found; Bazaarvoice appears as an integration.",
+      "competitor_intelligence": "AI Visibility measures product discoverability across ChatGPT, Gemini, Google AI mode and Perplexity (2026-07-08). Price monitoring: Not found.",
+      "automation": "Rule-based feed transformation; synchronisation by hour or day.",
+      "ai_capabilities": "AI channels (2026-03-22), AI Enrich (2026-05-21), AI Visibility (2026-07-08), Productsup Kai assistant on its MCP integration (2026-11-18); AI copy generation and translation.",
+      "integrations": "Data pools (ARGE, 2BA, EFO), BMEcat, ETIM, GS1; commerce platforms; advertising feed formats (Google, Meta, Criteo).",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": "https://www.productsup.com/pricing/"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: no system of record; public integration list is Europe-heavy; pricing depends on SKUs, feeds, modules, sync frequency, seats and countries. Customer reviews: GetApp 4.9/5 from 33 reviews.",
+      "capabilities": {
+        "price_promo_monitoring": "unknown",
+        "availability_monitoring": "unknown",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "partial",
+        "ratings_reviews_collection": "no",
+        "review_sentiment_ai": "no",
+        "official_retailer_score_ingestion": "partial",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "yes",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "yes",
+        "retail_media_ads": "partial",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "unknown",
+        "api_data_export": "unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.productsup.com/pricing/",
+          "title": "Pricing",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/about/company/",
+          "title": "About Productsup",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/featured-integrations/",
+          "title": "Featured integrations (205 listed)",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/product-content-syndication/",
+          "title": "Retailer and distributor channels (product content syndication)",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/news/",
+          "title": "News (company announcements index)",
+          "publisher": "Productsup",
+          "published_date": "n.d. (latest item 2026-11-18)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/channel-feedback/",
+          "title": "Centralized Channel Feedback",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/productsup-mcp/",
+          "title": "Productsup MCP",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.productsup.com/imprint/",
+          "title": "Imprint",
+          "publisher": "Productsup",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/website-ecommerce-software/a/productsup/",
+          "title": "Productsup 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Vendor pages carry no dates; only 205 of the claimed 2,500+ integrations are publicly listed. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Yotpo",
+      "category": "ratings_reviews",
+      "parent_company": "Yotpo (private)",
+      "headquarters": "Not found on pages retrieved (terms of service are governed by New York law)",
+      "website": "https://www.yotpo.com",
+      "customer_profile": "Direct-to-consumer and e-commerce brands; Glossier and Brooklinen are quoted. Vendor states brands in 100 countries.",
+      "corporate_changes_since_2023": "About page describes two product lines, Reviews and Loyalty. 2026 launches: Discover (AI visibility, 2026-10-19; EMEA 2026-11-16), Sampling (2026-11-22). Other changes: Not found.",
+      "core_functionality": "Reviews, Loyalty and Referrals, and Discover (AI visibility).",
+      "data_collection": "Automatic review requests and reminders by email and SMS, on-site forms, review import; product sampling.",
+      "marketplace_coverage": "Vendor states direct review syndication to Target, Macy's, Bloomingdale's, Shop app and TikTok Shop, Google and Meta, and into the Bazaarvoice and PowerReviews networks (Bazaarvoice route requires Premium/Enterprise and a distribution agreement with Bazaarvoice). Our non-US markets: Not found.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "Target, Macy's, Bloomingdale's, TikTok Shop named as direct syndication destinations."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Not a product-content tool.",
+      "listing_quality_scores": "Not applicable / Not found.",
+      "ratings_reviews": "Collection, AI-assisted moderation, display with AI summaries, automatic translation, syndication.",
+      "competitor_intelligence": "'Sentiment scoring, competitive benchmarking' listed under analytics; detail Not publicly disclosed.",
+      "automation": "Automatic review requests and reminders.",
+      "ai_capabilities": "Smart Prompts for reviewers, AI review summaries, topic clustering; Discover launched 2026-10-19.",
+      "integrations": "Shopify, Salesforce, Klaviyo, Adobe Commerce and others; custom API set-up on Enterprise.",
+      "pricing": {
+        "model": "freemium",
+        "public_price": "Reviews: Starter $89 per month and Pro $169 per month (each up to 500 orders per month); Premium and Enterprise by quote; a Free column appears in the feature table.",
+        "third_party_estimate": "Third-party estimates: Vendr median $26,925 per year (range $12,138-$78,681); GetApp lists $199 per month.",
+        "pricing_source_url": "https://www.yotpo.com/pricing/"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: retail syndication, AI summaries and AI analytics are listed under Premium on the pricing page; reach into retailer networks depends on Bazaarvoice and PowerReviews. Customer reviews: GetApp 4.5/5 from 377 reviews.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "no",
+        "search_rank_share_of_search": "partial",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "partial",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "partial",
+        "retail_media_ads": "unknown",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "unknown",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.yotpo.com/pricing/",
+          "title": "Pricing & plans",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-11-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.yotpo.com/platform/reviews/",
+          "title": "Customer product reviews & UGC app for ecommerce",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-11-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.yotpo.com/integrations/target/",
+          "title": "Target Integration",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-03-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.yotpo.com/competitors/yotpo-vs-bazaarvoice/",
+          "title": "Yotpo vs. Bazaarvoice",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-11-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.yotpo.com/press/",
+          "title": "Press Releases & News",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-11-16 (latest item 2026-11-22)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.yotpo.com/about/",
+          "title": "About us",
+          "publisher": "Yotpo",
+          "published_date": "last modified 2026-10-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/yotpo",
+          "title": "Yotpo Software Pricing & Plans 2026",
+          "publisher": "Vendr",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/marketing-software/a/yotpo/",
+          "title": "Yotpo 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Vendor pages retrieved 2026-11-26; headquarters and corporate changes not confirmed. 'syndication_to_retailers' is partial because it covers reviews only. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Yogi",
+      "category": "review_analytics",
+      "parent_company": "Yogi (private)",
+      "headquarters": "Not found (roles advertised in New York, NY)",
+      "website": "https://www.meetyogi.com",
+      "customer_profile": "Consumer goods brands; Microsoft and Nestle USA are cited by the vendor.",
+      "corporate_changes_since_2023": "Not found.",
+      "core_functionality": "Unified voice-of-consumer analytics across product reviews, consumer-care tickets, social, app reviews and surveys.",
+      "data_collection": "Ratings and reviews 'integrated with' PowerReviews, Bazaarvoice and 400+ retail sites (method for retail sites Not publicly disclosed); Bazaarvoice link uses the Conversations API; care data from Zendesk, Salesforce Service Cloud, Gorgias; app stores.",
+      "marketplace_coverage": "Vendor states 400+ retailers and app stores and 70+ languages; retailer names and countries Not publicly disclosed.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "GB": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "Not found.",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Analysis only: themes, sentiment at SKU and retailer level, duplicate removal, tagging of promotional and syndicated reviews.",
+      "competitor_intelligence": "Vendor states competitive benchmarking and retailer-specific trend tracking.",
+      "automation": "Real-time alerts and digests; custom dashboards.",
+      "ai_capabilities": "Ask Yogi AI question answering; theme and sentiment tagging with AI plus human validation; MCP server. Launch dates not stated.",
+      "integrations": "Bazaarvoice, PowerReviews, Zendesk, Salesforce, Qualtrics, Sprout Social, Gladly.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": null,
+        "pricing_source_url": null
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: retailer list, collection method and pricing are not published. Customer reviews / analyst notes: Not found.",
+      "capabilities": {
+        "price_promo_monitoring": "no",
+        "availability_monitoring": "no",
+        "content_compliance_audit": "no",
+        "search_rank_share_of_search": "no",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "no",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "no",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "partial"
+      },
+      "sources": [
+        {
+          "url": "https://www.meetyogi.com/",
+          "title": "Yogi | AI-Powered Consumer Insights for CPG Brands",
+          "publisher": "Yogi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.meetyogi.com/feedback-sources",
+          "title": "Feedback Sources: Reviews, Care, Social & Surveys",
+          "publisher": "Yogi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.meetyogi.com/platform-integrations/bazaarvoice",
+          "title": "Bazaarvoice Integration",
+          "publisher": "Yogi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.meetyogi.com/how-it-works",
+          "title": "How it works",
+          "publisher": "Yogi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.meetyogi.com/careers",
+          "title": "Careers",
+          "publisher": "Yogi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low",
+      "confidence_note": "Vendor marketing pages only, undated; no pricing, retailer list or third-party evidence retrieved. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    },
+    {
+      "name": "Revuze",
+      "category": "review_analytics",
+      "parent_company": "Revuze (private)",
+      "headquarters": "New York, USA (per vendor About page)",
+      "website": "https://www.revuze.it",
+      "customer_profile": "Consumer goods brands and retailers; consumer-insights, product, e-commerce and marketing teams.",
+      "corporate_changes_since_2023": "Not found. Recognised as a Niche Player in Gartner's 2026 Voice of the Customer Magic Quadrant (per Revuze, 2026-04-07).",
+      "core_functionality": "Consumer intelligence platform: dashboards, role-based hubs (consumer insights, e-commerce, product, marketing, social), Vee conversational AI, monitoring agents, surveys, MCP/API access.",
+      "data_collection": "Vendor states it aggregates online reviews from e-commerce sites including Amazon, Walmart, Target, CVS, Boots, Sephora and hundreds of others (dated FAQ); also social, forums, surveys, care tickets, returns, catalogues and client sales data.",
+      "marketplace_coverage": "Vendor states 1,000+ global sources (its own page notes internal materials contain different figures). Named: Amazon, Walmart, Target, CVS, Boots, Sephora. Our Middle East, Africa, India and South-East Asia marketplaces: Not found. Availability depends on geography and commercial agreement.",
+      "target_market_coverage": {
+        "AE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "SA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "ZA": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "US": {
+          "status": "confirmed",
+          "note": "FAQ (dated) names Amazon, Walmart, Target, CVS and Sephora as review sources."
+        },
+        "GB": {
+          "status": "confirmed",
+          "note": "FAQ (dated) names Boots as a review source."
+        },
+        "IN": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "KE": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "NG": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        },
+        "MY": {
+          "status": "not_found",
+          "note": "No evidence found in pages retrieved on 2026-11-26."
+        }
+      },
+      "content_intelligence": "PDP Optimizer agent identifies product-page content improvements; e-commerce hub covers product-page optimisation.",
+      "listing_quality_scores": "Not found.",
+      "ratings_reviews": "Analysis: topics, sentiment and benchmarks from category to SKU; syndicated duplicates removed by default; incentivised reviews can be isolated; original-language analysis; users can export reviews and opinions (dated FAQ).",
+      "competitor_intelligence": "Category-level data includes competitors' products; Competitive Radar agent tracks competitor launches, pricing, product-page changes and promotions 'where supported'; pricing and MAP analysis listed.",
+      "automation": "Always-on agents that detect changes and recommend actions; workflows that open tasks in Jira, Zendesk and monday.com; data refreshed monthly or every two weeks.",
+      "ai_capabilities": "Generative topic detection; Vee chat; agents (Product Launch Tracker, Market Scout, Competitive Radar, PDP Optimizer); MCP. Launch dates not stated.",
+      "integrations": "Delivery to client BI through Databricks; MCP and API.",
+      "pricing": {
+        "model": "quote_based",
+        "public_price": null,
+        "third_party_estimate": "Third-party listing (GetApp): $30,000 'per feature' per year.",
+        "pricing_source_url": "https://www.getapp.com/marketing-software/a/revuze/"
+      },
+      "open_source": {
+        "available": false,
+        "licence": null,
+        "repository_url": null,
+        "note": "Proprietary SaaS; no open-source edition found."
+      },
+      "limitations": "Documentation: headline metrics are not reconciled (the vendor's page says so); default refresh is monthly; coverage depends on geography and agreement; legal basis for collecting retailer reviews not described. Customer reviews: GetApp 4.3/5 from 4 reviews. Analyst notes: Gartner 2026 VoC Niche Player per vendor.",
+      "capabilities": {
+        "price_promo_monitoring": "partial",
+        "availability_monitoring": "unknown",
+        "content_compliance_audit": "partial",
+        "search_rank_share_of_search": "unknown",
+        "ratings_reviews_collection": "yes",
+        "review_sentiment_ai": "yes",
+        "official_retailer_score_ingestion": "unknown",
+        "image_visual_analysis": "unknown",
+        "ai_content_generation": "unknown",
+        "pim_master_data": "no",
+        "dam": "no",
+        "syndication_to_retailers": "no",
+        "retail_media_ads": "no",
+        "sales_share_estimates": "unknown",
+        "alerts_scheduled_reports": "yes",
+        "api_data_export": "yes"
+      },
+      "sources": [
+        {
+          "url": "https://www.revuze.it/llm-info/",
+          "title": "Official AI Information: Revuze (last updated September 2026)",
+          "publisher": "Revuze",
+          "published_date": "last modified 2026-11-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.revuze.it/faq/",
+          "title": "FAQs: Revuze Frequently Asked Questions [dated]",
+          "publisher": "Revuze",
+          "published_date": "last modified 2024-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.revuze.it/about-revuze/",
+          "title": "About Revuze",
+          "publisher": "Revuze",
+          "published_date": "last modified 2025-05-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.revuze.it/press-media/revuze-included-in-the-2026-gartner-magic-quadrant-for-voice-of-the-customer-platforms/",
+          "title": "Revuze included in the 2026 Gartner Magic Quadrant for Voice of the Customer Platforms (press release)",
+          "publisher": "Revuze",
+          "published_date": "2026-04-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.getapp.com/marketing-software/a/revuze/",
+          "title": "Revuze 2026 Pricing, Features, Reviews & Alternatives",
+          "publisher": "GetApp (Gartner Digital Markets)",
+          "published_date": "n.d. (2026 in title)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium",
+      "confidence_note": "Rests on the vendor's own 'official information' page (Sept 2026) and a dated FAQ; source list and pricing not verified. Capability labels: yes = described in vendor material; partial = narrower or partner-dependent version described; no = outside the vendor's published module list; unknown = not stated in pages retrieved. Target-market status: confirmed = a retailer or channel in that country is named in a retrieved source (mostly vendor sources, not independently verified); vendor_claims = indirect or general vendor evidence only; not_found = no evidence found."
+    }
+  ]
+}

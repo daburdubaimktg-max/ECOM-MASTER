@@ -1,0 +1,1534 @@
+{
+  "marketplace": "Takealot",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "ZA"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "full",
+  "how_brands_deliver_content": "Self-service Takealot Seller Portal (marketplace sellers): products are created via the \"Add a Product\" page or a category loadsheet, and existing pages are changed through an Edit Request. Every submission passes an automated System Review and a manual Quality Review by Takealot's Catalogue Team. Takealot states there is no Catalogue (content) API for sellers - the public APIs cover offers, sales, shipments and returns only. Retail suppliers (first-party) also submit loadsheets and are told to contact Takealot retail / cataloguelistings@takealot.com for barcode problems. No content-syndication partner route is publicly documented.",
+  "languages": [
+    {
+      "country_code": "ZA",
+      "languages": [
+        "en"
+      ],
+      "note": "No sentence says \"English only\", but only numbers, basic punctuation and Latin letters are accepted in product information (Russian, Chinese and Arabic characters are named as not allowed) and, for food, product information, attributes and ingredients must be in English.",
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.max_length",
+      "area": "title",
+      "requirement": "Title length cannot exceed 75 characters.",
+      "rule_type": "max_length",
+      "value": 75,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Quoted: \"Length cannot exceed 75 characters and must reference the full unique product name.\""
+    },
+    {
+      "id": "title.full_unique_product_name",
+      "area": "title",
+      "requirement": "The title must reference the full unique product name so that customers can search for it.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.structure",
+      "area": "title",
+      "requirement": "Build the title as: Brand name + Product name + Model name or number + Variant/Colour/Capacity + Unit Size / Quantity (as applicable).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "The Basic Requirements section says \"we require the following title formula, as it applies\"; the guidelines section calls it recommended but adds that products will be rejected if the guidelines are not met."
+    },
+    {
+      "id": "title.beauty_structure",
+      "area": "title",
+      "requirement": "Health & Beauty title format: Brand + Product Title + Size (examples: \"Outback Pain Relief Roll On - 50ml\", \"Aragan Secret Treatment Oil - 100ml\").",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vSiSrjuNGiy09LOVbf8Vw3Ul7EOZDqgQNywCRHQUIFWvo5JwIJJUhqCSzJ3d7XJUZreqBDOvMICryg5/pub",
+      "source_title": "Product Title Guidelines (2019 | Version 1.0)",
+      "source_date": "August 2019",
+      "verification": "official_document",
+      "notes": "From the 2019 Product Title Guidelines still linked from the current rules. Beauty electrical: Brand + Product Title + Voltage + Colour."
+    },
+    {
+      "id": "title.no_all_caps",
+      "area": "title",
+      "requirement": "No use of ALL CAPITAL LETTERS in titles, subtitles or Key Selling Features.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.capitalisation",
+      "area": "title",
+      "requirement": "Capitalise the first letter of each word; do not capitalise conjunctions, articles or prepositions with fewer than five letters.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.numerals_and_abbreviations",
+      "area": "title",
+      "requirement": "Use numerals (2 instead of two), state the number of items in a bundled product (e.g. pack of 10) and do not use abbreviations except for units of measure.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_contact_details",
+      "area": "title",
+      "requirement": "Telephone numbers, physical mail addresses, email addresses or website URLs are not allowed in the product description, title or subtitle (they may appear on product packaging).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_replica_terms",
+      "area": "title",
+      "requirement": "The words \"replica\", \"copy\" or \"generic\" may not be used in titles and descriptions; a title may not claim to be a replica or copy of a competitor brand. Generic or unbranded products may only say \"compatible with\" another brand, and the branded name may not lead the title.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.subtitle_max_length",
+      "area": "title",
+      "requirement": "Subtitle length cannot exceed 110 characters.",
+      "rule_type": "max_length",
+      "value": 110,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.subtitle_keywords",
+      "area": "seo",
+      "requirement": "Use the subtitle for pack sizes, compatibility, keywords relating to the product, and the model number when it does not fit in the title.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.descriptive_title",
+      "area": "seo",
+      "requirement": "Non-descriptive titles prevent customers from finding the product; follow the title formula so the product can be found with key search terms.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Takealot publishes no keyword or back-end search-term field guidance in the documents retrieved."
+    },
+    {
+      "id": "description.min_length",
+      "area": "description",
+      "requirement": "Key Selling Features (the product description) must contain a minimum of 200 characters; a character is a letter, number, space or punctuation mark.",
+      "rule_type": "min_length",
+      "value": 200,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": "2024-04",
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Introduced in version 1.39 (April 2024)."
+    },
+    {
+      "id": "description.no_html",
+      "area": "description",
+      "requirement": "No HTML or JavaScript in Key Selling Features (product descriptions).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.no_attachments",
+      "area": "description",
+      "requirement": "No fact sheets or PDF sheets may be attached.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "bullets.format",
+      "area": "bullets",
+      "requirement": "Structure Key Selling Features with the heading \"Features:\" and one dash (-) per feature, then \"Specifications:\" with one dash per specification; start each dash with a capital letter, write fragments without ending punctuation, write numbers as numerals and include product features/specifications only (no company-specific information).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Takealot has no separate bullet-point field; bullets live inside Key Selling Features. No bullet count or per-bullet length limit is published."
+    },
+    {
+      "id": "attributes.required_fields",
+      "area": "attributes",
+      "requirement": "Product attributes specified as required (highlighted in red on the loadsheet / after the Main and Lowest Category are selected) must be completed in the format provided.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.category",
+      "area": "attributes",
+      "requirement": "Every product must have a Main and a Lowest Category chosen from the Global Category Tree Look-Up.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.brand",
+      "area": "attributes",
+      "requirement": "A brand may be entered in the brand attribute only if the brand logo is imprinted on the product and visible in the submitted imagery (or, where that is not possible, images of branded packaging are supplied). Where a bundle contains multiple brands the brand attribute must be left blank.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.whats_in_the_box",
+      "area": "attributes",
+      "requirement": "\"What's in the Box\" is required in certain categories and highly recommended in all others.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "The categories where it is mandatory are flagged on the loadsheet, not listed in the public document."
+    },
+    {
+      "id": "attributes.expiry_date_on_pack",
+      "area": "attributes",
+      "requirement": "Products in categories subject to expiry-date rules must carry a clear expiry date on the physical packaging, and the expiry date must be more than the category's stated number of days after delivery.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "The rules add: \"In future, we will require you to disclose this with your catalogue submission.\" The sheet says to select Yes/No for the Has_expiry attribute."
+    },
+    {
+      "id": "attributes.min_shelf_life_days.toothpaste",
+      "area": "attributes",
+      "requirement": "Minimum remaining shelf life at delivery for Health > Oral Care > Toothpaste: 90 days.",
+      "rule_type": "other",
+      "value": 90,
+      "unit": "days",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "oral_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1Z0b1LrZnNW-Y-izfmiiKxuIyEO9X2Xfay7DJzfByP68/edit#gid=0",
+      "source_title": "Expiry Date Category (minimum shelf life per category)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.min_shelf_life_days.mouthwash",
+      "area": "attributes",
+      "requirement": "Minimum remaining shelf life at delivery for Health > Oral Care > Mouthwash: 120 days.",
+      "rule_type": "other",
+      "value": 120,
+      "unit": "days",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "oral_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1Z0b1LrZnNW-Y-izfmiiKxuIyEO9X2Xfay7DJzfByP68/edit#gid=0",
+      "source_title": "Expiry Date Category (minimum shelf life per category)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.min_shelf_life_days.skin_care",
+      "area": "attributes",
+      "requirement": "Minimum remaining shelf life at delivery for the listed Health > Cosmetics > Skin Care categories (facial cleansers, exfoliators & scrubs, lotion & moisturizer, lip balms & treatments, aftersun, tanning products): 365 days.",
+      "rule_type": "other",
+      "value": 365,
+      "unit": "days",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "skin_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1Z0b1LrZnNW-Y-izfmiiKxuIyEO9X2Xfay7DJzfByP68/edit#gid=0",
+      "source_title": "Expiry Date Category (minimum shelf life per category)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "No hair-care category appears in the Expiry Date Category sheet as retrieved."
+    },
+    {
+      "id": "attributes.medicine_ingredients",
+      "area": "attributes",
+      "requirement": "For products in Medicine & Related Products categories (topical substances, vitamins & supplements): the list of ingredients must be provided as attribute information as per SAHPRA.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Applies to medicine-type categories, not to cosmetics generally. No ingredient-list requirement for ordinary cosmetics is stated."
+    },
+    {
+      "id": "identifiers.barcode_if_present",
+      "area": "identifiers",
+      "requirement": "If the product has a scannable barcode (12-13 digits) it must be included in the submission; if it has none, leave the field blank and a Marketplace Product Label is assigned.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.barcode_max_length",
+      "area": "identifiers",
+      "requirement": "Barcodes are limited to 20 characters.",
+      "rule_type": "max_length",
+      "value": 20,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.retail_supplier_barcode",
+      "area": "identifiers",
+      "requirement": "Retail suppliers without a barcode should contact Takealot retail or cataloguelistings@takealot.com before submitting a loadsheet.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "first_party_vendor",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.format",
+      "area": "images_main",
+      "requirement": "Only JPEG (.jpg/.jpeg) and PNG image files are accepted; PNGs may not have transparent backgrounds.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.min_side_px",
+      "area": "images_main",
+      "requirement": "Images may be no shorter than 600 px on any side.",
+      "rule_type": "min_dimension",
+      "value": 600,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.max_side_px",
+      "area": "images_main",
+      "requirement": "Images may be no longer than 5000 px on any side.",
+      "rule_type": "other",
+      "value": 5000,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.max_file_size_mb",
+      "area": "images_main",
+      "requirement": "Maximum image file size is 10 MB.",
+      "rule_type": "other",
+      "value": 10,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.min_dpi",
+      "area": "images_main",
+      "requirement": "Images must be high resolution with a minimum of 72 DPI.",
+      "rule_type": "other",
+      "value": 72,
+      "unit": "DPI",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.colour_mode",
+      "area": "images_main",
+      "requirement": "Colour mode must be sRGB.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.frame_fill_min_percent",
+      "area": "images_main",
+      "requirement": "The product must fill at least 85% of the frame length or width.",
+      "rule_type": "other",
+      "value": 85,
+      "unit": "percent",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary). Upper bound is 95%."
+    },
+    {
+      "id": "images.frame_fill_max_percent",
+      "area": "images_main",
+      "requirement": "The product must fill no more than 95% of the frame length or width.",
+      "rule_type": "other",
+      "value": 95,
+      "unit": "percent",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.aspect_ratio",
+      "area": "images_main",
+      "requirement": "Submit images as close to a square aspect ratio as possible, or in 4:3, 3:2, 16:9, 5:3 or 5:4.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary). The document calls this \"HIGHLY recommended\"."
+    },
+    {
+      "id": "images.recommended_count",
+      "area": "images_secondary",
+      "requirement": "Upload at least 5 high-quality images per product showing different angles, sizes, textures, etc.",
+      "rule_type": "recommended",
+      "value": 5,
+      "unit": "images",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.min_count.hair_care",
+      "area": "images_secondary",
+      "requirement": "Minimum required images for Beauty > Hair Care > Shampoo, Conditioner, Shampoo & Conditioner, Treatments, Hair Colour, Gels & Wax and Hair Serum: 3.",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "hair_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1VEB7LNp2-kN2Qx9IZrmuJYrc0UCCkVtoiGXsEtSjorA/edit?gid=1477115144#gid=1477115144",
+      "source_title": "Global Category Tree Look-Up (minimum required images per category)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Per-category value in the Global Category Tree. Hair sprays and mousses: 1; hair styling tools/accessories: mostly 5; the separate \"Consumer Beauty Hair Care\" tree: 1."
+    },
+    {
+      "id": "images.min_count.skin_care",
+      "area": "images_secondary",
+      "requirement": "Minimum required images for Beauty > Skin Care (cleansers, exfoliators & scrubs, masks, moisturisers, toners, treatments, sets) and Beauty > Lip & Skin Care (body and facial care): 3.",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "skin_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1VEB7LNp2-kN2Qx9IZrmuJYrc0UCCkVtoiGXsEtSjorA/edit?gid=1477115144#gid=1477115144",
+      "source_title": "Global Category Tree Look-Up (minimum required images per category)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Skin-care tools: 5; the separate \"Consumer Beauty Skin Care\" and \"Consumer Beauty Body Care\" trees: 1."
+    },
+    {
+      "id": "images.min_count.oral_care",
+      "area": "images_secondary",
+      "requirement": "Minimum required images for Beauty > Oral Care > Toothpaste, Mouthwash, Floss and Whitening: 3.",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "oral_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/spreadsheets/d/1VEB7LNp2-kN2Qx9IZrmuJYrc0UCCkVtoiGXsEtSjorA/edit?gid=1477115144#gid=1477115144",
+      "source_title": "Global Category Tree Look-Up (minimum required images per category)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Toothbrushes (manual, electric, battery, heads) and tools & scrapers: 5; oral irrigators and oral-care accessories: 1."
+    },
+    {
+      "id": "images.owned_or_licensed",
+      "area": "images_main",
+      "requirement": "All images must be owned by the seller, or the seller must have the right to use them.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.no_promotional_content",
+      "area": "images_main",
+      "requirement": "No reviews, quotes, testimonials, advertisements, promotional material (e.g. \"% off\", \"Save\", \"Buy 3 for the Price of 2\") or watermarks on any image, photo or video. Product descriptors on packaging such as size, number of units, pack type, quantity and flavour are allowed.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.direct_public_links",
+      "area": "images_main",
+      "requirement": "Image links on a loadsheet must be publicly accessible, direct image URLs starting with http:// or https://; Google Drive, Facebook and Dropbox links should not be used.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRPhUYyIlA-GH-XnXpXBrHn8IQD8tnBwyIckoXmhaq4U24isKb85KMObRwwjiibkgja77nO57pKRV0B/pub",
+      "source_title": "Quick Start Product Images Guide (2026 | Version 1.2)",
+      "source_date": "April 2026",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images_main.background",
+      "area": "images_main",
+      "requirement": "Primary image background must be solid white only (RGB 255,255,255 / #ffffff).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Fashion categories may use off-white to light-grey backgrounds; that exception does not cover beauty."
+    },
+    {
+      "id": "images_main.no_borders",
+      "area": "images_main",
+      "requirement": "No borders are allowed on the primary image.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.photographs_only",
+      "area": "images_main",
+      "requirement": "Only photographs are permitted for the primary image - no CAD drawings, thumbnails or illustrations.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.shadows",
+      "area": "images_main",
+      "requirement": "Only light, believable shadows or reflections are allowed on the primary image.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.content",
+      "area": "images_main",
+      "requirement": "The primary image must show the entire single unused product (or the full bundle), only what the customer will receive, with no lifestyle context; lifestyle images must be secondary images.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Packaging: the general rule is the unpackaged product, but packaging is accepted where it is clear what the customer receives (version 1.46, April 2025) and for products that cannot be identified without packaging, e.g. supplements and shampoo."
+    },
+    {
+      "id": "images_main.beauty_multiple_angles",
+      "area": "images_main",
+      "requirement": "Beauty products may show multiple angles on the primary image (listed product-specific exception).",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.colour_swatch",
+      "area": "images_main",
+      "requirement": "Cosmetics and nail polish may show one colour swatch per primary image; the swatch may not be larger than the product. Painted items such as hands are allowed on secondary images only.",
+      "rule_type": "max_count",
+      "value": 1,
+      "unit": "swatches",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.bundle_full_contents",
+      "area": "images_main",
+      "requirement": "For bundles the primary image must depict the full bundle. Images may show a \"+\" sign, but the title and description may not use the word \"Free\".",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.allowed_content",
+      "area": "images_secondary",
+      "requirement": "Secondary images may be photographs, drawings, illustrations, lifestyle images, cropped or close-up images, images with other objects for scale, and images with text and demonstrative graphics - as long as they depict the unused product.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.not_recoloured_duplicate",
+      "area": "images_secondary",
+      "requirement": "A secondary image may not be the same image as the primary image in a different colour; each additional image must show the same product the customer will receive.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.no_logos_badges",
+      "area": "images_secondary",
+      "requirement": "Logos and badges are not allowed as a secondary image.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.no_collage",
+      "area": "images_secondary",
+      "requirement": "A secondary image must not be a collage.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRPhUYyIlA-GH-XnXpXBrHn8IQD8tnBwyIckoXmhaq4U24isKb85KMObRwwjiibkgja77nO57pKRV0B/pub",
+      "source_title": "Quick Start Product Images Guide (2026 | Version 1.2)",
+      "source_date": "April 2026",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.medicine_ingredients_photo",
+      "area": "images_secondary",
+      "requirement": "Medicine & Related Products (topical substances, vitamins & supplements) must have a secondary image listing all active ingredients and their quantities; it must be a photo of the actual product/packaging - digital images of the ingredient information are not allowed.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Applies to medicine-type categories, not to cosmetics generally."
+    },
+    {
+      "id": "video.youtube_link_only",
+      "area": "video",
+      "requirement": "A product video is submitted as a YouTube link only (Video Link field on Add a Product, the loadsheet, or an Edit Request).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.max_length_minutes",
+      "area": "video",
+      "requirement": "Video length must be three minutes at maximum.",
+      "rule_type": "max_length",
+      "value": 3,
+      "unit": "minutes",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.dimensions",
+      "area": "video",
+      "requirement": "Video width and height must be within the set dimensions (640 x 360).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Stated in the Quick Start Catalogue Checklist only; not repeated in the Product Video Requirements section."
+    },
+    {
+      "id": "video.no_watermarks_or_offsite",
+      "area": "video",
+      "requirement": "The video must be free from watermarks, logos or symbols, relate only to the product on sale, be high quality, and may not direct customers away from Takealot.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.no_promotional_content",
+      "area": "video",
+      "requirement": "No reviews, quotes, testimonials, advertisements, promotional material, offer information (stock, price, condition), alternative ordering information or time-sensitive information in the video.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.size_colour_must_be_variants",
+      "area": "variants",
+      "requirement": "All products in the same range that vary in size and/or colour must be listed as variants under a single listing; new variant products submitted as separate listings are rejected.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": "2025-05",
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Added in version 1.47 (May 2025)."
+    },
+    {
+      "id": "variants.images",
+      "area": "variants",
+      "requirement": "Variants that look different (e.g. colours) need their own image on each variant line; variants that look the same (e.g. sizes) need one image on the first variant line.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRPhUYyIlA-GH-XnXpXBrHn8IQD8tnBwyIckoXmhaq4U24isKb85KMObRwwjiibkgja77nO57pKRV0B/pub",
+      "source_title": "Quick Start Product Images Guide (2026 | Version 1.2)",
+      "source_date": "April 2026",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.no_low_value_bundles",
+      "area": "variants",
+      "requirement": "Creating bundles with low-value items (e.g. pens, stickers, keyrings) in order to create an exclusive listing is prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.bulk_packs",
+      "area": "variants",
+      "requirement": "For identical items sold in bulk/cases the title, Key Selling Features and \"What's in the Box\" must reflect the full offer; one product image is sufficient.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "language.latin_characters_only",
+      "area": "language",
+      "requirement": "Only numbers, basic punctuation and upper/lower-case Latin characters are accepted in product information; e.g. Russian, Chinese and Arabic characters are not allowed.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.review_process",
+      "area": "approval",
+      "requirement": "Every catalogue submission goes through an automated System Review (including image validation at upload) and a Quality Review by the Catalogue Team; the seller receives an email summary and downloads a Results File (with a Rejection tab) from the Catalogue Submission page. If one image of a product fails, the whole product is rejected.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "No review turnaround time is published in the documents retrieved."
+    },
+    {
+      "id": "restricted_claims.skin_whitening_terms",
+      "area": "restricted_claims",
+      "requirement": "The terms \"whitening\", \"lightening\" and \"bleacher\" may not be used for skin products (for discolorations, dark spots, etc.) in product titles, descriptions or images; \"brightening\" may be used instead.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "skin_care",
+      "seller_type": "all",
+      "effective_date": "2021-09",
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vQusQISj5V187ZE_7yfzC3UaT0jTCpMNpMPv52IKlPHFODpYG754wc-0fTn70ZeuUPM7El-lfRwORWr/pub",
+      "source_title": "Excluded Products, Prohibited Content & Policy Violations (2021 | Version 1.3.12)",
+      "source_date": "September 2022",
+      "verification": "official_document",
+      "notes": "Added in version 1.3.6 (September 2021) of a document last updated September 2022. The current catalogue tree still contains an Oral Care > \"Whitening\" category, so the restriction is worded for skin products only."
+    },
+    {
+      "id": "restricted_claims.health_terms",
+      "area": "restricted_claims",
+      "requirement": "In health products the following terms and claims (and wording of similar meaning) may not be used: Magical; Miracle/Miraculous; The only product to use; World's Best; 100% Safe; No side effects; Guaranteed; Other drugs or products cannot compare with it; Sensational relief; The number 1 (unless substantiated); Efficacious/Effective; Perpetual Youth; any reference to the cure, treatment or diagnosis of a disease unless specifically provided for.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": "2023-12",
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Headed \"Undesirable Terms and Claims in Health Products\"; the list is stated to be non-exhaustive. Whether Takealot applies it to cosmetics is not stated."
+    },
+    {
+      "id": "restricted_claims.no_offer_or_promo_text",
+      "area": "restricted_claims",
+      "requirement": "Product information may not contain offer information (stock on hand, price, product condition), alternative ordering or shipping information (links to other sites, \"free shipping\"), time-sensitive information, reviews, quotes, testimonials, solicitations for reviews, or promotional wording such as \"% off\" / \"Save\".",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.no_offensive_content",
+      "area": "restricted_claims",
+      "requirement": "No pornographic, obscene or offensive content or language in any product information or media.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.complementary_medicine_disclaimer",
+      "area": "restricted_claims",
+      "requirement": "Complementary medicines / health supplements (unscheduled) must carry Takealot's prescribed SAHPRA disclaimer text in the description.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "Relevant to ingestible beauty supplements (e.g. hair, skin & nails vitamins), not to topical cosmetics."
+    },
+    {
+      "id": "restricted_claims.medical_device_licence",
+      "area": "restricted_claims",
+      "requirement": "Products classified as medical devices may be listed only with a valid SAHPRA medical device licence and only if Class A or B; a prescribed disclaimer must be added to the description.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "ZA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub",
+      "source_title": "Catalogue Product Information Rules & Requirements (2025 | Version 1.47)",
+      "source_date": "May 2025",
+      "verification": "official_document",
+      "notes": "The Global Category Tree flags the beauty categories affected, e.g. Skin Care > Professional Tools and Oral Care > Orthodontic Wires & Braces (\"SAHPRA - Medical Device Certificate\")."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented. No A+/enhanced-content programme is described in the catalogue rules, images guide or API documentation retrieved.",
+    "modules_note": "The standard product page fields are title, subtitle, Key Selling Features (plain text - no HTML or JavaScript), What's in the Box, attributes, images and one YouTube video link; fact sheets and PDFs are not accepted.",
+    "source_url": "https://docs.google.com/document/d/e/2PACX-1vRepfABQ4NhZ4e1HnZwK5f-lPb6S-nQs9Ljo0XPw0xjE70aI26M3jJ7mwAcFFOBdkxBb7cz8Apca0uF/pub"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Listing quality score (API field \"listing_quality\"; \"also known as the catalogue quality score\")",
+      "what_it_measures": "Official description: \"an indicator of how well the offer is listed on the Takealot platform, based on factors such as completeness of information, image quality, and other relevant criteria. A higher score indicates a better listing quality.\"",
+      "components": "Not itemised officially. The API documentation gives only \"completeness of information, image quality, and other relevant criteria\" and says the score is \"typically calculated by Takealot's internal algorithms\".",
+      "access_method": "api",
+      "api_reference_url": "https://marketplace-api.takealot.com/v1/docs",
+      "who_can_access": "Any seller account owner: an API key is generated in the API Access section of the Seller Portal and sent in the X-API-Key header.",
+      "source_url": "https://marketplace-api.takealot.com/v1/docs",
+      "verification": "official_document",
+      "notes": "Read-only integer returned on offer objects (GET /offers and GET /offers/{offer_id}; selectable through the \"fields\" parameter). The documented example value is 85; the scale (0-100 or other) is not stated. The older Seller API (seller-api.takealot.com, Swagger 2.0) has no such field."
+    },
+    {
+      "official_name": "Listing Quality score shown in the Seller Portal (0-3) - as reported by a third party",
+      "what_it_measures": "Per-offer listing quality grade displayed on the offer detail page of the Seller Portal.",
+      "components": "Reported as four factors - title, images, attributes, description - graded 0 (unacceptable) to 3 (excellent).",
+      "access_method": "seller_portal_only",
+      "api_reference_url": null,
+      "who_can_access": "Logged-in Takealot sellers",
+      "source_url": "https://www.gadjet.ai/blog/takealot-listing-quality-score",
+      "verification": "unverified",
+      "notes": "From a third-party blog that cites no Takealot documentation; the 0-3 scale conflicts with the example value 85 in the official API documentation, so the two may be different presentations of the same metric. Could not be verified without a seller login."
+    }
+  ],
+  "limitations": "The Seller Help Centre (help.takealot.com) blocks automated access (HTTP 403), so the rules were read from the official documents Takealot publishes through Google Docs/Sheets, which carry the same titles and version numbers as the help-centre articles; anything that exists only inside the help centre or the logged-in Seller Portal (loadsheet field limits per category, mandatory-attribute lists, \"What's in the Box\" mandatory categories, content review turnaround times) was not seen. Two linked documents are old (title guidelines 2019; excluded products 2022). No official source was found for enhanced/A+ content, for the scale and components of the listing-quality score, or for a catalogue review SLA. Takealot does not publish a cosmetic-ingredient-list requirement; the only ingredient rules found apply to medicine-type and food categories. Web search was unavailable for part of the session (shared search budget exhausted), so some secondary checks could not be repeated."
+}

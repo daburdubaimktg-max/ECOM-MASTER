@@ -1,0 +1,1383 @@
+{
+  "marketplace": "TikTok Shop",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "US",
+    "GB",
+    "MY",
+    "SA"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "full",
+  "how_brands_deliver_content": "Self-service TikTok Shop Seller Center per market (Products > Manage Products > Add new product, bulk templates), or the TikTok Shop Partner Center Open API (Create Product / Edit Product) through an ERP, connector or agency. Listings are audited before going live; restricted categories (including beauty in some markets) need documents uploaded through the Qualification Center / Product Compliance section. Seller Center offers a Product Optimizer and AI description tools. Brands commonly operate their own shop or appoint a TikTok Shop Partner (agency); no retailer-style content-syndication route applies. Market check on 2026-11-26: the United States, United Kingdom and Malaysia are in the market selector on seller.tiktok.com and have Academy sites; Saudi Arabia is named as a market in the Partner API documentation (cash-on-delivery field) but is not in that selector and no Saudi Academy site was reachable; the United Arab Emirates appears in neither.",
+  "languages": [
+    {
+      "country_code": "US",
+      "languages": [
+        "en"
+      ],
+      "note": "Not stated explicitly in the US pages retrieved; the API locale for the market is en-US and all US guidance is in English.",
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309"
+    },
+    {
+      "country_code": "GB",
+      "languages": [
+        "en"
+      ],
+      "note": "UK policy: \"Product details must be in one of the official languages of the destination market and supported by TikTok Shop.\"",
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530"
+    },
+    {
+      "country_code": "MY",
+      "languages": [
+        "en",
+        "ms",
+        "zh"
+      ],
+      "note": "Title, description and text inside product images must use at least one supported language: English, Bahasa Melayu or Chinese. Unsupported languages are tolerated on packaging, for registered brand names, or when accompanied by a translation.",
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=7753771778098945"
+    },
+    {
+      "country_code": "SA",
+      "languages": [],
+      "note": "Not documented in the pages retrieved: the Create Product API locale list contains no Arabic locale and no Saudi Academy or policy site could be reached.",
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.max_length",
+      "area": "title",
+      "requirement": "Product title is required and may be at most 255 characters.",
+      "rule_type": "max_length",
+      "value": 255,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API. Title length ranges: DE, ES, FR, IE, IT, JP, UK, US [1, 255]; BR, MX [1, 300]; other regions [25, 255]."
+    },
+    {
+      "id": "title.min_length_other_regions",
+      "area": "title",
+      "requirement": "In markets other than DE, ES, FR, IE, IT, JP, UK, US, BR and MX the title must be at least 25 characters.",
+      "rule_type": "min_length",
+      "value": 25,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API."
+    },
+    {
+      "id": "title.us_good_tier_length",
+      "area": "title",
+      "requirement": "For the Good listing-quality tier the title has at least 25 characters (maximum 255).",
+      "rule_type": "min_length",
+      "value": 25,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "source_title": "Product Detail Pages & Listing Quality Guidelines",
+      "source_date": "2026-07-08",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. The API code TITLE_LESS_THAN_25_CHARS is marked \"Retired\" in the diagnosis table, so this criterion may no longer be scored."
+    },
+    {
+      "id": "title.row_recommended_min_length",
+      "area": "title",
+      "requirement": "Outside the US (except Japan) the diagnosis recommends extending the title to at least 40 characters.",
+      "rule_type": "min_length",
+      "value": 40,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Diagnosis recommendation for regions outside the US (Get Product Diagnoses / Check Product Listing); it does not block listing."
+    },
+    {
+      "id": "title.my_recommended_length",
+      "area": "title",
+      "requirement": "Malaysia Academy guidance: use 25-80 characters for the product title.",
+      "rule_type": "recommended",
+      "value": 80,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/course?identity=1&role=1&learning_id=2679884703647489&from=course&content_id=1938751483905794",
+      "source_title": "1.3 Product Listing Guidelines - Garis Panduan Menambahbaikan Kualiti PDP (PDP Quality Improvement Guidelines, parts 1-4)",
+      "source_date": "2024-12-24",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu. 80 is the upper end of the recommended range; the API maximum remains 255."
+    },
+    {
+      "id": "title.content",
+      "area": "title",
+      "requirement": "The title must be complete, accurate and concise and include: brand name (only if authorised to sell the brand), product type, main material or ingredient (if applicable), key features (e.g. colour, function, variant) and quantity or volume (e.g. net weight, capacity, pack size).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=4138822087902977",
+      "source_title": "Tajuk, Penerangan, Imej & Video Produk (Product Title, Description, Images & Video)",
+      "source_date": "2026-04-26",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu. The UK policy lists product type and material, key features and characteristics, quantity and size."
+    },
+    {
+      "id": "title.prohibited_content",
+      "area": "title",
+      "requirement": "Titles must not contain marketing material or promotions (e.g. \"x% off\"), a seller URL or seller name, branding or references to \"TikTok\" (without prior authorisation) or other e-commerce platforms/websites, or symbols and special characters.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": "Identical list in the Malaysia policy (2026-04-26)."
+    },
+    {
+      "id": "title.us_no_clickbait",
+      "area": "title",
+      "requirement": "Title should have no clickbait language (promotions, \"best seller\"/exclusivity, discounts or sales), no references to variants or inventory (e.g. \"Available in red, green...\", \"5 sizes available\", \"Low stock\") and no word or phrase repeated 4 or more times.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "source_title": "Product Detail Pages & Listing Quality Guidelines",
+      "source_date": "2026-07-08",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. API codes: TITLE_INCLUDE_ADVERTISE, TITLE_NOT_INCLUDE_VARIETY_WORDS, TITLE_REPETITIVE (\"Avoid repeating any word more than 4 times\")."
+    },
+    {
+      "id": "title.identifies_product",
+      "area": "title",
+      "requirement": "Title must include words that identify the product (e.g. \"Tshirt\", \"Smartphone\", \"lipstick\").",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Diagnosis code TITLE_NOT_INCLUDE_PRODUCT_SUBJECT_WORDS (US Fair tier); the Malaysia course says the title must include product-identifying information."
+    },
+    {
+      "id": "title.style",
+      "area": "title",
+      "requirement": "Use standard letters and numbers (no non-linguistic ASCII characters such as Æ, Š, Œ), Arabic numerals for quantities (\"2\" not \"two\") and abbreviated units of measure (\"cm\", \"oz\", \"in\"); special symbols are acceptable only when meaningful (e.g. \"&\").",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "source_title": "Product Detail Pages & Listing Quality Guidelines",
+      "source_date": "2026-07-08",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. The Malaysia course adds: capitalise the first letter of each word, no all-caps, and no symbols such as ~ ! * $ ? _ { } # < > | ; ^ unless part of the brand name."
+    },
+    {
+      "id": "title.my_no_subjective_terms",
+      "area": "title",
+      "requirement": "Do not use subjective or time-sensitive evaluation terms (e.g. \"best-selling\", \"best\", \"worth it\"), exaggerated statements (e.g. \"the best in the country\", \"the biggest\") or marketing content (\"x% discount\", \"100% quality guarantee\", \"free shipping\").",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/course?identity=1&role=1&learning_id=2679884703647489&from=course&content_id=1938751483905794",
+      "source_title": "1.3 Product Listing Guidelines - Garis Panduan Menambahbaikan Kualiti PDP (PDP Quality Improvement Guidelines, parts 1-4)",
+      "source_date": "2024-12-24",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu."
+    },
+    {
+      "id": "description.max_length",
+      "area": "description",
+      "requirement": "Description is HTML with a maximum length of 10,000 characters; images must use TikTok Shop image URLs, with at most 30 <img> tags, each image under 4000 px.",
+      "rule_type": "max_length",
+      "value": 10000,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API."
+    },
+    {
+      "id": "description.min_words",
+      "area": "description",
+      "requirement": "Product descriptions must not be less than 30 words.",
+      "rule_type": "min_length",
+      "value": 30,
+      "unit": "words",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": "Same rule in the Malaysia policy (\"Tidak kurang daripada 30 perkataan\")."
+    },
+    {
+      "id": "description.us_min_characters",
+      "area": "description",
+      "requirement": "For the Fair tier and above the description should be valid and at least 80 characters long and/or contain images; it must not be just a link.",
+      "rule_type": "min_length",
+      "value": 80,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. Codes DESCRIPTION_CHARACTERS_LESS_THAN_80_CHARS, DESCRIPTION_INVALID."
+    },
+    {
+      "id": "description.row_min_characters",
+      "area": "description",
+      "requirement": "Outside the US (except Japan) the diagnosis recommends a description of at least 500 characters, with line breaks for readability.",
+      "rule_type": "min_length",
+      "value": 500,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Diagnosis recommendation for regions outside the US (Get Product Diagnoses / Check Product Listing); it does not block listing. The Malaysia course also says >= 500 characters."
+    },
+    {
+      "id": "description.recommended_structure",
+      "area": "description",
+      "requirement": "Provide a detailed description (ideally over 300 characters) with 3-5 key selling points, each under 250 characters, with supporting images of 1600 x 1600 px.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.us_good_tier_format",
+      "area": "description",
+      "requirement": "For the Good tier: keep paragraphs under 400 characters, use sentence case (no all caps), include at least 3 images if no text description is given, and remove duplicate, mock-up or placeholder images.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing."
+    },
+    {
+      "id": "description.legal_information",
+      "area": "description",
+      "requirement": "The description must describe the main characteristics completely and accurately, include information required by law (e.g. product safety information, specifications, warnings) and list all included freebies and accessories.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.beauty_good_tier_content",
+      "area": "description",
+      "requirement": "Beauty and personal care listings should state product benefits (the Good-tier category requirement for Beauty & Personal Care), the target user group (e.g. skin type: dry, normal, oily), the primary ingredients and the full ingredient list, and measurements such as size, volume or weight.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. Codes PRD_NOT_INCLUDE_PRD_BENEFITS, PRD_NOT_INCLUDE_APPLICABLE_SCOPE, PRD_NOT_INCLUDE_INGREDIENTS, PRD_NOT_INCLUDE_INGREDIENTS_LIST, PRD_NOT_INCLUDE_SPECIFICATIONS. The information may sit in the title, images, description or attributes."
+    },
+    {
+      "id": "description.my_beauty_content",
+      "area": "description",
+      "requirement": "Malaysia Academy guidance for beauty descriptions: product parameters (place of manufacture, components, weight), target use, benefits, usage instructions, important information (allergens, best-use period, storage conditions) and shade display for make-up.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/course?identity=1&role=1&learning_id=2679884703647489&from=course&content_id=1938751483905794",
+      "source_title": "1.3 Product Listing Guidelines - Garis Panduan Menambahbaikan Kualiti PDP (PDP Quality Improvement Guidelines, parts 1-4)",
+      "source_date": "2024-12-24",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu."
+    },
+    {
+      "id": "bullets.key_product_features",
+      "area": "bullets",
+      "requirement": "Key Product Features (shown in the \"Product highlight\" module): no more than 5 items and no more than 1,500 characters in total.",
+      "rule_type": "max_count",
+      "value": 5,
+      "unit": "items",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API. Also used by search to weight the listing."
+    },
+    {
+      "id": "attributes.required_attributes",
+      "area": "attributes",
+      "requirement": "Attributes marked as required for the product's leaf category must be provided, otherwise the listing fails; the category must be a leaf category.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.certifications",
+      "area": "attributes",
+      "requirement": "Certifications required for restricted categories must be attached (maximum 10 per product); requirements per category are returned by Get Category Rules, and restricted categories need approval through the Qualification Center.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/get-category-rules-202309",
+      "source_title": "Get Category Rules (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.us_beauty_qualification",
+      "area": "attributes",
+      "requirement": "US beauty and personal care: sellers may be required to pass category qualification - manufacturers/importers/repackers with proof of FDA registration (or a MoCRA exemption self-attestation), the cosmetic product label (product name, net contents, ingredient list, manufacturer/distributor name and address, warnings) and, for OTC products, the Drug Facts label; resellers with a purchase invoice issued within 365 days plus the labels.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1789325403522858",
+      "source_title": "Beauty and Personal Care Products Requirements",
+      "source_date": "2026-09-01",
+      "verification": "official_document",
+      "notes": "Documents are submitted in the Qualification Center, not typed into listing fields."
+    },
+    {
+      "id": "attributes.uk_cosmetic_compliance",
+      "area": "attributes",
+      "requirement": "UK (and EU) cosmetics: when listing, sellers must submit the Cosmetic Product Safety Report (full or appropriately redacted), SCPN (Great Britain) / CPNP (EU, Northern Ireland) notification proof, Responsible Person information and clear images or a PDF of the physical product label and packaging; a Safety Data Sheet only for dangerous goods.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=683428434462486",
+      "source_title": "Compliance guidance for listing cosmetic products",
+      "source_date": "2026-09-15",
+      "verification": "official_document",
+      "notes": "Uploaded in the \"Product Compliance\" section of Add Product; listings may be rejected or delisted if documents are missing, invalid or do not match the product. The label must show, among others, the INCI ingredient list, Responsible Person, nominal content, durability date/PAO and batch number."
+    },
+    {
+      "id": "attributes.us_shelf_life_days",
+      "area": "attributes",
+      "requirement": "US beauty and personal care products should have at least 365 days of remaining shelf life on delivery; if less, this must be clearly disclosed before purchase and in the listing; products more than 3 years old or past their expiration/\"best before\" date must not be sold.",
+      "rule_type": "other",
+      "value": 365,
+      "unit": "days",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1789325403522858",
+      "source_title": "Beauty and Personal Care Products Requirements",
+      "source_date": "2026-09-01",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.uk_expiry_labelling",
+      "area": "attributes",
+      "requirement": "UK: beauty and personal care products with a limited shelf life must display an expiration date on the packaging or label; expired products must not be listed and the product detail page must be kept up to date for short-shelf-life products.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?identity=1&role=1&knowledge_id=943555435415329&from=policy",
+      "source_title": "Guide to Managing Product Expirations",
+      "source_date": "2026-11-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.brand_authorisation",
+      "area": "identifiers",
+      "requirement": "A brand name may be used only with the brand owner's authorisation; unauthorised brands are not displayed on TikTok Shop.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.gtin",
+      "area": "identifiers",
+      "requirement": "GTIN/identifier-code requirements were not established: the SKU-level identifier fields of the Create Product API were not expanded in the page retrieved.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "unverified",
+      "notes": ""
+    },
+    {
+      "id": "images.max_count",
+      "area": "images_secondary",
+      "requirement": "A maximum of 9 images can be shown in the product image gallery.",
+      "rule_type": "max_count",
+      "value": 9,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API. UK and Malaysia policies: up to 9 square images."
+    },
+    {
+      "id": "images.api_min_dimension_px",
+      "area": "images_main",
+      "requirement": "Gallery image dimensions must be between 300 x 300 px and 4000 x 4000 px.",
+      "rule_type": "min_dimension",
+      "value": 300,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API. Scope: all gallery images. Market policies set higher minimums (UK 800 px, Malaysia 600 px)."
+    },
+    {
+      "id": "images.api_max_dimension_px",
+      "area": "images_main",
+      "requirement": "Gallery images may be at most 4000 x 4000 px.",
+      "rule_type": "other",
+      "value": 4000,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API."
+    },
+    {
+      "id": "images.uk_min_dimension_px",
+      "area": "images_main",
+      "requirement": "UK policy: each image must be at least 800 x 800 pixels.",
+      "rule_type": "min_dimension",
+      "value": 800,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": "Scope: all images."
+    },
+    {
+      "id": "images.my_min_dimension_px",
+      "area": "images_main",
+      "requirement": "Malaysia policy: images must be at least 600 x 600 pixels.",
+      "rule_type": "min_dimension",
+      "value": 600,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=4138822087902977",
+      "source_title": "Tajuk, Penerangan, Imej & Video Produk (Product Title, Description, Images & Video)",
+      "source_date": "2026-04-26",
+      "verification": "official_document",
+      "notes": "Scope: all images. Translated from Bahasa Melayu."
+    },
+    {
+      "id": "images.us_main_min_resolution_px",
+      "area": "images_main",
+      "requirement": "US: the first/main image should have a resolution greater than 600 x 600 pixels.",
+      "rule_type": "min_dimension",
+      "value": 600,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "source_title": "Product Detail Pages & Listing Quality Guidelines",
+      "source_date": "2026-07-08",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. Code MAIN_IMG_FIRST_IMG_LOW_QUALITY applies in all regions."
+    },
+    {
+      "id": "images.recommended_count",
+      "area": "images_secondary",
+      "requirement": "Use a minimum of 5 product images.",
+      "rule_type": "recommended",
+      "value": 5,
+      "unit": "images",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "API recommendation; also the US Good-tier criterion and the rest-of-world diagnosis (MAIN_IMG_NUMBER_LESS_THAN_FIVE). The required number can vary by category (1, 3, 4 or 5)."
+    },
+    {
+      "id": "images.in_colour_and_distinct",
+      "area": "images_secondary",
+      "requirement": "All images must be in colour (no black-and-white), high quality (not blurred or pixelated) and each should show a different angle or feature; avoid several images of the same angle.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.front_view",
+      "area": "images_main",
+      "requirement": "One image is selected as the main image and it must show the front view of the product; additional images show other views, features and included accessories.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.background",
+      "area": "images_main",
+      "requirement": "The first image should have a white background (plain, solid-colour background at minimum).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "API recommendation. US guideline: \"We recommend using a white background\"; Malaysia policy: solid-colour background, white recommended; diagnosis codes ask for a plain, solid colour background."
+    },
+    {
+      "id": "images_main.my_product_fill_percent",
+      "area": "images_main",
+      "requirement": "Malaysia policy: in the main image the product must fill at least 60% of the frame and be shown in full (not cropped).",
+      "rule_type": "other",
+      "value": 60,
+      "unit": "percent",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=4138822087902977",
+      "source_title": "Tajuk, Penerangan, Imej & Video Produk (Product Title, Description, Images & Video)",
+      "source_date": "2026-04-26",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu."
+    },
+    {
+      "id": "images_main.no_text_logos_watermarks",
+      "area": "images_main",
+      "requirement": "The first image must not contain text, logos, watermarks, borders, graphics covering the product, promotion stickers (e.g. \"free shipping\", \"best sale\"), collages or staging with multiple product variants, and must show the whole product prominently.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "source_title": "Product Detail Pages & Listing Quality Guidelines",
+      "source_date": "2026-07-08",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing. Listings failing these checks fall into the Poor tier."
+    },
+    {
+      "id": "images.uk_no_text_watermark_background",
+      "area": "images_main",
+      "requirement": "UK policy: the product image background must not contain pixelated blocks, text or watermarks other than product branding or logos.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.local_language_only",
+      "area": "images_main",
+      "requirement": "Outside the US the diagnosis recommends that the first image use the local language only.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Diagnosis recommendation for regions outside the US (Get Product Diagnoses / Check Product Listing); it does not block listing."
+    },
+    {
+      "id": "images.no_digital_renderings",
+      "area": "images_secondary",
+      "requirement": "US: product images must be valid, not corrupted and not digital renderings; images must not be altered to hide part of the product.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "source_title": "Product Detail Pages & Listing Quality Guidelines",
+      "source_date": "2026-07-08",
+      "verification": "official_document",
+      "notes": "US listing-quality criterion (tiers Poor / Fair / Good); it affects visibility but does not block listing."
+    },
+    {
+      "id": "images_secondary.my_beauty_sequence",
+      "area": "images_secondary",
+      "requirement": "Malaysia Academy suggestion for beauty: image 1 front view; image 2 ingredients selling point; image 3 benefit/effect comparison; image 4 target use; image 5 how to use; image 6 details such as specification and form.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/course?identity=1&role=1&learning_id=2679884703647489&from=course&content_id=1938751483905794",
+      "source_title": "1.3 Product Listing Guidelines - Garis Panduan Menambahbaikan Kualiti PDP (PDP Quality Improvement Guidelines, parts 1-4)",
+      "source_date": "2024-12-24",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu."
+    },
+    {
+      "id": "video.max_count",
+      "area": "video",
+      "requirement": "Up to one (1) video may be uploaded per product listing.",
+      "rule_type": "max_count",
+      "value": 1,
+      "unit": "videos",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.max_file_size_mb",
+      "area": "video",
+      "requirement": "Uploaded product videos must not exceed 5 MB.",
+      "rule_type": "other",
+      "value": 5,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": "Stated in both the UK (2025-11-17) and Malaysia (2026-04-26) policy pages; the Create Product API reference gives no size limit."
+    },
+    {
+      "id": "video.recommended_specs",
+      "area": "video",
+      "requirement": "Recommended product video: aspect ratio 1:1, resolution HD 720p or higher, duration 20-60 seconds.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.search_terms",
+      "area": "seo",
+      "requirement": "Search terms (not shown to consumers): a maximum of 15 terms and no more than 250 characters in total; they must be consistent with the product description.",
+      "rule_type": "max_count",
+      "value": 15,
+      "unit": "terms",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB",
+        "MY",
+        "SA"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API."
+    },
+    {
+      "id": "seo.keywords",
+      "area": "seo",
+      "requirement": "Add the SEO keywords suggested by the platform (diagnosis item SEO_DIAGNOSTIC_ITEM; the API returns suggested seo_words).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "source_title": "Listing quality diagnosis",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Diagnosis recommendation for regions outside the US (Get Product Diagnoses / Check Product Listing); it does not block listing."
+    },
+    {
+      "id": "variants.one_product_one_listing",
+      "area": "variants",
+      "requirement": "A product detail page may contain only one product; each product may have only one listing (no duplicates); variations such as sizes, colours and flavours must be included within the one listing; unrelated products (e.g. different lipstick brands) may not share a listing.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB",
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": "Malaysia policy adds that bundle or pack contents must be stated clearly in each SKU and that banned or deleted products may not be relisted."
+    },
+    {
+      "id": "variants.max_skus",
+      "area": "variants",
+      "requirement": "Maximum SKUs per product: 300 for BR, EU, JP, MX, UK and US; 100 for other regions.",
+      "rule_type": "max_count",
+      "value": 300,
+      "unit": "SKUs",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US",
+        "GB"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309",
+      "source_title": "Create Product (API v202309)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Hard validation limit in the Create Product API. For Malaysia and Saudi Arabia the limit is 100."
+    },
+    {
+      "id": "variants.uk_bundle_labels",
+      "area": "variants",
+      "requirement": "UK cosmetics sold as a bundle set: upload the label image for each product individually and clearly distinguish each item.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=683428434462486",
+      "source_title": "Compliance guidance for listing cosmetic products",
+      "source_date": "2026-09-15",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "language.my_supported",
+      "area": "language",
+      "requirement": "Malaysia: title, description and text in product images must be written in at least one supported language - English, Bahasa Melayu or Chinese.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=7753771778098945",
+      "source_title": "Bahasa Yang Disokong Untuk Penyenaraian Produk (Supported Languages for Product Listings)",
+      "source_date": "2025-07-01",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu."
+    },
+    {
+      "id": "language.uk_official",
+      "area": "language",
+      "requirement": "UK: product details must be in one of the official languages of the destination market that is supported by TikTok Shop.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=7753820806006530",
+      "source_title": "Best Practices for Product Listings",
+      "source_date": "2025-11-17",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.audit_and_qualification",
+      "area": "approval",
+      "requirement": "Products are audited before going live; products in invite-only or restricted categories stay unlisted until the seller is approved through the Qualification Center, and TikTok Shop may request further documents during review or after a product is live.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?identity=1&role=1&knowledge_id=3238037484275457&from=policy",
+      "source_title": "Restricted Products Policy",
+      "source_date": "2026-11-18",
+      "verification": "official_document",
+      "notes": "No standard review turnaround time is published in the pages retrieved."
+    },
+    {
+      "id": "approval.uk_cosmetics_enforcement",
+      "area": "approval",
+      "requirement": "UK cosmetics: new listings may be rejected and existing products delisted if required compliance documents are missing, invalid, illegible or do not match the product; appeals can be filed within 180 days (72 hours encouraged).",
+      "rule_type": "other",
+      "value": 180,
+      "unit": "days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=683428434462486",
+      "source_title": "Compliance guidance for listing cosmetic products",
+      "source_date": "2026-09-15",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.uk_medical_claims",
+      "area": "restricted_claims",
+      "requirement": "UK: listings (title, description, images, packaging, videos) must not state or imply that a product can cure, heal, treat or prevent diseases or medical conditions, alleviate symptoms, or affect bodily functions or structures; beauty products must not claim to treat or remove skin conditions (e.g. eczema, psoriasis) or to stop hair loss.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=8727540182861590&identity=1&role=1&from=policy",
+      "source_title": "Prohibited Product Claims",
+      "source_date": "2025-08-23",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.uk_before_after",
+      "area": "restricted_claims",
+      "requirement": "UK: before-and-after photos for cosmetics should reflect genuine average results, not be digitally altered, not show permanent or biological changes, include the disclaimer \"Results may vary by individual\", state the timeframe and reference supporting studies.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "GB"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-uk.tiktok.com/university/essay?knowledge_id=8727540182861590&identity=1&role=1&from=policy",
+      "source_title": "Prohibited Product Claims",
+      "source_date": "2025-08-23",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.us_skin_whitening",
+      "area": "restricted_claims",
+      "requirement": "US: products that aim to bleach, whiten, lighten or reduce overall melanin in the skin are strictly prohibited; products that enhance brightness, even skin tone or reduce dark spots are permitted.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "skin_care",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1789325403522858",
+      "source_title": "Beauty and Personal Care Products Requirements",
+      "source_date": "2026-09-01",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.us_unverified_medical",
+      "area": "restricted_claims",
+      "requirement": "US: beauty and personal care products that claim medical applications not verified by the FDA, or that are not labelled correctly as both a cosmetic and a drug, are prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1789325403522858",
+      "source_title": "Beauty and Personal Care Products Requirements",
+      "source_date": "2026-09-01",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.my_used_or_repackaged",
+      "area": "restricted_claims",
+      "requirement": "Malaysia: used cosmetics and other used beauty products, and unlabelled or seller-repackaged consumer goods (including beauty/personal care products), are prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=6295179427776272",
+      "source_title": "Produk Terlarang dan Tidak Disokong (Prohibited and Unsupported Products)",
+      "source_date": "2026-07-14",
+      "verification": "official_document",
+      "notes": "Translated from Bahasa Melayu."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "No separate enhanced-content (A+ style) programme or eligibility rule is documented in the Academy or Partner Center pages retrieved.",
+    "modules_note": "Every seller's standard description is rich content: HTML up to 10,000 characters with up to 30 images, plus up to 5 Key Product Features shown in a \"Product highlight\" module, up to 9 gallery images and one video.",
+    "source_url": "https://partner.tiktokshop.com/docv2/page/create-product-202309"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Listing quality tier (Poor / Fair / Good)",
+      "what_it_measures": "How well a product detail page meets TikTok Shop's listing-quality standards; United States only.",
+      "components": "Title (no clickbait, no variant/stock references, no repetition, 25-255 characters), images (main image shows the whole product, white/plain background, no text/watermarks/borders/collages/promotion stickers, resolution above 600x600, 5 or more images), attributes (required attributes; at least one key attribute), description (valid, at least 80 characters and/or images) and category-specific information (for Beauty & Personal Care: product advantages or benefits).",
+      "access_method": "api",
+      "api_reference_url": "https://partner.tiktokshop.com/docv2/page/listing-quality-diagnosis",
+      "who_can_access": "US sellers in Seller Center (Product Optimizer / listing quality view) and authorised Partner API apps with the Product Optimization scope.",
+      "source_url": "https://seller-us.tiktok.com/university/essay?from=feature_guide&identity=1&knowledge_id=481891871868714&role=1",
+      "verification": "official_document",
+      "notes": "API: Search Products (v202312) can filter by listing quality tier, Get Product (v202309) returns the tier, and Get Product Diagnoses (v202405, GET /product/202405/products/diagnoses, up to 200 live product ids) returns listing_quality.current_tier and remaining_recommendations. A product reaches Good once all Fair and Good recommendations are addressed."
+    },
+    {
+      "official_name": "Product diagnosis (Check Product Listing / Get Product Diagnoses / Product Optimizer)",
+      "what_it_measures": "Field-level content issues and optimisation suggestions for a listing, in all regions.",
+      "components": "Diagnosis codes per field - title, description, attributes, size chart, main images - with \"how to solve\" text, plus suggested SEO words and auto-generated title/description/image suggestions.",
+      "access_method": "api",
+      "api_reference_url": "https://partner.tiktokshop.com/docv2/page/get-product-diagnoses-202405",
+      "who_can_access": "Sellers in Seller Center (Product Optimizer) and authorised Partner API apps (scope Product Optimization, seller.product.optimize).",
+      "source_url": "https://partner.tiktokshop.com/docv2/page/get-product-diagnoses-202405",
+      "verification": "official_document",
+      "notes": "Outside the US there are no tiers, only recommendations (e.g. title at least 40 characters, description at least 500 characters, 5 or more images, local language in the first image). The API notes that these quality issues do not block listing; Check Product Listing (v202309) verifies hard listing requirements before publication."
+    }
+  ],
+  "limitations": "Market coverage: only the United States, United Kingdom and Malaysia could be confirmed from live official seller sites; Saudi Arabia rests on a single API-documentation reference and no Saudi-specific content rules (including Arabic language rules) were found; no evidence of a UAE marketplace was found. Rules differ by market and by source type: Partner API limits are hard validations, Academy \"policy\" pages are enforceable rules, and listing-quality criteria are scored recommendations - the notes say which is which. The 5 MB video cap appears in the UK and Malaysia policy pages but not in the API reference, so it may be outdated. Malaysian pages were read in Bahasa Melayu and translated. No NPRA-notification rule for cosmetics was found in the Malaysian TikTok Shop pages opened (category qualification pages were not all read), and SKU-level GTIN rules were not established. Partner Center pages carry no publication dates. Review turnaround times are not published."
+}

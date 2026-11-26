@@ -1,0 +1,1519 @@
+{
+  "country_code": "NG",
+  "country_name": "Nigeria",
+  "region": "Sub-Saharan Africa",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "Nigeria is now Jumia's largest market by sales (GMV up 30% year on year in the third quarter of 2026), and Jumia remains the largest transactional marketplace by every traffic estimate retrieved; the classifieds site Jiji draws a comparable or larger audience, while Konga's measurable Nigerian traffic is much smaller. Temu entered in late 2024 and immediately topped the app-download charts, and quick-commerce apps (Chowdeck, Glovo) are adding groceries, pharmacy and their own dark stores. Branded mass-market personal care is listed most completely by small online supermarkets and pharmacies (Supermart.ng and 24 Hours Market in Lagos, and MedPlus), which are openly readable; some international brands are thin or absent on Jumia (for example, a Pantene search returned no results). No official statistic on Nigerian e-commerce or online beauty sales was found, and commercial market-size estimates conflict so widely that none is reproduced here. Social selling through Instagram, WhatsApp or TikTok could not be evidenced in this session beyond platform reach figures.",
+    "key_facts": [
+      {
+        "fact": "Nigeria overtook Cote d'Ivoire as Jumia's largest market by sales in the first quarter of 2026, when Nigerian GMV grew 42% year on year (company statements reported by Semafor).",
+        "nature": "company_reported",
+        "source_url": "https://www.semafor.com/article/05/08/2026/jumia-leans-on-china-imports-as-nigeria-becomes-top-market",
+        "source_name": "Semafor",
+        "source_date": "2026-05-08"
+      },
+      {
+        "fact": "Jumia reported Nigerian GMV up 30% year on year in the third quarter of 2026, with broad-based growth across categories. Country-level GMV and customer numbers are Not publicly disclosed.",
+        "nature": "company_reported",
+        "source_url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+        "source_name": "Jumia Technologies AG",
+        "source_date": "2026-11-18"
+      },
+      {
+        "fact": "Jumia group (all eight countries, physical goods): GMV US$224.0 million, 2.7 million quarterly active customers and 6.3 million orders in the third quarter of 2026.",
+        "nature": "company_reported",
+        "source_url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+        "source_name": "Jumia Technologies AG",
+        "source_date": "2026-11-18"
+      },
+      {
+        "fact": "Jumia Nigeria's most-sold product groups in 2024 by gross items were phones, beauty and perfumes, home and men's clothing, and 24.7 million products were listed on Jumia Nigeria. Dated: internal data as of December 2024.",
+        "nature": "company_reported",
+        "source_url": "https://group.jumia.com/download/files/community/articles/e-commerce-in-rural-areas-of-nigeria.pdf",
+        "source_name": "Jumia Nigeria",
+        "source_date": "n.d. (2025; internal data as of December 2024)"
+      },
+      {
+        "fact": "Jiji reports more than 12 million monthly users, more than 5 million ads with a listed value above US$15 billion, and over 40 million visits in the first quarter of 2026.",
+        "nature": "company_reported",
+        "source_url": "https://businessday.ng/transport/article/soaring-costs-push-nigerians-to-pre-owned-market-as-demand-jumps-97/",
+        "source_name": "BusinessDay (Nigeria)",
+        "source_date": "2026-05-01"
+      },
+      {
+        "fact": "Temu became the most downloaded app in Nigeria on both Android and Apple app stores within weeks of starting to advertise there in late 2024 (Similarweb data cited by Semafor). Dated.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semafor.com/article/12/11/2024/chinese-retailer-temu-storms-nigeria",
+        "source_name": "Semafor",
+        "source_date": "2024-12-11"
+      },
+      {
+        "fact": "Website traffic, October 2026 (Semrush estimates; share from Nigeria in brackets): jumia.com.ng 5.93M visits (76.14%), jiji.ng 4.34M (63.2%), konga.com 1.40M (46.89%), chowdeck.com 715.4K (42.13%), supermart.ng 105.4K (86.44%). Similarweb's free pages show higher totals for jumia.com.ng (9.2M, 58.04% from Nigeria) and jiji.ng (8.1M, 45.4%) and 1.8M for konga.com, of which only 21.85% is from Nigeria.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semrush.com/website/jumia.com.ng/overview/",
+        "source_name": "Semrush",
+        "source_date": "2026-11-11"
+      },
+      {
+        "fact": "Chowdeck had about 1.5 million customers when it raised a US$9 million Series A in August 2025 and was opening dark stores for grocery delivery in 20 minutes or less. Dated: about 15 months old.",
+        "nature": "company_reported",
+        "source_url": "https://techpoint.africa/?p=336400",
+        "source_name": "Techpoint Africa",
+        "source_date": "2025-08-11"
+      },
+      {
+        "fact": "Nigeria had 109 million internet users (45.5% penetration) at the end of 2025; TikTok's adult advertising reach was 47.8 million, Facebook's 38.0 million and Instagram's 10.0 million.",
+        "nature": "third_party_estimate",
+        "source_url": "https://datareportal.com/reports/digital-2026-nigeria",
+        "source_name": "DataReportal (Kepios)",
+        "source_date": "2025-11-08"
+      },
+      {
+        "fact": "Dedicated beauty-retail apps are negligible: the five most-downloaded beauty retail apps on Android in Nigeria each recorded only tens to a few hundred downloads a week in the first quarter of 2026 (Sensor Tower).",
+        "nature": "third_party_estimate",
+        "source_url": "https://sensortower.com/blog/2026-q1-android-top-5-beauty-retail-units-ng-63fd3f19e1714cfff19e1990",
+        "source_name": "Sensor Tower",
+        "source_date": "n.d. (Q1 2026 data)"
+      }
+    ]
+  },
+  "ranking_method_note": "weighted_score = 0.20 x ecommerce_significance + 0.25 x beauty_category_relevance + 0.20 x consumer_reach + 0.15 x brand_competitor_coverage + 0.20 x data_integration_feasibility, each scored 1-5, rounded to 2 decimals. priority_rank orders platforms by weighted_score within the country (1 = highest); ties are broken by beauty_category_relevance, then consumer_reach, as the rubric requires. Where platforms were still tied, ecommerce_significance, then data_integration_feasibility, then name were used (our addition; the rubric stops earlier). Scores are analyst judgements anchored to the evidence note beside each score. Anchors for brand_competitor_coverage (thirteen reference brands): 5 = at least 11 confirmed with real depth, or every brand tested when at least 8 were tested; 4 = 8-10 confirmed, or 11+ confirmed with thin listings; 3 = 4-7 confirmed; 2 = 1-3 confirmed; 1 = none found. Where a catalogue could not be read at all the score is a placeholder marked UNVERIFIED: 3 (neutral) for pharmacies, grocers and general marketplaces that normally stock the category, 2 for delivery apps and classifieds, 1 for cross-border value or fashion platforms and private messaging. competitor_presence.level follows the same evidence: high = score 4-5, medium = 3, low = 1-2, unknown = placeholder. Anchors for data_integration_feasibility: 5 = documented seller API plus openly readable pages, 4 = openly readable pages or feeds, 3 = partly readable or seller-portal access only, 2 = automated access refused, 1 = app-only, login wall or CAPTCHA. Closed platforms therefore rank lower for reasons of access, not commercial weight. For Nigeria this mainly affects Jiji and Konga, and it lifts small open sites such as Supermart.ng and 24 Hours Market above much larger platforms.",
+  "platforms": [
+    {
+      "name": "Jumia Nigeria",
+      "website": "https://www.jumia.com.ng",
+      "operator": "Jumia Technologies AG (NYSE: JMIA); Nigerian operating entity UNVERIFIED",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Beauty and perfumes was Jumia Nigeria's second most-sold product group by items in 2024 (company data, dated), and the Health & Beauty category page showed 141,308 products on 2026-11-26. Depth for international mass-market brands is uneven: Dark and Lovely 112 products, Nivea 96, Garnier 72, Vaseline 24, Dove 21, Sensodyne 15 and Closeup 13, but Colgate 1 and no results for Pantene.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Health products are listed within Health & Beauty; no pharmacy dispensing service was verified.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: rests on the highest web traffic of any Nigerian retail site in both Semrush and Similarweb estimates and on Nigeria being Jumia's largest market by sales. No independent market-share figure was found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "jumia.com.ng received 5.93M visits, 76.14% (4.52M) from Nigeria, Nigeria rank 42 (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "5.93M total; 4.52M from Nigeria",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/jumia.com.ng/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "jumia.com.ng 'Total Visits' of 9.2M, global rank 4,706, Nigeria rank 25, 58.04% of traffic from Nigeria, down 23.24% on the previous month (Similarweb free overview; differs from Semrush).",
+          "metric_type": "monthly_visits",
+          "value": "9.2M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/jumia.com.ng/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Nigerian GMV grew 30% year on year; group GMV was US$224.0m with 2.7 million quarterly active customers across all countries. Nigeria-only values are Not publicly disclosed.",
+          "metric_type": "gmv",
+          "value": "+30% year on year (Nigeria); US$224.0m (group)",
+          "period": "third quarter 2026",
+          "nature": "company_reported",
+          "source_url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+          "source_name": "Jumia Technologies AG",
+          "source_date": "2026-11-18"
+        },
+        {
+          "claim": "Nigeria became Jumia's largest market by sales in the first quarter of 2026, with GMV up 42% year on year in that quarter.",
+          "metric_type": "other",
+          "value": "largest Jumia market by sales",
+          "period": "first quarter 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.semafor.com/article/05/08/2026/jumia-leans-on-china-imports-as-nigeria-becomes-top-market",
+          "source_name": "Semafor",
+          "source_date": "2026-05-08"
+        },
+        {
+          "claim": "24.7 million products listed on Jumia Nigeria; beauty and perfumes second among most-sold product groups. Dated: internal data as of December 2024.",
+          "metric_type": "other",
+          "value": "24.7M products listed",
+          "period": "2024",
+          "nature": "company_reported",
+          "source_url": "https://group.jumia.com/download/files/community/articles/e-commerce-in-rural-areas-of-nigeria.pdf",
+          "source_name": "Jumia Nigeria",
+          "source_date": "n.d. (2025; internal data as of December 2024)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on 2026-11-26 from Jumia Nigeria public catalogue pages retrieved with the WebFetch tool (a plain HTTP request received a 403 challenge and was not retried). Catalogue searches ('products found'): Dark and Lovely 112, Nivea 96, Garnier 72, Vaseline 24, Dove 21, Sensodyne 15, Closeup 13, Colgate 1 and 'No results found' for Pantene. A Sunsilk search returned 3 products that are bags, not hair care, so Sunsilk hair care is UNVERIFIED. Product titles on the Health & Beauty page also show L'Oreal Professionnel, Dettol and Rexona. Head & Shoulders, Himalaya and Dabur were not checked. Results may vary with delivery location.",
+        "source_urls": [
+          "https://www.jumia.com.ng/catalog/?q=nivea",
+          "https://www.jumia.com.ng/health-beauty/",
+          "https://africa.darkandlovely.com/"
+        ]
+      },
+      "product_coverage_note": "Wide health and beauty catalogue led by third-party sellers; international mass-market hair and oral-care brands are thin compared with Jumia Kenya or with Supermart.ng. Listings show price, discount, seller type and ratings.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Sellers use Jumia Vendor Center (sign-in required); the Nigerian VendorHub describes bulk CSV tools, account statements and sponsored products. A host named vendor-api.jumia.com answers with an API-gateway message, which suggests a vendor API exists, but no public documentation was found in this session (UNVERIFIED).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Category and search pages were readable through a standard fetch tool, but direct HTTP requests met a Cloudflare challenge. Own-listing data is available to registered vendors through Vendor Center. Check Jumia's terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Largest Nigerian transactional marketplace by traffic and Jumia's largest market by sales."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Beauty and perfumes is a top product group, but mass-market brand depth is uneven."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "4.5M-5.3M monthly visits from Nigeria depending on the estimator; Nigeria rank 25-42."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Seven target brands confirmed (Dark and Lovely, Nivea, Garnier, Vaseline, Dove, Sensodyne, Colgate); Colgate has one product and Pantene none."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable but challenge-protected; vendor portal for own data; no documented API found."
+        }
+      },
+      "weighted_score": 4.05,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "First priority in Nigeria on reach and category weight. Its gaps in international hair and oral-care brands are themselves useful intelligence about distribution.",
+      "confidence": "medium",
+      "confidence_note": "Two traffic estimators disagree on totals and country share; Nigeria-level sales are not disclosed; the category ranking is from 2024 data.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/jumia.com.ng/overview/",
+          "title": "jumia.com.ng Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/jumia.com.ng/",
+          "title": "Similarweb website analysis: jumia.com.ng (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://s205.q4cdn.com/370993272/files/content_files/OS-Jumia-EX-99-1-Q3-2026.pdf",
+          "title": "Jumia Reports Third Quarter 2026 Results (Exhibit 99.1)",
+          "publisher": "Jumia Technologies AG",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semafor.com/article/05/08/2026/jumia-leans-on-china-imports-as-nigeria-becomes-top-market",
+          "title": "Jumia leans on China imports as Nigeria becomes top market",
+          "publisher": "Semafor",
+          "published_date": "2026-05-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://group.jumia.com/download/files/community/articles/e-commerce-in-rural-areas-of-nigeria.pdf",
+          "title": "E-commerce in Rural Areas of Nigeria (Jumia rural e-commerce report)",
+          "publisher": "Jumia Nigeria",
+          "published_date": "n.d. (2025; internal data as of December 2024)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jumia.com.ng/health-beauty/",
+          "title": "Jumia Nigeria - Health & Beauty category page (descriptive title)",
+          "publisher": "Jumia Nigeria",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jumia.com.ng/catalog/?q=nivea",
+          "title": "Jumia Nigeria catalogue search results (queries run 2026-11-26 for nivea, dove, closeup, sensodyne, colgate, pantene, garnier, dark and lovely, sunsilk, vaseline; example URL)",
+          "publisher": "Jumia Nigeria",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://vendorhub.jumia.com.ng/",
+          "title": "Start Your Success Story with Jumia - Jumia VendorHub NG",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://vendorcenter.jumia.com/",
+          "title": "Jumia | Vendor Center",
+          "publisher": "Jumia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://africa.darkandlovely.com/",
+          "title": "Dark and Lovely Home (Africa site with retailer store links)",
+          "publisher": "Dark and Lovely (L'Oreal)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Supermart.ng",
+      "website": "https://www.supermart.ng",
+      "operator": "Supermart.ng (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Online supermarket with the deepest verified mass-market personal-care range of any Nigerian site checked: searches returned 305 results for Dove, 265 for L'Oreal, 227 for Nivea, 166 for Garnier, 161 for Colgate, 138 for Vaseline and 101 for Pantene, with matching product titles.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Vitamins, supplements and over-the-counter health products appear in the product feed; no pharmacy dispensing service was verified.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 by audience (about 105K-169K monthly visits, Nigeria rank roughly 1,250-1,750). It delivers across most of Lagos and calls itself the leading online supermarket in Nigeria (company claim). Its value for monitoring comes from range and openness, not scale. Sales and customer numbers were Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "supermart.ng received 105.38K visits, 86.44% from Nigeria, Nigeria rank 1,252 (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "105.38K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/supermart.ng/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "supermart.ng 'Total Visits' of 168.7K, Nigeria rank 1,751, 76.98% of traffic from Nigeria (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "168.7K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/supermart.ng/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "The public product feed showed items updated on 2026-11-26, confirming live trading; the site also promotes a mobile app. Customer and sales figures: Not found.",
+          "metric_type": "other",
+          "value": "product feed updated 2026-11-26",
+          "period": "2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://www.supermart.ng/products.json?limit=250",
+          "source_name": "Supermart.ng",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "The site advertises an assortment of over 10,000 items and delivery across Lagos; its FAQ says it serves most parts of Lagos, holds no inventory of its own and buys from supermarkets and retail outlets when customers order.",
+          "metric_type": "other",
+          "value": "over 10,000 items; Lagos delivery area",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://www.supermart.ng/pages/faqs",
+          "source_name": "Supermart.ng",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 from Supermart.ng public search pages (plain HTTP requests, no login). 'Results found' per query: Dove 305, L'Oreal 265, Nivea 227, Garnier 166, Colgate 161, Vaseline 138, Pantene 101, Head & Shoulders 67, Himalaya 58, Sensodyne 51, Dabur 34, Sunsilk 12; Dark & Lovely products were listed in the results for that query. Product titles were read to confirm Pantene, Colgate, Sunsilk, Dark & Lovely, Head & Shoulders, Dabur and Himalaya. Counts come from the site's search and may include loosely related items.",
+        "source_urls": [
+          "https://www.supermart.ng/search?q=nivea&type=product"
+        ]
+      },
+      "product_coverage_note": "All thirteen target brands confirmed across skin, hair and oral care; each product has a title, price and brand (vendor) field. Because Supermart buys from Lagos supermarkets on demand, its catalogue reflects what those retailers stock.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "Single-seller online supermarket (it buys from retailers on demand); no partner API found. The storefront exposes a public product JSON feed (titles, brands, variants and prices), which is an undocumented feature of the shop platform rather than an official API.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Search pages and a public product feed were served to plain HTTP requests without login or challenge. No reviews data was seen. Check site terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small Lagos-focused online supermarket by traffic."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Deepest verified mass-market personal-care range in Nigeria."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 105K-169K monthly visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "All 13 target brands confirmed."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Open search pages and public product feed; no official API."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "Second by formula because it is the best open window onto branded personal-care listings and prices in Nigeria. Reservation: its audience is a small fraction of Jumia's or Jiji's, so treat it as a price and assortment benchmark for Lagos modern trade, not as a volume channel.",
+      "confidence": "medium",
+      "confidence_note": "Brand range verified directly; scale rests on two small third-party traffic estimates and no company data.",
+      "sources": [
+        {
+          "url": "https://www.supermart.ng/",
+          "title": "Supermart.ng",
+          "publisher": "Supermart.ng",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.supermart.ng/search?q=nivea&type=product",
+          "title": "Supermart.ng search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Supermart.ng",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.supermart.ng/products.json?limit=250",
+          "title": "Supermart.ng public product JSON feed (Shopify storefront)",
+          "publisher": "Supermart.ng",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.supermart.ng/pages/faqs",
+          "title": "FAQs - Supermart.ng",
+          "publisher": "Supermart.ng",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/supermart.ng/overview/",
+          "title": "supermart.ng Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/supermart.ng/",
+          "title": "Similarweb website analysis: supermart.ng (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Glovo (Nigeria)",
+      "website": "https://glovoapp.com/en/ng/lagos",
+      "operator": "Glovo (owned by Delivery Hero; Uber announced a takeover offer for Delivery Hero in July 2026, completion expected in the second half of 2027 subject to regulatory approval)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Lagos pages list a 'Pharmacy & Beauty' section (Medplus Pharmacy, Beauty Hut, HealthPlus, One Health Pharmacy and others), supermarkets such as SPAR Market, Market Square and JustRite, and Glovo's own 'Glovo Mart' with Personal Care, Oral-Care, Skin, Body & Health and Deodorants & Grooming categories.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "About twenty stores, mostly pharmacies, are listed in the Lagos Pharmacy & Beauty section, including MedPlus and HealthPlus.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. An established delivery platform in Lagos, but no Nigerian user, order or market-share figure was found in this session.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Glovo Mart in Lagos shows a 96% rating from '3k+' ratings and SPAR Market 94% from 206 ratings on Glovo's public pages; Nigerian user and order numbers: Not found.",
+          "metric_type": "other",
+          "value": "Glovo Mart: 3k+ ratings",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://glovoapp.com/en/ng/lagos/categories/groceries_4",
+          "source_name": "Glovo",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Named by Techpoint as Chowdeck's quick-commerce rival in Nigeria. Dated: about 15 months old.",
+          "metric_type": "other",
+          "value": "qualitative",
+          "period": "August 2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://techpoint.africa/?p=336400",
+          "source_name": "Techpoint Africa",
+          "source_date": "2025-08-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 from Glovo's public Lagos pages (plain HTTP requests, no login). The SPAR Market store page text includes Nivea and Colgate; Glovo Mart lists Oral-Care, Skin, Body & Health and Deodorants & Grooming sub-categories, but individual product names were not readable without a delivery address. Other brands are UNVERIFIED.",
+        "source_urls": [
+          "https://glovoapp.com/en/ng/lagos/stores/spar-los",
+          "https://glovoapp.com/en/ng/lagos/stores/glovomart",
+          "https://glovoapp.com/en/ng/lagos/categories/pharmacy-beauty_3",
+          "https://glovoapp.com/en/ng/lagos/categories/groceries_4"
+        ]
+      },
+      "product_coverage_note": "Aggregates supermarket and pharmacy assortments for Lagos plus Glovo's own dark-store range; two target brands confirmed.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Glovo publishes a 'Glovo Partners API' (OpenAPI definition) for point-of-sale integrators and vendors that sell through Glovo: order webhooks and menu or product updates, with credentials issued on request. It does not give brand owners access to other merchants' data; availability for Nigerian stores is UNVERIFIED.",
+        "docs_url": "https://api-docs.glovoapp.com/partners/index.html"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Category and store pages for Lagos were served to plain HTTP requests without login or challenge; full product lists depend on a delivery address. Check Glovo's terms before automated collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Established quick-commerce platform in Lagos; no Nigerian figures found."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Dedicated Pharmacy & Beauty section and personal-care categories in Glovo Mart."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "Thousands of ratings on its main stores; no user numbers."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Only Nivea and Colgate confirmed on a store page; category structure covers oral and skin care."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Store pages are openly readable, though full product lists need a delivery address; the documented API is for vendors only."
+        }
+      },
+      "weighted_score": 3.05,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Third by formula: one accessible platform that exposes several Lagos supermarkets and pharmacies, including MedPlus and HealthPlus. Reservation: no evidence of scale in Nigeria was found, and ownership is due to change if Uber's offer completes.",
+      "confidence": "low",
+      "confidence_note": "Store listings verified directly, but there is no reach figure for Nigeria.",
+      "sources": [
+        {
+          "url": "https://glovoapp.com/en/ng/lagos/categories/groceries_4",
+          "title": "Groceries delivery in Lagos | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ng/lagos/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Lagos | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ng/lagos/stores/glovomart",
+          "title": "Glovo Mart delivery in Lagos | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ng/lagos/stores/spar-los",
+          "title": "SPAR Market delivery in Lagos | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://api-docs.glovoapp.com/partners/index.html",
+          "title": "Glovo Partners API",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techpoint.africa/?p=336400",
+          "title": "Chowdeck bets on dark stores to fuel growth after $9 million Series A",
+          "publisher": "Techpoint Africa",
+          "published_date": "2025-08-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techweez.com/2026/07/17/uber-acquires-glovo-kenya-delivery-hero/",
+          "title": "Uber Buys Out Glovo, Its Biggest Rival in Kenya's Delivery Market",
+          "publisher": "Techweez",
+          "published_date": "2026-07-17",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Buy Better (buybetter.ng)",
+      "website": "https://buybetter.ng",
+      "operator": "BuyBetter (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Skincare specialist ('Original Skincare in Nigeria') stocking mass and dermo-cosmetic brands: Nivea, Dove, Garnier, Vaseline and L'Oreal were found, alongside CeraVe and Neutrogena. Hair-care and oral-care brands searched were not found.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 (specialist); about 130K monthly visits, 91.71% from Nigeria.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "buybetter.ng 'Total Visits' of 129.5K, Nigeria rank 1,250, 91.71% of traffic from Nigeria; ranked 2,329 worldwide in Similarweb's Beauty and Cosmetics category (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "129.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/buybetter.ng/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on 2026-11-26 from BuyBetter public search pages (plain HTTP requests, no login). Product results mention Nivea, Dove, Vaseline and Garnier many times and L'Oreal a few times; searches for Pantene, Colgate, Sensodyne, Dabur, Dark and Lovely and Sunsilk returned no matching products and Himalaya showed '0 Results'. The homepage also names CeraVe, Neutrogena, Cantu and TRESemme, and advertises same-day delivery in Lagos, delivery outside Lagos and a skin advisor on WhatsApp.",
+        "source_urls": [
+          "https://buybetter.ng/?s=nivea&post_type=product",
+          "https://buybetter.ng/"
+        ]
+      },
+      "product_coverage_note": "Skin and body care from 5 of 13 target brands plus dermo-cosmetic brands; no oral care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Homepage and search pages were served to plain HTTP requests without login or challenge.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small specialist e-tailer."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Skincare-focused with mass-market brands, but no hair or oral care."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 130K monthly visits, almost all from Nigeria."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "5 of 13 target brands found."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Openly accessible pages; no API."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Best-evidenced beauty specialist in Nigeria and easy to read; relevant for skin care only.",
+      "confidence": "medium",
+      "confidence_note": "Range verified directly; scale rests on one traffic estimate.",
+      "sources": [
+        {
+          "url": "https://buybetter.ng/",
+          "title": "Original Skincare in Nigeria | BuyBetter",
+          "publisher": "BuyBetter",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://buybetter.ng/?s=nivea&post_type=product",
+          "title": "BuyBetter search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "BuyBetter",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/buybetter.ng/",
+          "title": "Similarweb website analysis: buybetter.ng (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "MedPlus Pharmacy",
+      "website": "https://medplusnig.com",
+      "operator": "Medplus Limited",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Pharmacy chain with an online shop listing personal care: Nivea (32 results), Dove (18), Vaseline (18), Sensodyne (10), Colgate (4), Himalaya (3) and Garnier (2). Also listed in Glovo's Lagos 'Pharmacy & Beauty' section.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Online pharmacy operated by Medplus Limited.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2 within pharmacy. Store numbers were Not found, and the Similarweb traffic figure is unreliable for Nigeria (only 15.81% of visits from Nigeria and a 71% month-on-month fall).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "medplusnig.com 'Total Visits' of 813.5K, Nigeria rank 1,059, but only 15.81% of traffic from Nigeria and down 71.49% on the previous month, which suggests non-shopper traffic (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "813.5K (about 129K from Nigeria at the stated share)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/medplusnig.com/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "Listed on Glovo Lagos as 'Medplus Pharmacy' with an 85% rating from 48 ratings. Store count: Not found.",
+          "metric_type": "other",
+          "value": "48 Glovo ratings",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://glovoapp.com/en/ng/lagos/categories/pharmacy-beauty_3",
+          "source_name": "Glovo",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "The MedPlus site advertises nationwide delivery and a mobile app, and gives a head office in Victoria Island, Lagos.",
+          "metric_type": "other",
+          "value": "nationwide delivery (company statement)",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://medplusnig.com/",
+          "source_name": "MedPlus",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on 2026-11-26 from MedPlus public product-search pages (plain HTTP requests, no login). Results: Nivea 32, Dove 18, Vaseline 18, Sensodyne 10, Colgate 4, Himalaya 3, Garnier 2; 0 results for Pantene, L'Oreal, Dabur and Sunsilk. Head & Shoulders and Dark and Lovely queries returned loosely matched results that did not name the brands.",
+        "source_urls": [
+          "https://medplusnig.com/products?name=nivea"
+        ]
+      },
+      "product_coverage_note": "Skin and oral care from 7 of 13 target brands; little hair care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Product-search pages with result counts were served to plain HTTP requests without login or challenge.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy chain with a modest online shop."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Personal care is a visible part of the online range."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "Roughly 129K monthly visits from Nigeria at Similarweb's stated share; store count not found."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "7 of 13 target brands found, several with few items."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Openly accessible search pages; no API."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "Most relevant pharmacy site for mass-market skin and oral care in Nigeria and easy to read.",
+      "confidence": "low",
+      "confidence_note": "Traffic data is noisy and no company-reported scale figures were found; range verified directly.",
+      "sources": [
+        {
+          "url": "https://medplusnig.com/",
+          "title": "Medplus Limited | Online Pharmacy",
+          "publisher": "MedPlus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://medplusnig.com/products?name=nivea",
+          "title": "MedPlus product search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "MedPlus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/medplusnig.com/",
+          "title": "Similarweb website analysis: medplusnig.com (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ng/lagos/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Lagos | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Jiji Nigeria",
+      "website": "https://jiji.ng",
+      "operator": "Jiji (corporate entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "other",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Classifieds site (Similarweb category 'Classifieds'): individuals and traders post listings and deal directly with buyers. The company statements retrieved focus on pre-owned goods such as phones; its beauty listings could not be inspected (UNVERIFIED).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "Not a pharmacy channel.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate: tier 1 by audience (more than 12 million monthly users by its own count; Nigeria rank 29-57 in traffic estimates), but it is a classifieds platform rather than a retailer.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "More than 12 million monthly users, more than 5 million ads with a total listed value above US$15bn, and over 40 million visits in the quarter.",
+          "metric_type": "app_users",
+          "value": "12 million+ monthly users",
+          "period": "first quarter 2026",
+          "nature": "company_reported",
+          "source_url": "https://businessday.ng/transport/article/soaring-costs-push-nigerians-to-pre-owned-market-as-demand-jumps-97/",
+          "source_name": "BusinessDay (Nigeria)",
+          "source_date": "2026-05-01"
+        },
+        {
+          "claim": "jiji.ng 'Total Visits' of 8.1M, global rank 5,702, Nigeria rank 29, 45.4% of traffic from Nigeria, down 32.34% on the previous month (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "8.1M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/jiji.ng/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "jiji.ng received 4.34M visits, 63.2% (2.74M) from Nigeria, Nigeria rank 57 (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "4.34M total; 2.74M from Nigeria",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/jiji.ng/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: jiji.ng returned HTTP 403 to plain HTTP requests and to the WebFetch tool on 2026-11-26.",
+        "source_urls": []
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Site refuses automated requests and no API was found; listings come from many small sellers without standard product data.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "One of the two largest commerce audiences in Nigeria, but classifieds rather than retail."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty listings UNVERIFIED; unstructured small-seller offers."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "12 million+ monthly users (company) and 2.7M-3.7M monthly visits from Nigeria (estimates)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Placeholder for a classifieds site whose listings could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "Automated access refused; no API."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Very large audience but weak fit and no data route. Reservation: the formula ranks it below much smaller sites because relevance and access are UNVERIFIED; revisit if a manual audit shows meaningful branded beauty listings or unauthorised offers.",
+      "confidence": "low",
+      "confidence_note": "User numbers are company-reported; the two traffic estimators disagree; listings were not seen.",
+      "sources": [
+        {
+          "url": "https://businessday.ng/transport/article/soaring-costs-push-nigerians-to-pre-owned-market-as-demand-jumps-97/",
+          "title": "Soaring costs push Nigerians to pre-owned market as demand jumps 97%",
+          "publisher": "BusinessDay (Nigeria)",
+          "published_date": "2026-05-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/jiji.ng/",
+          "title": "Similarweb website analysis: jiji.ng (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/jiji.ng/overview/",
+          "title": "jiji.ng Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "24 Hours Market",
+      "website": "https://24hoursmarket.com",
+      "operator": "24 Hours Market (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Lagos same-day online supermarket with a personal-care range: Nivea (28 results), Colgate (18), Dove (13), Garnier (12) and Vaseline (11), plus a few Sensodyne, Himalaya and Dabur items.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer identified.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 (small); about 29K monthly visits.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "24hoursmarket.com 'Total Visits' of 29.2K, Nigeria rank 7,769, 77.99% of traffic from Nigeria (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "29.2K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/24hoursmarket.com/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on 2026-11-26 from 24 Hours Market public search pages (plain HTTP requests, no login). Results: Nivea 28, Colgate 18, Dove 13, Garnier 12, Vaseline 11, Sensodyne 4, Himalaya 4, Dabur 4; no products found for Pantene, Dark and Lovely or Sunsilk; a 'loreal' query returned 116 loosely matched results, so L'Oreal is UNVERIFIED.",
+        "source_urls": [
+          "https://24hoursmarket.com/?s=nivea&post_type=product"
+        ]
+      },
+      "product_coverage_note": "Skin and oral care from 8 of 13 target brands, with small counts; little hair care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Search pages were served to plain HTTP requests without login or challenge.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 1,
+          "note": "Very small online supermarket."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Everyday personal-care range across skin and oral care."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 29K monthly visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "8 of 13 target brands found, though several with only four items."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Openly accessible pages; no API."
+        }
+      },
+      "weighted_score": 2.55,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "Minor site that is easy to read; optional second price benchmark after Supermart.ng. Reservation: it scores level with Konga and above Chowdeck only because it is open, not because it matters commercially.",
+      "confidence": "medium",
+      "confidence_note": "Range verified directly; single small traffic estimate.",
+      "sources": [
+        {
+          "url": "https://24hoursmarket.com/",
+          "title": "Same Day Delivery Lagos | 1-3 Hour Express - 24hoursmarket",
+          "publisher": "24 Hours Market",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://24hoursmarket.com/?s=nivea&post_type=product",
+          "title": "24 Hours Market search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "24 Hours Market",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/24hoursmarket.com/",
+          "title": "Similarweb website analysis: 24hoursmarket.com (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Konga",
+      "website": "https://www.konga.com",
+      "operator": "Konga.com Online Shopping Limited",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Active general marketplace ('Konga Yakata 2026' promotion, 'Sell on Konga' and KongaPay links), but its homepage shows no health or beauty category; Nivea, Garnier, La Roche-Posay and Unilever appear only as brand names in page text, and a search for 'nivea' returned 14 pages whose products could not be read.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No health or pharmacy section was visible on the homepage retrieved.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Active general marketplace with a seller programme, but measurable traffic from Nigeria is small (about 0.4M-0.66M monthly visits) and fell sharply in October 2026. No sales or customer figures were found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "konga.com received 1.40M visits, of which 46.89% (657.74K) from Nigeria, Nigeria rank 200; visits fell from 2.11M in August (Semrush estimates).",
+          "metric_type": "monthly_visits",
+          "value": "1.40M total; 657.74K from Nigeria",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/konga.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "konga.com 'Total Visits' of 1.8M, Nigeria rank 174, with only 21.85% of traffic from Nigeria and down 53.12% on the previous month (Similarweb free overview). The country mix suggests much of the traffic is not Nigerian shoppers.",
+          "metric_type": "monthly_visits",
+          "value": "1.8M (about 0.39M from Nigeria at the stated share)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/konga.com/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Partly checked on 2026-11-26: konga.com returned HTTP 403 to a plain HTTP request; through the WebFetch tool the homepage and a search page for 'nivea' loaded (14 result pages), but product cards are script-loaded and could not be read. Brand names Nivea and Garnier appear in homepage text. Listing presence for the target brands is therefore UNVERIFIED.",
+        "source_urls": [
+          "https://www.konga.com/search?search=nivea",
+          "https://www.konga.com/"
+        ]
+      },
+      "product_coverage_note": "UNVERIFIED beyond the existence of search results for Nivea.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "'Sell on Konga' exists, but no public seller API documentation was found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Direct HTTP requests are refused and product data is script-loaded; no API found. Manual checks or a seller account are the realistic routes.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Active general marketplace with a modest measurable audience."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "No visible beauty category; brand listings UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 0.4M-0.66M monthly visits from Nigeria depending on the estimator."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Neutral placeholder: search results exist for Nivea, but product listings could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Automated access refused; no API found."
+        }
+      },
+      "weighted_score": 2.55,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Scores low on the evidence available: no visible beauty category, shrinking measurable traffic and no data route. Reservation: this rests on thin evidence and should be revisited with a manual audit.",
+      "confidence": "low",
+      "confidence_note": "No company-reported figures; traffic estimates are noisy; catalogue not readable.",
+      "sources": [
+        {
+          "url": "https://www.konga.com/",
+          "title": "Konga.com homepage (descriptive title)",
+          "publisher": "Konga",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.konga.com/search?search=nivea",
+          "title": "Konga search results page for 'nivea' (descriptive title)",
+          "publisher": "Konga",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/konga.com/overview/",
+          "title": "konga.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/konga.com/",
+          "title": "Similarweb website analysis: konga.com (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Chowdeck",
+      "website": "https://chowdeck.com",
+      "operator": "Chowdeck Logistics Ltd.",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Food-delivery app that has added groceries and medicines, invites stores and pharmacies to sell, and is opening its own dark stores. No personal-care listings could be inspected (UNVERIFIED).",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Delivers medicines and recruits pharmacies as vendors, per its website and Techpoint.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. About 1.5 million customers reported in August 2025 and expansion to Ghana and Cote d'Ivoire; food delivery remains its core business.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "About 1.5 million customers, reached roughly four years after its 2021 launch. Dated: about 15 months old.",
+          "metric_type": "customers",
+          "value": "about 1.5 million customers",
+          "period": "August 2025",
+          "nature": "company_reported",
+          "source_url": "https://techpoint.africa/?p=336400",
+          "source_name": "Techpoint Africa",
+          "source_date": "2025-08-11"
+        },
+        {
+          "claim": "chowdeck.com received 715.4K visits, 42.13% from Nigeria; the service is app-based, so web visits understate use (Semrush estimate).",
+          "metric_type": "monthly_visits",
+          "value": "715.4K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/chowdeck.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "The website lists operations in Nigeria, Ghana and Cote d'Ivoire and products including Chowpass, Relay, Chowstore and Ads.",
+          "metric_type": "other",
+          "value": "3 countries",
+          "period": "as shown on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://chowdeck.com/",
+          "source_name": "Chowdeck",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: the catalogue is inside the app; no brand was confirmed on 2026-11-26.",
+        "source_urls": []
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public partner or developer API was found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App-based catalogue; manual checks only.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Leading local delivery app with about 1.5 million customers (2025)."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Groceries and medicines are secondary lines; personal care UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 1.5 million customers (company figure, dated)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Placeholder for a delivery app whose catalogue could not be read (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "App-only catalogue; no API found."
+        }
+      },
+      "weighted_score": 2.4,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "Growing quick-commerce reach but no evidence yet of a meaningful personal-care range and no data route. Re-check when its dark-store grocery range is visible.",
+      "confidence": "low",
+      "confidence_note": "Customer figure is company-reported and dated; catalogue not seen.",
+      "sources": [
+        {
+          "url": "https://techpoint.africa/?p=336400",
+          "title": "Chowdeck bets on dark stores to fuel growth after $9 million Series A",
+          "publisher": "Techpoint Africa",
+          "published_date": "2025-08-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/chowdeck.com/overview/",
+          "title": "chowdeck.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://chowdeck.com/",
+          "title": "Food, Groceries & Local Markets Delivery Near You | Chowdeck",
+          "publisher": "Chowdeck",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu (Nigeria)",
+      "website": "https://www.temu.com/ng",
+      "operator": "Temu (parent company UNVERIFIED)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Cross-border value marketplace shipping from Chinese factories with prices in naira. Whether the target FMCG brands are listed could not be checked because the site redirects automated visitors to a login page (UNVERIFIED).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate: tier 2. Strong download evidence from late 2024 and mid-2025, but no current sales or traffic figure for Nigeria was found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Temu became the most downloaded app in Nigeria on both Android and Apple app stores (Similarweb data cited by Semafor). Dated: about 23 months old.",
+          "metric_type": "app_users",
+          "value": "most downloaded app",
+          "period": "December 2024",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semafor.com/article/12/11/2024/chinese-retailer-temu-storms-nigeria",
+          "source_name": "Semafor",
+          "source_date": "2024-12-11"
+        },
+        {
+          "claim": "Top shopping app on Android in Nigeria, with weekly downloads falling from about 750K in early April to about 157K by late June 2025; Jumia's app recorded 25K-33K a week (Sensor Tower estimates). Dated: about 17 months old.",
+          "metric_type": "app_users",
+          "value": "about 157K-750K downloads a week",
+          "period": "second quarter 2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://sensortower.com/blog/2025-q2-android-top-5-shopping-units-ng-6571f22de1714cfff1c79b4a",
+          "source_name": "Sensor Tower",
+          "source_date": "n.d. (Q2 2025 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED: on 2026-11-26 the Temu Nigeria path loaded for a plain HTTP request but redirected to a login page in a headless browser; no login was attempted.",
+        "source_urls": [
+          "https://www.temu.com/ng"
+        ]
+      },
+      "product_coverage_note": "UNVERIFIED.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A Temu partner documentation URL (partner.temu.com/documentation) responded but its content is script-rendered and could not be read; no public API for catalogue or price data was verified.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Listings sit behind a login wall for automated visitors; manual checks only.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Rapid entry and download leadership, but no current sales evidence."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "No evidence that branded mass-market personal care is sold there; listings could not be read."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "Most-downloaded app in late 2024 and top Android shopping app in mid-2025 (dated)."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Placeholder for a cross-border value platform whose catalogue could not be read; no target brand confirmed (UNVERIFIED)."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "Login wall; no verified API."
+        }
+      },
+      "weighted_score": 2.25,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Watch for price pressure rather than monitor listings; evidence of its current scale in Nigeria is dated.",
+      "confidence": "low",
+      "confidence_note": "All reach evidence is more than 17 months old and none is company-reported.",
+      "sources": [
+        {
+          "url": "https://www.semafor.com/article/12/11/2024/chinese-retailer-temu-storms-nigeria",
+          "title": "Chinese retailer Temu storms Nigeria",
+          "publisher": "Semafor",
+          "published_date": "2024-12-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sensortower.com/blog/2025-q2-android-top-5-shopping-units-ng-6571f22de1714cfff1c79b4a",
+          "title": "Top 5 Shopping Apps on Android in Nigeria: Q2 2025",
+          "publisher": "Sensor Tower",
+          "published_date": "n.d. (Q2 2025 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.temu.com/ng",
+          "title": "Temu (Nigeria country path; redirects to a login page in a headless browser)",
+          "publisher": "Temu",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semafor.com/article/05/08/2026/jumia-leans-on-china-imports-as-nigeria-becomes-top-market",
+          "title": "Jumia leans on China imports as Nigeria becomes top market",
+          "publisher": "Semafor",
+          "published_date": "2026-05-08",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "HealthPlus Pharmacy",
+      "website": "https://healthplusnigeria.com",
+      "operator": "HealthPlus (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Pharmacy with an online shop ('Nigeria's first integrative E-Pharmacy') that has a 'Beauty & Grooming' category, but searches found almost no mass-market personal-care brands (Nivea 1 result, Colgate 2).",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Pharmacy-led range with prescription assistance and chat-with-a-pharmacist services.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 online (about 41K monthly visits). Store numbers were Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "healthplusnigeria.com 'Total Visits' of 40.8K, Nigeria rank 5,102, 55.64% of traffic from Nigeria (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "40.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/healthplusnigeria.com/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        },
+        {
+          "claim": "The public product feed showed items updated on 2026-11-26, confirming live trading. Store and customer numbers: Not found.",
+          "metric_type": "other",
+          "value": "product feed updated 2026-11-26",
+          "period": "2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://healthplusnigeria.com/collections/all/products.json?limit=5",
+          "source_name": "HealthPlus",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 from HealthPlus public search pages (plain HTTP requests, no login). Results: Nivea 1, Colgate 2; no results for Dove, Pantene, Garnier, L'Oreal, Head & Shoulders, Vaseline, Sensodyne, Himalaya, Dabur, Dark and Lovely or Sunsilk.",
+        "source_urls": [
+          "https://healthplusnigeria.com/search?q=nivea&type=product"
+        ]
+      },
+      "product_coverage_note": "Medicines, vitamins and family-planning products dominate; negligible mass-market beauty.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no partner API found. The storefront exposes a public product JSON feed, an undocumented feature of the shop platform rather than an official API.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Search pages and a public product feed were served to plain HTTP requests without login or challenge.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy brand with a small online shop."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty and grooming category exists but mass-market brands are nearly absent online."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 41K monthly visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Only Nivea and Colgate found, with one or two items each."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Open pages and public product feed; no official API."
+        }
+      },
+      "weighted_score": 2.2,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "Low priority for this category: its online range is medicine-led, with almost no mass-market personal care.",
+      "confidence": "medium",
+      "confidence_note": "Range verified directly; scale evidence is a single small traffic estimate.",
+      "sources": [
+        {
+          "url": "https://healthplusnigeria.com/",
+          "title": "HealthPlus Pharmacy - Online Pharmacy in Nigeria",
+          "publisher": "HealthPlus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://healthplusnigeria.com/search?q=nivea&type=product",
+          "title": "HealthPlus search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "HealthPlus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://healthplusnigeria.com/collections/all/products.json?limit=5",
+          "title": "HealthPlus public product JSON feed (Shopify storefront)",
+          "publisher": "HealthPlus",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/healthplusnigeria.com/",
+          "title": "Similarweb website analysis: healthplusnigeria.com (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://glovoapp.com/en/ng/lagos/categories/pharmacy-beauty_3",
+          "title": "Pharmacy-beauty delivery in Lagos | Glovo",
+          "publisher": "Glovo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Essenza",
+      "website": "https://www.essenza.ng",
+      "operator": "Essenza (legal entity UNVERIFIED)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Fragrance, skincare and make-up specialist with a premium range; searches for mass-market staples (Nivea, Vaseline, Colgate) returned nothing.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate: tier 3 (niche premium); about 41K monthly visits.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "essenza.ng 'Total Visits' of 40.8K, Nigeria rank 6,703, 53.65% of traffic from Nigeria, down 19.83% on the previous month (Similarweb free overview).",
+          "metric_type": "monthly_visits",
+          "value": "40.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/essenza.ng/",
+          "source_name": "Similarweb",
+          "source_date": "n.d. (October 2026 data)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified on 2026-11-26 from Essenza public search pages (plain HTTP requests, no login). Results found: L'Oreal 4, Dove 1, Garnier 1; 0 results for Nivea, Vaseline and Colgate. Other brands were not tested.",
+        "source_urls": [
+          "https://www.essenza.ng/search?q=nivea&type=product",
+          "https://www.essenza.ng/"
+        ]
+      },
+      "product_coverage_note": "Premium fragrance and beauty; a handful of items from three target brands.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no public API found (Not found).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Search pages were served to plain HTTP requests without login or challenge.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 1,
+          "note": "Niche premium beauty retailer."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty-only, but premium rather than mass-market."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 41K monthly visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "A few items from three target brands (L'Oreal, Dove, Garnier); mass-market staples absent."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Openly accessible pages; no API."
+        }
+      },
+      "weighted_score": 2.0,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Included to cover premium beauty specialists; not relevant to mass-market monitoring.",
+      "confidence": "medium",
+      "confidence_note": "Range verified directly; single small traffic estimate.",
+      "sources": [
+        {
+          "url": "https://www.essenza.ng/",
+          "title": "Essenza: Fragrance | Skincare | Makeup",
+          "publisher": "Essenza",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.essenza.ng/search?q=nivea&type=product",
+          "title": "Essenza search results (brand queries run 2026-11-26; example URL for 'nivea')",
+          "publisher": "Essenza",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/essenza.ng/",
+          "title": "Similarweb website analysis: essenza.ng (October 2026 snapshot; descriptive title)",
+          "publisher": "Similarweb",
+          "published_date": "n.d. (October 2026 data)",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

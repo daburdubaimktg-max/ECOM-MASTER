@@ -1,0 +1,1941 @@
+{
+  "country_code": "MY",
+  "country_name": "Malaysia",
+  "region": "Southeast Asia",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "Malaysian e-commerce is concentrated on app-first platforms: Google, Temasek and Bain put 2026 e-commerce GMV at USD 25 billion (+22%), while the official DOSM e-commerce income series, which also counts business-to-business sales, reached RM937.5 billion in the first nine months of 2025. Ipsos's May 2026 survey found 71% of online purchasers had bought on Shopee and 62% on TikTok in the past six months, with Lazada down to 5%; Euromonitor says Shopee and TikTok Shop recorded almost equivalent sales in 2025. Beauty is moving online quickly: 45% of online purchasers bought beauty care products or cosmetics (29% a year earlier) and 28% personal care products. Health and beauty chains (Watsons, Guardian) and pharmacies (CARiNG, BIG) sell online in their own right, but brand owners' own sites mostly route shoppers to official stores on Shopee and Lazada. No regulator-verified platform market shares were found.",
+    "key_facts": [
+      {
+        "fact": "Malaysia's e-commerce GMV is projected at USD 25 billion in 2026 (+22% year on year) within a USD 48 billion digital economy (+20%).",
+        "nature": "analyst_estimate",
+        "source_url": "https://bernama.com/en/region/news.php?id=2626914",
+        "source_name": "Bernama (citing Google, Temasek and Bain & Company e-Conomy SEA 2026) - Malaysia's digital economy (e-Conomy SEA 2026 coverage)",
+        "source_date": "2026-10-28"
+      },
+      {
+        "fact": "E-commerce revenue (income of establishments, including business-to-business) was RM937.5 billion in the first nine months of 2025, up 1.9% year on year; Q3 2025 was RM312.6 billion. Latest official figure found; about 12 months old.",
+        "nature": "official_statistic",
+        "source_url": "https://www.thestar.com.my/business/business-news/2025/11/26/malaysia039s-e-commerce-revenue-hits-rm9375bil-in-9m25",
+        "source_name": "The Star (citing the Department of Statistics Malaysia) - Malaysia's e-commerce revenue hits RM937.5bil in 9M25",
+        "source_date": "2025-11-26"
+      },
+      {
+        "fact": "E-commerce gross value added was RM267.6 billion in 2025 (+3.7%), equal to 13.2% of GDP.",
+        "nature": "official_statistic",
+        "source_url": "https://www.thestar.com.my/business/business-news/2026/10/15/ict-industry-e-commerce-contribute-rm4768bil-to-gdp-in-2025",
+        "source_name": "The Star (citing the Department of Statistics Malaysia) - ICT industry, e-commerce contribute RM476.8bil to GDP in 2025",
+        "source_date": "2026-10-15"
+      },
+      {
+        "fact": "Among Malaysians who bought online in the past six months (N=621, May 2026): Shopee 71%, TikTok 62%, Facebook 12%, Lazada 5% (2025: 74%, 52%, 1%, 11%).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+        "source_name": "Ipsos Malaysia - Ipsos Press Release: E-commerce Landscape in 2026",
+        "source_date": "2026-07-16"
+      },
+      {
+        "fact": "60% of Malaysians aged 18-74 bought on an e-commerce platform in the past six months; among purchasers, 45% bought beauty care products or cosmetics (29% in 2025), 28% personal care products (20%) and 25% healthcare products (15%).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+        "source_name": "Ipsos Malaysia - Ipsos Press Release: E-commerce Landscape in 2026",
+        "source_date": "2026-07-16"
+      },
+      {
+        "fact": "Shopee and TikTok Shop \"recorded almost equivalent sales\" in Malaysia in 2025; TikTok Shop sales more than doubled between 2024 and 2025 across five Southeast Asian markets.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.euromonitor.com/article/in-southeast-asia-the-winning-e-commerce-decisions-are-local",
+        "source_name": "Euromonitor International - In Southeast Asia, the winning e-commerce decisions are local",
+        "source_date": "2026-11-02"
+      },
+      {
+        "fact": "Top Ecommerce & Shopping websites in Malaysia in October 2026: 1 shopee.com.my, 2 mudah.my, 3 lazada.com.my, 4 pinduoduo.com, 5 shop.tiktok.com.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.similarweb.com/top-websites/malaysia/e-commerce-and-shopping/",
+        "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+        "source_date": "2026-11-01"
+      },
+      {
+        "fact": "Personal-care e-commerce revenue of USD 1,071 million in 2025; top online retailers by GMV: TikTok Shop, Shopee, Lazada (modelled estimate; the page's 0-5% online share looks inconsistent with that revenue).",
+        "nature": "third_party_estimate",
+        "source_url": "https://ecdb.com/resources/sample-data/market/my/personal-care",
+        "source_name": "ECDB - Personal Care Industry in Malaysia (e-commerce market sample data) [data to October 2026]",
+        "source_date": "n.d."
+      },
+      {
+        "fact": "Malaysia's platform e-commerce GMV grew 47.6% in 2025; Shopee, Lazada and TikTok Shop together held 98.8% of platform GMV across Southeast Asia (regional figure).",
+        "nature": "analyst_estimate",
+        "source_url": "https://technode.global/2026/04/14/southeast-asias-ecommerce-market-up-22-8-percent-year-on-year-to-157-6b-in-2025-momentum-works/",
+        "source_name": "TechNode Global (citing Momentum Works) - Southeast Asia's ecommerce market up 22.8 percent year on year to $157.6B in 2025: Momentum Works",
+        "source_date": "2026-04-14"
+      }
+    ]
+  },
+  "ranking_method_note": "Scores (1-5) were assigned by the researcher from evidence retrieved on 2026-11-26 and applied to the fixed rubric: weighted_score = 0.20*ecommerce_significance + 0.25*beauty_category_relevance + 0.20*consumer_reach + 0.15*brand_competitor_coverage + 0.20*data_integration_feasibility, rounded to 2 decimals; priority_rank = rank by weighted_score within the country; ties broken by beauty_category_relevance, then consumer_reach as specified. Where a tie survived both rubric tie-breaks, three further deterministic tie-breaks were added by the researcher (not part of the brief): higher ecommerce_significance, then the higher in-country monthly web-visit estimate (Semrush, October 2026, as cited in each record), then alphabetical order. Scoring anchors used consistently across the three countries: consumer_reach 5 = >=10M estimated in-country monthly web visits or an equivalent survey-evidenced scale, 4 = 2-10M (or >=1M company-reported active app users), 3 = 0.5-2M, 2 = 100-500K, 1 = <100K or no credible number; brand_competitor_coverage 5 = >=8 of the 12 reference mass-market brands verified as listed, 4 = 5-7 verified or brand-owner official stores verified, 3 = 2-4 verified or a full-range retailer whose assortment could not be verified (neutral), 2 = mass brands largely absent / unverified limited-range or unbranded platform, 1 = verified absent; data_integration_feasibility 5 = documented official API exposing catalogue and competitive price/offer data, 4 = open developer portal with a documented seller API on a platform where brand owners run their own stores (own-shop data only) or public storefront data readable without login, 3 = public pages retrievable without an API, or a seller API whose reference was not verified or that only helps a brand that sells on that platform, 2 = automated access refused or app/location-gated with no usable API, 1 = app-only. The beauty_relevance and data_collection_feasibility labels follow the scores (4-5 high, 3 medium, 1-2 low). Web-visit estimates understate app-first platforms; no regulator-verified or audited market-share figure was found for any platform, so every reach figure is a third-party estimate, a survey result or company-reported. Scores are judgements, not measurements. In this file one tie survived both rubric tie-breaks: GrabMart and foodpanda (both 2.65, beauty relevance 3, reach 3, significance 3); GrabMart is ranked higher on the Semrush estimate of Malaysian visits (grab.com 2.87M across all Grab services against foodpanda.my 1.74M), which is a weak basis. Temu ranks above ZALORA (both 2.40) through the rubric's own reach tie-break.",
+  "platforms": [
+    {
+      "name": "Shopee Malaysia",
+      "website": "https://shopee.com.my",
+      "operator": "Shopee (a Sea Limited business; Google Play developer name \"Shopee MY\")",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "The Malaysian sites of Pantene, Head & Shoulders (P&G), Sensodyne (Haleon), NIVEA and Safi all send shoppers to their official Shopee stores, and ECDB ranks Shopee second among online personal-care retailers. Ipsos found 45% of online purchasers bought beauty care products or cosmetics online in the past six months (29% a year earlier).",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy-specific evidence collected.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on Ipsos (71% of online purchasers used Shopee in the past six months), Similarweb (#1 Marketplace site, #8 site overall in Malaysia) and Semrush (26M Malaysian visits, more than five times the next retail site). No verified market share exists.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Share of Malaysian online purchasers who shopped on Shopee in the past six months (survey of N=621 purchasers; 74% in 2025, 72% in 2024)",
+          "metric_type": "market_share",
+          "value": "71% of online purchasers (usage, not sales share)",
+          "period": "May 2026 survey",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "source_name": "Ipsos Malaysia - Ipsos Press Release: E-commerce Landscape in 2026",
+          "source_date": "2026-07-16"
+        },
+        {
+          "claim": "Malaysian visits to shopee.com.my (most-visited retail website)",
+          "metric_type": "monthly_visits",
+          "value": "26.0M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to shopee.com.my; 76.49% from Malaysia. September 2026 estimate was 62.74M, so the series is highly volatile",
+          "metric_type": "monthly_visits",
+          "value": "34M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/shopee.com.my/overview/",
+          "source_name": "Semrush - shopee.com.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 90.8% from Malaysia; country rank #8; #1 in Marketplace",
+          "metric_type": "monthly_visits",
+          "value": "46.3M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/shopee.com.my/",
+          "source_name": "Similarweb - shopee.com.my - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band for the Malaysia-specific Shopee MY app (cumulative)",
+          "metric_type": "app_users",
+          "value": "50M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.shopee.my&hl=en",
+          "source_name": "Google Play (listing published by Shopee MY) - Shopee MY - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-25"
+        },
+        {
+          "claim": "Group-wide GMV shown on the Shopee Open Platform page (eight markets; dated, more than 18 months old)",
+          "metric_type": "gmv",
+          "value": "USD 100.5 billion",
+          "period": "FY2024",
+          "nature": "company_reported",
+          "source_url": "https://open.shopee.com/",
+          "source_name": "Shopee - Shopee Open Platform",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified through brand-owner websites that link to their official Shopee Malaysia stores: Pantene and Head & Shoulders (shopee.com.my/pgstoremy), Sensodyne (Haleon store), NIVEA (shopee.com.my/nivea.my) and Safi. Shopee's own pages could not be read: a headless browser was redirected to a traffic-verification page, which was not bypassed. Other reference brands are UNVERIFIED but likely present.",
+        "source_urls": [
+          "https://www.pantene.com.my/en-my",
+          "https://www.headandshoulders.com.my/en-my",
+          "https://www.sensodyne.com.my/where-to-buy.html",
+          "https://www.nivea.com.my/",
+          "https://safi.com.my/"
+        ]
+      },
+      "product_coverage_note": "Official brand stores verified for hair care (P&G), oral care (Haleon) and skin care (NIVEA, Safi); long-tail and reseller listings not measured.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Shopee Open Platform offers \"a wide range of APIs that covers core functionality of e-commerce business\" (for example Add Item, Get Order Detail, Ship Order), a developer guide, API reference and push mechanism, and lists a Seller Education Hub for Malaysia. It serves a seller's own shop; no competitor-data endpoint was verified.",
+        "docs_url": "https://open.shopee.com/"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "High for the brand owner's own shop: listing, price and order data are available through the documented API. Important limit: the API does not expose competitors' data and public pages enforce traffic verification, so competitor listings, prices and reviews would require an authorised data provider or manual sampling.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Used by 71% of Malaysian online purchasers (Ipsos 2026) and ranked the #1 marketplace site by Similarweb."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Brand owners in hair, oral and skin care run official stores there and ECDB ranks it among the top two for online personal care."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "26M estimated Malaysian web visits in October 2026 and a 50M+ install country app."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Official brand-owner stores verified for Pantene, Head & Shoulders, Sensodyne, NIVEA and Safi."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented Open Platform API for own-shop data; public pages are gated."
+        }
+      },
+      "weighted_score": 4.65,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "The default destination for online shopping in Malaysia and the place where mass-market brand owners themselves run flagship stores; highest reach, strong category evidence and a documented API.",
+      "confidence": "high",
+      "confidence_note": "A nationally representative survey, two traffic estimators and several brand-owner sites agree; sales share is not verified and traffic estimates are volatile.",
+      "sources": [
+        {
+          "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "title": "Ipsos Press Release: E-commerce Landscape in 2026",
+          "publisher": "Ipsos Malaysia",
+          "published_date": "2026-07-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/shopee.com.my/overview/",
+          "title": "shopee.com.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/shopee.com.my/",
+          "title": "shopee.com.my - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/malaysia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.shopee.my&hl=en",
+          "title": "Shopee MY - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Shopee MY)",
+          "published_date": "2026-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.shopee.com/",
+          "title": "Shopee Open Platform",
+          "publisher": "Shopee",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sea.com/products/shopee",
+          "title": "Sea | Shopee Intro",
+          "publisher": "Sea Limited",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/my/personal-care",
+          "title": "Personal Care Industry in Malaysia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.pantene.com.my/en-my",
+          "title": "Complete Hair Care for Strong, Healthy, Shiny Hair | Pantene MY",
+          "publisher": "Pantene Malaysia (P&G)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.headandshoulders.com.my/en-my",
+          "title": "Anti-Dandruff Shampoo & Conditioner | H&S MY",
+          "publisher": "Head & Shoulders Malaysia (P&G)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sensodyne.com.my/where-to-buy.html",
+          "title": "Sensodyne | Buy Now",
+          "publisher": "Sensodyne Malaysia (Haleon)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.nivea.com.my/",
+          "title": "Homepage - NIVEA",
+          "publisher": "NIVEA Malaysia (Beiersdorf)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://safi.com.my/",
+          "title": "Safi | Science. Beauty. Natural.",
+          "publisher": "Safi (Wipro Unza)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "TikTok Shop Malaysia",
+      "website": "https://shop.tiktok.com",
+      "operator": "TikTok Pte. Ltd. (Google Play developer name of the TikTok app)",
+      "status": "active",
+      "platform_category": "social_commerce",
+      "marketplace_type": "social_commerce",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "ECDB ranks TikTok Shop the largest online personal-care retailer in Malaysia (modelled). Euromonitor notes beauty and personal care is especially prominent on TikTok Shop in Indonesia and the Philippines; it gives no Malaysia-specific category figure.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy-specific evidence collected.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on Ipsos (62% of online purchasers bought on TikTok in the past six months, up from 43% in 2024) and Euromonitor's statement that Shopee and TikTok Shop \"recorded almost equivalent sales\" in Malaysia in 2025. No verified market share exists.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Share of Malaysian online purchasers who shopped on TikTok in the past six months (52% in 2025, 43% in 2024)",
+          "metric_type": "market_share",
+          "value": "62% of online purchasers (usage, not sales share)",
+          "period": "May 2026 survey",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "source_name": "Ipsos Malaysia - Ipsos Press Release: E-commerce Landscape in 2026",
+          "source_date": "2026-07-16"
+        },
+        {
+          "claim": "Analyst statement that Shopee and TikTok Shop \"recorded almost equivalent sales\" in Malaysia",
+          "metric_type": "market_share",
+          "value": "Roughly equal to Shopee (no figure published)",
+          "period": "2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.euromonitor.com/article/in-southeast-asia-the-winning-e-commerce-decisions-are-local",
+          "source_name": "Euromonitor International - In Southeast Asia, the winning e-commerce decisions are local",
+          "source_date": "2026-11-02"
+        },
+        {
+          "claim": "Rank of shop.tiktok.com among Ecommerce & Shopping websites in Malaysia (web only; in-app purchases are not captured)",
+          "metric_type": "other",
+          "value": "#5 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/malaysia/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Rank among online personal-care retailers in Malaysia (revenue not shown on the public page)",
+          "metric_type": "market_share",
+          "value": "Rank #1 (no share disclosed)",
+          "period": "2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://ecdb.com/resources/sample-data/market/my/personal-care",
+          "source_name": "ECDB - Personal Care Industry in Malaysia (e-commerce market sample data) [data to October 2026]",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. shop.tiktok.com returned a security check to automated requests, and the Malaysian brand-owner sites checked (Pantene, Head & Shoulders, Sensodyne, NIVEA, Safi) link to Shopee and Lazada stores rather than TikTok Shop.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Category strength is evidenced only by modelled and survey data; brand-level assortment not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "TikTok Shop Partner Center documents the TTS API, which lets developers \"access authorized TikTok Shop data, including catalogs, orders, shipments, payments\", with Product, Order, Fulfillment, Return & Refund, Logistics and Analytics guides, webhooks and SDKs. It covers shops that authorise the app; Malaysia-specific availability was not checked on the regions page.",
+        "docs_url": "https://partner.tiktokshop.com/docv2/page/tts-api-concepts-overview"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "High for the brand owner's own shop: catalogue, order and analytics data are available through the documented API. Important limit: discovery happens inside the app and the web shop is protected, so competitor data needs an authorised provider or manual sampling of live and video commerce.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Second most-used purchase platform (62% of online purchasers) with sales that Euromonitor describes as roughly equal to Shopee's in 2025."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Ranked the largest online personal-care retailer in Malaysia by ECDB's model."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "Used by 62% of online purchasers in the past six months (Ipsos, May 2026)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Reference mass brands not verified; neutral score given the modelled category leadership."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented TTS API for authorised shop data; competitor data is hard to collect."
+        }
+      },
+      "weighted_score": 4.5,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "The fastest-growing commerce platform in Malaysia and probably the largest for personal care, with a mature seller API. Reservation: mass-brand presence could not be verified, so its relevance for established brands (as opposed to local and viral brands) is an open question.",
+      "confidence": "medium",
+      "confidence_note": "Usage is survey-based and solid; sales parity and category leadership come from single analyst/modelled sources; brand presence is unverified.",
+      "sources": [
+        {
+          "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "title": "Ipsos Press Release: E-commerce Landscape in 2026",
+          "publisher": "Ipsos Malaysia",
+          "published_date": "2026-07-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.euromonitor.com/article/in-southeast-asia-the-winning-e-commerce-decisions-are-local",
+          "title": "In Southeast Asia, the winning e-commerce decisions are local",
+          "publisher": "Euromonitor International",
+          "published_date": "2026-11-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/malaysia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/my/personal-care",
+          "title": "Personal Care Industry in Malaysia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&hl=en",
+          "title": "TikTok - Videos, Shop & LIVE - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by TikTok Pte. Ltd.)",
+          "published_date": "2026-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/tts-api-concepts-overview",
+          "title": "TikTok Shop API concepts: Overview (TikTok Shop Partner Center)",
+          "publisher": "TikTok Shop",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://technode.global/2026/04/14/southeast-asias-ecommerce-market-up-22-8-percent-year-on-year-to-157-6b-in-2025-momentum-works/",
+          "title": "Southeast Asia's ecommerce market up 22.8 percent year on year to $157.6B in 2025: Momentum Works",
+          "publisher": "TechNode Global (citing Momentum Works)",
+          "published_date": "2026-04-14",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Lazada Malaysia",
+      "website": "https://www.lazada.com.my",
+      "operator": "Lazada (Google Play developer name \"Lazada Mobile\"; Similarweb profile gives Singapore headquarters); parent company not verified in this session",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Pantene, Head & Shoulders (P&G), Sensodyne (Haleon) and Safi (Wipro Unza) link to official Lazada Malaysia stores from their own sites, and ECDB ranks Lazada third among online personal-care retailers.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy-specific evidence collected.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Still the #2 Marketplace site by Similarweb and the second most-visited retail site in Semrush's list, but consumer usage is falling fast: Ipsos reports 5% of online purchasers used Lazada in the past six months in 2026, down from 11% in 2025 and 15% in 2024, and Semrush shows visits down 38.86% year on year.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Share of Malaysian online purchasers who shopped on Lazada in the past six months (11% in 2025, 15% in 2024)",
+          "metric_type": "market_share",
+          "value": "5% of online purchasers (usage, not sales share)",
+          "period": "May 2026 survey",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "source_name": "Ipsos Malaysia - Ipsos Press Release: E-commerce Landscape in 2026",
+          "source_date": "2026-07-16"
+        },
+        {
+          "claim": "Malaysian visits to lazada.com.my (second most-visited retail website; down 38.86% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "4.76M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 73.2% from Malaysia; country rank #60; #2 in Marketplace",
+          "metric_type": "monthly_visits",
+          "value": "6.6M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/lazada.com.my/",
+          "source_name": "Similarweb - lazada.com.my - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band for the regional Lazada app (cumulative, all Lazada markets)",
+          "metric_type": "app_users",
+          "value": "500M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.lazada.android&hl=en",
+          "source_name": "Google Play (listing published by Lazada Mobile) - Lazada - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-23"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified through brand-owner websites linking to official Lazada Malaysia stores: Pantene and Head & Shoulders (P&G Malaysia store), Sensodyne (Haleon store) and Safi (Wipro Unza store). Lazada's own pages redirected a headless browser to an anti-bot page, which was not bypassed.",
+        "source_urls": [
+          "https://www.pantene.com.my/en-my",
+          "https://www.headandshoulders.com.my/en-my",
+          "https://www.sensodyne.com.my/where-to-buy.html",
+          "https://safi.com.my/"
+        ]
+      },
+      "product_coverage_note": "Official brand stores verified for hair and oral care; breadth beyond these not measured.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Lazada Open Platform offers Lazada sellers \"access to all the API methods that will allow you to manage the market place's functions\" and lists API areas for Products, Orders, Marketing, Finance, Fulfillment, Returns, Advertising and Warehouse, plus a service-provider programme. Own-shop data only.",
+        "docs_url": "https://open.lazada.com/"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "High for the brand owner's own shop through the documented API. Important limit: public pages are protected, so competitor data needs an authorised provider or manual sampling.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Second-ranked marketplace site by web traffic, but with sharply declining consumer usage."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Official stores for several mass personal-care brands and third place in ECDB's category ranking."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "Evidence conflicts: 4.76M estimated web visits a month, yet only 5% of online purchasers report using it."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Official brand-owner stores verified for Pantene, Head & Shoulders, Sensodyne and Safi."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented Open Platform API for own-shop data; public pages are gated."
+        }
+      },
+      "weighted_score": 3.8,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Still carries official brand stores and offers a documented API, which keeps it third under the rubric. Reservation: with usage down to 5% of purchasers, Watsons may be the more valuable third platform for category monitoring; the formula ranking is retained.",
+      "confidence": "medium",
+      "confidence_note": "Traffic and survey evidence point in different directions; brand stores are verified through brand-owner links.",
+      "sources": [
+        {
+          "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "title": "Ipsos Press Release: E-commerce Landscape in 2026",
+          "publisher": "Ipsos Malaysia",
+          "published_date": "2026-07-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/lazada.com.my/overview/",
+          "title": "lazada.com.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/lazada.com.my/",
+          "title": "lazada.com.my - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/malaysia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.lazada.android&hl=en",
+          "title": "Lazada - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Lazada Mobile)",
+          "published_date": "2026-11-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.lazada.com/",
+          "title": "Lazada Open Platform",
+          "publisher": "Lazada",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/my/personal-care",
+          "title": "Personal Care Industry in Malaysia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.pantene.com.my/en-my",
+          "title": "Complete Hair Care for Strong, Healthy, Shiny Hair | Pantene MY",
+          "publisher": "Pantene Malaysia (P&G)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.headandshoulders.com.my/en-my",
+          "title": "Anti-Dandruff Shampoo & Conditioner | H&S MY",
+          "publisher": "Head & Shoulders Malaysia (P&G)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sensodyne.com.my/where-to-buy.html",
+          "title": "Sensodyne | Buy Now",
+          "publisher": "Sensodyne Malaysia (Haleon)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://safi.com.my/",
+          "title": "Safi | Science. Beauty. Natural.",
+          "publisher": "Safi (Wipro Unza)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "BIG Pharmacy",
+      "website": "https://bigpharmacy.com.my",
+      "operator": "BIG Pharmacy, part of BIG CARiNG Group (online store footer: Caring Pharmacy Retail Management Sdn. Bhd.)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Its online store lists Dove, Pantene, Head & Shoulders, Garnier, NIVEA, Colgate and Sensodyne products with prices, and the homepage also shows Vaseline, Cetaphil, Darlie, Listerine and Olay.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Pharmacy chain with over-the-counter medicine and supplement ranges; store count Not found.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Rests on about 190K estimated Malaysian web visits and a 100K+ install app; it shares a parent group with CARiNG Pharmacy. Store count and online sales: Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to bigpharmacy.com.my (sixth in the Malaysian Pharmaceuticals list)",
+          "metric_type": "monthly_visits",
+          "value": "192.6K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band for the BIG Pharmacy app (cumulative)",
+          "metric_type": "app_users",
+          "value": "100K+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=my.com.bigpharmacy&hl=en",
+          "source_name": "Google Play (listing published by BIG Pharmacy) - BIG Pharmacy - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified in the store's public storefront search data and homepage: Dove, Pantene, Colgate, Sensodyne, Head & Shoulders, Garnier and NIVEA products returned with prices (for example Head & Shoulders Shampoo Itchy Scalp Care 300ml at RM15.00), plus Vaseline, Cetaphil, Darlie, Listerine and Olay on the homepage.",
+        "source_urls": [
+          "https://bigpharmacy.com.my/"
+        ]
+      },
+      "product_coverage_note": "Hair, skin and oral care mass brands verified; personal and skin care is a top-level collection.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the pages read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Product names, vendors and prices were readable as public storefront JSON without login; requests are rate-limited and subject to the site's terms. No seller API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy chain with a small online footprint."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Pharmacy channel with broad mass hair, skin and oral care listings."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 190K estimated Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Eight of the 12 reference brands verified on the store's own pages."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public storefront JSON exposes products and prices without login."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Ranks fourth because its assortment and prices are fully verifiable and easy to collect. Reservation: its audience is far smaller than Watsons' or Guardian's, so the rank overstates its market importance.",
+      "confidence": "medium",
+      "confidence_note": "Assortment and prices directly verified; reach is a single low estimate and store count was not found.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=my.com.bigpharmacy&hl=en",
+          "title": "BIG Pharmacy - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by BIG Pharmacy)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://bigpharmacy.com.my/",
+          "title": "BIG Pharmacy online store (homepage and public storefront search data) [live data; footer copyright 2026]",
+          "publisher": "BIG Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.caring2u.com/about/our-story/",
+          "title": "Our Story | CARiNG Pharmacy",
+          "publisher": "CARiNG Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Watsons Malaysia",
+      "website": "https://www.watsons.com.my",
+      "operator": "Watsons Malaysia (A.S. Watson brand); legal entity not verified because the corporate and retail sites refused automated access",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Similarweb ranks watsons.com.my the #1 Beauty and Cosmetics website in Malaysia, and Safi's brand site links to its Watsons brand page.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Health and beauty chain; pharmacy services were not verified in this session.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Similarweb's #1 beauty-site ranking and on being the highest-ranked health and beauty retailer in Semrush's Malaysian retail list (18th). Store count and online sales: Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Rank among Beauty and Cosmetics websites in Malaysia",
+          "metric_type": "other",
+          "value": "#1 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/malaysia/lifestyle/beauty-and-cosmetics/",
+          "source_name": "Similarweb - Top Beauty and Cosmetics Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 79.68% from Malaysia; country rank #267",
+          "metric_type": "monthly_visits",
+          "value": "1.6M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/watsons.com.my/",
+          "source_name": "Similarweb - watsons.com.my - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Malaysian visits to watsons.com.my (18th most-visited retail website; down 14.11% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "625.4K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Only Safi (a local brand outside the reference list) is verified, through the brand owner's link to watsons.com.my/all-brands/b/170013/safi. watsons.com.my returned HTTP 403 to plain requests and to the fetch tool, so the reference brands are UNVERIFIED on this site (likely present given its format).",
+        "source_urls": [
+          "https://safi.com.my/"
+        ]
+      },
+      "product_coverage_note": "Health and beauty range; hair, skin and oral care coverage not verified in this session.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found; the retail site and the A.S. Watson corporate site both refused automated access.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Automated access refused (HTTP 403). Realistic routes are retailer data-sharing or retail-media reporting, an authorised provider (none verified here) or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Leading health and beauty retailer online, 18th among Malaysian retail sites by web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Ranked the #1 beauty website in Malaysia by Similarweb."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "625.4K (Semrush) to roughly 1.3M (Similarweb-derived) Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Only one brand page verified because access was refused; neutral score for a full-range health and beauty retailer."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Storefront and corporate site returned HTTP 403; no API found."
+        }
+      },
+      "weighted_score": 3.3,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "The most important specialist for the category in Malaysia. Reservation: it ranks below BIG Pharmacy only because its site blocked verification and data access; on market importance it belongs in the top four and arguably the top three.",
+      "confidence": "medium",
+      "confidence_note": "Category rank and traffic are from third-party estimators; assortment, store count and operator are unverified.",
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/top-websites/malaysia/lifestyle/beauty-and-cosmetics/",
+          "title": "Top Beauty and Cosmetics Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/watsons.com.my/",
+          "title": "watsons.com.my - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/watsons.com.my/overview/",
+          "title": "watsons.com.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://safi.com.my/",
+          "title": "Safi | Science. Beauty. Natural.",
+          "publisher": "Safi (Wipro Unza)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "CARiNG Pharmacy (e-store)",
+      "website": "https://estore.caring2u.com",
+      "operator": "CARiNG Pharmacy, part of BIG CARiNG Group",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Community pharmacy whose e-store lists Dove, Pantene, Colgate, Sensodyne, NIVEA and Safi products with prices.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Community pharmacy brand with pharmacist services; 284 outlets across the CARiNG, Georgetown and Wellings banners.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Rests on 284 outlets nationwide (company site, undated) and about 300K estimated Malaysian web visits. Online sales: Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to caring2u.com (second in the Malaysian Pharmaceuticals list)",
+          "metric_type": "monthly_visits",
+          "value": "299.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Outlets nationwide across CARiNG, Georgetown and Wellings pharmacies",
+          "metric_type": "stores",
+          "value": "284",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.caring2u.com/about/our-story/",
+          "source_name": "CARiNG Pharmacy - Our Story | CARiNG Pharmacy",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified in the e-store's public storefront search data: Dove, Pantene, Colgate, Sensodyne, NIVEA and Safi products were returned with prices (for example Pantene Shampoo Total Care 170ml at RM8.18, Sensodyne Complete Protection 100g at RM16.56). A Garnier query was rate-limited (HTTP 429) and not retried.",
+        "source_urls": [
+          "https://estore.caring2u.com/"
+        ]
+      },
+      "product_coverage_note": "Hair, body, skin and oral care mass brands present alongside health products.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the pages read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Product names, vendors and prices were readable as public storefront JSON without login; requests are rate-limited and subject to the site's terms. No seller API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Regional pharmacy chain with a modest online footprint."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Pharmacy channel carrying mass hair, body and oral care brands."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 300K estimated Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Five of the 12 reference brands verified with prices, plus Safi."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public storefront JSON exposes products and prices without login."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Small audience, but verified mass-brand listings and easy price collection make it a low-cost pharmacy benchmark.",
+      "confidence": "medium",
+      "confidence_note": "Assortment and prices directly verified; reach from one estimator and an undated store count.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/caring2u.com/overview/",
+          "title": "caring2u.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.caring2u.com/about/our-story/",
+          "title": "Our Story | CARiNG Pharmacy",
+          "publisher": "CARiNG Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://estore.caring2u.com/",
+          "title": "CARiNG Pharmacy e-store (public storefront search data) [live data]",
+          "publisher": "CARiNG Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Guardian Malaysia",
+      "website": "https://guardian.com.my",
+      "operator": "Guardian Health and Beauty Sdn. Bhd. (fully owned by DFI Retail Group)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Health and beauty chain whose app listing claims \"more than 10,000 health & beauty products\"; Safi's brand site links to its Guardian brand page.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "DFI describes Guardian stores as offering pharmacist services and dispensing.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on its own claim of 500 stores in Malaysia (app listing, undated), DFI's figure of over 1,100 Guardian stores across five markets, and a mid-sized web audience (272.8K-475K Malaysian visits a month depending on the estimator).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to guardian.com.my (fourth in the Malaysian Pharmaceuticals list)",
+          "metric_type": "monthly_visits",
+          "value": "272.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 73.14% from Malaysia; country rank #703",
+          "metric_type": "monthly_visits",
+          "value": "649K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/guardian.com.my/",
+          "source_name": "Similarweb - guardian.com.my - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Stores in Malaysia claimed in the app listing (undated)",
+          "metric_type": "stores",
+          "value": "500",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://play.google.com/store/apps/details?id=com.Gguardian&hl=en",
+          "source_name": "Google Play (listing published by Guardian Health and Beauty SDN. BHD) - Guardian MY - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-17"
+        },
+        {
+          "claim": "Google Play install band for the Guardian MY app (cumulative)",
+          "metric_type": "app_users",
+          "value": "1M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.Gguardian&hl=en",
+          "source_name": "Google Play (listing published by Guardian Health and Beauty SDN. BHD) - Guardian MY - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-17"
+        },
+        {
+          "claim": "Guardian stores across Malaysia, Indonesia, Singapore, Vietnam and Brunei",
+          "metric_type": "stores",
+          "value": "over 1,100",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.dfiretailgroup.com/en/our-businesses/health-and-beauty",
+          "source_name": "DFI Retail Group - Health and Beauty | DFI Retail Group",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Only Safi (a local brand outside the reference list) is verified, through the brand owner's link to guardian.com.my/brands/brands-safi.html. The storefront is script-rendered and its listing pages were not captured, so the reference brands are UNVERIFIED (likely present given its format).",
+        "source_urls": [
+          "https://safi.com.my/"
+        ]
+      },
+      "product_coverage_note": "Health, beauty, personal and baby care per DFI; SKU-level coverage not verified.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Site answered plain HTTP requests (HTTP 200) but is script-rendered; listing collection would need a rendering fetcher and compliance with the site's terms. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Second health and beauty chain with a claimed 500 stores and a mid-sized online audience."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Core health and beauty retailer with more than 10,000 products claimed."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "272.8K to roughly 475K estimated Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Only one brand page verified; neutral score for a full-range health and beauty retailer."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public but script-rendered pages; no API."
+        }
+      },
+      "weighted_score": 3.05,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "A core offline competitor set with a smaller online audience than Watsons; second-wave monitoring target.",
+      "confidence": "medium",
+      "confidence_note": "Operator verified; store count is an undated self-claim and assortment is unverified.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/guardian.com.my/",
+          "title": "guardian.com.my - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.Gguardian&hl=en",
+          "title": "Guardian MY - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Guardian Health and Beauty SDN. BHD)",
+          "published_date": "2026-11-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.dfiretailgroup.com/en/our-businesses/health-and-beauty",
+          "title": "Health and Beauty | DFI Retail Group",
+          "publisher": "DFI Retail Group",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://safi.com.my/",
+          "title": "Safi | Science. Beauty. Natural.",
+          "publisher": "Safi (Wipro Unza)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Lotus's Shop Online",
+      "website": "https://www.lotuss.com.my",
+      "operator": "Lotuss Stores (Malaysia) Sdn Bhd",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Hypermarket with a Health & Beauty department online (Hair Care, Oral Care, Men's Grooming, Personal Hygiene, Soap, Women's Grooming); the hair-care listing showed Sunsilk products.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Health care and supplements are a sub-category; no pharmacy evidenced.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Rests on 619.5K estimated Malaysian web visits (19th among retail sites and the most-visited grocer in Semrush's Food & Beverages list after foodpanda), up 48% year on year. Online sales: Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to lotuss.com.my (up 48.28% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "619.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Partly verified on the retailer's own pages: the rendered hair-care category showed Sunsilk, and the Health & Beauty page source names Nivea and Lifebuoy. Other reference brands were not captured because listings load dynamically.",
+        "source_urls": [
+          "https://www.lotuss.com.my/category/health-beauty"
+        ]
+      },
+      "product_coverage_note": "Hair care, oral care, soap and grooming categories present; depth not measured.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Pages answered plain HTTP requests (HTTP 200) and render in a standard browser; listings load dynamically. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Largest grocery retailer site by web visits in the Malaysian lists consulted."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Hypermarket personal-care department; relevant but secondary to food."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "619.5K estimated Malaysian web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "A few mass brands seen (Sunsilk, Nivea, Lifebuoy); the reference set is not verified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public, dynamically loaded pages; no API."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "The best-evidenced grocery e-commerce site for mass personal care in Malaysia; a sensible second-wave addition for promotional pricing.",
+      "confidence": "medium",
+      "confidence_note": "Operator and categories verified; reach from one estimator; assortment only sampled.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/food-and-beverages",
+          "title": "Most Visited Food & Beverages Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.lotuss.com.my/category/health-beauty",
+          "title": "Lotus's Shop Online - Health & Beauty categories [live page]",
+          "publisher": "Lotuss Stores (Malaysia) Sdn Bhd",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "GrabMart",
+      "website": "https://www.grab.com/my/mart/",
+      "operator": "Grab Holdings (Google Play developer name)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Grab describes GrabMart as delivering \"supermarket groceries and health & beauty products to over-the-counter pharmacy supplies\" from thousands of stores; item-level listings are visible only in the app.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Pharmacies are named among partner store types.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. Grab is a very large super-app (company claim of over 100 million downloads across Southeast Asia) but GrabMart-specific users, orders or GMV for Malaysia are Not publicly disclosed in the sources read.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to grab.com, all services (16.93% of 16.98M total visits; web only, app-first)",
+          "metric_type": "monthly_visits",
+          "value": "2.87M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/grab.com/overview/",
+          "source_name": "Semrush - grab.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Company claim on the Grab Developer portal (all services, all countries; undated)",
+          "metric_type": "app_users",
+          "value": "over 100 million app downloads across Southeast Asia",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://developer.grab.com/",
+          "source_name": "Grab - Grab Developer",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play install band for the Grab app (cumulative, regional)",
+          "metric_type": "app_users",
+          "value": "100M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger&hl=en",
+          "source_name": "Google Play (listing published by Grab Holdings) - Grab - Taxi & Food Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; assortments belong to partner stores and are visible only in the app for a delivery address.",
+        "source_urls": [
+          "https://www.grab.com/my/mart/"
+        ]
+      },
+      "product_coverage_note": "Health and beauty and pharmacy supplies offered through partner supermarkets, convenience stores and pharmacies.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The Grab Developer portal lists Mart (and GrabMall) among its partner products. It is a merchant-side integration behind a login, not a market-data API, and its documentation was not opened.",
+        "docs_url": "https://developer.grab.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App- and location-gated assortment; the partner API serves merchants. Manual in-app checks or reporting from partner retailers are the realistic routes.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Part of the dominant regional super-app, but mart-specific scale is undisclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Health and beauty and pharmacy supplies are named offers from partner stores."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "2.87M estimated Malaysian web visits to grab.com across all services; mart users unknown."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Brand listings not verifiable; scored conservatively."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "App-gated assortment and merchant-only integration."
+        }
+      },
+      "weighted_score": 2.65,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "A relevant convenience touchpoint through partner supermarkets and pharmacies, but opaque and hard to instrument.",
+      "confidence": "low",
+      "confidence_note": "No GrabMart-specific numbers; evidence is the company's own description plus all-service traffic.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/grab.com/overview/",
+          "title": "grab.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.grab.com/",
+          "title": "Grab Developer",
+          "publisher": "Grab",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger&hl=en",
+          "title": "Grab - Taxi & Food Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Grab Holdings)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.grab.com/my/mart/",
+          "title": "GrabMart Malaysia | Quick & Convenient Grocery Delivery Service [live page]",
+          "publisher": "Grab",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "foodpanda (pandamart)",
+      "website": "https://www.foodpanda.my",
+      "operator": "Foodpanda GmbH, a subsidiary of Delivery Hero SE (Google Play developer name)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "The app listing describes grocery delivery of \"fresh produce, pantry staples, frozen goods, personal care items\" from foodpanda shops and pandamarts; item-level listings could not be viewed.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy-specific evidence collected.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. Rests on 1.74M estimated Malaysian web visits (the most-visited site in Semrush's Malaysian Food & Beverages list apart from a search engine) and a 100M+ install global app. Malaysian orders, customers or pandamart sales are Not publicly disclosed in the sources read.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to foodpanda.my (web only; app-first service)",
+          "metric_type": "monthly_visits",
+          "value": "1.74M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/food-and-beverages",
+          "source_name": "Semrush - Most Visited Food & Beverages Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative, 11 Asian markets)",
+          "metric_type": "app_users",
+          "value": "100M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.global.foodpanda.android&hl=en",
+          "source_name": "Google Play (listing published by Foodpanda GmbH a subsidiary of Delivery Hero SE) - foodpanda: food & groceries - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; foodpanda.my returned HTTP 403 (bot protection) and assortments are address-gated.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Personal care items named in the app listing; brands and depth not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Delivery Hero publishes partner documentation (Q-Commerce Integration API, assortment and promotion SFTP integration) at developers.deliveryhero.com for \"20+ platforms\"; foodpanda is not named on the page read. It is a vendor-side integration, not a market-data API.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Website refused automated access and assortments are app- and address-gated; manual checks only.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Major delivery platform with the largest web audience among Malaysian food and grocery sites consulted."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "pandamart and partner shops carry personal care items, secondary to food."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "1.74M estimated Malaysian web visits on an app-first service."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Brand listings not verifiable; scored conservatively."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Storefront blocked and only vendor-side integration documentation found."
+        }
+      },
+      "weighted_score": 2.65,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "A quick-commerce touchpoint comparable to GrabMart; low priority until category depth can be evidenced.",
+      "confidence": "low",
+      "confidence_note": "No Malaysia- or pandamart-specific operating figures were found.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/food-and-beverages",
+          "title": "Most Visited Food & Beverages Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/foodpanda.my/overview/",
+          "title": "foodpanda.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.global.foodpanda.android&hl=en",
+          "title": "foodpanda: food & groceries - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Foodpanda GmbH a subsidiary of Delivery Hero SE)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.deliveryhero.com/",
+          "title": "Delivery Tech - Developers [copyright 2026]",
+          "publisher": "Delivery Hero SE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu",
+      "website": "https://www.temu.com/my",
+      "operator": "Whaleco Inc. (site footer); PDD Holdings affiliation not verified in this session",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "The app listing names \"beauty & cosmetics\", but Temu is not among ECDB's top three online personal-care retailers in Malaysia and no mass-brand listing was verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Rests on 1.53M estimated Malaysian web visits (sixth in Semrush's retail list, down 31.16% year on year). Temu does not appear among the four platforms charted by Ipsos, and Similarweb's top-five list shows pinduoduo.com rather than temu.com.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to temu.com (down 31.16% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "1.53M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative, global)",
+          "metric_type": "app_users",
+          "value": "1B+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en",
+          "source_name": "Google Play (listing published by Temu) - Temu: Shop Like a Billionaire - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; the Malaysian storefront is script-rendered and listing pages were not collected.",
+        "source_urls": [
+          "https://www.temu.com/my"
+        ]
+      },
+      "product_coverage_note": "Beauty and personal-care categories exist; brand mix not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The Temu Partner Platform offers open APIs for sellers and software vendors; Malaysia does not appear in the partner-site list shown on the page. Own-shop data only.",
+        "docs_url": "https://partner.temu.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Seller-only API with no Malaysian partner site listed, and script-rendered public pages.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Sixth in Semrush's Malaysian retail list but absent from Ipsos's leading purchase platforms and losing traffic."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "No evidence of category strength in Malaysia."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "1.53M estimated Malaysian web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Seller-only API and script-rendered pages."
+        }
+      },
+      "weighted_score": 2.4,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "A declining cross-border audience with no evidenced relevance to branded mass personal care; low priority.",
+      "confidence": "low",
+      "confidence_note": "Audience estimates only.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/malaysia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/Ipsos%20Press%20Release%20-%2016%20Jul%20-%20E-commerce%20Landscape%202026%20%28EN%29%20.pdf",
+          "title": "Ipsos Press Release: E-commerce Landscape in 2026",
+          "publisher": "Ipsos Malaysia",
+          "published_date": "2026-07-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en",
+          "title": "Temu: Shop Like a Billionaire - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Temu)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.temu.com/",
+          "title": "TEMU Partner Platform [copyright 2026]",
+          "publisher": "Temu (Whaleco Inc.)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.temu.com/my",
+          "title": "Temu Malaysia storefront [live page]",
+          "publisher": "Temu (Whaleco Inc.)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/my/personal-care",
+          "title": "Personal Care Industry in Malaysia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "ZALORA Malaysia",
+      "website": "https://www.zalora.com.my",
+      "operator": "Zalora South East Asia Pte Ltd. (Google Play developer name)",
+      "status": "active",
+      "platform_category": "department_store_fashion",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led; the app listing describes a Beauty section (make-up, skincare, haircare, bodycare, fragrance) and names LANEIGE, Benefit, The Ordinary, SK-II, The Body Shop, NARS and Innisfree, i.e. premium and masstige rather than mass brands.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. 369.2K estimated Malaysian web visits (36th among retail sites) and a 10M+ install regional app. The hybrid label rests on a live seller-centre API endpoint; the own-retail share was not verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to zalora.com.my",
+          "metric_type": "monthly_visits",
+          "value": "369.2K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative, regional app)",
+          "metric_type": "app_users",
+          "value": "10M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.zalora.android&hl=en",
+          "source_name": "Google Play (listing published by Zalora South East Asia Pte Ltd.) - ZALORA-Online Fashion Shopping - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-20"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; zalora.com.my returned HTTP 403 to plain requests and to the fetch tool. The brands named in its app listing are premium and masstige.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.zalora.android&hl=en"
+        ]
+      },
+      "product_coverage_note": "Beauty is a secondary category next to fashion; mass hair and oral care not evidenced.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "A SellerCenter API endpoint for Zalora Malaysia is live (it answers \"E001: Parameter Version is mandatory\"); the documentation URL was not located in this session. Own-shop data only.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Seller API endpoint exists for marketplace sellers; public pages refused automated access.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Established regional fashion platform with a mid-sized Malaysian web audience."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty is a side category skewed to premium brands."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "369.2K estimated Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified; listing names premium brands."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Live seller API endpoint, documentation not located; storefront blocked."
+        }
+      },
+      "weighted_score": 2.4,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Marginal for mass hair, skin and oral care; relevant only if premium or masstige lines are in scope.",
+      "confidence": "low",
+      "confidence_note": "Assortment and API documentation unverified; reach from one estimator.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/zalora.com.my/overview/",
+          "title": "zalora.com.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zalora.android&hl=en",
+          "title": "ZALORA-Online Fashion Shopping - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Zalora South East Asia Pte Ltd.)",
+          "published_date": "2026-11-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sellercenter-api.zalora.com.my/",
+          "title": "Zalora Malaysia SellerCenter API endpoint (returns \"E001: Parameter Version is mandatory\")",
+          "publisher": "Zalora",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "PG Mall",
+      "website": "https://pgmall.my",
+      "operator": "PG Mall (Similarweb profile gives Bayan Lepas, Malaysia as headquarters); legal entity not verified in this session",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "UNVERIFIED. The site presented a robot-verification wall, so no category or brand page could be read.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No evidence collected.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. A small local marketplace: 170.1K (Semrush) to roughly 307K (Similarweb-derived) Malaysian web visits a month and #19 in Similarweb's Malaysian Marketplace category. The third_party_marketplace label follows Similarweb's categorisation and was not verified on the site.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to pgmall.my (91st in the Malaysian retail list)",
+          "metric_type": "monthly_visits",
+          "value": "170.1K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 92.69% from Malaysia; country rank #1,148; #19 in Marketplace",
+          "metric_type": "monthly_visits",
+          "value": "330.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/pgmall.my/",
+          "source_name": "Similarweb - pgmall.my - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; pgmall.my showed a \"Verify You're Not a Robot\" page to automated requests, which was not bypassed.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Not verified in this session.",
+      "data_access_method": "unknown",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Robot-verification wall on the storefront and no API found.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small local marketplace, 19th in its Similarweb category."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Category relevance could not be verified; scored conservatively."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "170.1K to roughly 307K estimated Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Brand listings not verifiable."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Storefront gated by robot verification; no API found."
+        }
+      },
+      "weighted_score": 2.0,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "The only local general marketplace with measurable traffic, but too small and too opaque to prioritise.",
+      "confidence": "low",
+      "confidence_note": "Only third-party traffic estimates are available; operator, model and assortment are unverified.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/retail",
+          "title": "Most Visited Retail Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/pgmall.my/overview/",
+          "title": "pgmall.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/pgmall.my/",
+          "title": "pgmall.my - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Sephora Malaysia",
+      "website": "https://www.sephora.my",
+      "operator": "Sephora (local legal entity not verified in this session)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Prestige beauty: its public sitemap lists 194 brands and 7,679 product URLs, none of them from the reference mass-market brands.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. It is the most-visited site in Semrush's Malaysian beauty list and #2 on Similarweb's, so it matters for prestige beauty but not for mass personal care.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Malaysian visits to sephora.my (first in the Malaysian Beauty & Cosmetics list)",
+          "metric_type": "monthly_visits",
+          "value": "285.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/my/beauty-and-cosmetics",
+          "source_name": "Semrush - Most Visited Beauty & Cosmetics Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Beauty and Cosmetics websites in Malaysia",
+          "metric_type": "other",
+          "value": "#2 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/malaysia/lifestyle/beauty-and-cosmetics/",
+          "source_name": "Similarweb - Top Beauty and Cosmetics Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified absent using the retailer's public sitemap: none of Dove, Pantene, L'Oreal Paris, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Cetaphil or CeraVe appears among the 194 brand paths.",
+        "source_urls": [
+          "https://www.sephora.my/sitemap.xml"
+        ]
+      },
+      "product_coverage_note": "Prestige make-up, skincare, hair care and fragrance (7,679 product URLs in the sitemap).",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "The sitemap is public and lists every brand and product URL, but storefront pages returned HTTP 403 to automated requests.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Leading prestige beauty site but a small part of Malaysian e-commerce."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Prestige assortment with no overlap with the reference mass brands."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "285.5K estimated Malaysian web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Reference mass brands verified absent from the sitemap."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Sitemap readable but product pages refused automated access."
+        }
+      },
+      "weighted_score": 1.85,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Included as the representative prestige specialist; lowest priority for a mass-market brand owner.",
+      "confidence": "medium",
+      "confidence_note": "Assortment verified from the sitemap; reach from one estimator.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/my/beauty-and-cosmetics",
+          "title": "Most Visited Beauty & Cosmetics Websites in Malaysia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/malaysia/lifestyle/beauty-and-cosmetics/",
+          "title": "Top Beauty and Cosmetics Websites Ranking in Malaysia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/sephora.my/overview/",
+          "title": "sephora.my Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sephora.my/sitemap.xml",
+          "title": "Sephora Malaysia sitemap (brand and product URLs) [root entry last modified 2026-08-04]",
+          "publisher": "Sephora Malaysia",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

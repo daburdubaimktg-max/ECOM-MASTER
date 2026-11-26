@@ -1,0 +1,2410 @@
+{
+  "country_code": "GB",
+  "country_name": "United Kingdom",
+  "region": "Europe",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "Online accounted for 29.3% of UK retail sales in October 2026 (ONS), with a seasonal peak of 32.5% in November 2025. Amazon.co.uk has by far the largest audience (about 156 million UK web visits in October 2026, Semrush), followed by eBay, and grocery is led online by Tesco, which reports an online market share of 36.7% (excluding rapid delivery) and £3.7 billion of UK online sales in the first half of 2026/27. In beauty and personal care, Mintel's 2026 report says Boots 'reinforces [its] market leading position' online, that supermarkets are the key destination for online purchases and that 77% of adults bought the category online in the past year. TikTok Shop describes itself as the UK's fourth-largest beauty retailer after 60% growth in 2025, while dedicated rapid-delivery firms Getir and Gorillas left the market in 2024 and quick commerce now runs through grocers and aggregators such as Deliveroo (owned by DoorDash since October 2025). The nine mass-market products sampled were stocked across Boots, Superdrug, Tesco, Sainsbury's, Asda, Morrisons and Amazon.",
+    "key_facts": [
+      {
+        "fact": "Internet sales were 29.3% of total UK retail sales in October 2026 (28.6% in September 2026; 32.5% in November 2025), ONS series J4MC released 20 November 2026.",
+        "nature": "official_statistic",
+        "source_url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/j4mc/drsi",
+        "source_name": "Office for National Statistics (ONS)",
+        "source_date": "2026-11-20"
+      },
+      {
+        "fact": "Worldpanel by Numerator grocery market shares for the 12 weeks to 1 November 2026: Tesco 27.8%, Sainsbury's 15.5%, Asda 11.3%, Aldi 10.4%, Lidl 8.6%, Morrisons 8.3%, Ocado 2.3% (a record; sales £822 million, +12%). Consumer-panel estimate reported by news services, not a regulator statistic.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+        "source_name": "Worldpanel by Numerator via AJ Bell / Alliance News and Shopappy",
+        "source_date": "2026-11-10"
+      },
+      {
+        "fact": "Mintel's 'UK Online Beauty and Personal Care Retailing Market Report 2026' states that Boots 'reinforces [its] market leading position', that 'supermarkets are the key destination for online BPC purchases' and that 77% of adults bought beauty and personal care online in the past year; the underlying share figures are paywalled (Not publicly disclosed).",
+        "nature": "analyst_estimate",
+        "source_url": "https://store.mintel.com/report/uk-online-beauty-personal-care-retailing-market-report",
+        "source_name": "Mintel",
+        "source_date": "2026-10-14"
+      },
+      {
+        "fact": "Tesco reported UK online sales of £3.7 billion for the 26 weeks to 29 August 2026 (+8.4%); its interim statement says 'our online market share (which excludes rapid delivery) grew +16bps to 36.7%'. This is a company-stated share, not a regulator figure.",
+        "nature": "company_reported",
+        "source_url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/10/0690Y_1-2026-10-7.pdf",
+        "source_name": "Tesco PLC interim results (RNS)",
+        "source_date": "2026-10"
+      },
+      {
+        "fact": "Boots (year to 31 August 2025): total revenue £7.54 billion, retail revenue £5.26 billion, Boots.com revenue +18.3%, about 17 million Advantage Card members, 1,824 stores.",
+        "nature": "company_reported",
+        "source_url": "https://www.pharmacymagazine.co.uk/business-news/boots-sees-annual-profit-rise-by-24-to-260m-despite-dip-in-pharmacy-revenue",
+        "source_name": "Boots accounts as reported by Pharmacy Magazine",
+        "source_date": "2026-06-09"
+      },
+      {
+        "fact": "TikTok Shop says it is the UK's fourth-largest beauty retailer, with beauty sales up 60% year on year in 2025 (company claim; the ranking source is not named in the article). A July 2026 report cited in a search-result summary instead calls it the second-largest, which could not be verified.",
+        "nature": "company_reported",
+        "source_url": "https://retailtimes.co.uk/tiktok-shop-emerges-as-uks-fourth-largest-beauty-retailer-with-60-yoy-growth-and-k-beauty-surge/",
+        "source_name": "Retail Times",
+        "source_date": "2026-01-28"
+      },
+      {
+        "fact": "IGD says pure-play rapid-delivery operators Getir and Gorillas exited the UK in 2024 and forecasts UK quick commerce to grow 10.7% a year from 2026 to 2031, reaching £5.5 billion and 15% of online grocery; it puts Sainsbury's quick-commerce sales above £700 million in 2025 (+69%) and Tesco Whoosh above £400 million (+51%).",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.igd.com/articles/the-ps55bn-opportunity-how-quick-commerce-is-being-rebuilt/73553",
+        "source_name": "IGD",
+        "source_date": "2026-07-01"
+      },
+      {
+        "fact": "Semrush's October 2026 list of most-visited UK retail websites is led by amazon.co.uk (156.43 million UK visits), ebay.co.uk (69.22 million), argos.co.uk (38.96 million), etsy.com, asda.com (26.27 million), boots.com (24.87 million), temu.com (23.47 million) and tesco.com (21.13 million).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semrush.com/trending-websites/gb/retail",
+        "source_name": "Semrush",
+        "source_date": "2026-10 (data month)"
+      }
+    ]
+  },
+  "ranking_method_note": "Scores follow the brief's rubric exactly: five criteria scored 1-5, weighted 0.20 / 0.25 / 0.20 / 0.15 / 0.20, summed and rounded to two decimals; rank 1 is the highest weighted score. Ties are broken by beauty_category_relevance, then consumer_reach; where a tie still remained, brand_competitor_coverage, data_integration_feasibility, ecommerce_significance and finally alphabetical order were used (an addition, because the rubric is silent). estimated_market_importance reflects overall importance in the country's online retail (tier_1 = market-shaping, tier_2 = significant, tier_3 = niche or emerging), not category relevance, which is captured separately in beauty_relevance. Scoring anchors: ecommerce_significance 5 = market-shaping leader, 4 = top-tier national player, 3 = significant category or regional player, 2 = niche or emerging. consumer_reach uses Semrush estimates of UK web visits for October 2026 (5 = 100 million or more, 4 = 20-100 million, 3 = 5-20 million, 2 = 1-5 million, 1 = below 1 million), adjusted where company-reported customer metrics justify it; web visits exclude app use, which understates grocers and delivery apps. brand_competitor_coverage is an evidence-graded judgement. Checklist used for the UK (nine products sampled on the price-comparison site Trolley.co.uk on 2026-11-26): Dove body wash, Pantene shampoo, Head & Shoulders shampoo, Garnier Ultimate Blends shampoo, Sensodyne toothpaste, Nivea Creme, Vaseline body lotion, L'Oréal Elvive shampoo and Colgate Total toothpaste. A retailer stocking six or more of the nine scores 5 and five scores 4; platforms that could not be checked receive a neutral 3 (or 2 where positioning points to low coverage) and are marked UNVERIFIED. data_integration_feasibility: 5 = documented public partner API plus accessible public pages, 4 = documented API with gated scope, 3 = no API but public pages or sitemaps accessible, 2 = no API and bot-protected pages. The formula rewards reach and data access; Boots ranks below Amazon for that reason even though Mintel names Boots the online market leader for the category, and Sainsbury's ranks below smaller grocers because its site is closed to automated access. These reservations are recorded in the relevant priority_rationale fields.",
+  "platforms": [
+    {
+      "name": "Amazon.co.uk",
+      "website": "https://www.amazon.co.uk",
+      "operator": "Amazon (UK marketplace of Amazon.com, Inc.)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Largest UK retail website and, per a search-result summary of Mintel's 2026 report, the largest non-specialist seller of beauty and personal care online (not visible on Mintel's public page). The Beauty best-seller page showed L'Oréal, Garnier and CeraVe, and five of the nine sampled mass products were stocked.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: no UK pharmacy service was checked in this session.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on about 156 million UK web visits in October 2026, more than twice the next retail site (Semrush); Amazon's UK net sales were Not found in this session.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "amazon.co.uk received an estimated 156.43M visits from the United Kingdom in October 2026 (71.38% of 219.16M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "156.43M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/amazon.co.uk/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Semrush's October 2026 list of most-visited UK retail websites ranks amazon.co.uk first, ahead of ebay.co.uk (69.22 million UK visits).",
+          "metric_type": "other",
+          "value": "Rank 1 (UK retail websites)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/gb/retail",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified two ways on 2026-11-26: Amazon.co.uk's public Beauty best-seller page (rendered) showed L'Oréal, Garnier and CeraVe products; and Trolley.co.uk listed Amazon as a stockist for five of nine sampled products (Dove, Sensodyne, Vaseline, L'Oréal Elvive, Colgate). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.amazon.co.uk/gp/bestsellers/beauty",
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "https://www.trolley.co.uk/product/vaseline-intensive-care-cocoa-radiant-body-lotion/IBA461",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873"
+        ]
+      },
+      "product_coverage_note": "Mass hair, skin and oral care through first-party retail and third-party sellers; depth was not counted.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Selling Partner API (SP-API) for applications built for sellers and vendors; the 'Store Identifiers' page lists the United Kingdom marketplace (A1F83G8C2ARO7P); the Product Pricing API returns 'product pricing and offer pricing information for Amazon Marketplace products'. Access requires a registered selling-partner developer profile. A reviews endpoint was Not found. The older documentation address developer-docs.amazon.com redirects to developer-docs.amazon.",
+        "docs_url": "https://developer-docs.amazon/sp-api/docs/welcome"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented API with a UK marketplace; the best-seller page rendered publicly (a search page returned HTTP 503 to automated access); third-party digital-shelf vendors also cover Amazon.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "About 156 million UK visits in October 2026, more than double the next UK retail site."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Largest non-specialist online beauty seller per a summary of Mintel's report, but Mintel names Boots as the market leader."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 156 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Seven mass brands confirmed (five sampled products on Trolley plus Garnier and CeraVe on the best-seller page)."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Public, documented SP-API with a UK marketplace."
+        }
+      },
+      "weighted_score": 4.75,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "First on the formula because of reach and the only fully documented API in the UK set. Reservation: on category relevance alone Boots ranks higher (Mintel calls Boots the online market leader); Amazon's lead here comes from audience size and data access.",
+      "confidence": "high",
+      "confidence_note": "Traffic, API documentation and brand presence are verified; Amazon's UK sales and beauty share were not found.",
+      "sources": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/welcome",
+          "title": "Welcome to SP-API Documentation",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids",
+          "title": "Store Identifiers",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api-v2022-05-01-reference",
+          "title": "Product Pricing v2022-05-01",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://store.mintel.com/report/uk-online-beauty-personal-care-retailing-market-report",
+          "title": "UK Online Beauty and Personal Care Retailing Market Report 2026",
+          "publisher": "Mintel",
+          "published_date": "2026-10-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/amazon.co.uk/overview/",
+          "title": "amazon.co.uk Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/gb/retail",
+          "title": "Most Visited Retail Websites in the United Kingdom October 2026 | Top Websites & Popular Rankings",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+          "title": "Amazon.co.uk Best Sellers: The most popular items in Beauty",
+          "publisher": "Amazon.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "title": "Sensodyne Daily Care Original Mint Sensitive Teeth Toothpaste - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/vaseline-intensive-care-cocoa-radiant-body-lotion/IBA461",
+          "title": "Vaseline Intensive Care Cocoa Radiant Body Lotion - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Boots (boots.com)",
+      "website": "https://www.boots.com",
+      "operator": "Boots UK (parent ownership not verified in this session)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Mintel's 2026 report says Boots 'reinforces [its] market leading position' in UK online beauty and personal care; Boots.com revenue grew 18.3% in the year to August 2025 and seven of the nine sampled mass products were stocked.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Pharmacy revenue was £2.27 billion in the year to 31 August 2025 (30.2% of total revenue).",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Tier 2 in total UK online retail (about 25 million UK web visits; boots.com was 17% of retail sales in a mid-2025 quarter), although Mintel names it the online leader in beauty and personal care; rests also on £5.26 billion of retail revenue and about 17 million Advantage Card members.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "boots.com received an estimated 24.87M visits from the United Kingdom in October 2026 (88.32% of 28.15M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "24.87M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/boots.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Boots' accounts for the year to 31 August 2025: total revenue £7.54 billion (+3.2%), retail revenue £5.26 billion (+4.8%), Boots.com revenue +18.3%, Advantage Card members about 17 million, 1,824 stores.",
+          "metric_type": "revenue",
+          "value": "£7.54 billion total revenue; £5.26 billion retail revenue; Boots.com revenue +18.3%",
+          "period": "Year to 2025-08-31",
+          "nature": "company_reported",
+          "source_url": "https://www.pharmacymagazine.co.uk/business-news/boots-sees-annual-profit-rise-by-24-to-260m-despite-dip-in-pharmacy-revenue",
+          "source_name": "Boots accounts as reported by Pharmacy Magazine",
+          "source_date": "2026-06-09"
+        },
+        {
+          "claim": "Boots.com contributed 17% of Boots' own retail sales in a quarter reported in June 2025 (a share of the company's sales, not a market share; read from a search-result summary; 17 months old).",
+          "metric_type": "other",
+          "value": "17% of Boots retail sales made online (one quarter)",
+          "period": "Quarter reported June 2025",
+          "nature": "company_reported",
+          "source_url": "https://www.retailgazette.co.uk/blog/2025/06/boots-17/",
+          "source_name": "Boots via Retail Gazette",
+          "source_date": "2025-06"
+        },
+        {
+          "claim": "Boots' 'Boots in numbers' page states over 17 million active Advantage Card members (undated; read from a search-result summary).",
+          "metric_type": "customers",
+          "value": "over 17 million active Advantage Card members",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.boots-uk.com/about-boots-uk/our-purpose-and-values/boots-in-numbers/",
+          "source_name": "Boots UK",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "boots.com returned HTTP 403 or an empty page to automated access, so presence was checked on Trolley.co.uk (2026-11-26): Boots was listed as a stockist for seven of nine sampled products (Dove, Pantene, Head & Shoulders, Garnier, Sensodyne, L'Oréal Elvive, Colgate). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "https://www.boots.com/dove"
+        ]
+      },
+      "product_coverage_note": "Broad mass and premium beauty plus health; seven of nine sampled mass products confirmed.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public seller or developer API was found. Whether boots.com hosts third-party sellers could not be verified in this session (UNVERIFIED).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "boots.com blocks automated access (HTTP 403 on pages and sitemap), so listing, price and review data would have to come from supplier reporting, an authorised data provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Category leader but a mid-sized online business overall: about 25 million UK visits; boots.com was 17% of retail sales in a mid-2025 quarter against annual retail revenue of £5.26 billion."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Named by Mintel as the market leader in UK online beauty and personal care."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 25 million UK web visits in October 2026, about 17 million loyalty members and 1,824 stores."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Seven of nine sampled mass products stocked."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refuses automated access."
+        }
+      },
+      "weighted_score": 3.8,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "The most important UK destination for the category on the evidence. Reservation: the formula places it below Amazon only because of weaker data access and a smaller total audience; if category relevance were the sole test Boots would rank first.",
+      "confidence": "medium",
+      "confidence_note": "Financials and traffic are verified; brand presence rests on a third-party comparison site and the online share figure is 17 months old.",
+      "sources": [
+        {
+          "url": "https://store.mintel.com/report/uk-online-beauty-personal-care-retailing-market-report",
+          "title": "UK Online Beauty and Personal Care Retailing Market Report 2026",
+          "publisher": "Mintel",
+          "published_date": "2026-10-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/boots.com/overview/",
+          "title": "boots.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.pharmacymagazine.co.uk/business-news/boots-sees-annual-profit-rise-by-24-to-260m-despite-dip-in-pharmacy-revenue",
+          "title": "Boots sees annual profit rise by 24% to £260m despite dip in pharmacy revenue",
+          "publisher": "Pharmacy Magazine",
+          "published_date": "2026-06-09",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.retailgazette.co.uk/blog/2025/06/boots-17/",
+          "title": "Boots defies market pressures with 17th straight quarter of growth",
+          "publisher": "Retail Gazette",
+          "published_date": "2025-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.boots-uk.com/about-boots-uk/our-purpose-and-values/boots-in-numbers/",
+          "title": "Boots in numbers",
+          "publisher": "Boots UK",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "title": "Pantene Pro-V Classic Clean Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "title": "Garnier Ultimate Blends Honey Treasures Strengthening Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "title": "Sensodyne Daily Care Original Mint Sensitive Teeth Toothpaste - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.boots.com/dove",
+          "title": "boots.com brand page (HTTP 403 / empty response to automated access)",
+          "publisher": "Boots UK",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Tesco (tesco.com)",
+      "website": "https://www.tesco.com",
+      "operator": "Tesco PLC",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Largest UK grocer online and offline; Mintel says supermarkets are the key destination for online beauty and personal-care purchases, and six of the nine sampled mass products were stocked.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Tesco's interim statement lists Pharmacy among its existing offers; an online pharmacy service was not researched.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on a 27.8% grocery market share (Worldpanel), £3.7 billion of UK online sales in a half-year and a company-stated online market share of 36.7% (excluding rapid delivery).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "tesco.com received an estimated 21.13M visits from the United Kingdom in October 2026 (86.72% of 24.36M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "21.13M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/tesco.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Tesco reported UK online sales of £3.7 billion for the 26 weeks to 29 August 2026 (+8.4%); rapid-delivery service Whoosh grew about 37%, covers over 75% of UK households and is on track for sales of over £500 million this year; Tesco Marketplace has over 1,000 sellers.",
+          "metric_type": "revenue",
+          "value": "£3.7 billion UK online sales (half-year)",
+          "period": "26 weeks to 2026-08-29",
+          "nature": "company_reported",
+          "source_url": "https://fashionunited.uk/news/business/tesco-reports-clothing-resilience-and-online-expansion-in-interim-financial-results/2026100890775",
+          "source_name": "Tesco PLC via FashionUnited and RNS",
+          "source_date": "2026-10-08"
+        },
+        {
+          "claim": "Tesco's interim results statement: 'our online market share (which excludes rapid delivery) grew +16bps to 36.7%'; average grocery home-shopping orders per week grew 4.9% and Delivery Saver subscribers reached 836,000. The share is company-stated, not a verified market share.",
+          "metric_type": "market_share",
+          "value": "36.7% online market share, excluding rapid delivery (company-stated)",
+          "period": "26 weeks to 2026-08-29",
+          "nature": "company_reported",
+          "source_url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/10/0690Y_1-2026-10-7.pdf",
+          "source_name": "Tesco PLC interim results (RNS)",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Worldpanel by Numerator (consumer-panel estimate, not a verified share): Tesco held 27.8% of the UK grocery market in the 12 weeks to 1 November 2026 (sales £9.99 billion, +1.2%).",
+          "metric_type": "market_share",
+          "value": "27.8% grocery share (all channels)",
+          "period": "12 weeks to 2026-11-01",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "source_name": "Worldpanel by Numerator via AJ Bell",
+          "source_date": "2026-11-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "tesco.com returned 'Access Denied' to automated access, so presence was checked on Trolley.co.uk (2026-11-26): Tesco was listed as a stockist for six of nine sampled products (Dove, Pantene, Head & Shoulders, Garnier, L'Oréal Elvive, Colgate). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873"
+        ]
+      },
+      "product_coverage_note": "Mainstream supermarket health-and-beauty range; six of nine sampled mass products confirmed.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public seller or developer API was found. Tesco Marketplace (third-party sellers) exists, but any seller integration is UNVERIFIED.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "tesco.com blocks automated access; price and availability are visible through comparison sites and digital-shelf vendors (Profitero+ shows a Tesco logo among covered retailers).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Largest UK online grocer: £3.7 billion of UK online sales in six months and a company-stated 36.7% online market share."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Supermarkets are the key online destination for the category (Mintel) and Tesco is the largest."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 21 million UK web visits in October 2026 and a 27.8% grocery share."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Six of nine sampled mass products stocked."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refuses automated access."
+        }
+      },
+      "weighted_score": 3.75,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Third: the leading supermarket for everyday hair, skin and oral care with very large online sales. Reservation: data access is weak, so monitoring would rely on a data provider.",
+      "confidence": "medium",
+      "confidence_note": "Sales, share and traffic are verified; brand presence rests on a third-party comparison site.",
+      "sources": [
+        {
+          "url": "https://store.mintel.com/report/uk-online-beauty-personal-care-retailing-market-report",
+          "title": "UK Online Beauty and Personal Care Retailing Market Report 2026",
+          "publisher": "Mintel",
+          "published_date": "2026-10-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/",
+          "title": "eCommerce data, technology & services | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/tesco.com/overview/",
+          "title": "tesco.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://fashionunited.uk/news/business/tesco-reports-clothing-resilience-and-online-expansion-in-interim-financial-results/2026100890775",
+          "title": "Tesco reports clothing resilience and online expansion in interim financial results",
+          "publisher": "FashionUnited",
+          "published_date": "2026-10-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/10/0690Y_1-2026-10-7.pdf",
+          "title": "Tesco PLC Interim Results 2026/27 (RNS announcement, PDF copy)",
+          "publisher": "Tesco PLC (copy hosted by DirectorsTalk Interviews)",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "title": "UK grocery price inflation accelerates ahead of festive period",
+          "publisher": "AJ Bell (Alliance News)",
+          "published_date": "2026-11-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "title": "Pantene Pro-V Classic Clean Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "title": "Garnier Ultimate Blends Honey Treasures Strengthening Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Superdrug (superdrug.com)",
+      "website": "https://www.superdrug.com",
+      "operator": "Superdrug (A.S. Watson Group)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "UK health-and-beauty chain with sales of about £1.7 billion in 2025; Mintel's report names it among the leading online beauty retailers ('Superdrug needs to work harder at retention'); six of the nine sampled mass products were stocked.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Trade press describes Superdrug's loyalty card as linking stores, online, app and health services; pharmacy details were not researched.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about £1.7 billion of sales (2025), about 9.5 million UK web visits in October 2026 and its position as the second specialist named by Mintel.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "superdrug.com received an estimated 9.46M visits from the United Kingdom in October 2026 (86.91% of 10.88M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "9.46M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/superdrug.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Superdrug's fiscal 2025 sales rose 5.2% with profit before tax of £144.1 million; it opened 22 stores, expanded its online marketplace into fashion with over 60 brands and offers 30-minute delivery of over 8,000 products through Just Eat. Online sales: Not found.",
+          "metric_type": "revenue",
+          "value": "sales +5.2%; profit before tax £144.1 million",
+          "period": "Financial year 2025 (reported 2026-07-06)",
+          "nature": "company_reported",
+          "source_url": "https://retailtimes.co.uk/superdrug-reports-fifth-year-of-financial-growth/",
+          "source_name": "Superdrug via Retail Times",
+          "source_date": "2026-07-06"
+        },
+        {
+          "claim": "A search-result summary of The Retail Bulletin puts Superdrug's 2025 sales at about £1.7 billion (the article page returned HTTP 403).",
+          "metric_type": "revenue",
+          "value": "about £1.7 billion sales",
+          "period": "Financial year 2025",
+          "nature": "company_reported",
+          "source_url": "https://www.theretailbulletin.com/health-and-beauty/superdrug-sales-up-5-2-despite-challenging-backdrop-07-07-2026/",
+          "source_name": "Superdrug via The Retail Bulletin",
+          "source_date": "2026-07-07"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "superdrug.com returned 'Access Denied' to automated access, so presence was checked on Trolley.co.uk (2026-11-26): Superdrug was listed as a stockist for six of nine sampled products (Pantene, Head & Shoulders, Garnier, Sensodyne, L'Oréal Elvive, Colgate). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "https://www.superdrug.com/a-z-brands"
+        ]
+      },
+      "product_coverage_note": "Mass health and beauty; six of nine sampled mass products confirmed.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A third-party marketplace operates on superdrug.com (Retail Times reports its expansion into fashion with over 60 brands); no public seller API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "superdrug.com blocks automated access (HTTP 403, including robots.txt); data would need a provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "About £1.7 billion of total sales and about 9.5 million UK web visits; online sales not found."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Mass health-and-beauty specialist named by Mintel among the leading online retailers for the category."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 9.5 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Six of nine sampled mass products stocked."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refuses automated access."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Second specialist after Boots and closest to a mass-market, value positioning. Reservation: online sales are not disclosed and the site is closed to automated access.",
+      "confidence": "medium",
+      "confidence_note": "Traffic, sales growth and marketplace facts are verified; the £1.7 billion sales figure comes from a search-result summary and brand presence rests on a third-party comparison site.",
+      "sources": [
+        {
+          "url": "https://www.retail-week.com/health-and-beauty/superdrug-delivers-robust-growth-as-profits-and-sales-rise/7051575.article",
+          "title": "Superdrug delivers robust growth as profits and sales rise",
+          "publisher": "Retail Week",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://store.mintel.com/report/uk-online-beauty-personal-care-retailing-market-report",
+          "title": "UK Online Beauty and Personal Care Retailing Market Report 2026",
+          "publisher": "Mintel",
+          "published_date": "2026-10-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/superdrug.com/overview/",
+          "title": "superdrug.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://retailtimes.co.uk/superdrug-reports-fifth-year-of-financial-growth/",
+          "title": "Superdrug reports fifth year of financial growth",
+          "publisher": "Retail Times",
+          "published_date": "2026-07-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.theretailbulletin.com/health-and-beauty/superdrug-sales-up-5-2-despite-challenging-backdrop-07-07-2026/",
+          "title": "Superdrug sales up 5.2% despite challenging backdrop",
+          "publisher": "The Retail Bulletin",
+          "published_date": "2026-07-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "title": "Pantene Pro-V Classic Clean Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "title": "Garnier Ultimate Blends Honey Treasures Strengthening Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "title": "Sensodyne Daily Care Original Mint Sensitive Teeth Toothpaste - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.superdrug.com/a-z-brands",
+          "title": "Access Denied (superdrug.com brand A-Z refused automated access)",
+          "publisher": "Superdrug",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Asda (asda.com)",
+      "website": "https://www.asda.com",
+      "operator": "Asda",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Third-largest grocer (11.3% share) fulfilling more than 700,000 online grocery orders a week; six of the nine sampled mass products were stocked. Online grocery sales fell 8.1% in 2025 during a website migration.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: pharmacy services were not checked.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on an 11.3% grocery share (Worldpanel), more than 700,000 weekly online orders (IGD) and about 26 million UK web visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "asda.com received an estimated 26.27M visits from the United Kingdom in October 2026 (93.27% of 28.17M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "26.27M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/asda.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Worldpanel by Numerator (consumer-panel estimate, not a verified share): Asda held 11.3% of the UK grocery market in the 12 weeks to 1 November 2026 (down from 11.6%).",
+          "metric_type": "market_share",
+          "value": "11.3% grocery share (all channels)",
+          "period": "12 weeks to 2026-11-01",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "source_name": "Worldpanel by Numerator via AJ Bell",
+          "source_date": "2026-11-10"
+        },
+        {
+          "claim": "IGD reports that Asda fulfils more than 700,000 online grocery orders a week from around 1,100 stores and puts its online market share at around 11.5%; Asda's Deliveroo partnership covers more than 850 stores.",
+          "metric_type": "other",
+          "value": "more than 700,000 online grocery orders a week; about 11.5% online share (estimate)",
+          "period": "2026 (published 2026-06-01)",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.igd.com/articles/asda-and-ocado-what-the-deal-means-for-uk-online-grocery/73302",
+          "source_name": "IGD",
+          "source_date": "2026-06-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "asda.com returned a security page to automated access, so presence was checked on Trolley.co.uk (2026-11-26): Asda was listed as a stockist for six of nine sampled products (Dove, Head & Shoulders, Garnier, Sensodyne, L'Oréal Elvive, Colgate). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873"
+        ]
+      },
+      "product_coverage_note": "Mainstream supermarket range; six of nine sampled mass products confirmed.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found. Asda announced in May 2026 that it will move its online grocery service to Ocado's Smart Platform, with rollout slated for 2027 (search-result summaries).",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "asda.com blocks automated access; data would need a provider or comparison sites, and the platform migration in 2027 may change page structures.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "More than 700,000 online orders a week but online sales fell 8.1% in 2025."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Mainstream supermarket channel for everyday personal care."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 26 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Six of nine sampled mass products stocked."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refuses automated access."
+        }
+      },
+      "weighted_score": 3.3,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "Solid supermarket channel with a large web audience; lower priority while its online platform is being rebuilt on Ocado technology.",
+      "confidence": "medium",
+      "confidence_note": "Share, traffic and order volumes are verified; the 2025 online sales decline and the Ocado announcement come from search-result summaries.",
+      "sources": [
+        {
+          "url": "https://corporate.asda.com/newsroom/2026/29/05/asda-partners-with-ocado-group-to-enhance-online-grocery-service",
+          "title": "Asda partners with Ocado Group to enhance online grocery service",
+          "publisher": "Asda",
+          "published_date": "2026-05-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.thegrocer.co.uk/news/asda-online-grocery-sales-drop-81-amid-website-disruption/720695.article",
+          "title": "Asda online grocery sales drop 8.1% amid website disruption",
+          "publisher": "The Grocer",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.igd.com/articles/the-ps55bn-opportunity-how-quick-commerce-is-being-rebuilt/73553",
+          "title": "The £5.5bn opportunity: how quick commerce is being rebuilt",
+          "publisher": "IGD",
+          "published_date": "2026-07-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/asda.com/overview/",
+          "title": "asda.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "title": "UK grocery price inflation accelerates ahead of festive period",
+          "publisher": "AJ Bell (Alliance News)",
+          "published_date": "2026-11-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.igd.com/articles/asda-and-ocado-what-the-deal-means-for-uk-online-grocery/73302",
+          "title": "Asda and Ocado: what the deal means for UK online grocery",
+          "publisher": "IGD",
+          "published_date": "2026-06-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "title": "Garnier Ultimate Blends Honey Treasures Strengthening Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "title": "Sensodyne Daily Care Original Mint Sensitive Teeth Toothpaste - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Morrisons (groceries.morrisons.com)",
+      "website": "https://groceries.morrisons.com",
+      "operator": "Morrisons",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Sixth-ranked grocer by share (8.3%, just behind Lidl at 8.6%) with an open, readable online store: its own search returned Dove shampoo and Colgate ranges, and eight of the nine sampled mass products were stocked.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "The site navigation links to 'Morrisons Clinic'; pharmacy services were not researched.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on an 8.3% grocery share (Worldpanel, via Shopappy) and about 9 million UK web visits in October 2026; online sales are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "morrisons.com received an estimated 8.99M visits from the United Kingdom in October 2026 (90.87% of 9.89M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "8.99M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/morrisons.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Worldpanel by Numerator (consumer-panel estimate, not a verified share): Morrisons held 8.3% of the UK grocery market in the 12 weeks to 1 November 2026 (sales +2.0%), as reported by Shopappy.",
+          "metric_type": "market_share",
+          "value": "8.3% grocery share (all channels)",
+          "period": "12 weeks to 2026-11-01",
+          "nature": "third_party_estimate",
+          "source_url": "https://shopappy.com/?p=13009",
+          "source_name": "Worldpanel by Numerator via Shopappy",
+          "source_date": "2026-11-10"
+        },
+        {
+          "claim": "Morrisons reported 'More Card active users up 11% to a record 8 million' and double-digit like-for-like online growth for the 52 weeks ending 26 October 2025.",
+          "metric_type": "customers",
+          "value": "8 million active More Card users",
+          "period": "52 weeks to 2025-10-26",
+          "nature": "company_reported",
+          "source_url": "https://www.morrisons-corporate.com/media-centre/corporate-news/morrisons-full-year-202425-results-and-christmas-2025-trading-update/",
+          "source_name": "Morrisons",
+          "source_date": "2026-01-21"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on Morrisons' own online store (rendered 2026-11-26): the search page for 'dove shampoo' named Dove 21 times and the page for 'colgate' named Colgate 20 times. Trolley.co.uk also listed Morrisons as a stockist for eight of nine sampled products (all except Vaseline).",
+        "source_urls": [
+          "https://groceries.morrisons.com/search?q=dove%20shampoo",
+          "https://groceries.morrisons.com/search?q=colgate",
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "https://www.trolley.co.uk/product/nivea-creme-all-purpose-body-cream-for-face-hands-and-body/BEZ987",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873"
+        ]
+      },
+      "product_coverage_note": "Mainstream supermarket range; eight of nine sampled mass products confirmed.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found. Morrisons uses Instaleap to manage orders from Uber Eats, Just Eat and Deliveroo.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "The online store's search pages rendered for an automated browser without a block, so prices and listings are observable; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "8.3% grocery share and about 9 million UK web visits; online sales not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Mainstream supermarket channel for everyday personal care."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 9 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Eight of nine sampled mass products stocked, two verified on Morrisons' own pages."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No API, but public search pages are readable."
+        }
+      },
+      "weighted_score": 3.3,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Ranks above larger grocers on the formula because its site is the easiest UK supermarket to read; a practical early source for grocery-channel pricing.",
+      "confidence": "medium",
+      "confidence_note": "Share, traffic, loyalty figures and on-site listings are verified; online sales in pounds are not disclosed.",
+      "sources": [
+        {
+          "url": "https://www.grocerygazette.co.uk/2026/09/08/morrisons-enhances-online-order-fulfilment-with-instaleap/",
+          "title": "Morrisons enhances online order fulfilment with Instaleap",
+          "publisher": "Grocery Gazette",
+          "published_date": "2026-09-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/morrisons.com/overview/",
+          "title": "morrisons.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://shopappy.com/?p=13009",
+          "title": "Worldpanel by Numerator grocery market share, 12 weeks to 1 November 2026 (news summary)",
+          "publisher": "Shopappy",
+          "published_date": "2026-11-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.morrisons-corporate.com/media-centre/corporate-news/morrisons-full-year-202425-results-and-christmas-2025-trading-update/",
+          "title": "Morrisons full year 2024/25 results and Christmas 2025 trading update",
+          "publisher": "Morrisons",
+          "published_date": "2026-01-21",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://groceries.morrisons.com/search?q=dove%20shampoo",
+          "title": "Search results for dove shampoo - Morrisons online supermarket",
+          "publisher": "Morrisons",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://groceries.morrisons.com/search?q=colgate",
+          "title": "Search results for colgate - Morrisons online supermarket",
+          "publisher": "Morrisons",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "title": "Pantene Pro-V Classic Clean Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "title": "Garnier Ultimate Blends Honey Treasures Strengthening Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "title": "Sensodyne Daily Care Original Mint Sensitive Teeth Toothpaste - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/nivea-creme-all-purpose-body-cream-for-face-hands-and-body/BEZ987",
+          "title": "Nivea Creme All Purpose Body Cream - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "eBay UK (ebay.co.uk)",
+      "website": "https://www.ebay.co.uk",
+      "operator": "eBay Inc.",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Reseller marketplace; Trolley.co.uk listed eBay as a place to buy five of the nine sampled mass products, but listings are placed by third-party sellers rather than brand owners.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 69 million UK web visits in October 2026, second among UK retail sites (Semrush); UK gross merchandise volume is Not publicly disclosed (eBay reports international GMV of $10.6 billion for Q3 2026).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "ebay.co.uk received an estimated 69.22M visits from the United Kingdom in October 2026 (69.41% of 99.72M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "69.22M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/ebay.co.uk/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "eBay reported international (non-US) gross merchandise volume of $10,621 million for Q3 2026 (+4%); a UK figure is Not publicly disclosed.",
+          "metric_type": "gmv",
+          "value": "$10,621 million international GMV (quarter; not UK-specific)",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://finviz.com/news/410508/ebay-inc-reports-third-quarter-2026-results",
+          "source_name": "eBay Inc. (via Finviz)",
+          "source_date": "2026-10-28"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "ebay.co.uk search pages returned an error page to automated access. Trolley.co.uk (2026-11-26) listed eBay as a stockist for five of nine sampled products (Dove, Pantene, Head & Shoulders, Sensodyne, Vaseline). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "https://www.trolley.co.uk/product/vaseline-intensive-care-cocoa-radiant-body-lotion/IBA461"
+        ]
+      },
+      "product_coverage_note": "Reseller listings of branded goods; coverage is unmanaged.",
+      "data_access_method": "unknown",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "UNVERIFIED: the eBay developer portal (developer.ebay.com) returned HTTP 403 to automated fetches, so API scope could not be confirmed in this session.",
+        "docs_url": "https://developer.ebay.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Sitemaps are public; search pages blocked automated access; API details are UNVERIFIED.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Second most-visited UK retail site with about 69 million UK visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Reseller channel rather than a managed route to market."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 69 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Five of nine sampled mass products available through eBay sellers."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemaps; developer documentation could not be read (UNVERIFIED)."
+        }
+      },
+      "weighted_score": 3.3,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "High reach, low category relevance; mainly useful for grey-market and price-erosion monitoring.",
+      "confidence": "medium",
+      "confidence_note": "Traffic is verified; UK sales and API scope are not.",
+      "sources": [
+        {
+          "url": "https://developer.ebay.com/",
+          "title": "eBay developer portal (HTTP 403 returned to automated fetch; content not read)",
+          "publisher": "eBay Inc.",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/ebay.co.uk/overview/",
+          "title": "ebay.co.uk Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://finviz.com/news/410508/ebay-inc-reports-third-quarter-2026-results",
+          "title": "eBay Inc. Reports Third Quarter 2026 Results",
+          "publisher": "eBay Inc. (via Finviz)",
+          "published_date": "2026-10-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "title": "Pantene Pro-V Classic Clean Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/sensodyne-daily-care-original-mint-sensitive-teeth-toothpaste/UAL544",
+          "title": "Sensodyne Daily Care Original Mint Sensitive Teeth Toothpaste - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/vaseline-intensive-care-cocoa-radiant-body-lotion/IBA461",
+          "title": "Vaseline Intensive Care Cocoa Radiant Body Lotion - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "TikTok Shop (UK)",
+      "website": "https://shop.tiktok.com",
+      "operator": "TikTok (ByteDance)",
+      "status": "active",
+      "platform_category": "social_commerce",
+      "marketplace_type": "social_commerce",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "TikTok says the shop is the UK's fourth-largest beauty retailer with beauty sales up 60% in 2025, and Lookfantastic's TikTok Shop revenue rose 26% in H1 2026; the brands named in coverage are mostly indie, K-beauty and cosmetics (The Ordinary, Medicube, e.l.f.), so relevance to mass FMCG hair, skin and oral care is unproven.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on TikTok's own claim of fourth place among UK beauty retailers and 60% beauty growth; no UK sales or shopper figure was found (Not publicly disclosed).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "TikTok Shop 'has cemented its position as the UK's fourth-largest beauty retailer' with beauty sales up 60% year on year in 2025 (company claim; ranking source not named).",
+          "metric_type": "market_share",
+          "value": "Rank 4 among UK beauty retailers (company claim); beauty sales +60%",
+          "period": "2025 (published 2026-01-28)",
+          "nature": "company_reported",
+          "source_url": "https://retailtimes.co.uk/tiktok-shop-emerges-as-uks-fourth-largest-beauty-retailer-with-60-yoy-growth-and-k-beauty-surge/",
+          "source_name": "TikTok via Retail Times",
+          "source_date": "2026-01-28"
+        },
+        {
+          "claim": "THG reports that Lookfantastic's revenue from TikTok Shop rose 26% year on year in H1 2026, evidence that established UK beauty retailers sell through the channel.",
+          "metric_type": "other",
+          "value": "Lookfantastic TikTok Shop revenue +26% YoY",
+          "period": "H1 2026",
+          "nature": "company_reported",
+          "source_url": "https://cosmeticsbusiness.com/thg-beauty-revenue-jumps-h1-2026",
+          "source_name": "THG via Cosmetics Business",
+          "source_date": "2026-09-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED for the checklist brands: shop.tiktok.com redirected to a verification puzzle, which was not attempted, and listings are otherwise shown in-app. Coverage names The Beauty Crop, The Ordinary, Medicube, Mixsoon, Beauty of Joseon and e.l.f. as active on TikTok Shop UK.",
+        "source_urls": [
+          "https://retailtimes.co.uk/tiktok-shop-emerges-as-uks-fourth-largest-beauty-retailer-with-60-yoy-growth-and-k-beauty-surge/",
+          "https://shop.tiktok.com/"
+        ]
+      },
+      "product_coverage_note": "Creator-led listings; strong in skin care and cosmetics, mass FMCG coverage not confirmed.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "TikTok Shop Partner Center documentation covers Seller, Products, Promotion, Orders, Fulfillment, Logistics, Return and refund, Finance, Analytics, Customer service and Affiliate APIs for authorised sellers and partners.",
+        "docs_url": "https://partner.tiktokshop.com/docv2/page/seller-api-overview"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "A documented API serves a seller's own shop (including analytics); competitor data is harder because shopping happens in-app.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Fast-growing social commerce channel; no UK sales figure was found."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Claims fourth place among UK beauty retailers, but the evidence points to indie and K-beauty brands rather than mass FMCG."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "No audited UK shopper count was found; reach is inferred from the company's ranking claim."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED for the checklist brands; neutral score."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented Partner Center API including analytics for a seller's own shop."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Worth early monitoring because of its growth in beauty and its API. Reservation: every reach figure is a company claim and the July 2026 'second-largest' report conflicts with the 'fourth-largest' claim.",
+      "confidence": "low",
+      "confidence_note": "No independent UK sales or audience data; rankings are company claims with unnamed sources.",
+      "sources": [
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/seller-api-overview",
+          "title": "Seller API overview | TikTok Shop Partner Center",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/tiktok-shop-beauty-sales-soar-60-as-platform-delivers-10bn-uk-boost/",
+          "title": "TikTok Shop beauty sales soar 60% as platform delivers £10bn UK boost",
+          "publisher": "Retail Gazette",
+          "published_date": "2026-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://retailtimes.co.uk/tiktok-shop-emerges-as-uks-fourth-largest-beauty-retailer-with-60-yoy-growth-and-k-beauty-surge/",
+          "title": "TikTok Shop emerges as UK's fourth-largest beauty retailer with 60% YoY growth and K-Beauty surge",
+          "publisher": "Retail Times",
+          "published_date": "2026-01-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://cosmeticsbusiness.com/thg-beauty-revenue-jumps-h1-2026",
+          "title": "THG Beauty revenue jumps in H1 2026",
+          "publisher": "Cosmetics Business",
+          "published_date": "2026-09-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://shop.tiktok.com/",
+          "title": "Security Check (shop.tiktok.com redirected to a verification puzzle)",
+          "publisher": "TikTok Shop",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Sainsbury's (sainsburys.co.uk)",
+      "website": "https://www.sainsburys.co.uk",
+      "operator": "J Sainsbury plc",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Second-largest grocer (15.5% share); seven of the nine sampled mass products were stocked. Online growth for the 2026/27 first half was Not found; the prior year's first half showed grocery online sales up 11.4%.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: pharmacy services were not checked.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on a 15.5% grocery share (Worldpanel; 12-week sales £5.56 billion) and about 18 million UK web visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "sainsburys.co.uk received an estimated 17.59M visits from the United Kingdom in October 2026 (91.59% of 19.21M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "17.59M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/sainsburys.co.uk/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Worldpanel by Numerator (consumer-panel estimate, not a verified share): Sainsbury's held 15.5% of the UK grocery market in the 12 weeks to 1 November 2026 (sales £5.56 billion, +0.8%).",
+          "metric_type": "market_share",
+          "value": "15.5% grocery share (all channels)",
+          "period": "12 weeks to 2026-11-01",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "source_name": "Worldpanel by Numerator via AJ Bell",
+          "source_date": "2026-11-10"
+        },
+        {
+          "claim": "Sainsbury's interim results for the 28 weeks to 13 September 2025 reported Groceries Online sales up 11.4%, including sainsburys.co.uk and OnDemand channels (the 2026/27 interim figure was Not found).",
+          "metric_type": "revenue",
+          "value": "Groceries Online sales +11.4%",
+          "period": "28 weeks to 2025-09-13",
+          "nature": "company_reported",
+          "source_url": "https://corporate.sainsburys.co.uk/news/press-releases/interim-results-for-the-28-weeks-ended-13-september-2025/",
+          "source_name": "J Sainsbury plc",
+          "source_date": "2025-11-06"
+        },
+        {
+          "claim": "IGD reports that Sainsbury's made more than £700 million of quick-commerce sales in 2025, up 69% year on year.",
+          "metric_type": "revenue",
+          "value": "more than £700 million quick-commerce sales",
+          "period": "2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.igd.com/articles/the-ps55bn-opportunity-how-quick-commerce-is-being-rebuilt/73553",
+          "source_name": "IGD",
+          "source_date": "2026-07-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "sainsburys.co.uk returned 'Access Denied' to automated access, so presence was checked on Trolley.co.uk (2026-11-26): Sainsbury's was listed as a stockist for seven of nine sampled products (Dove, Pantene, Head & Shoulders, Garnier, Vaseline, L'Oréal Elvive, Colgate). Trolley.co.uk is an independent price-comparison site that lists which retailers stock a product and at what price; this is third-party evidence, not the platform's own page, and covers nine sampled products only.",
+        "source_urls": [
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "https://www.trolley.co.uk/product/vaseline-intensive-care-cocoa-radiant-body-lotion/IBA461",
+          "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873"
+        ]
+      },
+      "product_coverage_note": "Mainstream supermarket range; seven of nine sampled mass products confirmed.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "sainsburys.co.uk blocks automated access (HTTP 403, including robots.txt); data would need a provider or comparison sites.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Second-largest grocer by share; current online sales were not found."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Mainstream supermarket channel for everyday personal care."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 18 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Seven of nine sampled mass products stocked."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refuses automated access."
+        }
+      },
+      "weighted_score": 3.1,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "Reservation about the order: Sainsbury's is the second-largest grocer but ranks below Asda and Morrisons here because its web audience is smaller than Asda's and its site, unlike Morrisons', is closed to automated access.",
+      "confidence": "medium",
+      "confidence_note": "Share and traffic are verified; current online growth was not found.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/sainsburys.co.uk/overview/",
+          "title": "sainsburys.co.uk Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "title": "UK grocery price inflation accelerates ahead of festive period",
+          "publisher": "AJ Bell (Alliance News)",
+          "published_date": "2026-11-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://corporate.sainsburys.co.uk/news/press-releases/interim-results-for-the-28-weeks-ended-13-september-2025/",
+          "title": "Interim Results for the 28 weeks ended 13 September 2025",
+          "publisher": "J Sainsbury plc",
+          "published_date": "2025-11-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.igd.com/articles/the-ps55bn-opportunity-how-quick-commerce-is-being-rebuilt/73553",
+          "title": "The £5.5bn opportunity: how quick commerce is being rebuilt",
+          "publisher": "IGD",
+          "published_date": "2026-07-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/pantene-classic-clean-shampoo/YUE307",
+          "title": "Pantene Pro-V Classic Clean Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/head-shoulders-itchy-scalp-shampoo/EBG422",
+          "title": "Head & Shoulders Itchy Scalp Anti Dandruff Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/garnier-ultimate-blends-honey-treasures-shampoo/LNE892",
+          "title": "Garnier Ultimate Blends Honey Treasures Strengthening Shampoo - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/vaseline-intensive-care-cocoa-radiant-body-lotion/IBA461",
+          "title": "Vaseline Intensive Care Cocoa Radiant Body Lotion - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/loreal-elvive-dream-lengths-shampoo/VYN257",
+          "title": "L'Oreal Elvive Dream Lengths Shampoo (400ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Lookfantastic (lookfantastic.com)",
+      "website": "https://www.lookfantastic.com",
+      "operator": "THG PLC (THG Beauty)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Online beauty specialist with a prestige and 'masstige' range: its brand directory (about 400-430 brands) lists L'Oréal Paris, Garnier, Neutrogena, CeraVe, Cetaphil and Maybelline but not Dove, Pantene, Head & Shoulders, Nivea, Vaseline, Colgate or Sensodyne.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on THG Beauty revenue of £500.2 million in H1 2026 (all sites and countries) and about 6.3 million UK web visits in October 2026; Lookfantastic-only UK sales are Not publicly disclosed. Niche in total UK online retail.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "lookfantastic.com received an estimated 6.31M visits from the United Kingdom in October 2026 (86.45% of 7.29M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "6.31M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/lookfantastic.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "THG Beauty revenue rose 5.9% to £500.2 million in the six months to 30 June 2026, with UK retail revenue up 6.7%; the figure covers all THG Beauty sites and countries.",
+          "metric_type": "revenue",
+          "value": "£500.2 million (THG Beauty division, half-year)",
+          "period": "H1 2026",
+          "nature": "company_reported",
+          "source_url": "https://cosmeticsbusiness.com/thg-beauty-revenue-jumps-h1-2026",
+          "source_name": "THG via Cosmetics Business",
+          "source_date": "2026-09-11"
+        },
+        {
+          "claim": "FashionUnited reports 7.5 million active customers across THG's beauty division and 3.5 million loyalty members (division-wide, not UK-only).",
+          "metric_type": "customers",
+          "value": "7.5 million active customers (division-wide)",
+          "period": "H1 2026",
+          "nature": "company_reported",
+          "source_url": "https://fashionunited.uk/news/business/thg-posts-7-2-percent-revenue-increase-in-first-half-of-2026/2026091090258",
+          "source_name": "THG via FashionUnited",
+          "source_date": "n.d. (September 2026)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on Lookfantastic's own public brand directory (fetched 2026-11-26): L'Oréal Paris, Garnier, Neutrogena, CeraVe, Cetaphil and Maybelline are listed; Dove, Pantene, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne and Olay are not.",
+        "source_urls": [
+          "https://www.lookfantastic.com/brands.list"
+        ]
+      },
+      "product_coverage_note": "Prestige and dermo-cosmetic skin care, hair care and make-up; two of the core checklist brands plus four other mass or dermo brands.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found; Lookfantastic is a first-party retailer.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "The brand directory was readable by a simple fetch; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pure-play specialist with about 6.3 million UK web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Relevant for skin care and premium hair care, but core FMCG brands are absent."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 6.3 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Six mass or dermo brands listed; most core checklist brands absent."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No API, but public pages are readable."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Relevant mainly for skin care and premium lines; lower priority for mass hair and oral care.",
+      "confidence": "medium",
+      "confidence_note": "Traffic, division revenue and the brand directory are verified; UK-only sales are not disclosed.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/lookfantastic.com/overview/",
+          "title": "lookfantastic.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://cosmeticsbusiness.com/thg-beauty-revenue-jumps-h1-2026",
+          "title": "THG Beauty revenue jumps in H1 2026",
+          "publisher": "Cosmetics Business",
+          "published_date": "2026-09-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://fashionunited.uk/news/business/thg-posts-7-2-percent-revenue-increase-in-first-half-of-2026/2026091090258",
+          "title": "THG posts 7.2 percent revenue increase in first half of 2026",
+          "publisher": "FashionUnited",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.lookfantastic.com/brands.list",
+          "title": "Lookfantastic brand directory (brands.list)",
+          "publisher": "Lookfantastic (THG)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu (UK)",
+      "website": "https://www.temu.com",
+      "operator": "Temu / WhaleCo group (UK entity: Whaleco UK Limited)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Cross-border discount marketplace; no evidence was found that mass-market hair, skin or oral-care brands are a meaningful part of its UK offer.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 23 million UK web visits in October 2026; the UK entity's reported revenue (about USD 171 million in 2025) is service revenue and campaigners allege most UK consumer spend is booked through an Irish entity, so UK consumer sales are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "temu.com received an estimated 23.47M visits from the United Kingdom in October 2026 (3.8% of 618.01M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "23.47M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/temu.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Whaleco UK Limited reported revenue of roughly USD 171 million for 2025, up about 171% (accounts filed 30 September 2026); the company works mainly as a service entity and campaigners allege most UK consumer spend is booked through an Irish entity.",
+          "metric_type": "revenue",
+          "value": "about USD 171 million (UK service entity, 2025)",
+          "period": "Year to 2025-12-31",
+          "nature": "company_reported",
+          "source_url": "https://shopappy.com/trade/tariffs-customs/temu-uk-sales-171m-duty-relief-ends-2028",
+          "source_name": "Whaleco UK accounts as reported by Shopappy",
+          "source_date": "2026-10 (early October)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. temu.com redirected to a login page and no account was created, so the storefront was not read; no source confirmed checklist brands on Temu, and none of the nine products sampled on Trolley.co.uk listed Temu.",
+        "source_urls": [
+          "https://www.temu.com/"
+        ]
+      },
+      "product_coverage_note": "Not verified; press coverage describes a bargain marketplace for low-priced goods shipped from China.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The TEMU Partner Platform publishes a Partner Guide, Developer Guide and API Reference with separate platforms for US, EU and Global sellers; access is for registered sellers and service providers. A UK-specific platform was not identified.",
+        "docs_url": "https://partner.temu.com/documentation"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Seller-side API exists for a seller's own listings; competitor monitoring would rely on a data provider.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "About 23 million UK web visits; UK consumer sales are not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "No evidence of mass-market branded hair, skin or oral care."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 23 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "UNVERIFIED; cross-border unbranded positioning suggests low coverage."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Documented partner API for sellers; no easy route to competitor data."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "Large audience but little evidence of relevance to branded mass-market personal care. The UK plans to remove the £135 low-value import relief by October 2028, which may change its economics.",
+      "confidence": "low",
+      "confidence_note": "Traffic is evidenced; consumer sales and assortment are not.",
+      "sources": [
+        {
+          "url": "https://partner.temu.com/documentation",
+          "title": "TEMU Partner Platform",
+          "publisher": "Temu (WhaleCo Inc.)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/temu-uk-revenue-jumps-171-but-import-duty-crackdown-looms-large/",
+          "title": "Temu UK revenue jumps 171% but import duty crackdown looms large",
+          "publisher": "Retail Gazette",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/temu.com/overview/",
+          "title": "temu.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://shopappy.com/trade/tariffs-customs/temu-uk-sales-171m-duty-relief-ends-2028",
+          "title": "Temu UK sales USD 171m; duty relief ends 2028",
+          "publisher": "Shopappy",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.temu.com/",
+          "title": "Temu | Login (temu.com redirected to a login page)",
+          "publisher": "Temu",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Ocado (ocado.com)",
+      "website": "https://www.ocado.com",
+      "operator": "Ocado Retail Ltd (co-owned by Ocado Group and Marks & Spencer)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Pure-play online grocer at a record 2.3% grocery share and growing about 12%; personal care is part of the grocery range, but brand presence could not be verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on a record 2.3% grocery share with 12-week sales of £822 million (Worldpanel) and Ocado Retail revenue growth of 15% in H1 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "ocado.com received an estimated 4.82M visits from the United Kingdom in October 2026 (91.57% of 5.26M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "4.82M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/ocado.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Worldpanel by Numerator (consumer-panel estimate, not a verified share): Ocado reached a record 2.3% share of the UK grocery market in the 12 weeks to 1 November 2026, with sales up 12% to £822 million.",
+          "metric_type": "market_share",
+          "value": "2.3% grocery share; £822 million sales (12 weeks)",
+          "period": "12 weeks to 2026-11-01",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "source_name": "Worldpanel by Numerator via AJ Bell",
+          "source_date": "2026-11-10"
+        },
+        {
+          "claim": "Ocado Group's half-year 2026 results page reports Ocado Retail revenue +15% and orders +13%; active customers were Not found on the page.",
+          "metric_type": "revenue",
+          "value": "Ocado Retail revenue +15%; orders +13%",
+          "period": "H1 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.ocadogroup.com/investors/results-and-presentations/half-year-results-2026",
+          "source_name": "Ocado Group",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. Ocado's search page loaded for an automated browser but did not render results, robots.txt returned an empty response, and Trolley.co.uk did not list Ocado for any of the nine sampled products.",
+        "source_urls": [
+          "https://www.ocado.com/search?entry=dove"
+        ]
+      },
+      "product_coverage_note": "Not verified.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Search results did not render for an automated browser; data would need a provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Online-only grocer with £822 million of sales in 12 weeks and double-digit growth."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Grocery channel where personal care is secondary; assortment UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 4.8 million UK web visits in October 2026 (Semrush estimate; app use excluded)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED; neutral score."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found; pages did not render results for automated access."
+        }
+      },
+      "weighted_score": 2.6,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Fastest-growing UK grocer in the Worldpanel data but small in absolute terms, and its personal-care range could not be checked. Its platform will also power Asda's online store from 2027.",
+      "confidence": "low",
+      "confidence_note": "Share and growth are verified; assortment and data access are not.",
+      "sources": [
+        {
+          "url": "https://corporate.asda.com/newsroom/2026/29/05/asda-partners-with-ocado-group-to-enhance-online-grocery-service",
+          "title": "Asda partners with Ocado Group to enhance online grocery service",
+          "publisher": "Asda",
+          "published_date": "2026-05-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/ocado.com/overview/",
+          "title": "ocado.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ajbell.co.uk/news/articles/uk-grocery-price-inflation-accelerates-ahead-festive-period",
+          "title": "UK grocery price inflation accelerates ahead of festive period",
+          "publisher": "AJ Bell (Alliance News)",
+          "published_date": "2026-11-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ocadogroup.com/investors/results-and-presentations/half-year-results-2026",
+          "title": "Half Year Results 2026",
+          "publisher": "Ocado Group",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ocado.com/search?entry=dove",
+          "title": "All Products - Ocado (search results not rendered for automated browser)",
+          "publisher": "Ocado Retail",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Deliveroo (deliveroo.co.uk)",
+      "website": "https://deliveroo.co.uk",
+      "operator": "Deliveroo (owned by DoorDash, Inc. since 2 October 2025)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Rapid-delivery aggregator whose grocery offer runs through partner retailers (Tesco groceries launched on Deliveroo in September 2026; Asda's Deliveroo partnership covers more than 850 stores; Morrisons also fulfils aggregator orders); personal care is an occasional convenience purchase.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: pharmacy partners were not checked.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on about 7.9 million UK web visits in October 2026 and its role as one of the aggregator apps (with Uber Eats and Just Eat) through which grocers now offer rapid delivery after Getir and Gorillas left in 2024; UK grocery order volumes are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "deliveroo.co.uk received an estimated 7.87M visits from the United Kingdom in October 2026 (65.63% of 12M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "7.87M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/deliveroo.co.uk/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "DoorDash reports that Deliveroo contributed $365 million of its Q3 2026 revenue (all Deliveroo markets; UK grocery share Not publicly disclosed).",
+          "metric_type": "revenue",
+          "value": "$365 million revenue contribution (quarter, all markets)",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
+          "source_name": "DoorDash, Inc. (via U.S. SEC EDGAR)",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play listing shows the 10M+ install band for the Android app (cumulative installs, not active users; all countries).",
+          "metric_type": "app_users",
+          "value": "10M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.deliveroo.orderapp&hl=en&gl=gb",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED on the platform itself (app-centric, location-gated). Inference only: its grocery partners Tesco, Morrisons and Asda stock most of the sampled mass products according to Trolley.co.uk.",
+        "source_urls": [
+          "https://www.directorstalkinterviews.com/wp-content/uploads/2026/10/0690Y_1-2026-10-7.pdf",
+          "https://www.igd.com/articles/the-ps55bn-opportunity-how-quick-commerce-is-being-rebuilt/73553",
+          "https://www.grocerygazette.co.uk/2026/09/08/morrisons-enhances-online-order-fulfilment-with-instaleap/",
+          "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873"
+        ]
+      },
+      "product_coverage_note": "Depends on partner retailers by location; not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "Deliveroo's developer documentation covers Order, Menu, Picking, Catalogue and Site APIs, which appear to serve partner merchants' own integrations (eligibility is not stated on the page); no brand-facing listing or price API was found.",
+        "docs_url": "https://api-docs.deliveroo.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "No brand-facing API and location-gated app listings; data would need a provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small in retail terms; about 7.9 million UK web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Convenience channel; no evidence that personal care is a significant category."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 7.9 million UK web visits in October 2026 (Semrush estimate; app use excluded)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED; neutral score because listings depend on partner grocers."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Partner-merchant APIs only; no brand-facing data access."
+        }
+      },
+      "weighted_score": 2.35,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Low priority now; track because IGD forecasts UK quick commerce to grow 10.7% a year to £5.5 billion by 2031 and Deliveroo is one of its main aggregators.",
+      "confidence": "low",
+      "confidence_note": "Traffic and ownership are verified; grocery volumes and assortment are not.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20251002060133/en",
+          "title": "DoorDash Completes Acquisition of Deliveroo",
+          "publisher": "Business Wire",
+          "published_date": "2025-10-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://api-docs.deliveroo.com/",
+          "title": "deliveroo Documentation",
+          "publisher": "Deliveroo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://deliveroo.co.uk/more/news-articles/tesco-nationwide-rollout-deliveroo",
+          "title": "Tesco nationwide rollout on Deliveroo (news article)",
+          "publisher": "Deliveroo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/deliveroo.co.uk/overview/",
+          "title": "deliveroo.co.uk Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
+          "title": "DoorDash third quarter 2026 financial results press release (Form 8-K, Exhibit 99.1)",
+          "publisher": "DoorDash, Inc. (via U.S. SEC EDGAR)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.deliveroo.orderapp&hl=en&gl=gb",
+          "title": "Deliveroo: Food & Shopping - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/10/0690Y_1-2026-10-7.pdf",
+          "title": "Tesco PLC Interim Results 2026/27 (RNS announcement, PDF copy)",
+          "publisher": "Tesco PLC (copy hosted by DirectorsTalk Interviews)",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.igd.com/articles/the-ps55bn-opportunity-how-quick-commerce-is-being-rebuilt/73553",
+          "title": "The £5.5bn opportunity: how quick commerce is being rebuilt",
+          "publisher": "IGD",
+          "published_date": "2026-07-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.grocerygazette.co.uk/2026/09/08/morrisons-enhances-online-order-fulfilment-with-instaleap/",
+          "title": "Morrisons enhances online order fulfilment with Instaleap",
+          "publisher": "Grocery Gazette",
+          "published_date": "2026-09-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/dove-hydrate-body-wash-shower-gel/OXV397",
+          "title": "Dove Nourishing Body Wash (720ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.trolley.co.uk/product/colgate-total-active-prevention-original-toothpaste/DKN873",
+          "title": "Colgate Total Active Prevention Original Toothpaste (125ml) - Compare Prices & Where To Buy",
+          "publisher": "Trolley.co.uk",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "SHEIN (UK)",
+      "website": "https://www.shein.co.uk",
+      "operator": "SHEIN Group (UK entity reported in the press as Shein Distribution UK Limited)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led cross-border retailer (press coverage compares its UK revenue with ASOS); no evidence was found that mass-market hair, skin or oral-care brands are sold in meaningful volume.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on UK revenue of £2.58 billion in 2025 and about 12 million UK web visits in October 2026. The tier reflects overall e-commerce importance, not relevance to this category, which is low.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "shein.co.uk received an estimated 12.41M visits from the United Kingdom in October 2026 (86.65% of 14.32M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "12.41M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/shein.co.uk/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Shein's UK arm generated £2.58 billion of revenue in 2025 with pre-tax profit up 18% to £45 million.",
+          "metric_type": "revenue",
+          "value": "£2.58 billion UK revenue",
+          "period": "Calendar year 2025",
+          "nature": "company_reported",
+          "source_url": "https://www.cityam.com/shein-uk-revenue-hits-2-5bn-despite-ipo-woes/",
+          "source_name": "Shein UK accounts as reported by City AM",
+          "source_date": "2026-10-07"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. The storefront was not read in this session and no source confirmed checklist brands on SHEIN.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Not verified.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The SHEIN Developer Platform (Open Platform) offers OpenAPI and webhook integration for sellers (product publishing, order fulfilment) after an application review.",
+        "docs_url": "https://open.sheincorp.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Seller API exists for own listings; competitor monitoring would need a data provider.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "£2.58 billion of UK revenue in 2025 from a fashion-led offer."
+        },
+        "beauty_category_relevance": {
+          "score": 1,
+          "note": "Fashion-led; no evidence of mass-market personal-care relevance."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 12 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "UNVERIFIED; fashion-led positioning suggests low coverage."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Documented seller Open Platform; no route to competitor data."
+        }
+      },
+      "weighted_score": 2.35,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Included for completeness of the cross-border set; not a priority for mass-market hair, skin or oral care.",
+      "confidence": "low",
+      "confidence_note": "Revenue and traffic are evidenced; category relevance is not.",
+      "sources": [
+        {
+          "url": "https://open.sheincorp.com/",
+          "title": "SHEIN Developer Platform (Open Platform)",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/shein.co.uk/overview/",
+          "title": "shein.co.uk Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.cityam.com/shein-uk-revenue-hits-2-5bn-despite-ipo-woes/",
+          "title": "Shein UK revenue hits £2.5bn despite IPO woes",
+          "publisher": "City AM",
+          "published_date": "2026-10-07",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Sephora UK (sephora.co.uk)",
+      "website": "https://www.sephora.co.uk",
+      "operator": "Sephora (LVMH); returned to the UK in March 2023",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Prestige beauty retailer expanding quickly (18 UK stores, at least 10 more planned for 2027, shop-in-shops in about 100 M&S stores from spring 2027); Mintel notes it 'excites shoppers with new brands and experiences'. Mass FMCG assortment is UNVERIFIED.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on about 3.7 million UK web visits in October 2026 and 18 stores; UK sales are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "sephora.co.uk received an estimated 3.67M visits from the United Kingdom in October 2026 (85.23% of 4.31M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "3.67M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/sephora.co.uk/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Sephora has 18 UK stores (four in London, 14 elsewhere), plans at least 10 more in 2027 and will open shop-in-shops at selected M&S stores from spring 2027, targeting 100 locations.",
+          "metric_type": "stores",
+          "value": "18 UK stores",
+          "period": "November 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.personalcareinsights.com/news/sephora-uk-store-expansion-2027.html",
+          "source_name": "Sephora via Personal Care Insights",
+          "source_date": "2026-11-17"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. sephora.co.uk/brands returned 'Access Denied' to automated access on 2026-11-26; the low assessment rests on Sephora's prestige positioning.",
+        "source_urls": [
+          "https://www.sephora.co.uk/brands",
+          "https://ca.finance.yahoo.com/news/sephora-world-largest-prestige-beauty-040000281.html"
+        ]
+      },
+      "product_coverage_note": "Prestige make-up, skin care, hair care and fragrance; mass FMCG brands not confirmed.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Public pages are bot-protected (HTTP 403) and there is no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small but fast-growing; about 3.7 million UK web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Prestige positioning; little evidence of mass-market hair, skin or oral-care brands."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 3.7 million UK web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "UNVERIFIED; the brand list refused automated access and the positioning is prestige."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API and bot-protected pages."
+        }
+      },
+      "weighted_score": 2.0,
+      "priority_rank": 15,
+      "is_top3": false,
+      "priority_rationale": "Low priority for a mass-market portfolio; revisit if premium lines are in scope or once the M&S partnership launches in 2027.",
+      "confidence": "low",
+      "confidence_note": "Only traffic and store plans are evidenced.",
+      "sources": [
+        {
+          "url": "https://store.mintel.com/report/uk-online-beauty-personal-care-retailing-market-report",
+          "title": "UK Online Beauty and Personal Care Retailing Market Report 2026",
+          "publisher": "Mintel",
+          "published_date": "2026-10-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/sephora.co.uk/overview/",
+          "title": "sephora.co.uk Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.personalcareinsights.com/news/sephora-uk-store-expansion-2027.html",
+          "title": "Sephora slated to open 10 UK stores in 2027",
+          "publisher": "Personal Care Insights",
+          "published_date": "2026-11-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sephora.co.uk/brands",
+          "title": "Access Denied (sephora.co.uk brand list refused automated access)",
+          "publisher": "Sephora UK",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ca.finance.yahoo.com/news/sephora-world-largest-prestige-beauty-040000281.html",
+          "title": "Sephora, the World's Largest Prestige Beauty Retailer, Takes a Global and Local Approach",
+          "publisher": "WWD via Yahoo Finance",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

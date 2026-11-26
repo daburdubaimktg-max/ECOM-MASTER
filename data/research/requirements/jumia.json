@@ -1,0 +1,1132 @@
+{
+  "marketplace": "Jumia",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "NG",
+    "KE"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "partial",
+  "how_brands_deliver_content": "Self-service Jumia Vendor Center (one system for all Jumia countries): single \"Add a Product\" form, category Excel template import/export, or the Vendor Center API (product create/update feeds). Every creation or edit is validated automatically and then passes Jumia content Quality Check (QC) before it is published. Field-level limits (name, description, highlights) are defined per category attribute set inside Vendor Center / the API and are not published on the public VendorHub pages. Regulated categories (food, cosmetics, etc.) are limited to local sellers and Jumia-managed accounts according to the local policy pages; cross-border sellers use Jumia Global (vendor.jumia.com) with its own guidelines. Brands commonly sell through an Official Store (brand owner or authorised distributor).",
+  "languages": [
+    {
+      "country_code": "NG",
+      "languages": [
+        "en"
+      ],
+      "note": "Jumia Global beauty guideline: Senegal and Cote d'Ivoire must list products in French, \"other countries must use English\"; the Vendor API takes name and description \"in default English language\" with optional translations.",
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/"
+    },
+    {
+      "country_code": "KE",
+      "languages": [
+        "en"
+      ],
+      "note": "Same statement as for Nigeria. No local-language (e.g. Swahili) requirement is published.",
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.composition",
+      "area": "title",
+      "requirement": "Product name is given in English and should consist of the actual product name plus, if available, colour, edition and speciality.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorcenter.jumia.com/api-docs/",
+      "source_title": "VC - Global Product Management (GPM) & Global Order Processing (GOP) API (OpenAPI definition, version \"latest\")",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Wording of the \"name\" field in the Vendor API product-creation schema (\"For a better listing quality, the name should consist the actual product name, if available colour, edition, speciality\")."
+    },
+    {
+      "id": "title.length_limits",
+      "area": "title",
+      "requirement": "Product-name length limits are not published on VendorHub; attribute validation (min/max length, character type, list values) is defined per category attribute set and is enforced at submission.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-attributes/",
+      "source_title": "Product attributes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2025-10-22)",
+      "verification": "official_document",
+      "notes": "The Vendor API endpoint GET /catalog/attribute-sets/{id} returns minLength/maxLength per attribute, so the limits can be read programmatically by an authorised seller."
+    },
+    {
+      "id": "title.no_other_platform_names",
+      "area": "title",
+      "requirement": "Names and brands of other platforms may not be used in product names, descriptions or details.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-listing-guideline/",
+      "source_title": "Product Listing Guideline - Jumia Global VendorHub",
+      "source_date": "2026-03-24 (modified 2026-06-02)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "title.images_must_match",
+      "area": "title",
+      "requirement": "All product images must match the product's title.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.content",
+      "area": "description",
+      "requirement": "Provide a clear and detailed description of the product; the description should give the customer useful information to support a purchase.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-creation-update-status/",
+      "source_title": "Product creation/update status - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2026-07-02)",
+      "verification": "official_document",
+      "notes": "No description length limit or formatting rule is published on VendorHub NG/KE."
+    },
+    {
+      "id": "description.no_chinese",
+      "area": "description",
+      "requirement": "Product descriptions must not use Chinese; images must not contain Chinese characters or watermarks.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-listing-guideline/",
+      "source_title": "Product Listing Guideline - Jumia Global VendorHub",
+      "source_date": "2026-03-24 (modified 2026-06-02)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "description.beauty_ingredients_inci",
+      "area": "description",
+      "requirement": "Beauty products: give the ingredient list in the description, with all ingredients in descending order of concentration using INCI names, plus usage instructions and other relevant information (template also shows a \"Free From\" list).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/",
+      "source_title": "2026 JG FBJ Beauty Product Guidelines - Jumia Global VendorHub",
+      "source_date": "2026-03-23 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Stated as a requirement for Jumia Global FBJ cross-border sellers of beauty products (skin care, hair care, oral care, make-up, fragrance). Not published for local NG/KE sellers, so recorded here as recommended."
+    },
+    {
+      "id": "bullets.beauty_highlights_structure",
+      "area": "bullets",
+      "requirement": "Beauty products: write Product Highlights as USP 1, USP 2, USP 3, then Variant, Volume/Size, Age of Use, Choking Hazard (if applicable) and Allergens.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/",
+      "source_title": "2026 JG FBJ Beauty Product Guidelines - Jumia Global VendorHub",
+      "source_date": "2026-03-23 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Template for Jumia Global FBJ cross-border beauty sellers. No highlight count or length limit is published."
+    },
+    {
+      "id": "attributes.mandatory_fields",
+      "area": "attributes",
+      "requirement": "All mandatory attribute fields of the category must be filled with valid data (data type, list values, length); otherwise the creation/update request is blocked with an error (form), an error report (file import) or an error message (API).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-creation-update-status/",
+      "source_title": "Product creation/update status - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2026-07-02)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.category_specific",
+      "area": "attributes",
+      "requirement": "Attribute fields depend on the product category; some are common (colour, dimensions) and others category-specific. Use metric units (cm, m, L, kg).",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-attributes/",
+      "source_title": "Product attributes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2025-10-22)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.category_level",
+      "area": "attributes",
+      "requirement": "Select the most precise (lowest-level) category; choosing a higher-level category is likely to be judged an incorrect category and fail content QC.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-audit-timeliness-results-view/",
+      "source_title": "Product Audit Timeliness/Results View - Jumia Global VendorHub",
+      "source_date": "2026-04-15 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. The Jumia Global beauty guideline says to select the complete subcategory under Health & Beauty."
+    },
+    {
+      "id": "attributes.nafdac_registration",
+      "area": "attributes",
+      "requirement": "Nigeria: edible, pharmaceutical and beauty products (including but not limited to lotions, lipsticks, powders, deodorants, nail polish and aerosol cans) all require NAFDAC Registration Numbers.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-attributes/",
+      "source_title": "Product attributes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2025-10-22)",
+      "verification": "official_document",
+      "notes": "Quoted: \"if you can ingest it, spray it, or apply it, it should be registered with NAFDAC.\" The product-creation page lists \"NAFDAC Number, License, etc.\" among supporting documents for health or food items."
+    },
+    {
+      "id": "attributes.regulatory_registration_field",
+      "area": "attributes",
+      "requirement": "Products in food-and-drug-agency regulated categories (e.g. foods, alcohol, cosmetics, tobacco) must have valid local registrations; the listing includes a mandatory field for the registration number.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.co.ke/prohibited-and-restricted-products/",
+      "source_title": "Prohibited and Restricted products - Jumia VendorHub KE",
+      "source_date": "2024-07-19 (modified 2026-08-21)",
+      "verification": "official_document",
+      "notes": "Same wording on the NG and KE policy pages (the KE page still refers to Nigeria and does not name the Kenyan regulator or a number format). No KEBS or Pharmacy and Poisons Board field is named on the Kenya VendorHub pages retrieved."
+    },
+    {
+      "id": "attributes.regulated_categories_local_sellers_only",
+      "area": "attributes",
+      "requirement": "All listings in food-and-drug-agency regulated product categories are limited to local sellers and Jumia-managed accounts only.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/prohibited-products/",
+      "source_title": "Prohibited and Restricted Products Policy - Jumia VendorHub NG",
+      "source_date": "2024-06-30 (modified 2026-07-22)",
+      "verification": "official_document",
+      "notes": "The Jumia Global 2026 beauty guideline nevertheless describes a certified route for FBJ cross-border beauty sellers - the two pages are not reconciled publicly."
+    },
+    {
+      "id": "attributes.kebs_pvoc_cross_border",
+      "area": "attributes",
+      "requirement": "Kenya (cross-border FBJ beauty sellers): certification requirement is the KEBS PVOC Certificate of Conformity (CoC); Nigeria: NAFDAC certification. Jumia does not provide certification services.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/",
+      "source_title": "2026 JG FBJ Beauty Product Guidelines - Jumia Global VendorHub",
+      "source_date": "2026-03-23 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "attributes.shelf_life_inbound",
+      "area": "attributes",
+      "requirement": "Beauty stock sent to Jumia warehouses (FBJ) must have remaining shelf life of more than half its total shelf life and not less than 6 months.",
+      "rule_type": "other",
+      "value": 6,
+      "unit": "months",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/",
+      "source_title": "2026 JG FBJ Beauty Product Guidelines - Jumia Global VendorHub",
+      "source_date": "2026-03-23 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "attributes.brand",
+      "area": "attributes",
+      "requirement": "Select the correct brand from the platform database (create the brand first if missing); using a restricted \"Generic\" brand may need approval, and an authorisation letter may be required for branded products.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-creation-update-status/",
+      "source_title": "Product creation/update status - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2026-07-02)",
+      "verification": "official_document",
+      "notes": "Jumia Global adds that the Brand, Colour and Model fields are locked after the product is created/first passes QC."
+    },
+    {
+      "id": "identifiers.gtin_mandatory",
+      "area": "identifiers",
+      "requirement": "gtin_barcode is a mandatory field at product creation for all products that have a barcode printed on their packaging; Jumia maintains a list of brands and categories for which it is mandatory.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/gtin-barcodes/",
+      "source_title": "GTIN barcodes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2024-12-03)",
+      "verification": "official_document",
+      "notes": "Identical on the Kenya page. Accepted types: GTIN-8, GTIN-12 (UPC-A), GTIN-13 (EAN), GTIN-14."
+    },
+    {
+      "id": "identifiers.gtin_unique_per_account",
+      "area": "identifiers",
+      "requirement": "Each GTIN is unique to a product: a seller cannot create more than one product with the same gtin_barcode in the same Jumia account.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/gtin-barcodes/",
+      "source_title": "GTIN barcodes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2024-12-03)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.gtin_exemption",
+      "area": "identifiers",
+      "requirement": "A GTIN exemption can be requested only for brands where Jumia requires barcodes but the items carry no manufacturer barcode; photos of all sides of the product are needed.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/gtin-barcodes/",
+      "source_title": "GTIN barcodes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2024-12-03)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.min_resolution_px",
+      "area": "images_main",
+      "requirement": "Minimum image resolution is 500 x 500 px.",
+      "rule_type": "min_dimension",
+      "value": 500,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.max_resolution_px",
+      "area": "images_main",
+      "requirement": "Maximum image resolution is 3,000 x 3,000 px.",
+      "rule_type": "other",
+      "value": 3000,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary). Jumia Global (cross-border sellers) states 500x500 to 2000x2000 px and a 2 MB file limit instead."
+    },
+    {
+      "id": "images.recommended_resolution_px",
+      "area": "images_main",
+      "requirement": "Images larger than 1,000 px on each side are recommended.",
+      "rule_type": "recommended",
+      "value": 1000,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.min_count",
+      "area": "images_main",
+      "requirement": "At least 1 image is required.",
+      "rule_type": "min_count",
+      "value": 1,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.recommended_count",
+      "area": "images_secondary",
+      "requirement": "6 images and a YouTube video id are recommended.",
+      "rule_type": "recommended",
+      "value": 6,
+      "unit": "images",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Jumia Global states a maximum of 8 images (1 main + 7 secondary)."
+    },
+    {
+      "id": "images.format",
+      "area": "images_main",
+      "requirement": "Accepted file formats: JPEG (.jpg/.jpeg), TIFF (.tif) or PNG (.png); JPEG is recommended.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.quality",
+      "area": "images_main",
+      "requirement": "Images must be clear and unpixellated with no stretched or squashed edges; no watermark is recommended on any image.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.file_name",
+      "area": "images_main",
+      "requirement": "Image file name is composed of the product identifier, the variant code and the file extension (e.g. sellersku124.main.jpg for the main image).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images_main.background",
+      "area": "images_main",
+      "requirement": "Main image must have a pure-white background (RGB 255, 255, 255).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.product_fill_percent",
+      "area": "images_main",
+      "requirement": "Main image must show the product as more than 80% of the image, with the entire product inside the frame.",
+      "rule_type": "other",
+      "value": 80,
+      "unit": "percent",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.no_text_or_graphics",
+      "area": "images_main",
+      "requirement": "Main image must not have text, logos, borders, colour blocks, watermarks or other graphics covering the product or in the background.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.no_extra_items_or_multi_view",
+      "area": "images_main",
+      "requirement": "Main image must not show accessories that are not included, must not include multiple product views in a single image, and must be a realistic professional image (not a placeholder).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.no_reviews_claims_badges",
+      "area": "images_secondary",
+      "requirement": "No image may include customer reviews, five-star imagery, claims (e.g. free shipping), seller-specific information, pricing details, or Jumia badges (or anything confusingly similar).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images.no_nudity_mannequins_used_look",
+      "area": "images_secondary",
+      "requirement": "No image may contain nudity or sexually suggestive content, visible mannequins, or products that look second-hand or used.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Scope: all images (main and secondary)."
+    },
+    {
+      "id": "images_secondary.recommended_views",
+      "area": "images_secondary",
+      "requirement": "Recommended views for consumables: front view (product and key size/pieces information), back view (manufacturer details / composition) and an out-of-packaging view; for other general merchandise: front, back, side, detail, functionality and styled shots.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "No beauty-specific row exists in the image-content table."
+    },
+    {
+      "id": "video.youtube_id",
+      "area": "video",
+      "requirement": "Video is supplied as a YouTube video id alongside the images (recommended, not required).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-images/",
+      "source_title": "Product images - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "No length, format or size limits are published. Jumia Global says the YouTube video is included in the product description."
+    },
+    {
+      "id": "seo.attributes_for_search",
+      "area": "seo",
+      "requirement": "Complete attributes so customers can find the product through Jumia search and filters; GTINs are said to improve grouping and search visibility.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-attributes/",
+      "source_title": "Product attributes - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2025-10-22)",
+      "verification": "official_document",
+      "notes": "Jumia publishes no keyword-field or keyword-density guidance on the pages retrieved."
+    },
+    {
+      "id": "seo.no_keyword_misspelling",
+      "area": "seo",
+      "requirement": "Use correctly spelled words; avoid incorrect or variant spellings.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-restricted-wordingsproduct-restricted-wordings-rules-rules/",
+      "source_title": "Product Restricted Keywords Rules - Jumia Global VendorHub",
+      "source_date": "2026-03-16 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "variants.single_variation_only",
+      "area": "variants",
+      "requirement": "Jumia supports a single variation only: a product may vary by one criterion (e.g. size) and not by two (e.g. size and colour).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-variations/",
+      "source_title": "Product Variations - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.no_appearance_variations",
+      "area": "variants",
+      "requirement": "Variations share one common image set, so only attributes that do not change the product's appearance (size, power, capacity) can be variations; colour and shape cannot.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-variations/",
+      "source_title": "Product Variations - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": "Jumia Global beauty guideline: \"Capacity can be used as a variant, while color should not be used as a variant.\" Different shades therefore need separate products."
+    },
+    {
+      "id": "variants.same_product_family",
+      "area": "variants",
+      "requirement": "Variations must be fundamentally the same product, under the same brand, able to share a single title; do not group different products on one page.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-variations/",
+      "source_title": "Product Variations - Jumia VendorHub NG",
+      "source_date": "2024-07-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.qc_required",
+      "area": "approval",
+      "requirement": "Every product creation or update request passes a content quality check before it is published; statuses are \"pending QC\", \"approved\" and \"rejected\", and rejection reasons are shown per product and can be exported to Excel/CSV.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-creation-update-status/",
+      "source_title": "Product creation/update status - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2026-07-02)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.timeline_local",
+      "area": "approval",
+      "requirement": "Changes may take up to several days to reflect on the app and website because of the quality check.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/product-creation-update-status/",
+      "source_title": "Product creation/update status - Jumia VendorHub NG",
+      "source_date": "2024-07-19 (modified 2026-07-02)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.timeline_manual_review",
+      "area": "approval",
+      "requirement": "Product review is either automatic (results within a short time) or manual, which requires 1-2 business days.",
+      "rule_type": "other",
+      "value": 2,
+      "unit": "business days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-audit-timeliness-results-view/",
+      "source_title": "Product Audit Timeliness/Results View - Jumia Global VendorHub",
+      "source_date": "2026-04-15 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "approval.auto_rules",
+      "area": "approval",
+      "requirement": "Restriction rules (e.g. blacklisted keywords, categories or brands prohibited in specific countries) must pass for a creation/update to succeed; review rules then set the product to auto-approved, auto-rejected or Pending QC (manual).",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/content-quality-control-content-qc/",
+      "source_title": "Content Quality Control (Content QC) - Jumia Global VendorHub",
+      "source_date": "2026-03-20 (modified 2026-11-06)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "approval.unapproved_cleanup_90_days",
+      "area": "approval",
+      "requirement": "A listing that is never approved and never active within 90 days of creation is removed; it is flagged \"Pending Deletion\" from day 60.",
+      "rule_type": "other",
+      "value": 90,
+      "unit": "days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.co.ke/keeping-your-catalog-healthy-90-day-cleanup-for-unapproved-listings/",
+      "source_title": "Keeping Your Catalog Healthy: 90-Day Cleanup for Unapproved Listings - Jumia VendorHub KE",
+      "source_date": "2026-08-05",
+      "verification": "official_document",
+      "notes": "Published on the Kenya VendorHub; described as a regular Jumia-wide clean-up."
+    },
+    {
+      "id": "approval.physical_qc_matches_listing",
+      "area": "approval",
+      "requirement": "At drop-off Jumia checks that the physical product matches the product page (brand, colour, size, model, other specifications); mismatches fail the quality check.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/quality-check/",
+      "source_title": "Quality Check - Jumia VendorHub NG",
+      "source_date": "2024-06-30 (modified 2025-03-19)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.advertising_words",
+      "area": "restricted_claims",
+      "requirement": "Product content may not use marketing-status words such as \"promotion\" or \"best-selling\", unsubstantiated statements such as \"free shipping\" or \"100% original\", or misleading phrases such as \"colors are random\", \"as shown in the picture\" or \"contact us\".",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-restricted-wordingsproduct-restricted-wordings-rules-rules/",
+      "source_title": "Product Restricted Keywords Rules - Jumia Global VendorHub",
+      "source_date": "2026-03-16 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. The full restricted-word list is not public."
+    },
+    {
+      "id": "restricted_claims.sensitive_keywords",
+      "area": "restricted_claims",
+      "requirement": "Keywords relating to sensitive country/religion/belief topics, indecent or vulgar language, counterfeit brand spellings, dangerous or prohibited goods, and content that misleads consumers can cause QC failure.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/product-audit-timeliness-results-view/",
+      "source_title": "Product Audit Timeliness/Results View - Jumia Global VendorHub",
+      "source_date": "2026-04-15 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+    },
+    {
+      "id": "restricted_claims.beauty_prohibited_ingredients",
+      "area": "restricted_claims",
+      "requirement": "Commonly prohibited cosmetic contents (reference list): whitening products containing hydroquinone, products containing corticosteroids, heavy metals (lead, mercury, arsenic, cadmium), hydrogen peroxide whitening products, and additives such as formaldehyde, benzene, phthalates and high-dose PPD.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://vendor.jumia.com/en/2026-jg-fbj-beauty-product-guidelines/",
+      "source_title": "2026 JG FBJ Beauty Product Guidelines - Jumia Global VendorHub",
+      "source_date": "2026-03-23 (modified 2026-11-05)",
+      "verification": "official_document",
+      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. Marked \"for reference only\" and non-exhaustive; these are product-composition bans rather than wording rules."
+    },
+    {
+      "id": "restricted_claims.prohibited_categories",
+      "area": "restricted_claims",
+      "requirement": "Prescription medicines and medical devices are always prohibited from sale on Jumia; counterfeit and used products are prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.com.ng/prohibited-products/",
+      "source_title": "Prohibited and Restricted Products Policy - Jumia VendorHub NG",
+      "source_date": "2024-06-30 (modified 2026-07-22)",
+      "verification": "official_document",
+      "notes": ""
+    }
+  ],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented. No A+/enhanced-content programme, module list or eligibility rule appears on VendorHub NG/KE, Jumia Global VendorHub or in the Vendor API.",
+    "modules_note": "Product content is name, description, highlights, attributes, up to 8 images and an optional YouTube video. The Official Store programme (brand owner or authorised distributor) is a seller badge with performance standards, not a content format.",
+    "source_url": "https://vendorhub.jumia.com.ng/product-creation-update-status/"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Content Score",
+      "what_it_measures": "Jumia Global describes it as product content parameters \"such as images, descriptions, and product names\" meeting the platform's requirements; a good Content Score is listed as a way to improve the QC approval rate.",
+      "components": "Not itemised in current documentation.",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "Not currently viewable by sellers",
+      "source_url": "https://vendor.jumia.com/en/faq-about-product-management/",
+      "verification": "official_document",
+      "notes": "The Jumia Global FAQ (2026-05-08) answers \"Where can I check the Content Score product score?\" with \"This function is under development.\" The older Seller Center exposed a Content Score per product, but its documentation pages were unreachable or returned 404 on 2026-11-26, so their thresholds are not recorded."
+    },
+    {
+      "official_name": "QC status (content Quality Check status and rejection reasons)",
+      "what_it_measures": "Whether a product creation/update passed Jumia content QC, and why it was rejected.",
+      "components": "Status values NOT_READY_TO_QC, PENDING, APPROVED, REJECTED; rejectionReason and rejectionComment (up to 5 rejection reasons shown in the portal).",
+      "access_method": "api",
+      "api_reference_url": "https://vendorcenter.jumia.com/api-docs/",
+      "who_can_access": "Sellers in Vendor Center (Manage Products > QC status; export of rejected products to Excel/CSV) and authorised Vendor API applications (GET /catalog/products with the qcStatus filter).",
+      "source_url": "https://vendorcenter.jumia.com/api-docs/",
+      "verification": "official_document",
+      "notes": "A pass/fail diagnostic, not a graded score. Also available as a downloadable report (Import/Export > Export products, filter \"Rejected\"; reasons are in the last columns)."
+    }
+  ],
+  "limitations": "Public VendorHub pages for Nigeria and Kenya cover images, attributes, GTINs, variations, QC and policy, but they publish no character limits for product name, description or highlights - those are set per category in Vendor Center templates and the attribute-set API, which need a seller login. Several rules come from the Jumia Global VendorHub (cross-border sellers) and are flagged as such; they may not be enforced identically for local sellers. Kenya-specific regulatory fields (KEBS, Pharmacy and Poisons Board) are not named on Jumia Kenya pages - only the generic \"mandatory field for the FDA registration number\". The legacy Content Score pages (guide.sellercenter.jumia.com, contentguidelines.jumia.com.ng / .co.ke, a vendorhub.jumia.ug course) were unreachable or 404, and current documentation says the Content Score view is under development. The Seller Score (shipping speed, average product rating, quality return rate, cancellation rate) is a seller-level performance score, not a content score. No enhanced-content programme and no video specification were found."
+}

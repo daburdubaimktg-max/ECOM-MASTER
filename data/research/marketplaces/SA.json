@@ -1,0 +1,2214 @@
+{
+  "country_code": "SA",
+  "country_name": "Saudi Arabia",
+  "region": "Middle East",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "Saudi online spending keeps setting records: e-commerce payments on mada cards alone reached SAR 30.7 billion in October 2025, up 68% year on year, according to the Saudi Central Bank bulletin (credit cards excluded). By web audience in October 2026, amazon.sa and noon.com lead, followed by SHEIN, Temu and AliExpress, while the store-building platform Salla, whose own site draws about 5 million visits, points to a sizeable independent-store segment. In beauty and personal care the pharmacy chains are the online category leaders: Similarweb ranks nahdionline.com and al-dawaa.com first and second among beauty sites, Nahdi reports 30.6% of revenue from online channels, and ECDB models a 15-20% online share with Nahdi, Nice One and Trendyol as the top three retailers. Grocery e-commerce (Panda, Danube, Lulu, Carrefour) and quick-commerce apps (Ninja, HungerStation, Nana, Keeta) are active but disclose little. No regulator-verified platform market shares were found.",
+    "key_facts": [
+      {
+        "fact": "E-commerce sales through mada cards reached a record SAR 30.7 billion in October 2025 (+68% year on year from SAR 18.3 billion) and SAR 88.3 billion in Q3 2025; the figures exclude credit-card payments. Latest official figure found; about 13 months old.",
+        "nature": "official_statistic",
+        "source_url": "https://english.aawsat.com/node/5222867",
+        "source_name": "Asharq Al-Awsat (citing the Saudi Central Bank statistical bulletin) - Saudi E-Commerce Hits Record Monthly Sales over SAR30.7 Billion in October",
+        "source_date": "2025-12-24"
+      },
+      {
+        "fact": "Top Ecommerce & Shopping websites in Saudi Arabia in October 2026: 1 amazon.sa, 2 noon.com, 3 haraj.com.sa, 4 temu.com, 5 aliexpress.com.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+        "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+        "source_date": "2026-11-01"
+      },
+      {
+        "fact": "Estimated Saudi website visits in October 2026: amazon.sa 10.45M, noon.com 8.94M, shein.com 7.97M, temu.com 5.61M, aliexpress.com 5.24M, salla.sa 5.02M, nahdionline.com 4.87M, al-dawaa.com 3.86M, iherb.com 3.81M (web only).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+        "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+        "source_date": "2026-10"
+      },
+      {
+        "fact": "Top Beauty and Cosmetics websites in Saudi Arabia in October 2026: 1 nahdionline.com, 2 al-dawaa.com, 3 arabianoud.com, 4 ibraqperfumes.com, 5 daralamirat.com.sa.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.similarweb.com/top-websites/saudi-arabia/lifestyle/beauty-and-cosmetics/",
+        "source_name": "Similarweb - Top Beauty and Cosmetics Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+        "source_date": "2026-11-01"
+      },
+      {
+        "fact": "Personal-care e-commerce revenue of USD 1,177 million in 2025 with an online share of 15-20%; top online retailers by 2025 GMV: Nahdi Online (USD 760 million), Niceonesa, Trendyol (modelled estimate).",
+        "nature": "third_party_estimate",
+        "source_url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+        "source_name": "ECDB - Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+        "source_date": "n.d."
+      },
+      {
+        "fact": "Nahdi operated 1,219 pharmacies and generated 30.6% of its SAR 8.16 billion revenue online in the first nine months of 2026.",
+        "nature": "company_reported",
+        "source_url": "https://investors.nahdi.sa/",
+        "source_name": "Nahdi Medical Company - Home | Nahdi Investor Relations (Key Highlights: 9M 2026) [9M 2026 figures]",
+        "source_date": "n.d."
+      },
+      {
+        "fact": "Nice One reported revenue of SAR 257 million for Q3 2026.",
+        "nature": "company_reported",
+        "source_url": "https://ir.niceonesa.com/",
+        "source_name": "Nice One - Home | Nice One KSA investor relations (Financial Highlights Q3 2026) [Q3 2026 figures]",
+        "source_date": "n.d."
+      }
+    ]
+  },
+  "ranking_method_note": "Scores (1-5) were assigned by the researcher from evidence retrieved on 2026-11-26 and applied to the fixed rubric: weighted_score = 0.20*ecommerce_significance + 0.25*beauty_category_relevance + 0.20*consumer_reach + 0.15*brand_competitor_coverage + 0.20*data_integration_feasibility, rounded to 2 decimals; priority_rank = rank by weighted_score within the country; ties broken by beauty_category_relevance, then consumer_reach as specified. Where a tie survived both rubric tie-breaks, three further deterministic tie-breaks were added by the researcher (not part of the brief): higher ecommerce_significance, then the higher in-country monthly web-visit estimate (Semrush, October 2026, as cited in each record), then alphabetical order. Scoring anchors used consistently across the three countries: consumer_reach 5 = >=10M estimated in-country monthly web visits or an equivalent survey-evidenced scale, 4 = 2-10M (or >=1M company-reported active app users), 3 = 0.5-2M, 2 = 100-500K, 1 = <100K or no credible number; brand_competitor_coverage 5 = >=8 of the 12 reference mass-market brands verified as listed, 4 = 5-7 verified or brand-owner official stores verified, 3 = 2-4 verified or a full-range retailer whose assortment could not be verified (neutral), 2 = mass brands largely absent / unverified limited-range or unbranded platform, 1 = verified absent; data_integration_feasibility 5 = documented official API exposing catalogue and competitive price/offer data, 4 = open developer portal with a documented seller API on a platform where brand owners run their own stores (own-shop data only) or public storefront data readable without login, 3 = public pages retrievable without an API, or a seller API whose reference was not verified or that only helps a brand that sells on that platform, 2 = automated access refused or app/location-gated with no usable API, 1 = app-only. The beauty_relevance and data_collection_feasibility labels follow the scores (4-5 high, 3 medium, 1-2 low). Web-visit estimates understate app-first platforms; no regulator-verified or audited market-share figure was found for any platform, so every reach figure is a third-party estimate, a survey result or company-reported. Scores are judgements, not measurements. In this file one tie survived both rubric tie-breaks: SHEIN and Temu (both 2.80, beauty relevance 2, reach 4, significance 4); SHEIN is ranked higher on the Semrush estimate of Saudi visits (7.97M against 5.61M). Ninja ranks above Trendyol (both 2.85) through the rubric's own reach tie-break.",
+  "platforms": [
+    {
+      "name": "Amazon.sa",
+      "website": "https://www.amazon.sa",
+      "operator": "Amazon (the public search page title reads \"Souq Is Now Amazon.sa\"); local legal entity not verified in this session",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "A public search page for Garnier and L'Oreal Paris returned a full results page for both brands, and CeraVe Arabia links to an official Amazon.sa brand store. ECDB's top three online personal-care retailers in Saudi Arabia are Nahdi, Nice One and Trendyol, so Amazon is important but not the modelled category leader.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy/OTC-specific evidence collected.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on Similarweb ranking amazon.sa #1 among Saudi Ecommerce & Shopping sites and #4 among all sites in the country, and Semrush showing it as the most-visited retail site. Third-party selling is evidenced by the Selling Partner API covering the Saudi marketplace; the first-party share was not verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to amazon.sa (most-visited retail website; down 30.83% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "10.45M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to amazon.sa; 67.41% from Saudi Arabia (September 18.31M, August 18.07M)",
+          "metric_type": "monthly_visits",
+          "value": "15.5M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/amazon.sa/overview/",
+          "source_name": "Semrush - amazon.sa Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 84.91% from Saudi Arabia; country rank #4; #1 in Marketplace. Far above the Semrush estimate, which shows how widely estimators differ",
+          "metric_type": "monthly_visits",
+          "value": "55.7M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/amazon.sa/",
+          "source_name": "Similarweb - amazon.sa - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Ecommerce & Shopping websites in Saudi Arabia",
+          "metric_type": "other",
+          "value": "#1 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Partly verified on the platform's own public search page (plain HTTP request): a combined query for Garnier and L'Oreal Paris returned a results page dominated by both brands. CeraVe Arabia's where-to-buy page links to an official Amazon.sa CeraVe store. Other brand searches returned HTTP 503 or an empty interstitial, so Dove, Pantene, Colgate, Sensodyne and the remaining reference brands are UNVERIFIED (probably present, as on Amazon.ae).",
+        "source_urls": [
+          "https://www.amazon.sa/s?k=garnier+loreal+paris&language=en_AE",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Hair colour/hair care and skin care verified for Garnier and L'Oreal Paris; derma skincare via the CeraVe store; oral care not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Selling Partner API lists the Saudi Arabia marketplace (ID A17E79C6D8DWNP, Europe/Middle East/India/Africa group). The Product Pricing API documents competitive-summary and featured-offer operations for ASINs; a registered selling-partner/developer account is required.",
+        "docs_url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented official API for catalogue and competitive pricing. Unauthenticated page requests were intermittently refused (HTTP 503), so the API should be the primary route.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Top-ranked Saudi e-commerce site on Similarweb and the most-visited retail site in Semrush's list."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Broad mass-brand range evidenced for Garnier, L'Oreal Paris and CeraVe, but ECDB places three other retailers ahead of it in personal care."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "10.45M estimated Saudi web visits in October 2026 (Semrush); Similarweb shows a far higher 55.7M total."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Two reference brands verified on its pages and a brand-owner official store verified; the rest could not be checked."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Official SP-API covers the Saudi marketplace with competitive-pricing operations."
+        }
+      },
+      "weighted_score": 4.6,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "Largest measured online audience in the Kingdom plus the only documented API returning competitive price data. Reservation: for category sales Nahdi probably leads (ECDB estimate and Nahdi's own online revenue share), so Amazon.sa is first for monitoring practicality rather than for proven category leadership.",
+      "confidence": "medium",
+      "confidence_note": "Reach and API evidence are strong, although the two traffic estimators disagree by a factor of more than three; brand coverage is only partly verified.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/amazon.sa/overview/",
+          "title": "amazon.sa Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/amazon.sa/",
+          "title": "amazon.sa - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "title": "Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids",
+          "title": "Marketplace IDs - Selling Partner API documentation (developer-docs.amazon.com redirects here)",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api",
+          "title": "Product Pricing API - Selling Partner API documentation",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.sa/s?k=garnier+loreal+paris&language=en_AE",
+          "title": "Garnier Loreal Paris : Shop Online At Best Prices In Saudi | Souq Is Now Amazon.sa (public search results page) [live page]",
+          "publisher": "Amazon.sa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Noon (incl. Noon Minutes / Supermall)",
+      "website": "https://www.noon.com/saudi-en/",
+      "operator": "noon (Google Play developer name \"noon e-commerce\"); legal entity and ownership not verified in this session",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Search-engine site: results show a noon Saudi Colgate toothpaste category page with many SKUs and a Saudi personal-care listing including Parachute coconut oil; CeraVe Arabia links to noon's Saudi CeraVe page. ECDB does not place noon in its top three for personal care in the Kingdom.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "The app listing mentions pharmacy items through partner stores, but no Saudi-specific evidence was found.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on Similarweb ranking noon.com #2 among Saudi Ecommerce & Shopping sites (#12 among all sites, #2 in Marketplace), Semrush estimating 8.94M Saudi visits, with Saudi Arabia the largest traffic source for noon.com. A seller programme and seller API are verified; the quick-delivery services described in the app listing were not verified for Saudi Arabia.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to noon.com (second most-visited retail website; up 19.16% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "8.94M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page for noon.com (label read ambiguously; treated as latest month); Saudi share 29.75%, i.e. roughly 11.7M; country rank #12; #2 in Marketplace",
+          "metric_type": "monthly_visits",
+          "value": "39.2M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/noon.com/",
+          "source_name": "Similarweb - noon.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Ecommerce & Shopping websites in Saudi Arabia",
+          "metric_type": "other",
+          "value": "#2 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Google Play install band for the noon app (cumulative installs, all countries)",
+          "metric_type": "app_users",
+          "value": "50M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en",
+          "source_name": "Google Play (listing published by noon e-commerce) - noon Online Shopping & Grocery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified through search-engine site: results (noon.com refused automated access): Saudi storefront pages exist for Colgate toothpaste and for personal care including Parachute; CeraVe Arabia links to noon.com/saudi-en/cerave. The wider set of reference brands was seen on the UAE storefront of the same platform but not checked separately for Saudi Arabia.",
+        "source_urls": [
+          "https://www.noon.com/saudi-en/beauty-and-health/beauty/personal-care-16343/oral-hygiene/toothpaste/colgate/",
+          "https://www.noon.com/saudi-en/beauty/personal-care-16343/?f%5Bpartner%5D%5B%5D=p_172761&sort%5Bby%5D=popularity&sort%5Bdir%5D=desc&limit=50&page=1&isCarouselView=false",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Oral care and personal care verified for the Saudi storefront; hair-care brand pages verified only for the UAE storefront.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The noon Seller Help Center describes the noon API Platform as \"a consistent, production-grade interface for working with catalogs, orders, fulfillment, and event notifications\"; detailed reference linked from that article and not opened. Seller's own data only.",
+        "docs_url": "https://helpcenter.noon.partners/en/category/global-selling/noon-api-platform"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Seller API for own listings and orders; the storefront refused automated requests (no response / HTTP 503), so competitor data needs an authorised provider or manual collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Second-ranked Saudi e-commerce site on Similarweb; Saudi Arabia is noon.com's largest traffic source."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Mass personal-care and oral-care pages verified for the Saudi storefront, but not in ECDB's top three for the category."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "8.94M (Semrush) to roughly 11.7M (Similarweb-derived) Saudi web visits a month, on an app-first platform."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Three brands verified on Saudi pages and ten on the same platform's UAE storefront."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Seller API documented for own data, but the storefront refused automated access."
+        }
+      },
+      "weighted_score": 4.2,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "The main regional marketplace alongside Amazon.sa with broad mass-brand coverage; it trails on data access and on Saudi-specific assortment verification.",
+      "confidence": "medium",
+      "confidence_note": "Traffic from two estimators; Saudi brand coverage relies on a few search-engine results and inference from the UAE storefront.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/noon.com/overview/",
+          "title": "noon.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/noon.com/",
+          "title": "noon.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en",
+          "title": "noon Online Shopping & Grocery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by noon e-commerce)",
+          "published_date": "2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-api-platform",
+          "title": "noon API platform | noon Seller Help Center",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.noon.com/saudi-en/beauty-and-health/beauty/personal-care-16343/oral-hygiene/toothpaste/colgate/",
+          "title": "Colgate Toothpaste KSA (noon category page, seen as a search-engine site: result)",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.noon.com/saudi-en/beauty/personal-care-16343/?f%5Bpartner%5D%5B%5D=p_172761&sort%5Bby%5D=popularity&sort%5Bdir%5D=desc&limit=50&page=1&isCarouselView=false",
+          "title": "Personal Care KSA (noon category page, seen as a search-engine site: result)",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "title": "Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Nahdi Online",
+      "website": "https://www.nahdionline.com/en-sa",
+      "operator": "Nahdi Medical Company (listed; investor-relations site)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Similarweb ranks nahdionline.com #1 among Beauty and Cosmetics sites in Saudi Arabia and ECDB names Nahdi Online the largest online personal-care retailer (modelled 2025 GMV of USD 760 million). Its shampoo listing runs to 80 pages and its moisturiser listing to 176 pages.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Pharmacy chain with 1,219 pharmacies (9M 2026) plus clinics and virtual care.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on company-reported figures (online channels 30.6% of 9M 2026 revenue of SAR 8.16 billion; 1,219 pharmacies), ECDB's #1 personal-care ranking and Similarweb's #1 beauty-site ranking. It is market-shaping for health and beauty rather than for e-commerce overall.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Online revenue contribution",
+          "metric_type": "revenue",
+          "value": "30.6% of revenue (9M 2026 revenue SAR 8.16 billion)",
+          "period": "9M 2026",
+          "nature": "company_reported",
+          "source_url": "https://investors.nahdi.sa/",
+          "source_name": "Nahdi Medical Company - Home | Nahdi Investor Relations (Key Highlights: 9M 2026) [9M 2026 figures]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Online revenue contribution and growth in the prior full year",
+          "metric_type": "revenue",
+          "value": "25.8% of revenue; online business growth 26%",
+          "period": "FY2025",
+          "nature": "company_reported",
+          "source_url": "https://investors.nahdi.sa/en/about-us/business-overview",
+          "source_name": "Nahdi Medical Company - Business Overview: 2025 highlights at a glance [FY2025 figures]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Number of pharmacies",
+          "metric_type": "stores",
+          "value": "1,219",
+          "period": "9M 2026",
+          "nature": "company_reported",
+          "source_url": "https://investors.nahdi.sa/",
+          "source_name": "Nahdi Medical Company - Home | Nahdi Investor Relations (Key Highlights: 9M 2026) [9M 2026 figures]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Saudi visits to nahdionline.com (most-visited pharmacy website; ninth most-visited retail website)",
+          "metric_type": "monthly_visits",
+          "value": "4.87M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 83.13% from Saudi Arabia; country rank #24; #1 in Beauty and Cosmetics",
+          "metric_type": "monthly_visits",
+          "value": "9.2M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/nahdionline.com/",
+          "source_name": "Similarweb - nahdionline.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Modelled online GMV in personal care, ranked #1 in Saudi Arabia",
+          "metric_type": "gmv",
+          "value": "USD 760 million",
+          "period": "2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "source_name": "ECDB - Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified by reading the retailer's own listing pages through the fetch tool: page 1 of the shampoo listing shows L'Oreal Paris Elvive, Pantene, Dove, Garnier Ultra Doux and Sunsilk; the moisturiser listing shows Nivea, CeraVe, Cetaphil and Dabur Herbolene. Oral care is UNVERIFIED: the oral-care landing page displayed only Dentissimo and Smilepen brand tiles. CeraVe Arabia lists Nahdi as an official retailer.",
+        "source_urls": [
+          "https://www.nahdionline.com/en-sa/hair-care/shampoo/plp/70141",
+          "https://www.nahdionline.com/en-sa/skin-care/moisturizers/plp/70207",
+          "https://www.nahdionline.com/en-sa/clp/oralcare-clp",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Deep hair care (80 listing pages of shampoo) and skin care (176 pages of moisturisers); categories also include personal care, bath and body, deodorants and oral care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; the storefront homepage showed no seller, partner or developer programme link.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Listing pages with prices were readable through the standard fetch tool, but plain HTTP requests from this environment received HTTP 403, so collection would need a compliant fetcher and respect for the site's terms. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "About SAR 2.5 billion of online revenue in nine months (30.6% of SAR 8.16 billion, derived) makes it one of the Kingdom's largest online retailers."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Ranked the #1 beauty site by Similarweb and the #1 online personal-care retailer by ECDB."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "4.87M (Semrush) to roughly 7.6M (Similarweb-derived) Saudi web visits a month and 1,219 pharmacies."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Six of the 12 reference brands verified on listing pages; oral-care brands not verified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public listing pages readable with a standard fetcher; no API and plain requests were refused."
+        }
+      },
+      "weighted_score": 4.05,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "The category leader for health and beauty online in Saudi Arabia on every piece of evidence found. Reservation: it ranks third only because the rubric rewards Amazon and Noon for total audience and API access; for mass personal care it should be monitored with the same urgency as the top two.",
+      "confidence": "high",
+      "confidence_note": "Company-reported operating figures are current (9M 2026), two independent third parties rank it first in the category and assortment was read directly; only oral care is unverified.",
+      "sources": [
+        {
+          "url": "https://investors.nahdi.sa/",
+          "title": "Home | Nahdi Investor Relations (Key Highlights: 9M 2026) [9M 2026 figures]",
+          "publisher": "Nahdi Medical Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://investors.nahdi.sa/en/about-us/business-overview",
+          "title": "Business Overview: 2025 highlights at a glance [FY2025 figures]",
+          "publisher": "Nahdi Medical Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/nahdionline.com/",
+          "title": "nahdionline.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/saudi-arabia/lifestyle/beauty-and-cosmetics/",
+          "title": "Top Beauty and Cosmetics Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "title": "Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.nahdionline.com/en-sa",
+          "title": "Nahdi Online storefront (Saudi Arabia) [live page]",
+          "publisher": "Nahdi Medical Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.nahdionline.com/en-sa/hair-care/shampoo/plp/70141",
+          "title": "Shampoo listing page, Nahdi Online [live page]",
+          "publisher": "Nahdi Medical Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.nahdionline.com/en-sa/skin-care/moisturizers/plp/70207",
+          "title": "Moisturizers listing page, Nahdi Online [live page]",
+          "publisher": "Nahdi Medical Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.nahdionline.com/en-sa/clp/oralcare-clp",
+          "title": "Oral care landing page, Nahdi Online [live page]",
+          "publisher": "Nahdi Medical Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Al-Dawaa Pharmacies",
+      "website": "https://www.al-dawaa.com",
+      "operator": "Al-Dawaa Medical Services Co. (DMSCO)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Similarweb ranks al-dawaa.com #2 among Beauty and Cosmetics sites in Saudi Arabia. Brand pages show deep mass ranges: Nivea 201 products, Garnier 187, Dove 185, Pantene 100, Vaseline 93, Himalaya 41.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Pharmacy chain with more than 900 pharmacies in 100 cities according to its corporate site (undated).",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on its position as the second most-visited pharmacy site (3.86M estimated Saudi visits), Similarweb's #2 beauty-site ranking and a 900+ pharmacy network. Online revenue is Not publicly disclosed in the sources read.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to al-dawaa.com (second most-visited pharmacy website; down 19.58% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "3.86M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 78.3% from Saudi Arabia; country rank #102; #2 in Beauty and Cosmetics",
+          "metric_type": "monthly_visits",
+          "value": "3.6M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/al-dawaa.com/",
+          "source_name": "Similarweb - al-dawaa.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Pharmacy network stated on the corporate site",
+          "metric_type": "stores",
+          "value": "more than 900 pharmacies in 100 cities",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.al-dawaa.com.sa/en/Al-Dawaa/we_aldawaa/",
+          "source_name": "Al-Dawaa Medical Services Co. (DMSCO) - We Al-Dawaa (corporate profile) [site copyright 2026]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Customers stated on the corporate site (undated counter)",
+          "metric_type": "customers",
+          "value": "5,000,000",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.al-dawaa.com.sa/en/Al-Dawaa/we_aldawaa/",
+          "source_name": "Al-Dawaa Medical Services Co. (DMSCO) - We Al-Dawaa (corporate profile) [site copyright 2026]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play install band for the Al-Dawaa app (cumulative)",
+          "metric_type": "app_users",
+          "value": "1M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.kr.aldawaa&hl=en",
+          "source_name": "Google Play (listing published by Al-Dawaa Medical Services Co.) - Al-Dawaa - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified by reading the retailer's own brand pages through the fetch tool, with product counts: Nivea 201, Garnier 187, Dove 185, Pantene 100, Vaseline 93, Himalaya 41, CeraVe 31. The Colgate and Sensodyne brand URLs returned an empty page shell, so oral care is UNVERIFIED.",
+        "source_urls": [
+          "https://www.al-dawaa.com/english/brands1/dove",
+          "https://www.al-dawaa.com/english/brands1/pantene",
+          "https://www.al-dawaa.com/english/brands1/nivea",
+          "https://www.al-dawaa.com/english/brands1/garnier",
+          "https://www.al-dawaa.com/english/brands1/vaseline",
+          "https://www.al-dawaa.com/english/brands1/himalaya",
+          "https://www.al-dawaa.com/english/brands1/cerave"
+        ]
+      },
+      "product_coverage_note": "Hair and skin care mass brands with 40-200 products each; oral care not verified.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found; no seller or developer programme was visible on the pages read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand pages with prices and product counts were readable through the standard fetch tool; plain HTTP requests from this environment received HTTP 403. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Second-largest pharmacy chain online by web visits with a 900+ pharmacy network."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Ranked the #2 beauty site in the Kingdom by Similarweb, with deep mass hair and skin ranges."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "3.86M estimated Saudi web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Six of the 12 reference brands verified with product counts; oral-care brands not verified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public brand pages readable with a standard fetcher; no API and plain requests were refused."
+        }
+      },
+      "weighted_score": 3.8,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "The natural companion to Nahdi for category monitoring: similar assortment depth and audience, slightly weaker evidence on online sales.",
+      "confidence": "medium",
+      "confidence_note": "Assortment directly verified; store and customer numbers are undated company claims and online revenue is not disclosed.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/al-dawaa.com/",
+          "title": "al-dawaa.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/saudi-arabia/lifestyle/beauty-and-cosmetics/",
+          "title": "Top Beauty and Cosmetics Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com.sa/en/Al-Dawaa/we_aldawaa/",
+          "title": "We Al-Dawaa (corporate profile) [site copyright 2026]",
+          "publisher": "Al-Dawaa Medical Services Co. (DMSCO)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.kr.aldawaa&hl=en",
+          "title": "Al-Dawaa - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Al-Dawaa Medical Services Co.)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/dove",
+          "title": "Dove brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/pantene",
+          "title": "Pantene brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/nivea",
+          "title": "Nivea brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/garnier",
+          "title": "Garnier brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/vaseline",
+          "title": "Vaseline brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/himalaya",
+          "title": "Himalaya brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.al-dawaa.com/english/brands1/cerave",
+          "title": "CeraVe brand page, Al-Dawaa online pharmacy [live page]",
+          "publisher": "Al-Dawaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Nice One",
+      "website": "https://niceonesa.com",
+      "operator": "Nice One Beauty (listed; investor-relations site)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Describes itself as \"the leading beauty and personal care e-commerce platform in the Kingdom\" (company claim) and is ranked #2 for online personal care by ECDB. Brand pages confirm Dove, Garnier, Nivea and Vaseline ranges; hair and oral care are thinner (no Pantene page, one Colgate product, five Sensodyne products).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on company-reported revenue of SAR 257 million in Q3 2026, a claimed base of over 4 million customers (undated, IPO-era text) and ECDB's #2 category ranking. The first_party_retailer label reflects its description as a retailer of selected products; any third-party selling was not verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Revenue",
+          "metric_type": "revenue",
+          "value": "SAR 257 million",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://ir.niceonesa.com/",
+          "source_name": "Nice One - Home | Nice One KSA investor relations (Financial Highlights Q3 2026) [Q3 2026 figures]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Customer/user base cited in the investment case (undated; surrounding text refers to 2021-Q1 2024, so dated)",
+          "metric_type": "customers",
+          "value": "over 4 million",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://ir.niceonesa.com/en/about-us",
+          "source_name": "Nice One - About Us / Investment Case | Nice One KSA investor relations [text refers to 2021-Q1 2024; dated]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Share of orders placed through the mobile app (undated, dated text)",
+          "metric_type": "other",
+          "value": "over 95%",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://ir.niceonesa.com/en/about-us",
+          "source_name": "Nice One - About Us / Investment Case | Nice One KSA investor relations [text refers to 2021-Q1 2024; dated]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Saudi visits to niceonesa.com (fifth in the Saudi Beauty & Cosmetics list)",
+          "metric_type": "monthly_visits",
+          "value": "1.07M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/beauty-and-cosmetics",
+          "source_name": "Semrush - Most Visited Beauty & Cosmetics Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); country rank #343; #10 in Beauty and Cosmetics",
+          "metric_type": "monthly_visits",
+          "value": "1.3M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/niceonesa.com/",
+          "source_name": "Similarweb - niceonesa.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified by reading the retailer's own brand pages through the fetch tool: Dove, Garnier, Nivea and Vaseline (30 products shown on each first page), CeraVe (28), Sensodyne (5), Himalaya (2) and Colgate (1). The Pantene brand URL returned HTTP 404. Coverage is therefore broad in skin and body care and shallow in hair and oral care.",
+        "source_urls": [
+          "https://niceonesa.com/en/dove",
+          "https://niceonesa.com/en/garnier",
+          "https://niceonesa.com/en/nivea",
+          "https://niceonesa.com/en/vaseline",
+          "https://niceonesa.com/en/sensodyne",
+          "https://niceonesa.com/en/colgate",
+          "https://niceonesa.com/en/cerave"
+        ]
+      },
+      "product_coverage_note": "Make-up, perfume and care; mass skin and body care present, oral care token, P&G hair care not found.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found on the investor site or the brand pages read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand pages expose product lists with structured data and were readable through the standard fetch tool; plain HTTP requests received HTTP 403. More than 95% of orders are placed in the app, so app-only offers may be missed. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "About SAR 1 billion annualised revenue (Q3 2026 run-rate, derived) from a single-category pure player."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Self-described category leader and ECDB's #2 online personal-care retailer, though skewed to make-up, perfume and skin care."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "1.07M estimated Saudi web visits; orders are overwhelmingly placed in the app."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Seven of the 12 reference brands verified, several only thinly; Pantene not found."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public brand pages readable with a standard fetcher; no API."
+        }
+      },
+      "weighted_score": 3.4,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "The leading beauty pure player, most relevant for skin and body care; weaker for hair and oral care where the pharmacies carry far deeper ranges.",
+      "confidence": "medium",
+      "confidence_note": "Revenue is current and company-reported; the customer figure is undated and probably old; assortment was read directly.",
+      "sources": [
+        {
+          "url": "https://ir.niceonesa.com/",
+          "title": "Home | Nice One KSA investor relations (Financial Highlights Q3 2026) [Q3 2026 figures]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ir.niceonesa.com/en/about-us",
+          "title": "About Us / Investment Case | Nice One KSA investor relations [text refers to 2021-Q1 2024; dated]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/beauty-and-cosmetics",
+          "title": "Most Visited Beauty & Cosmetics Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/niceonesa.com/",
+          "title": "niceonesa.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "title": "Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/dove",
+          "title": "Dove brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/garnier",
+          "title": "Garnier brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/nivea",
+          "title": "Nivea brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/vaseline",
+          "title": "Vaseline brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/sensodyne",
+          "title": "Sensodyne brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/colgate",
+          "title": "Colgate brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://niceonesa.com/en/cerave",
+          "title": "CeraVe brand page, Nice One [live page]",
+          "publisher": "Nice One",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "iHerb (Saudi storefront)",
+      "website": "https://sa.iherb.com",
+      "operator": "iHerb (Google Play developer name)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Supplements-led cross-border retailer with a Bath & Personal Care category; the Saudi category page data names Dove, Vaseline and TRESemme among its products.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Vitamins and supplements are the core range; no prescription pharmacy.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Semrush showing Saudi Arabia as iHerb's second-largest traffic source worldwide (3.81M visits, 10.75% of the total) and iherb.com as the 15th most-visited retail site in the Kingdom. The first_party_retailer label is an assumption; the business model was not verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to iherb.com (15th most-visited retail website in the Saudi list)",
+          "metric_type": "monthly_visits",
+          "value": "3.81M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to iherb.com; Saudi Arabia is the second-largest country at 10.75%",
+          "metric_type": "monthly_visits",
+          "value": "35.47M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/iherb.com/overview/",
+          "source_name": "Semrush - iherb.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Google Play install band (cumulative, global)",
+          "metric_type": "app_users",
+          "value": "10M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.iherb&hl=en",
+          "source_name": "Google Play (listing published by iHerb) - iHerb: Vitamins & Supplements - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Partly verified from the Saudi Bath & Personal Care category page (plain HTTP request): Dove, Vaseline and TRESemme appear in the page data. Other reference brands were not checked.",
+        "source_urls": [
+          "https://sa.iherb.com/c/bath-personal-care"
+        ]
+      },
+      "product_coverage_note": "Bath and personal care, with a mix of mainstream and natural brands; oral and hair care depth not measured.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found on the page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Category pages were retrievable with a plain HTTP request; no API found.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "A top-15 retail site in the Kingdom by web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Personal care is a secondary category next to supplements but includes mainstream brands."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "3.81M estimated Saudi web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Two reference brands (Dove, Vaseline) verified in category data."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable; no API found."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "An overlooked cross-border channel with a large Saudi audience and some mass personal-care overlap; worth early price and range checks.",
+      "confidence": "medium",
+      "confidence_note": "Traffic from one estimator; assortment verified on a single category page.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/iherb.com/overview/",
+          "title": "iherb.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.iherb&hl=en",
+          "title": "iHerb: Vitamins & Supplements - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by iHerb)",
+          "published_date": "2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://sa.iherb.com/c/bath-personal-care",
+          "title": "Bath & Personal Care category, iHerb Saudi Arabia storefront [live page]",
+          "publisher": "iHerb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Panda (Panda / Hyper Panda online)",
+      "website": "https://www.panda.sa",
+      "operator": "Panda Retail Company (owned by Savola Group)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Supermarket range with Beauty as a top-level category; the homepage promotes multi-buy deals on Sunsilk and Clear shampoo, Lux hand wash, Rexona and Closeup toothpaste, and its page data also names Dove, Pantene, Nivea, Vaseline, Colgate and Sensodyne.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Savola's description of Panda as one of the main retail chains in the Middle East with 227 stores (including six in Egypt) serving over 100 million customers a year, and on 1.12M estimated Saudi web visits. Online sales are Not publicly disclosed in the sources read.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to panda.sa",
+          "metric_type": "monthly_visits",
+          "value": "1.12M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Stores operated by Panda Retail Company (including six in Egypt)",
+          "metric_type": "stores",
+          "value": "227",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.savola.com/en/investments/savola-retail",
+          "source_name": "Savola Group - Savola Group | Retail Investments",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Customers served annually across stores in Saudi Arabia and Egypt (all channels)",
+          "metric_type": "customers",
+          "value": "over 100 million",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.savola.com/en/investments/savola-retail",
+          "source_name": "Savola Group - Savola Group | Retail Investments",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play install band for the Panda app (cumulative)",
+          "metric_type": "app_users",
+          "value": "1M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.todoorstep.store&hl=en",
+          "source_name": "Google Play (listing published by Panda Retail Company) - Panda - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on the retailer's own homepage (plain HTTP request and rendered view): product tiles for Sunsilk shampoo, Clear shampoo, Lux hand wash, Rexona and Closeup toothpaste with prices, and embedded page data naming Dove, Pantene, Nivea, Vaseline, Colgate and Sensodyne. Garnier, L'Oreal Paris, Head & Shoulders, Himalaya, Dabur and Parachute were not seen on the homepage.",
+        "source_urls": [
+          "https://www.panda.sa/en"
+        ]
+      },
+      "product_coverage_note": "Hair care, shower and soap, deodorant and oral care promoted on the homepage with multi-buy pricing; Express, Scheduled and Click & Collect services.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found on the page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Homepage data with product names and prices was retrievable with a plain HTTP request; assortment and prices are store- and address-dependent. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Large store network, but online scale is not disclosed and the site ranks 33rd among retail sites by web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Grocery channel where hair, body and oral care are promoted with multi-buy deals."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "1.12M estimated Saudi web visits and a 1M+ install app."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Six of the 12 reference brands found in homepage data, plus Sunsilk, Clear and Closeup."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public page data readable; no API and prices vary by store."
+        }
+      },
+      "weighted_score": 3.15,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "The best-evidenced online grocer for mass personal care in the Kingdom and a good source of promotional price intelligence.",
+      "confidence": "medium",
+      "confidence_note": "Assortment directly verified on one page; store and customer figures are undated company statements covering all channels.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "title": "Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.savola.com/en/investments/savola-retail",
+          "title": "Savola Group | Retail Investments",
+          "publisher": "Savola Group",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.todoorstep.store&hl=en",
+          "title": "Panda - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Panda Retail Company)",
+          "published_date": "2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.panda.sa/en",
+          "title": "Panda KSA - Supermarket Deals & Online Shopping [live page]",
+          "publisher": "Panda Retail Company",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "HungerStation (HMarket / HungerStation Market)",
+      "website": "https://hungerstation.com/sa-en",
+      "operator": "HungerStation (Google Play developer name \"HungerStation Care\"); parent company not verified in this session",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Food-led delivery app that also offers HMarket (20-minute delivery of everyday items), partner groceries and pharmacies (\"from medicine to daily care essentials\"); item-level personal-care listings are app-gated.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Partner pharmacies are a named vertical.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on its own claim to be \"the first and largest delivery app in Saudi Arabia\" covering over 102 cities with more than 65,000 restaurants and stores, a 10M+ install band and 2.37M estimated web visits. Grocery/HMarket share is Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to hungerstation.com (web only; the service is app-first)",
+          "metric_type": "monthly_visits",
+          "value": "2.37M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "source_name": "Semrush - Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative)",
+          "metric_type": "app_users",
+          "value": "10M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.hungerstation.android.web&hl=en",
+          "source_name": "Google Play (listing published by HungerStation Care) - HungerStation - Food Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        },
+        {
+          "claim": "Company claims in the app listing: coverage of over 102 cities and regions and more than 65,000 restaurants and stores",
+          "metric_type": "other",
+          "value": "102 cities; 65,000+ restaurants and stores",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://play.google.com/store/apps/details?id=com.hungerstation.android.web&hl=en",
+          "source_name": "Google Play (listing published by HungerStation Care) - HungerStation - Food Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; store and HMarket assortments are visible only in the app for a delivery address.",
+        "source_urls": [
+          "https://hungerstation.com/sa-en"
+        ]
+      },
+      "product_coverage_note": "Groceries, cleaning products and pharmacy \"daily care essentials\" described; hair, skin and oral care SKUs not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found for HungerStation itself. Delivery Hero publishes partner POS and q-commerce integration documentation at developers.deliveryhero.com; whether HungerStation is covered was not confirmed.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App- and location-gated assortment and no market-data API; manual in-app checks only.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Self-described largest delivery app in the Kingdom with a 10M+ install base."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Quick-commerce and pharmacy verticals exist but are secondary to restaurants and unverified in depth."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "2.37M estimated Saudi web visits on an app-first service with 10M+ installs."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Brand listings not verifiable; scored conservatively."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "App-gated assortment and no usable API."
+        }
+      },
+      "weighted_score": 3.05,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Large audience and a growing mart offer make it a relevant availability and pricing touchpoint, but category depth and data access are both weak.",
+      "confidence": "low",
+      "confidence_note": "Scale claims are the company's own and undated; nothing specific to grocery or personal care was found.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "title": "Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/hungerstation.com/overview/",
+          "title": "hungerstation.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.hungerstation.android.web&hl=en",
+          "title": "HungerStation - Food Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by HungerStation Care)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://hungerstation.com/sa-en",
+          "title": "Order Food and Grocery For Delivery in Saudi Arabia | HungerStation [live page]",
+          "publisher": "HungerStation",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.deliveryhero.com/",
+          "title": "Delivery Tech - Developers [copyright 2026]",
+          "publisher": "Delivery Hero SE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Danube Online",
+      "website": "https://www.danube.sa",
+      "operator": "Danube Co. (BinDawood Holding, listed on Tadawul since 21 October 2020)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Premium grocer whose online department list includes \"Danube Beauty\" (skin care, make-up) and Personal Care; brand listings were not read.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Rests on 622.7K estimated Saudi web visits and a 1M+ install app; BinDawood Holding describes Danube as a premium grocery chain. Online sales share Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to danube.sa (September 2026 estimate was 190.8K, i.e. volatile)",
+          "metric_type": "monthly_visits",
+          "value": "622.7K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "source_name": "Semrush - Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band for the Danube app (cumulative)",
+          "metric_type": "app_users",
+          "value": "1M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.app.danube&hl=en",
+          "source_name": "Google Play (listing published by Danube Co.) - Danube - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-17"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. The rendered department page lists Danube Beauty and Personal Care departments but no product or brand names were captured.",
+        "source_urls": [
+          "https://www.danube.sa/en"
+        ]
+      },
+      "product_coverage_note": "Beauty and personal-care departments exist; SKU-level coverage not verified.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Site reachable with a plain HTTP request and renders in a standard browser; listings depend on the selected store/district. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Mid-sized premium grocer online with a 1M+ install app."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Beauty and personal-care departments present but secondary to food."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "622.7K estimated Saudi web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Assortment not verified; neutral score for a full-range grocer."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages reachable and renderable; no API."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "A second grocery reference point after Panda with a premium shopper base; evidence is thinner on both reach and assortment.",
+      "confidence": "low",
+      "confidence_note": "Single volatile traffic estimate and no verified assortment or sales data.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "title": "Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/danube.sa/overview/",
+          "title": "danube.sa Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.app.danube&hl=en",
+          "title": "Danube - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Danube Co.)",
+          "published_date": "2026-11-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bindawoodholding.com/",
+          "title": "BinDawood Holding corporate site",
+          "publisher": "BinDawood Holding",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.danube.sa/en",
+          "title": "Danube online store [live page]",
+          "publisher": "Danube (BinDawood Holding)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Ninja",
+      "website": "https://ananinja.com/sa/en",
+      "operator": "Ninja (ananinja.com); legal entity not verified. Its pharmacy line is run by Al Khayal Al Sehi Company (\"Ninja Care\") per the site footer",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Quick-commerce store whose menu includes a Beauty section (cleansers, make-up, perfumes, hair devices) and a Pharmacy section alongside groceries; brand listings could not be read without a delivery address.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "A licensed pharmacy section (\"Ninja Care\", Ministry of Health licence cited in the footer).",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Semrush showing ananinja.com as the most-visited grocery or delivery site in its Saudi Food & Beverages list (3.08M visits, +105% year on year). Orders, customers and GMV are Not publicly disclosed in the sources read; the first_party_retailer label is an assumption based on its single-store catalogue and supplier portal link.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to ananinja.com (up 105.38% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "3.08M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "source_name": "Semrush - Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to ananinja.com; 85.38% from Saudi Arabia (September 2026 estimate 1.31M, i.e. volatile)",
+          "metric_type": "monthly_visits",
+          "value": "3.6M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/ananinja.com/overview/",
+          "source_name": "Semrush - ananinja.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. The rendered homepage shows category menus (Groceries, Beauty, Pharmacy, Restaurants) but products are shown only after a delivery address is chosen.",
+        "source_urls": [
+          "https://ananinja.com/sa/en"
+        ]
+      },
+      "product_coverage_note": "Beauty and pharmacy categories exist next to groceries and household; personal-care SKUs not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A \"Ninja Suppliers\" link is present on the site; no API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Assortment is address-gated and script-rendered; no API found. Manual checks or supplier-portal reporting are the realistic routes.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Fast-growing quick-commerce player with the largest web audience among Saudi grocery/delivery sites in Semrush's list."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Beauty and pharmacy are named categories but secondary to groceries and unverified in depth."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "3.08M estimated Saudi web visits in October 2026, roughly double a year earlier."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Brand listings not verifiable; scored conservatively for an address-gated quick-commerce range."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Address-gated catalogue and no API found."
+        }
+      },
+      "weighted_score": 2.85,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "The quick-commerce platform with the strongest audience signal in the Kingdom; important to watch but hard to instrument.",
+      "confidence": "low",
+      "confidence_note": "One volatile traffic estimator and the company's own site; no disclosed operating figures.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/food-and-beverages",
+          "title": "Most Visited Food & Beverages Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/ananinja.com/overview/",
+          "title": "ananinja.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ananinja.com/sa/en",
+          "title": "Ninja Saudi Arabia | Quick delivery 24 / 7 [live page]",
+          "publisher": "Ninja",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Trendyol",
+      "website": "https://www.trendyol.com",
+      "operator": "Trendyol (Google Play developer name); ownership not verified in this session",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "ECDB's model ranks Trendyol third among online personal-care retailers in Saudi Arabia; which brands drive that could not be verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Rests on 643.9K estimated Saudi web visits (48th among retail sites), ECDB's #3 personal-care ranking and Trendyol's integration documentation, which includes International Marketplace sections and address endpoints for \"GULF\" countries.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to trendyol.com",
+          "metric_type": "monthly_visits",
+          "value": "643.9K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among online personal-care retailers in Saudi Arabia (revenue locked on the public page)",
+          "metric_type": "market_share",
+          "value": "Rank #3 (no share disclosed)",
+          "period": "2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "source_name": "ECDB - Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play install band (cumulative, global, mostly Turkey)",
+          "metric_type": "app_users",
+          "value": "100M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=trendyol.com&hl=en",
+          "source_name": "Google Play (listing published by Trendyol) - Trendyol - Online Alisveris - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-18"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; no Trendyol listing pages were collected and no brand-owner site was found linking to it.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Trendyol publishes marketplace integration documentation (products, stock and price updates, orders, webhooks) with Turkiye, International Marketplace and Global Partner sections, and its index lists city/district services for GULF countries. Own-shop data only.",
+        "docs_url": "https://developers.trendyol.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Well-documented seller API that appears to extend to Gulf storefronts; useful only if the brand owner or its distributor sells there. Public pages not tested.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Mid-sized cross-border marketplace in the Kingdom by web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Modelled as the third-largest online personal-care seller, with an unverified brand mix."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "643.9K estimated Saudi web visits; app usage by country not disclosed."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Documented seller API including Gulf address services; own-shop data only."
+        }
+      },
+      "weighted_score": 2.85,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "An emerging cross-border competitor flagged by one modelled ranking; worth a periodic check, not routine monitoring, until its brand mix is understood.",
+      "confidence": "low",
+      "confidence_note": "Category relevance rests on a single modelled ranking; no assortment evidence.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "title": "Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=trendyol.com&hl=en",
+          "title": "Trendyol - Online Alisveris - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Trendyol)",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.trendyol.com/",
+          "title": "Trendyol Integration Documentation",
+          "publisher": "Trendyol",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.trendyol.com/llms.txt",
+          "title": "Trendyol Integration Documentation index (llms.txt)",
+          "publisher": "Trendyol",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "SHEIN",
+      "website": "https://www.shein.com",
+      "operator": "Roadget Business Pte. Ltd. (Google Play developer name)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led; beauty is one of many categories in the app listing and no established mass personal-care brand was verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Semrush ranking shein.com the fifth most-visited retail site in Saudi Arabia (7.97M visits, +33.52% year on year).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to shein.com (fifth most-visited retail website)",
+          "metric_type": "monthly_visits",
+          "value": "7.97M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative, global)",
+          "metric_type": "app_users",
+          "value": "1B+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en",
+          "source_name": "Google Play (listing published by Roadget Business PTE. LTD.) - SHEIN-Shopping Online - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-18"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; no listing pages were collected.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Beauty present as a category; brand mix not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "SHEIN Developer Platform documents OpenAPI solutions for product management and order fulfilment for sellers; own-shop data only.",
+        "docs_url": "https://open.sheincorp.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Seller-only API; public pages not tested.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Fifth most-visited retail site in the Kingdom by Semrush estimate and still growing."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Fashion platform with beauty as a minor category."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "7.97M estimated Saudi web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Seller-only API; competitor data would need a provider or manual work."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Very large audience but marginal for mass hair, skin and oral care.",
+      "confidence": "low",
+      "confidence_note": "Only audience evidence is available.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en",
+          "title": "SHEIN-Shopping Online - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Roadget Business PTE. LTD.)",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.sheincorp.com/",
+          "title": "SHEIN Developer Platform [copyright 2026]",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu",
+      "website": "https://www.temu.com",
+      "operator": "Whaleco Inc. (site footer); PDD Holdings affiliation not verified in this session",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "The app listing names \"beauty & cosmetics\" as a category, but Temu is not among ECDB's top three online personal-care retailers in Saudi Arabia and no mass-brand listing was verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Similarweb ranking temu.com #4 among Saudi Ecommerce & Shopping sites and Semrush estimating 5.61M Saudi visits (down 33.72% year on year).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to temu.com (down 33.72% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "5.61M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Ecommerce & Shopping websites in Saudi Arabia",
+          "metric_type": "other",
+          "value": "#4 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Google Play install band (cumulative, global)",
+          "metric_type": "app_users",
+          "value": "1B+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en",
+          "source_name": "Google Play (listing published by Temu) - Temu: Shop Like a Billionaire - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; listing pages are script-rendered and were not collected.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Beauty and personal-care categories exist; brand mix not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The Temu Partner Platform offers open APIs for sellers and software vendors; Saudi Arabia does not appear in the partner-site list shown on the page (the United Arab Emirates does). Own-shop data only.",
+        "docs_url": "https://partner.temu.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Seller-only API with no Saudi partner site listed, and script-rendered public pages; competitor monitoring would need a provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Fourth-ranked Saudi e-commerce site on Similarweb, though traffic is falling year on year."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "General cross-border marketplace with no evidence of category strength in the Kingdom."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "5.61M estimated Saudi web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Seller-only API and script-rendered pages."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Large but declining audience and no evidenced relevance to branded mass personal care; low priority.",
+      "confidence": "low",
+      "confidence_note": "Audience estimates only; category relevance and brand presence unknown.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/saudi-arabia/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in Saudi Arabia, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en",
+          "title": "Temu: Shop Like a Billionaire - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Temu)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.temu.com/",
+          "title": "TEMU Partner Platform [copyright 2026]",
+          "publisher": "Temu (Whaleco Inc.)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/sa/personal-care",
+          "title": "Personal Care Industry in Saudi Arabia (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Whites",
+      "website": "https://www.whites.sa",
+      "operator": "Whites (Google Play developer name \"GHB\"; full legal name not verified in this session)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Its app listing calls it \"a leading beauty and lifestyle retailer in the Kingdom of Saudi Arabia\" (company claim). The storefront navigation covers make-up, skin care, hair care, perfume, personal care, mother and baby, vitamins and medicines.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Medicines, vitamins and an e-prescription entry appear in the storefront navigation.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Little measurable online reach: Semrush shows only 3.2K Saudi visits for the old whites.net domain (which now redirects to whites.sa, for which no estimate exists) and the app has a 100K+ install band. Store count Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to whites.net, the former domain that now redirects to whites.sa (no estimate available for whites.sa)",
+          "metric_type": "monthly_visits",
+          "value": "3.2K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band for the Whites app (cumulative; listing last updated 2026-09-01)",
+          "metric_type": "app_users",
+          "value": "100K+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=net.whites&hl=en",
+          "source_name": "Google Play (listing published by GHB) - Whites - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-09-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Partly verified from the storefront homepage source (plain HTTP request): Garnier, Nivea, Colgate, Sensodyne and Cetaphil are named. CeraVe Arabia lists Whites as an official retailer. Brand pages were not read individually.",
+        "source_urls": [
+          "https://www.whites.sa/ar-sa",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Hair, skin, personal and oral care categories present; depth not measured.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found on the storefront page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Storefront reachable with a plain HTTP request (HTTP 200) but largely script-rendered and Arabic-first; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Store-led specialist with little evidenced online scale."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Beauty and personal-care specialist with pharmacy lines and several mass brands named on its storefront."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "No credible traffic estimate for the current domain; 100K+ app installs."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Four reference brands named in the storefront source; depth not verified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages reachable; no API."
+        }
+      },
+      "weighted_score": 2.65,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Relevant assortment but very weak evidence of online reach; keep on a watch list rather than in the first monitoring wave.",
+      "confidence": "low",
+      "confidence_note": "Operator, store count and traffic are essentially unverified; the domain changed from whites.net to whites.sa.",
+      "sources": [
+        {
+          "url": "https://www.whites.sa/ar-sa",
+          "title": "Whites storefront (Arabic; whites.net redirects here) [live page]",
+          "publisher": "Whites",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=net.whites&hl=en",
+          "title": "Whites - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by GHB)",
+          "published_date": "2026-09-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Namshi",
+      "website": "https://www.namshi.com",
+      "operator": "Namshi (Google Play developer name); ownership not verified in this session",
+      "status": "active",
+      "platform_category": "department_store_fashion",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led store with beauty as one category; its app listing cites Charlotte Tilbury and M.A.C Cosmetics. No Saudi-specific beauty page was verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. Saudi Arabia is Namshi's largest traffic source (45.51% of namshi.com visits). The business model was not verified and the first_party_retailer label is an assumption.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Saudi visits to namshi.com",
+          "metric_type": "monthly_visits",
+          "value": "786.9K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/sa/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative, all countries)",
+          "metric_type": "app_users",
+          "value": "10M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.namshi.android&hl=en",
+          "source_name": "Google Play (listing published by Namshi) - Namshi - Online Fashion Store - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-12"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified for Saudi Arabia; namshi.com refused automated access. A CeraVe page is verified only for the UAE, Kuwait and Bahrain storefronts via the brand owner's links.",
+        "source_urls": [
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Beauty is a secondary category; depth not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Automated access refused; manual checks or an authorised provider (none verified) would be needed.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Established regional fashion platform with a 10M+ install app."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty is a side category skewed to prestige brands."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "786.9K estimated Saudi web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified for the Saudi storefront."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Automated access refused and no API found."
+        }
+      },
+      "weighted_score": 2.4,
+      "priority_rank": 15,
+      "is_top3": false,
+      "priority_rationale": "Low overlap with mass hair, skin and oral care and poor data access; lowest priority in the set.",
+      "confidence": "low",
+      "confidence_note": "Operator structure, model and assortment unverified; reach from one estimator.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/sa/retail",
+          "title": "Most Visited Retail Websites in Saudi Arabia, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/namshi.com/overview/",
+          "title": "namshi.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.namshi.android&hl=en",
+          "title": "Namshi - Online Fashion Store - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Namshi)",
+          "published_date": "2026-11-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

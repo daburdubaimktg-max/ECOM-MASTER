@@ -1,0 +1,1446 @@
+{
+  "research_date": "2026-11-26",
+  "providers": [
+    {
+      "name": "Apify (platform + Apify Store actors)",
+      "website": "https://apify.com",
+      "provider_type": "scraping_platform",
+      "data_types": [
+        "product detail page",
+        "search results / rank position",
+        "prices and offers",
+        "sellers",
+        "ratings",
+        "review text (limited on Amazon)",
+        "best-seller lists",
+        "images (URLs)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "documented",
+        "amazon.sa": "documented",
+        "amazon.in": "documented",
+        "amazon.co.za": "generic_only",
+        "walmart.com": "documented",
+        "noon.com": "documented",
+        "takealot.com": "documented",
+        "jumia": "documented",
+        "flipkart.com": "documented",
+        "nykaa.com": "documented",
+        "shopee.com.my": "documented",
+        "lazada.com.my": "documented",
+        "boots.com": "documented",
+        "tesco.com": "documented",
+        "target.com": "documented",
+        "ulta.com": "documented"
+      },
+      "pricing": {
+        "model": "Monthly platform plan with prepaid usage, plus pay-per-event prices set per actor",
+        "public_price_points": "Plans: Free $0 (includes $5 usage/month), Starter $19/month, Scale $199/month, Business $999/month. Actor event prices at the Bronze (Starter) tier: Amazon Product Scraper (junglee/Amazon-crawler, Apify-maintained) $0.004 per result, +$0.002 per offer, +$0.002 per seller, +$0.05 per delivery-location lookup; Amazon Reviews Scraper (junglee) $0.005 per review; E-commerce Scraping Tool (apify) $0.0015 per product detail, $0.00042 per listing row, optional per-product add-ons $0.001 residential proxy, $0.00057 browser rendering, $0.0015 unblocker proxy; community actors for Noon, Takealot, Jumia, Flipkart, Nykaa, Shopee, Lazada, Tesco, Boots, Target, Ulta roughly $0.0004-$0.008 per result.",
+        "free_tier": "Free plan: $5 of usage per month, no credit card.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://apify.com/pricing"
+      },
+      "delivery": "REST API, scheduled runs, datasets (JSON/CSV/Excel), webhooks and integrations",
+      "historical_data": "None native; some community actors offer change-tracking/monitor modes. History must be built by storing snapshots.",
+      "compliance_posture": "Marketplace model: each actor has its own maintainer. Apify's own article says scraping publicly available data is generally legal, that GDPR protects all personal data regardless of source, and that sites can restrict scraping contractually. The Apify-maintained Amazon Reviews Scraper excludes personal information by default (input 'Include personal information', default false).",
+      "limitations": "Quality and continuity vary by actor. Usage on 2026-11-26: Amazon Product Scraper 33,843 total / 3,145 monthly users; Amazon Reviews Scraper 18,795 / 2,351 (rating 2.7 of 5 from 46 ratings); long-tail actors are tiny (e.g. Takealot 59 / 10, Jumia 75 / 15, Nykaa 20 / 16, Boots 26 / 7 monthly users) and community-maintained. No actor retrieved lists amazon.co.za explicitly (the Apify-maintained actors accept any Amazon URL/domain string). The Apify-maintained Amazon ASINs actor exposes an optional CAPTCHA solver (default off). Amazon review depth is limited (official actor: max 100 reviews per star filter; one community actor states that since Oct 2026 amazon.com returns summary/excerpts only without login).",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://apify.com/pricing",
+          "title": "Pricing",
+          "publisher": "Apify",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/junglee/Amazon-crawler",
+          "title": "Amazon Product Scraper (junglee/Amazon-crawler)",
+          "publisher": "Apify Store (maintained by Apify)",
+          "published_date": "modified 2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/junglee/amazon-reviews-scraper",
+          "title": "Amazon Reviews Scraper (junglee/amazon-reviews-scraper)",
+          "publisher": "Apify Store (maintained by Apify)",
+          "published_date": "modified 2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/apify/e-commerce-scraping-tool",
+          "title": "E-commerce Scraping Tool",
+          "publisher": "Apify Store (maintained by Apify)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/alfalfa/amazon-product-scraper",
+          "title": "Amazon Product Scraper - No Login (domain list)",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/jaybird/amazon-reviews-scraper",
+          "title": "Amazon Reviews Scraper - Review Text, Ratings & ASIN Data",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/junglee/amazon-asins-scraper",
+          "title": "Amazon ASINs Scraper",
+          "publisher": "Apify Store (maintained by Apify)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/e-commerce/walmart-product-detail-scraper",
+          "title": "Walmart Product Detail Scraper",
+          "publisher": "Apify Store (maintained by Apify)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/memo23/noon-scraper",
+          "title": "Noon Product Scraper - UAE, KSA, Egypt & GCC",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/shahidirfan/Takealot-Products-Scraper",
+          "title": "Takealot Products Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/khadinakbar/jumia-product-scraper",
+          "title": "Jumia Product Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/scrapesage/flipkart-scraper",
+          "title": "Flipkart Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/automation_craft/nykaa-scraper",
+          "title": "Nykaa Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/gio21/shopee-scraper",
+          "title": "Shopee Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/fatihtahta/lazada-scraper",
+          "title": "Lazada Scraper | All-In-One",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/radeance/tesco-scraper",
+          "title": "Tesco UK & Ireland Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/dromb/boots-uk-product-search-catalog-unofficial",
+          "title": "Boots UK Product Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/automation-lab/target-scraper",
+          "title": "Target Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apify.com/solidcode/ulta-scraper",
+          "title": "Ulta Beauty Scraper",
+          "publisher": "Apify Store (community)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://blog.apify.com/is-web-scraping-legal/",
+          "title": "Is web scraping legal?",
+          "publisher": "Apify blog",
+          "published_date": "2026-02-10",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Bright Data (Web Scraper API and datasets)",
+      "website": "https://brightdata.com",
+      "provider_type": "dataset_marketplace",
+      "data_types": [
+        "product detail page",
+        "search results",
+        "prices",
+        "sellers",
+        "ratings",
+        "reviews",
+        "best sellers",
+        "images (URLs)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "generic_only",
+        "amazon.sa": "generic_only",
+        "amazon.in": "generic_only",
+        "amazon.co.za": "generic_only",
+        "walmart.com": "documented",
+        "noon.com": "documented",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "documented",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "documented",
+        "lazada.com.my": "documented",
+        "boots.com": "generic_only",
+        "tesco.com": "generic_only",
+        "target.com": "documented",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Pay per successful record (Web Scraper API); one-off or subscription dataset purchases",
+        "public_price_points": "Web Scraper API: pay-as-you-go $1.5 per 1,000 records; Scale plan $499/month including 384,000 records, then $1.3 per 1,000; Enterprise custom. Custom/AI-built scrapers (Shopee, Noon pages): $1.5 per 1,000 page loads, Scale $499/month with 383K page loads. Datasets: e-commerce datasets start at $250 for 100,000 records (one-time), discounts for biannual/quarterly/monthly refresh.",
+        "free_tier": "Free tier: 5,000 records (or page loads) per month, no credit card.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://brightdata.com/pricing/web-scraper"
+      },
+      "delivery": "API (sync/async), datasets; delivery to Amazon S3, Google Cloud Storage, Azure, Snowflake, Google Pub/Sub, SFTP, webhook; JSON/NDJSON/CSV/Parquet",
+      "historical_data": "Yes for datasets (pre-collected snapshots; one-time or scheduled refresh). The API itself is real-time.",
+      "compliance_posture": "States 'Only publicly available data', 'GDPR & CCPA compliant', 'ISO 27001 certified, SOC 2 controls', and that every use case is reviewed by a Compliance & Ethics team; Trust Center references a KYC process, a public SOC 3 report and certificates. Vendor claims, not independently verified.",
+      "limitations": "Pages retrieved name Amazon (amazon.com, with amazon.co.uk and amazon.de in samples), Walmart, Target, Lazada, Shopee, Flipkart and Noon, but not Tesco, Ulta, Boots, Takealot, Jumia or Nykaa; Amazon regional domains (.ae, .sa, .in, .co.za) and Shopee/Lazada country sites are not itemised. Whether a search page is billed as one record or one record per product row was not stated on the pages retrieved. Amazon review depth not stated. In Meta v. Bright Data the plaintiff alleged the company uses tools to get past CAPTCHAs.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://brightdata.com/pricing/web-scraper",
+          "title": "Web Scraper API pricing",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/products/web-scraper/ecommerce",
+          "title": "eCommerce scrapers",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/products/datasets/ecommerce",
+          "title": "eCommerce datasets",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/products/web-scraper/amazon",
+          "title": "Amazon Scraper",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/products/web-scraper/flipkart",
+          "title": "Flipkart Scraper",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/products/web-scraper/shopee",
+          "title": "Shopee Scraper",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/products/web-scraper/noon",
+          "title": "Noon Scraper",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://brightdata.com/trustcenter",
+          "title": "Trust Center",
+          "publisher": "Bright Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Oxylabs (Web Scraper API - dedicated commerce scrapers)",
+      "website": "https://oxylabs.io",
+      "provider_type": "proxy_and_scraper_api",
+      "data_types": [
+        "product detail page",
+        "search results",
+        "prices and offers (Amazon pricing endpoint)",
+        "sellers (Amazon)",
+        "best sellers (Amazon)",
+        "ratings"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "documented",
+        "amazon.sa": "documented",
+        "amazon.in": "documented",
+        "amazon.co.za": "documented",
+        "walmart.com": "documented",
+        "noon.com": "generic_only",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "documented",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "generic_only",
+        "lazada.com.my": "documented",
+        "boots.com": "generic_only",
+        "tesco.com": "generic_only",
+        "target.com": "documented",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Prepaid monthly plans; price per 1,000 successful results depends on target and JavaScript rendering",
+        "public_price_points": "Plans: Starter $15/month, Basic $100/month, Flexible $500/month, Enterprise from $2,500/month. Per 1,000 results: Amazon (non-JS) $0.50 falling to $0.25 at volume; other targets from $1.00; custom domain non-JS $1.00, with JS rendering $1.50.",
+        "free_tier": "$5 welcome credit toward any product.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://oxylabs.io/products/scraper-api/web/pricing"
+      },
+      "delivery": "REST API with sync, async and batch modes; parsed JSON for dedicated targets",
+      "historical_data": "None found.",
+      "compliance_posture": "States the E-Commerce Scraper is ISO/IEC 27001:2017 certified and describes the product as extracting publicly-available product data.",
+      "limitations": "Dedicated endpoints documented for Amazon ('A URL on any Amazon marketplace': product, search, pricing, sellers, bestsellers), Walmart, Target, Flipkart and Lazada (product and search). No dedicated endpoint found for Noon, Takealot, Jumia, Nykaa, Shopee, Boots, Tesco or Ulta (generic 'custom domain' scraping only). No Amazon reviews endpoint appears in the current commerce reference; Oxylabs' own blog says non-logged-in users see roughly 8 to 13 featured reviews.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://oxylabs.io/products/scraper-api/web/pricing",
+          "title": "Web Scraper API pricing",
+          "publisher": "Oxylabs",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://oxylabs.io/products/scraper-api/ecommerce",
+          "title": "E-Commerce Scraper API",
+          "publisher": "Oxylabs",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.oxylabs.io/api-reference/dedicated-scrapers/commerce-scrapers.md",
+          "title": "Commerce Scrapers (API reference)",
+          "publisher": "Oxylabs",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://oxylabs.io/blog/how-to-scrape-amazon-reviews",
+          "title": "How to scrape Amazon reviews",
+          "publisher": "Oxylabs",
+          "published_date": "updated 2026-06-22",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Zyte API",
+      "website": "https://www.zyte.com",
+      "provider_type": "proxy_and_scraper_api",
+      "data_types": [
+        "product detail page (AI extraction: name, SKU, GTIN, brand, price, currency, availability, aggregate rating)",
+        "generic page HTML"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "generic_only",
+        "amazon.co.uk": "generic_only",
+        "amazon.ae": "generic_only",
+        "amazon.sa": "generic_only",
+        "amazon.in": "generic_only",
+        "amazon.co.za": "generic_only",
+        "walmart.com": "generic_only",
+        "noon.com": "generic_only",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "generic_only",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "generic_only",
+        "lazada.com.my": "generic_only",
+        "boots.com": "generic_only",
+        "tesco.com": "generic_only",
+        "target.com": "generic_only",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Pay per 1,000 successful responses; price depends on a per-website difficulty tier and on browser rendering",
+        "public_price_points": "HTTP responses: $0.13 (tier 1) to $1.27 (tier 5) per 1,000 pay-as-you-go; browser-rendered: $1.01 to $16.08 per 1,000. Monthly commitments of $100, $200 or $500 lower the unit rates. Cost of AI extraction add-ons is not listed on the pricing page.",
+        "free_tier": "$5 free credit for 30 days.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.zyte.com/pricing/"
+      },
+      "delivery": "REST API; managed 'Zyte Data' feeds delivered to specification",
+      "historical_data": "None found.",
+      "compliance_posture": "States 'Product feeds do not collect personal data', that every project is reviewed against its ethical web data principles, and that it is a founding member of the Ethical Web Data Collection Initiative; displays an ISO 27001 seal.",
+      "limitations": "No marketplace-specific endpoints were found: every target is handled through generic extraction, and the price tier for each marketplace is only visible in Zyte's cost calculator. Suitable where no dedicated scraper exists, but output must be validated per site.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://www.zyte.com/pricing/",
+          "title": "Pricing",
+          "publisher": "Zyte",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.zyte.com/data-types/product-scraper/",
+          "title": "Product data",
+          "publisher": "Zyte",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.zyte.com/zyte-api/ai-extraction/",
+          "title": "AI extraction",
+          "publisher": "Zyte",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "ScraperAPI (structured data endpoints)",
+      "website": "https://www.scraperapi.com",
+      "provider_type": "proxy_and_scraper_api",
+      "data_types": [
+        "product detail page (Amazon, Walmart, eBay, Home Depot)",
+        "search results (Amazon, Walmart, eBay, Home Depot)",
+        "offers (Amazon)",
+        "category (Walmart)",
+        "reviews (Walmart, Home Depot)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "documented",
+        "amazon.sa": "documented",
+        "amazon.in": "documented",
+        "amazon.co.za": "documented",
+        "walmart.com": "documented",
+        "noon.com": "generic_only",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "generic_only",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "generic_only",
+        "lazada.com.my": "generic_only",
+        "boots.com": "generic_only",
+        "tesco.com": "generic_only",
+        "target.com": "generic_only",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Monthly plans of API credits; credits per request vary by domain",
+        "public_price_points": "Hobby $49/month (100,000 credits), Startup $149 (1,000,000), Business $299 (3,000,000), Scaling $475 (5,000,000), Professional $975 (10,500,000), Advanced $1,975 (21,500,000). A standard page costs 1 credit; Amazon, Walmart and eBay cost 5 credits per request; premium or JS rendering 10 credits; ultra-premium 30.",
+        "free_tier": "Pricing page offers a 7-day trial with 5,000 credits; its FAQ also describes a free plan with 1,000 credits (the two are not reconciled on the page).",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.scraperapi.com/pricing/"
+      },
+      "delivery": "REST API (sync and async endpoints); DataPipeline scheduled jobs",
+      "historical_data": "None found.",
+      "compliance_posture": "No compliance statement was found on the pages retrieved.",
+      "limitations": "Documented Amazon domains include com, co.uk, in, ae, sa and co.za. The current documentation index lists Amazon Product, Search and Offers endpoints but no Amazon reviews endpoint (a marketing page still shows one). All other target sites are generic scraping only.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://www.scraperapi.com/pricing/",
+          "title": "Pricing",
+          "publisher": "ScraperAPI",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.scraperapi.com/structured-data-endpoints/e-commerce.md",
+          "title": "E-commerce structured data endpoints",
+          "publisher": "ScraperAPI",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.scraperapi.com/structured-data-endpoints/e-commerce/amazon/amazon-product-api.md",
+          "title": "Amazon Product API",
+          "publisher": "ScraperAPI",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.scraperapi.com/getting-started/quick-start/credits-and-requests-costs.md",
+          "title": "Credits and Requests costs",
+          "publisher": "ScraperAPI",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "SerpApi",
+      "website": "https://serpapi.com",
+      "provider_type": "serp_api",
+      "data_types": [
+        "search results with position and sponsored flag (Amazon, Walmart, Target, eBay, Google Shopping)",
+        "product detail (Amazon, Walmart)",
+        "reviews (Walmart, eBay, Home Depot)",
+        "seller (Walmart, eBay)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "documented",
+        "amazon.sa": "documented",
+        "amazon.in": "documented",
+        "amazon.co.za": "not_found",
+        "walmart.com": "documented",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "documented",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Monthly plans by number of successful searches (one request = one search regardless of result count)",
+        "public_price_points": "Free 250 searches/month; Starter $25 (1,000); Developer $75 (5,000); Production $150 (15,000); Big Data $275 (30,000); Searcher $725 (100,000).",
+        "free_tier": "250 searches per month.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://serpapi.com/pricing"
+      },
+      "delivery": "REST API (JSON); async mode with a Searches Archive API",
+      "historical_data": "Only an archive of the customer's own past searches.",
+      "compliance_posture": "Advertises a 'U.S. Legal Shield' of up to $2 million covering the scraping and parsing of search engine data 'as long as your use of the data or service is not illegal'.",
+      "limitations": "Engine-specific: 22 Amazon domains listed (amazon.co.za is not among them); Target is search-only; no engines for Noon, Takealot, Jumia, Flipkart, Nykaa, Shopee, Lazada, Boots, Tesco or Ulta and no generic scraping endpoint. No dedicated Amazon reviews engine was listed. Google sued SerpApi in December 2025 under the DMCA anti-circumvention provisions (status not verified).",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://serpapi.com/pricing",
+          "title": "Pricing",
+          "publisher": "SerpApi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://serpapi.com/amazon-search-api",
+          "title": "Amazon Search API",
+          "publisher": "SerpApi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://serpapi.com/amazon-domains",
+          "title": "Supported Amazon domains",
+          "publisher": "SerpApi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://serpapi.com/search-engine-apis",
+          "title": "Search engine APIs",
+          "publisher": "SerpApi",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Rainforest API (Traject Data)",
+      "website": "https://trajectdata.com/ecommerce/rainforest-api/",
+      "provider_type": "structured_ecommerce_api",
+      "data_types": [
+        "product detail page",
+        "search results",
+        "offers",
+        "best sellers",
+        "reviews (availability uncertain)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "documented",
+        "amazon.sa": "documented",
+        "amazon.in": "documented",
+        "amazon.co.za": "documented",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Monthly credit plans (prices shown are billed annually; monthly billing costs more)",
+        "public_price_points": "Hobbyist $23/month (500 credits), Starter $83 (10,000), Production $375 (250,000), BigData $1,000 (1,000,000); extra credits $0.06, $0.0118, $0.003 and $0.002 respectively. Credits consumed per request type are not stated on the pricing page.",
+        "free_tier": "Free trial offered; allowance not stated.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://trajectdata.com/ecommerce/rainforest-api/pricing/"
+      },
+      "delivery": "REST API (JSON/CSV/HTML); 'Collections' for scheduled bulk requests",
+      "historical_data": "None found.",
+      "compliance_posture": "Describes its data as web-scraped from public sources; no certification statement found on the pages retrieved.",
+      "limitations": "Amazon only. Supported-domain list includes amazon.com, .co.uk, .ae, .sa, .in and .co.za. Current status of the reviews request type could not be confirmed from Traject documentation (the documentation page returned 404; third-party user reviews report failures) - UNVERIFIED.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://trajectdata.com/ecommerce/rainforest-api/pricing/",
+          "title": "Rainforest API pricing",
+          "publisher": "Traject Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.trajectdata.com/rainforestapi/product-data-api/reference/amazon-domains",
+          "title": "Rainforest API - Amazon domains",
+          "publisher": "Traject Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "BlueCart API (Traject Data)",
+      "website": "https://trajectdata.com/ecommerce/bluecart-api/",
+      "provider_type": "structured_ecommerce_api",
+      "data_types": [
+        "product detail page",
+        "search (by GTIN/UPC/SKU/name)",
+        "prices and availability",
+        "reviews"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "not_found",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "documented",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Monthly credit plans (prices shown are billed annually)",
+        "public_price_points": "Starter $66/month (10,000 credits), Production $375 (250,000), BigData $1,000 (1,000,000); the page also mentions a plan from $15/month for 500 credits.",
+        "free_tier": "Free trial, no credit card required.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://trajectdata.com/ecommerce/bluecart-api/"
+      },
+      "delivery": "REST API (JSON/CSV/HTML); Collections for bulk requests (up to 15,000 per collection)",
+      "historical_data": "None found.",
+      "compliance_posture": "States it is not affiliated with or endorsed by Walmart and provides web-scraped data from public sources.",
+      "limitations": "Walmart only.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://trajectdata.com/ecommerce/bluecart-api/",
+          "title": "BlueCart API",
+          "publisher": "Traject Data",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Keepa API",
+      "website": "https://keepa.com",
+      "provider_type": "price_history_api",
+      "data_types": [
+        "price history",
+        "offers and buy box history",
+        "product metadata",
+        "rating / stock / statistics options"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "documented",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Monthly subscription by token generation rate (tokens per minute)",
+        "public_price_points": "Official pricing page could not be read (site blocked automated access). A third-party article updated 2026-08-20 reports EUR 49 for 20 tokens/minute, EUR 129 for 60, EUR 459 for 250, EUR 879 for 500, EUR 2,499 for 2,000 and EUR 11,099 for 10,000 - treat as UNVERIFIED until confirmed on keepa.com.",
+        "free_tier": "None reported.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://keepa.com/#!api"
+      },
+      "delivery": "REST API (token-metered); official Java client and community Python client",
+      "historical_data": "Yes - this is the core product (historical Amazon price and offer data).",
+      "compliance_posture": "No compliance statement retrieved.",
+      "limitations": "Amazon only. The Python client's domain list is US, GB, DE, FR, JP, CA, IT, ES, IN, MX, BR - no UAE, Saudi Arabia or South Africa. keepa.com and discuss.keepa.com could not be accessed in this session, so data-type detail and prices are from secondary sources.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://keepaapi.readthedocs.io/en/latest/api/types/keepa.Domain.html",
+          "title": "keepa.Domain (Python client documentation)",
+          "publisher": "keepa Python client (third-party)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pypi.org/project/keepa/",
+          "title": "keepa 1.6.0",
+          "publisher": "PyPI",
+          "published_date": "2026-10-05",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://revenuegeeks.com/keepa-pricing/",
+          "title": "Keepa pricing",
+          "publisher": "RevenueGeeks (third-party)",
+          "published_date": "updated 2026-08-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://keepa.com/#!api",
+          "title": "Keepa API (blocked by Cloudflare on access)",
+          "publisher": "Keepa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "DataForSEO Merchant API",
+      "website": "https://dataforseo.com/apis/merchant-api",
+      "provider_type": "serp_api",
+      "data_types": [
+        "search results (Amazon Products, Google Shopping)",
+        "product detail by ASIN",
+        "sellers",
+        "reviews (Amazon; status unverified)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Pay-as-you-go balance; price per task depends on queue priority",
+        "public_price_points": "Amazon ASIN: $0.0015 (standard queue), $0.003 (priority), $0.005 (live) per product. Amazon Products/Sellers: the page shows two price sets ($0.0015/$0.003/$0.005 and $0.001/$0.002) - confirm before budgeting. Google Shopping: $0.001 standard, $0.002 priority. Amazon reviews: $0.00075 per 10 reviews (standard).",
+        "free_tier": "Free trial advertised; credit amount not stated.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://dataforseo.com/apis/merchant-api"
+      },
+      "delivery": "Task-based REST API (standard and priority queues; live mode for Amazon)",
+      "historical_data": "None found.",
+      "compliance_posture": "No compliance statement retrieved.",
+      "limitations": "Covers Amazon and Google Shopping only. Supported Amazon locations are published through an API endpoint/CSV that was not retrieved; only the United States and United Kingdom appeared in documentation examples, so UAE, Saudi Arabia, India and South Africa are unconfirmed.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://dataforseo.com/apis/merchant-api",
+          "title": "Merchant API",
+          "publisher": "DataForSEO",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/merchant/amazon/locations/",
+          "title": "Merchant API - Amazon locations",
+          "publisher": "DataForSEO",
+          "published_date": "locations list updated 2026-11-02",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Firecrawl",
+      "website": "https://www.firecrawl.dev",
+      "provider_type": "other",
+      "data_types": [
+        "generic page content (markdown/HTML)",
+        "LLM-based JSON extraction to a user-defined schema"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "generic_only",
+        "amazon.co.uk": "generic_only",
+        "amazon.ae": "generic_only",
+        "amazon.sa": "generic_only",
+        "amazon.in": "generic_only",
+        "amazon.co.za": "generic_only",
+        "walmart.com": "generic_only",
+        "noon.com": "generic_only",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "generic_only",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "generic_only",
+        "lazada.com.my": "generic_only",
+        "boots.com": "generic_only",
+        "tesco.com": "generic_only",
+        "target.com": "generic_only",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Monthly credit plans; 1 credit per page, +4 credits for JSON extraction",
+        "public_price_points": "Free 1,000 credits/month; Hobby $19 (5,000); Standard $99 (100,000); Growth $399 (500,000); Scale $749 (1,000,000).",
+        "free_tier": "1,000 credits per month, no credit card.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.firecrawl.dev/pricing"
+      },
+      "delivery": "REST API (scrape, crawl, map, search)",
+      "historical_data": "None.",
+      "compliance_posture": "No compliance statement retrieved.",
+      "limitations": "General-purpose crawler aimed at AI use; no marketplace-specific parsers, so price/rank fields must be defined and validated by the user. Success on protected marketplaces not verified.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://www.firecrawl.dev/pricing",
+          "title": "Pricing",
+          "publisher": "Firecrawl",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Unwrangle",
+      "website": "https://www.unwrangle.com",
+      "provider_type": "structured_ecommerce_api",
+      "data_types": [
+        "product detail page",
+        "search results",
+        "category listings",
+        "reviews (Amazon reviews endpoint marked legacy / high-risk)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "documented",
+        "amazon.ae": "generic_only",
+        "amazon.sa": "generic_only",
+        "amazon.in": "documented",
+        "amazon.co.za": "generic_only",
+        "walmart.com": "documented",
+        "noon.com": "generic_only",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "generic_only",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "generic_only",
+        "lazada.com.my": "generic_only",
+        "boots.com": "generic_only",
+        "tesco.com": "documented",
+        "target.com": "documented",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Monthly credit plans",
+        "public_price_points": "Starter $99/month (100,000 credits), Standard $249 (300,000), Professional $499 (750,000), Enterprise $999 (2,000,000). Amazon US: 1 credit per request; other Amazon marketplaces: 2.5 credits; Unblock API with premium proxy: 2 credits.",
+        "free_tier": "Sign-up without credit card; free credit amount not stated.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.unwrangle.com/"
+      },
+      "delivery": "REST API (JSON)",
+      "historical_data": "None found.",
+      "compliance_posture": "Documentation carries a disclaimer section; no certification statement retrieved.",
+      "limitations": "Retailers documented: Amazon (US, CA, UK, FR, DE, ES, IT, JP, AU, IN, BR, BE - no UAE, Saudi Arabia or South Africa), Walmart, Target, Tesco (product data and reviews), Costco, Sam's Club, Best Buy, Home Depot, Lowe's, Wayfair and others; not Noon, Flipkart, Shopee, Lazada, Boots or Ulta. Its Amazon reviews documentation states that since 5 November 2024 Amazon requires login to view reviews, that only the 8 most recent reviews are available without supplying an Amazon account cookie, and that the endpoint is 'legacy / high-risk'.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://www.unwrangle.com/",
+          "title": "Unwrangle (home / pricing)",
+          "publisher": "Unwrangle",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.unwrangle.com/",
+          "title": "Unwrangle documentation",
+          "publisher": "Unwrangle",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.unwrangle.com/amazon-product-reviews-api/",
+          "title": "Amazon Product Reviews API",
+          "publisher": "Unwrangle",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.unwrangle.com/amazon-product-data-api/",
+          "title": "Amazon Product Data API",
+          "publisher": "Unwrangle",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Canopy API",
+      "website": "https://www.canopyapi.co",
+      "provider_type": "structured_ecommerce_api",
+      "data_types": [
+        "product detail by ASIN or GTIN/UPC",
+        "pricing, offers and buy box",
+        "sales and stock estimates",
+        "search results and rankings",
+        "best sellers / deals",
+        "category taxonomy",
+        "seller profiles"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Not publicly disclosed on the pages retrieved",
+        "public_price_points": "Not publicly disclosed (home page and documentation index show no prices; the /pricing URL returned 404).",
+        "free_tier": "Not publicly disclosed.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.canopyapi.co/"
+      },
+      "delivery": "REST (OpenAPI 3.1) and GraphQL APIs; hosted MCP server",
+      "historical_data": "None found (sales estimates are modelled, not history).",
+      "compliance_posture": "No compliance statement retrieved.",
+      "limitations": "Amazon only; supported Amazon domains are not stated on the pages retrieved (amazon.com assumed). Reviews are not listed as a data type.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://www.canopyapi.co/",
+          "title": "Canopy API",
+          "publisher": "Canopy API",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://docs.canopyapi.co/",
+          "title": "Canopy API documentation",
+          "publisher": "Canopy API",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Decodo (formerly Smartproxy) Web / eCommerce Scraping API",
+      "website": "https://decodo.com",
+      "provider_type": "proxy_and_scraper_api",
+      "data_types": [
+        "product detail page",
+        "search results",
+        "pricing",
+        "reviews",
+        "best sellers",
+        "sellers (templates for Amazon, Walmart, Target)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "generic_only",
+        "amazon.ae": "generic_only",
+        "amazon.sa": "generic_only",
+        "amazon.in": "generic_only",
+        "amazon.co.za": "generic_only",
+        "walmart.com": "documented",
+        "noon.com": "generic_only",
+        "takealot.com": "generic_only",
+        "jumia": "generic_only",
+        "flipkart.com": "generic_only",
+        "nykaa.com": "generic_only",
+        "shopee.com.my": "generic_only",
+        "lazada.com.my": "documented",
+        "boots.com": "generic_only",
+        "tesco.com": "generic_only",
+        "target.com": "documented",
+        "ulta.com": "generic_only"
+      },
+      "pricing": {
+        "model": "Monthly plans by pages scraped",
+        "public_price_points": "Free $0 (up to 10K pages scraped), $19 (38K pages), $49 (122K), $99 (330K), $249 (1.2M), $499 (2.7M), $999 (6.2M), $1,499 (9.9M).",
+        "free_tier": "Free starter plan (up to 10K pages), no credit card.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://decodo.com/scraping/web/pricing"
+      },
+      "delivery": "REST API (/scrape, /map, /crawl, /search); pay only for successful results",
+      "historical_data": "None found.",
+      "compliance_posture": "No legal-compliance statement on the pages retrieved; the product page advertises anti-bot handling, built-in browser fingerprints and automatic CAPTCHA handling.",
+      "limitations": "Named templates: Amazon (product, search, pricing, bestsellers, sellers), Walmart, Target; Lazada is named among '50+ marketplaces'. Amazon regional domains and all other target sites were not itemised (raw URL requests only). Automatic CAPTCHA handling conflicts with a no-CAPTCHA-bypass policy unless confirmed otherwise with the vendor.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://decodo.com/scraping/web/pricing",
+          "title": "Web Scraping API pricing",
+          "publisher": "Decodo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://decodo.com/scraping/ecommerce",
+          "title": "eCommerce Scraping API",
+          "publisher": "Decodo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Jungle Scout API",
+      "website": "https://www.junglescout.com/products/jungle-scout-api/",
+      "provider_type": "analytics_vendor_api",
+      "data_types": [
+        "estimated sales",
+        "keyword search volume (incl. historical)",
+        "share of voice",
+        "product database (price, reviews count, rating, BSR, sellers)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Add-on to an eligible Jungle Scout subscription; priced by requests per month",
+        "public_price_points": "First 100 requests free; 1,000 requests/month $29; 4,000 $99; 10,000 $199; overage $0.05 per request (each response page counts as a request).",
+        "free_tier": "First 100 requests.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.junglescout.com/products/jungle-scout-api/"
+      },
+      "delivery": "REST API",
+      "historical_data": "Yes (historical search volume; modelled sales estimates).",
+      "compliance_posture": "Not stated on the page retrieved.",
+      "limitations": "Modelled estimates rather than observed shelf data; requires a Growth Accelerator, Brand Owner or Cobalt plan; supported Amazon marketplaces not stated on the page.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://www.junglescout.com/products/jungle-scout-api/",
+          "title": "Jungle Scout API",
+          "publisher": "Jungle Scout",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "SmartScout",
+      "website": "https://www.smartscout.com",
+      "provider_type": "analytics_vendor_api",
+      "data_types": [
+        "brand, seller, subcategory and product-level Amazon analytics",
+        "keyword research",
+        "share of voice (enterprise)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Subscription; API is a sales-quoted add-on",
+        "public_price_points": "Plans shown at $29-$49 (Basic), $99-$119 (Essentials) and $239-$299 (Business) per month (two price sets, billing basis not labelled); Enterprise custom. API: 'This feature is an add-on. If interested, please talk to sales.'",
+        "free_tier": "Not stated.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.smartscout.com/pricing"
+      },
+      "delivery": "Web application; API and MCP as add-ons",
+      "historical_data": "Historical data listed under Enterprise.",
+      "compliance_posture": "Not stated on the page retrieved.",
+      "limitations": "Amazon only; marketplaces not listed on the page; API price not public.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://www.smartscout.com/pricing",
+          "title": "Pricing",
+          "publisher": "SmartScout",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Similarweb (API / Retail Intelligence)",
+      "website": "https://www.similarweb.com",
+      "provider_type": "analytics_vendor_api",
+      "data_types": [
+        "web traffic and demand analytics",
+        "Amazon sales analytics, keyword research, price and buy-box tracking (Retail Intelligence)"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "documented",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Custom packages; API can be bought standalone",
+        "public_price_points": "Not publicly disclosed ('contact the sales team').",
+        "free_tier": "Not publicly disclosed for the API.",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.similarweb.com/corp/pricing/"
+      },
+      "delivery": "Real-time and bulk APIs, data feeds",
+      "historical_data": "Yes (panel-based time series), details not on the page retrieved.",
+      "compliance_posture": "Not stated on the page retrieved.",
+      "limitations": "Estimates derived from Similarweb's own measurement, not page-level shelf data; marketplace coverage beyond Amazon not stated on the page retrieved.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/corp/pricing/",
+          "title": "Pricing",
+          "publisher": "Similarweb",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "RealData API (Noon Data Scraping API)",
+      "website": "https://www.realdataapi.com",
+      "provider_type": "structured_ecommerce_api",
+      "data_types": [
+        "product detail",
+        "search results",
+        "reviews",
+        "seller offers",
+        "deals",
+        "category tree"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "not_found",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "documented",
+        "takealot.com": "not_found",
+        "jumia": "not_found",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Not publicly disclosed (billed per successful response)",
+        "public_price_points": "Not publicly disclosed.",
+        "free_tier": "Free sandbox key and sample credits (amount not stated).",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.realdataapi.com/noon-api.php"
+      },
+      "delivery": "REST API (JSON/CSV), webhook delivery, scheduled batch jobs",
+      "historical_data": "None found.",
+      "compliance_posture": "Claims to collect only publicly accessible listing data, never login-gated data, and lists ISO 9001:2015 and ISO/IEC 27001:2013 - unverified vendor claims.",
+      "limitations": "Small scraping-service vendor; performance and certification claims are unverified; only the Noon page (UAE, Saudi Arabia, Egypt) was reviewed. Other marketplace pages on the same site were not checked.",
+      "integration_complexity": "medium",
+      "sources": [
+        {
+          "url": "https://www.realdataapi.com/noon-api.php",
+          "title": "Noon Data Scraping API",
+          "publisher": "RealData API",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "ScrapeIt (managed scraping service: Jumia, Takealot)",
+      "website": "https://www.scrapeit.io",
+      "provider_type": "other",
+      "data_types": [
+        "product URLs and SKUs",
+        "titles, brands, descriptions",
+        "current and old prices",
+        "seller names and scores",
+        "ratings and reviews",
+        "stock flags",
+        "image URLs"
+      ],
+      "marketplace_coverage": {
+        "amazon.com": "not_found",
+        "amazon.co.uk": "not_found",
+        "amazon.ae": "not_found",
+        "amazon.sa": "not_found",
+        "amazon.in": "not_found",
+        "amazon.co.za": "not_found",
+        "walmart.com": "not_found",
+        "noon.com": "not_found",
+        "takealot.com": "documented",
+        "jumia": "documented",
+        "flipkart.com": "not_found",
+        "nykaa.com": "not_found",
+        "shopee.com.my": "not_found",
+        "lazada.com.my": "not_found",
+        "boots.com": "not_found",
+        "tesco.com": "not_found",
+        "target.com": "not_found",
+        "ulta.com": "not_found"
+      },
+      "pricing": {
+        "model": "Managed service: one-off extract or monthly subscription plus setup fee",
+        "public_price_points": "EUR 199 one-time (100,000 rows); EUR 169/month + EUR 499 setup (250,000 rows, monthly refresh); EUR 229/month + EUR 499 (1,000,000 rows, weekly); EUR 349/month + EUR 499 (2,000,000 rows, daily); EUR 549/month + EUR 799 (3,000,000 rows, three times daily).",
+        "free_tier": "Paid data sample (EUR 9.99).",
+        "price_seen_date": "2026-11-26",
+        "pricing_url": "https://www.scrapeit.io/scraper/jumia"
+      },
+      "delivery": "Files (CSV/Excel/JSON/XML) via FTP/SFTP/S3/Google Cloud, hosted API or JSON feed",
+      "historical_data": "Only what is accumulated during the engagement.",
+      "compliance_posture": "States it collects only publicly available data and keeps request rates moderate; NDA available on request.",
+      "limitations": "Agency model (not self-serve); Jumia Nigeria and Kenya named; a Takealot scraper is listed but its page was not reviewed.",
+      "integration_complexity": "low",
+      "sources": [
+        {
+          "url": "https://www.scrapeit.io/scraper/jumia",
+          "title": "Jumia scraper",
+          "publisher": "ScrapeIt",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "confidence": "low"
+    }
+  ],
+  "terms_of_use": [
+    {
+      "platform": "Amazon.com (United States)",
+      "terms_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM",
+      "last_updated": "UNVERIFIED",
+      "automated_access_clause_quote": "UNVERIFIED - not retrieved. Amazon's robots.txt disallows the AI user agent this research ran under, so no amazon.* page other than robots.txt was fetched. The terms_url shown is from prior knowledge and was not opened today. From prior knowledge only (to be confirmed manually): the 'License and Access' section is understood to exclude 'any use of data mining, robots, or similar data gathering and extraction tools'.",
+      "robots_txt_summary": "Fetched 2026-11-26. The general ('*') group does not disallow product detail (/dp/...) or search (/s) paths, but disallows offer listings (/gp/offer-listing), customer profile pages (/gp/profile/, /gp/pdp/profile/), member-review and review-widget paths, cart, sign-in and wishlist paths. 99 named user agents - including GPTBot, ClaudeBot, Claude-User, PerplexityBot, CCBot, Scrapy, Diffbot and Brightbot - are disallowed from the whole site.",
+      "robots_txt_url": "https://www.amazon.com/robots.txt"
+    },
+    {
+      "platform": "Amazon.ae (UAE; same position for amazon.sa, amazon.co.uk, amazon.in, amazon.co.za)",
+      "terms_url": "https://www.amazon.ae/gp/help/customer/display.html?nodeId=201909000",
+      "last_updated": "UNVERIFIED",
+      "automated_access_clause_quote": "UNVERIFIED - not retrieved (same reason as Amazon.com). Store-specific Conditions of Use must be read manually. The terms_url shown is from prior knowledge and was not opened today.",
+      "robots_txt_summary": "Fetched 2026-11-26 for amazon.ae, amazon.sa, amazon.co.uk, amazon.in and amazon.co.za: same structure as amazon.com, with the same 99 named agents fully disallowed; '*' group does not disallow /dp/ product pages; amazon.in additionally disallows certain faceted search URLs and top-reviewer pages.",
+      "robots_txt_url": "https://www.amazon.ae/robots.txt"
+    },
+    {
+      "platform": "Walmart.com",
+      "terms_url": "https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0",
+      "last_updated": "UNVERIFIED",
+      "automated_access_clause_quote": "UNVERIFIED - not retrieved. The terms page returned a 'Robot or human?' press-and-hold verification challenge to automated access on 2026-11-26; it was not bypassed.",
+      "robots_txt_summary": "Fetched 2026-11-26. '*' group disallows /search, /api/, /account/, /cservice/, /orders and other functional paths; explicitly allows /reviews/product/ and /reviews/seller/; product pages (/ip/...) are not disallowed; many sitemaps are published.",
+      "robots_txt_url": "https://www.walmart.com/robots.txt"
+    },
+    {
+      "platform": "Noon (noon.com, UAE/KSA)",
+      "terms_url": "https://www.noon.com/uae-en/terms-of-use/",
+      "last_updated": "UNVERIFIED",
+      "automated_access_clause_quote": "UNVERIFIED - not retrieved. noon.com returned HTTP 503 / connection errors to automated access on 2026-11-26.",
+      "robots_txt_summary": "Not retrieved (fetch failed with an HTTP/2 error and HTTP 503).",
+      "robots_txt_url": "https://www.noon.com/robots.txt"
+    },
+    {
+      "platform": "Takealot (takealot.com, South Africa)",
+      "terms_url": "https://terms-and-policies.takealot.com/terms-conditions/",
+      "last_updated": "n.d. (page shows only a 2026 copyright notice)",
+      "automated_access_clause_quote": "You agree that you will not: ... \"use any robot, spider, other automatic device, or manual process to monitor, copy, distribute, or modify our platform or its content, except for technology used by internet search websites to direct internet users to our platform\"",
+      "robots_txt_summary": "Fetched 2026-11-26. '*' group: 'Allow: /' with disallows for /account/, /cart/, /wishlist/, /ajax/, /help/page/, /help/faq/ and for URLs carrying search, sort, filter or rows query parameters (e.g. /*?*qsearch=, /*?*sort=Price, /*?*filter=...).",
+      "robots_txt_url": "https://www.takealot.com/robots.txt"
+    },
+    {
+      "platform": "Jumia Kenya (jumia.co.ke)",
+      "terms_url": "https://www.jumia.co.ke/fragment/contents/sp-terms-and-conditions/?lang=en",
+      "last_updated": "Version 3.0; Last update: March 2025; Date of publication: 30 March 2025",
+      "automated_access_clause_quote": "You must not: \"10.9.9 conduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction and data harvesting) on or in relation to our website without our express written consent; 10.9.10 access or otherwise interact with our website using any robot, spider or other automated means, except for the purpose of search engine indexing; ... 10.9.12 violate the directives set out in the robots.txt file for our website\"",
+      "robots_txt_summary": "Fetched 2026-11-26. Header comment: 'Site scaping is permited IF the user-agent is clearly identify it as a bot and the bot owner and is using less than 200 request per minute'; bots with fake user agents or many IPs may be blocked; contact techops for more than 200 requests per minute. '*' group disallows site search (/*q=), facet/sort parameters, /catalog/ (but allows /catalog/productspecifications/ and /catalog/productratingsreviews/), /ratingreview/, cart and customer paths. CCBot is fully disallowed.",
+      "robots_txt_url": "https://www.jumia.co.ke/robots.txt"
+    },
+    {
+      "platform": "Jumia Nigeria (jumia.com.ng)",
+      "terms_url": "https://www.jumia.com.ng/sp-terms-of-use/",
+      "last_updated": "UNVERIFIED",
+      "automated_access_clause_quote": "UNVERIFIED for Nigeria - only the document title ('General Terms and Conditions of Use of the Marketplace for Buyers and Sellers') could be retrieved; a browser-based attempt met a Cloudflare verification page and was not pursued. The Jumia Kenya wording (sections 10.9.9-10.9.12) is the nearest verified text.",
+      "robots_txt_summary": "Fetched 2026-11-26. Same header comment and structure as jumia.co.ke (conditional permission for identified bots under 200 requests per minute; search, facets, /catalog/ and /ratingreview/ disallowed; /catalog/productspecifications/ and /catalog/productratingsreviews/ allowed).",
+      "robots_txt_url": "https://www.jumia.com.ng/robots.txt"
+    },
+    {
+      "platform": "Flipkart (flipkart.com, India)",
+      "terms_url": "https://www.flipkart.com/pages/terms",
+      "last_updated": "n.d. (no version date shown)",
+      "automated_access_clause_quote": "\"You shall not use any \"deep-link\", \"page-scrape\", \"robot\", \"spider\" or other automatic device, program, algorithm or methodology, or any similar or equivalent manual process, to access, acquire, copy or monitor any portion of the Platform or any Content, or in any way reproduce or circumvent the navigational structure or presentation of the Platform or any Content, to obtain or attempt to obtain any materials, documents or information through any means not purposely made available through the Platform. We reserve Our right to bar any such activity.\"",
+      "robots_txt_summary": "Fetched 2026-11-26. '*' rules disallow /search?, /reviews/ (individual review permalinks), */product-reviews/*, */sellers?*, /ps/ (seller pages), */product-questions*, URLs with page= or sort=, and other functional paths; Amazonbot and Amzn-SearchBot are fully disallowed; product pages are not disallowed.",
+      "robots_txt_url": "https://www.flipkart.com/robots.txt"
+    },
+    {
+      "platform": "Nykaa (nykaa.com, India)",
+      "terms_url": "https://www.nykaa.com/terms-conditions",
+      "last_updated": "Last updated: 10th June, 2026 (Version 1.3)",
+      "automated_access_clause_quote": "\"You agree, further, not to use or attempt to use any engine, software, tool, agent or other device or mechanism (including without limitation browsers, spiders, robots, avatars or intelligent agents) to navigate or search this Site other than the search engine and search agents available from NYKAA on this Site and other than generally available third party web browsers\"",
+      "robots_txt_summary": "Fetched 2026-11-26. 'Allow: /' with disallows for /search/, /catalog/, /productquestion/*, /advancereview/product/allreviews/*, /top-bestsellers-ranked/, /blog/ and some cart endpoints.",
+      "robots_txt_url": "https://www.nykaa.com/robots.txt"
+    },
+    {
+      "platform": "Shopee Malaysia (shopee.com.my)",
+      "terms_url": "https://help.shopee.com.my/portal/article/77215",
+      "last_updated": "Last Updated: 9 October 2026",
+      "automated_access_clause_quote": "Section 3.1: \"you agree that you will not use any robot, spider or any other automatic device or manual process to monitor or copy our Content, without our prior written consent (such consent is deemed given for standard search engine technology employed by Internet search websites to direct Internet users to this website).\" Section 6.3 (You agree not to) includes \"(o) harvest or collect any information about or regarding other Account holders, including, without limitation, any personal data or information\".",
+      "robots_txt_summary": "Fetched 2026-11-26. '*' group: Crawl-delay 1; disallows /cart/, /checkout/, /user/, /me/, /order/, /daily_discover/, /top_products, /search*searchPrefill and similar-product paths; product pages are not disallowed. Googlebot/Bingbot have a longer disallow list including /search/?, /shop/*/search and /buyer/*/rating/.",
+      "robots_txt_url": "https://shopee.com.my/robots.txt"
+    },
+    {
+      "platform": "Lazada Malaysia (lazada.com.my)",
+      "terms_url": "https://www.lazada.com.my/terms-of-use/",
+      "last_updated": "UNVERIFIED",
+      "automated_access_clause_quote": "UNVERIFIED - not retrieved. The terms URL redirects to a script-driven page that returned only site navigation to automated fetches and to a headless browser on 2026-11-26.",
+      "robots_txt_summary": "Fetched 2026-11-26. '*' group disallows only the login/sign-up path and /undefined/ paths; OAI-SearchBot, GPTBot and ChatGPT-User are explicitly allowed ('Allow: /').",
+      "robots_txt_url": "https://www.lazada.com.my/robots.txt"
+    }
+  ]
+}

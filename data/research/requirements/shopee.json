@@ -1,0 +1,1164 @@
+{
+  "marketplace": "Shopee",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "MY"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "full",
+  "how_brands_deliver_content": "Self-service: Shopee Seller Centre (Add New Product, batch/mass upload), the Shopee App, or the Shopee Open Platform API (v2.product.add_item / update_item) through an ERP or in-house system. A listing can be linked to a Shopee Standard Product (SSP) so that category, key attributes and variation types are auto-filled from Shopee's standardised record. Listings are not pre-approved in the documentation retrieved; Shopee reviews listings after publication and bans, delists, deboosts or deletes those that break its policies. Brands typically sell through their own or a distributor's shop (including Shopee Mall); no content-syndication partner route is publicly documented.",
+  "languages": [
+    {
+      "country_code": "MY",
+      "languages": [
+        "en",
+        "ms"
+      ],
+      "note": "Listings are commonly written in English, Bahasa Malaysia or Chinese. CPETTR 2024 requires seller information and the description of a product's main characteristics in Bahasa Malaysia (other languages may be added), but Shopee reports that enforcement is postponed until further notice (update dated 20 June 2025) and offers in-app automatic translation of descriptions into Bahasa Malaysia.",
+      "source_url": "https://seller.shopee.com.my/edu/article/25285"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.min_length",
+      "area": "title",
+      "requirement": "Product title should be at least 10 characters long.",
+      "rule_type": "min_length",
+      "value": 10,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "One of the 10 criteria for the \"Qualified\" listing-quality level (new items); a quality criterion rather than an upload block."
+    },
+    {
+      "id": "title.max_length",
+      "area": "title",
+      "requirement": "The maximum product-name length for Malaysia is not stated in the Seller Education Hub; name length limits are returned per shop/category by the Open API get_item_limit call (item_name_length_limit).",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.shopee.com/documents/v2/v2.product.get_item_limit?module=89&type=1",
+      "source_title": "v2.product.get_item_limit - API reference",
+      "source_date": "2025-01-08 (latest update-log entry)",
+      "verification": "official_document",
+      "notes": "The API reference shows sample values only (min 5, max 100). The content-diagnosis API sample suggests \"Add characters for name to 25~100\". Neither is confirmed as the Malaysian limit."
+    },
+    {
+      "id": "title.structure",
+      "area": "title",
+      "requirement": "Product name format: Brand + Product model + Specification + Size (e.g. \"Innisfree Green Tea Cleansing Foam (30ml)\").",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2222",
+      "source_title": "Giving your product a structured name",
+      "source_date": "2020-08-13",
+      "verification": "official_document",
+      "notes": "The keyword-spam article gives the same pattern: Brand + Product Name + Model/Specification/Size."
+    },
+    {
+      "id": "title.include_type_or_brand",
+      "area": "title",
+      "requirement": "The title should include the product type or brand name.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "One of the 10 criteria for the \"Qualified\" listing-quality level (new items); a quality criterion rather than an upload block."
+    },
+    {
+      "id": "title.capitalisation",
+      "area": "title",
+      "requirement": "Capitalise the first letter of each word; do not use all caps for a word except brand names (e.g. ZARA, ASUS).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2222",
+      "source_title": "Giving your product a structured name",
+      "source_date": "2020-08-13",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_promotional_text",
+      "area": "title",
+      "requirement": "Do not include subjective commentary or promotional messages such as \"Hot Item\", \"Best Seller\", \"Sale\", \"Free Shipping\", or the price, in the product name.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2222",
+      "source_title": "Giving your product a structured name",
+      "source_date": "2020-08-13",
+      "verification": "official_document",
+      "notes": "Published as a naming guideline. The same article's good example nevertheless shows a \"[Buy 1 Free 1]\" deal tag, so deal tags are not treated as a violation there."
+    },
+    {
+      "id": "title.no_symbols_emoticons",
+      "area": "title",
+      "requirement": "Do not use emoticons, hashtags or symbols such as } ~ $ ^ { < ! * # @ ; % > in the product name.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2222",
+      "source_title": "Giving your product a structured name",
+      "source_date": "2020-08-13",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_exaggerated_words",
+      "area": "title",
+      "requirement": "No exaggerated words and no excessive or irrelevant search terms in the title.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "One of the 10 criteria for the \"Qualified\" listing-quality level (new items); a quality criterion rather than an upload block."
+    },
+    {
+      "id": "title.no_keyword_spam",
+      "area": "title",
+      "requirement": "Irrelevant search terms may not be included in the product title or description (keyword spam); spam listings are banned or deleted and can incur penalty points.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/28442",
+      "source_title": "Spam Listings",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.function_stated",
+      "area": "title",
+      "requirement": "The function of the product must be stated clearly in the product title and description; insufficient or unclear information is treated as improper content.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/21364",
+      "source_title": "Guideline on Marketplace Listing Practices - Improper Content Listing",
+      "source_date": "2024-07-11",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.new_packaging_tag",
+      "area": "title",
+      "requirement": "When FMCG packaging has changed, add a short tag such as [New Packaging] or [Updated Design] to the title and show an old-vs-new comparison image.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27456",
+      "source_title": "Listing Guidelines - Updated Packaging for FMCG Products",
+      "source_date": "2026-04-24",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.min_length_or_image",
+      "area": "description",
+      "requirement": "Description should contain at least 60 characters or include at least 1 description image.",
+      "rule_type": "min_length",
+      "value": 60,
+      "unit": "characters",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "One of the 10 criteria for the \"Qualified\" listing-quality level (new items); a quality criterion rather than an upload block."
+    },
+    {
+      "id": "description.content",
+      "area": "description",
+      "requirement": "A complete description covers detailed product specifications (material, weight, dimensions, ingredients, etc.), uses and benefits, and warranties/manuals where applicable.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/367",
+      "source_title": "Best practices for improving your listings",
+      "source_date": "2024-08-09",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.length_limits",
+      "area": "description",
+      "requirement": "Description length limits for Malaysia are not stated in the Seller Education Hub; they are returned per shop by the Open API get_item_limit call (item_description_length_limit, extended_description_limit).",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://open.shopee.com/documents/v2/v2.product.get_item_limit?module=89&type=1",
+      "source_title": "v2.product.get_item_limit - API reference",
+      "source_date": "2025-01-08 (latest update-log entry)",
+      "verification": "official_document",
+      "notes": "API reference sample values (min 10, max 2000) are illustrative only."
+    },
+    {
+      "id": "bullets.none",
+      "area": "bullets",
+      "requirement": "No separate bullet-point / highlights field is documented for Shopee listings; key points belong in the description and attributes.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/367",
+      "source_title": "Best practices for improving your listings",
+      "source_date": "2024-08-09",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.correct_category",
+      "area": "attributes",
+      "requirement": "Products must be listed in the correct category; wrong categorisation can lead to deboosting, account suspension or balance deductions.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/6807",
+      "source_title": "Using the Product Category Guide",
+      "source_date": "2025-10-24",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.brand_and_key_attributes",
+      "area": "attributes",
+      "requirement": "Fill in brand information and key attributes, with at least 3 attributes per listing.",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "attributes",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "Listed as \"Issues To Fix\" for items older than 90 days: missing brand information, missing key attributes, too few attributes (less than 3), missing size chart, non-standardised variations, wrong category."
+    },
+    {
+      "id": "attributes.cosmetic_npra_notification",
+      "area": "attributes",
+      "requirement": "Cosmetic products listed on Shopee Malaysia must have a product notification number issued by the NPRA (format NOTYYMMXXXXXK); unnotified cosmetics are deleted and the seller may be penalised.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/7259",
+      "source_title": "Medical Device / Health Supplement / Drug / Cosmetic Product Listings",
+      "source_date": "2025-02-14",
+      "verification": "official_document",
+      "notes": "The guideline says sellers \"must ensure\" listed cosmetics have the notification number and may be asked to produce it. It explicitly instructs sellers to enter registration and advertisement-approval numbers for medical devices and medicinal products; it does not show a dedicated listing field for the cosmetic notification number."
+    },
+    {
+      "id": "attributes.medicinal_registration_numbers",
+      "area": "attributes",
+      "requirement": "When listing medical devices or medicinal products (health supplements, OTC drugs), the seller must provide the MDA medical device registration number or NPRA product registration number (MAL...), and the advertisement approval number where relevant.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/7259",
+      "source_title": "Medical Device / Health Supplement / Drug / Cosmetic Product Listings",
+      "source_date": "2025-02-14",
+      "verification": "official_document",
+      "notes": "Only NPRA classes X (OTC), T (natural/traditional) and N (health supplements) may be listed. Relevant to medicated oral-care or skin products that are registered medicines rather than notified cosmetics."
+    },
+    {
+      "id": "attributes.product_certification",
+      "area": "attributes",
+      "requirement": "For products with safety/health standards set by an authority, CPETTR 2024 calls for the certification details to be provided/uploaded in the listing.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/25285",
+      "source_title": "Implementation of Consumer Protection (Electronic Trade Transaction) Regulations 2024 (CPETTR 2024)",
+      "source_date": "2025-06-19",
+      "verification": "official_document",
+      "notes": "Enforcement of CPETTR 2024 is postponed until further notice according to the article."
+    },
+    {
+      "id": "identifiers.gtin_rule_by_category",
+      "area": "identifiers",
+      "requirement": "GTIN requirements are category-specific: the Open API returns a gtin_validation_rule of Mandatory (valid GTIN required), Flexible (valid GTIN or \"00\" to declare none) or Optional.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": "2025-01-08",
+      "source_url": "https://open.shopee.com/documents/v2/v2.product.get_item_limit?module=89&type=1",
+      "source_title": "v2.product.get_item_limit - API reference",
+      "source_date": "2025-01-08 (latest update-log entry)",
+      "verification": "official_document",
+      "notes": "Field added to get_item_limit on 2025-01-08. Which rule applies to Malaysian beauty categories is not published; it must be read from the API or Seller Centre."
+    },
+    {
+      "id": "images.max_count",
+      "area": "images_secondary",
+      "requirement": "Up to nine images (including the cover image) can be uploaded per product, plus additional images for variations.",
+      "rule_type": "max_count",
+      "value": 9,
+      "unit": "images",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.min_count",
+      "area": "images_secondary",
+      "requirement": "A minimum number of images is required for the \"Qualified\" level; the number varies by category.",
+      "rule_type": "min_count",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "One of the 10 criteria for the \"Qualified\" listing-quality level (new items); a quality criterion rather than an upload block. The content-diagnosis API sample suggestion reads \"Add at least 3 images\"."
+    },
+    {
+      "id": "images_main.min_dimension_px",
+      "area": "images_main",
+      "requirement": "Cover image: minimum image dimension 500 x 500 pixels.",
+      "rule_type": "min_dimension",
+      "value": 500,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": "Presented as a cover-image guideline (\"key factors to consider\"), together with minimum resolution 72 dpi and \"do not distort the product proportions\"."
+    },
+    {
+      "id": "images_main.min_dpi",
+      "area": "images_main",
+      "requirement": "Cover image: minimum image resolution 72 dpi.",
+      "rule_type": "other",
+      "value": 72,
+      "unit": "DPI",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.background",
+      "area": "images_main",
+      "requirement": "Cover image: well-focused shot in a well-lit environment, preferably against a white background, frontal or 30-degree angle.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.product_fill_percent",
+      "area": "images_main",
+      "requirement": "Cover image: the product should cover at least 70% of the image; avoid zoomed-in and cropped photos.",
+      "rule_type": "other",
+      "value": 70,
+      "unit": "percent",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.no_text_or_graphics",
+      "area": "images_main",
+      "requirement": "Cover image: show the product and its brand clearly, show only the product featured in the listing, and avoid adding text or graphics.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.quality_criteria",
+      "area": "images_main",
+      "requirement": "Images should show the complete product without white borders or edges, be clear, have a clean background and carry no watermark covering the product.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": "One of the 10 criteria for the \"Qualified\" listing-quality level (new items); a quality criterion rather than an upload block. Scope: product images generally."
+    },
+    {
+      "id": "images.ratio_3_4",
+      "area": "images_main",
+      "requirement": "Images can optionally be uploaded in a 3:4 display ratio (tick \"3:4 Image\" when adding the listing; the image is auto-cropped).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/17260",
+      "source_title": "What are the benefits of uploading product images in 3:4 display ratio?",
+      "source_date": "2025-11-27",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.content",
+      "area": "images_secondary",
+      "requirement": "Additional images should show the product from different angles, product specifications, how to use the product, and product variations.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/370",
+      "source_title": "Uploading good quality images",
+      "source_date": "2024-11-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.max_count",
+      "area": "video",
+      "requirement": "Only one video can be uploaded per listing (1 Cover Video); it plays before the cover photo on the product page.",
+      "rule_type": "max_count",
+      "value": 1,
+      "unit": "videos",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/courseDetail/132?lessonId=960",
+      "source_title": "Driving greater sales with product videos (course \"Improving your listings\", lesson 2)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.duration_min_seconds",
+      "area": "video",
+      "requirement": "Video duration must be at least 10 seconds.",
+      "rule_type": "min_length",
+      "value": 10,
+      "unit": "seconds",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/courseDetail/132?lessonId=960",
+      "source_title": "Driving greater sales with product videos (course \"Improving your listings\", lesson 2)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.duration_max_seconds",
+      "area": "video",
+      "requirement": "Video duration must be at most 60 seconds.",
+      "rule_type": "max_length",
+      "value": 60,
+      "unit": "seconds",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/courseDetail/132?lessonId=960",
+      "source_title": "Driving greater sales with product videos (course \"Improving your listings\", lesson 2)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.format",
+      "area": "video",
+      "requirement": "Video format: MP4 only.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/courseDetail/132?lessonId=960",
+      "source_title": "Driving greater sales with product videos (course \"Improving your listings\", lesson 2)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.max_file_size_mb",
+      "area": "video",
+      "requirement": "Video size: maximum 30 MB.",
+      "rule_type": "other",
+      "value": 30,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/courseDetail/132?lessonId=960",
+      "source_title": "Driving greater sales with product videos (course \"Improving your listings\", lesson 2)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.max_resolution_px",
+      "area": "video",
+      "requirement": "Video resolution must not exceed 1280 x 1280 pixels.",
+      "rule_type": "other",
+      "value": 1280,
+      "unit": "pixels",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/courseDetail/132?lessonId=960",
+      "source_title": "Driving greater sales with product videos (course \"Improving your listings\", lesson 2)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.needed_for_excellent",
+      "area": "video",
+      "requirement": "Uploading a video is the criterion for reaching the \"Excellent\" listing-quality level for new items.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27972",
+      "source_title": "Improve Your Listing Quality with Product Optimiser",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "enhanced_content.description_images_max_count",
+      "area": "enhanced_content",
+      "requirement": "Up to 12 images can be added inside the product description (feature available to selected sellers).",
+      "rule_type": "max_count",
+      "value": 12,
+      "unit": "images",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2224",
+      "source_title": "Creating informative product descriptions",
+      "source_date": "2024-12-13",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "enhanced_content.description_image_min_px",
+      "area": "enhanced_content",
+      "requirement": "Description images must be at least 1000 px x 32 px, with an aspect ratio between 0.5 and 32.",
+      "rule_type": "min_dimension",
+      "value": 1000,
+      "unit": "pixels",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2224",
+      "source_title": "Creating informative product descriptions",
+      "source_date": "2024-12-13",
+      "verification": "official_document",
+      "notes": "1000 px is the minimum width; 32 px is the minimum height. No maximum dimension (large files are scaled down)."
+    },
+    {
+      "id": "enhanced_content.description_image_max_mb",
+      "area": "enhanced_content",
+      "requirement": "A description image file cannot be larger than 2 MB.",
+      "rule_type": "other",
+      "value": 2,
+      "unit": "MB",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/2224",
+      "source_title": "Creating informative product descriptions",
+      "source_date": "2024-12-13",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.attributes_and_category",
+      "area": "seo",
+      "requirement": "Accurate attributes and the right category improve search accuracy and visibility; a structured, accurate name increases product exposure.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/367",
+      "source_title": "Best practices for improving your listings",
+      "source_date": "2024-08-09",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.link_standard_product",
+      "area": "seo",
+      "requirement": "Linking a listing to a Shopee Standard Product (SSP) is promoted as boosting visibility and campaign eligibility; category, key attributes and variation types are then locked to the SSP record.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/26128",
+      "source_title": "How can I use Shopee Standard Product to help my listings gain more exposure?",
+      "source_date": "2026-06-24",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.max_types",
+      "area": "variants",
+      "requirement": "A product can have up to 2 variation types (e.g. colour and size).",
+      "rule_type": "max_count",
+      "value": 2,
+      "unit": "variation types",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/15863",
+      "source_title": "FAQs on listing products",
+      "source_date": "2025-10-27",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.no_separate_listings",
+      "area": "variants",
+      "requirement": "Do not create separate listings for similar products that differ only by variation such as size or colour - set product variations instead; duplicates are treated as spam listings.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/28442",
+      "source_title": "Spam Listings",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.standardised",
+      "area": "variants",
+      "requirement": "Use standardised variations; \"non-standardised variations\" is flagged as an issue to fix by Product Optimiser.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27971",
+      "source_title": "Product Listing Quality Guide",
+      "source_date": "2026-07-22",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "language.bahasa_malaysia_cpettr",
+      "area": "language",
+      "requirement": "CPETTR 2024: seller information and the description of the main characteristics of products are to be provided in Bahasa Malaysia (brand names excluded); other languages may be added and no language order is prescribed. Product images need not be translated.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/25285",
+      "source_title": "Implementation of Consumer Protection (Electronic Trade Transaction) Regulations 2024 (CPETTR 2024)",
+      "source_date": "2025-06-19",
+      "verification": "official_document",
+      "notes": "Shopee states (key update as at 20 June 2025) that enforcement is postponed until further notice, and that an in-app dynamic translation feature translates descriptions from English or Chinese into Bahasa Malaysia."
+    },
+    {
+      "id": "approval.post_listing_review",
+      "area": "approval",
+      "requirement": "No pre-publication approval step is described; listings that violate listing policies or local regulations are delisted, banned or deleted. Some banned/delisted listings can be edited and resubmitted for Shopee's review by a deadline, otherwise they are deleted.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/16486",
+      "source_title": "Why is my listing delisted/banned/deleted by Shopee?",
+      "source_date": "2025-10-27",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.item_card_appeal_days",
+      "area": "approval",
+      "requirement": "Item Card (preview card) violations limit a listing's traffic; the seller can appeal within 14 days or edit the listing to trigger re-evaluation. Appeals usually take less than one week.",
+      "rule_type": "other",
+      "value": 14,
+      "unit": "days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27371",
+      "source_title": "What are Item Card Safety Violations",
+      "source_date": "2026-05-05",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.health_claims",
+      "area": "restricted_claims",
+      "requirement": "Content for medicines, supplements and/or cosmetics must not make unsubstantiated or exaggerated health claims (unless approved by the authorities), in particular claims related to the 20 types of illnesses described by Malaysia's Ministry of Health; this applies to the product title, images and description.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/21364",
+      "source_title": "Guideline on Marketplace Listing Practices - Improper Content Listing",
+      "source_date": "2024-07-11",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.advertisement_approval",
+      "area": "restricted_claims",
+      "requirement": "Medical devices and medicinal products that require advertisement approval (MDA / Medicine Advertisement Board) must not be listed without it.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/7259",
+      "source_title": "Medical Device / Health Supplement / Drug / Cosmetic Product Listings",
+      "source_date": "2025-02-14",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.cosmetic_prohibited_ingredients",
+      "area": "restricted_claims",
+      "requirement": "Shopee may remove listings of notified cosmetic products that the Ministry of Health flags as containing prohibited ingredients.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/7259",
+      "source_title": "Medical Device / Health Supplement / Drug / Cosmetic Product Listings",
+      "source_date": "2025-02-14",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.misleading_or_objectionable",
+      "area": "restricted_claims",
+      "requirement": "Listing content must not be misleading about the product received, obscene, vulgar, discriminatory or otherwise objectionable, and must not promote illegal activities.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/21364",
+      "source_title": "Guideline on Marketplace Listing Practices - Improper Content Listing",
+      "source_date": "2024-07-11",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.palm_oil",
+      "area": "restricted_claims",
+      "requirement": "Listings may not contain statements that discriminate against, or discourage buyers from consuming, palm oil products.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/21364",
+      "source_title": "Guideline on Marketplace Listing Practices - Improper Content Listing",
+      "source_date": "2024-07-11",
+      "verification": "official_document",
+      "notes": "Relevant to \"palm-oil-free\" style claims on personal-care products."
+    },
+    {
+      "id": "restricted_claims.no_off_platform_contact",
+      "area": "restricted_claims",
+      "requirement": "Listings may not carry personal contact information or direct buyers to third-party channels (WhatsApp, LINE, Facebook, other websites) to transact outside Shopee.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/1551",
+      "source_title": "What are the prohibited advertisements?",
+      "source_date": "2024-01-18",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.packaging_authenticity_claims",
+      "area": "restricted_claims",
+      "requirement": "When describing updated packaging, do not disparage the older packaging or state that only the new design is \"100% authentic\" or that older versions are \"no longer sold\".",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "MY"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://seller.shopee.com.my/edu/article/27456",
+      "source_title": "Listing Guidelines - Updated Packaging for FMCG Products",
+      "source_date": "2026-04-24",
+      "verification": "official_document",
+      "notes": ""
+    }
+  ],
+  "enhanced_content": {
+    "supported": "yes",
+    "official_name": "Images in the product description (\"Add Images\" in Product Description; Open API: extended description)",
+    "eligibility": "\"Currently available for selected sellers\" (Seller Education Hub, 2024-12-13). Selection criteria are not published.",
+    "modules_note": "Text description interleaved with up to 12 images (uploaded or built with the Image Creator templates); each image at least 1000 px x 32 px, aspect ratio 0.5-32, max 2 MB. No module library comparable to A+ content is documented.",
+    "source_url": "https://seller.shopee.com.my/edu/article/2224"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Listing quality level (shown through Product Optimiser / the Smart Diagnosis column; Open API name: content quality level)",
+      "what_it_measures": "How complete and high-quality a listing's content is. Levels: Excellent, Qualified, and (API) To Be Improved; the API also returns NONE for deleted or banned items.",
+      "components": "New items (created within 90 days) - Qualified: title (min 10 characters, no excessive/irrelevant search terms, no exaggerated words, includes product type or brand), description (min 60 characters or 1 description image), images (category minimum count, complete product without white borders, clear, clean background, no watermark over the product); Excellent: a video. Items older than 90 days additionally: brand information, key attributes, at least 3 attributes, size chart, standardised variations, correct category. API issue types: TOO_FEW_IMAGES, WRONG_CATEGORY, TOO_FEW_ATTRIBUTES_FOR_QUALIFIED, LACK_OF_SIZE_CHART, LACK_OF_STANDARD_VARIATION, LACK_BRAND, TOO_SHORT_DESCRIPTION, TOO_SHORT_OR_TOO_LONG_NAME, WRONG_WEIGHT, LACK_OF_VIDEO, TOO_FEW_ATTRIBUTES_FOR_EXCELLENT.",
+      "access_method": "api",
+      "api_reference_url": "https://open.shopee.com/documents/v2/v2.product.get_item_content_diagnosis_result?module=89&type=1",
+      "who_can_access": "Sellers in Seller Centre (My Products > Smart Diagnosis; Product Optimiser tasks) and authorised Open Platform apps (ERP System, Seller In House System, Product Management app types).",
+      "source_url": "https://open.shopee.com/documents/v2/v2.product.get_item_content_diagnosis_result?module=89&type=1",
+      "verification": "official_document",
+      "notes": "POST /api/v2/product/get_item_content_diagnosis_result returns quality_level (0 NONE, 1 TO_BE_IMPROVED, 2 QUALIFIED, 3 EXCELLENT) with unfinished tasks and suggestions for up to 48 item ids; a companion call get_item_list_by_content_diagnosis is listed in the same API module. The thresholds in the API samples (name 25-100 characters, description 100 characters, 3 images) differ from the Malaysian guide (10 and 60 characters), so thresholds should be read per market."
+    }
+  ],
+  "limitations": "Rules come from Shopee Malaysia's public Seller Education Hub and the Shopee Open Platform reference. The hard upload limits for Malaysia (maximum title and description length, minimum image count per category, GTIN rule per category) are not printed in the hub; they are served per shop by the get_item_limit API or shown in Seller Centre, so no maximum title length is recorded. Most content rules are published as best practice or as listing-quality criteria, hence \"recommended\". Two articles carry their rules inside images and were read from screenshots. A linked \"listing optimisation best practices\" Google document required a login and was not read. No expiry-date or shelf-life listing rule, no ingredient-list requirement for cosmetics and no Shopee Mall-specific content standard were found in the pages retrieved. Singapore, Indonesia and other Shopee markets were out of scope."
+}

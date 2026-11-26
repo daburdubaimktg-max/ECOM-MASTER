@@ -1,0 +1,2221 @@
+{
+  "country_code": "AE",
+  "country_name": "United Arab Emirates",
+  "region": "Middle East",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "EZDubai and Euromonitor estimate UAE retail e-commerce at AED 42.2 billion (USD 11.5 billion) in 2025, about 15.7% of retail sales, with apparel and footwear the largest category. Web-traffic estimates for October 2026 put Amazon.ae clearly first, with Temu and Noon contesting second place and SHEIN and Carrefour UAE following; delivery super-apps (talabat, Careem, noon Minutes) add a quick-commerce layer that web data largely misses. For personal care specifically, ECDB models only a 5-10% online share and names Amazon, Noon and Temu as the three largest online retailers, so hypermarkets and the 3,000+ pharmacies still dominate the category offline. Pharmacy chains (Life, Aster, Boots) and Watsons run transactional sites, Life and Watsons with verified mass-brand ranges, but JLL describes pharmacy e-commerce revenue as low. Prestige beauty (Sephora, Faces, Huda Beauty) is a separate channel with almost no overlap with mass hair, skin and oral care.",
+    "key_facts": [
+      {
+        "fact": "UAE e-commerce market of AED 42.2 billion (USD 11.5 billion) in 2025, up from AED 17.6 billion in 2020 (19% CAGR), about 15.7% of total retail sales; forecast of about AED 67.2 billion by 2030.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.zawya.com/en/press-release/research-studies/ezdubai-logistics-hub-uae-e-commerce-market-size-reaches-aed-42.2bln-in-2025-1286875",
+        "source_name": "Zawya (press release; EZDubai / Euromonitor International) - EZDubai Logistics Hub: UAE e-commerce market size reaches AED 42.2bln in 2025 [2026; Gulf Today coverage dated 2026-09-28]",
+        "source_date": "n.d."
+      },
+      {
+        "fact": "Apparel and footwear was the largest UAE e-commerce category in 2025 at AED 11.4 billion; beauty and personal care was not broken out in the public release.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.zawya.com/en/press-release/research-studies/ezdubai-logistics-hub-uae-e-commerce-market-size-reaches-aed-42.2bln-in-2025-1286875",
+        "source_name": "Zawya (press release; EZDubai / Euromonitor International) - EZDubai Logistics Hub: UAE e-commerce market size reaches AED 42.2bln in 2025 [2026; Gulf Today coverage dated 2026-09-28]",
+        "source_date": "n.d."
+      },
+      {
+        "fact": "Personal-care e-commerce revenue of USD 173 million in 2025 with an online share of 5-10%; the three largest online retailers are listed as Amazon, Noon and Temu (modelled estimate; the same provider's public pages show inconsistencies elsewhere).",
+        "nature": "third_party_estimate",
+        "source_url": "https://ecdb.com/resources/sample-data/market/ae/personal-care",
+        "source_name": "ECDB - Personal Care Industry in the UAE (e-commerce market sample data) [data to October 2026]",
+        "source_date": "n.d."
+      },
+      {
+        "fact": "Top Ecommerce & Shopping websites in the UAE in October 2026: 1 amazon.ae, 2 temu.com, 3 noon.com, 4 dubizzle.com, 5 amazon.com.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+        "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+        "source_date": "2026-11-01"
+      },
+      {
+        "fact": "Estimated UAE website visits in October 2026: amazon.ae 11.24M, temu.com 5.67M, noon.com 5.02M, shein.com 2.44M, carrefouruae.com 2.26M (web only; apps excluded).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+        "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+        "source_date": "2026-10"
+      },
+      {
+        "fact": "The UAE has 3,000+ pharmacies; Life Pharmacy has 475+ stores and Aster Pharmacy 245+ outlets; established pharmacy chains have \"low e-commerce revenue\".",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.jll.com/en-ae/insights/navigating-through-the-uaes-retail-pharmacy-landscape",
+        "source_name": "JLL - Navigating through the UAE's retail pharmacy landscape",
+        "source_date": "2025-10-13"
+      },
+      {
+        "fact": "Most-visited pharmacy websites in the UAE in October 2026: myaster.com 747.3K, lifepharmacy.com 424.9K, binsina.ae 217.6K, nahdionline.com 116.2K.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.semrush.com/trending-websites/ae/pharmaceuticals",
+        "source_name": "Semrush - Most Visited Pharmaceuticals Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+        "source_date": "2026-10"
+      }
+    ]
+  },
+  "ranking_method_note": "Scores (1-5) were assigned by the researcher from evidence retrieved on 2026-11-26 and applied to the fixed rubric: weighted_score = 0.20*ecommerce_significance + 0.25*beauty_category_relevance + 0.20*consumer_reach + 0.15*brand_competitor_coverage + 0.20*data_integration_feasibility, rounded to 2 decimals; priority_rank = rank by weighted_score within the country; ties broken by beauty_category_relevance, then consumer_reach as specified. Where a tie survived both rubric tie-breaks, three further deterministic tie-breaks were added by the researcher (not part of the brief): higher ecommerce_significance, then the higher in-country monthly web-visit estimate (Semrush, October 2026, as cited in each record), then alphabetical order. Scoring anchors used consistently across the three countries: consumer_reach 5 = >=10M estimated in-country monthly web visits or an equivalent survey-evidenced scale, 4 = 2-10M (or >=1M company-reported active app users), 3 = 0.5-2M, 2 = 100-500K, 1 = <100K or no credible number; brand_competitor_coverage 5 = >=8 of the 12 reference mass-market brands verified as listed, 4 = 5-7 verified or brand-owner official stores verified, 3 = 2-4 verified or a full-range retailer whose assortment could not be verified (neutral), 2 = mass brands largely absent / unverified limited-range or unbranded platform, 1 = verified absent; data_integration_feasibility 5 = documented official API exposing catalogue and competitive price/offer data, 4 = open developer portal with a documented seller API on a platform where brand owners run their own stores (own-shop data only) or public storefront data readable without login, 3 = public pages retrievable without an API, or a seller API whose reference was not verified or that only helps a brand that sells on that platform, 2 = automated access refused or app/location-gated with no usable API, 1 = app-only. The beauty_relevance and data_collection_feasibility labels follow the scores (4-5 high, 3 medium, 1-2 low). Web-visit estimates understate app-first platforms; no regulator-verified or audited market-share figure was found for any platform, so every reach figure is a third-party estimate, a survey result or company-reported. Scores are judgements, not measurements. In this file one tie survived both rubric tie-breaks: Lulu Hypermarket and Aster Pharmacy (both 3.00, beauty relevance 3, reach 3); Lulu is ranked higher on ecommerce_significance (4 against 3). Watsons UAE leads the three platforms on 3.00 through the rubric's own beauty-relevance tie-break.",
+  "platforms": [
+    {
+      "name": "Amazon.ae",
+      "website": "https://www.amazon.ae",
+      "operator": "Amazon.com, Inc. (as shown in the Similarweb company profile for amazon.ae; local legal entity not verified in this session)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "ECDB's model names Amazon the largest online personal-care retailer in the UAE. Public search pages returned \"1-48 of 648 results\" for \"dove shampoo\" and \"1-48 of 535 results\" for \"pantene\"; the CeraVe and Pantene brand-owner sites both link to official Amazon.ae brand stores.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy/OTC-specific evidence was collected; health and personal care are sold as general merchandise.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on Similarweb ranking amazon.ae #1 among Ecommerce & Shopping sites in the UAE (October 2026), Semrush showing it as the most-visited retail site (11.24M UAE visits) and ECDB naming Amazon the largest online personal-care retailer. Third-party selling is evidenced by the Selling Partner API covering the UAE marketplace; the first-party share was not verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to amazon.ae, most-visited retail website in the UAE",
+          "metric_type": "monthly_visits",
+          "value": "11.24M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total (all-country) visits to amazon.ae; 48.52% from the UAE",
+          "metric_type": "monthly_visits",
+          "value": "23.17M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/amazon.ae/overview/",
+          "source_name": "Semrush - amazon.ae Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (the fetch tool read the label ambiguously; treated as the latest-month total), 72.34% of traffic from the UAE; country rank #10; #1 in Ecommerce & Shopping > Marketplace in the UAE",
+          "metric_type": "monthly_visits",
+          "value": "25.5M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/amazon.ae/",
+          "source_name": "Similarweb - amazon.ae - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Ecommerce & Shopping websites in the UAE",
+          "metric_type": "other",
+          "value": "#1 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Named largest online retailer for personal care in the UAE (revenue figure not shown on the public page)",
+          "metric_type": "market_share",
+          "value": "Rank #1 (no share disclosed)",
+          "period": "2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://ecdb.com/resources/sample-data/market/ae/personal-care",
+          "source_name": "ECDB - Personal Care Industry in the UAE (e-commerce market sample data) [data to October 2026]",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on the platform's own public search pages (plain HTTP request, no login): 648 results for \"dove shampoo\" and 535 for \"pantene\". CeraVe Arabia's where-to-buy page and the Pantene Arabia site link to official Amazon.ae brand stores. Further brand searches (Colgate, Sensodyne, Head & Shoulders, Garnier, Nivea, Vaseline, Himalaya, Dabur, Parachute) were refused with HTTP 503 and are therefore UNVERIFIED.",
+        "source_urls": [
+          "https://www.amazon.ae/s?k=dove+shampoo",
+          "https://www.amazon.ae/s?k=pantene",
+          "https://www.ceravearabia.com/en/where-to-buy",
+          "https://pantenearabia.com/en-ae/"
+        ]
+      },
+      "product_coverage_note": "Hair care verified in depth (Dove, Pantene); derma skin care verified through the CeraVe brand store; oral care assortment not verified in this session because later requests were refused.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Selling Partner API (SP-API) lists the United Arab Emirates marketplace (ID A2VIGQ35RCS4UG, Europe/Middle East/India/Africa group). The Product Pricing API (v2022-05-01) documents getCompetitiveSummary and featured-offer operations for ASINs; the documentation lists availability as \"Sellers only\", so a registered selling-partner/developer account is required. Review-text access through the API was not checked.",
+        "docs_url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented official API covering catalogue and competitive pricing for the UAE marketplace. Public search pages answered the first plain HTTP requests (HTTP 200) and then returned HTTP 503, so unauthenticated page collection is rate-limited and should not be the primary method.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Similarweb ranks amazon.ae #1 among UAE e-commerce sites and Semrush shows it as the most-visited retail site (October 2026)."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "ECDB names Amazon the largest online personal-care retailer in the UAE and its own pages show hundreds of Dove and Pantene listings plus official brand stores."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "11.24M estimated UAE web visits in October 2026 (Semrush); Similarweb shows 25.5M total visits with 72% from the UAE."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Dove and Pantene verified in depth and brand-owner stores verified for CeraVe and Pantene; other reference brands could not be checked (HTTP 503)."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Official SP-API covers the UAE marketplace and documents competitive-pricing and featured-offer operations."
+        }
+      },
+      "weighted_score": 4.85,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "Largest evidenced online audience in the UAE, the top modelled seller of personal care and the only platform with a documented API that returns competitive price/offer data. It ranks first on evidence, not by default: no UAE specialist combined comparable reach, verified mass-brand depth and data access.",
+      "confidence": "high",
+      "confidence_note": "Reach is supported by two independent estimators and the API by Amazon's own documentation. Brand coverage beyond Dove, Pantene and CeraVe is unverified, and all traffic figures are estimates.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/amazon.ae/overview/",
+          "title": "amazon.ae Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/amazon.ae/",
+          "title": "amazon.ae - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/ae/personal-care",
+          "title": "Personal Care Industry in the UAE (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids",
+          "title": "Marketplace IDs - Selling Partner API documentation (developer-docs.amazon.com redirects here)",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api",
+          "title": "Product Pricing API - Selling Partner API documentation",
+          "publisher": "Amazon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.ae/s?k=dove+shampoo",
+          "title": "Amazon.ae: Dove Shampoo (public search results page) [live page]",
+          "publisher": "Amazon.ae",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.ae/s?k=pantene",
+          "title": "Amazon.ae: Pantene (public search results page) [live page]",
+          "publisher": "Amazon.ae",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pantenearabia.com/en-ae/",
+          "title": "Pantene Arabia (page links to an Amazon.ae brand store)",
+          "publisher": "Pantene Arabia (P&G)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Noon (incl. Noon Minutes / Supermall)",
+      "website": "https://www.noon.com/uae-en/",
+      "operator": "noon (Google Play developer name \"noon e-commerce\"); legal entity and ownership not verified in this session",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "ECDB ranks Noon the second-largest online personal-care retailer in the UAE. Search-engine site: results show dedicated noon UAE brand/category pages for Pantene, Head & Shoulders, Dove and Himalaya and a beauty category naming Nivea, CeraVe, Cetaphil, Garnier and L'Oreal Paris.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "The app listing describes \"noon NowNow\" delivering \"fresh groceries, pharmacy items, and essentials\" from stores such as Spinneys, Choithrams and Aster Pharmacy.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Estimate. Rests on Similarweb ranking noon.com #3 among UAE Ecommerce & Shopping sites, Semrush showing 5.02M UAE web visits, a 50M+ Google Play install band and ECDB's #2 personal-care rank. A seller programme and seller API are verified; the app listing also describes one-hour \"noon Supermall\" and \"noon Minutes\" quick delivery, whose inventory model was not verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to noon.com (third most-visited retail website in the UAE)",
+          "metric_type": "monthly_visits",
+          "value": "5.02M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to noon.com across all countries; UAE share 17.96% (Saudi Arabia 31.97%, Egypt 23.22%)",
+          "metric_type": "monthly_visits",
+          "value": "27.97M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/noon.com/overview/",
+          "source_name": "Semrush - noon.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page for noon.com (label read ambiguously; treated as latest month); UAE share 24.32%",
+          "metric_type": "monthly_visits",
+          "value": "39.2M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/noon.com/",
+          "source_name": "Similarweb - noon.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Ecommerce & Shopping websites in the UAE",
+          "metric_type": "other",
+          "value": "#3 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Google Play install band for the noon app (cumulative installs, all countries; not unique or active users)",
+          "metric_type": "app_users",
+          "value": "50M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en",
+          "source_name": "Google Play (listing published by noon e-commerce) - noon Online Shopping & Grocery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-26"
+        },
+        {
+          "claim": "Company claim in the app listing: \"Trusted by 50 Million+ Users Across the Middle East\" (all markets; undated)",
+          "metric_type": "customers",
+          "value": "50 million+",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en",
+          "source_name": "Google Play (listing published by noon e-commerce) - noon Online Shopping & Grocery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified through search-engine site: results for noon.com (the site itself refused automated access): brand/category pages exist for Pantene, Head & Shoulders, Dove and Himalaya (UAE), with result summaries also naming Colgate, Sensodyne, Nivea, Vaseline, Garnier and L'Oreal Paris on UAE pages. Dabur was seen in hair-styling listings without a clear storefront country and Parachute only on the Saudi storefront. CeraVe Arabia links to noon as an official retailer.",
+        "source_urls": [
+          "https://www.noon.com/uae-en/pantene/",
+          "https://www.noon.com/uae-en/beauty/hair-care/shampoo-and-conditioners/shampoos-18048/head_shoulders/",
+          "https://www.noon.com/uae-en/beauty/personal-care-16343/oral-hygiene/toothpaste/himalaya/",
+          "https://www.noon.com/uae-en/beauty/",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Hair, skin and oral care all evidenced via category paths (shampoo, toothpaste, moisturisers). Listing counts and prices could not be read directly because noon.com refused automated requests.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The noon Seller Help Center describes the noon API Platform as \"a consistent, production-grade interface for working with catalogs, orders, fulfillment, and event notifications\" for sellers, integrators and developers; the detailed reference is linked from that article and was not opened. It covers a seller's own data only; no competitor-data endpoint was verified.",
+        "docs_url": "https://helpcenter.noon.partners/en/category/global-selling/noon-api-platform"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "A seller API exists for own listings and orders. noon.com returned no response to plain HTTP requests and HTTP 503 to the fetch tool, so competitor listing/price/review data would need an authorised third-party provider or manual collection.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Third-ranked UAE e-commerce site on Similarweb with a 50M+ install app covering marketplace, grocery and quick delivery."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "ECDB ranks Noon #2 for online personal care in the UAE and dedicated pages exist for the main mass hair and oral care brands."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "5.02M estimated UAE web visits in October 2026 (Semrush); app usage is not disclosed by country."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Ten of the 12 reference brands were seen on noon UAE pages in search-engine site: results (Dabur and Parachute not confirmed for the UAE storefront)."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Seller API documented for own catalogue and orders, but the storefront refused automated access."
+        }
+      },
+      "weighted_score": 4.4,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "Second-largest evidenced platform for mass personal care in the UAE with very broad brand coverage and a seller API; it trails Amazon.ae on measurable web reach and on legitimate access to competitor data.",
+      "confidence": "medium",
+      "confidence_note": "Traffic and ranks come from two estimators; brand coverage relies on search-engine results rather than direct page reads; user claims are company-reported and region-wide.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/noon.com/overview/",
+          "title": "noon.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/noon.com/",
+          "title": "noon.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.noon.buyerapp&hl=en",
+          "title": "noon Online Shopping & Grocery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by noon e-commerce)",
+          "published_date": "2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/ae/personal-care",
+          "title": "Personal Care Industry in the UAE (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://helpcenter.noon.partners/en/category/global-selling/noon-api-platform",
+          "title": "noon API platform | noon Seller Help Center",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.noon.com/uae-en/pantene/",
+          "title": "Pantene UAE Store (noon brand page, seen as a search-engine site: result)",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.noon.com/uae-en/beauty/hair-care/shampoo-and-conditioners/shampoos-18048/head_shoulders/",
+          "title": "Head & Shoulders Shampoos UAE (noon category page, seen as a search-engine site: result)",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.noon.com/uae-en/beauty/personal-care-16343/oral-hygiene/toothpaste/himalaya/",
+          "title": "Himalaya Toothpaste UAE (noon category page, seen as a search-engine site: result)",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.noon.com/uae-en/beauty/",
+          "title": "Buy Beauty Products For Best Price In UAE (noon category page, seen as a search-engine site: result)",
+          "publisher": "noon",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Life Pharmacy",
+      "website": "https://www.lifepharmacy.com",
+      "operator": "Life Pharmacy Group (Google Play developer name)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Its public brand directory lists Dove, Pantene, L'Oreal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur, Sunsilk, Cetaphil, CeraVe, Listerine, Johnson's, Lifebuoy, Neutrogena, Olay and Parodontax.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Described by JLL as building the largest pharmacy chain in the UAE (475+ stores); the app handles prescriptions and online shopping.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on JLL's count of 475+ stores (October 2025) in a market of 3,000+ pharmacies and on its position as the second most-visited pharmacy site in Semrush's UAE list. JLL also notes that established pharmacy chains have \"low e-commerce revenue\", so online sales are probably modest.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to lifepharmacy.com (second most-visited pharmacy website in the UAE list)",
+          "metric_type": "monthly_visits",
+          "value": "424.9K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "\"Total Visits\" shown on the Similarweb page (label read ambiguously; treated as latest month); 75.85% from the UAE; UAE country rank #141",
+          "metric_type": "monthly_visits",
+          "value": "973.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/lifepharmacy.com/",
+          "source_name": "Similarweb - lifepharmacy.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Number of Life Pharmacy stores",
+          "metric_type": "stores",
+          "value": "475+",
+          "period": "published 2025-10-13",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.jll.com/en-ae/insights/navigating-through-the-uaes-retail-pharmacy-landscape",
+          "source_name": "JLL - Navigating through the UAE's retail pharmacy landscape",
+          "source_date": "2025-10-13"
+        },
+        {
+          "claim": "Google Play install band for the LIFE Pharmacy app (cumulative)",
+          "metric_type": "app_users",
+          "value": "1M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.lifepharmacy.application&hl=en",
+          "source_name": "Google Play (listing published by Life Pharmacy Group) - LIFE Pharmacy - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified by reading the retailer's own brand directory with a plain HTTP request: 11 of the 12 reference brands are listed (Dove, Pantene, L'Oreal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur); Parachute was not found. CeraVe Arabia also links to Life Pharmacy as an official retailer.",
+        "source_urls": [
+          "https://www.lifepharmacy.com/brands",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Hair, skin and oral care mass brands plus derma brands (Cetaphil, CeraVe); SKU counts per brand were not extracted.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller, partner or developer programme link was present on the storefront page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand directory and pages were retrievable with a plain HTTP request (HTTP 200). Structured collection would be public-page based and subject to the site's terms; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Largest pharmacy chain by store count per JLL, but JLL also describes pharmacy e-commerce revenue as low."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Pharmacy and personal-care retailer whose brand directory covers nearly all reference mass brands."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "424.9K (Semrush) to roughly 740K (Similarweb-derived) UAE web visits a month plus 475+ stores and a 1M+ install app."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "11 of 12 reference brands verified in the retailer's own brand directory."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable without login; no API."
+        }
+      },
+      "weighted_score": 3.55,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "The best-evidenced specialist for mass hair, skin and oral care in the UAE: near-complete brand coverage and readable public pages. Reservation: third place is narrow and Carrefour UAE is probably the larger online seller; Life ranks above it because its assortment and data access could actually be verified.",
+      "confidence": "medium",
+      "confidence_note": "Brand coverage is directly verified; store count is a 13-month-old JLL figure and online sales are not disclosed.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/lifepharmacy.com/",
+          "title": "lifepharmacy.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jll.com/en-ae/insights/navigating-through-the-uaes-retail-pharmacy-landscape",
+          "title": "Navigating through the UAE's retail pharmacy landscape",
+          "publisher": "JLL",
+          "published_date": "2025-10-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.lifepharmacy.application&hl=en",
+          "title": "LIFE Pharmacy - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Life Pharmacy Group)",
+          "published_date": "2026-11-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.lifepharmacy.com/brands",
+          "title": "Our Brands | Life Pharmacy UAE - Online Pharmacy [live page]",
+          "publisher": "Life Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Carrefour UAE",
+      "website": "https://www.carrefouruae.com",
+      "operator": "Majid Al Futtaim (exclusive regional Carrefour franchisee; Google Play developer name \"MAF HYPERMARKETS\")",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Hypermarket assortment; the MAF Carrefour app listing names \"personal care, beauty\" among its shopping categories. Individual brand listings could not be verified because the site refused automated access.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Semrush ranking carrefouruae.com the fifth most-visited retail site in the UAE and the most-visited grocer, and on press-reported figures of over 175 UAE outlets and over 1.5 million active UAE app users (October 2025). Similarweb classifies the site under Marketplace; a Carrefour-enabled third-party marketplace was reported in 2020 (dated, search-result summary only), so the hybrid label is not freshly verified.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to carrefouruae.com (fifth most-visited retail website in the UAE)",
+          "metric_type": "monthly_visits",
+          "value": "2.26M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to carrefouruae.com; 76.09% from the UAE. September 2026 estimate was 1.51M, i.e. the series is volatile",
+          "metric_type": "monthly_visits",
+          "value": "2.98M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/carrefouruae.com/overview/",
+          "source_name": "Semrush - carrefouruae.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Similarweb ranks: UAE country rank #60 and #6 in Ecommerce & Shopping > Marketplace (visit count not shown to the fetch tool)",
+          "metric_type": "other",
+          "value": "Country rank #60",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/carrefouruae.com/",
+          "source_name": "Similarweb - carrefouruae.com - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Carrefour app active users in the UAE as reported in the press",
+          "metric_type": "app_users",
+          "value": "over 1.5 million active UAE users",
+          "period": "reported 2025-10-20",
+          "nature": "company_reported",
+          "source_url": "https://gulfnews.com/business/retail/why-carrefours-global-decline-doesnt-match-its-success-seen-in-the-uae-1.500313517",
+          "source_name": "Gulf News - Why Carrefour stores are shutting down abroad - but thriving in the UAE",
+          "source_date": "2025-10-20"
+        },
+        {
+          "claim": "Carrefour outlets in the UAE",
+          "metric_type": "stores",
+          "value": "over 175",
+          "period": "reported 2025-10-20",
+          "nature": "company_reported",
+          "source_url": "https://gulfnews.com/business/retail/why-carrefours-global-decline-doesnt-match-its-success-seen-in-the-uae-1.500313517",
+          "source_name": "Gulf News - Why Carrefour stores are shutting down abroad - but thriving in the UAE",
+          "source_date": "2025-10-20"
+        },
+        {
+          "claim": "Google Play install band for the MAF Carrefour app (cumulative, multi-country)",
+          "metric_type": "app_users",
+          "value": "10M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae&hl=en",
+          "source_name": "Google Play (listing published by MAF HYPERMARKETS) - MAF Carrefour Online Shopping - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-19"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. carrefouruae.com gave no response to plain HTTP requests and HTTP 503 to the fetch tool, so no brand or category page could be read. The only category evidence is the app listing (\"personal care, beauty\").",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae&hl=en"
+        ]
+      },
+      "product_coverage_note": "Personal care and beauty are named app categories; hair, skin and oral care listings were not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found. No seller or developer documentation could be reached; a marketplace for third-party sellers was reported in 2020 but its current onboarding/API arrangements were not verified.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "The storefront refused automated access from this environment. Realistic legitimate routes are supplier/retail-media reporting from the retailer, an authorised data provider (none verified here) or manual checks in the app.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Fifth most-visited retail site in the UAE by Semrush estimate and the largest grocery site by web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Full hypermarket range with personal care and beauty named as app categories, though listings were not verified."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "2.26M estimated UAE web visits (October 2026) and a press-reported 1.5 million active UAE app users."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Assortment could not be verified because access was refused; neutral score for a full-range grocer."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No reachable API documentation and automated page access refused."
+        }
+      },
+      "weighted_score": 3.45,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "The leading grocery e-commerce destination in the UAE and probably a larger seller of mass personal care than its rank suggests. Reservation: its position just below Life Pharmacy is driven by blocked access (unverified assortment, low data feasibility) rather than by evidence of lower importance.",
+      "confidence": "medium",
+      "confidence_note": "Reach evidence is reasonable (two estimators plus press-reported app users dated October 2025); assortment, marketplace model and API are unverified.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/carrefouruae.com/overview/",
+          "title": "carrefouruae.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/website/carrefouruae.com/",
+          "title": "carrefouruae.com - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://gulfnews.com/business/retail/why-carrefours-global-decline-doesnt-match-its-success-seen-in-the-uae-1.500313517",
+          "title": "Why Carrefour stores are shutting down abroad - but thriving in the UAE",
+          "publisher": "Gulf News",
+          "published_date": "2025-10-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae&hl=en",
+          "title": "MAF Carrefour Online Shopping - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by MAF HYPERMARKETS)",
+          "published_date": "2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://imagesretailme.com/majid-al-futtaim-launches-carrefour-enabled-online-marketplace",
+          "title": "Majid Al Futtaim launches Carrefour-enabled online marketplace (search-result summary only) [2020 launch; dated]",
+          "publisher": "Images RetailME",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu",
+      "website": "https://www.temu.com",
+      "operator": "Whaleco Inc. (site footer); PDD Holdings affiliation not verified in this session",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "ECDB's model ranks Temu third among online personal-care retailers in the UAE and the app listing names \"beauty & cosmetics\"; whether established mass brands are sold there was not verified.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Similarweb ranking temu.com #2 among UAE Ecommerce & Shopping sites and Semrush estimating 5.67M UAE visits (above noon.com on the web). Temu's partner platform lists the United Arab Emirates among its seller sites.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to temu.com (second most-visited retail website in the UAE list; down 16.19% year on year)",
+          "metric_type": "monthly_visits",
+          "value": "5.67M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Ecommerce & Shopping websites in the UAE",
+          "metric_type": "other",
+          "value": "#2 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+          "source_name": "Similarweb - Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Rank among online personal-care retailers in the UAE (revenue locked on the public page)",
+          "metric_type": "market_share",
+          "value": "Rank #3 (no share disclosed)",
+          "period": "2025",
+          "nature": "third_party_estimate",
+          "source_url": "https://ecdb.com/resources/sample-data/market/ae/personal-care",
+          "source_name": "ECDB - Personal Care Industry in the UAE (e-commerce market sample data) [data to October 2026]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play install band (cumulative, global)",
+          "metric_type": "app_users",
+          "value": "1B+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en",
+          "source_name": "Google Play (listing published by Temu) - Temu: Shop Like a Billionaire - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. Listing pages are script-rendered and were not collected; no brand-owner site was found linking to Temu.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Beauty and personal-care categories exist; brand mix not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The Temu Partner Platform offers open APIs for sellers and software vendors to manage products and orders and lists the United Arab Emirates among its partner sites. It serves a seller's own shop; it is not a market-data API.",
+        "docs_url": "https://partner.temu.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "The partner platform lists a UAE seller site, so a brand or distributor selling on Temu could manage and read its own listings through the API. It exposes no competitor data and public pages are script-rendered, so wider monitoring would need an authorised provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Second-ranked UAE e-commerce site on Similarweb in October 2026."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Modelled as the third-largest online personal-care seller in the UAE, but with an unverified, probably unbranded mix."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "5.67M estimated UAE web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Partner API with a UAE seller site documented (own-shop data only); public pages are script-rendered."
+        }
+      },
+      "weighted_score": 3.25,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "A price-led competitor with a large audience that may be taking personal-care volume; monitor at category level rather than brand level. Reservation: the mid-table rank reflects audience size, not verified relevance to branded mass products.",
+      "confidence": "low",
+      "confidence_note": "Audience estimates are solid; category relevance rests on one modelled ranking and brand presence is unknown.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-arab-emirates/e-commerce-and-shopping/",
+          "title": "Top Ecommerce & Shopping Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ecdb.com/resources/sample-data/market/ae/personal-care",
+          "title": "Personal Care Industry in the UAE (e-commerce market sample data) [data to October 2026]",
+          "publisher": "ECDB",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en",
+          "title": "Temu: Shop Like a Billionaire - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Temu)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://partner.temu.com/",
+          "title": "TEMU Partner Platform [copyright 2026]",
+          "publisher": "Temu (Whaleco Inc.)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Talabat (talabat mart)",
+      "website": "https://www.talabat.com/uae",
+      "operator": "talabat (listed company; \"Talabat Holding plc\" in results coverage; its investor site links to Delivery Hero investor relations)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "The app listing promotes \"groceries, reliable delivery from talabat mart\" and pharmacies alongside food; item-level personal-care listings could not be viewed (site returned HTTP 403; assortment is app- and location-gated).",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "Pharmacies are named as a vertical in the app listing; no pharmacy sales data found.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on group GMV of about USD 3 bn in Q3 2026 (GCC USD 2.3 bn) across eight markets and a 50M+ install app. The UAE share of GMV and the grocery/talabat mart share were Not publicly disclosed in the sources read.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Group gross merchandise value, up 16% (GCC USD 2.3 bn); eight markets, all verticals",
+          "metric_type": "gmv",
+          "value": "USD 3 bn",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://gulfnews.com/business/retail/talabat-raises-2026-outlook-again-as-third-quarter-orders-grow-1.500748848",
+          "source_name": "Gulf News - talabat raises 2026 outlook again as third-quarter orders grow [page \"Last updated\"]",
+          "source_date": "2026-11-16"
+        },
+        {
+          "claim": "Active customers across eight MENA markets (dated: more than 18 months old)",
+          "metric_type": "customers",
+          "value": "more than 6 million",
+          "period": "September 2024",
+          "nature": "company_reported",
+          "source_url": "https://ir.talabat.com/",
+          "source_name": "talabat (investor relations) - Home - IR Talabat [figures for September 2024; latest publication listed 2026-11-13]",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "UAE visits to talabat.com (web only; the service is app-first)",
+          "metric_type": "monthly_visits",
+          "value": "1.33M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band for the talabat app (cumulative, all countries)",
+          "metric_type": "app_users",
+          "value": "50M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.talabat&hl=en",
+          "source_name": "Google Play (listing published by Talabat) - talabat: Food, grocery & more - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-25"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. talabat.com returned HTTP 403 (Cloudflare) and mart assortments are only visible in the app for a delivery address.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Groceries, convenience items and pharmacy partners are described in the app listing; hair, skin and oral care SKUs were not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "integration.talabat.com exists but returned HTTP 403. Delivery Hero publishes partner documentation (Restaurant Integration API, Q-Commerce Integration API, assortment/promotion SFTP) at developers.deliveryhero.com; whether it applies to talabat was not confirmed, and it is a vendor-side order/assortment integration, not a market-data API.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App- and location-gated assortment, website access refused, and only vendor-side integration documentation found. Manual in-app checks or retailer/retail-media reporting are the realistic routes.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Self-described category leader across its eight markets, with USD 3 bn quarterly GMV and a USD 120 mn 2026 investment programme that includes grocery."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Groceries, talabat mart and pharmacies are promoted verticals but personal-care assortment was not verifiable."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "More than 6 million active customers across the group (September 2024, dated) and 1.33M UAE web visits despite being app-first."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Brand listings not verifiable; scored conservatively for an app-gated quick-commerce assortment."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Website refused access and only vendor-side integration documentation exists."
+        }
+      },
+      "weighted_score": 3.05,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "The largest quick-commerce and delivery platform evidenced for the UAE; worth monitoring for availability and price in impulse/top-up missions, but data access is hard and category depth is unproven.",
+      "confidence": "medium",
+      "confidence_note": "Group financials are recent; the customer count is dated (September 2024) and nothing is UAE- or grocery-specific.",
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/retail/talabat-raises-2026-outlook-again-as-third-quarter-orders-grow-1.500748848",
+          "title": "talabat raises 2026 outlook again as third-quarter orders grow [page \"Last updated\"]",
+          "publisher": "Gulf News",
+          "published_date": "2026-11-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ir.talabat.com/",
+          "title": "Home - IR Talabat [figures for September 2024; latest publication listed 2026-11-13]",
+          "publisher": "talabat (investor relations)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/talabat.com/overview/",
+          "title": "talabat.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.talabat&hl=en",
+          "title": "talabat: Food, grocery & more - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Talabat)",
+          "published_date": "2026-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developers.deliveryhero.com/",
+          "title": "Delivery Tech - Developers [copyright 2026]",
+          "publisher": "Delivery Hero SE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Watsons UAE",
+      "website": "https://www.watsons.ae",
+      "operator": "Watsons UAE (A.S. Watson brand); local operating entity not verified in this session",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Self-described \"Beauty & Personal Care\" store. Its public storefront data shows L'Oreal Paris, Garnier, TRESemme and Dove in hair care, Colgate in oral care and Nivea and Vaseline in skin care, alongside a large own-brand range.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced on the storefront read.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. A small web audience (47.4K estimated UAE visits, 19th in Semrush's UAE beauty list); store count Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to watsons.ae (19th in the UAE Beauty & Cosmetics list)",
+          "metric_type": "monthly_visits",
+          "value": "47.4K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/beauty-and-cosmetics",
+          "source_name": "Semrush - Most Visited Beauty & Cosmetics Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified from the public storefront collection data: among the first 500 hair-care products the vendors include L'Oreal Paris (19), Garnier (16), TRESemme (7) and Dove (3); oral care (157 products) includes Colgate (19). Storefront search returned Nivea and Vaseline products but nothing for Pantene, Head & Shoulders, Sensodyne, Himalaya or Dabur. Own brand \"Naturals by Watsons\" was the largest hair-care vendor (57).",
+        "source_urls": [
+          "https://www.watsons.ae/collections/hair-care/products.json",
+          "https://www.watsons.ae/collections/oral-care/products.json",
+          "https://www.watsons.ae/"
+        ]
+      },
+      "product_coverage_note": "Hair care (500+ products), oral care (157) and skin care present; P&G hair brands and Sensodyne were not found.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the storefront read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Product, vendor and price data were readable as public storefront JSON without login (subject to the site's terms and rate limits). No seller API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Niche online footprint in the UAE."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Dedicated beauty and personal-care specialist carrying several reference mass brands."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 47K estimated UAE web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Seven reference or closely related mass brands verified; P&G hair brands and Sensodyne absent."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Public storefront JSON exposes products, vendors and prices without login."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "Small audience but highly relevant assortment and the easiest data access in the set, which makes it a cheap early addition for price and range tracking.",
+      "confidence": "medium",
+      "confidence_note": "Assortment and data access are directly verified; reach rests on a single low traffic estimate and store numbers were not found.",
+      "sources": [
+        {
+          "url": "https://www.watsons.ae/",
+          "title": "Watsons UAE | Shop All Beauty & Personal Care Products Online [live page]",
+          "publisher": "Watsons UAE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.watsons.ae/collections/hair-care/products.json",
+          "title": "Watsons UAE hair-care collection (public storefront JSON) [live data]",
+          "publisher": "Watsons UAE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.watsons.ae/collections/oral-care/products.json",
+          "title": "Watsons UAE oral-care collection (public storefront JSON) [live data]",
+          "publisher": "Watsons UAE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/beauty-and-cosmetics",
+          "title": "Most Visited Beauty & Cosmetics Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Lulu Hypermarket (Lulu Online)",
+      "website": "https://gcc.luluhypermarket.com/en-ae",
+      "operator": "Lulu Retail Holdings (ADX-listed; reports as \"Lulu Retail\")",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Hypermarket retailer; no category or brand page could be read because the site and its sitemap returned HTTP 403, so relevance is assumed from the format and is UNVERIFIED.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on company-reported group e-commerce sales of USD 177 mn in Q3 2026 (9.7% of retail sales, +53% year on year) and UAE revenue of USD 729 mn in the quarter; group figures cover all of its GCC markets and the UAE online share is not disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to luluhypermarket.com",
+          "metric_type": "monthly_visits",
+          "value": "850.4K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to luluhypermarket.com across the GCC; UAE share 19.31%",
+          "metric_type": "monthly_visits",
+          "value": "4.4M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/luluhypermarket.com/overview/",
+          "source_name": "Semrush - luluhypermarket.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Group e-commerce sales (all GCC markets), up 53% year on year and equal to 9.7% of retail sales",
+          "metric_type": "revenue",
+          "value": "USD 177 mn",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://enterpriseam.com/uae/2026/11/12/3q-results-from-lulu-dae-binghatti-and-alec-holdings/",
+          "source_name": "EnterpriseAM UAE - 3Q results from Lulu, DAE, Binghatti and Alec Holdings",
+          "source_date": "2026-11-12"
+        },
+        {
+          "claim": "UAE revenue (all channels)",
+          "metric_type": "revenue",
+          "value": "USD 729 mn",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://enterpriseam.com/uae/2026/11/12/3q-results-from-lulu-dae-binghatti-and-alec-holdings/",
+          "source_name": "EnterpriseAM UAE - 3Q results from Lulu, DAE, Binghatti and Alec Holdings",
+          "source_date": "2026-11-12"
+        },
+        {
+          "claim": "Monthly active users of the redesigned Lulu app (group level)",
+          "metric_type": "app_users",
+          "value": "more than one million",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.khaleejtimes.com/lulu-retail-revenue-rises-2-to-19-billion-in-q3-as-online-sales-jump-53",
+          "source_name": "Khaleej Times - Lulu Retail revenue rises 2% to $1.9 billion in Q3 as online sales jump 53%",
+          "source_date": "2026-11-06"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified. gcc.luluhypermarket.com and its sitemap returned HTTP 403 (Cloudflare) to both plain HTTP requests and the fetch tool.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Not verified in this session.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found; the storefront and corporate site (luluretail.com) both refused automated access.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Automated access refused (HTTP 403). Would require retailer data-sharing, an authorised provider (none verified) or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Listed GCC grocer reporting USD 177 mn of quarterly e-commerce sales growing 53% year on year."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Hypermarket format implies a personal-care range but nothing could be verified on the site."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "850.4K estimated UAE web visits; the app has over one million monthly active users at group level."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Assortment unverifiable because access was refused; neutral score for a full-range grocer."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Storefront, sitemap and corporate site all returned HTTP 403."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "A fast-growing online grocery business with solid company-reported numbers, but nothing about its personal-care assortment or data access could be confirmed, which keeps it mid-table.",
+      "confidence": "medium",
+      "confidence_note": "Financial evidence is recent and company-reported at group level; UAE-specific online figures, assortment and API status are unknown.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/luluhypermarket.com/overview/",
+          "title": "luluhypermarket.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/lulu-retail-revenue-rises-2-to-19-billion-in-q3-as-online-sales-jump-53",
+          "title": "Lulu Retail revenue rises 2% to $1.9 billion in Q3 as online sales jump 53%",
+          "publisher": "Khaleej Times",
+          "published_date": "2026-11-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://enterpriseam.com/uae/2026/11/12/3q-results-from-lulu-dae-binghatti-and-alec-holdings/",
+          "title": "3Q results from Lulu, DAE, Binghatti and Alec Holdings",
+          "publisher": "EnterpriseAM UAE",
+          "published_date": "2026-11-12",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Aster Pharmacy (myAster)",
+      "website": "https://www.myaster.com",
+      "operator": "Aster DM Healthcare (GCC business)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Health-first app; Khaleej Times reports \"thousands of skincare products\" including K-beauty. The brands page read showed Vaseline, Sunsilk, Cetaphil and CeraVe.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Online pharmacy integrated with Aster hospitals, clinics and pharmacies; 60-minute delivery promise in the page title.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on myaster.com being the most-visited pharmacy site in Semrush's UAE list, 2.8 million reported downloads (October 2025) and JLL's count of 245+ Aster Pharmacy outlets.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to myaster.com (most-visited pharmacy website in the UAE list); September 2026 estimate was 326.7K, i.e. volatile",
+          "metric_type": "monthly_visits",
+          "value": "747.3K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/pharmaceuticals",
+          "source_name": "Semrush - Most Visited Pharmaceuticals Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "myAster app downloads",
+          "metric_type": "app_users",
+          "value": "surpassed 2.8 million downloads",
+          "period": "reported 2025-10-28",
+          "nature": "company_reported",
+          "source_url": "https://www.khaleejtimes.com/business/myaster-hits-5-million-users-as-uaes-healthcare-market-embraces-digital-shift",
+          "source_name": "Khaleej Times - myAster hits 5 million users as UAE's healthcare market embraces digital shift",
+          "source_date": "2025-10-28"
+        },
+        {
+          "claim": "Company statement that myAster \"impacted over 5 million lives across the UAE\" (not an active-user count)",
+          "metric_type": "customers",
+          "value": "over 5 million lives",
+          "period": "reported 2025-10-28",
+          "nature": "company_reported",
+          "source_url": "https://www.khaleejtimes.com/business/myaster-hits-5-million-users-as-uaes-healthcare-market-embraces-digital-shift",
+          "source_name": "Khaleej Times - myAster hits 5 million users as UAE's healthcare market embraces digital shift",
+          "source_date": "2025-10-28"
+        },
+        {
+          "claim": "Aster Pharmacy outlets in the UAE",
+          "metric_type": "stores",
+          "value": "245+",
+          "period": "published 2025-10-13",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.jll.com/en-ae/insights/navigating-through-the-uaes-retail-pharmacy-landscape",
+          "source_name": "JLL - Navigating through the UAE's retail pharmacy landscape",
+          "source_date": "2025-10-13"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Partly verified on the retailer's own brands page (plain HTTP request): Vaseline, Sunsilk, Cetaphil and CeraVe were visible; the page did not expose the full brand list, so other reference brands are UNVERIFIED. CeraVe Arabia links to myAster as an official retailer.",
+        "source_urls": [
+          "https://www.myaster.com/en/online-pharmacy/ae/brands",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Skin care and some hair care verified; oral care not verified.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Pages were retrievable with a plain HTTP request; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Most-visited pharmacy site in the UAE by Semrush estimate, backed by a 245+ outlet chain."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Health-led platform with a growing skincare range; mass hair and oral care depth unverified."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "747.3K estimated UAE web visits and 2.8 million reported app downloads."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Four mass/derma brands verified on the brands page; others unverified."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable; no API."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "A credible second pharmacy channel with strong app adoption; ranks below Life Pharmacy because fewer mass brands could be verified.",
+      "confidence": "medium",
+      "confidence_note": "Download and \"lives impacted\" figures are company-reported and 13 months old; traffic estimates swung sharply between September and October 2026.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/pharmaceuticals",
+          "title": "Most Visited Pharmaceuticals Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/myaster.com/overview/",
+          "title": "myaster.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/business/myaster-hits-5-million-users-as-uaes-healthcare-market-embraces-digital-shift",
+          "title": "myAster hits 5 million users as UAE's healthcare market embraces digital shift",
+          "publisher": "Khaleej Times",
+          "published_date": "2025-10-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jll.com/en-ae/insights/navigating-through-the-uaes-retail-pharmacy-landscape",
+          "title": "Navigating through the UAE's retail pharmacy landscape",
+          "publisher": "JLL",
+          "published_date": "2025-10-13",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.myaster.com/en/online-pharmacy/ae/brands",
+          "title": "Online Pharmacy Delivery in 60 minutes - myAster UAE (brands page) [live page]",
+          "publisher": "myAster (Aster DM Healthcare)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Mumzworld",
+      "website": "https://www.mumzworld.com",
+      "operator": "Mumzworld (Google Play developer name); ownership not verified in this session",
+      "status": "active",
+      "platform_category": "other",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Mother, baby and family store whose public brand directory nevertheless lists the full set of reference mass brands (Dove, Pantene, L'Oreal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur, Parachute, Vatika, Sunsilk).",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "No pharmacy offer evidenced.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Niche audience in the UAE (126.7K estimated visits); Saudi Arabia is its largest traffic source. The hybrid label rests on a \"Sell with Mumzworld\" link on the site.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to mumzworld.com",
+          "metric_type": "monthly_visits",
+          "value": "126.7K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to mumzworld.com; Saudi Arabia 54.53%, UAE 16.55%",
+          "metric_type": "monthly_visits",
+          "value": "765.75K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/mumzworld.com/overview/",
+          "source_name": "Semrush - mumzworld.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Google Play install band (cumulative)",
+          "metric_type": "app_users",
+          "value": "1M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.mumzworld.android&hl=en",
+          "source_name": "Google Play (listing published by Mumzworld) - Mumzworld - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-03"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified by reading the retailer's own brand directory with a plain HTTP request: all 12 reference brands appear (Dove, Pantene, L'Oreal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur, Parachute). Listing depth per brand was not checked.",
+        "source_urls": [
+          "https://www.mumzworld.com/en/brands"
+        ]
+      },
+      "product_coverage_note": "Family personal care across hair, skin and oral care; the app listing claims over 250,000 products overall.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A \"Sell with Mumzworld\" programme is linked from the site; no API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand directory retrievable with a plain HTTP request (large page); no API found.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Vertical specialist with a small UAE audience."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Family-care positioning with mass personal care as a supporting range."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "126.7K estimated UAE web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "All 12 reference brands present in the brand directory."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable; no API found."
+        }
+      },
+      "weighted_score": 2.9,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Small but unusually complete mass-brand coverage for a specialist; useful for baby and family personal-care lines, lower priority otherwise.",
+      "confidence": "medium",
+      "confidence_note": "Brand presence directly verified at directory level; reach from one estimator.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/mumzworld.com/overview/",
+          "title": "mumzworld.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.mumzworld.android&hl=en",
+          "title": "Mumzworld - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Mumzworld)",
+          "published_date": "2026-11-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.mumzworld.com/en/brands",
+          "title": "Brands (Mumzworld brand directory) [live page]",
+          "publisher": "Mumzworld",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "SHEIN",
+      "website": "https://www.shein.com",
+      "operator": "Roadget Business Pte. Ltd. (Google Play developer name)",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led; the app listing mentions beauty as one of many categories. No evidence of established mass hair, skin or oral care brands.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Estimate. Rests on Semrush ranking shein.com the fourth most-visited retail site in the UAE (2.44M visits, +135% year on year). A seller programme is evidenced by the SHEIN Developer Platform.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to shein.com (fourth most-visited retail website in the UAE list)",
+          "metric_type": "monthly_visits",
+          "value": "2.44M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Google Play install band (cumulative, global)",
+          "metric_type": "app_users",
+          "value": "1B+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en",
+          "source_name": "Google Play (listing published by Roadget Business PTE. LTD.) - SHEIN-Shopping Online - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-18"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; no listing pages were collected and no brand-owner site was found linking to SHEIN.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Beauty present as a category; brand mix not verified.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "SHEIN Developer Platform documents OpenAPI solutions for product management and order fulfilment for sellers; own-shop data only.",
+        "docs_url": "https://open.sheincorp.com/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Seller-only API; public pages not tested. Little reason to integrate unless the brand owner sells there.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Fourth most-visited retail site in the UAE by Semrush estimate, growing fast."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Fashion platform with beauty as a minor category."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "2.44M estimated UAE web visits in October 2026."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No reference mass brand verified."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Seller-only API; competitor data would need a provider or manual work."
+        }
+      },
+      "weighted_score": 2.8,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "Large audience but marginal for mass hair, skin and oral care; watch for category drift rather than monitor routinely.",
+      "confidence": "low",
+      "confidence_note": "Only audience evidence is available; category relevance and brand presence are unverified.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en",
+          "title": "SHEIN-Shopping Online - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Roadget Business PTE. LTD.)",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://open.sheincorp.com/",
+          "title": "SHEIN Developer Platform [copyright 2026]",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Boots UAE",
+      "website": "https://ae.boots.com",
+      "operator": "Operator not confirmed; the storefront loads its content from an Alshaya-hosted publishing environment, which suggests an Alshaya franchise operation",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Health and beauty retailer with skincare, hair care, men's grooming and pharmacy departments; the brands promoted on the homepage are own-label and derma brands (No7, Bioderma, La Roche-Posay, Vichy).",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Pharmacy, vitamins and baby/child health are top-level departments.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Small measured online audience: Semrush attributes 54.2K UAE visits to the boots.com root domain, which may include traffic to the UK site.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to the boots.com root domain (includes ae.boots.com; may include UK-site traffic)",
+          "metric_type": "monthly_visits",
+          "value": "54.2K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/beauty-and-cosmetics",
+          "source_name": "Semrush - Most Visited Beauty & Cosmetics Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Only CeraVe is verified (the CeraVe Arabia where-to-buy page links to ae.boots.com/en/brand/cerave/). The homepage promotes No7, Bioderma, La Roche-Posay, SkinCeuticals, Vitabiotics and Vichy; the brands index is rendered client-side and none of the reference mass brands could be confirmed.",
+        "source_urls": [
+          "https://ae.boots.com/en/",
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Derma skincare and own-label ranges verified; mass hair and oral care not verified.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Homepage reachable by plain HTTP and renders in a standard browser; brand and listing pages are client-side rendered. No API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small measured online footprint in the UAE."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Health and beauty specialist, but the visible range leans to derma and own-label brands."
+        },
+        "consumer_reach": {
+          "score": 1,
+          "note": "About 54K estimated UAE visits to the whole boots.com domain."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Only CeraVe verified; reference mass brands not confirmed."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages reachable; no API."
+        }
+      },
+      "weighted_score": 2.25,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "A recognised health-and-beauty banner with limited evidenced online reach in the UAE and little verified overlap with mass hair, skin and oral care brands.",
+      "confidence": "low",
+      "confidence_note": "Traffic is a root-domain estimate; operator and assortment are only partly verified.",
+      "sources": [
+        {
+          "url": "https://ae.boots.com/en/",
+          "title": "Shop beauty and healthcare products online | Boots UAE [live page]",
+          "publisher": "Boots UAE",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/beauty-and-cosmetics",
+          "title": "Most Visited Beauty & Cosmetics Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Namshi",
+      "website": "https://www.namshi.com/uae-en/",
+      "operator": "Namshi (Google Play developer name); ownership not verified in this session",
+      "status": "active",
+      "platform_category": "department_store_fashion",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led store; its app listing names beauty as one category and cites Charlotte Tilbury and M.A.C Cosmetics. CeraVe Arabia links to a Namshi UAE CeraVe page, so some derma skincare is listed.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. The app listing claims \"2,000+ brands and 200,000+ products\" across six Gulf markets; the business model (own retail versus marketplace) was not verified and the first_party_retailer label is an assumption.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to namshi.com (29th most-visited retail website in the UAE list)",
+          "metric_type": "monthly_visits",
+          "value": "420.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/retail",
+          "source_name": "Semrush - Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Total visits to namshi.com; Saudi Arabia 45.51%, UAE 24.34%",
+          "metric_type": "monthly_visits",
+          "value": "1.73M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/namshi.com/overview/",
+          "source_name": "Semrush - namshi.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Google Play install band (cumulative, all countries)",
+          "metric_type": "app_users",
+          "value": "10M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.namshi.android&hl=en",
+          "source_name": "Google Play (listing published by Namshi) - Namshi - Online Fashion Store - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-12"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Only CeraVe is verified, via the brand owner's where-to-buy link to namshi.com/uae-en/cerave/. namshi.com refused automated access (no response / HTTP 503), so mass hair and oral care brands are UNVERIFIED.",
+        "source_urls": [
+          "https://www.ceravearabia.com/en/where-to-buy"
+        ]
+      },
+      "product_coverage_note": "Beauty is a secondary category next to fashion; depth not verified.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Automated access refused; manual checks or an authorised provider (none verified) would be needed.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Well-known regional fashion platform with a 10M+ install app."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Beauty is a side category skewed to prestige and derma brands."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "420.8K estimated UAE web visits; app usage by country not disclosed."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Only CeraVe verified."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "Automated access refused and no API found."
+        }
+      },
+      "weighted_score": 2.2,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Relevant mainly for premium and derma skincare; low overlap with mass hair and oral care and poor data access.",
+      "confidence": "low",
+      "confidence_note": "Operator structure, business model and assortment are unverified; reach is a single estimator.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/retail",
+          "title": "Most Visited Retail Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/namshi.com/overview/",
+          "title": "namshi.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.namshi.android&hl=en",
+          "title": "Namshi - Online Fashion Store - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Namshi)",
+          "published_date": "2026-11-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ceravearabia.com/en/where-to-buy",
+          "title": "Where to Buy CeraVe Products in Saudi Arabia | CeraVe Official",
+          "publisher": "CeraVe Arabia (L'Oreal Middle East)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Sephora Middle East",
+      "website": "https://www.sephora.me/ae-en",
+      "operator": "Sephora Emirates LLC / Sephora Middle East FZE (entity names found in the site's legal text)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Prestige and selective beauty. The public \"All Brands\" page was read and the reference mass-market brands were absent apart from a single L'Oreal mention.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate for this category. Similarweb ranks sephora.me among the top beauty sites in the UAE (#3 on its site page, #4 in the top-sites list), so it is important for prestige beauty but not for mass personal care.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "\"Total Visits\" on the Similarweb page for sephora.me (label read ambiguously; treated as latest month); 35.78% from the UAE, i.e. roughly 0.39M",
+          "metric_type": "monthly_visits",
+          "value": "1.1M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/website/sephora.me/",
+          "source_name": "Similarweb - sephora.me - Similarweb website analysis page [page titled October 2026]",
+          "source_date": "2026-10"
+        },
+        {
+          "claim": "Rank among Beauty and Cosmetics websites in the UAE",
+          "metric_type": "other",
+          "value": "#4 of top-5 shown",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-arab-emirates/lifestyle/beauty-and-cosmetics/",
+          "source_name": "Similarweb - Top Beauty and Cosmetics Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "source_date": "2026-11-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Verified absent: the brand directory (read with a plain HTTP request) lists prestige brands; Dove, Pantene, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur and Parachute do not appear.",
+        "source_urls": [
+          "https://www.sephora.me/ae-en/brands"
+        ]
+      },
+      "product_coverage_note": "Prestige make-up, fragrance, skincare and hair care; no mass-market oral care.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "First-party retailer; no seller or developer programme link on the page read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand directory and storefront pages were retrievable with a plain HTTP request; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Leading prestige beauty site but a small part of total UAE e-commerce."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Prestige assortment with almost no overlap with mass hair, skin and oral care."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 0.39M estimated UAE visits a month (Similarweb-derived)."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Reference mass brands verified absent from the brand directory."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable; no API."
+        }
+      },
+      "weighted_score": 2.05,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Included as the representative prestige specialist; it is a different competitive set and a low priority for a mass-market brand owner.",
+      "confidence": "medium",
+      "confidence_note": "Assortment directly verified; traffic from one estimator (Semrush holds no data for sephora.me).",
+      "sources": [
+        {
+          "url": "https://www.similarweb.com/website/sephora.me/",
+          "title": "sephora.me - Similarweb website analysis page [page titled October 2026]",
+          "publisher": "Similarweb",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-arab-emirates/lifestyle/beauty-and-cosmetics/",
+          "title": "Top Beauty and Cosmetics Websites Ranking in United Arab Emirates, October 2026 [page \"Last updated\"]",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sephora.me/ae-en/brands",
+          "title": "All Brands (Sephora Middle East, UAE storefront) [live page]",
+          "publisher": "Sephora Middle East",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Careem (Careem Quik)",
+      "website": "https://www.careem.com/en-ae/",
+      "operator": "Careem (Google Play developer name); ownership not verified in this session",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "The app listing says Careem Quik offers \"over 1,000+ items\" including \"personal care\", delivered \"in as little as 15 minutes\"; a range of that size leaves little room for hair, skin and oral care depth.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Pharmacies are mentioned among partner speciality stores; no further evidence.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Careem is a large multi-service app (company claim of \"50M+ customers\" region-wide, all services) but Quik-specific users, orders or GMV are Not publicly disclosed in the sources read.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Company claim on careem.com covering all services and countries (\"The region's most-used everything app\")",
+          "metric_type": "customers",
+          "value": "50M+ customers",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.careem.com/en-ae/",
+          "source_name": "Careem - Careem | Taxi, Food, Grocery Delivery & More",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play install band for the Careem app (cumulative, all countries, all services)",
+          "metric_type": "app_users",
+          "value": "50M+",
+          "period": "as of 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.careem.acma&hl=en",
+          "source_name": "Google Play (listing published by Careem) - Careem: Taxi, Food & Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        },
+        {
+          "claim": "UAE visits to careem.com (47.14% of 392.03K total; web only, all services)",
+          "metric_type": "monthly_visits",
+          "value": "184.8K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/careem.com/overview/",
+          "source_name": "Semrush - careem.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Careem Quik range size stated in the app listing",
+          "metric_type": "other",
+          "value": "over 1,000+ items",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://play.google.com/store/apps/details?id=com.careem.acma&hl=en",
+          "source_name": "Google Play (listing published by Careem) - Careem: Taxi, Food & Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "Not verified; the Quik assortment is visible only inside the app.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Personal care named as a Quik category; no brand or SKU evidence.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Not found on the pages read.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "App-only assortment with no public catalogue pages or API found; manual in-app checks only.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Large regional super-app, but grocery is one of several services and no Quik-specific scale is disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Roughly 1,000 quick-commerce items with personal care as one category."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "Only region-wide, all-service claims and a small UAE web footprint (184.8K visits) are available."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "No brand evidence; limited range by the platform's own description."
+        },
+        "data_integration_feasibility": {
+          "score": 1,
+          "note": "App-only, no public catalogue or API found."
+        }
+      },
+      "weighted_score": 2.0,
+      "priority_rank": 15,
+      "is_top3": false,
+      "priority_rationale": "A secondary quick-commerce outlet with a narrow range and no realistic automated data route; low priority until Quik-specific scale is evidenced.",
+      "confidence": "low",
+      "confidence_note": "Everything specific to Quik comes from the company's own app listing; no independent or UAE-specific numbers were found.",
+      "sources": [
+        {
+          "url": "https://www.careem.com/en-ae/",
+          "title": "Careem | Taxi, Food, Grocery Delivery & More",
+          "publisher": "Careem",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.careem.acma&hl=en",
+          "title": "Careem: Taxi, Food & Delivery - Apps on Google Play [date shown is when the store listing was last updated]",
+          "publisher": "Google Play (listing published by Careem)",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/careem.com/overview/",
+          "title": "careem.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Huda Beauty (brand-owned store)",
+      "website": "https://hudabeauty.com/en-ae",
+      "operator": "Huda Beauty",
+      "status": "active",
+      "platform_category": "d2c_brand_site",
+      "marketplace_type": "d2c_brand_site",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Significant for beauty overall (second most-visited site in Semrush's UAE beauty list) but a single prestige make-up and skincare brand with no mass hair, skin or oral care overlap.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Estimate. Included as the most-visited brand-owned beauty store evidenced for the UAE; it illustrates the D2C channel rather than a competitor set for mass brands.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "UAE visits to hudabeauty.com (11.03% of 1.96M global visits)",
+          "metric_type": "monthly_visits",
+          "value": "216.5K",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/hudabeauty.com/overview/",
+          "source_name": "Semrush - hudabeauty.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "source_date": "2026-11-11"
+        },
+        {
+          "claim": "Position in the UAE Beauty & Cosmetics website list",
+          "metric_type": "other",
+          "value": "#2 of 100",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/trending-websites/ae/beauty-and-cosmetics",
+          "source_name": "Semrush - Most Visited Beauty & Cosmetics Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "source_date": "2026-10"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Single-brand store by design (the UAE storefront was read with a plain HTTP request); reference mass brands are not sold.",
+        "source_urls": [
+          "https://hudabeauty.com/en-ae"
+        ]
+      },
+      "product_coverage_note": "Own-brand colour cosmetics, skincare and fragrance only.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "Brand-owned store; an affiliate programme is linked but no seller or developer API.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Storefront retrievable with a plain HTTP request; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Notable brand site but a small share of UAE online retail."
+        },
+        "beauty_category_relevance": {
+          "score": 1,
+          "note": "Prestige single-brand range with no mass hair, skin or oral care."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "216.5K estimated UAE web visits a month."
+        },
+        "brand_competitor_coverage": {
+          "score": 1,
+          "note": "Reference brands not sold by design."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public pages readable; no API."
+        }
+      },
+      "weighted_score": 1.8,
+      "priority_rank": 16,
+      "is_top3": false,
+      "priority_rationale": "Included to represent the D2C channel; not a monitoring priority for a mass-market brand owner.",
+      "confidence": "medium",
+      "confidence_note": "Simple case; reach from one estimator.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/hudabeauty.com/overview/",
+          "title": "hudabeauty.com Website Traffic, Ranking, Analytics [October 2026] [page \"Last updated\" date; October 2026 data]",
+          "publisher": "Semrush",
+          "published_date": "2026-11-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/trending-websites/ae/beauty-and-cosmetics",
+          "title": "Most Visited Beauty & Cosmetics Websites in the United Arab Emirates, October 2026 [page states \"Updated October 2026\"]",
+          "publisher": "Semrush",
+          "published_date": "2026-10",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://hudabeauty.com/en-ae",
+          "title": "Huda Beauty Official Store (UAE storefront) [live page]",
+          "publisher": "Huda Beauty",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

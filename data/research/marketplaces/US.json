@@ -1,0 +1,2240 @@
+{
+  "country_code": "US",
+  "country_name": "United States",
+  "region": "North America",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "US retail e-commerce reached $347.3 billion (seasonally adjusted) in Q3 2026, 17.9% of total retail sales and 10.4% above Q3 2025 (US Census Bureau). The market is concentrated: EMARKETER forecasts Amazon at 39.7% of 2026 US e-commerce sales and Walmart.com above 10% for the first time, and Similarweb's October 2026 ranking puts amazon.com, walmart.com, ebay.com and temu.com at the top of the shopping category. Beauty is one of the most digitised categories: NielsenIQ data reported in March 2025 put online at 43% of US beauty sales (2024 data, dated), and NielsenIQ's April 2026 data rank TikTok Shop as the #4 US health-and-beauty retailer. For mass-market hair, skin and oral care the checklist brands were verified on Amazon, Target, CVS, Walgreens, Costco, Sam's Club and Instacart; beauty specialists split between Ulta (mass plus prestige) and Sephora (prestige). Quick delivery is consolidating: DoorDash agreed in October 2026 to acquire Instacart for about $17 billion.",
+    "key_facts": [
+      {
+        "fact": "US retail e-commerce sales were $347.3 billion in Q3 2026 (seasonally adjusted), 17.9% of total retail sales, up 10.4% from Q3 2025 and 1.6% from Q2 2026.",
+        "nature": "official_statistic",
+        "source_url": "https://www.census.gov/retail/mrts/www/data/pdf/ec_current.pdf",
+        "source_name": "U.S. Census Bureau",
+        "source_date": "2026-11-19"
+      },
+      {
+        "fact": "EMARKETER forecasts Amazon at 39.7% of US e-commerce sales in 2026, Walmart.com above 10% for the first time, and the top 18 retailers at 75.1% of US retail e-commerce sales (forecast; read from the search-result summary because the article page returned HTTP 403).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+        "source_name": "EMARKETER",
+        "source_date": "2026 (forecast)"
+      },
+      {
+        "fact": "Similarweb's October 2026 ranking of US 'Ecommerce & Shopping' sites lists amazon.com, walmart.com, ebay.com, temu.com and etsy.com as the top five.",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+        "source_name": "Similarweb",
+        "source_date": "2026-11-01"
+      },
+      {
+        "fact": "NielsenIQ data reported by Retail Brew: online reached 43% of the total US beauty market; beauty e-commerce sales rose 11.1% to $45.7 billion out of $107.5 billion. The data relate to 2024 and are dated (older than 18 months).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.retailbrew.com/stories/2025/03/07/amazon-tiktok-shop-gaining-beauty-dollar-share-on-stagnant-brick-and-mortar-stores",
+        "source_name": "NielsenIQ via Retail Brew",
+        "source_date": "2025-03-07 (2024 data; dated)"
+      },
+      {
+        "fact": "NielsenIQ data published 24 April 2026 rank TikTok Shop as the #4 US health and beauty retailer, with trailing-12-month category sales above $4.4 billion (+84% year on year).",
+        "nature": "third_party_estimate",
+        "source_url": "https://novadata.io/resources/news/tiktok-shop-health-beauty-no4-retailer-april-2026",
+        "source_name": "NielsenIQ via Nova",
+        "source_date": "2026-04-27"
+      },
+      {
+        "fact": "Momentum Works and Tabcut estimate TikTok Shop US gross merchandise value at $11.8 billion in the first half of 2026, up 103% year on year; worldwide first-half GMV was an estimated $50.3 billion.",
+        "nature": "analyst_estimate",
+        "source_url": "https://kr-asia.com/tiktok-fought-to-stay-in-the-us-its-shopping-business-shows-what-was-at-stake",
+        "source_name": "Momentum Works / Tabcut via KrASIA",
+        "source_date": "2026-08-17"
+      },
+      {
+        "fact": "DoorDash announced a definitive agreement to acquire Instacart at $65.00 per share (equity value about $17 billion), expected to close at the end of 2027 or in the first half of 2028.",
+        "nature": "company_reported",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
+        "source_name": "DoorDash, Inc. (via U.S. SEC EDGAR)",
+        "source_date": "2026-10 (Q3 2026 release)"
+      }
+    ]
+  },
+  "ranking_method_note": "Scores follow the brief's rubric exactly: five criteria scored 1-5, weighted 0.20 / 0.25 / 0.20 / 0.15 / 0.20, summed and rounded to two decimals; rank 1 is the highest weighted score. Ties are broken by beauty_category_relevance, then consumer_reach; where a tie still remained, brand_competitor_coverage, data_integration_feasibility, ecommerce_significance and finally alphabetical order were used (an addition, because the rubric is silent). estimated_market_importance reflects overall importance in the country's online retail (tier_1 = market-shaping, tier_2 = significant, tier_3 = niche or emerging), not category relevance, which is captured separately in beauty_relevance. Scoring anchors: ecommerce_significance 5 = market-shaping leader, 4 = top-tier national player, 3 = significant category or regional player, 2 = niche or emerging. consumer_reach uses Semrush estimates of US web visits for October 2026 (5 = 150 million or more, 4 = 50-150 million, 3 = 15-50 million, 2 = 3-15 million, 1 = below 3 million), adjusted where company-reported customer or order metrics justify it; web visits exclude app use. brand_competitor_coverage is an evidence-graded judgement based on how many checklist brands were confirmed on the platform's own pages or sitemaps and how deep the ranges were; platforms that refused automated access receive a neutral 3 (or 2 where positioning points to low coverage) and are marked UNVERIFIED. Checklist used for the US: Dove, Pantene, L'Oréal Paris, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Olay, Neutrogena, CeraVe, Cetaphil. data_integration_feasibility: 5 = documented public partner API plus accessible public pages, 4 = documented API with gated scope, 3 = no API but public pages or sitemaps accessible, 2 = no API and bot-protected pages. The formula rewards reach and data access, so beauty specialists and drugstores rank below general retailers even where their category relevance is equal or higher; reservations are recorded in each priority_rationale.",
+  "platforms": [
+    {
+      "name": "Amazon (amazon.com)",
+      "website": "https://www.amazon.com",
+      "operator": "Amazon.com, Inc.",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Largest US online retailer and a leading beauty destination: NielsenIQ data reported by Retail Brew show Amazon gaining 2.1 points of US beauty share year on year and 7.3 points since 2021 (2024 data, dated); a search-result summary of a GCI Magazine article puts Amazon at just under 47% of US online beauty and personal-care sales in 2025 (secondary, not directly fetched).",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "'Amazon Pharmacy' and 'Amazon One Medical' appear in the amazon.com department navigation (observed 2026-11-26); the prescription offer itself was not researched.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on EMARKETER's 39.7% forecast share of 2026 US e-commerce sales, the #1 Similarweb category rank and about 1.13 billion US web visits in October 2026 (Semrush).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "amazon.com received an estimated 1.13B visits from the United States in October 2026 (73.31% of 1.54B visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "1.13B",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/amazon.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Similarweb ranks amazon.com #1 among US 'Ecommerce & Shopping' websites for October 2026.",
+          "metric_type": "other",
+          "value": "Rank 1 (US Ecommerce & Shopping)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "EMARKETER forecasts Amazon at 39.7% of US e-commerce sales in 2026 (forecast, not a verified share; read from a search-result summary).",
+          "metric_type": "market_share",
+          "value": "39.7% (forecast)",
+          "period": "2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+          "source_name": "EMARKETER",
+          "source_date": "2026 (forecast)"
+        },
+        {
+          "claim": "Amazon reported North America segment net sales of $112.9 billion for Q3 2026, up 6% year on year (segment covers more than the US and more than retail merchandise).",
+          "metric_type": "revenue",
+          "value": "$112.9 billion (North America segment, quarter)",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+          "source_name": "Amazon.com, Inc.",
+          "source_date": "2026-10-29"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on Amazon's own public pages on 2026-11-26 with a default headless browser: the search page for 'dove shampoo' (title 'Amazon.com : dove shampoo') named Dove 54 times and also showed Pantene, Head & Shoulders, OGX, Suave and Native; the Beauty & Personal Care best-seller page showed Neutrogena, Maybelline and La Roche-Posay. Other checklist brands were not searched individually.",
+        "source_urls": [
+          "https://www.amazon.com/s?k=dove+shampoo",
+          "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty"
+        ]
+      },
+      "product_coverage_note": "Mass-market hair care confirmed on the sampled search page and skin care on the best-seller page; oral care was not sampled and assortment depth was not counted.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Selling Partner API (SP-API) for applications built for sellers and vendors; the 'Store Identifiers' page lists the US marketplace (ATVPDKIKX0DER); the Product Pricing API returns 'product pricing and offer pricing information for Amazon Marketplace products'. Access requires a registered selling-partner developer profile; eligibility terms were not reviewed. A reviews endpoint was Not found. The older documentation address developer-docs.amazon.com redirects to developer-docs.amazon.",
+        "docs_url": "https://developer-docs.amazon/sp-api/docs/welcome"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented API for own listings, catalogue and pricing; public search and best-seller pages rendered without a block in this session; digital-shelf vendors also report on Amazon (Profitero+ names Amazon on its site).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "EMARKETER forecasts 39.7% of 2026 US e-commerce sales and Similarweb ranks it #1 in the category."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "NielsenIQ data show Amazon gaining US beauty share (dated) and secondary reports put it near half of online beauty and personal-care sales; mass brands were verified on-site."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 1.13 billion US web visits in October 2026 (Semrush estimate), the largest audience in this set."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Dove, Pantene, Head & Shoulders, OGX, Suave, Native, Neutrogena and Maybelline were all seen on two sampled public pages."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Public, documented SP-API with a US marketplace plus accessible public pages and third-party data vendors."
+        }
+      },
+      "weighted_score": 5.0,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "Highest score on every criterion: the largest audience, verified mass-brand coverage and the best-documented API. No reservation about the rank; the only caveat is that beauty-share figures are third-party estimates.",
+      "confidence": "high",
+      "confidence_note": "Traffic, ranking, API documentation and brand presence were verified today; the beauty-share figures are third-party, partly dated (2024 data) or read only from search-result summaries.",
+      "sources": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/welcome",
+          "title": "Welcome to SP-API Documentation",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids",
+          "title": "Store Identifiers",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api-v2022-05-01-reference",
+          "title": "Product Pricing v2022-05-01",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.retailbrew.com/stories/2025/03/07/amazon-tiktok-shop-gaining-beauty-dollar-share-on-stagnant-brick-and-mortar-stores",
+          "title": "Amazon, TikTok Shop gaining beauty dollar share on stagnant brick-and-mortar stores",
+          "publisher": "Retail Brew",
+          "published_date": "2025-03-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.gcimagazine.com/retail/digital-e-commerce/article/22968485/beautys-digital-reordering-tiktok-shop-surges-as-amazon-holds-but-no-longer-dominates-growth",
+          "title": "Beauty's Digital Reordering: TikTok Shop Surges as Amazon Holds but No Longer Dominates Growth",
+          "publisher": "Global Cosmetic Industry (GCI)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/",
+          "title": "eCommerce data, technology & services | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/amazon.com/overview/",
+          "title": "amazon.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "title": "Top Websites Ranking: Ecommerce & Shopping in United States (October 2026 data)",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+          "title": "US Ecommerce Market Shares 2026",
+          "publisher": "EMARKETER",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+          "title": "Amazon.com Announces Third Quarter Results",
+          "publisher": "Amazon.com, Inc.",
+          "published_date": "2026-10-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.com/s?k=dove+shampoo",
+          "title": "Amazon.com : dove shampoo",
+          "publisher": "Amazon.com",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+          "title": "Amazon Best Sellers: Best Beauty & Personal Care",
+          "publisher": "Amazon.com",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Walmart (walmart.com)",
+      "website": "https://www.walmart.com",
+      "operator": "Walmart Inc. (walmart.com footer: 'Walmart Stores, Inc.')",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Assessment is partly inferential: Walmart is the #2 US e-commerce retailer (EMARKETER forecast above 10% share) with US e-commerce up 23% and marketplace sales up 49% in the quarter to 31 October 2026, but no beauty-specific share figure was retrieved and walmart.com returned a 'Robot or human?' check, so on-site beauty assortment is UNVERIFIED.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "UNVERIFIED: Walmart's pharmacy offer was not checked in this session because walmart.com refused automated access.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on EMARKETER's forecast that Walmart.com exceeds 10% of 2026 US e-commerce sales, Similarweb rank #2 and about 313 million US web visits in October 2026 (Semrush).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "walmart.com received an estimated 312.83M visits from the United States in October 2026 (90.2% of 346.81M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "312.83M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/walmart.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Similarweb ranks walmart.com #2 among US 'Ecommerce & Shopping' websites for October 2026.",
+          "metric_type": "other",
+          "value": "Rank 2 (US Ecommerce & Shopping)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "EMARKETER expects Walmart.com's share of US retail e-commerce sales to cross 10% for the first time in 2026 (forecast; read from a search-result summary).",
+          "metric_type": "market_share",
+          "value": ">10% (forecast)",
+          "period": "2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+          "source_name": "EMARKETER",
+          "source_date": "2026 (forecast)"
+        },
+        {
+          "claim": "Walmart U.S. e-commerce sales grew 23% and marketplace sales 49% in the quarter ended 31 October 2026; Walmart U.S. net sales were $125 billion (e-commerce share of sales Not publicly disclosed in the source).",
+          "metric_type": "revenue",
+          "value": "US e-commerce +23% YoY; marketplace +49% YoY",
+          "period": "Q3 FY2027 (quarter ended 2026-10-31)",
+          "nature": "company_reported",
+          "source_url": "https://theshelbyreport.com/2026/11/19/walmart-u-s-comps-rise-2-9-in-q3-as-e-commerce-grows-23/",
+          "source_name": "Walmart results as reported by The Shelby Report",
+          "source_date": "2026-11-19"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. walmart.com search, a keyword landing page and the brand-shop sitemap all returned a 'Robot or human?' check to automated access on 2026-11-26, and no alternative source for Walmart's listings was found. The sister site samsclub.com (same operator) does list twelve of the thirteen checklist brands in its product sitemap, which is only indirect evidence.",
+        "source_urls": [
+          "https://www.walmart.com/search?q=dove+shampoo",
+          "https://www.samsclub.com/sitemap_products_1.xml"
+        ]
+      },
+      "product_coverage_note": "Not verified in this session; expected to include first-party and marketplace listings, but no assortment count was obtained.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Walmart Developer Portal documents Marketplace Partner APIs (sellers 'manage items, prices, orders, and more'), 1P Supplier APIs (items, orders, inventory) and Walmart Connect advertising APIs. Access is for sellers, solution providers and suppliers; approval requirements were not reviewed. APIs for reviews or market insights: Not found on the pages read.",
+        "docs_url": "https://developer.walmart.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Documented APIs cover a partner's own items, prices and orders, but public pages and sitemaps are bot-protected, so competitor listing, price and review data would need a third-party data provider (Profitero+ names Walmart on its site) or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Second-largest US e-commerce retailer per EMARKETER's 2026 forecast and Similarweb's October 2026 ranking."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Inferred from its #2 e-commerce position and mass-merchant role; no beauty-specific share was found and on-site assortment is UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 313 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED because the site blocked automated access; neutral score, with only indirect evidence from samsclub.com."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented Marketplace and 1P Supplier APIs for partners, offset by bot-protected public pages."
+        }
+      },
+      "weighted_score": 4.25,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "Second on reach and overall e-commerce weight, with a documented partner API. Reservation: two of the five scores (beauty relevance and brand coverage) rest on inference because walmart.com refused automated access; a manual check should confirm them before build work starts.",
+      "confidence": "medium",
+      "confidence_note": "Reach, growth and API documentation are verified; beauty relevance and brand coverage are not, because every walmart.com page and sitemap tried returned a bot check.",
+      "sources": [
+        {
+          "url": "https://developer.walmart.com/",
+          "title": "Walmart Developer Portal",
+          "publisher": "Walmart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.walmart.com/us-marketplace",
+          "title": "United States Marketplace Partners (Walmart Developer Portal)",
+          "publisher": "Walmart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/",
+          "title": "eCommerce data, technology & services | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/walmart.com/overview/",
+          "title": "walmart.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "title": "Top Websites Ranking: Ecommerce & Shopping in United States (October 2026 data)",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+          "title": "US Ecommerce Market Shares 2026",
+          "publisher": "EMARKETER",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://theshelbyreport.com/2026/11/19/walmart-u-s-comps-rise-2-9-in-q3-as-e-commerce-grows-23/",
+          "title": "Walmart U.S. comps rise 2.9% in Q3 as e-commerce grows 23%",
+          "publisher": "The Shelby Report",
+          "published_date": "2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.walmart.com/search?q=dove+shampoo",
+          "title": "Robot or human? (walmart.com bot check returned to automated access)",
+          "publisher": "Walmart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.samsclub.com/sitemap_products_1.xml",
+          "title": "SamsClub.com product sitemap (XML, file 1)",
+          "publisher": "Sam's Club",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Target (target.com)",
+      "website": "https://www.target.com",
+      "operator": "Target Corporation",
+      "status": "active",
+      "platform_category": "other",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Mass-merchandise retailer with a deep mass beauty assortment: target.com returned 1,000+ results for 'shampoo' and 201 results for 'dove shampoo' on 2026-11-26. Classified 'other' because it is a mass merchant rather than an open marketplace; its third-party programme is Target Plus.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: any pharmacy service at Target was not checked in this session.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 121 million US web visits in October 2026 (Semrush) and digital comparable sales growth of 9.8% in Q3 2026; no market-share figure was found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "target.com received an estimated 120.93M visits from the United States in October 2026 (94.12% of 128.48M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "120.93M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/target.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Target reported Q3 2026 net sales up 7.1% with digital comparable sales up 9.8%; two-thirds of the digital business is driven by same-day services. Digital sales in dollars: Not publicly disclosed in the release.",
+          "metric_type": "revenue",
+          "value": "Digital comparable sales +9.8%",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://corporate.target.com/news-features/article/2026/11/q3-2026-earnings",
+          "source_name": "Target Corporation",
+          "source_date": "2026-11-18"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on target.com's public search pages (fetched 2026-11-26): 'Shampoo : Target' (1,000+ results) showed Dove, Pantene, L'Oréal Paris, Garnier, Head & Shoulders, Herbal Essences, OGX, SheaMoisture, Suave and Native; 'Dove Shampoo : Target' showed 201 results with prices. Nivea, Vaseline and oral-care brands were not checked.",
+        "source_urls": [
+          "https://www.target.com/s/shampoo",
+          "https://www.target.com/s/dove+shampoo"
+        ]
+      },
+      "product_coverage_note": "Broad mass hair care confirmed (1,000+ shampoo results); skin and oral care not sampled.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "Target Plus is described on plus.target.com as a 'Marketplace for Sellers'; no public API documentation was found on the page read, and seller eligibility was not confirmed.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Public search pages were readable by a simple fetch (a headless browser received HTTP 429), so listing and price data are observable page by page; no documented data API was found.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "About 121 million US visits in October 2026 and 9.8% digital comparable growth; no share figure found."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Deep mass hair-care range verified on-site (1,000+ shampoo results, 201 for Dove shampoo)."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 121 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Ten mass hair-care brands, including five checklist brands, appeared in one category search."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No public API found; public pages are fetchable but rate-limited (HTTP 429 to a headless browser)."
+        }
+      },
+      "weighted_score": 3.95,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Third because it combines large reach with mass-brand coverage verified on its live search pages. Reservation: without a documented API, data collection depends on public pages or a data provider.",
+      "confidence": "high",
+      "confidence_note": "Traffic, results and brand presence were verified on first-party pages today; only the API status is uncertain.",
+      "sources": [
+        {
+          "url": "https://plus.target.com/",
+          "title": "Target Plus - Marketplace for Sellers",
+          "publisher": "Target",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/target.com/overview/",
+          "title": "target.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://corporate.target.com/news-features/article/2026/11/q3-2026-earnings",
+          "title": "Q3 2026 earnings (Target corporate news)",
+          "publisher": "Target Corporation",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.target.com/s/shampoo",
+          "title": "Shampoo : Target",
+          "publisher": "Target",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.target.com/s/dove+shampoo",
+          "title": "Dove Shampoo : Target",
+          "publisher": "Target",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "CVS Pharmacy (cvs.com)",
+      "website": "https://www.cvs.com",
+      "operator": "CVS Health",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Drugstore with a deep mass personal-care range: the cvs.com product sitemap contains 268 product URLs for Dove, 352 for Neutrogena, 163 for Garnier, 124 for Olay and 120 for Colgate.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "About 9,000 retail pharmacy locations as of 31 March 2026 (company statement); the sitemap index includes a dedicated drug sitemap.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 9,000 pharmacy locations and about 89 million US web visits in October 2026; online sales are Not publicly disclosed and much site traffic is likely pharmacy-related.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "cvs.com received an estimated 88.63M visits from the United States in October 2026 (99.29% of 89.26M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "88.63M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/cvs.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "CVS Health states it had approximately 9,000 retail pharmacy locations as of 31 March 2026.",
+          "metric_type": "stores",
+          "value": "approximately 9,000 retail pharmacy locations",
+          "period": "as of 2026-03-31",
+          "nature": "company_reported",
+          "source_url": "https://www.cvshealth.com/news/retail/cvs-pharmacy-celebrates-opening-of-first-pharmacy-focused-location-in-houston.html",
+          "source_name": "CVS Health",
+          "source_date": "2026-07-17"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified from cvs.com's own published product sitemap (plain fetch, 2026-11-26) by counting product URLs whose slug begins with each brand name: Dove 268, Pantene 71, L'Oréal 938, Garnier 163, Head & Shoulders 45, Nivea 81, Vaseline 38, Colgate 120, Sensodyne 45, Olay 124, Neutrogena 352, CeraVe 107, Cetaphil 62. Counts are URL counts, not live availability; the shop pages themselves returned HTTP 403.",
+        "source_urls": [
+          "https://www.cvs.com/sitemap/shop/sitemap_product.xml"
+        ]
+      },
+      "product_coverage_note": "All thirteen checklist brands have product pages, typically dozens to hundreds each.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API for the retail catalogue was found; CVS is a first-party retailer.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "The product sitemap is public and lists product URLs, but product pages refused automated access (HTTP 403), so prices and reviews would need a data provider or manual capture.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Large drugstore chain with about 89 million US web visits, but online retail sales are not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Hundreds of mass hair, skin and oral-care product pages across the checklist brands."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 89 million US web visits in October 2026 and about 9,000 pharmacy locations."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "All thirteen checklist brands confirmed in the product sitemap."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemap but bot-protected product pages and no API."
+        }
+      },
+      "weighted_score": 3.75,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Strongest drugstore candidate: complete checklist coverage and a large audience. Reservation: web traffic includes pharmacy visits, so beauty-shopping reach is overstated by the visit figure.",
+      "confidence": "medium",
+      "confidence_note": "Store count, traffic and sitemap counts are verified; online sales and live prices are not.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/cvs.com/overview/",
+          "title": "cvs.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.cvshealth.com/news/retail/cvs-pharmacy-celebrates-opening-of-first-pharmacy-focused-location-in-houston.html",
+          "title": "CVS Pharmacy celebrates opening of first pharmacy-focused location in Houston",
+          "publisher": "CVS Health",
+          "published_date": "2026-07-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.cvs.com/sitemap/shop/sitemap_product.xml",
+          "title": "CVS.com product sitemap (XML)",
+          "publisher": "CVS Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Ulta Beauty (ulta.com)",
+      "website": "https://www.ulta.com",
+      "operator": "Ulta Beauty, Inc.",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Beauty specialist selling mass and prestige ranges; about 47 million active loyalty members (Q2 FY2026). Its brand directory lists mass skin and hair brands (Garnier, L'Oréal Paris, Vaseline, Olay, Neutrogena, CeraVe, Cetaphil, Aveeno, OGX) but not Dove, Pantene, Head & Shoulders, Colgate or Sensodyne.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was observed on the pages read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 47 million active loyalty members, quarterly net sales of about $3 billion and about 42 million US web visits in October 2026; no beauty market-share figure was found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "ulta.com received an estimated 41.99M visits from the United States in October 2026 (97.19% of 43.21M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "41.99M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/ulta.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Ulta's loyalty programme reached about 47 million active members (up 3%); the app accounts for more than 60% of online sales.",
+          "metric_type": "customers",
+          "value": "about 47 million active loyalty members",
+          "period": "Q2 fiscal 2026 (reported 2026-08-28)",
+          "nature": "company_reported",
+          "source_url": "https://www.retailtouchpoints.com/?p=621230",
+          "source_name": "Ulta Beauty results as reported by Retail TouchPoints",
+          "source_date": "2026-08-28"
+        },
+        {
+          "claim": "Ulta reported Q2 fiscal 2026 net sales up 8.9% to about $3 billion (includes the Space NK acquisition). E-commerce sales in dollars: Not publicly disclosed in the source.",
+          "metric_type": "revenue",
+          "value": "about $3 billion (quarter, total company)",
+          "period": "Q2 fiscal 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.retailtouchpoints.com/?p=621230",
+          "source_name": "Ulta Beauty results as reported by Retail TouchPoints",
+          "source_date": "2026-08-28"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on ulta.com's public 'Shop By Brand' directory (rendered 2026-11-26): Aveeno, CeraVe, Cetaphil, Garnier, L'Oréal Paris, Maybelline, Neutrogena, OGX, Olay, SheaMoisture and Vaseline are listed; Dove, Pantene, Head & Shoulders, Nivea, Colgate and Sensodyne are not in the directory (ulta.com/brand/dove returned 'Page Not Found').",
+        "source_urls": [
+          "https://www.ulta.com/brand/all"
+        ]
+      },
+      "product_coverage_note": "Mass skin care and some mass hair care plus prestige; core FMCG hair and oral-care brands are absent from the brand directory.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A search-result summary of Ulta earnings coverage describes a curated third-party marketplace with more than 325 brands and over 8,000 SKUs (not directly verified; the article page returned no text). No public seller API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "The brand directory rendered without a block; no documented API, so listing, price and review data would come from public pages or a data provider.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Leading beauty specialist but a small share of total US e-commerce; about 42 million US visits in October 2026."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Specialist beauty destination with about 47 million loyalty members, but core FMCG hair and oral-care brands are missing."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 47 million active loyalty members (company-reported) and about 42 million US web visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Eleven mass brands confirmed in the directory, including three checklist brands; Dove, Pantene, Head & Shoulders, Colgate and Sensodyne absent."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No public API found; brand and product pages were accessible to an automated browser."
+        }
+      },
+      "weighted_score": 3.6,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "Most relevant beauty specialist for mass skin care and cosmetics. Reservation: it does not list several core checklist brands (Dove, Pantene, Head & Shoulders, Colgate, Sensodyne), so its value depends on the brand owner's portfolio.",
+      "confidence": "medium",
+      "confidence_note": "Loyalty, sales and brand-directory facts are verified; the marketplace details come only from a search-result summary.",
+      "sources": [
+        {
+          "url": "https://www.barchart.com/story/news/2284244/ulta-q1-deep-dive-e-commerce-exclusive-brands-and-competitive-pressures-shape-outlook",
+          "title": "Ulta Q1 Deep Dive: E-Commerce, Exclusive Brands, and Competitive Pressures Shape Outlook",
+          "publisher": "Barchart (StockStory)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ulta.com/investor/news-events/press-releases/detail/208/ulta-beauty-announces-acquisition-of-leading-british-beauty",
+          "title": "Ulta Beauty Announces Acquisition of Leading British Beauty Retailer Space NK from Manzanita Capital",
+          "publisher": "Ulta Beauty",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/ulta.com/overview/",
+          "title": "ulta.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.retailtouchpoints.com/?p=621230",
+          "title": "Ulta Beauty Turns Beauty Momentum into a Broader Growth Story",
+          "publisher": "Retail TouchPoints",
+          "published_date": "2026-08-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ulta.com/brand/all",
+          "title": "Shop By Brand | Ulta Beauty",
+          "publisher": "Ulta Beauty",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Walgreens (walgreens.com)",
+      "website": "https://www.walgreens.com",
+      "operator": "Walgreens (privately held; acquired by Sycamore Partners in August 2025)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Drugstore with a deep mass personal-care range: walgreens.com listed about 258 Dove items and about 123 Colgate items on 2026-11-26.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Retail pharmacy chain with roughly 8,000 US locations; the Walgreens developer portal offers a Prescription API.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on roughly 8,000 US locations (press report of corporate materials) and about 65 million US web visits in October 2026; as a private company it no longer publishes results (Not publicly disclosed).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "walgreens.com received an estimated 65.12M visits from the United States in October 2026 (98.66% of about 66M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "65.12M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/walgreens.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Walgreens' corporate materials list roughly 8,000 US locations, down from about 8,500 at the time of the August 2025 take-private; fewer than 100 closures are expected in 2026 (press report read from a search-result summary).",
+          "metric_type": "stores",
+          "value": "roughly 8,000 US locations",
+          "period": "2026 (reported 2026-08-04)",
+          "nature": "company_reported",
+          "source_url": "https://www.washingtontimes.com/news/2026/aug/4/walgreens-closes-stores-2026-scope-pullback-remains-unclear/",
+          "source_name": "Walgreens corporate materials via The Washington Times",
+          "source_date": "2026-08-04"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on walgreens.com's public brand search pages (fetched 2026-11-26): 'Dove | Walgreens' showed about 258 items and 'Colgate | Walgreens' about 123 items, with prices. Other checklist brands were not checked.",
+        "source_urls": [
+          "https://www.walgreens.com/q/dove",
+          "https://www.walgreens.com/q/colgate"
+        ]
+      },
+      "product_coverage_note": "Deep Dove and Colgate ranges confirmed; other brands not sampled.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "The Walgreens Developer Portal lists a Photo Prints API and a Prescription API; no product catalogue or price API was found.",
+        "docs_url": "https://developer.walgreens.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand search pages were readable by a simple fetch (a headless browser hit a challenge page); no catalogue API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Large drugstore chain with about 65 million US web visits; no online sales disclosure since going private."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "About 258 Dove and 123 Colgate items listed on-site."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 65 million US web visits in October 2026 and roughly 8,000 locations."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Two checklist brands verified with deep ranges; the rest not sampled."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No catalogue API; public pages partly accessible."
+        }
+      },
+      "weighted_score": 3.6,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Comparable to CVS for mass personal care but slightly behind on verified breadth and with less public reporting after the take-private.",
+      "confidence": "medium",
+      "confidence_note": "Traffic and on-site brand counts are verified; store count comes from a search-result summary of a press report.",
+      "sources": [
+        {
+          "url": "https://developer.walgreens.com/",
+          "title": "Walgreens Developer Portal | home",
+          "publisher": "Walgreens",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/walgreens.com/overview/",
+          "title": "walgreens.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.washingtontimes.com/news/2026/aug/4/walgreens-closes-stores-2026-scope-pullback-remains-unclear/",
+          "title": "Walgreens closes stores in 2026; scope of pullback remains unclear",
+          "publisher": "The Washington Times",
+          "published_date": "2026-08-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.walgreens.com/q/dove",
+          "title": "Dove | Walgreens",
+          "publisher": "Walgreens",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.walgreens.com/q/colgate",
+          "title": "Colgate | Walgreens",
+          "publisher": "Walgreens",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "TikTok Shop (US)",
+      "website": "https://shop.tiktok.com",
+      "operator": "TikTok (majority US-owned joint venture for the US app completed in January 2026; ByteDance retained 19.9% and, per KrASIA, still oversees e-commerce and advertising through another subsidiary)",
+      "status": "active",
+      "platform_category": "social_commerce",
+      "marketplace_type": "social_commerce",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "NielsenIQ data published in April 2026 rank TikTok Shop as the #4 US health and beauty retailer with trailing-12-month category sales above $4.4 billion (+84%). The mix of mass FMCG versus indie and cosmetics brands is not known.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on Momentum Works' estimate of $11.8 billion of US GMV in the first half of 2026 and NielsenIQ's #4 health-and-beauty ranking; both are third-party estimates.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Momentum Works and Tabcut estimate TikTok Shop US GMV at $11.8 billion in the first half of 2026, up 103% year on year, making the US its largest single market (about 23% of an estimated $50.3 billion worldwide).",
+          "metric_type": "gmv",
+          "value": "$11.8 billion (first half of 2026; estimate)",
+          "period": "H1 2026",
+          "nature": "analyst_estimate",
+          "source_url": "https://kr-asia.com/tiktok-fought-to-stay-in-the-us-its-shopping-business-shows-what-was-at-stake",
+          "source_name": "Momentum Works / Tabcut via KrASIA",
+          "source_date": "2026-08-17"
+        },
+        {
+          "claim": "NielsenIQ ranks TikTok Shop as the #4 US health and beauty retailer; annual category sales crossed $4.4 billion, up 84% year on year (trailing 12 months).",
+          "metric_type": "market_share",
+          "value": "Rank 4; >$4.4 billion health and beauty sales",
+          "period": "Trailing 12 months, published 2026-04-24",
+          "nature": "third_party_estimate",
+          "source_url": "https://novadata.io/resources/news/tiktok-shop-health-beauty-no4-retailer-april-2026",
+          "source_name": "NielsenIQ via Nova",
+          "source_date": "2026-04-27"
+        },
+        {
+          "claim": "EMARKETER forecasts $23.41 billion of US sales on TikTok Shop in 2026 (forecast; read from a search-result summary).",
+          "metric_type": "gmv",
+          "value": "$23.41 billion (forecast)",
+          "period": "2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+          "source_name": "EMARKETER",
+          "source_date": "2026 (forecast)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED for the checklist brands: shop.tiktok.com redirected to a verification puzzle, which was not attempted, and listings are otherwise shown in-app. Indirect evidence only: health and beauty is a top category (NielsenIQ ranking), and trade press reports that Ulta and Sephora have a TikTok Shop presence.",
+        "source_urls": [
+          "https://shop.tiktok.com/",
+          "https://novadata.io/resources/news/tiktok-shop-health-beauty-no4-retailer-april-2026",
+          "https://www.retailtouchpoints.com/?p=621230",
+          "https://www.personalcareinsights.com/news/sephora-uk-store-expansion-2027.html"
+        ]
+      },
+      "product_coverage_note": "Creator-led listings from brands and resellers; strong in beauty overall, mass FMCG coverage not confirmed.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "TikTok Shop Partner Center documentation covers Seller, Products, Promotion, Orders, Fulfillment, Logistics, Return and refund, Finance, Analytics, Customer service and Affiliate APIs for authorised sellers and partners.",
+        "docs_url": "https://partner.tiktokshop.com/docv2/page/seller-api-overview"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "A documented API serves a seller's own shop (including analytics); competitor listing and price data are harder because shopping happens in-app, so a specialist data provider would be needed.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Estimated $11.8 billion of US GMV in the first half of 2026, small against a $347 billion quarterly market but doubling."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "#4 US health and beauty retailer per NielsenIQ with more than $4.4 billion of category sales."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "No audited US shopper count was found; reach is evidenced only through sales estimates."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED for the checklist brands; neutral score."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented Partner Center API including analytics for a seller's own shop."
+        }
+      },
+      "weighted_score": 3.45,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "The fastest-growing beauty channel in the evidence and the highest-ranked platform outside conventional retail. Reservation: reach and brand coverage scores are estimates because the shop is app-based; ownership arrangements changed in January 2026.",
+      "confidence": "medium",
+      "confidence_note": "The beauty ranking and API documentation are verified; GMV figures are analyst estimates and brand coverage is UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://partner.tiktokshop.com/docv2/page/seller-api-overview",
+          "title": "Seller API overview | TikTok Shop Partner Center",
+          "publisher": "TikTok Shop Partner Center",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.tubefilter.com/2026/08/06/tiktok-shop-gross-merchandise-value-gmv-50-billion/",
+          "title": "Led by U.S. sales, TikTok Shop is on track to hit $100 billion of gross merchandise value in 2026",
+          "publisher": "Tubefilter",
+          "published_date": "2026-08-06",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://digiday.com/marketing/tiktok-shop-offers-incentives-to-new-sellers-as-u-s-uncertainty-is-finally-over/",
+          "title": "TikTok Shop offers incentives to new sellers, as U.S. uncertainty is finally over",
+          "publisher": "Digiday",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.emarketer.com/content/faq-on-tiktok-shop--market-size--creator-engine--how-brands-turn-profit",
+          "title": "FAQ on TikTok Shop: Market size, the creator engine, and how brands turn a profit",
+          "publisher": "EMARKETER",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://kr-asia.com/tiktok-fought-to-stay-in-the-us-its-shopping-business-shows-what-was-at-stake",
+          "title": "TikTok fought to stay in the US. Its shopping business shows what was at stake",
+          "publisher": "KrASIA",
+          "published_date": "2026-08-17",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://novadata.io/resources/news/tiktok-shop-health-beauty-no4-retailer-april-2026",
+          "title": "TikTok Shop ranked #4 US health and beauty retailer (NielsenIQ data, April 2026) - news summary",
+          "publisher": "Nova (novadata.io)",
+          "published_date": "2026-04-27",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.emarketer.com/content/us-ecommerce-market-shares-2026",
+          "title": "US Ecommerce Market Shares 2026",
+          "publisher": "EMARKETER",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://shop.tiktok.com/",
+          "title": "Security Check (shop.tiktok.com redirected to a verification puzzle)",
+          "publisher": "TikTok Shop",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.retailtouchpoints.com/?p=621230",
+          "title": "Ulta Beauty Turns Beauty Momentum into a Broader Growth Story",
+          "publisher": "Retail TouchPoints",
+          "published_date": "2026-08-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.personalcareinsights.com/news/sephora-uk-store-expansion-2027.html",
+          "title": "Sephora slated to open 10 UK stores in 2027",
+          "publisher": "Personal Care Insights",
+          "published_date": "2026-11-17",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Instacart (instacart.com)",
+      "website": "https://www.instacart.com",
+      "operator": "Maplebear Inc. (Instacart); definitive agreement to be acquired by DoorDash announced October 2026",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Same-day grocery marketplace covering more than 2,200 retail banners; a public search page showed Dove shampoo at several retailer storefronts with prices. Personal care is an add-on to grocery baskets.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "CVS appeared among the storefronts on the sampled Instacart page; prescription services were not researched.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on gross transaction value of $10.5 billion and 91.4 million orders in Q3 2026 and about 34 million US web visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "instacart.com received an estimated 34.02M visits from the United States in October 2026 (96.15% of 35.38M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "34.02M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/instacart.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Instacart reported gross transaction value of $10,528 million (+15%), 91.4 million orders (+10%) and advertising and other revenue of $331 million for Q3 2026; it partners with more than 2,200 retail banners representing nearly 100,000 stores.",
+          "metric_type": "gmv",
+          "value": "$10,528 million GTV; 91.4 million orders (quarter)",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://finviz.com/news/411334/instacart-announces-third-quarter-2026-financial-results",
+          "source_name": "Instacart (via Finviz)",
+          "source_date": "2026-10-29"
+        },
+        {
+          "claim": "Google Play listing shows the 10M+ install band for the Android app (cumulative installs, not active users; Android only).",
+          "metric_type": "app_users",
+          "value": "10M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.instacart.client&hl=en&gl=us",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-23"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on Instacart's public search page for 'dove shampoo' (rendered 2026-11-26; title 'Dove Shampoo Delivery or Pickup Near Me | Instacart'): Dove shampoo items with prices were listed under several retailer storefronts, including Dillons and Costco. Other checklist brands were not searched.",
+        "source_urls": [
+          "https://www.instacart.com/store/s?k=dove+shampoo"
+        ]
+      },
+      "product_coverage_note": "Assortment mirrors partner retailers' ranges and varies by location and banner.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Instacart Docs describe a Developer Platform API, Connect APIs for retailers, a Catalog product, and Instacart Ads APIs for advertisers; a Consumer Insights Portal for CPG analytics and an Instacart Data Hub are marked private (partner access). None of these is a seller API in the marketplace sense.",
+        "docs_url": "https://docs.instacart.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Storefront search pages rendered publicly, and advertising and insights access exists for CPG partners, but coverage varies by retailer and location.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "About $10.5 billion of quarterly GTV across more than 2,200 retail banners."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Mass personal care is available as part of grocery baskets rather than a destination category."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 34 million US web visits in October 2026 and 91.4 million orders in the quarter."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Dove shampoo confirmed across multiple retailer storefronts; breadth follows partner retailers."
+        },
+        "data_integration_feasibility": {
+          "score": 4,
+          "note": "Documented developer, catalogue and ads APIs plus a private CPG insights portal; public search pages render."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Useful aggregate view of grocery-banner pricing and availability, with partner tools for CPG brands. Reservation: the pending DoorDash acquisition (expected to close end-2027 or H1 2028) may change partner programmes.",
+      "confidence": "medium",
+      "confidence_note": "GTV, orders, documentation and a sample listing are verified; category-level beauty sales are not available.",
+      "sources": [
+        {
+          "url": "https://docs.instacart.com/",
+          "title": "Instacart Docs",
+          "publisher": "Instacart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
+          "title": "DoorDash third quarter 2026 financial results press release (Form 8-K, Exhibit 99.1)",
+          "publisher": "DoorDash, Inc. (via U.S. SEC EDGAR)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/instacart.com/overview/",
+          "title": "instacart.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://finviz.com/news/411334/instacart-announces-third-quarter-2026-financial-results",
+          "title": "Instacart Announces Third Quarter 2026 Financial Results",
+          "publisher": "Instacart (via Finviz)",
+          "published_date": "2026-10-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.instacart.client&hl=en&gl=us",
+          "title": "Instacart: Get Food Delivery - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.instacart.com/store/s?k=dove+shampoo",
+          "title": "Dove Shampoo Delivery or Pickup Near Me | Instacart",
+          "publisher": "Instacart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "eBay (ebay.com)",
+      "website": "https://www.ebay.com",
+      "operator": "eBay Inc.",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Reseller marketplace: branded personal-care items are listed by third-party sellers rather than managed by brand owners; eBay's browse sitemap includes brand pages such as 'Colgate Teeth Whitening' and 'Neutrogena Face Makeup Products'.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on US gross merchandise volume of $12.5 billion in Q3 2026, about 228 million US web visits in October 2026 and Similarweb rank #3 in the US shopping category; rated tier 2 because it is a long-established reseller marketplace rather than a channel shaping the market.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "ebay.com received an estimated 228.28M visits from the United States in October 2026 (61.2% of 372.98M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "228.28M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/ebay.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "eBay reported Q3 2026 gross merchandise volume of $23.2 billion, of which US GMV was $12,545 million (+27%); active buyers were 147 million worldwide (136 million excluding Depop and Tise).",
+          "metric_type": "gmv",
+          "value": "$12,545 million US GMV (quarter); 147 million active buyers worldwide",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://finviz.com/news/410508/ebay-inc-reports-third-quarter-2026-results",
+          "source_name": "eBay Inc. (via Finviz)",
+          "source_date": "2026-10-28"
+        },
+        {
+          "claim": "Similarweb ranks ebay.com #3 among US 'Ecommerce & Shopping' websites for October 2026.",
+          "metric_type": "other",
+          "value": "Rank 3 (US Ecommerce & Shopping)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "2026-11-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified from eBay's published browse-page sitemap (first of several files, 45,000 URLs; plain fetch 2026-11-26): brand browse pages exist for L'Oréal (2), Colgate (2), Sensodyne (1) and Neutrogena (8); none for Dove, Pantene, Garnier, Nivea, Vaseline or Olay in that file. ebay.com search pages returned an error page to automated access.",
+        "source_urls": [
+          "https://www.ebay.com/lst/BROWSE-0-0000001.xml.gz"
+        ]
+      },
+      "product_coverage_note": "Reseller listings of branded goods; coverage is patchy and unmanaged.",
+      "data_access_method": "unknown",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "UNVERIFIED: the eBay developer portal (developer.ebay.com) returned HTTP 403 to automated fetches, so API scope could not be confirmed in this session.",
+        "docs_url": "https://developer.ebay.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Sitemaps are public; search pages blocked automated access; API details are UNVERIFIED.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "$12.5 billion of US GMV in the quarter and the #3 US shopping site by Similarweb."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Reseller channel, not a managed route to market for mass personal care."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 228 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Brand browse pages found for four checklist brands in the sampled sitemap; others absent."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemaps; developer documentation could not be read (UNVERIFIED)."
+        }
+      },
+      "weighted_score": 3.35,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "High reach but low category relevance; mainly of interest for grey-market and price-erosion monitoring.",
+      "confidence": "medium",
+      "confidence_note": "Reach and GMV are verified; API scope is UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://developer.ebay.com/",
+          "title": "eBay developer portal (HTTP 403 returned to automated fetch; content not read)",
+          "publisher": "eBay Inc.",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/ebay.com/overview/",
+          "title": "ebay.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://finviz.com/news/410508/ebay-inc-reports-third-quarter-2026-results",
+          "title": "eBay Inc. Reports Third Quarter 2026 Results",
+          "publisher": "eBay Inc. (via Finviz)",
+          "published_date": "2026-10-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "title": "Top Websites Ranking: Ecommerce & Shopping in United States (October 2026 data)",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ebay.com/lst/BROWSE-0-0000001.xml.gz",
+          "title": "eBay.com browse-page sitemap (XML, file 0000001)",
+          "publisher": "eBay Inc.",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Costco (costco.com)",
+      "website": "https://www.costco.com",
+      "operator": "Costco Wholesale Corporation",
+      "status": "active",
+      "platform_category": "other",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Membership warehouse club selling a narrow range of large or multi-pack personal-care items: one of several costco.com product sitemaps holds 13 Dove, 6 Colgate, 7 Olay, 5 Cetaphil and 4 Sensodyne product URLs and none for Garnier, Nivea, Vaseline, Head & Shoulders or CeraVe.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: Costco's pharmacy offer was not checked; no pharmacy URLs appeared in the product sitemap file sampled.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on fiscal 2026 net sales of $297.2 billion (worldwide), adjusted digitally-enabled sales growth of 20.7% and about 56 million US web visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "costco.com received an estimated 56.33M visits from the United States in October 2026 (90.28% of 62.39M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "56.33M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/costco.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Costco reported fiscal 2026 net sales of $297.2 billion (+10.1%, worldwide) and adjusted digitally-enabled sales growth of 20.7%.",
+          "metric_type": "revenue",
+          "value": "$297.2 billion net sales (worldwide, fiscal year); digitally-enabled sales +20.7%",
+          "period": "Fiscal 2026 (ended 2026-08-30)",
+          "nature": "company_reported",
+          "source_url": "https://massmarketretailers.com/costco-sales-climb-11-in-fourth-quarter-top-297-billion-for-year/",
+          "source_name": "Costco results as reported by Mass Market Retailers",
+          "source_date": "2026-09-24"
+        },
+        {
+          "claim": "Costco's fiscal 2026 release reports digitally-enabled comparable sales up 20.9% for the year (20.7% adjusted) and 939 warehouses, 647 of them in the United States and Puerto Rico.",
+          "metric_type": "stores",
+          "value": "647 warehouses in the US and Puerto Rico (939 worldwide)",
+          "period": "Fiscal 2026 (release dated 2026-09-24)",
+          "nature": "company_reported",
+          "source_url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results",
+          "source_name": "Costco Wholesale (via Finviz)",
+          "source_date": "2026-09-24"
+        },
+        {
+          "claim": "A search-result summary of Costco's fiscal 2026 earnings call cites digitally-enabled sales above $33 billion, 84.1 million paid memberships and 150.4 million cardholders (worldwide; not in the press release and not directly verified).",
+          "metric_type": "customers",
+          "value": "84.1 million paid memberships; 150.4 million cardholders (worldwide)",
+          "period": "Fiscal 2026 year-end",
+          "nature": "company_reported",
+          "source_url": "https://www.webull.com/news/15660435456459776",
+          "source_name": "Costco earnings call via Webull transcript",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified from costco.com's published product sitemap file 001 (18,277 URLs; plain fetch, 2026-11-26), counting product URLs whose slug begins with each brand name: Dove 13, Pantene 3, Colgate 6, Sensodyne 4, Olay 7, Neutrogena 4, Cetaphil 5; Garnier, Head & Shoulders, Nivea, Vaseline and CeraVe 0 in that file. Other sitemap files were not all checked, so absences are indicative only.",
+        "source_urls": [
+          "https://www.costco.com/sitemap_lw_p_001.xml"
+        ]
+      },
+      "product_coverage_note": "Limited, bulk-pack assortment covering about half of the checklist brands.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found; Costco is a first-party retailer.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Product sitemaps are public; category pages failed to load in a headless browser, so price capture would need a provider or manual work.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "Digitally-enabled sales growing 20.7% on a $297 billion sales base, with about 56 million US web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Narrow bulk-pack range; only a handful of product pages per checklist brand."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 56 million US web visits in October 2026 and a large paid membership base."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Seven checklist brands present in small numbers; five absent from the sampled sitemap."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemaps, no API, pages hard to render."
+        }
+      },
+      "weighted_score": 3.15,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Significant retailer but a narrow, bulk-pack beauty range; monitor only the SKUs that matter (club packs).",
+      "confidence": "medium",
+      "confidence_note": "Sales and sitemap counts are verified; membership figures come from search-result summaries and are worldwide.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/costco.com/overview/",
+          "title": "costco.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://massmarketretailers.com/costco-sales-climb-11-in-fourth-quarter-top-297-billion-for-year/",
+          "title": "Costco sales climb 11% in fourth quarter, top $297 billion for year",
+          "publisher": "Mass Market Retailers",
+          "published_date": "2026-09-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://finviz.com/news/395411/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-2026-operating-results",
+          "title": "Costco Wholesale Corporation Reports Fourth Quarter and Fiscal Year 2026 Operating Results",
+          "publisher": "Costco Wholesale (via Finviz)",
+          "published_date": "2026-09-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.webull.com/news/15660435456459776",
+          "title": "Costco (COST) Q4 2026 Earnings Call Transcript",
+          "publisher": "Webull",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.costco.com/sitemap_lw_p_001.xml",
+          "title": "Costco.com product sitemap (XML, file 001)",
+          "publisher": "Costco Wholesale",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Kroger (kroger.com)",
+      "website": "https://www.kroger.com",
+      "operator": "The Kroger Co.",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "The only conventional supermarket operator in this US set; adjusted e-commerce sales grew 19% in Q1 2026 and 20% in Q2 2026. Personal care is a secondary grocery category and kroger.com could not be reached, so the assortment is UNVERIFIED.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: Kroger's pharmacy offer was not checked because kroger.com could not be reached.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 46 million US web visits in October 2026, adjusted e-commerce growth of 19-20% and Digital Commerce 360's No. 6 ranking among North American online retailers by annual e-commerce sales.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "kroger.com received an estimated 45.67M visits from the United States in October 2026 (99.28% of about 46M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "45.67M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/kroger.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Kroger reported adjusted eCommerce sales growth of 19% for the quarter ended 23 May 2026 (adjusted for fulfilment-centre exits, the sale of Vitacost and the discontinuation of Ship Marketplace); total sales were $46.1 billion. E-commerce sales in dollars: Not publicly disclosed in the release.",
+          "metric_type": "revenue",
+          "value": "adjusted eCommerce sales +19%",
+          "period": "Q1 2026 (ended 2026-05-23)",
+          "nature": "company_reported",
+          "source_url": "https://www.thekrogerco.com/ir-feed-item/kroger-reports-first-quarter-2026-results/",
+          "source_name": "The Kroger Co.",
+          "source_date": "2026-06-18"
+        },
+        {
+          "claim": "Kroger's second-quarter 2026 release: total sales $34.6 billion and adjusted eCommerce sales growth of 20%, with the company describing itself as 'growing eCommerce profitably'.",
+          "metric_type": "revenue",
+          "value": "adjusted eCommerce sales +20%",
+          "period": "Q2 2026 (ended 2026-08-15)",
+          "nature": "company_reported",
+          "source_url": "https://finviz.com/news/391137/kroger-reports-second-quarter-2026-results-and-updates-guidance-for-2026",
+          "source_name": "The Kroger Co. (via Finviz)",
+          "source_date": "2026-09-11"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. kroger.com returned HTTP 503 or a failed connection to every automated request on 2026-11-26 (search page and robots.txt), and no alternative source was found. An Instacart search page showed Dove shampoo at grocery banners, but that does not confirm kroger.com's own assortment.",
+        "source_urls": [
+          "https://www.instacart.com/store/s?k=dove+shampoo"
+        ]
+      },
+      "product_coverage_note": "Not verified.",
+      "data_access_method": "unknown",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "UNVERIFIED: a developer portal exists at developer.kroger.com but returned HTTP 403 to automated fetches, so its contents (including any product or price API) could not be confirmed. Kroger's release notes the discontinuation of its Ship Marketplace.",
+        "docs_url": "https://developer.kroger.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Unknown until the developer portal is reviewed manually; the consumer site blocked automated access.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "No. 6 North American online retailer by e-commerce sales per Digital Commerce 360, with about 46 million US visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Supermarket where personal care is a secondary category; assortment UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 46 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED; neutral score because the site could not be reached."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Developer portal exists but its content is UNVERIFIED; consumer pages blocked."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "Mid-table by default: reach is solid but three scores are neutral placeholders because kroger.com and its developer portal could not be read. Re-score after a manual check.",
+      "confidence": "low",
+      "confidence_note": "Only traffic and e-commerce growth are verified; assortment and API details are UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://www.digitalcommerce360.com/2026/06/18/kroger-digital-sales-q1-fy26/",
+          "title": "Kroger digital sales, Q1 FY26",
+          "publisher": "Digital Commerce 360",
+          "published_date": "2026-06-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer.kroger.com/",
+          "title": "Kroger developer portal (HTTP 403 returned to automated fetch; content not read)",
+          "publisher": "The Kroger Co.",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/kroger.com/overview/",
+          "title": "kroger.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.thekrogerco.com/ir-feed-item/kroger-reports-first-quarter-2026-results/",
+          "title": "Kroger Reports First Quarter 2026 Results",
+          "publisher": "The Kroger Co.",
+          "published_date": "2026-06-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://finviz.com/news/391137/kroger-reports-second-quarter-2026-results-and-updates-guidance-for-2026",
+          "title": "Kroger Reports Second Quarter 2026 Results and Updates Guidance for 2026",
+          "publisher": "The Kroger Co. (via Finviz)",
+          "published_date": "2026-09-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.instacart.com/store/s?k=dove+shampoo",
+          "title": "Dove Shampoo Delivery or Pickup Near Me | Instacart",
+          "publisher": "Instacart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Temu (US)",
+      "website": "https://www.temu.com",
+      "operator": "WhaleCo Inc.",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Cross-border discount marketplace; no evidence was found that mass-market hair, skin or oral-care brands are a meaningful part of its US offer, and the catalogue sits behind a login page.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 174 million US web visits in October 2026 and Similarweb rank #4 in the US shopping category; US sales are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "temu.com received an estimated 173.64M visits from the United States in October 2026 (28.1% of 618.01M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "173.64M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/temu.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Similarweb ranks temu.com #4 among US 'Ecommerce & Shopping' websites for October 2026.",
+          "metric_type": "other",
+          "value": "Rank 4 (US Ecommerce & Shopping)",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "source_name": "Similarweb",
+          "source_date": "2026-11-01"
+        },
+        {
+          "claim": "Sensor Tower data reported by Digiday: Temu's US monthly active users rose 21% year on year over January-May 2026 while its advertising spend fell sharply on most platforms; Apptopia put US downloads at 5.5-6.8 million a month.",
+          "metric_type": "app_users",
+          "value": "US monthly active users +21% YoY (no absolute figure)",
+          "period": "January-May 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://digiday.com/marketing/tariffs-forced-temu-to-slash-its-u-s-ad-spend-on-nearly-every-platform/",
+          "source_name": "Sensor Tower and Apptopia via Digiday",
+          "source_date": "2026-06-03"
+        },
+        {
+          "claim": "Google Play listing shows the 1B+ install band for the Android app (cumulative installs, not active users; worldwide).",
+          "metric_type": "app_users",
+          "value": "1B+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en&gl=us",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-24"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. temu.com redirected to a login page and no account was created, so the storefront was not read; no source confirmed checklist brands on Temu. The low assessment reflects its positioning as a cross-border bargain marketplace.",
+        "source_urls": [
+          "https://www.temu.com/"
+        ]
+      },
+      "product_coverage_note": "Not verified; press coverage describes a bargain marketplace for low-priced goods shipped from China.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The TEMU Partner Platform publishes a Partner Guide, Developer Guide and API Reference with separate platforms for US, EU and Global sellers (for example an 'Add Products API V3.0'); access is for registered sellers and service providers.",
+        "docs_url": "https://partner.temu.com/documentation"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Seller-side API exists for a seller's own listings; competitor monitoring would rely on a data provider because the storefront is app-centric.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Fourth-ranked US shopping site by Similarweb, but US sales are not disclosed and demand was hit by the end of the de minimis exemption in 2025."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "No evidence of mass-market branded hair, skin or oral care."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 174 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "UNVERIFIED; cross-border unbranded positioning suggests low coverage."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Documented partner API for sellers; no easy route to competitor data."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Large audience but little evidence of relevance to branded mass-market personal care; worth a periodic check for counterfeit or grey-market listings rather than continuous monitoring.",
+      "confidence": "low",
+      "confidence_note": "Traffic is evidenced; sales, assortment and brand presence are not.",
+      "sources": [
+        {
+          "url": "https://partner.temu.com/documentation",
+          "title": "TEMU Partner Platform",
+          "publisher": "Temu (WhaleCo Inc.)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.ecomcrew.com/temu-cut-u-s-ad-spend-by-up-to-95-on-most-platforms-but-its-user-base-held-steady/",
+          "title": "Temu Cut U.S. Ad Spend by Up to 95% on Most Platforms, But Its User Base Held Steady",
+          "publisher": "EcomCrew",
+          "published_date": "2026-06-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/temu.com/overview/",
+          "title": "temu.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.similarweb.com/top-websites/united-states/e-commerce-and-shopping/",
+          "title": "Top Websites Ranking: Ecommerce & Shopping in United States (October 2026 data)",
+          "publisher": "Similarweb",
+          "published_date": "2026-11-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://digiday.com/marketing/tariffs-forced-temu-to-slash-its-u-s-ad-spend-on-nearly-every-platform/",
+          "title": "Tariffs forced Temu to slash its U.S. ad spend on nearly every platform",
+          "publisher": "Digiday",
+          "published_date": "2026-06-03",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu&hl=en&gl=us",
+          "title": "Temu: Shop Like a Billionaire - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-24",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.temu.com/",
+          "title": "Temu | Login (temu.com redirected to a login page)",
+          "publisher": "Temu",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Sam's Club (samsclub.com)",
+      "website": "https://www.samsclub.com",
+      "operator": "Sam's West, Inc. (Walmart Inc.)",
+      "status": "active",
+      "platform_category": "other",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Membership warehouse club with a club-pack personal-care range: the samsclub.com product sitemap holds 33 Dove, 20 Olay, 18 Neutrogena and 13 Colgate product URLs; e-commerce is about 22% of net sales excluding fuel.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "The category sitemap groups products under 'pharmacy-health-beauty'; the prescription service itself was not researched.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on e-commerce growth of 30% (about 22% of net sales excluding fuel) in the quarter ended 31 October 2026 and about 47 million US web visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "samsclub.com received an estimated 47.04M visits from the United States in October 2026 (97.88% of 48.06M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "47.04M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/samsclub.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Sam's Club U.S. e-commerce sales grew 30% in the quarter ended 31 October 2026, making up about 22% of net sales excluding fuel.",
+          "metric_type": "revenue",
+          "value": "e-commerce +30% YoY; about 22% of net sales excluding fuel",
+          "period": "Q3 FY2027 (quarter ended 2026-10-31)",
+          "nature": "company_reported",
+          "source_url": "https://theshelbyreport.com/2026/11/19/walmart-u-s-comps-rise-2-9-in-q3-as-e-commerce-grows-23/",
+          "source_name": "Walmart results as reported by The Shelby Report",
+          "source_date": "2026-11-19"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified from samsclub.com's published product sitemap (plain fetch, 2026-11-26) by counting product URLs whose slug begins with each brand name: Dove 33, Pantene 6, L'Oréal 2, Garnier 3, Head & Shoulders 6, Vaseline 2, Colgate 13, Sensodyne 3, Olay 20, Neutrogena 18, CeraVe 6, Cetaphil 7; Nivea 0. Site pages themselves returned a robot check.",
+        "source_urls": [
+          "https://www.samsclub.com/sitemap_products_1.xml"
+        ]
+      },
+      "product_coverage_note": "Club-pack range covering twelve of thirteen checklist brands in small numbers.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "The Walmart Developer Portal lists advertising APIs for Sam's Club; no seller or catalogue API for Sam's Club was found.",
+        "docs_url": "https://developer.walmart.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Product sitemap is public, but pages returned a robot check, so prices and reviews need a provider (Profitero+ shows a Sam's Club logo among covered retailers) or manual work.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "E-commerce is about 22% of Sam's Club net sales and growing 30%, with about 47 million US web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Narrow club-pack range."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 47 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Twelve of thirteen checklist brands present, each with few SKUs."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemap; bot-protected pages; advertising API only."
+        }
+      },
+      "weighted_score": 2.9,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Secondary club channel; add after Costco only if club packs matter to the portfolio.",
+      "confidence": "medium",
+      "confidence_note": "Growth, traffic and sitemap counts are verified; membership numbers were Not found.",
+      "sources": [
+        {
+          "url": "https://developer.walmart.com/",
+          "title": "Walmart Developer Portal",
+          "publisher": "Walmart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.samsclub.com/sitemap_categories.xml",
+          "title": "SamsClub.com category sitemap (XML)",
+          "publisher": "Sam's Club",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.profitero.com/",
+          "title": "eCommerce data, technology & services | Profitero+",
+          "publisher": "Profitero+",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/samsclub.com/overview/",
+          "title": "samsclub.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://theshelbyreport.com/2026/11/19/walmart-u-s-comps-rise-2-9-in-q3-as-e-commerce-grows-23/",
+          "title": "Walmart U.S. comps rise 2.9% in Q3 as e-commerce grows 23%",
+          "publisher": "The Shelby Report",
+          "published_date": "2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.samsclub.com/sitemap_products_1.xml",
+          "title": "SamsClub.com product sitemap (XML, file 1)",
+          "publisher": "Sam's Club",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "DoorDash (doordash.com)",
+      "website": "https://www.doordash.com",
+      "operator": "DoorDash, Inc.",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "delivery_aggregator",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Delivery marketplace whose US grocery and retail categories are growing at more than double the pace of restaurants; personal care is an occasional convenience purchase and the catalogue could not be read.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: drugstore partners on DoorDash were not checked.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on Marketplace gross order value of $33.9 billion in Q3 2026 (worldwide, mostly restaurants) and about 73 million US web visits in October 2026.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "doordash.com received an estimated 73.05M visits from the United States in October 2026 (89.18% of 81.91M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "73.05M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/doordash.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "DoorDash reported 993 million total orders and Marketplace GOV of $33.9 billion for Q3 2026 (worldwide, including Deliveroo); US grocery and retail GOV grew at more than double the pace of US restaurants. Monthly active users: Not publicly disclosed in the release.",
+          "metric_type": "gmv",
+          "value": "$33.9 billion Marketplace GOV; 993 million orders (quarter, worldwide)",
+          "period": "Q3 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
+          "source_name": "DoorDash, Inc. (via U.S. SEC EDGAR)",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Google Play listing shows the 50M+ install band for the Android app (cumulative installs, not active users; Android only).",
+          "metric_type": "app_users",
+          "value": "50M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.dd.doordash&hl=en&gl=us",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-23"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. doordash.com returned a security challenge to automated access on 2026-11-26; assortment depends on partner retailers and DashMart sites and was not confirmed.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Not verified; depends on partner retailers by location.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "A DoorDash Developer Services portal exists (only its title was readable in this session); no brand-facing catalogue or price API was found.",
+        "docs_url": "https://developer.doordash.com/en-US/"
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Bot-protected site and no brand-facing API; data would require a provider or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "$33.9 billion of quarterly Marketplace GOV worldwide, mostly restaurants; grocery and retail growing fastest."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Convenience channel; no evidence that mass personal care is a significant category."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 73 million US web visits in October 2026 and 993 million orders in the quarter worldwide."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED; neutral score because listings depend on partner retailers."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No brand-facing API and bot-protected pages."
+        }
+      },
+      "weighted_score": 2.75,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Low priority today, but strategic: with Deliveroo (acquired October 2025) and the agreed Instacart deal, DoorDash is becoming the main delivery aggregator in the US and UK.",
+      "confidence": "low",
+      "confidence_note": "Orders, GOV and traffic are verified; assortment and data access are not.",
+      "sources": [
+        {
+          "url": "https://developer.doordash.com/en-US/",
+          "title": "DoorDash Developer Services",
+          "publisher": "DoorDash",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://finviz.com/news/411334/instacart-announces-third-quarter-2026-financial-results",
+          "title": "Instacart Announces Third Quarter 2026 Financial Results",
+          "publisher": "Instacart (via Finviz)",
+          "published_date": "2026-10-29",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20251002060133/en",
+          "title": "DoorDash Completes Acquisition of Deliveroo",
+          "publisher": "Business Wire",
+          "published_date": "2025-10-02",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/doordash.com/overview/",
+          "title": "doordash.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm",
+          "title": "DoorDash third quarter 2026 financial results press release (Form 8-K, Exhibit 99.1)",
+          "publisher": "DoorDash, Inc. (via U.S. SEC EDGAR)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.dd.doordash&hl=en&gl=us",
+          "title": "DoorDash: Food, Grocery, More - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-23",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "SHEIN (US)",
+      "website": "https://us.shein.com",
+      "operator": "SHEIN Group",
+      "status": "active",
+      "platform_category": "cross_border_marketplace",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Fashion-led cross-border retailer and marketplace: its US home page is titled 'Women's Clothing, Women Fashion Sale | SHEIN USA' and lists Beauty as one navigation category among many; no evidence was found that mass-market hair, skin or oral-care brands are sold in meaningful volume.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 54 million US web visits in October 2026; US sales are Not publicly disclosed. The tier reflects overall e-commerce importance, not relevance to this category, which is low.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "shein.com received an estimated 53.67M visits from the United States in October 2026 (25.49% of 210.58M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "53.67M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/shein.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 1B+ install band for the Android app (cumulative installs, not active users; worldwide).",
+          "metric_type": "app_users",
+          "value": "1B+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en&gl=us",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-18"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. Only the US home page was read (a Beauty category exists); individual brands were not searched and no source confirmed checklist brands on SHEIN.",
+        "source_urls": [
+          "https://us.shein.com/"
+        ]
+      },
+      "product_coverage_note": "Not verified beyond the existence of a Beauty category.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "The SHEIN Developer Platform (Open Platform) offers OpenAPI and webhook integration for sellers (product publishing, order fulfilment) after an application review.",
+        "docs_url": "https://open.sheincorp.com/"
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Seller API exists for own listings; competitor monitoring would need a data provider.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "About 54 million US web visits; US sales not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 1,
+          "note": "Fashion-led; no evidence of mass-market personal-care relevance."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 54 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "UNVERIFIED; fashion-led positioning suggests low coverage."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Documented seller Open Platform; no route to competitor data."
+        }
+      },
+      "weighted_score": 2.55,
+      "priority_rank": 15,
+      "is_top3": false,
+      "priority_rationale": "Included for completeness of the cross-border set; not a priority for mass-market hair, skin or oral care.",
+      "confidence": "low",
+      "confidence_note": "Only traffic and the seller platform are evidenced.",
+      "sources": [
+        {
+          "url": "https://open.sheincorp.com/",
+          "title": "SHEIN Developer Platform (Open Platform)",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/shein.com/overview/",
+          "title": "shein.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zzkko&hl=en&gl=us",
+          "title": "SHEIN-Shopping Online - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://us.shein.com/",
+          "title": "Women's Clothing, Women Fashion Sale | SHEIN USA",
+          "publisher": "SHEIN",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Sephora (sephora.com)",
+      "website": "https://www.sephora.com",
+      "operator": "Sephora (LVMH Moët Hennessy Louis Vuitton, Selective Retailing division)",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Described by WWD as the world's largest prestige beauty retailer; relevance to mass-market hair, skin and oral care is limited by that prestige positioning. The brand list could not be read (HTTP 403), so the mass-brand assortment is UNVERIFIED.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 39 million US web visits in October 2026 and a store network reported at over 700 stores across North America; LVMH does not publish Sephora-only sales (Not publicly disclosed).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "sephora.com received an estimated 38.72M visits from the United States in October 2026 (76.94% of 50.32M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "38.72M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/sephora.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Beauty Independent reports that Sephora operates over 700 stores across North America (undated article; read from a search-result summary).",
+          "metric_type": "stores",
+          "value": "over 700 stores (North America)",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.beautyindependent.com/?p=183673",
+          "source_name": "Sephora via Beauty Independent",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "ScrapeHero's location dataset counts 1,829 Sephora locations in the United States as of 1 April 2026 (read from a search-result summary); the count appears to include shop-in-shops, so it is not comparable with the company figure.",
+          "metric_type": "stores",
+          "value": "1,829 US locations (dataset count)",
+          "period": "2026-04-01",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.scrapehero.com/location-reports/Sephora-USA",
+          "source_name": "ScrapeHero",
+          "source_date": "2026-04-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. sephora.com/brands-list and sephora.com/sitemap.xml returned 'Access Denied' to automated access on 2026-11-26. The neutral-to-low assessment rests only on Sephora's prestige positioning as described by WWD.",
+        "source_urls": [
+          "https://www.sephora.com/brands-list",
+          "https://ca.finance.yahoo.com/news/sephora-world-largest-prestige-beauty-040000281.html"
+        ]
+      },
+      "product_coverage_note": "Prestige make-up, skin care, hair care and fragrance; mass FMCG brands not confirmed.",
+      "data_access_method": "manual_only",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found; Sephora buys from brands as a first-party retailer.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Public pages are bot-protected (HTTP 403) and there is no API, so data would need an authorised provider or manual review.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Major beauty specialist with about 39 million US web visits; Sephora-only sales are not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Prestige positioning; little evidence of mass-market hair, skin or oral-care brands."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 39 million US web visits in October 2026 (Semrush estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "UNVERIFIED; the brand list refused automated access and the positioning is prestige."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API and bot-protected pages."
+        }
+      },
+      "weighted_score": 2.4,
+      "priority_rank": 16,
+      "is_top3": false,
+      "priority_rationale": "Low priority for a mass-market portfolio: prestige focus, unverifiable assortment and poor data access. Would move up only if the brand owner sells premium lines.",
+      "confidence": "low",
+      "confidence_note": "Only traffic and positioning are evidenced, and the store counts come from search-result summaries; sales, assortment and data access could not be verified.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/sephora.com/overview/",
+          "title": "sephora.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.beautyindependent.com/?p=183673",
+          "title": "Sephora EVP Carolyn Bojanowski On Bold Makeup's Return, Value-Driven Shopping And Beauty's Holistic Evolution",
+          "publisher": "Beauty Independent",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.scrapehero.com/location-reports/Sephora-USA",
+          "title": "Number of Sephora stores in the United States in 2026",
+          "publisher": "ScrapeHero",
+          "published_date": "2026-04-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.sephora.com/brands-list",
+          "title": "Access Denied (sephora.com brand list refused automated access)",
+          "publisher": "Sephora",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://ca.finance.yahoo.com/news/sephora-world-largest-prestige-beauty-040000281.html",
+          "title": "Sephora, the World's Largest Prestige Beauty Retailer, Takes a Global and Local Approach",
+          "publisher": "WWD via Yahoo Finance",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}

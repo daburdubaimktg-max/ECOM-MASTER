@@ -1,0 +1,1722 @@
+{
+  "marketplace": "Walmart",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "US"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "languages": [
+    {
+      "country_code": "US",
+      "languages": [
+        "en"
+      ],
+      "note": "'All product labels, information and images in a Walmart.com listing must be in English'; other languages only if the information also appears in English or is part of the item or brand name.",
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Prohibited%20products%20&%20brands/Prohibited-products-policy:-overview"
+    }
+  ],
+  "rules": [
+    {
+      "id": "title.max_length",
+      "area": "title",
+      "requirement": "Product titles must be brief and must not exceed 150 characters.",
+      "rule_type": "max_length",
+      "value": 150,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Product details policy, last updated 2026-10-06 ('Writing brief titles not exceeding 150 characters'). Conflict: the Keyword optimization guide (2026-04-14) lists 'excessively long titles of more than 200 characters' as not recommended - see title.max_length.keyword_guide. Category-specific content standards may set other values but are not publicly reachable. Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "title.max_length.keyword_guide",
+      "area": "title",
+      "requirement": "The Keyword optimization guide describes titles of more than 200 characters as excessively long (not recommended).",
+      "rule_type": "max_length",
+      "value": 200,
+      "unit": "characters",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Keyword-optimization",
+      "source_title": "Product detail page: Keyword optimization",
+      "source_date": "2026-04-14",
+      "verification": "official_document",
+      "notes": "Recorded only to document the conflicting number; the newer product details policy (150) is the rule to validate against."
+    },
+    {
+      "id": "title.prohibited_caps_special_characters",
+      "area": "title",
+      "requirement": "Titles must not be written in all caps and must not use special characters (examples given: ~ ! * $).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "title.prohibited_promotional_claims",
+      "area": "title",
+      "requirement": "Titles must not make promotional claims (examples: free shipping, Walmart fulfilled, hot sale, top rated, premium quality, best-selling, clearance, Black Friday, savings, low price).",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "The same prohibition applies to the description and key features."
+    },
+    {
+      "id": "title.prohibited_retailer_names",
+      "area": "title",
+      "requirement": "Titles must not use 'Walmart' or any other retailer name unless licensed or part of the product's brand name.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Also applies to description and key features, where claims of competitor exclusivity ('Amazon exclusive', 'exclusive to Target.com') are additionally prohibited."
+    },
+    {
+      "id": "title.prohibited_irrelevant_info_urls",
+      "area": "title",
+      "requirement": "Titles must not include irrelevant information (coming soon, out-of-stock, discontinued) or URLs in any format, including Walmart.com.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_years",
+      "area": "title",
+      "requirement": "Titles must not include years (for example 2025, 2024) unless the content standards for the item's product type recommend it.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.no_keyword_repetition",
+      "area": "title",
+      "requirement": "Titles must be clear and descriptive without repetitive keywords, multiple brands or multiple product types; repeating keywords and phrases multiple times is prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "title.capitalization_and_attribute_values",
+      "area": "title",
+      "requirement": "Use proper capitalization and include relevant values that describe key attributes (for example 5 in, 4 count, 12 oz).",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Listed in the 'Allowed' column of the policy table."
+    },
+    {
+      "id": "title.style_guide_formula",
+      "area": "title",
+      "requirement": "The product name should contain the attributes defined in Walmart's style guides (content standards) for the product type, in the expected order.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/request-a-content-quality-report",
+      "source_title": "Request a content quality report",
+      "source_date": "n.d. (shown as 'Updated 3 months ago' on 2026-11-26)",
+      "verification": "official_document",
+      "notes": "Inferred from the official content quality report sample issues 'TITLE_FORMULA_VIOLATION' and 'TITLE_ORDER_VIOLATION'. The per-category title formulas (Content Standards: Overview) returned 'No Data found' without a seller login and could not be read."
+    },
+    {
+      "id": "description.min_words",
+      "area": "description",
+      "requirement": "Write the description as one paragraph with a minimum of 150 words; word-count requirements vary by product category.",
+      "rule_type": "min_length",
+      "value": 150,
+      "unit": "words",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Listed in the 'Allowed' column of the policy table rather than as a prohibition, so recorded as recommended; category content standards (not public) may differ."
+    },
+    {
+      "id": "description.no_lists",
+      "area": "description",
+      "requirement": "The description must not use bullet points or numbered lists.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "description.prohibited_content",
+      "area": "description",
+      "requirement": "The description must not contain: claims of competitor exclusivity; Walmart or other retailer names (unless licensed or part of the brand name); promotional claims; authenticity claims without Walmart's approval (food excepted); irrelevant information; external URLs unless legally required; emojis or special characters; a product different from the one in the title; excessive keyword repetition.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "description.content",
+      "area": "description",
+      "requirement": "Describe the item's features and benefits, including product name, brand and keywords customers are likely to search for.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "description.max_length",
+      "area": "description",
+      "requirement": "A maximum description length is not stated on the public pages retrieved.",
+      "rule_type": "max_length",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/insights-api-overview",
+      "source_title": "Insights API overview",
+      "source_date": "n.d. (shown as 'Updated 8 months ago' on 2026-11-26)",
+      "verification": "unverified",
+      "notes": "The Insights API overview names 'too long descriptions' as a content issue without giving a number. Limits are defined in the item spec for each product type (Get spec API, requires credentials)."
+    },
+    {
+      "id": "bullets.min_count",
+      "area": "bullets",
+      "requirement": "List three to 10 of the most important benefits and features as key features, most important first (minimum 3).",
+      "rule_type": "min_count",
+      "value": 3,
+      "unit": "key features",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "bullets.max_count",
+      "area": "bullets",
+      "requirement": "List three to 10 of the most important benefits and features as key features (maximum 10).",
+      "rule_type": "max_count",
+      "value": 10,
+      "unit": "key features",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Stated as the allowed range in the policy table; no hard system limit is published."
+    },
+    {
+      "id": "bullets.max_length",
+      "area": "bullets",
+      "requirement": "Each key feature must not exceed 80 characters, spaces included.",
+      "rule_type": "max_length",
+      "value": 80,
+      "unit": "characters per key feature",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "bullets.prohibited_formatting",
+      "area": "bullets",
+      "requirement": "Key features must not use emojis or special characters, special characters as bullet points, HTML or other text formatting, or numbered lists.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "bullets.prohibited_content",
+      "area": "bullets",
+      "requirement": "Key features must not contain competitor-exclusivity claims, Walmart or other retailer names, promotional claims, irrelevant information, external URLs (unless legally required), a product different from the title, or excessive keyword repetition.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "bullets.style",
+      "area": "bullets",
+      "requirement": "Use short phrases and avoid repetitive keywords.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.required_by_product_type",
+      "area": "attributes",
+      "requirement": "Attributes are required for every item. The product category, product type group and product type chosen at setup determine the applicable attributes; each product type has its own required attributes and supported values, published in the item spec.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/understanding-the-requirements-for-listing-an-item",
+      "source_title": "Understanding the requirements for listing an item",
+      "source_date": "n.d. (shown as 'Updated 13 days ago' on 2026-11-26)",
+      "verification": "official_document",
+      "notes": "'Attributes ... are required for every item sold on Walmart.com' is the wording of the Marketplace Learn guide 'Product detail page: Item attribution & categorization' (2024-10-18). Taxonomy example in the developer docs: category Beauty > product type group Fragrances > product types Body Sprays, Perfumes, Colognes. First-party suppliers additionally need a signed agreement for the Walmart department (Beauty is department 46). Walmart may assign a different product type than the one the seller chose."
+    },
+    {
+      "id": "attributes.value_validity",
+      "area": "attributes",
+      "requirement": "Attribute values must be relevant to the attribute and match its unit of measure; using text where numbers are expected (or vice versa) and incorrect filler values are prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.completeness",
+      "area": "attributes",
+      "requirement": "Fill in as many attributes as possible when accurate information is available.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": "FAQ: if the Discoverability field is empty or holds a value not in the facet or shelving rule, the item is omitted from filter and 'Shop by category' results."
+    },
+    {
+      "id": "attributes.cosmetics_labeling",
+      "area": "attributes",
+      "requirement": "Listings for cosmetics (a restricted category) must include labeling that complies with the FD&C Act and FDA rules: product identity, net quantity, ingredient list, directions or instructions for use, and manufactured/distributed-by information.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Prohibited-Products-Policy:-Cosmetic-products",
+      "source_title": "Prohibited Products Policy: Cosmetic Products",
+      "source_date": "2026-07-09",
+      "verification": "official_document",
+      "notes": "'If your cosmetic listings don't meet the labeling requirements ... they may be unpublished, and you could lose approval to sell in these categories.' Shampoos, conditioners, hair colouring, moisturizers, deodorants and soaps with cosmetic claims are named as cosmetics; teeth-whitening devices and dandruff shampoo are routed to the drug or medical-device policies."
+    },
+    {
+      "id": "attributes.prop65_warning",
+      "area": "attributes",
+      "requirement": "If a product contains a chemical on the California Proposition 65 list and is shipped to California, the required warning must be provided on the product listing (California Warning Text field); otherwise the product must be restricted from sale in California.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Prohibited%20products%20&%20brands/Proposition-65",
+      "source_title": "Proposition 65",
+      "source_date": "2025-12-11",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.beauty_specific_fields",
+      "area": "attributes",
+      "requirement": "Which beauty-specific attributes (ingredients, scent, hair type, skin type, expiry, country of origin, count) are required per product type is not listed on the public pages retrieved.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/understanding-the-requirements-for-listing-an-item",
+      "source_title": "Understanding the requirements for listing an item",
+      "source_date": "n.d. (shown as 'Updated 13 days ago' on 2026-11-26)",
+      "verification": "unverified",
+      "notes": "They are defined in the item spec per product type (Get item setup requirements / Get spec APIs) and in the category content standards, both of which need credentials or a seller login."
+    },
+    {
+      "id": "identifiers.product_id_required",
+      "area": "identifiers",
+      "requirement": "Every item sold on Walmart Marketplace must have a product ID of an accepted type: GTIN (14 digits), UPC (12 digits), ISBN (10 or 13 digits, books only) or EAN (13 digits). Model numbers and SKU numbers are not valid product IDs.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Product%20listings/Choose-a-product-identifier",
+      "source_title": "Product identifier (GTIN, UPC, ISBN or EAN) policy",
+      "source_date": "2026-09-02",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.gs1_validation",
+      "area": "identifiers",
+      "requirement": "Walmart cross-references product IDs with the GS1 database; IDs not recognized by GS1, used for the wrong product type, or registered to a different brand or company are invalid. Listings with invalid product IDs are removed and may lead to account suspension or termination.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Product%20listings/Choose-a-product-identifier",
+      "source_title": "Product identifier (GTIN, UPC, ISBN or EAN) policy",
+      "source_date": "2026-09-02",
+      "verification": "official_document",
+      "notes": "Walmart recommends obtaining product IDs directly from GS1."
+    },
+    {
+      "id": "identifiers.one_id_per_product",
+      "area": "identifiers",
+      "requirement": "Use exactly one product identifier per product at setup, entered as digits only (no dashes or spaces); each product needs its own unique ID and reuse of a product ID for a different item is strictly prohibited.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Product%20listings/Choose-a-product-identifier",
+      "source_title": "Product identifier (GTIN, UPC, ISBN or EAN) policy",
+      "source_date": "2026-09-02",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.gtin_exemption",
+      "area": "identifiers",
+      "requirement": "Products without a manufacturer-issued GTIN (for example private-label or handmade products) may qualify for a GTIN exemption, requested during item setup (Product ID Type 'GTIN', Product Identifier 'CUSTOM') or in the GTIN exemptions dashboard; the approved brand and product type must then be used at setup.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Troubleshooting/request-a-gtin-exemption",
+      "source_title": "Request a GTIN exemption",
+      "source_date": "2026-09-02",
+      "verification": "official_document",
+      "notes": "Review can take up to three business days; wait four hours after approval before creating the item; Admin access is needed for the dashboard."
+    },
+    {
+      "id": "identifiers.gtin_exemption_scope",
+      "area": "identifiers",
+      "requirement": "An item set up under a GTIN exemption must use the same brand and product type that were approved for the exemption.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Troubleshooting/gtin-exemptions-overview",
+      "source_title": "GTIN exemptions: Overview",
+      "source_date": "2026-10-30",
+      "verification": "official_document",
+      "notes": "Exemptions can be requested during single-item setup, bulk setup, through the item setup APIs or in advance from the GTIN exemptions dashboard."
+    },
+    {
+      "id": "identifiers.duplicate_listings",
+      "area": "identifiers",
+      "requirement": "Creating duplicate listings is a policy violation: duplicates are unpublished, and items unpublished for more than 90 days are retired from the catalog. Items sharing a product ID are merged into one listing.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Product%20listings/duplicate-listings-policy",
+      "source_title": "Duplicate listings policy",
+      "source_date": "2026-09-02",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "identifiers.brand_portal",
+      "area": "identifiers",
+      "requirement": "Walmart Brand Portal registration requires an active USPTO trademark with a seven-digit registration number; the brand's acting brand owner and authorized resellers get priority for item content.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "brand_registered",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Getting%20started/Brand%20management/brand-portal-overview",
+      "source_title": "Brand Portal: Overview",
+      "source_date": "2026-11-06",
+      "verification": "official_document",
+      "notes": "One acting brand owner and multiple authorized resellers per brand; sellers typically receive brand privileges within 24 hours of assignment."
+    },
+    {
+      "id": "images_main.background",
+      "area": "images_main",
+      "requirement": "Main images must show the item on a seamless white background (RGB 255/255/255); images of larger items may show the item in an expected environment.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": "Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "images_main.no_watermark_name_logo",
+      "area": "images_main",
+      "requirement": "The main image must not contain watermarks, the seller's name or the seller's logo.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.no_extra_accessories",
+      "area": "images_main",
+      "requirement": "The main image must not show accessories that are not included with the item; avoid positioning too many props in the image.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_main.frame_fill",
+      "area": "images_main",
+      "requirement": "Crop the item as close as possible to the image frame, avoid excessive background space and do not upscale smaller images.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": "No percentage of frame fill is published."
+    },
+    {
+      "id": "images.recommended_px",
+      "area": "images_main",
+      "requirement": "Image pixel dimensions: 2200 x 2200 pixels.",
+      "rule_type": "min_dimension",
+      "value": 2200,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": "Listed under 'File type requirements' as 'Pixel Dimensions: 2200px x 2200px'. Recorded as the target size because the page does not say that smaller images are rejected; the stated zoom minimum is 1500 x 1500."
+    },
+    {
+      "id": "images.zoom_threshold_px",
+      "area": "images_main",
+      "requirement": "Minimum pixel dimensions for zoom: 1500 x 1500 pixels.",
+      "rule_type": "min_dimension",
+      "value": 1500,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.aspect_ratio",
+      "area": "images_main",
+      "requirement": "Image aspect ratio must be 1:1 (square).",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.file_formats",
+      "area": "images_main",
+      "requirement": "Accepted image formats: JPEG, JPG, PNG, BMP. GIF images are not permitted. Colour format RGB, bit depth 8 bits per pixel.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.max_file_size",
+      "area": "images_main",
+      "requirement": "Image file size must be 5 MB or less.",
+      "rule_type": "other",
+      "value": 5,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.swatch_px",
+      "area": "images_secondary",
+      "requirement": "Swatch images: 100 x 100 pixels; provide swatch images where applicable.",
+      "rule_type": "format",
+      "value": 100,
+      "unit": "pixels",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.min_count",
+      "area": "images_secondary",
+      "requirement": "Upload a minimum of four images for each listing.",
+      "rule_type": "min_count",
+      "value": 4,
+      "unit": "images",
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images.max_count",
+      "area": "images_secondary",
+      "requirement": "The maximum number of images per listing is not stated on the public pages retrieved.",
+      "rule_type": "max_count",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "unverified",
+      "notes": ""
+    },
+    {
+      "id": "images.placeholder",
+      "area": "images_main",
+      "requirement": "If no image is available, only the designated Walmart placeholder image may be used; the item is not published until the placeholder is replaced with an actual product image. Stock photos are not allowed.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "images_secondary.content_rules",
+      "area": "images_secondary",
+      "requirement": "All images must correspond with the product name, type and key attributes; no duplicate images; in focus and professionally lit; no claims or promotional language; no Walmart or other retailer or e-commerce platform logos or names; no languages other than English; no out-of-stock or sold-out imagery; no descriptions of item condition; AI-generated images must be truthful, accurate and not misleading.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": "Enforcement stated by Walmart: 'Noncompliance may result in products being unpublished'; violations of the product details policy 'may result in removal of offers or content, and/or suspension or termination of your Marketplace account'."
+    },
+    {
+      "id": "images.url_requirements",
+      "area": "images_secondary",
+      "requirement": "When images are supplied by URL, the URL must end in an image file type, be publicly accessible, use port 8080, 80, 443 or 8443, and contain no query string; HTML pages and Dropbox URLs are not supported.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Image-guidelines-&-requirements",
+      "source_title": "Product detail page: Image guidelines & requirements",
+      "source_date": "2026-05-12",
+      "verification": "official_document",
+      "notes": "Walmart recommends using the 14-digit GTIN in the image file name."
+    },
+    {
+      "id": "video.eligibility",
+      "area": "video",
+      "requirement": "All Marketplace sellers can add a product video through the Media Library in Seller Center (Catalog > Media Library) or the Rich Media API; the item must already exist in the catalog and be in New condition.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media",
+      "source_title": "Product detail page: Rich media",
+      "source_date": "2026-11-12",
+      "verification": "official_document",
+      "notes": "Rich media is restricted for certain product types including alcohol, tobacco and firearms (API docs add hunting, archery, paintball and martial-arts weapons)."
+    },
+    {
+      "id": "video.max_file_size",
+      "area": "video",
+      "requirement": "A video uploaded in the Media Library must be 100 MB or less.",
+      "rule_type": "other",
+      "value": 100,
+      "unit": "MB",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/How-to-navigate-the-Media-Library",
+      "source_title": "Product detail page: Media Library",
+      "source_date": "2026-10-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.title_max_length",
+      "area": "video",
+      "requirement": "The video title cannot be longer than 200 characters.",
+      "rule_type": "max_length",
+      "value": 200,
+      "unit": "characters",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/How-to-navigate-the-Media-Library",
+      "source_title": "Product detail page: Media Library",
+      "source_date": "2026-10-19",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.one_video_per_item",
+      "area": "video",
+      "requirement": "A catalog item can have one associated video; submitting a new video replaces the existing one. A video can be associated with up to 50 catalog items (GTINs).",
+      "rule_type": "max_count",
+      "value": 1,
+      "unit": "videos per item",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/rich-media-management",
+      "source_title": "Rich media management",
+      "source_date": "n.d. (shown as 'Updated 13 days ago' on 2026-11-26)",
+      "verification": "official_document",
+      "notes": "API fields: richMediaVideoAssetUrl, richMediaVideoTitle and richMediaVideoCategory are required; the only supported video category is 'Product Overview'; thumbnail and closed captions are optional."
+    },
+    {
+      "id": "video.captions",
+      "area": "video",
+      "requirement": "A .vtt (WebVTT) caption file is recommended with each video submission. GIF imagery is not permitted as rich media.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media",
+      "source_title": "Product detail page: Rich media",
+      "source_date": "2026-11-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "video.format_duration",
+      "area": "video",
+      "requirement": "Accepted video file formats, resolution and duration limits are not stated on the public pages retrieved.",
+      "rule_type": "format",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media",
+      "source_title": "Product detail page: Rich media",
+      "source_date": "2026-11-12",
+      "verification": "unverified",
+      "notes": "The rich media guide refers to a 'submission checklist and technical requirements' that is not linked publicly."
+    },
+    {
+      "id": "enhanced_content.brand_highlights_eligibility",
+      "area": "enhanced_content",
+      "requirement": "Brand Highlights (images, videos and text that tell the brand story) are available to brand owners registered in Brand Portal with no recorded intellectual-property or Trust and Safety policy violation; only the seller's published items in new condition for which the seller is the brand owner can be linked.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "brand_registered",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media",
+      "source_title": "Product detail page: Rich media",
+      "source_date": "2026-11-12",
+      "verification": "official_document",
+      "notes": "Created in the Media Library from a prebuilt template or a custom layout; Brand Highlights can be added to up to 500 GTINs at a time (videos: up to 50)."
+    },
+    {
+      "id": "enhanced_content.policy",
+      "area": "enhanced_content",
+      "requirement": "Rich media must comply with Walmart policies; AI-generated content must be accurate, truthful and rights-compliant; Walmart may unpublish rich media that violates policy.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media",
+      "source_title": "Product detail page: Rich media",
+      "source_date": "2026-11-12",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "enhanced_content.module_specs",
+      "area": "enhanced_content",
+      "requirement": "Module types, image sizes and text limits for Brand Highlights are not published on the pages retrieved.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "brand_registered",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/How-to-navigate-the-Media-Library",
+      "source_title": "Product detail page: Media Library",
+      "source_date": "2026-10-19",
+      "verification": "unverified",
+      "notes": ""
+    },
+    {
+      "id": "enhanced_content.partners",
+      "area": "enhanced_content",
+      "requirement": "Content-syndication partners for rich media are not named on the current public pages; Walmart only states that Approved Solution Providers can be used to outsource content updates.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/How-to-update-content:-Overview",
+      "source_title": "How to update content: Overview",
+      "source_date": "2026-04-03",
+      "verification": "unverified",
+      "notes": "Earlier partner-based rich-media programmes described by third parties could not be confirmed against a current official page."
+    },
+    {
+      "id": "seo.keyword_placement",
+      "area": "seo",
+      "requirement": "Keywords belong in the product title, description and key features; select one or two primary keywords and use each once in the title, description and key features.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Keyword-optimization",
+      "source_title": "Product detail page: Keyword optimization",
+      "source_date": "2026-04-14",
+      "verification": "official_document",
+      "notes": "No hidden or backend search-term field is described in the public Walmart guides retrieved."
+    },
+    {
+      "id": "seo.keyword_stuffing",
+      "area": "seo",
+      "requirement": "Do not repeat the same word in a single title or description and do not include keywords that are not relevant to the item.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Keyword-optimization",
+      "source_title": "Product detail page: Keyword optimization",
+      "source_date": "2026-04-14",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.unique_content",
+      "area": "seo",
+      "requirement": "Use engaging words that are useful to the customer and unique to Walmart.com rather than copied from other online retailers.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Keyword-optimization",
+      "source_title": "Product detail page: Keyword optimization",
+      "source_date": "2026-04-14",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "seo.categorization",
+      "area": "seo",
+      "requirement": "Choose the correct product category, product type group and product type; categorization and attribution determine how items appear in search and browse.",
+      "rule_type": "recommended",
+      "value": null,
+      "unit": null,
+      "severity": "recommended",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-Item-attribution-&-categorization",
+      "source_title": "Product detail page: Item attribution & categorization",
+      "source_date": "2024-10-18",
+      "verification": "official_document",
+      "notes": "Walmart assigns the final product type itself ('The product type assignment is determined by Walmart classification'); an incorrect assignment can be reported from the Listing Quality dashboard."
+    },
+    {
+      "id": "variants.variant_group",
+      "area": "variants",
+      "requirement": "Each variant is a separate item. All items in a variant group must share the same variantGroupId and the same variantAttributeNames, provide values for the same variant attributes, represent a unique combination of values and include exactly one primary variant; an item can belong to only one variant group.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/setting-up-multiple-variants-of-an-item",
+      "source_title": "Setting up multiple variants of an item",
+      "source_date": "n.d. (shown as 'Updated 15 days ago' on 2026-11-26)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.management",
+      "area": "variants",
+      "requirement": "Variant groups can be created from the Catalog page, by uploading a template in Seller Center or through APIs, and can later be edited, combined, split or extended with new variant attributes.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Variant%20management/Product-variant-groups:-Overview",
+      "source_title": "Product variant groups: Overview",
+      "source_date": "2025-07-02",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.max_variant_attributes",
+      "area": "variants",
+      "requirement": "Up to three variant attributes can be used per variant group, and each must exist in the item's Visible section or the submission fails.",
+      "rule_type": "max_count",
+      "value": 3,
+      "unit": "variant attributes",
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/setting-up-multiple-variants-of-an-item",
+      "source_title": "Setting up multiple variants of an item",
+      "source_date": "n.d. (shown as 'Updated 15 days ago' on 2026-11-26)",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "variants.virtual_packs_and_bundles",
+      "area": "variants",
+      "requirement": "A virtual pack sells the same product in different quantities (same product ID); a virtual bundle sells different complementary products as one offer (each with its own product ID). Virtual bundles are invitation-only.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Packs%20&%20bundles/add-multiple-items-virtual-bundles",
+      "source_title": "Virtual bundles: Overview",
+      "source_date": "2026-10-26",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "language.english_only",
+      "area": "language",
+      "requirement": "All product labels, information and images in a Walmart.com listing must be in English. Title, description and key features may use another language only where it is part of the item or brand name; information may appear in other languages if it also appears in English.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Prohibited%20products%20&%20brands/Prohibited-products-policy:-overview",
+      "source_title": "Prohibited Products Policy: Overview",
+      "source_date": "2026-06-05",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.item_setup_time",
+      "area": "approval",
+      "requirement": "After submitting an item or a content update, status is tracked in the Activity Feed; updates may take up to 24 hours, longer if data errors are detected.",
+      "rule_type": "other",
+      "value": 24,
+      "unit": "hours",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20setup%20methods/Add-a-New-Item:-Create-a-new-item",
+      "source_title": "Add a single item: Full setup",
+      "source_date": "2026-09-24",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.content_update_time",
+      "area": "approval",
+      "requirement": "Content updates submitted in Seller Center may take up to 24 hours and are tracked in the Activity feed; updates for Walmart-fulfilled items must be made with a spreadsheet.",
+      "rule_type": "other",
+      "value": 24,
+      "unit": "hours",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Catalog%20management/Item%20management/Update-item-content-individually-in-Seller-Center",
+      "source_title": "Update item content individually in Seller Center",
+      "source_date": "2026-04-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.content_priority",
+      "area": "approval",
+      "requirement": "Walmart selects the best content for each item attribute and gives priority to content from brand owners and their authorized resellers; without those privileges some content fields, including blank fields, are locked and submitted content may not be published.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/How-to-update-content:-Overview",
+      "source_title": "How to update content: Overview",
+      "source_date": "2026-04-03",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.category_preapproval",
+      "area": "approval",
+      "requirement": "Items in certain categories require pre-approval before they can be offered, including topical products, fragrances, ingestible products and select product types within personal care and beauty, OTC drugs and medical devices.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Prohibited%20products%20&%20brands/Prohibited-products-policy:-overview",
+      "source_title": "Prohibited Products Policy: Overview",
+      "source_date": "2026-06-05",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.listing_quality_refresh",
+      "area": "approval",
+      "requirement": "Listing Quality scores are calculated daily; updated scores may not appear immediately and newly published offers may take up to a week to be reflected in the dashboard.",
+      "rule_type": "other",
+      "value": 7,
+      "unit": "days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/listing-quality-fix-issues",
+      "source_title": "Listing Quality: Fix issues",
+      "source_date": "2026-09-28",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.cosmetics_restricted_category",
+      "area": "restricted_claims",
+      "requirement": "Cosmetics is a restricted Marketplace category limited to certain sellers who complete an enhanced vetting programme; cosmetics must comply with the FD&C Act, FDA regulations (including facility registration, product listing and good manufacturing practice) and FTC advertising law.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Prohibited-Products-Policy:-Cosmetic-products",
+      "source_title": "Prohibited Products Policy: Cosmetic Products",
+      "source_date": "2026-07-09",
+      "verification": "official_document",
+      "notes": "Prohibited examples: cosmetics not manufactured in an FDA-registered facility or not listed with FDA, prescription or professional-use-only products, products tested on animals, testers and samples, opened or used products, products requiring refrigeration."
+    },
+    {
+      "id": "restricted_claims.disease_claims",
+      "area": "restricted_claims",
+      "requirement": "A product presented as a cosmetic must not claim, explicitly or implicitly, in labels, labeling or advertising to diagnose, cure, mitigate, treat or prevent diseases, illnesses, ailments, infections or viruses; such products are treated as unapproved drugs.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Prohibited-Products-Policy:-Cosmetic-products",
+      "source_title": "Prohibited Products Policy: Cosmetic Products",
+      "source_date": "2026-07-09",
+      "verification": "official_document",
+      "notes": "Products making such claims (sunscreen, dandruff shampoo, medicated lip balm, antiperspirant, teeth whitening devices) must instead meet Walmart's Drugs and/or Medical Devices policies."
+    },
+    {
+      "id": "restricted_claims.truthful_cosmetic_claims",
+      "area": "restricted_claims",
+      "requirement": "All cosmetic claims on labels and on Walmart.com must be truthful and not misleading and must not claim to affect the structure or function of the body. Named problem claims: a specific improvement ('reduce wrinkles by 99 percent'), permanent or long-lasting results, fake or misleading before-and-after images, and 'natural' or 'clean' claims without competent and reliable scientific evidence.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Prohibited-Products-Policy:-Cosmetic-products",
+      "source_title": "Prohibited Products Policy: Cosmetic Products",
+      "source_date": "2026-07-09",
+      "verification": "official_document",
+      "notes": "Walmart's example: 'reduce the appearance of wrinkles' is a cosmetic claim; 'eliminate wrinkles' may be viewed by FDA as a drug claim."
+    },
+    {
+      "id": "restricted_claims.skin_whitening",
+      "area": "restricted_claims",
+      "requirement": "Skin whitening and skin lightening products and claims are banned, as are cosmetics containing more than 1 ppm mercury; products with skin-brightening claims are restricted and require enhanced vetting with laboratory testing.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "skin_care",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Prohibited-Products-Policy:-Cosmetic-products",
+      "source_title": "Prohibited Products Policy: Cosmetic Products",
+      "source_date": "2026-07-09",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.general_product_claims",
+      "area": "restricted_claims",
+      "requirement": "Listings may contain only truthful claims. Made-in-the-USA claims must be consistent across images, packaging and attributes; 'biodegradable', 'degradable', 'compostable' and 'decomposable' claims are restricted; products containing PFAS-type 'forever chemicals' are restricted.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Prohibited%20products%20&%20brands/prohibited-products-policy-product-claims",
+      "source_title": "Prohibited Products Policy: Product claims",
+      "source_date": "2026-11-05",
+      "verification": "official_document",
+      "notes": "Items violating product-claims policies are unpublished automatically."
+    },
+    {
+      "id": "restricted_claims.authenticity_and_exclusivity",
+      "area": "restricted_claims",
+      "requirement": "Do not make authenticity claims ('authentic ...', '100% authenticated ...') unless Walmart has approved the claim or the item is a food product, and do not claim competitor exclusivity.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.ai_generated_content",
+      "area": "restricted_claims",
+      "requirement": "AI-generated content must be truthful, accurate and not misleading; the seller must review and substantiate it before publication. AI content that misrepresents a product, makes unsubstantiated or unsafe claims or fabricates reviews or endorsements is prohibited.",
+      "rule_type": "prohibited",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-Detail-Page:-overview",
+      "source_title": "Product details policy",
+      "source_date": "2026-10-06",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "restricted_claims.antibacterial_pesticide",
+      "area": "restricted_claims",
+      "requirement": "No Walmart Marketplace page stating a rule for 'anti-bacterial' or pesticide-type claims in beauty listings was retrieved.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://marketplacelearn.walmart.com/guides/Policies%20&%20standards/Prohibited%20products%20&%20brands/Prohibited-products-policy:-overview",
+      "source_title": "Prohibited Products Policy: Overview",
+      "source_date": "2026-06-05",
+      "verification": "unverified",
+      "notes": "The Prohibited Products Policy lists separate category pages (Drugs and Drug Paraphernalia, Medical Devices, Hazardous Items) and a WFS pesticides guide that were not read in this session."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "yes",
+    "official_name": "Rich media: Video and Brand Highlights (managed in the Media Library)",
+    "eligibility": "Video: all Marketplace sellers, for existing catalog items in New condition (not for restricted product types such as alcohol, tobacco and firearms). Brand Highlights: brand owners registered in Walmart Brand Portal with no recorded IP or Trust and Safety violation, for their own published new-condition items. First-party supplier rich-media rules are not publicly documented.",
+    "modules_note": "Self-serve in Seller Center > Catalog > Media Library or via the Rich Media API (feed type OMNI_RICH_MEDIA). Video: 100 MB or less, title up to 200 characters, one video per item, a video can be linked to up to 50 GTINs, .vtt captions recommended, no GIFs. Brand Highlights: prebuilt template or custom layout of videos, images and text, up to 500 GTINs at a time. Module dimensions and text limits are not published. No syndication partner is named on the current pages.",
+    "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Listing Quality score (Listing Quality dashboard)",
+      "what_it_measures": "Quality of an item's listing; exists per item and for the whole catalog (catalog score = average of item scores). Higher scores support visibility and Pro Seller eligibility.",
+      "components": "Five component categories per the seller guide (2026-04-09): Content quality (item name, description, key features, images); Price competitiveness; Shipping; Published & in stock (last seven days); Ratings & reviews. A component shown as N/A is excluded from the score. In the Shipping row Walmart adds that items weighing more than 50 pounds or listed at $10 or less 'aren't included in your Listing Quality score calculations'.",
+      "access_method": "api",
+      "api_reference_url": "https://developer.walmart.com/us-marketplace/reference/getlistingqualityscore",
+      "who_can_access": "Marketplace sellers in Seller Center (Growth > Listing Quality) and sellers or approved Solution Providers with Marketplace API keys.",
+      "source_url": "https://marketplacelearn.walmart.com/guides/Growth%20opportunities/Listing%20Quality/Listing-quality-and-rewards-dashboard",
+      "verification": "official_document",
+      "notes": "Seller-level API: GET /v3/insights/items/listingQuality/score returns listingQuality (0-100) plus offerScore, contentScore, ratingReviewScore, priceScore, shippingScore, transactibilityScore and post-purchase itemDefectCnt/defectRatio. Item-level API: POST /v3/insights/items/listingQuality/items. Naming conflict: the developer guides still describe the dimensions as Content, Discoverability, Offer, Ratings and Reviews (plus post-purchase quality), which is the older breakdown; the seller guide and the report columns use the five components above. Walmart does not publish component weights."
+    },
+    {
+      "official_name": "Item listing quality report (LISTING_QUALITY)",
+      "what_it_measures": "Daily snapshot of listing-quality scores, score drivers, issues and recommended actions for all published listings.",
+      "components": "Columns include LISTING_QUALITY_SCORE, CONTENT_QUALITY_SCORE, PRICE_COMPETITIVENESS_SCORE, SHIPPING_SCORE, PUBLISHED_IN_STOCK_SCORE, RATINGS_REVIEWS_SCORE (each 0-100), per-component impact (LOW, MEDIUM, HIGH, ZERO), ISSUE_PRIORITY, rating value and count, 30-day orders, conversion, GMV and page views.",
+      "access_method": "downloadable_report",
+      "api_reference_url": "https://developer.walmart.com/us-marketplace/docs/request-an-item-listing-quality-report",
+      "who_can_access": "Sellers and approved Solution Providers via the On Request Reports API (POST /v3/reports/reportRequests?reportType=LISTING_QUALITY&reportVersion=v1).",
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/request-an-item-listing-quality-report",
+      "verification": "official_document",
+      "notes": "Scores are calculated daily; report data is accurate as of the previous day; snapshots up to two years back can be requested; reports can be scheduled."
+    },
+    {
+      "official_name": "Content quality report (CONTENT_QUALITY)",
+      "what_it_measures": "Attribute-level content issues that reduce the Content Quality score.",
+      "components": "One row per item and GTIN with product_attribute_name, product_attribute_value, product_attribute_score, product_impact_to_score (LOW, MEDIUM, HIGH), attribute_issue_title and attribute_issue_description (sample issues: TITLE_FORMULA_VIOLATION, TITLE_ORDER_VIOLATION).",
+      "access_method": "downloadable_report",
+      "api_reference_url": "https://developer.walmart.com/us-marketplace/docs/request-a-content-quality-report",
+      "who_can_access": "Sellers and approved Solution Providers via the On Request Reports API (reportType=CONTENT_QUALITY&reportVersion=v1).",
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/request-a-content-quality-report",
+      "verification": "official_document",
+      "notes": "This is the closest official equivalent to a rule-by-rule content audit."
+    },
+    {
+      "official_name": "Unpublished item insights",
+      "what_it_measures": "Why items are unpublished.",
+      "components": "Counts of unpublished items per reason code and item detail per reason code.",
+      "access_method": "api",
+      "api_reference_url": "https://developer.walmart.com/us-marketplace/docs/insights-api-overview",
+      "who_can_access": "Sellers and approved Solution Providers with Marketplace API keys.",
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/insights-api-overview",
+      "verification": "official_document",
+      "notes": "Complements the Listing Quality APIs: it reports hard failures rather than quality."
+    },
+    {
+      "official_name": "Content Quality Score (first-party suppliers)",
+      "what_it_measures": "Content quality of items a supplier sells to Walmart, reported per GTIN-14.",
+      "components": "Content Quality Score (0 to 1 scoring) with Product Name Insights, Key Features Insights, Images Insights and Site Description Insights, plus customer rating and number of reviews.",
+      "access_method": "downloadable_report",
+      "api_reference_url": "https://developer.walmart.com/suppliers/docs/item-report-product-content-data",
+      "who_can_access": "First-party suppliers and drop-ship vendors via the 1P Supplier On Request Reports API (report type PRODUCT_CONTENT_DATA, version 1; refreshed every 24 hours).",
+      "source_url": "https://developer.walmart.com/suppliers/docs/item-report-product-content-data",
+      "verification": "official_document",
+      "notes": "Different scale from the Marketplace content score (0-100). Supplier portal help (Supplier One, Retail Link) is login-gated and was not read, so the scoring criteria are not recorded."
+    }
+  ],
+  "non_official_terms_to_avoid": [
+    {
+      "term": "'Content & Discoverability, Offer, Ratings & Reviews, Post-Purchase Quality' as the current Listing Quality components",
+      "what_it_actually_is": "Older component breakdown that still appears in Walmart developer guides; the current seller guide (2026-04-09) names five components: Content quality, Price competitiveness, Shipping, Published & in stock, Ratings & reviews.",
+      "source_url": "https://developer.walmart.com/us-marketplace/docs/monitor-item-listing-quality"
+    },
+    {
+      "term": "Walmart 'A+ content' / 'Enhanced Brand Content'",
+      "what_it_actually_is": "Not Walmart's terminology on the pages retrieved. The official names are 'Rich media', 'Video' and 'Brand Highlights'.",
+      "source_url": "https://marketplacelearn.walmart.com/guides/Item%20setup/Item%20content,%20imagery,%20and%20media/Product-detail-page:-rich-media"
+    },
+    {
+      "term": "A single Walmart 'Content Quality Score' for all partners",
+      "what_it_actually_is": "Two different official measures exist: the Marketplace 'Content quality' component (0-100) of the Listing Quality score, and the first-party supplier 'Content Quality Score' (0 to 1) in the PRODUCT_CONTENT_DATA report.",
+      "source_url": "https://developer.walmart.com/suppliers/docs/item-report-product-content-data"
+    }
+  ],
+  "limitations": "Rules come from Walmart Marketplace Learn (seller policies and guides) and developer.walmart.com, read on 2026-11-26, so they apply to Marketplace sellers. First-party supplier content rules could not be verified: supplier.walmart.com redirects to a Retail Link login and supplierhelp.walmart.com rendered blank to automated access; only the 1P developer documentation (taxonomy and the PRODUCT_CONTENT_DATA report with its Content Quality Score) was readable. The category-specific 'Content Standards' (per-product-type title formulas, description lengths, image counts and beauty attributes) returned 'No Data found' without a login and are not recorded. Not published on the pages retrieved: video formats and duration, Brand Highlights module specifications, a maximum image count, a maximum description length, component weights of the Listing Quality score. Marketplace Learn showed a bot-check overlay to the headless browser; pages were therefore read from the server-rendered HTML only, and no challenge was bypassed. A release note of 2026-03-26 about changes to the content-quality and price components was seen only in a search snippet and is not used."
+}

@@ -1,0 +1,2256 @@
+{
+  "country_code": "IN",
+  "country_name": "India",
+  "region": "South Asia",
+  "research_date": "2026-11-26",
+  "market_context": {
+    "summary": "Bain & Company estimates India's e-retail market at $65-66 billion of gross merchandise value in 2025 (up 19-21%) with 290-300 million online shoppers, and expects $170-180 billion by 2030. Quick commerce already carries 16-17% of that GMV ($10-11 billion in 2025, doubling annually since 2023), led by Blinkit, Zepto and Swiggy Instamart, with Flipkart Minutes and Amazon Now scaling fast. Redseer puts online beauty and personal care at about ₹52,000 crore in 2025, 2.4 times its 2022 level, and says quick commerce's share of it rose from about 2% to about 16% in three years. Motilal Oswal credits Nykaa with roughly 27% of online beauty and personal care but notes that personal care is 'FMCG driven' and price-sensitive, so the horizontal marketplaces (press-reported analyst estimates put Flipkart at 50-60% and Amazon at 25-30% of e-commerce GMV) and quick commerce matter most for mass-market hair, skin and oral care. No regulator-verified market shares exist for these platforms; every share quoted here is an analyst or third-party estimate.",
+    "key_facts": [
+      {
+        "fact": "India's e-retail market reached $65-66 billion of GMV in 2025 (growth 19-21%), with 290-300 million online shoppers; forecast $170-180 billion by 2030.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.bain.com/insights/how-india-shops-online-2026/",
+        "source_name": "Bain & Company (in collaboration with Flipkart)",
+        "source_date": "2026-04-08"
+      },
+      {
+        "fact": "Quick commerce accounts for 16-17% of India's e-retail GMV, reached $10-11 billion in 2025 after doubling annually since 2023, and is expected to reach $65-70 billion by the end of the decade.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.bain.com/insights/how-india-shops-online-2026/",
+        "source_name": "Bain & Company (in collaboration with Flipkart)",
+        "source_date": "2026-04-08"
+      },
+      {
+        "fact": "India's online beauty and personal-care market grew from about ₹21,000 crore in 2022 to about ₹52,000 crore in 2025; quick commerce's share of online beauty and personal care rose from about 2% to about 16%, and the category is the second-largest in quick commerce after grocery.",
+        "nature": "analyst_estimate",
+        "source_url": "https://redseer.com/articles/beauty-personal-care-in-quick-commerce/",
+        "source_name": "Redseer Strategy Consultants",
+        "source_date": "2026-03-04"
+      },
+      {
+        "fact": "Motilal Oswal (December 2025): Nykaa has a roughly 27% share of India's online beauty and personal-care market; online was 20% of the total category in FY25 (about USD 5 billion) and is expected to reach 34% by FY30; 'quick commerce could wrestle away some market share in personal care' because assortments are 'standardized and FMCG driven'.",
+        "nature": "analyst_estimate",
+        "source_url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2025-12/17665661370.41111100.pdf",
+        "source_name": "Motilal Oswal Financial Services (PDF hosted by Business Standard)",
+        "source_date": "2025-12"
+      },
+      {
+        "fact": "Inc42 reports that Flipkart holds 'a 50-60% market share on a gross merchandise value (GMV) basis' with 220 million monthly active users. This is a press-reported analyst estimate, not a verified share.",
+        "nature": "analyst_estimate",
+        "source_url": "https://inc42.com/buzz/flipkart-to-defer-ipo-till-2028-eyes-ebitda-profitability-in-fy27/",
+        "source_name": "Press and broker estimates via Inc42",
+        "source_date": "2026-05-15"
+      },
+      {
+        "fact": "A NewsBytes item, read only as a search-result summary because the page returned HTTP 403, attributes the Flipkart estimate to ICICI Securities and adds Amazon India at 25-30% and Meesho at about 10% of e-commerce GMV.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.newsbytesapp.com/news/business/flipkart-leads-indias-online-shopping-50-60-gmv-adds-85-million-users/tldr",
+        "source_name": "ICICI Securities via NewsBytes",
+        "source_date": "n.d. (2026)"
+      },
+      {
+        "fact": "Datum Intelligence daily-order estimates for August 2026: Blinkit 3.4-3.6 million, Zepto 2.4-2.6 million, Swiggy Instamart 1.3-1.45 million, Flipkart Minutes 0.9-1.0 million, Amazon Now 0.6-0.7 million, BigBasket 0.5-0.6 million; the six platforms together handled about 9.5 million orders a day.",
+        "nature": "third_party_estimate",
+        "source_url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+        "source_name": "Datum Intelligence via Entrepreneur India",
+        "source_date": "2026-08-18"
+      },
+      {
+        "fact": "Redseer's 'India BPC 2030' report as cited by Business Today: the beauty and personal-care market is about $23 billion (FY2025) and projected at about $40 billion by 2030; online is roughly one-fifth of spending; quick commerce contributes around 15% of online beauty sales today and could reach nearly 40% by 2030.",
+        "nature": "analyst_estimate",
+        "source_url": "https://www.businesstoday.in/latest/trends/story/swipe-click-delivered-how-quick-commerce-is-powering-indias-40bn-beauty-boom-led-by-genz-515665-2026-02-11",
+        "source_name": "Redseer via Business Today",
+        "source_date": "2026-02-11"
+      },
+      {
+        "fact": "IBEF's industry profile reports 1,092.79 million internet subscribers in India at the end of March 2026 (subscribers, not unique users; the underlying source is not named on the page).",
+        "nature": "third_party_estimate",
+        "source_url": "https://www.ibef.org/industry/ecommerce",
+        "source_name": "India Brand Equity Foundation (IBEF)",
+        "source_date": "2026-09 (page last updated)"
+      }
+    ]
+  },
+  "ranking_method_note": "Scores follow the brief's rubric exactly: five criteria scored 1-5, weighted 0.20 / 0.25 / 0.20 / 0.15 / 0.20, summed and rounded to two decimals; rank 1 is the highest weighted score. Ties are broken by beauty_category_relevance, then consumer_reach; where a tie still remained, brand_competitor_coverage, data_integration_feasibility, ecommerce_significance and finally alphabetical order were used (an addition, because the rubric is silent). estimated_market_importance reflects overall importance in the country's online retail (tier_1 = market-shaping, tier_2 = significant, tier_3 = niche or emerging), not category relevance, which is captured separately in beauty_relevance. Scoring anchors: ecommerce_significance 5 = market-shaping leader, 4 = top-tier national player, 3 = significant category or regional player, 2 = niche or emerging. consumer_reach: 5 = 150 million or more India web visits in October 2026 (Semrush) or 200 million or more annual transacting users; 4 = 50-150 million visits, or a 100M+ Google Play install band backed by evidence of a large transacting base (orders, GMV or monthly users); 3 = 10-50 million visits or a 50M+ install band; 2 = 3-10 million visits; 1 = below 3 million. India is app-first, so web visits understate reach; Google Play install bands and company order or user metrics are shown alongside. Install bands are cumulative and include inactive users. brand_competitor_coverage is an evidence-graded judgement based on how many checklist brands were confirmed on the platform's own pages, sitemaps or app-store listing and how deep the ranges were; platforms that could not be checked receive a neutral 3 and are marked UNVERIFIED. Checklist used for India: Dove, Pantene, L'Oréal Paris, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur, Parachute, Mamaearth. data_integration_feasibility: 5 = documented public partner API plus accessible public pages, 4 = documented API with gated scope, 3 = no API but public pages or sitemaps accessible, 2 = no API and app-centric or bot-protected pages. The formula rewards reach and data access, so the two horizontal marketplaces rank above Nykaa even though Nykaa has the largest estimated share of online beauty; quick-commerce platforms score low on data access because prices and availability vary by dark store and are visible only in-app. These reservations are recorded in the relevant priority_rationale fields.",
+  "platforms": [
+    {
+      "name": "Amazon.in",
+      "website": "https://www.amazon.in",
+      "operator": "Amazon (India marketplace of Amazon.com, Inc.)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Most-visited retail site in India; its Beauty best-seller page showed L'Oréal, Garnier, Nivea, Vaseline, Parachute, Cetaphil, Minimalist and The Derma Co. No beauty-specific share figure was found. Its quick-commerce service Amazon Now has passed a $1 billion annualised gross sales run rate.",
+      "pharmacy_relevance": "medium",
+      "pharmacy_relevance_note": "'Amazon Pharmacy' appears in the amazon.in department navigation (observed 2026-11-26); the service was not researched.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on about 267 million India web visits in October 2026 (the highest in this set), a 500M+ Google Play install band and ICICI Securities' estimate of 25-30% of India's e-commerce GMV.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "amazon.in received an estimated 266.7M visits from India in October 2026 (84.25% of 316.56M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "266.7M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/amazon.in/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 500M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "500M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-12"
+        },
+        {
+          "claim": "ICICI Securities estimates Amazon India at 25-30% of India's e-commerce GMV (analyst estimate reported by NewsBytes; read from a search-result summary).",
+          "metric_type": "market_share",
+          "value": "25-30% of e-commerce GMV (estimate)",
+          "period": "2026",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.newsbytesapp.com/news/business/flipkart-leads-indias-online-shopping-50-60-gmv-adds-85-million-users/tldr",
+          "source_name": "ICICI Securities via NewsBytes",
+          "source_date": "n.d. (2026)"
+        },
+        {
+          "claim": "Amazon Now, Amazon's quick-commerce service, crossed an annualised gross sales run rate of $1 billion and reached more than 60 cities and towns served from more than 750 micro-fulfilment centres.",
+          "metric_type": "gmv",
+          "value": "$1 billion annualised run rate (Amazon Now only)",
+          "period": "September 2026",
+          "nature": "company_reported",
+          "source_url": "https://businesstoday.in/technology/story/amazon-now-hits-1-billion-run-rate-as-amazon-takes-quick-commerce-deeper-into-india-555675-2026-09-15",
+          "source_name": "Amazon via Business Today",
+          "source_date": "2026-09-15"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on Amazon.in's own public Beauty best-seller page (rendered 2026-11-26): products from L'Oréal, Garnier, Nivea, Vaseline, Parachute, Cetaphil, Minimalist and The Derma Co appeared. Search pages returned HTTP 503 to automated access, so other checklist brands were not searched.",
+        "source_urls": [
+          "https://www.amazon.in/gp/bestsellers/beauty"
+        ]
+      },
+      "product_coverage_note": "Mass hair and skin care seen on the best-seller page; oral care was not sampled and depth was not counted.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Selling Partner API (SP-API) for applications built for sellers and vendors; the 'Store Identifiers' page lists the India marketplace (A21TJRUUN4KGV); the Product Pricing API returns 'product pricing and offer pricing information for Amazon Marketplace products'. Access requires a registered selling-partner developer profile. A reviews endpoint was Not found. The older documentation address developer-docs.amazon.com redirects to developer-docs.amazon.",
+        "docs_url": "https://developer-docs.amazon/sp-api/docs/welcome"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented API with an India marketplace; the best-seller page rendered publicly; third-party vendors such as 1DigitalStack state that they track Amazon in India.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Second-largest marketplace by estimated GMV (25-30%) and the most-visited retail site in India."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Mass hair and skin brands dominate its Beauty best-seller page; no category share was found."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 267 million India web visits in October 2026 and a 500M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Eight mass or mass-premium brands seen on a single best-seller page, four of them checklist brands."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Public, documented SP-API with an India marketplace."
+        }
+      },
+      "weighted_score": 4.75,
+      "priority_rank": 1,
+      "is_top3": true,
+      "priority_rationale": "First on the formula through reach, verified brand presence and the best-documented API. Reservation: Nykaa is the category specialist with the largest estimated share of online beauty, so on category relevance alone it would rank above Amazon; for FMCG-style personal care the marketplaces and quick commerce carry more weight.",
+      "confidence": "high",
+      "confidence_note": "Traffic, installs, API documentation and brand presence are verified; the GMV share is an analyst estimate read from a search-result summary.",
+      "sources": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/welcome",
+          "title": "Welcome to SP-API Documentation",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/marketplace-ids",
+          "title": "Store Identifiers",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/product-pricing-api-v2022-05-01-reference",
+          "title": "Product Pricing v2022-05-01",
+          "publisher": "Amazon (Selling Partner API documentation)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1digitalstack.ai/",
+          "title": "1DigitalStack — The Operating System for Global E-Commerce Growth",
+          "publisher": "1DigitalStack",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "title": "Blinkit Leads India's QCom space as Average Daily Orders Shoot Up: Report",
+          "publisher": "Entrepreneur India",
+          "published_date": "2026-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/amazon.in/overview/",
+          "title": "amazon.in Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping&hl=en&gl=in",
+          "title": "Amazon India Shop, Pay, miniTV - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.newsbytesapp.com/news/business/flipkart-leads-indias-online-shopping-50-60-gmv-adds-85-million-users/tldr",
+          "title": "Flipkart leads India's online shopping, 50%-60% GMV, adds 8.5 million users",
+          "publisher": "NewsBytes",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://businesstoday.in/technology/story/amazon-now-hits-1-billion-run-rate-as-amazon-takes-quick-commerce-deeper-into-india-555675-2026-09-15",
+          "title": "Amazon Now hits $1 billion run rate as Amazon takes quick commerce deeper into India",
+          "publisher": "Business Today",
+          "published_date": "2026-09-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.amazon.in/gp/bestsellers/beauty",
+          "title": "Amazon.in Bestsellers: The most popular items in Beauty",
+          "publisher": "Amazon.in",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Flipkart (flipkart.com, including Flipkart Minutes)",
+      "website": "https://www.flipkart.com",
+      "operator": "Flipkart (Walmart owns about 80%, per a Moneycontrol report cited by Inc42)",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Largest Indian marketplace by estimated GMV; its search returned mass-brand ranges for 'dove shampoo' and 'colgate toothpaste'. Its quick-commerce arm Flipkart Minutes handled an estimated 0.9-1.0 million orders a day in August 2026. No beauty-specific share figure was found.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: a pharmacy offer was not checked.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on a press-reported analyst estimate of 50-60% of India's e-commerce GMV, about 201 million India web visits in October 2026 and a 1B+ Google Play install band.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "flipkart.com received an estimated 200.81M visits from India in October 2026 (91.73% of 218.91M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "200.81M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/flipkart.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 1B+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "1B+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.flipkart.android&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-14"
+        },
+        {
+          "claim": "Inc42 reports that Flipkart holds 'a 50-60% market share on a gross merchandise value (GMV) basis' and has 220 million monthly active users; a search-result summary of a NewsBytes item attributes the share estimate to ICICI Securities. This is an analyst estimate, not a verified share.",
+          "metric_type": "market_share",
+          "value": "50-60% of e-commerce GMV (estimate); 220 million monthly active users",
+          "period": "May 2026",
+          "nature": "analyst_estimate",
+          "source_url": "https://inc42.com/buzz/flipkart-to-defer-ipo-till-2028-eyes-ebitda-profitability-in-fy27/",
+          "source_name": "Press and broker estimates via Inc42",
+          "source_date": "2026-05-15"
+        },
+        {
+          "claim": "Datum Intelligence estimates Flipkart Minutes at 900,000-1 million orders a day in August 2026; TechCrunch reported more than 800 Flipkart dark stores in April 2026.",
+          "metric_type": "other",
+          "value": "0.9-1.0 million quick-commerce orders a day (estimate)",
+          "period": "August 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "source_name": "Datum Intelligence via Entrepreneur India",
+          "source_date": "2026-08-18"
+        },
+        {
+          "claim": "Flipkart Group reported revenue from operations of ₹1,45,880 crore for FY26, up 18%; Flipkart Internet's net loss narrowed to ₹8,468 crore.",
+          "metric_type": "revenue",
+          "value": "₹1,45,880 crore revenue from operations (FY26)",
+          "period": "FY2026 (year to March 2026)",
+          "nature": "company_reported",
+          "source_url": "https://www.angelone.in/news/unlisted-companies/ipo-bound-flipkart-s-fy26-revenue-rises-18-losses-narrows",
+          "source_name": "Flipkart filings via Angel One",
+          "source_date": "2026-10-16"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on Flipkart's own public search pages (rendered 2026-11-26): 'dove shampoo' returned 30 results in the Shampoo category, and the 'colgate toothpaste' page named Colgate 43 times. Other checklist brands were not searched.",
+        "source_urls": [
+          "https://www.flipkart.com/search?q=dove+shampoo",
+          "https://www.flipkart.com/search?q=colgate+toothpaste"
+        ]
+      },
+      "product_coverage_note": "Mass hair and oral care confirmed; skin care not sampled.",
+      "data_access_method": "official_api",
+      "api_availability": {
+        "public_seller_api": "yes",
+        "note": "Flipkart Marketplace Seller APIs (Developer API v3.0): registered sellers can create self-access applications, and verified partners or aggregators can build third-party applications; functions include order management, listing management and report management.",
+        "docs_url": "https://seller.flipkart.com/api-docs/FMSAPI.html"
+      },
+      "data_collection_feasibility": "high",
+      "data_collection_feasibility_note": "Documented seller API and public search pages that rendered for an automated browser; third-party vendors such as 1DigitalStack state that they track Flipkart.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 5,
+          "note": "Estimated 50-60% of India's e-commerce GMV (analyst estimate reported by Inc42)."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Mass hair and oral-care ranges verified on-site; no category share was found."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "About 201 million India web visits in October 2026 and a 1B+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Dove and Colgate ranges verified; other checklist brands not sampled."
+        },
+        "data_integration_feasibility": {
+          "score": 5,
+          "note": "Documented Marketplace Seller API and accessible public pages."
+        }
+      },
+      "weighted_score": 4.6,
+      "priority_rank": 2,
+      "is_top3": true,
+      "priority_rationale": "Close second: the largest marketplace by estimated GMV with an open seller API, and a growing quick-commerce arm. Same reservation as Amazon about category relevance versus Nykaa.",
+      "confidence": "medium",
+      "confidence_note": "Traffic, installs, revenue, API documentation and two brand checks are verified; the GMV share is a press-reported analyst estimate.",
+      "sources": [
+        {
+          "url": "https://seller.flipkart.com/api-docs/FMSAPI.html",
+          "title": "Flipkart Marketplace Seller APIs — Developer API v3.0 documentation",
+          "publisher": "Flipkart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/",
+          "title": "Walmart-owned Flipkart, Amazon are squeezing India's quick-commerce startups",
+          "publisher": "TechCrunch",
+          "published_date": "2026-04-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.newsbytesapp.com/news/business/flipkart-leads-indias-online-shopping-50-60-gmv-adds-85-million-users/tldr",
+          "title": "Flipkart leads India's online shopping, 50%-60% GMV, adds 8.5 million users",
+          "publisher": "NewsBytes",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1digitalstack.ai/",
+          "title": "1DigitalStack — The Operating System for Global E-Commerce Growth",
+          "publisher": "1DigitalStack",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/flipkart.com/overview/",
+          "title": "flipkart.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.flipkart.android&hl=en&gl=in",
+          "title": "Flipkart Online Shopping App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-14",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://inc42.com/buzz/flipkart-to-defer-ipo-till-2028-eyes-ebitda-profitability-in-fy27/",
+          "title": "Flipkart To Defer IPO Till 2028, Eyes EBITDA Profitability In FY27",
+          "publisher": "Inc42",
+          "published_date": "2026-05-15",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "title": "Blinkit Leads India's QCom space as Average Daily Orders Shoot Up: Report",
+          "publisher": "Entrepreneur India",
+          "published_date": "2026-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.angelone.in/news/unlisted-companies/ipo-bound-flipkart-s-fy26-revenue-rises-18-losses-narrows",
+          "title": "IPO-bound Flipkart's FY26 revenue rises 18%, losses narrow",
+          "publisher": "Angel One",
+          "published_date": "2026-10-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.flipkart.com/search?q=dove+shampoo",
+          "title": "Dove Shampoo- Buy Products Online at Best Price in India - All Categories | Flipkart.com",
+          "publisher": "Flipkart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.flipkart.com/search?q=colgate+toothpaste",
+          "title": "Colgate Toothpaste- Buy Products Online at Best Price in India | Flipkart.com",
+          "publisher": "Flipkart",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Nykaa (nykaa.com)",
+      "website": "https://www.nykaa.com",
+      "operator": "FSN E-Commerce Ventures Ltd",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "India's leading beauty specialist: Motilal Oswal credits it with roughly 27% of the online beauty and personal-care market; its app listing claims over 1 lakh (100,000) beauty products and 2,400+ brands. The same broker notes Nykaa's growth is aligned with premium skin care, cosmetics and fragrance rather than FMCG-style personal care.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "Sells wellness products; no pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Tier 2 in total Indian online retail (quarterly GMV of ₹6,151 crore, a 100M+ install band), although Motilal Oswal estimates it holds roughly 27% of online beauty and personal care, the largest share of any platform.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "nykaa.com received an estimated 16.08M visits from India in October 2026 (92.75% of 17.34M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "16.08M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/nykaa.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fsn.nykaa&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-19"
+        },
+        {
+          "claim": "Nykaa reported Q2 FY27 GMV of ₹6,151 crore (+30%) and net revenue of ₹3,006 crore (+28%).",
+          "metric_type": "gmv",
+          "value": "₹6,151 crore GMV (quarter, all verticals)",
+          "period": "Q2 FY2027 (July-September 2026)",
+          "nature": "company_reported",
+          "source_url": "https://www.businesstoday.in/markets/stocks/story/nykaa-q2-earnings-net-profit-rises-revenue-crosses-rs-3000-crore-565721-2026-11-04",
+          "source_name": "Nykaa results as reported by Business Today",
+          "source_date": "2026-11-04"
+        },
+        {
+          "claim": "Nykaa's Q2 FY27 beauty GMV was ₹4,454 crore and it operated 338 beauty stores in 111 cities; a search-result summary of another report adds that its Nykaa Now quick-delivery service reached 15 cities.",
+          "metric_type": "gmv",
+          "value": "₹4,454 crore beauty GMV (quarter); 338 beauty stores",
+          "period": "Q2 FY2027 (July-September 2026)",
+          "nature": "company_reported",
+          "source_url": "https://upstox.com/news/market-news/earnings/nykaa-q2-fy-27-results-net-profit-jumps-three-fold-to-101-crore-yo-y-gmv-grew-30/article-202981/",
+          "source_name": "Nykaa results as reported by Upstox",
+          "source_date": "2026-11-04"
+        },
+        {
+          "claim": "Motilal Oswal estimates Nykaa's share of India's online beauty and personal-care market at about 27% and cites about 18 million transacting customers (December 2025).",
+          "metric_type": "market_share",
+          "value": "about 27% of online beauty and personal care (estimate)",
+          "period": "December 2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2025-12/17665661370.41111100.pdf",
+          "source_name": "Motilal Oswal Financial Services (PDF hosted by Business Standard)",
+          "source_date": "2025-12"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "nykaa.com returned HTTP 503, 502 or 403 to every automated request on 2026-11-26, so product pages could not be checked. Verification rests on Nykaa's own Google Play listing (rendered 2026-11-26), which claims 2,400+ brands and names L'Oreal, Nivea, Vaseline, Himalaya, Mamaearth, Lakme, Maybelline, Cetaphil, Minimalist, Plum, Biotique and Ponds. Dove, Pantene, Garnier, Head & Shoulders, Colgate, Sensodyne, Dabur and Parachute are not named there and remain UNVERIFIED.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.fsn.nykaa&hl=en&gl=in",
+          "https://www.nykaa.com/"
+        ]
+      },
+      "product_coverage_note": "Company-stated 100,000+ products across 2,400+ brands; five checklist brands named in its own listing.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public seller or developer API documentation was found, and nykaa.com refused automated access. The beauty business is described by Motilal Oswal as inventory-led with direct brand relationships.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Site refuses automated access and no API was found; data would come from Nykaa's own brand-partner reporting, an authorised vendor (1DigitalStack shows a Nykaa logo among tracked marketplaces) or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Vertical leader with ₹6,151 crore of quarterly GMV, small beside the horizontal marketplaces."
+        },
+        "beauty_category_relevance": {
+          "score": 5,
+          "note": "Largest estimated share of online beauty and personal care (about 27%, Motilal Oswal)."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "100M+ install band, about 16 million India web visits and about 18 million transacting customers (broker estimate)."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "2,400+ brands claimed and five checklist brands named in its own listing; product pages not verifiable."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refuses automated access."
+        }
+      },
+      "weighted_score": 3.65,
+      "priority_rank": 3,
+      "is_top3": true,
+      "priority_rationale": "Third, and the most important beauty specialist. Reservation: the formula ranks it below the two marketplaces because of weaker data access and a smaller total audience; on category relevance alone it would be first, although its strength is premium beauty more than FMCG-style personal care.",
+      "confidence": "medium",
+      "confidence_note": "GMV, stores, installs, the broker share estimate and the app listing are verified; on-site brand presence is not.",
+      "sources": [
+        {
+          "url": "https://www.1digitalstack.ai/",
+          "title": "1DigitalStack — The Operating System for Global E-Commerce Growth",
+          "publisher": "1DigitalStack",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://yourstory.com/2026/11/nykaa-reports-pat-beauty-marketplace-q2-fy27-simply-nam",
+          "title": "Nykaa's PAT soars 206% in Q2FY27 as beauty, quick commerce arm deliver strong performance",
+          "publisher": "YourStory",
+          "published_date": "2026-11",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/nykaa.com/overview/",
+          "title": "nykaa.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.fsn.nykaa&hl=en&gl=in",
+          "title": "Nykaa - Beauty Shopping App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.businesstoday.in/markets/stocks/story/nykaa-q2-earnings-net-profit-rises-revenue-crosses-rs-3000-crore-565721-2026-11-04",
+          "title": "Nykaa Q2 earnings: Net profit rises, revenue crosses Rs 3,000 crore",
+          "publisher": "Business Today",
+          "published_date": "2026-11-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://upstox.com/news/market-news/earnings/nykaa-q2-fy-27-results-net-profit-jumps-three-fold-to-101-crore-yo-y-gmv-grew-30/article-202981/",
+          "title": "Nykaa Q2 FY27 results: Net profit jumps three-fold to ₹101 crore YoY; GMV grew 30%",
+          "publisher": "Upstox",
+          "published_date": "2026-11-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2025-12/17665661370.41111100.pdf",
+          "title": "FSN E-Commerce Ventures: Beauty, Fashion, and a Full Valuation (Initiating Coverage)",
+          "publisher": "Motilal Oswal Financial Services (PDF hosted by Business Standard)",
+          "published_date": "2025-12",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.nykaa.com/",
+          "title": "nykaa.com (HTTP 503/403 returned to automated access)",
+          "publisher": "Nykaa",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Blinkit",
+      "website": "https://blinkit.com",
+      "operator": "Blinkit (Eternal Ltd, the Zomato parent)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Largest quick-commerce platform by orders; Redseer says quick commerce now carries about 16% of online beauty and personal care and that the category is second only to grocery within quick commerce. Blinkit's app listing names Garnier, Nivea, Colgate and Lakmé.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: over-the-counter health products were not checked.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on net order value of ₹20,940 crore in the September 2026 quarter (+79%), 2,751 stores and an estimated 3.4-3.6 million orders a day, the most of any quick-commerce platform (Datum Intelligence).",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Blinkit's net order value was ₹20,940 crore in Q2 FY27 (+79.3% year on year) from 2,751 stores (308 added in the quarter). Monthly transacting customers: Not found in the sources read.",
+          "metric_type": "gmv",
+          "value": "₹20,940 crore net order value (quarter); 2,751 stores",
+          "period": "Q2 FY2027 (July-September 2026)",
+          "nature": "company_reported",
+          "source_url": "https://www.kotakneo.com/news/stocks/eternal-q2-results-profit-rises-revenue-growth-blinkit-adds-stores/",
+          "source_name": "Eternal results as reported by Kotak Neo",
+          "source_date": "2026-10-21"
+        },
+        {
+          "claim": "Datum Intelligence estimates Blinkit at 3.4-3.6 million orders a day in August 2026, about 37% of the roughly 9.5 million daily orders across six platforms (share is this report's own calculation from Datum's ranges).",
+          "metric_type": "other",
+          "value": "3.4-3.6 million orders a day (estimate)",
+          "period": "August 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "source_name": "Datum Intelligence via Entrepreneur India",
+          "source_date": "2026-08-18"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-18"
+        },
+        {
+          "claim": "blinkit.com received an estimated 21.43M visits from India in October 2026 (96.57% of 22.19M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "21.43M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/blinkit.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "blinkit.com returned a security check to automated access, so product pages could not be read. Blinkit's own Google Play listing (rendered 2026-11-26) describes 30,000+ products and names Garnier, Nivea, Colgate and Lakmé; other checklist brands are UNVERIFIED.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en&gl=in"
+        ]
+      },
+      "product_coverage_note": "Company-stated 30,000+ products; personal care is a listed category. The split between own inventory and marketplace sellers was not verified.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public API documentation was found; a seller site (seller.blinkit.com) exists but returned HTTP 403 to automated access.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Prices and availability vary by dark store and are shown in-app; data would come from brand-partner reporting or an authorised vendor (1DigitalStack states that it tracks Blinkit).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "₹20,940 crore of quarterly net order value and the largest share of quick-commerce orders."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Leader of the channel that now carries about 16% of online beauty and personal care (Redseer)."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "100M+ install band and an estimated 3.4-3.6 million orders a day."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Three checklist brands named in its own listing; product pages not verifiable."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found, app-centric and bot-protected."
+        }
+      },
+      "weighted_score": 3.45,
+      "priority_rank": 4,
+      "is_top3": false,
+      "priority_rationale": "Highest-ranked quick-commerce platform, in the channel growing fastest for replenishment purchases such as shampoo, soap and toothpaste. Reservation: data access depends on a vendor or the platform's own brand reporting.",
+      "confidence": "medium",
+      "confidence_note": "Order value, stores, installs and order estimates are verified; brand presence rests on the app listing only.",
+      "sources": [
+        {
+          "url": "https://redseer.com/articles/beauty-personal-care-in-quick-commerce/",
+          "title": "Beauty & Personal Care in Quick Commerce",
+          "publisher": "Redseer Strategy Consultants",
+          "published_date": "2026-03-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://inc42.com/?p=559697",
+          "title": "Blinkit Commands 50% Of Indian Quick Commerce Market: Deepinder Goyal",
+          "publisher": "Inc42",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1digitalstack.ai/",
+          "title": "1DigitalStack — The Operating System for Global E-Commerce Growth",
+          "publisher": "1DigitalStack",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.kotakneo.com/news/stocks/eternal-q2-results-profit-rises-revenue-growth-blinkit-adds-stores/",
+          "title": "Eternal Q2 Results FY27: Profit Jumps 92% To ₹125 Crore, Revenue Rises 78%; Blinkit Adds 308 Stores",
+          "publisher": "Kotak Neo",
+          "published_date": "2026-10-21",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "title": "Blinkit Leads India's QCom space as Average Daily Orders Shoot Up: Report",
+          "publisher": "Entrepreneur India",
+          "published_date": "2026-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en&gl=in",
+          "title": "Blinkit: Groceries & more - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/blinkit.com/overview/",
+          "title": "blinkit.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "BigBasket (bigbasket.com)",
+      "website": "https://www.bigbasket.com",
+      "operator": "BigBasket (Tata Digital)",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Online grocer with scheduled and quick delivery; its brand sitemap contains brand pages for every checklist brand. Growth has slowed (FY26 revenue +7.7%) as quick-commerce rivals expand.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: health products were not checked.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on FY26 revenue of ₹8,223 crore, an estimated 0.5-0.6 million orders a day and a 100M+ install band.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "BigBasket's consumer arm reported turnover of ₹8,223 crore and a loss of ₹3,073 crore for FY26, per the Tata Sons annual report as cited by Inc42; a search-result summary of another report puts revenue growth at 7.7%.",
+          "metric_type": "revenue",
+          "value": "₹8,223 crore (FY26, consumer arm)",
+          "period": "FY2026 (year to March 2026)",
+          "nature": "company_reported",
+          "source_url": "https://inc42.com/buzz/tata-digital-posts-nearly-%e2%82%b95000-cr-loss-in-fy26-as-bigbasket-bleeds/",
+          "source_name": "Tata Sons annual report via Inc42",
+          "source_date": "2026-07-28"
+        },
+        {
+          "claim": "Datum Intelligence estimates BigBasket at 500,000-600,000 orders a day in August 2026.",
+          "metric_type": "other",
+          "value": "0.5-0.6 million orders a day (estimate)",
+          "period": "August 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "source_name": "Datum Intelligence via Entrepreneur India",
+          "source_date": "2026-08-18"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-19"
+        },
+        {
+          "claim": "bigbasket.com received an estimated 7.01M visits from India in October 2026 (93.71% of 7.48M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "7.01M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/bigbasket.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified from BigBasket's own published brand-page sitemap (8,547 brand URLs; plain fetch 2026-11-26): brand pages exist for Dove, Pantene, L'Oréal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Sensodyne, Himalaya, Dabur, Parachute and Mamaearth. Product pages returned 'Access Denied' to a headless browser, so live availability and prices were not checked.",
+        "source_urls": [
+          "https://www.bigbasket.com/sitemap/brands.xml"
+        ]
+      },
+      "product_coverage_note": "Brand pages for all thirteen checklist brands; depth not counted.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand and product sitemaps are public, but pages refused a headless browser; price capture would need a vendor or manual work.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "₹8,223 crore of FY26 revenue but slow growth and the smallest order volume of the six quick-commerce players tracked by Datum."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Grocery-led baskets with a full mass personal-care range."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "100M+ install band, about 7 million India web visits and an estimated 0.5-0.6 million orders a day."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Brand pages for all thirteen checklist brands."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemaps; no API; pages bot-protected."
+        }
+      },
+      "weighted_score": 3.3,
+      "priority_rank": 5,
+      "is_top3": false,
+      "priority_rationale": "Complete mass-brand coverage and readable sitemaps make it a useful grocery-channel reference, but momentum has shifted to faster rivals.",
+      "confidence": "medium",
+      "confidence_note": "Sitemap, installs, revenue and order estimate are verified; the growth rate comes from a search-result summary.",
+      "sources": [
+        {
+          "url": "https://yourstory.com/2026/07/bigbasket-losses-widen-as-revenues-grows-marginally",
+          "title": "BigBasket losses widen as revenue grows marginally in FY26",
+          "publisher": "YourStory",
+          "published_date": "2026-07",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://inc42.com/buzz/tata-digital-posts-nearly-%e2%82%b95000-cr-loss-in-fy26-as-bigbasket-bleeds/",
+          "title": "Tata Digital Posts Nearly ₹5,000 Cr Loss In FY26 As BigBasket Bleeds",
+          "publisher": "Inc42",
+          "published_date": "2026-07-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "title": "Blinkit Leads India's QCom space as Average Daily Orders Shoot Up: Report",
+          "publisher": "Entrepreneur India",
+          "published_date": "2026-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&hl=en&gl=in",
+          "title": "bigbasket: Groceries and more - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/bigbasket.com/overview/",
+          "title": "bigbasket.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.bigbasket.com/sitemap/brands.xml",
+          "title": "BigBasket brand-page sitemap (XML)",
+          "publisher": "BigBasket",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "JioMart (jiomart.com)",
+      "website": "https://www.jiomart.com",
+      "operator": "Reliance Retail",
+      "status": "active",
+      "platform_category": "grocery_supermarket",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Reliance Retail's online grocery and general-merchandise platform, served from more than 5,000 stores in over 1,000 cities; JioMart revenue grew 42% year on year in Q2 FY27. Its sitemap lists products from nine checklist brands.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: Reliance's separate online pharmacy Netmeds was not researched in depth.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on 42% revenue growth, a store-fed network of more than 5,000 stores in over 1,000 cities and a 100M+ install band; JioMart sales in rupees are Not publicly disclosed in the source.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Reliance Retail's Q2 FY27 results: JioMart revenue grew 42% year on year, served from a network of more than 5,000 stores across over 1,000 cities; the digital share of B2C grocery revenue rose 270 basis points. JioMart sales value: Not publicly disclosed in the source.",
+          "metric_type": "revenue",
+          "value": "JioMart revenue +42% YoY",
+          "period": "Q2 FY2027 (July-September 2026)",
+          "nature": "company_reported",
+          "source_url": "https://www.devdiscourse.com/article/business/3999685-reliance-retail-q2-fy27-revenue-rises-64-to-rs-91716-crore-profit-at-rs-2619-crore",
+          "source_name": "Reliance Retail results via Devdiscourse (ANI)",
+          "source_date": "2026-10-30"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.jpl.jiomart&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-25"
+        },
+        {
+          "claim": "jiomart.com received an estimated 5.88M visits from India in October 2026 (94.79% of 6.21M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "5.88M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/jiomart.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified from JioMart's own published 'custom' sitemap (906 URLs; plain fetch 2026-11-26): product URLs exist for Dove (3), Garnier (1), Nivea (3), Vaseline (2), Colgate (9), Sensodyne (2), Himalaya (1), Dabur (8) and Parachute (6). Search pages returned 'Access Denied' to a headless browser.",
+        "source_urls": [
+          "https://www.jiomart.com/sitemap/custom.sitemap.xml"
+        ]
+      },
+      "product_coverage_note": "Nine of thirteen checklist brands found in a small sampled sitemap; full depth not counted.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A seller site (seller.jiomart.com) exists but returned HTTP 403 to automated access; no public API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Sitemaps are public, but pages refused a headless browser; price capture would need a vendor or manual work.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Fast-growing (revenue +42%) arm of India's largest retailer; absolute sales not disclosed."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Grocery-led baskets with mass personal care."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "100M+ install band and about 6 million India web visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 5,
+          "note": "Nine of thirteen checklist brands confirmed in a small sitemap sample."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemaps; no API found; pages bot-protected."
+        }
+      },
+      "weighted_score": 3.3,
+      "priority_rank": 6,
+      "is_top3": false,
+      "priority_rationale": "Backed by Reliance Retail's store network (19,947 stores) and growing quickly; a credible second grocery-channel reference alongside BigBasket.",
+      "confidence": "medium",
+      "confidence_note": "Growth, installs and sitemap listings are verified; sales value is not disclosed.",
+      "sources": [
+        {
+          "url": "https://www.devdiscourse.com/article/business/3999685-reliance-retail-q2-fy27-revenue-rises-64-to-rs-91716-crore-profit-at-rs-2619-crore",
+          "title": "Reliance Retail Q2 FY27 revenue rises 6.4% to Rs 91,716 crore, profit at Rs 2,619 crore",
+          "publisher": "Devdiscourse (ANI)",
+          "published_date": "2026-10-30",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.jpl.jiomart&hl=en&gl=in",
+          "title": "JioMart Online Shopping App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/jiomart.com/overview/",
+          "title": "jiomart.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.jiomart.com/sitemap/custom.sitemap.xml",
+          "title": "JioMart custom sitemap (XML)",
+          "publisher": "JioMart (Reliance Retail)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Purplle (purplle.com)",
+      "website": "https://www.purplle.com",
+      "operator": "Purplle",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "high",
+      "beauty_relevance_note": "Value-focused beauty specialist with a strong mass range: its own search showed 123 Dove products, and its app listing names Mamaearth, Lakme, Maybelline, L'Oreal and its own labels (Good Vibes, NY Bae).",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on a 50M+ install band and FY25 operating revenue of ₹1,367 crore (dated: year to March 2025); about 4.2 million India web visits in October 2026. Niche in total Indian online retail.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "purplle.com received an estimated 4.23M visits from India in October 2026 (97.52% of 4.33M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "4.23M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/purplle.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 50M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "50M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.manash.purplle&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-23"
+        },
+        {
+          "claim": "Purplle's FY25 operating revenue more than doubled to ₹1,367 crore; Entrackr adds that the platform 'caters to over 10 million monthly active users' and has nearly 20,000 offline touchpoints (the period ended March 2025 and is dated; FY26 figures were Not found).",
+          "metric_type": "revenue",
+          "value": "₹1,367 crore (FY25); over 10 million monthly active users (company claim)",
+          "period": "FY2025 (year to March 2025; dated)",
+          "nature": "company_reported",
+          "source_url": "https://entrackr.com/fintrackr/purplle-doubles-operating-revenue-to-rs-1367-cr-in-fy25-losses-shrink-11023664",
+          "source_name": "Purplle filings via Entrackr",
+          "source_date": "2026-01-23"
+        }
+      ],
+      "competitor_presence": {
+        "level": "high",
+        "note": "Verified on Purplle's own public search pages (rendered 2026-11-26): the 'dove' page showed 'Showing 123 Products' with prices, and the 'mamaearth' page listed Mamaearth products; the pages also showed Nivea, L'Oreal, Olay, Neutrogena, Lakmé, Maybelline and Biotique as brand filters or products.",
+        "source_urls": [
+          "https://www.purplle.com/search?q=dove",
+          "https://www.purplle.com/search?q=mamaearth"
+        ]
+      },
+      "product_coverage_note": "Deep Dove range (123 products) and Mamaearth confirmed; own-label ranges alongside. The split between own inventory and marketplace sellers was not verified.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public seller or developer API documentation was found; seller onboarding was not researched.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Search pages rendered for an automated browser without a block and show prices and ratings; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Small against the marketplaces; about ₹1,367 crore of revenue in FY25 (dated)."
+        },
+        "beauty_category_relevance": {
+          "score": 4,
+          "note": "Mass and value beauty specialist with deep ranges of checklist brands."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "50M+ install band, a claimed 10 million-plus monthly active users and about 4 million India web visits."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Dove (123 products) and Mamaearth verified; several other mass brands visible."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No API, but public pages are readable."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 7,
+      "is_top3": false,
+      "priority_rationale": "The specialist closest to a mass-market, value positioning and the easiest Indian beauty site to read; a good low-cost early source.",
+      "confidence": "medium",
+      "confidence_note": "On-site listings and installs are verified; the latest revenue figure is dated (FY25).",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/purplle.com/overview/",
+          "title": "purplle.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.manash.purplle&hl=en&gl=in",
+          "title": "Purplle Online Beauty Shopping - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://entrackr.com/fintrackr/purplle-doubles-operating-revenue-to-rs-1367-cr-in-fy25-losses-shrink-11023664",
+          "title": "Purplle doubles operating revenue to Rs 1,367 Cr in FY25; losses shrink",
+          "publisher": "Entrackr",
+          "published_date": "2026-01-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.purplle.com/search?q=dove",
+          "title": "Showing Results For dove | Purplle",
+          "publisher": "Purplle",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.purplle.com/search?q=mamaearth",
+          "title": "Showing Results For mamaearth | Purplle",
+          "publisher": "Purplle",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Meesho (meesho.com)",
+      "website": "https://www.meesho.com",
+      "operator": "Meesho Ltd",
+      "status": "active",
+      "platform_category": "general_marketplace",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Value marketplace with a very large buyer base but mostly unbranded goods; two sampled product sitemaps contained Mamaearth and Himalaya items and none from Dove, Pantene, Garnier, Nivea, Colgate, Dabur or Parachute.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_1",
+      "market_importance_note": "Rests on 284 million annual transacting users and net merchandise value of ₹12,911 crore in the September 2026 quarter; ICICI Securities estimates about 10% of e-commerce GMV.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Meesho reported 284 million annual transacting users (+21%), net merchandise value of ₹12,911 crore (+23%) and 819 million placed orders for Q2 FY27.",
+          "metric_type": "customers",
+          "value": "284 million annual transacting users; ₹12,911 crore NMV (quarter)",
+          "period": "Q2 FY2027 (July-September 2026)",
+          "nature": "company_reported",
+          "source_url": "https://upstox.com/news/market-news/earnings/meesho-q2-fy-27-results-net-loss-narrows-to-132-crore-yo-y-net-merchandise-value-grows-23/article-202569/",
+          "source_name": "Meesho results as reported by Upstox",
+          "source_date": "2026-10-28"
+        },
+        {
+          "claim": "Google Play listing shows the 500M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "500M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.meesho.supply&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-20"
+        },
+        {
+          "claim": "meesho.com received an estimated 54.79M visits from India in October 2026 (95.5% of 57.38M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "54.79M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/meesho.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "ICICI Securities estimates Meesho at about 10% of India's e-commerce GMV (analyst estimate reported by NewsBytes; read from a search-result summary).",
+          "metric_type": "market_share",
+          "value": "about 10% of e-commerce GMV (estimate)",
+          "period": "2026",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.newsbytesapp.com/news/business/flipkart-leads-indias-online-shopping-50-60-gmv-adds-85-million-users/tldr",
+          "source_name": "ICICI Securities via NewsBytes",
+          "source_date": "n.d. (2026)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Checked on Meesho's own published product sitemaps (two of several hundred files sampled, about 24,000 product URLs; plain fetch 2026-11-26): Mamaearth (32 URLs) and Himalaya (27 URLs) were present, counting product URLs whose slug begins with the brand name; no product URLs were found for Dove, Pantene, L'Oréal, Garnier, Head & Shoulders, Nivea, Vaseline, Colgate, Dabur or Parachute in the sample. Search pages returned 'Access Denied'. The sample is small, so absences are indicative only.",
+        "source_urls": [
+          "https://www.meesho.com/sitemap.xml"
+        ]
+      },
+      "product_coverage_note": "Predominantly unbranded value goods; a few Indian mass brands found in a small sample.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "A supplier site (supplier.meesho.com) exists but returned HTTP 403 to automated access; no public API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Product sitemaps are public, but pages refused automated access; price capture would need a vendor or manual work.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 4,
+          "note": "284 million annual transacting users and about 10% of estimated e-commerce GMV."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Mostly unbranded; little evidence of mass-market branded hair, skin or oral care."
+        },
+        "consumer_reach": {
+          "score": 5,
+          "note": "284 million annual transacting users and a 500M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Only Mamaearth and Himalaya found in the sampled sitemaps."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public sitemaps; no API found; pages bot-protected."
+        }
+      },
+      "weighted_score": 3.2,
+      "priority_rank": 8,
+      "is_top3": false,
+      "priority_rationale": "Huge buyer base but weak evidence of branded personal care; relevant mainly for value packs and counterfeit monitoring.",
+      "confidence": "medium",
+      "confidence_note": "User, NMV and install figures are verified; brand presence rests on a small sitemap sample.",
+      "sources": [
+        {
+          "url": "https://upstox.com/news/market-news/earnings/meesho-q2-fy-27-results-net-loss-narrows-to-132-crore-yo-y-net-merchandise-value-grows-23/article-202569/",
+          "title": "Meesho Q2 FY27 results: Net loss narrows to ₹132 crore YoY; net merchandise value grows 23%",
+          "publisher": "Upstox",
+          "published_date": "2026-10-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.meesho.supply&hl=en&gl=in",
+          "title": "Meesho: Online Shopping App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/meesho.com/overview/",
+          "title": "meesho.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.newsbytesapp.com/news/business/flipkart-leads-indias-online-shopping-50-60-gmv-adds-85-million-users/tldr",
+          "title": "Flipkart leads India's online shopping, 50%-60% GMV, adds 8.5 million users",
+          "publisher": "NewsBytes",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.meesho.com/sitemap.xml",
+          "title": "Meesho sitemap index (XML) and sampled product sitemaps /sitemap/pdp/7.xml and /sitemap/pdp/123.xml",
+          "publisher": "Meesho",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Zepto",
+      "website": "https://www.zepto.com",
+      "operator": "Zepto (privately held; IPO paused in July 2026)",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Second-largest quick-commerce platform by estimated orders; its app listing claims 200,000+ products and names Dove, Nivea, Colgate, Mamaearth and Lakmé.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: health products were not checked.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on an estimated 2.4-2.6 million orders a day in August 2026 (Datum Intelligence), about 48 million annual transacting users and 1,139 dark stores per its IPO filing (via Kotak Neo), and a 100M+ install band.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Kotak Neo's summary of Zepto's IPO filing shows 1,139 dark stores, about 48 million annual transacting users (47.97 million in FY26) and NRV of ₹24,816 crore in FY26 (the page does not define NRV and gives two different daily-order averages, 1.75 million and 2.33 million).",
+          "metric_type": "customers",
+          "value": "about 48 million annual transacting users; 1,139 dark stores; NRV ₹24,816 crore (FY26)",
+          "period": "FY2026 (year to March 2026)",
+          "nature": "company_reported",
+          "source_url": "https://www.kotakneo.com/ipo/zepto-ipo/",
+          "source_name": "Zepto IPO filing as summarised by Kotak Neo",
+          "source_date": "n.d."
+        },
+        {
+          "claim": "Datum Intelligence estimates Zepto at 2.4-2.6 million orders a day in August 2026, second to Blinkit.",
+          "metric_type": "other",
+          "value": "2.4-2.6 million orders a day (estimate)",
+          "period": "August 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "source_name": "Datum Intelligence via Entrepreneur India",
+          "source_date": "2026-08-18"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.zeptoconsumerapp&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-20"
+        },
+        {
+          "claim": "zepto.com received an estimated 9.92M visits from India in October 2026 (96.54% of 10.28M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "9.92M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/zepto.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "zepto.com did not render content for an automated browser. Zepto's own Google Play listing (rendered 2026-11-26) describes 2,00,000+ products and names Dove, Nivea, Colgate, Mamaearth and Lakmé; other checklist brands are UNVERIFIED.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.zeptoconsumerapp&hl=en&gl=in"
+        ]
+      },
+      "product_coverage_note": "Company-stated 200,000+ products; four checklist brands named in its own listing. The split between own inventory and marketplace sellers was not verified.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Prices and availability vary by dark store and are shown in-app; data would come from brand-partner reporting or an authorised vendor (1DigitalStack's site refers to its data on Blinkit, Zepto and Instamart).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Second in quick-commerce orders with about 48 million annual transacting users and 1,139 dark stores."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Part of the channel that carries about 16% of online beauty and personal care; smaller than Blinkit."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "100M+ install band, about 48 million annual transacting users and an estimated 2.4-2.6 million orders a day."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Four checklist brands named in its own listing and 200,000+ products claimed; product pages not verifiable."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found; app-centric."
+        }
+      },
+      "weighted_score": 3.15,
+      "priority_rank": 9,
+      "is_top3": false,
+      "priority_rationale": "Second quick-commerce platform to add after Blinkit. Reservation: Zepto is private, so its figures come from an IPO-filing summary and third-party estimates; it received SEBI's observation letter in May 2026 and paused its IPO in July 2026, with a listing now expected between February and May 2027.",
+      "confidence": "medium",
+      "confidence_note": "Installs, traffic, a third-party order estimate and IPO-filing metrics (via a broker summary) are available; brand presence rests on the app listing only.",
+      "sources": [
+        {
+          "url": "https://india.entrepreneur.com/news-and-trends/quick-commerce-firm-zepto-secures-sebi-nod-for-usd-13-bn/503954",
+          "title": "Quick Commerce Firm Zepto Secures SEBI Nod for USD 1.3 Bn IPO",
+          "publisher": "Entrepreneur India",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://redseer.com/articles/beauty-personal-care-in-quick-commerce/",
+          "title": "Beauty & Personal Care in Quick Commerce",
+          "publisher": "Redseer Strategy Consultants",
+          "published_date": "2026-03-04",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1digitalstack.ai/",
+          "title": "1DigitalStack — The Operating System for Global E-Commerce Growth",
+          "publisher": "1DigitalStack",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.kotakneo.com/ipo/zepto-ipo/",
+          "title": "Zepto IPO Details",
+          "publisher": "Kotak Neo",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "title": "Blinkit Leads India's QCom space as Average Daily Orders Shoot Up: Report",
+          "publisher": "Entrepreneur India",
+          "published_date": "2026-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zeptoconsumerapp&hl=en&gl=in",
+          "title": "Zepto: Groceries in minutes - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/zepto.com/overview/",
+          "title": "zepto.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Myntra (myntra.com)",
+      "website": "https://www.myntra.com",
+      "operator": "Myntra (Flipkart group)",
+      "status": "active",
+      "platform_category": "department_store_fashion",
+      "marketplace_type": "third_party_marketplace",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Fashion marketplace with a growing beauty section; press reports say beauty is its highest unit-driving category at about 20% of units sold, and its app listing names Loreal, Lakme, Maybelline and Biotique. Its focus is cosmetics and premium beauty rather than FMCG personal care.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on about 53 million India web visits in October 2026, a 100M+ install band and FY26 revenue from operations of about ₹5,243 crore.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "myntra.com received an estimated 53.15M visits from India in October 2026 (91.53% of 58.06M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "53.15M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/myntra.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.myntra.android&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-22"
+        },
+        {
+          "claim": "Myntra reported FY26 revenue from operations of ₹5,242.5 crore according to its filings (₹6,063.8 crore in FY25; excluding logistics revenue it rose 12% to ₹4,123.3 crore).",
+          "metric_type": "revenue",
+          "value": "₹5,242.5 crore (FY26)",
+          "period": "FY2026 (year to March 2026)",
+          "nature": "company_reported",
+          "source_url": "https://apparelresources.com/business-news/retail/myntra-reports-rs-5242-5-crore-revenue-fy26/",
+          "source_name": "Myntra filings via Apparel Resources",
+          "source_date": "2026-10-16"
+        },
+        {
+          "claim": "Press report: beauty is Myntra's highest unit-driving category, contributing about 20% of units sold on the platform (read from a search-result summary).",
+          "metric_type": "other",
+          "value": "about 20% of units sold are beauty",
+          "period": "n.d.",
+          "nature": "company_reported",
+          "source_url": "https://www.whalesbook.com/news/English/consumer-products/Myntras-Beauty-Powerhouse-20percent-Sales-Surge-Fueled-by-Gen-Z-and-Global-Brands/6930e03f65a9badb9b76ed9f",
+          "source_name": "Myntra via Whalesbook",
+          "source_date": "n.d."
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "myntra.com returned a maintenance or error page to automated access, so product pages could not be checked. Myntra's own Google Play listing (rendered 2026-11-26) names Loreal, Lakme, Maybelline, Biotique, Beardo and Innisfree; the other checklist brands are UNVERIFIED.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.myntra.android&hl=en&gl=in"
+        ]
+      },
+      "product_coverage_note": "Cosmetics and premium beauty confirmed in its own listing; FMCG personal care not verified.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public API documentation was found; the partner page returned a maintenance message.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Site refused automated access and no API was found; data would need a vendor or manual checks.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "Leading fashion marketplace with about 53 million India web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Beauty is about 20% of units sold, weighted towards cosmetics and premium."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "About 53 million India web visits in October 2026 and a 100M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "One checklist brand plus Lakme, Maybelline and Biotique named in its own listing."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found and the site refused automated access."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 10,
+      "is_top3": false,
+      "priority_rationale": "Relevant for make-up and premium lines sold alongside fashion; secondary for mass hair, skin and oral care.",
+      "confidence": "low",
+      "confidence_note": "Traffic, installs and revenue are verified; the beauty mix comes from a search-result summary and the site could not be read.",
+      "sources": [
+        {
+          "url": "https://yourstory.com/2025/08/myntra-harnessing-m-now-double-down-d2c-beauty-segment",
+          "title": "Myntra is harnessing M-Now to double down on its D2C beauty segment",
+          "publisher": "YourStory",
+          "published_date": "2025-08",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/myntra.com/overview/",
+          "title": "myntra.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.myntra.android&hl=en&gl=in",
+          "title": "Myntra - Fashion Shopping App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-22",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apparelresources.com/business-news/retail/myntra-reports-rs-5242-5-crore-revenue-fy26/",
+          "title": "Myntra reports Rs 5,242.5 crore revenue in FY26",
+          "publisher": "Apparel Resources",
+          "published_date": "2026-10-16",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.whalesbook.com/news/English/consumer-products/Myntras-Beauty-Powerhouse-20percent-Sales-Surge-Fueled-by-Gen-Z-and-Global-Brands/6930e03f65a9badb9b76ed9f",
+          "title": "Myntra's Beauty Powerhouse: 20% Sales Surge Fueled by Gen Z and Global Brands",
+          "publisher": "Whalesbook",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Swiggy Instamart",
+      "website": "https://www.swiggy.com/instamart",
+      "operator": "Swiggy Ltd",
+      "status": "active",
+      "platform_category": "quick_commerce",
+      "marketplace_type": "hybrid_1p_3p",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Third-largest quick-commerce platform by estimated orders, with 14.8 million monthly transacting users; personal-care assortment could not be verified.",
+      "pharmacy_relevance": "low",
+      "pharmacy_relevance_note": "UNVERIFIED: health products were not checked.",
+      "estimated_market_importance": "tier_2",
+      "market_importance_note": "Rests on net order value of ₹6,594 crore, 130 million orders and 14.8 million monthly transacting users in the September 2026 quarter, from 1,240 dark stores in 133 cities.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "Instamart's Q2 FY27 net order value was ₹6,594 crore with 130 million orders (+29.3%), 14.8 million monthly transacting users (+23%) and 1,240 dark stores across 133 cities.",
+          "metric_type": "gmv",
+          "value": "₹6,594 crore net order value (quarter); 14.8 million monthly transacting users",
+          "period": "Q2 FY2027 (July-September 2026)",
+          "nature": "company_reported",
+          "source_url": "https://inc42.com/features/growth-vs-profitability-swiggys-tug-of-war/",
+          "source_name": "Swiggy results as reported by Inc42",
+          "source_date": "2026-10-26"
+        },
+        {
+          "claim": "Datum Intelligence estimates Swiggy Instamart at 1.3-1.45 million orders a day in August 2026.",
+          "metric_type": "other",
+          "value": "1.3-1.45 million orders a day (estimate)",
+          "period": "August 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "source_name": "Datum Intelligence via Entrepreneur India",
+          "source_date": "2026-08-18"
+        },
+        {
+          "claim": "Google Play listing shows the 100M+ install band for the Android app (cumulative installs, not active users; the app also covers food delivery and dining).",
+          "metric_type": "app_users",
+          "value": "100M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-19"
+        },
+        {
+          "claim": "swiggy.com received an estimated 14.35M visits from India in October 2026 (94.41% of 15.2M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "14.35M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/swiggy.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        }
+      ],
+      "competitor_presence": {
+        "level": "unknown",
+        "note": "UNVERIFIED. The Instamart web page returned an error message to an automated browser, and Swiggy's Google Play listing names only grocery examples.",
+        "source_urls": []
+      },
+      "product_coverage_note": "Not verified.",
+      "data_access_method": "third_party_data_provider",
+      "api_availability": {
+        "public_seller_api": "unknown",
+        "note": "No public API documentation was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "low",
+      "data_collection_feasibility_note": "Prices and availability vary by dark store and are shown in-app; data would come from brand-partner reporting or an authorised vendor (1DigitalStack states that it tracks Instamart).",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 3,
+          "note": "₹6,594 crore of quarterly net order value, about a third of Blinkit's."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Part of the channel that carries about 16% of online beauty and personal care; assortment UNVERIFIED."
+        },
+        "consumer_reach": {
+          "score": 4,
+          "note": "14.8 million monthly transacting users and a 100M+ install band for the Swiggy app."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "UNVERIFIED; neutral score."
+        },
+        "data_integration_feasibility": {
+          "score": 2,
+          "note": "No API found; app-centric."
+        }
+      },
+      "weighted_score": 3.0,
+      "priority_rank": 11,
+      "is_top3": false,
+      "priority_rationale": "Third quick-commerce platform; add after Blinkit and Zepto. Its order share has been falling relative to the two leaders according to search-result summaries of Zepto's draft prospectus.",
+      "confidence": "medium",
+      "confidence_note": "Order value, users and stores are verified; assortment is not.",
+      "sources": [
+        {
+          "url": "https://upstox.com/news/market-news/earnings/swiggy-q2-results-loss-narrows-yo-y-to-922-crore-revenue-surges-36-check-numbers/article-202243/",
+          "title": "Swiggy Q2 results: Loss narrows YoY to ₹922 crore, revenue surges 36%",
+          "publisher": "Upstox",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://apparelresources.com/business-news/retail/instamarts-share-among-q-commerce-players-declines-34-21-2-years/",
+          "title": "Instamart's share among q-commerce players declines from 34% to 21% in 2 years",
+          "publisher": "Apparel Resources",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1digitalstack.ai/",
+          "title": "1DigitalStack — The Operating System for Global E-Commerce Growth",
+          "publisher": "1DigitalStack",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://inc42.com/features/growth-vs-profitability-swiggys-tug-of-war/",
+          "title": "Growth Vs Profitability: Swiggy's Tug-Of-War",
+          "publisher": "Inc42",
+          "published_date": "2026-10-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://india.entrepreneur.com/business-news/blinkit-leads-indias-qcom-space-as-average-daily-orders-shoot-up-report",
+          "title": "Blinkit Leads India's QCom space as Average Daily Orders Shoot Up: Report",
+          "publisher": "Entrepreneur India",
+          "published_date": "2026-08-18",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en&gl=in",
+          "title": "Swiggy: Food Instamart Dineout - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-19",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/swiggy.com/overview/",
+          "title": "swiggy.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Tira (tirabeauty.com)",
+      "website": "https://www.tirabeauty.com",
+      "operator": "Reliance Retail",
+      "status": "active",
+      "platform_category": "beauty_specialist",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "medium",
+      "beauty_relevance_note": "Reliance Retail's omnichannel beauty retailer (28 stores in April 2026; 'over 1,000' brands per its app listing) with a premium lean; its brand sitemap includes L'Oréal Paris, Garnier, Nivea, Vaseline, Himalaya and Mamaearth but not Dove, Pantene, Colgate, Sensodyne, Dabur or Parachute.",
+      "pharmacy_relevance": "none",
+      "pharmacy_relevance_note": "No pharmacy offer was found in the sources read.",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on about 5.9 million India web visits in October 2026, a 10M+ install band and 28 stores; sales are Not publicly disclosed.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "tirabeauty.com received an estimated 5.94M visits from India in October 2026 (98.02% of 6.06M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "5.94M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/tirabeauty.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 10M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "10M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ril.tira&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-20"
+        },
+        {
+          "claim": "BeautyMatter reports that Tira, the beauty arm of Reliance Retail, has 28 physical stores and aims for triple-digit stores within four years.",
+          "metric_type": "stores",
+          "value": "28 stores",
+          "period": "April 2026",
+          "nature": "company_reported",
+          "source_url": "https://www.beautymatter.com/articles/how-tira-is-shaping-the-next-chapter-of-beauty-in-india",
+          "source_name": "Tira via BeautyMatter",
+          "source_date": "2026-04-26"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified from Tira's own published brand sitemap (200 brand URLs; plain fetch 2026-11-26): l-oreal-paris, garnier, nivea, vaseline, himalaya, mamaearth, maybelline-new-york, neutrogena, minimalist and plum are listed; no entries for Dove, Pantene, Head & Shoulders, Colgate, Sensodyne, Dabur or Parachute. Product pages returned 'Access Denied'.",
+        "source_urls": [
+          "https://www.tirabeauty.com/sitemap/brand.sitemap.xml"
+        ]
+      },
+      "product_coverage_note": "Six of thirteen checklist brands plus premium and Korean beauty.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Brand sitemap is public, but product pages refused automated access; price capture would need a vendor or manual work.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Emerging specialist; about 5.9 million India web visits and 28 stores."
+        },
+        "beauty_category_relevance": {
+          "score": 3,
+          "note": "Beauty specialist with a premium lean; several mass skin and hair brands listed."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 5.9 million India web visits and a 10M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 4,
+          "note": "Six of thirteen checklist brands in its brand sitemap."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "Public brand sitemap; no API; pages bot-protected."
+        }
+      },
+      "weighted_score": 2.75,
+      "priority_rank": 12,
+      "is_top3": false,
+      "priority_rationale": "Emerging challenger to Nykaa backed by Reliance; watch rather than prioritise.",
+      "confidence": "medium",
+      "confidence_note": "Sitemap, installs and store count are verified; sales are not disclosed.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/tirabeauty.com/overview/",
+          "title": "tirabeauty.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.ril.tira&hl=en&gl=in",
+          "title": "Tira: Online Beauty Shopping - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-20",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.beautymatter.com/articles/how-tira-is-shaping-the-next-chapter-of-beauty-in-india",
+          "title": "How Tira Is Shaping the Next Chapter of Beauty in India",
+          "publisher": "BeautyMatter",
+          "published_date": "2026-04-26",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.tirabeauty.com/sitemap/brand.sitemap.xml",
+          "title": "Tira brand sitemap (XML)",
+          "publisher": "Tira (Reliance Retail)",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Apollo Pharmacy / Apollo 24|7 (apollopharmacy.in)",
+      "website": "https://www.apollopharmacy.in",
+      "operator": "Apollo Pharmacy / Apollo 24|7 (Apollo Hospitals group)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Omnichannel pharmacy with personal care, skin care and oral care in its navigation; its search listed Dove products. Beauty is incidental to health purchases.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Describes itself as India's largest omnichannel pharmacy app, with 19-minute delivery of health essentials in six cities and 60,000+ SKUs (company claims).",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on about 18 million India web visits in October 2026 and a 10M+ install band; an unattributed estimate from mid-2025 put Apollo at about 18% of online pharmacy sales. Online sales: Not found. A vertical player in total Indian online retail.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "apollopharmacy.in received an estimated 17.93M visits from India in October 2026 (95.17% of 18.84M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "17.93M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/apollopharmacy.in/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 10M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "10M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.apollo.patientapp&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-25"
+        },
+        {
+          "claim": "By mid-2025 PharmEasy and Tata 1mg together held about 55% of online pharmacy sales and Apollo Pharmacy about 18% (unattributed estimate reported by Whalesbook, whose page warns that some content may be AI-generated; low reliability; about 17 months old).",
+          "metric_type": "market_share",
+          "value": "about 18% of online pharmacy sales (estimate)",
+          "period": "Mid-2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.whalesbook.com/news/English/healthcarebiotech/India-Pharma-Retail-Wellness-Boom-Outpaces-Quick-Commerce/69f42e6e08235f0c2a3e1a0b",
+          "source_name": "Whalesbook",
+          "source_date": "2026-05-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on Apollo Pharmacy's own public search page for 'dove' (rendered 2026-11-26): Dove was named 25 times among the results. A search for 'colgate' did not return readable results, and other checklist brands were not checked.",
+        "source_urls": [
+          "https://www.apollopharmacy.in/search-medicines/dove"
+        ]
+      },
+      "product_coverage_note": "Dove range confirmed; personal care, skin care and oral care are navigation categories.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Search pages rendered for an automated browser without a block; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy vertical; about 18 million India web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Personal care is incidental to pharmacy purchases."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 18 million India web visits in October 2026 and a 10M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Dove verified; other checklist brands not confirmed."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No API, but public pages are readable."
+        }
+      },
+      "weighted_score": 2.55,
+      "priority_rank": 13,
+      "is_top3": false,
+      "priority_rationale": "Pharmacy channel of secondary importance for mass beauty; relevant mainly where a health positioning matters.",
+      "confidence": "low",
+      "confidence_note": "Traffic, installs and one brand check are verified; sales and share are not.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/apollopharmacy.in/overview/",
+          "title": "apollopharmacy.in Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.apollo.patientapp&hl=en&gl=in",
+          "title": "Apollo 247 - Health & Medicine - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.whalesbook.com/news/English/healthcarebiotech/India-Pharma-Retail-Wellness-Boom-Outpaces-Quick-Commerce/69f42e6e08235f0c2a3e1a0b",
+          "title": "India Pharma Retail: Wellness Boom Outpaces Quick Commerce",
+          "publisher": "Whalesbook",
+          "published_date": "2026-05-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.apollopharmacy.in/search-medicines/dove",
+          "title": "Apollo Pharmacy on-site search results: dove",
+          "publisher": "Apollo Pharmacy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "Tata 1mg (1mg.com)",
+      "website": "https://www.1mg.com",
+      "operator": "Tata 1mg (Tata Digital)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Online pharmacy whose search shows a sizeable personal-care range (brand filter 'Dove 90'; Himalaya products); beauty is incidental to health purchases.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Describes itself as an online pharmacy and healthcare app delivering medicines in 1,000+ cities (company claim).",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on about 24 million India web visits in October 2026, FY26 revenue of about ₹2,936 crore and a 10M+ install band. A vertical player in total Indian online retail.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "1mg.com received an estimated 23.82M visits from India in October 2026 (92.64% of 25.71M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "23.82M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/1mg.com/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 10M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "10M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.aranoah.healthkart.plus&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-23"
+        },
+        {
+          "claim": "Tata 1mg's FY26 consolidated revenue was ₹2,936 crore (+23%) with a consolidated net loss of ₹287 crore.",
+          "metric_type": "revenue",
+          "value": "₹2,936 crore (FY26)",
+          "period": "FY2026 (year to March 2026)",
+          "nature": "company_reported",
+          "source_url": "https://lapaasvoice.com/tata-1mg-revenue-nears-%e2%82%b93000-crore-in-fy26-loss-down-to-%e2%82%b9287-crore/",
+          "source_name": "Tata 1mg figures via Lapaas Voice",
+          "source_date": "2026-07-28"
+        },
+        {
+          "claim": "By mid-2025 PharmEasy and Tata 1mg together held about 55% of online pharmacy sales (unattributed estimate reported by Whalesbook, whose page warns that some content may be AI-generated; low reliability; about 17 months old).",
+          "metric_type": "market_share",
+          "value": "about 55% of online pharmacy sales, combined with PharmEasy (estimate)",
+          "period": "Mid-2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.whalesbook.com/news/English/healthcarebiotech/India-Pharma-Retail-Wellness-Boom-Outpaces-Quick-Commerce/69f42e6e08235f0c2a3e1a0b",
+          "source_name": "Whalesbook",
+          "source_date": "2026-05-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "medium",
+        "note": "Verified on Tata 1mg's own public search pages (rendered 2026-11-26): the 'dove' search showed a brand filter 'Dove 90', and the 'himalaya' search named Himalaya 54 times; the app listing also names Himalaya and Dabur. Other checklist brands were not checked.",
+        "source_urls": [
+          "https://www.1mg.com/search/all?name=dove",
+          "https://www.1mg.com/search/all?name=himalaya",
+          "https://play.google.com/store/apps/details?id=com.aranoah.healthkart.plus&hl=en&gl=in"
+        ]
+      },
+      "product_coverage_note": "About 90 Dove products and a Himalaya range confirmed.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Search pages rendered for an automated browser without a block; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy vertical; about ₹2,936 crore of FY26 revenue."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Personal care is incidental to pharmacy purchases."
+        },
+        "consumer_reach": {
+          "score": 3,
+          "note": "About 24 million India web visits in October 2026 and a 10M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 3,
+          "note": "Dove (about 90 products) and Himalaya verified; Dabur named in its listing."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No API, but public pages are readable."
+        }
+      },
+      "weighted_score": 2.55,
+      "priority_rank": 14,
+      "is_top3": false,
+      "priority_rationale": "Largest online-pharmacy web audience in the set; secondary for mass beauty but easy to read.",
+      "confidence": "medium",
+      "confidence_note": "Traffic, installs, revenue and on-site listings are verified; the market-share estimate is unattributed.",
+      "sources": [
+        {
+          "url": "https://www.semrush.com/website/1mg.com/overview/",
+          "title": "1mg.com Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.aranoah.healthkart.plus&hl=en&gl=in",
+          "title": "TATA 1mg Online Healthcare App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-23",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://lapaasvoice.com/tata-1mg-revenue-nears-%e2%82%b93000-crore-in-fy26-loss-down-to-%e2%82%b9287-crore/",
+          "title": "Tata 1mg revenue nears ₹3,000 crore in FY26, loss down to ₹287 crore",
+          "publisher": "Lapaas Voice",
+          "published_date": "2026-07-28",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.whalesbook.com/news/English/healthcarebiotech/India-Pharma-Retail-Wellness-Boom-Outpaces-Quick-Commerce/69f42e6e08235f0c2a3e1a0b",
+          "title": "India Pharma Retail: Wellness Boom Outpaces Quick Commerce",
+          "publisher": "Whalesbook",
+          "published_date": "2026-05-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1mg.com/search/all?name=dove",
+          "title": "Tata 1mg on-site search results: dove",
+          "publisher": "Tata 1mg",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.1mg.com/search/all?name=himalaya",
+          "title": "Tata 1mg on-site search results: himalaya",
+          "publisher": "Tata 1mg",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    },
+    {
+      "name": "PharmEasy (pharmeasy.in)",
+      "website": "https://pharmeasy.in",
+      "operator": "PharmEasy (API Holdings)",
+      "status": "active",
+      "platform_category": "pharmacy_health",
+      "marketplace_type": "first_party_retailer",
+      "beauty_relevance": "low",
+      "beauty_relevance_note": "Online pharmacy; a search for 'dove' returned a page titled 'Order DOVE Online', but the first results were other body-wash and pharmacy brands, so the mass personal-care range looks thin.",
+      "pharmacy_relevance": "high",
+      "pharmacy_relevance_note": "Describes itself as one of India's top online pharmacy apps, 'trusted by 4 crore+ families' with delivery across 1,200+ cities (company claims).",
+      "estimated_market_importance": "tier_3",
+      "market_importance_note": "Rests on about 6 million India web visits in October 2026 and a 10M+ install band; current revenue was Not found.",
+      "consumer_reach_evidence": [
+        {
+          "claim": "pharmeasy.in received an estimated 5.99M visits from India in October 2026 (86.72% of 6.91M visits worldwide; web visits only, app usage excluded).",
+          "metric_type": "monthly_visits",
+          "value": "5.99M",
+          "period": "October 2026",
+          "nature": "third_party_estimate",
+          "source_url": "https://www.semrush.com/website/pharmeasy.in/overview/",
+          "source_name": "Semrush",
+          "source_date": "2026-10 (data month)"
+        },
+        {
+          "claim": "Google Play listing shows the 10M+ install band for the Android app (cumulative installs, not active users).",
+          "metric_type": "app_users",
+          "value": "10M+ installs (Google Play band)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "third_party_estimate",
+          "source_url": "https://play.google.com/store/apps/details?id=com.phonegap.rxpal&hl=en&gl=in",
+          "source_name": "Google Play (public install band)",
+          "source_date": "2026-11-25"
+        },
+        {
+          "claim": "PharmEasy's app listing says it is 'trusted by 4 crore+ families' (40 million) and delivers across 1,200+ cities and 19,000+ pin codes (company claim, not an active-user count).",
+          "metric_type": "customers",
+          "value": "4 crore+ (40 million+) families (company claim)",
+          "period": "as displayed on 2026-11-26",
+          "nature": "company_reported",
+          "source_url": "https://play.google.com/store/apps/details?id=com.phonegap.rxpal&hl=en&gl=in",
+          "source_name": "PharmEasy (Google Play listing)",
+          "source_date": "2026-11-25"
+        },
+        {
+          "claim": "By mid-2025 PharmEasy and Tata 1mg together held about 55% of online pharmacy sales (unattributed estimate reported by Whalesbook, whose page warns that some content may be AI-generated; low reliability; about 17 months old).",
+          "metric_type": "market_share",
+          "value": "about 55% of online pharmacy sales, combined with Tata 1mg (estimate)",
+          "period": "Mid-2025",
+          "nature": "analyst_estimate",
+          "source_url": "https://www.whalesbook.com/news/English/healthcarebiotech/India-Pharma-Retail-Wellness-Boom-Outpaces-Quick-Commerce/69f42e6e08235f0c2a3e1a0b",
+          "source_name": "Whalesbook",
+          "source_date": "2026-05-01"
+        }
+      ],
+      "competitor_presence": {
+        "level": "low",
+        "note": "Checked on PharmEasy's own public search page for 'dove' (rendered 2026-11-26): the page is titled 'Order DOVE Online - PharmEasy' and mentions Dove 18 times, but the leading results were Sebamed, Moisturex and pharmacy items. Other checklist brands were not checked.",
+        "source_urls": [
+          "https://pharmeasy.in/search/all?name=dove"
+        ]
+      },
+      "product_coverage_note": "Thin mass personal-care range on the sampled page.",
+      "data_access_method": "public_web_pages",
+      "api_availability": {
+        "public_seller_api": "no",
+        "note": "No public seller or developer API was found.",
+        "docs_url": null
+      },
+      "data_collection_feasibility": "medium",
+      "data_collection_feasibility_note": "Search pages rendered for an automated browser without a block; no API.",
+      "priority_scores": {
+        "ecommerce_significance": {
+          "score": 2,
+          "note": "Pharmacy vertical; about 6 million India web visits."
+        },
+        "beauty_category_relevance": {
+          "score": 2,
+          "note": "Personal care is incidental to pharmacy purchases."
+        },
+        "consumer_reach": {
+          "score": 2,
+          "note": "About 6 million India web visits in October 2026 and a 10M+ install band."
+        },
+        "brand_competitor_coverage": {
+          "score": 2,
+          "note": "Dove present but thin; other brands not confirmed."
+        },
+        "data_integration_feasibility": {
+          "score": 3,
+          "note": "No API, but public pages are readable."
+        }
+      },
+      "weighted_score": 2.2,
+      "priority_rank": 15,
+      "is_top3": false,
+      "priority_rationale": "Lowest priority in the India set for mass beauty.",
+      "confidence": "low",
+      "confidence_note": "Traffic, installs and one brand check are verified; revenue and share are not current.",
+      "sources": [
+        {
+          "url": "https://www.whalesbook.com/news/English/healthcarebiotech/India-Pharma-Retail-Wellness-Boom-Outpaces-Quick-Commerce/69f42e6e08235f0c2a3e1a0b",
+          "title": "India Pharma Retail: Wellness Boom Outpaces Quick Commerce",
+          "publisher": "Whalesbook",
+          "published_date": "2026-05-01",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://www.semrush.com/website/pharmeasy.in/overview/",
+          "title": "pharmeasy.in Website Traffic, Ranking, Analytics [October 2026]",
+          "publisher": "Semrush",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.phonegap.rxpal&hl=en&gl=in",
+          "title": "PharmEasy - Healthcare App - Apps on Google Play",
+          "publisher": "Google Play",
+          "published_date": "2026-11-25",
+          "accessed_date": "2026-11-26"
+        },
+        {
+          "url": "https://pharmeasy.in/search/all?name=dove",
+          "title": "Order DOVE Online - PharmEasy",
+          "publisher": "PharmEasy",
+          "published_date": "n.d.",
+          "accessed_date": "2026-11-26"
+        }
+      ],
+      "last_research_date": "2026-11-26"
+    }
+  ]
+}
