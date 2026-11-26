@@ -1,0 +1,16 @@
+import path from 'node:path';
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  resolve: {
+    alias: { '@': path.resolve(import.meta.dirname, 'src') },
+  },
+  test: {
+    environment: 'node',
+    include: ['tests/unit/**/*.test.ts', 'tests/integration/**/*.test.ts'],
+    testTimeout: 60_000,
+    hookTimeout: 120_000,
+    env: { BIE_DB_MEMORY: '1', EMBEDDINGS_PROVIDER: 'none', NODE_ENV: 'test', BIE_RESEARCH_DIR: 'tests/fixtures/no-research-data' },
+    pool: 'forks',
+  },
+});
