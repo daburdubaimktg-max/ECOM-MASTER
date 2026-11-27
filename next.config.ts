@@ -3,6 +3,15 @@ import type { NextConfig } from 'next';
 const isDev = process.env.NODE_ENV !== 'production';
 
 /**
+ * Extra web addresses that may submit forms, for when the app is reached through a tunnel or proxy
+ * that changes the address (for example a Cloudflare link: ALLOWED_ORIGINS=*.trycloudflare.com).
+ */
+const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '')
+  .split(',')
+  .map((v) => v.trim())
+  .filter(Boolean);
+
+/**
  * Security headers applied to every response.
  * The Content-Security-Policy allows inline scripts because the framework needs them without a
  * per-request nonce; a strict nonce-based policy is part of Stage 6 (production hardening).
@@ -36,7 +45,7 @@ const nextConfig: NextConfig = {
   devIndicators: false,
   experimental: {
     // Spreadsheet imports are sent through a server action; allow files up to 4 MB.
-    serverActions: { bodySizeLimit: '4mb' },
+    serverActions: { bodySizeLimit: '4mb', allowedOrigins },
   },
   // These packages contain native code or WebAssembly and must be loaded by Node.js directly.
   serverExternalPackages: [

@@ -6,6 +6,7 @@ import { connection } from 'next/server';
 import { env } from '@/lib/env';
 import type { RequestContext } from './context';
 import { contextFromToken, SESSION_COOKIE, SESSION_COOKIE_MAX_AGE_SECONDS } from './session';
+import { originAllowedByList } from '@/lib/origins';
 
 /** Best-effort client address for the audit log and rate limiting. */
 export async function clientIp(): Promise<string | null> {
@@ -58,7 +59,8 @@ export async function assertSameOrigin(request: Request): Promise<boolean> {
   if (!origin) return request.headers.get('sec-fetch-site') === 'same-origin';
   const host = request.headers.get('x-forwarded-host') ?? request.headers.get('host');
   try {
-    return new URL(origin).host === host;
+    const originHost = new URL(origin).host;
+    return originHost === host || originAllowedByList(originHost, process.env.ALLOWED_ORIGINS);
   } catch {
     return false;
   }

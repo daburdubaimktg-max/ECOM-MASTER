@@ -45,3 +45,8 @@ next-env.d.ts
 /test-results/
 /playwright-report/
 /.data-e2e/
+
+# Office-computer backups of the built-in database
+/backups/
+/.office-build.log
+/.office-app.log

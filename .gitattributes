@@ -1,0 +1,2 @@
+start-office.cmd text eol=crlf
+start-office.command text eol=lf

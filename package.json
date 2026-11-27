@@ -20,6 +20,7 @@
     "db:seed:demo": "tsx scripts/seed-demo.ts",
     "db:reset": "tsx scripts/reset-dev-db.ts",
     "admin:reset-link": "tsx scripts/reset-link.ts",
+    "backup": "tsx scripts/backup.ts",
     "docs:generate": "tsx scripts/generate-research-docs.ts"
   },
   "dependencies": {

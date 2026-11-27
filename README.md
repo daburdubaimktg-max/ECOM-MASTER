@@ -16,7 +16,8 @@ is designed to serve social, advertising and creative work later.
 | Understand the research and the recommendations | [`docs/README.md`](docs/README.md) — the ten deliverables |
 | Run the product on your computer | [`docs/guides/setup.md`](docs/guides/setup.md) |
 | Add brands, products, marketplaces, requirements | [`docs/guides/how-to.md`](docs/guides/how-to.md) |
-| Put it on the internet for your team | [`docs/guides/deployment.md`](docs/guides/deployment.md) |
+| Share it with your team for free from an office computer | [`docs/guides/office-computer.md`](docs/guides/office-computer.md) |
+| Put it on a hosting service | [`docs/guides/deployment.md`](docs/guides/deployment.md) |
 | Know how your data is protected | [`docs/guides/security.md`](docs/guides/security.md) |
 
 ## Run it in three commands
@@ -80,6 +81,7 @@ is connected, and the app contains no marketplace metrics.**
 | `npm run typecheck` / `npm run lint` | Check the code for mistakes |
 | `npm run db:migrate` | Update a PostgreSQL database and load research data (production) |
 | `npm run db:seed:demo` | Add the fictional demonstration brand |
+| `npm run backup` | Back up the built-in database and uploads (stop the app first) |
 | `npm run db:reset -- --yes` | Delete the development database and start again |
 | `npm run admin:reset-link -- you@company.com` | Emergency: create a password-reset link when no Administrator can sign in |
 | `npm run db:generate` | (Developers) create a migration after changing the database design |

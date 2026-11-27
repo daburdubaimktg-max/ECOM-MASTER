@@ -61,7 +61,7 @@ async function Content() {
           <CardHeader index="B" title="Scheduler" />
           <div className="space-y-3 px-5 py-4 text-[13.5px] text-ink-soft">
             <p>
-              <Badge tone={status.schedulerConfigured ? 'verified' : 'estimated'}>{status.schedulerConfigured ? 'Heartbeat secured' : 'Heartbeat not configured'}</Badge>
+              <Badge tone={status.schedulerConfigured ? 'verified' : 'estimated'}>{status.schedulerLabel ?? 'Heartbeat not configured'}</Badge>
             </p>
             <p>
               Recurring work is driven by a scheduler calling a secured address on this server every few minutes. Until one is configured, jobs still run immediately after the action

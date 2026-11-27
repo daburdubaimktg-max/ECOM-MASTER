@@ -59,7 +59,8 @@ export async function systemStatus() {
     databaseMode: mode,
     embeddings,
     maxUploadMb: Math.round(env.maxUploadBytes / 1024 / 1024),
-    schedulerConfigured: Boolean(env.jobsSecret),
+    schedulerConfigured: Boolean(env.jobsSecret) || env.builtInScheduler,
+    schedulerLabel: env.builtInScheduler ? 'Built in · every 5 minutes' : env.jobsSecret ? 'Heartbeat secured' : null,
     storage: 'Local disk on this server',
     production: env.isProduction,
   };
