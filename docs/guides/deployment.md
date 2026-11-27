@@ -17,6 +17,8 @@ Cost estimates are in [Deliverable 8](../product/08-build-vs-buy.md#32-running-c
 | **PostgreSQL 15 or newer with the `vector` and `pg_trgm` extensions** | The database. The built-in development database must not be used for real work |
 | **HTTPS** | Sign-in cookies are only sent over secure connections in production |
 
+> **No budget?** The product can also run free on an office computer, shared with your team through a free Cloudflare link: see [Run it on an office computer](office-computer.md).
+
 ## 2. Choose an approach
 
 | | Managed hosting (**recommended**) | Self-hosting |

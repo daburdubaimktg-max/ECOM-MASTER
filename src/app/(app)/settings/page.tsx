@@ -58,7 +58,7 @@ async function Settings() {
               {status.storage} · up to <span className="num">{status.maxUploadMb} MB</span> per file
             </Definition>
             <Definition term="Scheduler">
-              <Badge tone={status.schedulerConfigured ? 'verified' : 'missing'}>{status.schedulerConfigured ? 'Heartbeat secured' : 'Not configured'}</Badge>
+              <Badge tone={status.schedulerConfigured ? 'verified' : 'missing'}>{status.schedulerLabel ?? 'Not configured'}</Badge>
             </Definition>
             <Definition term="Marketplace integrations">
               <Badge tone="missing">None connected</Badge>

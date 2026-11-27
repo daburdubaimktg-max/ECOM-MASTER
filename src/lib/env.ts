@@ -31,6 +31,10 @@ export const env = {
     return (Number.isFinite(mb) && mb > 0 ? mb : 50) * 1024 * 1024;
   },
   /** Shared secret that lets an external scheduler (cron, n8n) trigger background work. */
+  /** Run background work every five minutes inside the app itself (single-computer installations). */
+  get builtInScheduler(): boolean {
+    return process.env.BUILT_IN_SCHEDULER?.trim().toLowerCase() === 'true';
+  },
   get jobsSecret(): string | undefined {
     const v = process.env.JOBS_SECRET?.trim();
     return v ? v : undefined;

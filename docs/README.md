@@ -31,7 +31,8 @@ If you read only three things:
 |---|---|
 | [Setup](guides/setup.md) | Running the product on your own computer; settings; password recovery |
 | [How-to](guides/how-to.md) | Adding brands, products and marketplaces; updating requirements and research; looking after automation |
-| [Deployment](guides/deployment.md) | Putting the product online for your team |
+| [Office computer](guides/office-computer.md) | Running it free on an office computer, shared through a free Cloudflare link |
+| [Deployment](guides/deployment.md) | Putting the product online on a hosting service |
 | [Security](guides/security.md) | How information is protected and what the system owner must do |
 
 ## Research appendices
