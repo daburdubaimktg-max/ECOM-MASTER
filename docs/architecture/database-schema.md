@@ -2,7 +2,7 @@
 
 # Database schema reference
 
-**Tables:** 64 · **Engine:** PostgreSQL 15+ with the pgvector and pg_trgm extensions · **Source of truth:** `src/db/schema/*.ts` · **Migrations:** `drizzle/*.sql`
+**Tables:** 65 · **Engine:** PostgreSQL 15+ with the pgvector and pg_trgm extensions · **Source of truth:** `src/db/schema/*.ts` · **Migrations:** `drizzle/*.sql`
 
 This is the complete relational design for Phase 1 of the Brand Intelligence Engine. It was created in full in the first build so that later modules plug in without restructuring; the status line under each heading says which parts are in use today.
 
@@ -288,6 +288,36 @@ This is the complete relational design for Phase 1 of the Brand Intelligence Eng
 | `brand_id` | uuid | required | → `brands.id` |
 | `competitor_id` | uuid | required | → `competitors.id` |
 | `created_at` | timestamp with time zone | required |  |
+
+#### `brand_books`
+
+| Column | Type | | Links to |
+|---|---|---|---|
+| `id` | uuid | primary key |  |
+| `organisation_id` | uuid | required | → `organisations.id` |
+| `brand_id` | uuid | required | → `brands.id` |
+| `kind` | text | required |  |
+| `title` | text | required |  |
+| `subtitle` | text | optional |  |
+| `launch_date` | text | optional |  |
+| `market_codes` | jsonb | optional |  |
+| `overview` | text | optional |  |
+| `audience` | text | optional |  |
+| `key_messages` | text | optional |  |
+| `tone_of_voice` | text | optional |  |
+| `dos_and_donts` | text | optional |  |
+| `fonts` | jsonb | required |  |
+| `colours` | jsonb | required |  |
+| `claim_ids` | jsonb | required |  |
+| `asset_ids` | jsonb | required |  |
+| `product_ids` | jsonb | required |  |
+| `status` | text | required |  |
+| `version` | integer | required |  |
+| `approved_by` | uuid | optional | → `users.id` |
+| `approved_at` | timestamp with time zone | optional |  |
+| `created_by` | uuid | optional | → `users.id` |
+| `created_at` | timestamp with time zone | required |  |
+| `updated_at` | timestamp with time zone | required |  |
 
 ## Product catalogue
 
@@ -652,6 +682,9 @@ This is the complete relational design for Phase 1 of the Brand Intelligence Eng
 | `brand_text` | text | optional |  |
 | `category` | text | optional |  |
 | `gtin` | text | optional |  |
+| `size_value` | numeric(12, 3) | optional |  |
+| `size_unit` | text | optional |  |
+| `pack_quantity` | integer | required |  |
 | `comparable_sku_id` | uuid | optional | → `skus.id` |
 | `notes` | text | optional |  |
 | `created_by` | uuid | optional | → `users.id` |

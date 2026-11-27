@@ -257,3 +257,47 @@ export const brandCompetitors = pgTable(
   },
   (t) => [primaryKey({ columns: [t.brandId, t.competitorId] })],
 );
+
+export type BookFont = { name: string; role: string; usage: string | null; link: string | null };
+export type BookColour = { name: string; hex: string; usage: string | null };
+
+/**
+ * Brand books and launch books assembled inside the product from approved knowledge: fonts, colours,
+ * key messages, approved claims, packshots and products. Approval refers to the exact content —
+ * editing an approved book returns it to draft.
+ */
+export const brandBooks = pgTable(
+  'brand_books',
+  {
+    id: id(),
+    organisationId: uuid()
+      .notNull()
+      .references(() => organisations.id, { onDelete: 'cascade' }),
+    brandId: uuid()
+      .notNull()
+      .references(() => brands.id, { onDelete: 'cascade' }),
+    kind: text().$type<'brand_book' | 'launch_book'>().notNull().default('brand_book'),
+    title: text().notNull(),
+    subtitle: text(),
+    launchDate: text(),
+    marketCodes: jsonb().$type<string[]>(),
+    overview: text(),
+    audience: text(),
+    keyMessages: text(),
+    toneOfVoice: text(),
+    dosAndDonts: text(),
+    fonts: jsonb().$type<BookFont[]>().notNull().default([]),
+    colours: jsonb().$type<BookColour[]>().notNull().default([]),
+    claimIds: jsonb().$type<string[]>().notNull().default([]),
+    assetIds: jsonb().$type<string[]>().notNull().default([]),
+    productIds: jsonb().$type<string[]>().notNull().default([]),
+    status: text().$type<'draft' | 'approved'>().notNull().default('draft'),
+    version: integer().notNull().default(1),
+    approvedBy: uuid().references(() => users.id, { onDelete: 'set null' }),
+    approvedAt: timestamptz(),
+    createdBy: uuid().references(() => users.id, { onDelete: 'set null' }),
+    createdAt: createdAt(),
+    updatedAt: updatedAt(),
+  },
+  (t) => [index('brand_books_brand_idx').on(t.brandId)],
+);

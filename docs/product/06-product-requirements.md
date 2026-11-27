@@ -87,8 +87,8 @@ The MVP is the point at which all eighteen criteria below are met with real data
 | 3 | Add products and SKUs | ✅ | One at a time and by spreadsheet with a check-first step. Browser tests "criteria 3 and 4" and "criterion 3 — import" |
 | 4 | Store product information | ✅ | Description, benefits, ingredients, directions, warnings, audience, attributes, markets, identifiers; barcodes validated by check digit |
 | 5 | Map marketplaces by country | ✅ | 130 platforms in nine countries with evidence, sources and a reproducible rank. Browser test "criterion 5" |
-| 6 | Add competitor products | ◐ | Competitor **brands** can be recorded against each brand. Competitor **products** and their listings arrive with monitoring in Stages 3–4 |
-| 7 | Collect or import real product listing data | ○ | Stage 3 — spreadsheet import first, then official connectors |
+| 6 | Add competitor products | ✅ | Competitor brands per brand, and named competitor products with pack size, tracked on any marketplace in Pricing Intelligence. Their listing content arrives with monitoring in Stages 3–4 |
+| 7 | Collect or import real product listing data | ◐ | Prices can be recorded by hand today (Pricing Intelligence). Listing content by spreadsheet and official connectors in Stage 3 |
 | 8 | Store historical snapshots | ○ | Stage 3. Tables exist; marketplace research and requirement sets already keep history |
 | 9 | Audit product titles and descriptions | ○ | Stage 4. The requirements library it will check against is built: 668 sourced rules |
 | 10 | Assess images | ◐ | Uploaded images are verified and measured (format, width, height). Assessment against each retailer's image rules is Stage 4 |
@@ -250,6 +250,26 @@ Each requirement has an identifier so later work can refer to it.
 | RQ-6 | Check listings and drafts against the rules | ○ Stages 4 and 5 |
 | RQ-7 | When a rule set changes, flag affected listings for reassessment | ○ Stage 4 |
 | RQ-8 | Edit rules in the product, with approval | ○ Stage 4 — today rules are maintained as data files ([how-to](../guides/how-to.md#6-update-marketplace-requirements)) |
+
+### 7.5a Brand Books ✅
+
+| ID | Requirement | Status |
+|---|---|:-:|
+| BB-1 | Create brand books and launch books per brand: cover, story, key messages, tone, do's and don'ts, fonts, colours, claims, packshots, products | ✅ |
+| BB-2 | Only approved claims can be placed in a book; restricted claims are listed automatically as "never say"; a claim that stops being approved is left out and flagged | ✅ |
+| BB-3 | Draft → approved by a Brand Manager; editing an approved book returns it to draft with a new version | ✅ |
+| BB-4 | A printable view that saves as PDF from the browser; drafts are marked as drafts | ✅ |
+
+### 7.5b Pricing Intelligence ◐
+
+| ID | Requirement | Status |
+|---|---|:-:|
+| PR-1 | Track our SKUs and named competitor products on any marketplace | ✅ |
+| PR-2 | Record prices with date, currency, regular and promotional price, promotion and source; history is never overwritten | ✅ |
+| PR-3 | Show price per 100 ml / 100 g / item, change since the previous check, and a like-for-like price index against the SKU a competitor product is compared with | ✅ |
+| PR-4 | Never compare across marketplaces, currencies or incomparable units; say why instead. A product with no price shows "not recorded" | ✅ |
+| PR-5 | Prices collected automatically by official connectors or a licensed provider | ○ Stages 3–4 |
+| PR-6 | Price alerts and price trends in the weekly report | ○ Stage 5 |
 
 ### 7.6 Product and SKU mapping ○ Stage 3
 

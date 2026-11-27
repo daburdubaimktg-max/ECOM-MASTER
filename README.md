@@ -51,6 +51,10 @@ This adds a fictional brand, "Demo Botanics", clearly flagged as demonstration d
   validation, marketplace identifiers, attributes, markets; spreadsheet import with a "check first" step.
 - **Documents & media** — upload PDF, Word, PowerPoint, Excel, text, images, videos. Documents are read
   automatically and become searchable; the true file type is verified from the file's contents.
+- **Brand books** — brand books and launch books (fonts, colours, key messages, approved claims,
+  packshots, products), approved by a Brand Manager and printed or saved as PDF.
+- **Pricing intelligence** — your SKUs and competitor products per marketplace, dated price history,
+  price per 100 ml / 100 g and a like-for-like price index.
 - **Knowledge search** — keyword + meaning search in English and Arabic across everything, running on
   your own server, with the source, page and trust label on every result.
 - **Marketplace intelligence** — 130 researched platforms in nine countries, ranked by a published,

@@ -8,6 +8,8 @@ For brand teams and for whoever looks after the product. Each task says who may 
 | Add a brand and its knowledge | [2](#2-add-a-brand-and-its-knowledge) |
 | Add products and SKUs | [3](#3-add-products-and-skus) |
 | Find information | [4](#4-find-information) |
+| Create a brand book or launch book | [4a](#4a-create-a-brand-book-or-launch-book) |
+| Track prices | [5a](#5a-track-prices) |
 | Choose marketplaces and add new ones | [5](#5-choose-marketplaces-and-add-new-ones) |
 | Update marketplace requirements | [6](#6-update-marketplace-requirements) |
 | Refresh the marketplace research | [7](#7-refresh-the-marketplace-research) |
@@ -102,6 +104,27 @@ Importing the same file again is safe: existing products and SKUs are updated, n
 - Tick **Approved knowledge only** when you need something you can rely on in published content.
 - **Open source record** takes you to the original. For documents you can download the file.
 
+## 4a. Create a brand book or launch book
+
+**Who:** Content Editors, Brand Managers and Administrators write books; only Brand Managers and Administrators approve them.
+
+A *brand book* describes the whole brand; a *launch book* describes one new product or range. Both are put together from what the engine already knows, so nothing has to be retyped.
+
+1. **Brand Books → Start a new book.** Choose the brand, the type and a title, and press **Create book**.
+2. Fill in what you need — every part is optional:
+   - **Cover:** subtitle, launch date and markets.
+   - **The story:** what the brand stands for (or what you are launching and why), who it is for, key messages (one per line), tone of voice, do's and don'ts.
+   - **Fonts:** name, what it is used for, how, and a link to where it is licensed. Press *+ Add a font* for more.
+   - **Colours:** name and colour code (the six-character code from the design files, such as `#1F6B4A`). A swatch appears as you type.
+   - **Claims:** tick the claims to include. **Only approved claims are offered.** The brand's restricted claims are added automatically under "Never say".
+   - **Packshots and images:** tick images uploaded under *Brands → Documents & media*. Upload packshots there first.
+   - **Products:** tick products; their names, categories and descriptions come from the Product Catalogue.
+3. Press **Save draft**.
+4. A Brand Manager presses **Approve**. Editing an approved book returns it to draft, with a new version number.
+5. **View and print** shows the finished book. Use your browser's *Print* command and choose *Save as PDF* to share it. A draft is clearly marked "DRAFT — not yet approved" on the printed page.
+
+If a claim in the book later stops being approved, it is left out of the printed book automatically, and the editor tells you which one.
+
 ## 5. Choose marketplaces and add new ones
 
 **Who:** viewing needs any internal role. Recording decisions and adding platforms needs Administrator, Brand Manager or Analyst.
@@ -122,6 +145,37 @@ At the bottom of **Marketplace Intelligence**, under *Add a platform we have not
 ### Add a new country
 
 A new country is a new research file. Follow section 7 and create `data/research/marketplaces/XX.json`, where `XX` is the country's two-letter code. The country appears in the product the next time the research is loaded.
+
+## 5a. Track prices
+
+**Who:** everyone with access to marketplaces can see prices; Administrators, Brand Managers and Analysts record them.
+
+**Pricing Intelligence** keeps a dated history of what your products and your competitors' products cost on each marketplace, and shows who is cheaper per 100 ml, per 100 g or per item.
+
+### Put products on the price board
+
+1. **Pricing Intelligence → Add a product to track.**
+2. Choose **Our product**, the brand, the SKU and the marketplace. Press **Add to price board**.
+3. For a rival, choose **Competitor product**, the competitor brand (added under *Brands → Competitors*), its name, pack size and unit, and — important — **Compare with our SKU**. Choose the same marketplace and press **Add to price board**.
+
+A product with no price yet shows *Not recorded* — never zero.
+
+### Record a price
+
+1. On the price board, open the product.
+2. Enter the date you saw the price, the currency (filled in for the country), the regular price, and the promotional price and promotion if there is one. Say where the price came from: a website check, a seller-portal or retailer report, or a distributor report.
+3. Press **Record price**. Each price is kept as a new dated record; nothing is overwritten.
+
+### Read the board
+
+| Column | Meaning |
+|---|---|
+| Latest price | The price paid at the last check; a promotional price shows the regular price struck through |
+| Per unit | The price per 100 ml, per 100 g or per item, so different pack sizes can be compared ◆ calculated |
+| Change | Up or down since the previous check |
+| Price index | On competitor rows: our price per unit ÷ theirs × 100. **Above 100, we are dearer; below 100, we are cheaper.** Shown only when both are on the same marketplace, in the same currency, with comparable pack sizes — otherwise the reason is shown instead |
+
+When marketplace connections arrive (Stage 3) they will add prices automatically to the same history, labelled with their source. To remove a product from the board, open it and press **Stop tracking**; its history is kept.
 
 ## 6. Update marketplace requirements
 

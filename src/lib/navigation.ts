@@ -13,12 +13,14 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: '/brands', label: 'Brands', icon: 'brands' },
       { href: '/products', label: 'Product Catalogue', icon: 'products' },
       { href: '/knowledge', label: 'Knowledge Search', icon: 'search' },
+      { href: '/books', label: 'Brand Books', icon: 'books' },
     ],
   },
   {
     label: 'Market',
     items: [
       { href: '/marketplaces', label: 'Marketplace Intelligence', icon: 'marketplaces' },
+      { href: '/pricing', label: 'Pricing Intelligence', icon: 'pricing' },
       { href: '/digital-shelf', label: 'Digital Shelf', icon: 'shelf', stage: 3 },
       { href: '/listing-quality', label: 'Listing Quality', icon: 'quality', stage: 4 },
       { href: '/reviews', label: 'Reviews & Ratings', icon: 'reviews', stage: 4 },

@@ -2,7 +2,7 @@
 
 **How the Brand Intelligence Engine is put together, why each part was chosen, how data moves through it and how outside systems connect**
 
-**Date:** 26 November 2026 · **Describes:** Build 1 as built, and the design for Stages 3–6 · **Companion:** [Database schema reference](database-schema.md) (all 64 tables, column by column)
+**Date:** 26 November 2026 · **Describes:** Build 1 as built, and the design for Stages 3–6 · **Companion:** [Database schema reference](database-schema.md) (all 65 tables, column by column)
 
 Parts marked **Built** exist and are tested. Parts marked **Designed** have their database tables in place and a defined place in the code, but no features yet.
 
@@ -138,7 +138,7 @@ The interface hides buttons a role cannot use, but that is never the protection:
 
 ## 5. The data model
 
-Sixty-four tables in seven groups. The full column-by-column reference is generated from the code: [database-schema.md](database-schema.md).
+Sixty-five tables in seven groups. The full column-by-column reference is generated from the code: [database-schema.md](database-schema.md).
 
 ```mermaid
 erDiagram
@@ -172,10 +172,10 @@ erDiagram
 | Group | Tables | In use today |
 |---|---|---|
 | Identity and access | organisations, users, roles, memberships, membership_brand_access, invitations, password_resets, sessions, login_attempts, audit_logs | Yes |
-| Brand knowledge base | brands, brand_guidelines, brand_claims, brand_assets, knowledge_chunks, competitors, brand_competitors | Yes |
+| Brand knowledge base | brands, brand_guidelines, brand_claims, brand_assets, knowledge_chunks, competitors, brand_competitors, brand_books | Yes |
 | Product catalogue | products, product_variants, skus, product_identifiers, product_attributes, product_media, product_market_availability | Yes |
 | Markets, marketplaces and requirements | countries, research_imports, country_research, marketplaces, marketplace_evidence, marketplace_sources, marketplace_research_snapshots, marketplace_settings, brand_marketplace_presence, marketplace_categories, requirement_sets, requirement_rules, marketplace_quality_signals | Yes |
-| Digital shelf observations | data_sources, competitor_products, marketplace_products, sku_marketplace_matches, product_listings, listing_snapshots, listing_images, price_observations, availability_observations, rating_observations, reviews, review_themes, review_theme_assignments, customer_questions, customer_answers | Stage 3–4 (review themes are seeded) |
+| Digital shelf observations (competitor products, marketplace products, listings and prices are used by Pricing Intelligence today) | data_sources, competitor_products, marketplace_products, sku_marketplace_matches, product_listings, listing_snapshots, listing_images, price_observations, availability_observations, rating_observations, reviews, review_themes, review_theme_assignments, customer_questions, customer_answers | Stage 3–4 (review themes are seeded) |
 | Scoring, content and actions | scoring_rules, internal_quality_scores, official_quality_scores, content_versions, content_approvals, recommendations, tasks | Stage 4–5 (scoring rules are seeded) |
 | Automation and reporting | background_jobs, automation_workflows, collection_jobs, collection_logs, reports | background_jobs today; the rest in Stages 3–5 |
 
@@ -433,11 +433,11 @@ Step-by-step instructions, and a clear list of what has and has not been tested,
 | Layer | What it checks | Count |
 |---|---|---|
 | Unit tests | Barcode validation, permission matrix, priority formula, document reading and splitting | 29 |
-| Integration tests | Services against a real PostgreSQL engine: sign-in, sessions and password recovery, brands and products, import, knowledge search, research loading and versioning, the audit trigger | 71 |
-| Browser tests | A full user journey on a production build, including refused actions for a Viewer, cross-site refusal, file-type refusal and password recovery | 21 |
+| Integration tests | Services against a real PostgreSQL engine: sign-in, sessions and password recovery, brands and products, import, knowledge search, research loading and versioning, the audit trigger, pricing and brand books | 80 |
+| Browser tests | A full user journey on a production build, including refused actions for a Viewer, cross-site refusal, file-type refusal, password recovery, pricing and brand books | 23 |
 | Static checks | TypeScript type-check and lint | — |
 
-All 71 integration tests were also run against a real PostgreSQL 16 server with pgvector 0.6.0, not only the built-in engine. Nothing is described as working unless `npm run typecheck && npm run lint && npm test && npm run test:e2e` all pass.
+All 80 integration tests were also run against a real PostgreSQL 16 server with pgvector 0.6.0, not only the built-in engine. Nothing is described as working unless `npm run typecheck && npm run lint && npm test && npm run test:e2e` all pass.
 
 ---
 

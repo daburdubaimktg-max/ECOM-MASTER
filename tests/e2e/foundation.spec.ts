@@ -251,6 +251,86 @@ test('criterion 5 — marketplaces are mapped by country with evidence, a calcul
   await expect(page.getByTestId('platform-row')).toHaveCount(1);
 });
 
+test('pricing — our SKU and a competitor product on one marketplace, compared per 100 ml', async () => {
+  await page.goto('/pricing');
+  await expect(page.getByRole('heading', { name: 'Pricing Intelligence' })).toBeVisible();
+  const amazonAe = page.locator('select[name=marketplaceId] option', { hasText: 'Amazon.ae' }).first();
+  const marketplaceId = await amazonAe.getAttribute('value');
+
+  await page.selectOption('select[name=skuId]', { label: 'Nourishing Hair Oil · Almond · 200 ml · (DB-HO-ALM-200)' });
+  await page.selectOption('select[name=marketplaceId]', marketplaceId!);
+  await save('Add to price board').click();
+  await expect(page.getByTestId('price-row')).toHaveCount(1);
+  await expect(page.getByTestId('price-row').getByText('Not recorded')).toBeVisible();
+
+  await page.getByText('Competitor product', { exact: true }).click();
+  await page.selectOption('select[name=competitorId]', { label: 'Example Rival (demo)' });
+  await page.fill('input[name=name]', 'Rival Argan Oil');
+  await page.fill('input[name=sizeValue]', '100');
+  await page.selectOption('select[name=comparableSkuId]', { label: 'Nourishing Hair Oil · Almond · 200 ml · (DB-HO-ALM-200)' });
+  await page.selectOption('select[name=marketplaceId]', marketplaceId!);
+  await save('Add to price board').click();
+  await expect(page.getByTestId('price-row')).toHaveCount(2);
+
+  for (const [name, price] of [
+    ['Nourishing Hair Oil', '30'],
+    ['Rival Argan Oil', '20'],
+  ]) {
+    await page.goto('/pricing');
+    await page.getByRole('link', { name: new RegExp(name) }).click();
+    await expect(page.getByText('No price recorded yet')).toBeVisible();
+    await page.fill('input[name=listPrice]', price);
+    await save('Record price').click();
+    await expect(page.getByText('Price recorded.')).toBeVisible();
+    await expect(page.locator('section', { hasText: 'Price history' }).locator('tbody tr')).toHaveCount(1);
+  }
+  await page.goto('/pricing');
+  // Ours: 30 for 200 ml = 15 per 100 ml. Theirs: 20 for 100 ml = 20 per 100 ml. Index 75: we are 25% cheaper.
+  const rival = page.getByTestId('price-row').filter({ hasText: 'Rival Argan Oil' });
+  await expect(rival.getByText('We are 25% cheaper')).toBeVisible();
+  await expect(rival.getByText('AED 20.00').first()).toBeVisible();
+});
+
+test('brand books — a launch book built from approved claims and packshots, approved and printable', async () => {
+  await page.goto('/books');
+  await page.selectOption('select[name=kind]', 'launch_book');
+  await page.fill('input[name=title]', 'Almond Hair Oil launch');
+  await save('Create book').click();
+  await expect(page).toHaveURL(/\/books\/[0-9a-f-]{36}$/);
+  const bookUrl = page.url();
+
+  await page.fill('input[name=launchDate]', 'March 2027');
+  await page.fill('textarea[name=keyMessages]', 'Lightweight daily oil\nNo sticky feel');
+  await page.fill('input[name=fontName]', 'Fraunces');
+  await page.fill('input[name=colourName]', 'Leaf green');
+  await page.fill('input[name=colourHex]', 'not-a-colour');
+  await page.getByLabel(/Enriched with almond oil/).check();
+  // Restricted claims cannot be chosen at all.
+  await expect(page.getByLabel(/Cures dandruff/)).toHaveCount(0);
+  await page.locator('label', { hasText: 'demo-hero-image' }).locator('input[type=checkbox]').check();
+  await save('Save draft').click();
+  await expect(page.getByText(/is not a colour code/).first()).toBeVisible();
+  await page.fill('input[name=colourHex]', '#1F6B4A');
+  await save('Save draft').click();
+  await expect(page.getByText('Saved as a draft.')).toBeVisible();
+
+  await page.getByRole('button', { name: 'Approve' }).click();
+  await expect(page.getByText(/Approved by Asha Admin/)).toBeVisible();
+
+  await page.getByRole('link', { name: 'View and print' }).click();
+  await expect(page).toHaveURL(/\/print\/books\//);
+  const printed = page.locator('article');
+  await expect(printed.getByRole('heading', { name: 'Almond Hair Oil launch' })).toBeVisible();
+  await expect(printed.getByText('March 2027', { exact: true })).toBeVisible();
+  await expect(printed.getByText('Lightweight daily oil')).toBeVisible();
+  await expect(printed.getByText('#1F6B4A')).toBeVisible();
+  await expect(printed.getByText('“Enriched with almond oil and coconut oil”')).toBeVisible();
+  await expect(printed.getByText('“Cures dandruff permanently”')).toBeVisible(); // listed under "Never say"
+  await expect(printed.getByRole('img', { name: 'demo-hero-image' })).toBeVisible();
+  await expect(printed.getByText('DRAFT — not yet approved')).toHaveCount(0);
+  await page.goto(bookUrl);
+});
+
 test('the requirements library shows sourced rules and the official quality scores that really exist', async () => {
   await page.goto('/marketplaces/requirements');
   await expect(page.getByRole('link', { name: 'Amazon', exact: true })).toBeVisible();

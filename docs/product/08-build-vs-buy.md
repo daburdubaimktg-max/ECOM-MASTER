@@ -54,7 +54,7 @@ Costs depend on scale, so every estimate below uses the same assumed programme. 
 
 ### 3.1 Setup cost (one-off)
 
-**What already exists.** Build 1 — the foundation described in [Deliverable 10](10-first-build.md) — is complete and tested: about 17,400 lines of application and test code, a 64-table database design covering all of Phase 1, 121 automated tests and research data for 130 platforms. It was produced by an AI coding agent working from your specification.
+**What already exists.** Build 1 — the foundation described in [Deliverable 10](10-first-build.md) — is complete and tested: about 17,400 lines of application and test code, a 65-table database design covering all of Phase 1, 132 automated tests and research data for 130 platforms. It was produced by an AI coding agent working from your specification.
 
 **What remains.** ESTIMATE, in weeks of work for one experienced full-stack developer. These are planning ranges based on the size of Build 1 and the scope in the [roadmap](09-roadmap.md); they are not a quotation.
 
@@ -239,7 +239,7 @@ The full table, with the evidence behind each line, is in [Deliverable 2, sectio
 
 | Risk | Containment |
 |---|---|
-| Nobody is available to maintain it | Documentation is written for a non-developer owner; the code follows one pattern throughout ([architecture](../architecture/07-system-architecture.md)); 121 automated tests catch regressions; any developer familiar with TypeScript and PostgreSQL can pick it up |
+| Nobody is available to maintain it | Documentation is written for a non-developer owner; the code follows one pattern throughout ([architecture](../architecture/07-system-architecture.md)); 132 automated tests catch regressions; any developer familiar with TypeScript and PostgreSQL can pick it up |
 | A marketplace changes or withdraws an API | Each connector is separate; spreadsheet import always works as a fallback; every observation records its collection route, so switching routes does not corrupt history |
 | Distributors, not the brand, hold the seller accounts | Raised now, before Stage 3 — see [Deliverable 4, section 4](../research/04-api-data-feasibility.md#4-what-a-brand-that-sells-through-distributors-can-and-cannot-get) |
 | Legal exposure from collecting competitor data | A policy decision with counsel comes first; official sources are the default; the product's own rules exclude logins, CAPTCHAs and personal data |

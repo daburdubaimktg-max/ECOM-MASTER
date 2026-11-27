@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
+  BookOpen,
   FileBarChart,
   Gauge,
   Globe2,
@@ -16,6 +17,7 @@ import {
   Stamp,
   Star,
   Swords,
+  Tag,
   Workflow,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
@@ -36,6 +38,8 @@ const ICONS: Record<string, LucideIcon> = {
   reports: FileBarChart,
   automation: Workflow,
   settings: Settings,
+  books: BookOpen,
+  pricing: Tag,
 };
 
 /** The navigation list. `pathname` is null while the page shell is being prepared (no item highlighted yet). */

@@ -46,6 +46,10 @@ export const competitorProducts = pgTable(
     brandText: text(),
     category: text(),
     gtin: text(),
+    /** Pack size, so prices can be compared per 100 ml / 100 g. */
+    sizeValue: numeric({ precision: 12, scale: 3, mode: 'number' }),
+    sizeUnit: text(),
+    packQuantity: integer().notNull().default(1),
     /** Our SKU this product most directly competes with. */
     comparableSkuId: uuid().references(() => skus.id, { onDelete: 'set null' }),
     notes: text(),

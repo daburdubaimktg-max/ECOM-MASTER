@@ -20,6 +20,8 @@ Build 1 is a working, tested web application. It holds everything about a brand 
 | **Knowledge Search** | Questions in your own words, English or Arabic. Every result shows its source, page and trust label | ![Search](../screenshots/05-knowledge-search.png) |
 | **Product Catalogue** | Products, variants, SKUs and multipacks; barcode check-digit validation; marketplace identifiers; attributes; markets; spreadsheet import with a check-first step | ![Product](../screenshots/06-product.png) |
 | **Marketplace Intelligence** | 130 platforms in nine countries with evidence, sources, confidence, data-access routes and a reproducible rank; filters; your tracking decisions and who sells each brand there | ![Marketplaces](../screenshots/07-marketplaces.png) ![Platform](../screenshots/08-marketplace-detail.png) |
+| **Brand Books** | Brand books and launch books built from fonts, colours, key messages, approved claims, packshots and products; approved by a Brand Manager; printed or saved as PDF | ![Brand book](../screenshots/13-brand-book.png) |
+| **Pricing Intelligence** | Our SKUs and competitor products tracked per marketplace; prices recorded with date and source; price per 100 ml / 100 g; like-for-like price index | ![Pricing](../screenshots/14-pricing.png) |
 | **Requirements library** | 21 retailers, 668 rules, each with its official source, plus the official quality signals each retailer really publishes | ![Requirements](../screenshots/09-requirements.png) |
 | **Planned modules** | Digital Shelf, Listing Quality, Reviews & Ratings, Competitor Intelligence, Content Studio, Recommendations, Reports and Automation each explain what they will do, what already exists underneath and what they need from you | ![Listing quality](../screenshots/10-listing-quality.png) |
 | **Settings** | Organisation settings and the external-AI switch (off); team and invitations; roles and permissions matrix; audit log; your account and password | ![Roles](../screenshots/11-roles.png) |
@@ -33,8 +35,8 @@ Build 1 is a working, tested web application. It holds everything about a brand 
 | 3 | Add products and SKUs | ✅ Done |
 | 4 | Store product information | ✅ Done |
 | 5 | Map marketplaces by country | ✅ Done |
-| 6 | Add competitor products | ◐ Competitor brands done; competitor products in Stages 3–4 |
-| 7 | Collect or import real listing data | ○ Stage 3 |
+| 6 | Add competitor products | ✅ Done (competitor products tracked in Pricing Intelligence) |
+| 7 | Collect or import real listing data | ◐ Prices recorded by hand today; listing content and connectors in Stage 3 |
 | 8 | Store historical snapshots | ○ Stage 3 (research and requirement history already kept) |
 | 9 | Audit titles and descriptions | ○ Stage 4 (the rules to audit against are built) |
 | 10 | Assess images | ◐ Images verified and measured on upload; rule-based assessment in Stage 4 |
@@ -47,7 +49,7 @@ Build 1 is a working, tested web application. It holds everything about a brand 
 | 17 | Weekly intelligence report | ○ Stage 5 |
 | 18 | Explain the source of every metric | ✅ Done |
 
-Five done, four partly done, nine to come. The order and effort for the rest are in the [roadmap](09-roadmap.md).
+Seven done, three partly done, eight to come. The order and effort for the rest are in the [roadmap](09-roadmap.md).
 
 ## 4. How it was tested
 
@@ -57,9 +59,9 @@ All four checks must pass before anything is described as working. On 26 Novembe
 |---|---|
 | Type-check (`npm run typecheck`) | No errors |
 | Lint (`npm run lint`) | No errors |
-| Unit and integration tests (`npm test`) | **100 passed** — 29 unit, 71 integration |
-| Browser tests on a production build (`npm run test:e2e`) | **21 passed** |
-| Integration tests on real PostgreSQL 16 with pgvector 0.6.0 | **71 passed** |
+| Unit and integration tests (`npm test`) | **109 passed** — 29 unit, 80 integration |
+| Browser tests on a production build (`npm run test:e2e`) | **23 passed** |
+| Integration tests on real PostgreSQL 16 with pgvector 0.6.0 | **80 passed** |
 
 **The browser tests follow one complete journey**, as a new team would: first-run setup (with a weak password refused), creating a brand, approving guidelines, approving and restricting claims, adding products with validated barcodes, a spreadsheet import with bad rows reported, uploading a real PDF, Word, PowerPoint and Excel file and finding their contents by search, refusing a disguised file, the marketplace map and requirements, the *not available* metrics, the audit log, inviting a Viewer, confirming that the Viewer is refused changes **on the server as well as in the interface**, refusing requests from another website, recovering a forgotten password, and signing out. The last test fails if any page crashed or the server returned an error at any point.
 
@@ -103,7 +105,7 @@ The full list of known limitations is in the [architecture document, section 13]
 | PostgreSQL for everything, including search and the job queue | One system to back up and secure; search results respect the same access rules as everything else |
 | A built-in PostgreSQL for development | The product runs with nothing to install, and behaves the same as production |
 | Meaning-based search with an open model on your own server | Brand documents never leave your server, and search costs nothing per use |
-| All 64 tables of Phase 1 created now | Later stages plug in without restructuring the database |
+| All 65 tables of Phase 1 created now | Later stages plug in without restructuring the database |
 | No AI provider connected | The specification forbids sending brand documents outside without approval; that is your decision |
 | Password recovery by Administrator link rather than email | No email service is needed yet, and the sign-in page does not reveal which email addresses have accounts |
 

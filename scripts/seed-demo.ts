@@ -129,7 +129,35 @@ async function main() {
   const book = assets.find((a) => a.asset.originalFilename === 'demo-brand-book.pdf');
   if (book) await setAssetTrust(ctx, book.asset.id, 'approved_source');
 
-  console.log(`Done. Created the brand "${DEMO_BRAND}" with ${report.productsCreated} products, ${report.skusCreated} SKUs, 3 claims, 2 guidelines and ${files.length} documents.`);
+  // A demonstration launch book, built only from the approved claim and the uploaded packshot.
+  const { saveBook } = await import('../src/lib/services/books');
+  const packshot = assets.find((a) => a.asset.originalFilename === 'demo-hero-image.png');
+  await saveBook(ctx, brand.id, {
+    kind: 'launch_book',
+    title: 'Nourishing Hair Oil — launch book',
+    subtitle: 'A fictional launch, to show how launch books work',
+    launchDate: 'Spring 2027',
+    marketCodes: ['AE', 'SA'],
+    overview: 'A lightweight daily hair oil with almond and coconut, for families who want familiar botanical ingredients without a heavy feel.',
+    audience: 'Households in the Gulf looking for everyday hair care with natural ingredients.',
+    keyMessages: 'Lightweight, never greasy\nFamiliar botanical ingredients\nFor the whole family',
+    toneOfVoice: 'Warm and plain, like a knowledgeable friend. We explain what an ingredient does instead of using jargon.',
+    dosAndDonts: 'Do show the full pack on a white background\nDo name the ingredients\nDon’t promise medical results\nDon’t use the words miracle, cure or guaranteed',
+    fonts: [
+      { name: 'Fraunces', role: 'Headlines', usage: 'Pack name and titles', link: 'https://fonts.google.com/specimen/Fraunces' },
+      { name: 'IBM Plex Sans', role: 'Body text', usage: 'Descriptions and bullets', link: 'https://fonts.google.com/specimen/IBM+Plex+Sans' },
+    ],
+    colours: [
+      { name: 'Leaf green', hex: '#1F6B4A', usage: 'Primary' },
+      { name: 'Warm cream', hex: '#F5F1E8', usage: 'Backgrounds' },
+      { name: 'Almond', hex: '#C89B6D', usage: 'Accents' },
+    ],
+    claimIds: [approved.id],
+    assetIds: packshot ? [packshot.asset.id] : [],
+    productIds: oil ? [oil.id] : [],
+  });
+
+  console.log(`Done. Created the brand "${DEMO_BRAND}" with ${report.productsCreated} products, ${report.skusCreated} SKUs, 3 claims, 2 guidelines, ${files.length} documents and a launch book.`);
   console.log(`Background jobs: ${jobs.succeeded} succeeded, ${jobs.failed} failed.`);
   console.log('Everything is flagged "Demonstration data". To remove it, archive or delete the brand in the app.');
   await closeDb();

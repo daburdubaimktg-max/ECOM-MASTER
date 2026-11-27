@@ -19,7 +19,7 @@
 | 5 | AI and automation | Not started — tables, job queue and scheduler heartbeat exist |
 | 6 | Production readiness | Not started — the essentials are pulled forward (see "Going live") |
 
-**Against the eighteen MVP criteria:** five are met, four are partly met and nine need Stages 3–5. The criterion-by-criterion table is in the [product requirements](06-product-requirements.md#5-the-mvp-and-its-acceptance-criteria). The MVP is complete at the end of Stage 5.
+**Against the eighteen MVP criteria:** seven are met, three are partly met and eight need Stages 3–5. The criterion-by-criterion table is in the [product requirements](06-product-requirements.md#5-the-mvp-and-its-acceptance-criteria). The MVP is complete at the end of Stage 5.
 
 ---
 
@@ -133,7 +133,7 @@ Options: continue with AI coding tools under your direction, as Build 1 was made
 ## Stage 3 — E-commerce intelligence
 
 **Goal:** see how every product actually appears on every tracked marketplace, with history.
-**ESTIMATE:** 4–7 person-weeks. **Meets MVP criteria:** 6, 7, 8.
+**ESTIMATE:** 4–7 person-weeks. **Completes MVP criteria:** 7 and 8.
 
 Each step is one self-contained build with its own tests, delivered and usable before the next begins.
 
@@ -218,7 +218,7 @@ ESTIMATE: 1 person-week, counted within Stage 6's total.
 
 | Stage | ESTIMATE (person-weeks) | MVP criteria completed |
 |---|:-:|---|
-| 3 — E-commerce intelligence | 4–7 | 6, 7, 8 |
+| 3 — E-commerce intelligence | 4–7 | 7, 8 |
 | 4 — Intelligence and scoring | 5–8 | 9, 10, 11, 12, 13 |
 | 5 — AI and automation | 5–8 | 14, 15, 16, 17 |
 | 6 — Production readiness | 3–5 | — |
