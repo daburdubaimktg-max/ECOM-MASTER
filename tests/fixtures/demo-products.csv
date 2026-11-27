@@ -1,0 +1,6 @@
+product_name,sub_brand,category,description,benefits,ingredients,directions_for_use,target_audience,status,variant_name,size_value,size_unit,pack_quantity,sku_code,gtin,countries
+"Nourishing Hair Oil","","Hair Care > Hair Oil","A lightweight daily hair oil with almond and coconut.","Soothes dry scalp|Adds shine|Helps reduce breakage caused by dryness","Coconut oil, almond oil, fragrance","Massage into scalp and hair, leave for thirty minutes, then wash.","Adults with dry hair","active","Almond","100","ml","1","DB-HO-ALM-100","","AE|SA"
+"Nourishing Hair Oil","","","","","","","","","Almond","200","ml","1","DB-HO-ALM-200","","AE|SA|IN"
+"Nourishing Hair Oil","","","","","","","","","Almond","200","ml","2","DB-HO-ALM-200X2","","AE"
+"Herbal Toothpaste","","Oral Care > Toothpaste","Clove and mint toothpaste for everyday gum care.","Fresh breath|Everyday gum care","Calcium carbonate, clove oil, mint, sodium fluoride","Brush twice daily.","Adults and children over six","active","Clove & Mint","150","g","1","DB-TP-CLV-150","","AE|KE|NG"
+"Broken Row Product","","","","","","","","","Mint","abc","g","1","DB-BAD-1","","AE"

@@ -1,0 +1,43 @@
+{
+  "marketplace": "Nahdi (Al Nahdi Medical Company)",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "SA"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "none",
+  "how_brands_deliver_content": "Not publicly documented. The Nahdi corporate site (nahdi.sa) was reachable but has no supplier page (the suppliers URL returns 404) and the Nahdi Online storefront shows no seller, supplier or marketplace links. How brands deliver content - presumably through Nahdi's commercial/category team or a local distributor - could not be confirmed from any page retrieved today.",
+  "languages": [
+    {
+      "country_code": "SA",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "note": "Observation only: the storefront is served in Arabic and English (ar-sa / en-sa paths). No content-language rule for suppliers is published.",
+      "source_url": "https://www.nahdionline.com/en-sa"
+    }
+  ],
+  "rules": [],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented.",
+    "modules_note": "",
+    "source_url": "https://www.nahdionline.com/en-sa"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "https://www.nahdionline.com/en-sa",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "No Nahdi content requirement is published in the pages that could be reached; the rules array is empty. Saudi regulatory requirements (e.g. SFDA product listing for cosmetics) were not found stated as Nahdi listing requirements. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

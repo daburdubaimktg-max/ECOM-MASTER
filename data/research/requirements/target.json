@@ -1,0 +1,223 @@
+{
+  "marketplace": "Target",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "US"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "partial",
+  "how_brands_deliver_content": "Two routes. (1) Target Plus (third-party marketplace): invite-only; a brand applies, Target reviews within 30 days and approved sellers follow a structured 75-day onboarding. Sellers must integrate through an approved Channel Partner (listed partners include Acenda, Akeneo, Base.com, ChannelEngine, Feedonomics, Goflow, Mirakl Connect and Rithum) and use the Target Plus portal. (2) First-party vendors: item data and content are set up in Target's own vendor systems or syndicated through content partners - Syndigo (core content: marketing copy, feature bullets, images, video, item attributes; rich media / enhanced content; label information) and Salsify (direct connection announced with Target in 2020; enhanced content). Core content goes through Target's Data Review before publication. Target's own style guides and item-setup rules are in login-gated vendor systems and are not public.",
+  "languages": [
+    {
+      "country_code": "US",
+      "languages": [
+        "en"
+      ],
+      "note": "Not stated as a content rule; Target Plus requires sellers to support English-speaking onboarding and support calls.",
+      "source_url": "https://plus.target.com/how-it-works"
+    }
+  ],
+  "rules": [
+    {
+      "id": "identifiers.gs1_upc",
+      "area": "identifiers",
+      "requirement": "All Target Plus products must have GS1-certified UPCs.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/how-it-works",
+      "source_title": "Target Plus - Get ready to sell on Target Plus (eligibility requirements)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.brand_authorisation",
+      "area": "attributes",
+      "requirement": "Target Plus sellers must be able to provide a Trademark Certificate (owners or manufacturers) or a Letter of Authorization (resellers).",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/how-it-works",
+      "source_title": "Target Plus - Get ready to sell on Target Plus (eligibility requirements)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.compliance_registrations",
+      "area": "attributes",
+      "requirement": "Target Plus sellers must register any ESN/Hazmat items with UL-WERCSmart (WERCS) and any necessary items with the third-party supplement provider Label Insights.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/how-it-works",
+      "source_title": "Target Plus - Get ready to sell on Target Plus (eligibility requirements)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Relevant to beauty items classed as hazardous (e.g. aerosols, nail products, fragrances)."
+    },
+    {
+      "id": "attributes.integration_channel_partner",
+      "area": "attributes",
+      "requirement": "Target Plus sellers must be able to integrate via an approved Channel Partner.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/how-it-works",
+      "source_title": "Target Plus - Get ready to sell on Target Plus (eligibility requirements)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.label_information",
+      "area": "attributes",
+      "requirement": "Legally mandated label data - ingredient lists, drug facts, fact panels, nutrition labels and allergen statements - is displayed under the \"Drug Fact\" or \"Label Info\" tabs of Target product pages and must be supplied in screen-readable format.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "beauty",
+      "seller_type": "first_party_vendor",
+      "effective_date": null,
+      "source_url": "https://syndigo.com/target/",
+      "source_title": "Syndigo: Publish Rich Product Content on Target.com",
+      "source_date": "2025-12-31 (modified 2026-04-23)",
+      "verification": "secondary_quote",
+      "notes": "Described by Syndigo, a Target content partner; Target's own specification was not retrieved. Applies where the product type legally requires such label information."
+    },
+    {
+      "id": "approval.target_plus_onboarding",
+      "area": "approval",
+      "requirement": "Target Plus is invite-only: applications are reviewed within 30 days, onboarding follows a 75-day timeline, and a dedicated resource must resolve item-setup errors within 1 day.",
+      "rule_type": "other",
+      "value": 75,
+      "unit": "days",
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/how-it-works",
+      "source_title": "Target Plus - Get ready to sell on Target Plus (eligibility requirements)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "approval.data_review",
+      "area": "approval",
+      "requirement": "All core content (marketing copy, feature bullets, images, video, item attributes) is subject to Target's Data Review process before publication; enhanced content can be edited and republished without Target Data Review.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "first_party_vendor",
+      "effective_date": null,
+      "source_url": "https://syndigo.com/target/",
+      "source_title": "Syndigo: Publish Rich Product Content on Target.com",
+      "source_date": "2025-12-31 (modified 2026-04-23)",
+      "verification": "secondary_quote",
+      "notes": ""
+    },
+    {
+      "id": "variants.one_seller_per_sku",
+      "area": "variants",
+      "requirement": "On Target Plus each SKU has one dedicated seller.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/",
+      "source_title": "Target Plus - Marketplace for Sellers",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": ""
+    },
+    {
+      "id": "attributes.size_chart_grid",
+      "area": "attributes",
+      "requirement": "Size charts for wearable items must be provided in a grid (non-image) format.",
+      "rule_type": "required",
+      "value": null,
+      "unit": null,
+      "severity": "mandatory",
+      "applies_to_country_codes": [
+        "US"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "marketplace_seller",
+      "effective_date": null,
+      "source_url": "https://plus.target.com/how-it-works",
+      "source_title": "Target Plus - Get ready to sell on Target Plus (eligibility requirements)",
+      "source_date": "n.d.",
+      "verification": "official_document",
+      "notes": "Not relevant to beauty; kept as the only content-format rule Target publishes publicly."
+    }
+  ],
+  "enhanced_content": {
+    "supported": "yes",
+    "official_name": "Enhanced Content / Rich Media (delivered through content partners)",
+    "eligibility": "Not stated by Target publicly. Syndigo and Salsify both offer it for Target.com product pages to their brand customers.",
+    "modules_note": "Syndigo: rich media and interactive content on the product page (visual descriptions, interactive product tours); a separate solution from core content. Salsify: below-the-fold enhanced content built in its Enhanced Content Experience Builder. Target's own module specifications are not public.",
+    "source_url": "https://syndigo.com/target/"
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "Target Content Score (as named by Syndigo; Salsify refers to the \"Target scorecard\")",
+      "what_it_measures": "A Target measure of vendor content quality; Syndigo states that Enhanced Content \"forms a large part of your Target Content Score\".",
+      "components": "Not publicly documented. Enhanced/rich content is the only component named.",
+      "access_method": "seller_portal_only",
+      "api_reference_url": null,
+      "who_can_access": "Target vendors (presumed to be shown in Target's vendor systems; not verified)",
+      "source_url": "https://syndigo.com/target/",
+      "verification": "secondary_quote",
+      "notes": "Known only from content-partner pages; Target publishes no description, scale or access method. The access method is an assumption."
+    }
+  ],
+  "limitations": "Target's item-setup and content style guides (title, bullets, image and video specifications, beauty attribute requirements) are in login-gated vendor systems and were not retrieved; nothing numeric about content could be verified. Verified facts are limited to Target Plus eligibility requirements and to what content partners Syndigo and Salsify publish. The \"Target Content Score\" is attested only by a partner page. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

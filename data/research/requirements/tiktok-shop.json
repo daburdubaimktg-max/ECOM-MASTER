@@ -9,7 +9,7 @@
   ],
   "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
   "public_documentation_level": "full",
-  "how_brands_deliver_content": "Self-service TikTok Shop Seller Center per market (Products > Manage Products > Add new product, bulk templates), or the TikTok Shop Partner Center Open API (Create Product / Edit Product) through an ERP, connector or agency. Listings are audited before going live; restricted categories (including beauty in some markets) need documents uploaded through the Qualification Center / Product Compliance section. Seller Center offers a Product Optimizer and AI description tools. Brands commonly operate their own shop or appoint a TikTok Shop Partner (agency); no retailer-style content-syndication route applies. Market check on 2026-11-26: the United States, United Kingdom and Malaysia are in the market selector on seller.tiktok.com and have Academy sites; Saudi Arabia is named as a market in the Partner API documentation (cash-on-delivery field) but is not in that selector and no Saudi Academy site was reachable; the United Arab Emirates appears in neither.",
+  "how_brands_deliver_content": "Self-service TikTok Shop Seller Center per market (Products > Manage Products > Add new product, bulk templates), or the TikTok Shop Partner Center Open API (Create Product / Edit Product) through an ERP, connector or agency. Listings are audited before going live; restricted categories (including beauty in some markets) need documents uploaded through the Qualification Center / Product Compliance section. Seller Center offers a Product Optimizer and AI description tools. A brand lists through its own shop, directly or with a TikTok Shop partner/agency; no retailer-style content-syndication route is documented. Market check on 2026-11-26: the United States, United Kingdom and Malaysia are in the market selector on seller.tiktok.com and have Academy sites; Saudi Arabia is named as a market in the Partner API documentation (cash-on-delivery field) but is not in that selector and no Saudi Academy site was reachable; the United Arab Emirates appears in neither.",
   "languages": [
     {
       "country_code": "US",
@@ -157,7 +157,7 @@
       "rule_type": "required",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "recommended",
       "applies_to_country_codes": [
         "MY"
       ],
@@ -168,7 +168,7 @@
       "source_title": "Tajuk, Penerangan, Imej & Video Produk (Product Title, Description, Images & Video)",
       "source_date": "2026-04-26",
       "verification": "official_document",
-      "notes": "Translated from Bahasa Melayu. The UK policy lists product type and material, key features and characteristics, quantity and size."
+      "notes": "Translated from Bahasa Melayu. Published in the Policy Center, but several elements are conditional (\"if applicable\", brand only if authorised), so it is recorded as recommended. The UK policy lists product type and material, key features and characteristics, quantity and size."
     },
     {
       "id": "title.prohibited_content",
@@ -539,7 +539,7 @@
       "rule_type": "required",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "informational",
       "applies_to_country_codes": [
         "US"
       ],
@@ -550,7 +550,7 @@
       "source_title": "Beauty and Personal Care Products Requirements",
       "source_date": "2026-09-01",
       "verification": "official_document",
-      "notes": "Documents are submitted in the Qualification Center, not typed into listing fields."
+      "notes": "Conditional (\"may be required\"), so not recorded as mandatory. Documents are submitted in the Qualification Center, not typed into listing fields."
     },
     {
       "id": "attributes.uk_cosmetic_compliance",

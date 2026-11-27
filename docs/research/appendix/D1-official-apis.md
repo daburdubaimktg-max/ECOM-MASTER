@@ -1,5 +1,13 @@
 # D1 — Official APIs for listing, price, review and quality-score data
 
+> **Editor's correction (26 November 2026).** Two findings in this appendix were superseded by other research streams the same day and re-checked directly:
+>
+> - **Noon — section 5, bottom-line point 7 and the matrices in section 12.** This appendix reports that Noon's developer documentation could not be reached. It is in fact public at <https://noon-docs.noonpartners.dev>: a Content API (create, update and monitor listings; English and Arabic completeness; quality-check status and rejection reasons; per-image review status), plus Pricing, Offer and Stock APIs with OAuth authentication. The editor opened the Content API overview and confirmed this. Read "ND" for Noon's **own-listing** rows as "documented — own listings"; competitor rows remain not available.
+> - **Jumia — section 8 and point 7.** Appendix C2 cites a Vendor Center API definition (<https://vendorcenter.jumia.com/api-docs/>) covering product feeds and quality-check status. The editor could not render that page to confirm it, so treat Jumia API access as *reported, not re-verified* and confirm with the Jumia account manager.
+>
+> The corrected position is used in [Deliverable 4](../04-api-data-feasibility.md).
+
+
 **Feasibility assessment for the Brand Intelligence Engine**
 Research date: 2026-11-26 · Every source below was retrieved on 2026-11-26 · Markets in scope: UAE, Saudi Arabia, South Africa, United States, United Kingdom, India, Kenya, Nigeria, Malaysia
 

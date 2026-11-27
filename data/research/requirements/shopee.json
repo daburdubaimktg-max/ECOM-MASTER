@@ -6,7 +6,7 @@
   ],
   "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
   "public_documentation_level": "full",
-  "how_brands_deliver_content": "Self-service: Shopee Seller Centre (Add New Product, batch/mass upload), the Shopee App, or the Shopee Open Platform API (v2.product.add_item / update_item) through an ERP or in-house system. A listing can be linked to a Shopee Standard Product (SSP) so that category, key attributes and variation types are auto-filled from Shopee's standardised record. Listings are not pre-approved in the documentation retrieved; Shopee reviews listings after publication and bans, delists, deboosts or deletes those that break its policies. Brands typically sell through their own or a distributor's shop (including Shopee Mall); no content-syndication partner route is publicly documented.",
+  "how_brands_deliver_content": "Self-service: Shopee Seller Centre (Add New Product, batch/mass upload), the Shopee App, or the Shopee Open Platform API (v2.product.add_item / update_item) through an ERP or in-house system. A listing can be linked to a Shopee Standard Product (SSP) so that category, key attributes and variation types are auto-filled from Shopee's standardised record. Listings are not pre-approved in the documentation retrieved; Shopee reviews listings after publication and bans, delists, deboosts or deletes those that break its policies. A brand lists through a shop that it or its distributor operates (Shopee Mall is the brand-store programme named in the hub); no content-syndication partner route is publicly documented.",
   "languages": [
     {
       "country_code": "MY",

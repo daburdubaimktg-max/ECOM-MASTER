@@ -7,7 +7,7 @@
   ],
   "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
   "public_documentation_level": "partial",
-  "how_brands_deliver_content": "Self-service Jumia Vendor Center (one system for all Jumia countries): single \"Add a Product\" form, category Excel template import/export, or the Vendor Center API (product create/update feeds). Every creation or edit is validated automatically and then passes Jumia content Quality Check (QC) before it is published. Field-level limits (name, description, highlights) are defined per category attribute set inside Vendor Center / the API and are not published on the public VendorHub pages. Regulated categories (food, cosmetics, etc.) are limited to local sellers and Jumia-managed accounts according to the local policy pages; cross-border sellers use Jumia Global (vendor.jumia.com) with its own guidelines. Brands commonly sell through an Official Store (brand owner or authorised distributor).",
+  "how_brands_deliver_content": "Self-service Jumia Vendor Center (one system for all Jumia countries): single \"Add a Product\" form, category Excel template import/export, or the Vendor Center API (product create/update feeds). Every creation or edit is validated automatically and then passes Jumia content Quality Check (QC) before it is published. Field-level limits (name, description, highlights) are defined per category attribute set inside Vendor Center / the API and are not published on the public VendorHub pages. Regulated categories (food, cosmetics, etc.) are limited to local sellers and Jumia-managed accounts according to the local policy pages; cross-border sellers use Jumia Global (vendor.jumia.com) with its own guidelines. Brand owners and authorised distributors/resellers can apply for Official Store status.",
   "languages": [
     {
       "country_code": "NG",
@@ -76,7 +76,7 @@
       "rule_type": "prohibited",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "recommended",
       "applies_to_country_codes": [
         "NG",
         "KE"
@@ -88,7 +88,7 @@
       "source_title": "Product Listing Guideline - Jumia Global VendorHub",
       "source_date": "2026-03-24 (modified 2026-06-02)",
       "verification": "official_document",
-      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+      "notes": "Stated as a platform rule for Jumia Global (cross-border) sellers; recorded as recommended because the local NG/KE VendorHub pages do not repeat it. Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
     },
     {
       "id": "title.images_must_match",
@@ -139,7 +139,7 @@
       "rule_type": "prohibited",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "recommended",
       "applies_to_country_codes": [
         "NG",
         "KE"
@@ -151,7 +151,7 @@
       "source_title": "Product Listing Guideline - Jumia Global VendorHub",
       "source_date": "2026-03-24 (modified 2026-06-02)",
       "verification": "official_document",
-      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+      "notes": "Stated as a platform rule for Jumia Global (cross-border) sellers; recorded as recommended because the local NG/KE VendorHub pages do not repeat it. Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
     },
     {
       "id": "description.beauty_ingredients_inci",
@@ -244,7 +244,7 @@
       "rule_type": "required",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "recommended",
       "applies_to_country_codes": [
         "NG",
         "KE"
@@ -256,7 +256,7 @@
       "source_title": "Product Audit Timeliness/Results View - Jumia Global VendorHub",
       "source_date": "2026-04-15 (modified 2026-11-05)",
       "verification": "official_document",
-      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. The Jumia Global beauty guideline says to select the complete subcategory under Health & Beauty."
+      "notes": "Stated as a platform rule for Jumia Global (cross-border) sellers; recorded as recommended because the local NG/KE VendorHub pages do not repeat it. Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. The Jumia Global beauty guideline says to select the complete subcategory under Health & Beauty."
     },
     {
       "id": "attributes.nafdac_registration",
@@ -992,6 +992,27 @@
       "notes": "Published on the Kenya VendorHub; described as a regular Jumia-wide clean-up."
     },
     {
+      "id": "approval.official_store_eligibility",
+      "area": "approval",
+      "requirement": "Official Store status is open only to the brand owner or an officially authorised distributor/reseller with a Letter of Authorization or trademark proof; only approved SKUs are eligible and the store must keep a vendor score and customer rating of at least 4.0.",
+      "rule_type": "other",
+      "value": null,
+      "unit": null,
+      "severity": "informational",
+      "applies_to_country_codes": [
+        "NG",
+        "KE"
+      ],
+      "applies_to_category": "all",
+      "seller_type": "all",
+      "effective_date": null,
+      "source_url": "https://vendorhub.jumia.co.ke/official-store-standards-framework-eligibility-performance-compliance-requirements/",
+      "source_title": "Official Store Standards Framework: Eligibility, Performance & Compliance Requirements - Jumia VendorHub KE",
+      "source_date": "2026-07-28",
+      "verification": "official_document",
+      "notes": "A seller-status programme, not a content format; described as applying across Jumia markets."
+    },
+    {
       "id": "approval.physical_qc_matches_listing",
       "area": "approval",
       "requirement": "At drop-off Jumia checks that the physical product matches the product page (brand, colour, size, model, other specifications); mismatches fail the quality check.",
@@ -1019,7 +1040,7 @@
       "rule_type": "prohibited",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "recommended",
       "applies_to_country_codes": [
         "NG",
         "KE"
@@ -1031,7 +1052,7 @@
       "source_title": "Product Restricted Keywords Rules - Jumia Global VendorHub",
       "source_date": "2026-03-16 (modified 2026-11-05)",
       "verification": "official_document",
-      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. The full restricted-word list is not public."
+      "notes": "Stated as a platform rule for Jumia Global (cross-border) sellers; recorded as recommended because the local NG/KE VendorHub pages do not repeat it. Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it. The full restricted-word list is not public."
     },
     {
       "id": "restricted_claims.sensitive_keywords",
@@ -1040,7 +1061,7 @@
       "rule_type": "prohibited",
       "value": null,
       "unit": null,
-      "severity": "mandatory",
+      "severity": "recommended",
       "applies_to_country_codes": [
         "NG",
         "KE"
@@ -1052,7 +1073,7 @@
       "source_title": "Product Audit Timeliness/Results View - Jumia Global VendorHub",
       "source_date": "2026-04-15 (modified 2026-11-05)",
       "verification": "official_document",
-      "notes": "Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
+      "notes": "Stated as a platform rule for Jumia Global (cross-border) sellers; recorded as recommended because the local NG/KE VendorHub pages do not repeat it. Published on the Jumia Global VendorHub for cross-border (international) sellers; the local NG/KE VendorHub pages do not repeat it."
     },
     {
       "id": "restricted_claims.beauty_prohibited_ingredients",

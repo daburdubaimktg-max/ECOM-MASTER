@@ -1,0 +1,40 @@
+{
+  "marketplace": "Watsons Malaysia",
+  "research_date": "2026-11-26",
+  "applies_to_country_codes": [
+    "MY"
+  ],
+  "category_scope": "Beauty & Personal Care (hair care, skin care, oral care); general rules where noted",
+  "public_documentation_level": "none",
+  "how_brands_deliver_content": "Not verifiable in this session: watsons.com.my and the A.S. Watson group site refused automated access on 2026-11-26 (HTTP 403 \"Access Denied\"). How brands deliver content (supplier portal, category team, distributor or any seller programme) could not be read.",
+  "languages": [
+    {
+      "country_code": "MY",
+      "languages": [],
+      "note": "Not publicly documented (pages not retrievable).",
+      "source_url": ""
+    }
+  ],
+  "rules": [],
+  "enhanced_content": {
+    "supported": "unknown",
+    "official_name": "",
+    "eligibility": "Not publicly documented.",
+    "modules_note": "",
+    "source_url": ""
+  },
+  "official_quality_signals": [
+    {
+      "official_name": "No official score found",
+      "what_it_measures": "",
+      "components": "",
+      "access_method": "none",
+      "api_reference_url": null,
+      "who_can_access": "",
+      "source_url": "",
+      "verification": "unverified",
+      "notes": "No official content or listing-quality score is documented in the public pages that could be retrieved."
+    }
+  ],
+  "limitations": "No Watsons Malaysia requirement could be verified; the rules array is empty. Malaysian cosmetics must by law be notified to the NPRA, but no source retrieved today shows how Watsons collects the notification number. Web search was unavailable when this retailer was researched (shared search budget exhausted), so discovery relied on directly reachable official and content-partner pages."
+}

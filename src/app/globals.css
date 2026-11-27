@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+/*
+ * Design language: "intelligence dossier".
+ * Warm paper canvas, deep forest ink, one vermilion signal colour, an editorial serif for headlines
+ * and a technical sans for data. Every number carries a provenance marker (see .prov-* below) so
+ * verified facts, calculations, AI assessments, estimates and missing data never look alike.
+ */
+@theme {
+  --color-paper: #f5f1e8;
+  --color-paper-deep: #ebe5d6;
+  --color-card: #fffdf8;
+  --color-ink: #16211c;
+  --color-ink-soft: #414e47;
+  --color-ink-muted: #6f7a73;
+  --color-line: #ddd6c6;
+  --color-line-strong: #c4bba6;
+
+  --color-rail: #111d18;
+  --color-rail-soft: #1c2b24;
+  --color-rail-line: #2a3b33;
+  --color-rail-ink: #ece7da;
+  --color-rail-muted: #8c9c93;
+
+  --color-signal: #d8472a;
+  --color-signal-deep: #b5391f;
+  --color-signal-soft: #fbe6de;
+
+  --color-verified: #1c7a4c;
+  --color-verified-soft: #e0f0e6;
+  --color-calculated: #1f5fa6;
+  --color-calculated-soft: #e2ecf7;
+  --color-ai: #7440a8;
+  --color-ai-soft: #eee5f6;
+  --color-estimated: #a2660f;
+  --color-estimated-soft: #f7ebd2;
+  --color-missing: #7b817d;
+  --color-missing-soft: #eae8e1;
+
+  --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
+  --font-sans: "IBM Plex Sans", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --shadow-card: 0 1px 0 rgb(22 33 28 / 0.04), 0 10px 30px -18px rgb(22 33 28 / 0.22);
+  --shadow-pop: 0 18px 50px -20px rgb(22 33 28 / 0.35);
+
+  --animate-rise: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-fade: fade 0.4s ease-out both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  body {
+    background-color: var(--color-paper);
+    /* faint ledger dots — the "graph paper" under the data */
+    background-image: radial-gradient(rgb(22 33 28 / 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 14.5px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-signal);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-signal);
+    outline-offset: 2px;
+  }
+  /* Brand content can be Arabic. Each paragraph takes its direction from its own text, so Arabic
+     reads right-to-left inside an otherwise left-to-right interface. English is unaffected. */
+  main :is(p, li, td, dd, blockquote, h1, h2, h3) {
+    unicode-bidi: plaintext;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-variation-settings: "opsz" 72;
+    letter-spacing: -0.01em;
+  }
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+  mark {
+    background: #fde9a8;
+    color: inherit;
+    padding: 0 0.12em;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Small-caps label used for eyebrows, table headers and metadata. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-ink-muted);
+  }
+  .num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+  .card {
+    background: var(--color-card);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+  }
+  .field-input {
+    width: 100%;
+    background: #fff;
+    border: 1px solid var(--color-line-strong);
+    border-radius: 4px;
+    padding: 0.5rem 0.7rem;
+    color: var(--color-ink);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .field-input::placeholder {
+    color: #a3a89f;
+  }
+  .field-input:focus {
+    outline: none;
+    border-color: var(--color-ink);
+    box-shadow: 0 0 0 3px rgb(22 33 28 / 0.08);
+  }
+  .field-input[aria-invalid="true"] {
+    border-color: var(--color-signal);
+  }
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .data-table th {
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-ink-muted);
+    padding: 0.6rem 0.9rem;
+    border-bottom: 1px solid var(--color-line-strong);
+    white-space: nowrap;
+  }
+  .data-table td {
+    padding: 0.7rem 0.9rem;
+    border-bottom: 1px solid var(--color-line);
+    vertical-align: top;
+  }
+  .data-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .data-table tbody tr:hover td {
+    background: rgb(235 229 214 / 0.35);
+  }
+  .rule {
+    height: 1px;
+    background: var(--color-line);
+  }
+  .stagger > * {
+    animation: var(--animate-rise);
+  }
+  .stagger > *:nth-child(2) {
+    animation-delay: 50ms;
+  }
+  .stagger > *:nth-child(3) {
+    animation-delay: 100ms;
+  }
+  .stagger > *:nth-child(4) {
+    animation-delay: 150ms;
+  }
+  .stagger > *:nth-child(5) {
+    animation-delay: 200ms;
+  }
+  .stagger > *:nth-child(6) {
+    animation-delay: 250ms;
+  }
+  .stagger > *:nth-child(n + 7) {
+    animation-delay: 300ms;
+  }
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-paper-deep) 25%, #f3eee2 50%, var(--color-paper-deep) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite linear;
+    border-radius: 4px;
+  }
+  @keyframes shimmer {
+    from {
+      background-position: 200% 0;
+    }
+    to {
+      background-position: -200% 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
